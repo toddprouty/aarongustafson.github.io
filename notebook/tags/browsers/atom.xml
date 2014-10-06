@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Browsers | Aaron Gustafson]]></title>
-  <link href="http://aaron-gustafson.com//notebook/tags/browsers/atom.xml" rel="self"/>
+  <title><![CDATA[Browse by Tag: Browsers | Aaron Gustafson]]></title>
+  <link href="http://aaron-gustafson.com/notebook/tags/browsers/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2014-09-24T10:16:48-04:00</updated>
+  <updated>2014-10-06T16:29:51-04:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
