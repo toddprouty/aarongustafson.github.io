@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Browse by Tag: Progressive Enhancement | Aaron Gustafson]]></title>
+  <link href="http://aaron-gustafson.com/notebook/tags/progressive-enhancement/atom.xml" rel="self"/>
+  <link href="http://aaron-gustafson.com/"/>
+  <updated>2014-10-28T21:52:29-04:00</updated>
+  <id>http://aaron-gustafson.com/</id>
+  <author>
+    <name><![CDATA[Aaron Gustafson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Google Embraces Progressive Enhancement]]></title>
+    <link href="http://aaron-gustafson.com/notebook/2014/google-embraces-progressive-enhancement/"/>
+    <updated>2014-10-28T21:07:35-04:00</updated>
+    <id>http://aaron-gustafson.com/notebook/2014/google-embraces-progressive-enhancement</id>
+    <content type="html"><![CDATA[<p>In case you missed it, <a href="http://googlewebmastercentral.blogspot.com/2014/10/updating-our-technical-webmaster.html">yesterday Pierre Far updated Google’s Webmaster Guidelines</a>. In his post, Pierre lays out their case for <a href="https://en.wikipedia.org/wiki/Progressive_enhancement">progressive enhancement</a>:</p>
+
+<blockquote><p>Just like modern browsers, our rendering engine might not support all of the technologies a page uses. Make sure your web design adheres to the principles of progressive enhancement as this helps our systems (and a wider range of browsers) see usable content and basic functionality when certain web design features are not yet supported.</p></blockquote>
+
+<p>As someone who has been beating the drum for progressive enhancement for over a decade, this sort of support from such an influential company gets me a little teary-eyed.</p>
+
+<p>It’s nice to see Steve Champeon’s philosophy for web design finally beginning to gain traction outside of the ivory tower of Web standards. It is a fantastic philosophy that has been guiding our work since its creation. And it has paid some handsome dividends for both us and our clients.</p>
+
+<p>If you need help wrapping your head around progressive enhancement, you should read <a href="#fn-2014-10-28">my introductory series for <cite>A List Apart</cite></a>. If you want more, there’s also <a href="http://adaptivewebdesign.info">my book on progressive enhancement: <cite>Adaptive Web Design</cite></a>. And if you need help getting your team up to speed, I’m more than happy to hop on a plane and come to you. Just <a href="/contact/">drop me a line</a>. I have helped many companies embrace this philosophy and have seen it improve their productivity, increase their reach by supporting more devices, and improve the accessibility of their products. Oh… and <a href="http://blog.easy-designs.net/archives/the-true-cost-of-progressive-enhancement">progressive enhancement has saved our clients real money and reduced their time to market</a>.</p>
+
+<p>I don’t tend to be a “magic pill” kind of believer, but I can honestly say that embracing progressive enhancement can radically change your business for the better. And I’m glad to see Google agrees with me.</p>
+
+<h2 id="fn-2014-10-28">My (still-relevant) 2008 series on Progressive Enhancement</h2>
+
+
+<ol>
+<li><a href="http://www.alistapart.com/articles/understandingprogressiveenhancement/">Understanding Progressive Enhancement</a></li>
+<li><a href="http://www.alistapart.com/articles/progressiveenhancementwithcss/">Progressive Enhancement with CSS</a></li>
+<li><a href="http://www.alistapart.com/articles/progressiveenhancementwithjavascript/">Progressive Enhancement with JavaScript</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>
