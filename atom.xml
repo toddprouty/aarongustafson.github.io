@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]></title>
 	<link href="http://aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2014-11-05T00:35:40-05:00</updated>
+	<updated>2014-11-05T11:37:56-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,34 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		<entry>
+			<title type="html"><![CDATA[ARIA Quicktip: Labelledby vs. Describedby]]></title>
+			<link href="http://aaron-gustafson.com/notebook/2014/aria-quicktip-labelledby-vs-describedby/"/>
+			<updated>2014-11-05T10:45:22-05:00</updated>
+			<id>http://aaron-gustafson.com/notebook/2014/aria-quicktip-labelledby-vs-describedby</id>
+			<content type="html"><![CDATA[<p>Last night, while we were enjoying a cool evening and a few drinks outside after day 1 of <a href="http://bdconf.com">BDConf</a>, <a href="http://adactio.com">Jeremy</a> asked me for some clarification on the ARIA attributes I had demoed as part of <a href="http://www.slideshare.net/AaronGustafson/falling-in-love-with-forms-bdconf-2014">my forms presentation</a> earlier in the afternoon. In particular, he was confused by how <code>aria-labelledby</code> and <code>aria-describedby</code> differ.</p>
+
+<p>I hadn’t really thought about it before, but it’s a good question. They seem pretty similar in function, right? And both support a space separated list of one or more <code>id</code> references. It’s downright confusing.</p>
+
+<p>My simple explanation was that, at least in terms of form fields, they differ in when they are read. The <code>aria-labelledby</code> attribute replaces the associated <code>label</code> element (which is, of course, associated with the field via the <code>label</code>’s <code>for</code> attribute). The <code>aria-describedby</code> attribute, on the other hand, is read after the field type is stated.</p>
+
+<p>To demonstrate how all of this plays out, I threw together <a href="http://codepen.io/aarongustafson/pen/dmuoe/">a quick CodePen demo</a> that takes you through numerous ways you can use and combine these attributes. I also did a <a href="http://youtu.be/U8_VjI-Z1LA">screen recording to demonstrate how ChromeVox exposes these attributes</a>:</p>
+
+<div class="ratio-4-3 embed-video-container" onclick="var myAnchor = document.getElementById('U8_VjI-Z1LA');var tmpDiv = document.createElement('div');tmpDiv.innerHTML = '&lt;iframe style=&quot;vertical-align:top;width:100%;height:100%;position:absolute;&quot; src=&quot;http://www.youtube.com/embed/U8_VjI-Z1LA?autoplay=1&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;';myAnchor.parentNode.replaceChild(tmpDiv.firstChild, myAnchor);return false;" title="click here to play">
+<a class="youtube-lazy-link" style="width:100%;height:100%;background:#000 url(http://i2.ytimg.com/vi/U8_VjI-Z1LA/0.jpg) center center no-repeat;background-size:contain;position:absolute" href="http://www.youtube.com/watch?v=U8_VjI-Z1LA" id="U8_VjI-Z1LA" onclick="return false;">
+<div class="youtube-lazy-link-div"></div>
+<div class="youtube-lazy-link-info">aria-labelledby vs. aria-describedby</div>
+</a>
+<div class="video-info" >Screen recording of http://codepen.io/aarongustafson/pen/dmuoe/
+
+Screen Reader: ChromeVox</div>
+</div>
+
+
+<p><em>Note: I did discover a bug in ChromeVox wherein the content of the elements referenced in <code>aria-describedby</code> are not read when the field receives focus via the keyboard (using the <kbd>tab</kbd> key), but it does when it receives focus via the mouse. I’ve submitted <a href="https://code.google.com/p/google-axs-chrome/issues/detail?id=158&amp;thanks=158&amp;ts=1415202123">a bug report</a> to to the powers that be.</em></p>
+]]></content>
+		</entry>
 	
 		<entry>
 			<title type="html"><![CDATA[CSS Variables Are a Bad Idea]]></title>

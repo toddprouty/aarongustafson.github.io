@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2014-11-05T00:35:40-05:00</updated>
+  <updated>2014-11-05T11:37:56-05:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -12,6 +12,36 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ARIA Quicktip: Labelledby vs. Describedby]]></title>
+    <link href="http://aaron-gustafson.com/notebook/2014/aria-quicktip-labelledby-vs-describedby/"/>
+    <updated>2014-11-05T10:45:22-05:00</updated>
+    <id>http://aaron-gustafson.com/notebook/2014/aria-quicktip-labelledby-vs-describedby</id>
+    <content type="html"><![CDATA[<p>Last night, while we were enjoying a cool evening and a few drinks outside after day 1 of <a href="http://bdconf.com">BDConf</a>, <a href="http://adactio.com">Jeremy</a> asked me for some clarification on the ARIA attributes I had demoed as part of <a href="http://www.slideshare.net/AaronGustafson/falling-in-love-with-forms-bdconf-2014">my forms presentation</a> earlier in the afternoon. In particular, he was confused by how <code>aria-labelledby</code> and <code>aria-describedby</code> differ.</p>
+
+<p>I hadn’t really thought about it before, but it’s a good question. They seem pretty similar in function, right? And both support a space separated list of one or more <code>id</code> references. It’s downright confusing.</p>
+
+<p>My simple explanation was that, at least in terms of form fields, they differ in when they are read. The <code>aria-labelledby</code> attribute replaces the associated <code>label</code> element (which is, of course, associated with the field via the <code>label</code>’s <code>for</code> attribute). The <code>aria-describedby</code> attribute, on the other hand, is read after the field type is stated.</p>
+
+<p>To demonstrate how all of this plays out, I threw together <a href="http://codepen.io/aarongustafson/pen/dmuoe/">a quick CodePen demo</a> that takes you through numerous ways you can use and combine these attributes. I also did a <a href="http://youtu.be/U8_VjI-Z1LA">screen recording to demonstrate how ChromeVox exposes these attributes</a>:</p>
+
+<p>
+<div class="ratio-4-3 embed-video-container" onclick="var myAnchor = document.getElementById('U8_VjI-Z1LA');var tmpDiv = document.createElement('div');tmpDiv.innerHTML = '&lt;iframe style=&quot;vertical-align:top;width:100%;height:100%;position:absolute;&quot; src=&quot;http://www.youtube.com/embed/U8_VjI-Z1LA?autoplay=1&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;';myAnchor.parentNode.replaceChild(tmpDiv.firstChild, myAnchor);return false;" title="click here to play">
+<a class="youtube-lazy-link" style="width:100%;height:100%;background:#000 url(http://i2.ytimg.com/vi/U8_VjI-Z1LA/0.jpg) center center no-repeat;background-size:contain;position:absolute" href="http://www.youtube.com/watch?v=U8_VjI-Z1LA" id="U8_VjI-Z1LA" onclick="return false;">
+<div class="youtube-lazy-link-div"></div>
+<div class="youtube-lazy-link-info">aria-labelledby vs. aria-describedby</div>
+</a>
+<div class="video-info" >Screen recording of http://codepen.io/aarongustafson/pen/dmuoe/
+
+Screen Reader: ChromeVox</div>
+</div>
+
+</p>
+
+<p><em>Note: I did discover a bug in ChromeVox wherein the content of the elements referenced in <code>aria-describedby</code> are not read when the field receives focus via the keyboard (using the <kbd>tab</kbd> key), but it does when it receives focus via the mouse. I’ve submitted <a href="https://code.google.com/p/google-axs-chrome/issues/detail?id=158&amp;thanks=158&amp;ts=1415202123">a bug report</a> to to the powers that be.</em></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[CSS Variables Are a Bad Idea]]></title>
@@ -224,47 +254,6 @@ body {
 <p>Again, it’s not that JavaScript is a bad thing; I love JavaScript and write it every day—some days it’s all I do. But when we write JavaScript, its critical that we recognize that we can’t be guaranteed it will run. We need a backup plan and that’s what progressive enhancement asks of us. If we do that, our bases are covered and we can sleep soundly knowing that our users are happy because they can do what they need to do, no matter what.</p>
 
 <p>And I, for one, enjoy sleeping.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[A Fundamental Disconnect]]></title>
-    <link href="http://aaron-gustafson.com/notebook/2014/a-fundamental-disconnect/"/>
-    <updated>2014-09-13T15:01:58-04:00</updated>
-    <id>http://aaron-gustafson.com/notebook/2014/a-fundamental-disconnect</id>
-    <content type="html"><![CDATA[<p>Yesterday at <a href="//2014.blendconf.com/">BlendConf</a>, <a href="//www.hanselman.com/">Scott Hanselman</a> gave a fantastically-entertaining keynote entitled “JavaScript, The Cloud, and the rise of the New Virtual Machine.” In it, he chronicled all of the ways Web development and deployment has changed—for the better—over the years. He also boldly declared that JavaScript is now, effectively, a virtual machine in the browser.</p>
-
-<p>This is a topic that has been weighing on my mind for quite some time now. I’ll start by saying that I’m a big fan of JavaScript. I write a lot of it and I find it incredibly useful, both as a programming language and as a way to improve the usability and accessibility of content on the Web. That said, I know its limitations. But I’ll get to that in a minute.</p>
-
-<p>In the early days of the Web, “proper” software developers shied away from JavaScript. Many viewed it as a “toy” language (and felt similarly about HTML and CSS). It wasn’t as powerful as Java or Perl or C in their minds, so it wasn’t really worth learning. In the intervening years, however, JavaScript has changed a lot.</p>
-
-<p>Most of these developers first began taking JavaScript seriously in the mid ’00s when Ajax became popular. And with the rise of JavaScript MVC frameworks and their ilk—Angular, Ember, etc.—many of these developers made their way onto the Web. I would argue that this, overall, is a good thing: We need more people working on the Web to make it better.</p>
-
-<p>The one problem I’ve seen, however, is the fundamental disconnect many of these developers seem to have with the way deploying code on the Web works. In traditional software development, we have some say in the execution environment. On the Web, we don’t.</p>
-
-<p>I’ll explain.</p>
-
-<p>If we’re writing server-side software in Python or Rails or even PHP, one of two things is true:</p>
-
-<ol>
-<li>We control the server environment: operating system, language versions, packages, etc.; or</li>
-<li>We don’t control the server environment, but we have knowledge of it and can author your program accordingly so it will execute as anticipated.</li>
-</ol>
-
-
-<p>In the more traditional installed software world, we can similarly control the environment by placing certain restrictions on what operating systems our code can run on and what the dependencies for its use may be in terms of hard drive space and RAM required. We provide that information up front and users can choose to use our software or use a competing product based on what will work for them.</p>
-
-<p>On the Web, however, all bets are off. The Web is ubiquitous. The Web is messy. And, as much as we might like to control a user’s experience down to the very pixel, those of us who have been working on the Web for a while understand that it’s a fool’s errand and <a href="//dowebsitesneedtolookexactlythesameineverybrowser.com/">have adjusted our expectations accordingly</a>. Unfortunately, this new crop of Web developers doesn’t seem to have gotten that memo.</p>
-
-<p>We do not control the environment executing our JavaScript code, interpreting our HTML, or applying our CSS. Our users control the device (and, thereby, its processor speed, RAM, etc.). Our users choose the operating system. Our users pick the browser and which version they use. Our users can decide which add-ons they put in the browser. Our users can shrink or enlarge the fonts used to display our Web pages and apps. And the Internet providers that sit between us and our users, dictating the network speed, latency, and ultimately <a href="//aaron-gustafson.com/notebook/2014/the-network-effect/">controlling how—and what part of—our content makes it to our users</a>.</p>
-
-<p>All we can do is author a compelling, adaptive experience, cross our fingers, and hope for the best.</p>
-
-<p>The fundamental problem with viewing JavaScript as the new VM is that it creates the illusion of control. Sure, if we are building an internal Web app, we might be able to dictate the OS/browser combination for all of our users and lock down their machines to prevent them from modifying those settings, but that’s not the reality on the open Web.</p>
-
-<p>The fact is that we can’t absolutely rely on the availability of any specific technology when it comes to delivering a Web experience. Instead, we must look at <em>how</em> we construct that experience and make smarter decisions about how we use specific technologies in order to take advantage of their benefits while simultaneously understanding that their availability is not guaranteed. This is why progressive enhancement is such a useful philosophy.</p>
-
-<p>The history of the Web is littered with JavaScript disaster stories. That doesn’t mean we shouldn’t use JavaScript or that it’s inherently bad. It simply means we need to be smarter about our approach to JavaScript and build robust experiences that allow users to do what they need to do quickly and easily even if our carefully-crafted, incredibly well-designed JavaScript-driven interface won’t run.</p>
 ]]></content>
   </entry>
   
