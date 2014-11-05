@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2014-10-28T22:04:08-04:00</updated>
+  <updated>2014-11-05T00:35:40-05:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -12,6 +12,92 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[CSS Variables Are a Bad Idea]]></title>
+    <link href="http://aaron-gustafson.com/notebook/2014/css-variables-are-a-bad-idea/"/>
+    <updated>2014-11-04T14:58:01-05:00</updated>
+    <id>http://aaron-gustafson.com/notebook/2014/css-variables-are-a-bad-idea</id>
+    <content type="html"><![CDATA[<p>I’ll level with you: I used to think I wanted variables in CSS.</p>
+
+<p>As a programmer, I love the idea of being able to abstract reusable bits like colors, border widths, font sizes, and the like to obviously named variables. It’s a far more <a href="https://en.wikipedia.org/wiki/Don't_repeat_yourself">DRY</a> approach and makes maintenance far easier.</p>
+
+<p>Before I made the leap to using a CSS preprocessor, I was convinced we needed CSS variables, but I always wondered how we might make it possible without breaking one of the fundamental <a href="http://www.w3.org/TR/CSS21/intro.html#design-principles">design principles of CSS</a>: Forward and backward compatibility. Take a look at this example (which is based on <a href="http://www.w3.org/TR/css-variables/">the working draft spec</a>) and I think you’ll spot the problem:</p>
+
+<p><div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=css-vairables.css'></script>
+<noscript><pre><code>:root {
+  --foreground-color: #333;
+  --background-color: #fff;
+}
+
+body {
+  background: var(--background-color);
+  color: var(--foreground-color);
+}</code></pre></noscript></div>
+</p>
+
+<p>For a browser that understands CSS variables, the interpreted stylesheet would look like this:</p>
+
+<p><div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=desired-result.css'></script>
+<noscript><pre><code>body {
+  background: #fff;
+  color: #333;
+}</code></pre></noscript></div>
+</p>
+
+<p>But any browser that doesn’t understand the variables would never get the color values because browsers follow <a href="http://www.w3.org/TR/CSS21/syndata.html#parsing-errors">the rules of fault tolerance in CSS</a> and ignore anything they don’t understand. The introduction of variables to CSS would effectively build a wall between older browsers and new ones. (For the record, as of this writing, <a href="http://caniuse.com/#feat=css-variables">only Firefox has implemented CSS variables</a>).</p>
+
+<p>In order to serve the broadest spectrum of devices, we’d have to provide a fallback like this:</p>
+
+<p><div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=css-variables-fallback.css'></script>
+<noscript><pre><code>:root {
+  --foreground-color: #333;
+  --background-color: #fff;
+}
+
+body {
+  background: #fff;
+  background: var(--background-color);
+  color: #333;
+  color: var(--foreground-color);
+}</code></pre></noscript></div>
+</p>
+
+<p>But that kinda defeats the whole purpose, right?</p>
+
+<p>Preprocessors already give us this access to variables today (along with nesting, mixins, and programmatic structures like conditionals, loops, etc.). Here’s a SASS example:</p>
+
+<p><div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=sass-variables.scss'></script>
+<noscript><pre><code>$foreground-color: #333;
+$background-color: #fff;
+ 
+ 
+body {
+  background: $background-color;
+  color: $foreground-color;
+}</code></pre></noscript></div>
+</p>
+
+<p>The big difference here is that this document is a source file, it is not what is sent to the browser. This file is compiled by the preprocessor into actual CSS, which is what we send to the browser and is exactly what we wanted in the first place:</p>
+
+<p><div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=desired-result.css'></script>
+<noscript><pre><code>body {
+  background: #fff;
+  color: #333;
+}</code></pre></noscript></div>
+</p>
+
+<p>And it works on every browser that supports CSS, all the way back to <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#Difficulty_with_adoption">IE 3</a>.</p>
+
+<p>With a preprocessor like SASS, Less, or Stylus, I get all of the maintainability benefits without sacrificing browser support. It’s a no-brainer. But even if that were not true, there’s another issue to consider: If I push CSS variables to browsers, they have to parse the CSS and substitute the variables before they can apply the styles.</p>
+
+<p>Now I’m sure browser makers can find ways to optimize this process, but it’s bound to affect the rendering time. And not in a positive way. I don’t even want to think about how bad it would be on a mobile chipset, especially on a low-end device.</p>
+
+<p>Honestly, I love using variables… in the source files I use with a preprocessor. Given the potential loss of browser support, the pointless fallbacks I’d have to use if I wanted to continue supporting older browsers, the existence of numerous preprocessor options that solve the abstraction problem in a backward- and forward-compatible way, and the fact that CSS variables would make browsers have to work even harder to achieve the desired result, I’m not convinced we need them.</p>
+
+<p>CSS variables are a bad idea.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Google Embraces Progressive Enhancement]]></title>
@@ -179,39 +265,6 @@
 <p>The fact is that we can’t absolutely rely on the availability of any specific technology when it comes to delivering a Web experience. Instead, we must look at <em>how</em> we construct that experience and make smarter decisions about how we use specific technologies in order to take advantage of their benefits while simultaneously understanding that their availability is not guaranteed. This is why progressive enhancement is such a useful philosophy.</p>
 
 <p>The history of the Web is littered with JavaScript disaster stories. That doesn’t mean we shouldn’t use JavaScript or that it’s inherently bad. It simply means we need to be smarter about our approach to JavaScript and build robust experiences that allow users to do what they need to do quickly and easily even if our carefully-crafted, incredibly well-designed JavaScript-driven interface won’t run.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[The Network Effect]]></title>
-    <link href="http://aaron-gustafson.com/notebook/2014/the-network-effect/"/>
-    <updated>2014-09-08T16:40:44-04:00</updated>
-    <id>http://aaron-gustafson.com/notebook/2014/the-network-effect</id>
-    <content type="html"><![CDATA[<p><cite>Ars Technica</cite> revealed today that <a href="http://arstechnica.com/tech-policy/2014/09/why-comcasts-javascript-ad-injections-threaten-security-net-neutrality/">Comcast is injecting self-promotional advertising into web pages delivered via it’s Wi-Fi hotspots</a>:</p>
-
-<blockquote cite="http://arstechnica.com/tech-policy/2014/09/why-comcasts-javascript-ad-injections-threaten-security-net-neutrality/">
-    <p>A Comcast spokesman told Ars the program began months ago. One facet of it is designed to alert consumers that they are connected to Comcast's Xfinity service. Other ads remind Web surfers to download Xfinity apps, Comcast spokesman Charlie Douglas told Ars in telephone interviews.</p>
-</blockquote>
-
-
-<p>I wish I could say this is surprising, but it’s not: Any service that routes your content has the opportunity to modify the response being returned. Comcast is exploiting that opportunity and injecting JavaScript that, in turn, injects the ads.</p>
-
-<p>The fact that middlemen can manipulate server responses is one reason <a href="https://www.youtube.com/watch?v=cBhZ6S0PFCY">Google is pushing for all sites to be served under HTTPS</a>. With traffic running to and from your server in an encrypted fashion, <a href="http://en.wikipedia.org/wiki/Man-in-the-middle_attack">man-in-the-middle attacks</a>—which, if we’re honest, is what this amounts to—become much more difficult.</p>
-
-<p>Assuming you can’t run under HTTPS for one reason or another, how do you harden your <a href="https://adactio.com/journal/6246">web thang</a> against 3rd party manipulation you can’t control? What if Comcast’s JavaScript interferes with your own? Remember when <a href="http://www.theguardian.com/technology/2014/jan/28/sky-broadband-blocks-jquery-web-critical-plugin">Sky blocked jQuery for all of their customers</a>? That was a bad couple of hours for most UK-based internet users.</p>
-
-<p>Comcast’s move only serves to remind us—yet again—that we don’t control how our sites are delivered or what our users see. Or rather we do, but only up to a point. So rather than focus on some ideal experience we expect everyone to have, we must focus on building great experiences that work in a variety of contexts and situations.</p>
-
-<p>We need to develop <a href="http://en.wikipedia.org/wiki/Demolition_derby#Vehicles">the 1964 Chrysler Imperial</a> of websites: Sites that soldier on even when they are getting pummeled from all sides. After all, browsers, plug-ins, users, networks, and, yes, even the very routers that deliver our connections all have a say in how (and what) content gets to our users.</p>
-
-<p>I’ll leave you with this scary quote from the <cite>Ars</cite> piece:</p>
-
-<blockquote cite="http://arstechnica.com/tech-policy/2014/09/why-comcasts-javascript-ad-injections-threaten-security-net-neutrality/">
-    <p>Security expert Dan Kaminsky said in an e-mail that JavaScript injection has the potential to break “all sorts of stuff, in that you no longer know as a website developer precisely what code is running in browsers out there. You didn't send it, but your customers received it.”</p>
-</blockquote>
-
-
-<p>Hooray!</p>
 ]]></content>
   </entry>
   
