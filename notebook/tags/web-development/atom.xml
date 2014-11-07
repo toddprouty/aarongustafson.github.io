@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Development | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/web-development/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2014-11-06T18:19:54-05:00</updated>
+  <updated>2014-11-07T09:49:01-05:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -21,6 +21,9 @@
     <content type="html"><![CDATA[<p>I’ll level with you: I used to think I wanted variables in CSS.</p>
 
 <p>As a programmer, I love the idea of being able to abstract reusable bits like colors, border widths, font sizes, and the like to obviously named variables. It’s a far more <a href="https://en.wikipedia.org/wiki/Don't_repeat_yourself">DRY</a> approach and makes maintenance far easier.</p>
+
+<!-- more -->
+
 
 <p>Before I made the leap to using a CSS preprocessor, I was convinced we needed CSS variables, but I always wondered how we might make it possible without breaking one of the fundamental <a href="http://www.w3.org/TR/CSS21/intro.html#design-principles">design principles of CSS</a>: Forward and backward compatibility. Take a look at this example (which is based on <a href="http://www.w3.org/TR/css-variables/">the working draft spec</a>) and I think you’ll spot the problem:</p>
 
@@ -108,6 +111,9 @@ body {
 
 <blockquote><p>Just like modern browsers, our rendering engine might not support all of the technologies a page uses. Make sure your web design adheres to the principles of progressive enhancement as this helps our systems (and a wider range of browsers) see usable content and basic functionality when certain web design features are not yet supported.</p></blockquote>
 
+<!-- more -->
+
+
 <p>As someone who has been beating the drum for progressive enhancement for over a decade, this sort of support from such an influential company gets me a little teary-eyed.</p>
 
 <p>It’s nice to see Steve Champeon’s philosophy for web design finally beginning to gain traction outside of the ivory tower of Web standards. It is a fantastic philosophy that has been guiding our work since Steve unveiled it. And it has paid some handsome dividends for both us and our clients.</p>
@@ -134,6 +140,9 @@ body {
     <updated>2014-09-19T16:12:50-04:00</updated>
     <id>http://aaron-gustafson.com/notebook/2014/missed-connections</id>
     <content type="html"><![CDATA[<p>Earlier today, <a href="http://www.kryogenix.org">Stuart Langridge</a>—who I worked with on WaSP’s DOM Scripting Task Force and have the utmost respect for—<a href="http://www.kryogenix.org/days/2014/09/19/fundamentally-connected/">published a blog response</a> to <a href="http://aaron-gustafson.com/notebook/2014/a-fundamental-disconnect/">my last post</a>. In it, he made some good points I wanted to highlight, but he also misunderstood one thing I said and managed to avoid addressing the core of my argument. As comments aren’t enabled on his site, I thought I’d respond here.</p>
+
+<!-- more -->
+
 
 <p>Let’s start with the good stuff:</p>
 
@@ -199,6 +208,9 @@ body {
     <updated>2014-09-13T15:01:58-04:00</updated>
     <id>http://aaron-gustafson.com/notebook/2014/a-fundamental-disconnect</id>
     <content type="html"><![CDATA[<p>Yesterday at <a href="//2014.blendconf.com/">BlendConf</a>, <a href="//www.hanselman.com/">Scott Hanselman</a> gave a fantastically-entertaining keynote entitled “JavaScript, The Cloud, and the rise of the New Virtual Machine.” In it, he chronicled all of the ways Web development and deployment has changed—for the better—over the years. He also boldly declared that JavaScript is now, effectively, a virtual machine in the browser.</p>
+
+<!-- more -->
+
 
 <p>This is a topic that has been weighing on my mind for quite some time now. I’ll start by saying that I’m a big fan of JavaScript. I write a lot of it and I find it incredibly useful, both as a programming language and as a way to improve the usability and accessibility of content on the Web. That said, I know its limitations. But I’ll get to that in a minute.</p>
 

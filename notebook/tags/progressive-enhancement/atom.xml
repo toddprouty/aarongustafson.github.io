@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Progressive Enhancement | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/progressive-enhancement/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2014-11-06T18:19:54-05:00</updated>
+  <updated>2014-11-07T09:49:01-05:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -21,6 +21,9 @@
     <content type="html"><![CDATA[<p>In case you missed it, <a href="http://googlewebmastercentral.blogspot.com/2014/10/updating-our-technical-webmaster.html">yesterday Pierre Far updated Google’s Webmaster Guidelines</a>. In his post, Pierre lays out their case for <a href="https://en.wikipedia.org/wiki/Progressive_enhancement">progressive enhancement</a>:</p>
 
 <blockquote><p>Just like modern browsers, our rendering engine might not support all of the technologies a page uses. Make sure your web design adheres to the principles of progressive enhancement as this helps our systems (and a wider range of browsers) see usable content and basic functionality when certain web design features are not yet supported.</p></blockquote>
+
+<!-- more -->
+
 
 <p>As someone who has been beating the drum for progressive enhancement for over a decade, this sort of support from such an influential company gets me a little teary-eyed.</p>
 

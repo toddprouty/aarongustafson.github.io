@@ -152,6 +152,9 @@ window.grunticon=function(e){if(e&&3===e.length){var t=window,n=!(!t.document.cr
 	<div class="entry__content">
 		<p>Last night, while we were enjoying a cool evening and a few drinks outside after day 1 of <a href="http://bdconf.com">BDConf</a>, <a href="http://adactio.com">Jeremy</a> asked me for some clarification on the ARIA attributes I had demoed as part of <a href="http://www.slideshare.net/AaronGustafson/falling-in-love-with-forms-bdconf-2014">my forms presentation</a> earlier in the afternoon. In particular, he was confused by how <code>aria-labelledby</code> and <code>aria-describedby</code> differ.</p>
 
+<!-- more -->
+
+
 <p>I hadn’t really thought about it before, but it’s a good question. They seem pretty similar in function, right? And both support a space separated list of one or more <code>id</code> references. It’s downright confusing.</p>
 
 <p>My simple explanation was that, at least in terms of form fields, they differ in when they are read. The <code>aria-labelledby</code> attribute replaces the associated <code>label</code> element (which is, of course, associated with the field via the <code>label</code>’s <code>for</code> attribute). The <code>aria-describedby</code> attribute, on the other hand, is read after the field type is stated.</p>

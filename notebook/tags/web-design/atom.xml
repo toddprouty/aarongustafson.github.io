@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2014-11-06T18:19:54-05:00</updated>
+  <updated>2014-11-07T09:49:01-05:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -22,7 +22,7 @@
 
 <p>We, as an industry, tend to have a pretty myopic view of experience. Those of us who work day-to-day in accessibility probably have a broader perspective than most, but I would argue that even we all fall short now and again when it comes to seeing the Web as others do.</p>
 
-<!--more-->
+<!-- more -->
 
 
 <h2>I: We are surrounded by technology</h2>
@@ -404,6 +404,9 @@
     <id>http://aaron-gustafson.com/notebook/2014/aria-quicktip-labelledby-vs-describedby</id>
     <content type="html"><![CDATA[<p>Last night, while we were enjoying a cool evening and a few drinks outside after day 1 of <a href="http://bdconf.com">BDConf</a>, <a href="http://adactio.com">Jeremy</a> asked me for some clarification on the ARIA attributes I had demoed as part of <a href="http://www.slideshare.net/AaronGustafson/falling-in-love-with-forms-bdconf-2014">my forms presentation</a> earlier in the afternoon. In particular, he was confused by how <code>aria-labelledby</code> and <code>aria-describedby</code> differ.</p>
 
+<!-- more -->
+
+
 <p>I hadn’t really thought about it before, but it’s a good question. They seem pretty similar in function, right? And both support a space separated list of one or more <code>id</code> references. It’s downright confusing.</p>
 
 <p>My simple explanation was that, at least in terms of form fields, they differ in when they are read. The <code>aria-labelledby</code> attribute replaces the associated <code>label</code> element (which is, of course, associated with the field via the <code>label</code>’s <code>for</code> attribute). The <code>aria-describedby</code> attribute, on the other hand, is read after the field type is stated.</p>
@@ -439,6 +442,9 @@ Screen Reader: ChromeVox</div>
     <content type="html"><![CDATA[<p>I’ll level with you: I used to think I wanted variables in CSS.</p>
 
 <p>As a programmer, I love the idea of being able to abstract reusable bits like colors, border widths, font sizes, and the like to obviously named variables. It’s a far more <a href="https://en.wikipedia.org/wiki/Don't_repeat_yourself">DRY</a> approach and makes maintenance far easier.</p>
+
+<!-- more -->
+
 
 <p>Before I made the leap to using a CSS preprocessor, I was convinced we needed CSS variables, but I always wondered how we might make it possible without breaking one of the fundamental <a href="http://www.w3.org/TR/CSS21/intro.html#design-principles">design principles of CSS</a>: Forward and backward compatibility. Take a look at this example (which is based on <a href="http://www.w3.org/TR/css-variables/">the working draft spec</a>) and I think you’ll spot the problem:</p>
 
@@ -526,6 +532,9 @@ body {
 
 <blockquote><p>Just like modern browsers, our rendering engine might not support all of the technologies a page uses. Make sure your web design adheres to the principles of progressive enhancement as this helps our systems (and a wider range of browsers) see usable content and basic functionality when certain web design features are not yet supported.</p></blockquote>
 
+<!-- more -->
+
+
 <p>As someone who has been beating the drum for progressive enhancement for over a decade, this sort of support from such an influential company gets me a little teary-eyed.</p>
 
 <p>It’s nice to see Steve Champeon’s philosophy for web design finally beginning to gain traction outside of the ivory tower of Web standards. It is a fantastic philosophy that has been guiding our work since Steve unveiled it. And it has paid some handsome dividends for both us and our clients.</p>
@@ -552,6 +561,9 @@ body {
     <updated>2014-09-20T16:43:22-04:00</updated>
     <id>http://aaron-gustafson.com/notebook/2014/responsive-typography</id>
     <content type="html"><![CDATA[<p>I’m incredibly excited to see that <a href="https://twitter.com/jpamental">Jason Pamental</a>’s fantastic <a href="http://www.amazon.com/gp/product/1491907096/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=1491907096&amp;amp;linkCode=as2&amp;amp;tag=easydesign-20&amp;amp;linkId=JC6INFXF3DHODKEM"><cite>Responsive Typography</cite></a> is finally available. I had the great pleasure of reviewing an early galley and I can honestly say that it’s a book well worth reading. Jason’s natural and friendly style makes for an easy read and it’s chock-full of actionable recommendations and tips you’ll want to start using right away.</p>
+
+<!-- more -->
+
 
 <p>In fact, I think <cite>Responsive Typography</cite> is such an invaluable book, I offered to write the Foreword and Jason (and O’Reilly) have been kind enough to let me reprint it here:</p>
 

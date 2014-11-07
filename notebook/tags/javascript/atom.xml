@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Javascript | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/javascript/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2014-11-06T18:19:54-05:00</updated>
+  <updated>2014-11-07T09:49:01-05:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -21,6 +21,9 @@
     <content type="html"><![CDATA[<p>In case you missed it, <a href="http://googlewebmastercentral.blogspot.com/2014/10/updating-our-technical-webmaster.html">yesterday Pierre Far updated Google’s Webmaster Guidelines</a>. In his post, Pierre lays out their case for <a href="https://en.wikipedia.org/wiki/Progressive_enhancement">progressive enhancement</a>:</p>
 
 <blockquote><p>Just like modern browsers, our rendering engine might not support all of the technologies a page uses. Make sure your web design adheres to the principles of progressive enhancement as this helps our systems (and a wider range of browsers) see usable content and basic functionality when certain web design features are not yet supported.</p></blockquote>
+
+<!-- more -->
+
 
 <p>As someone who has been beating the drum for progressive enhancement for over a decade, this sort of support from such an influential company gets me a little teary-eyed.</p>
 
@@ -48,6 +51,9 @@
     <updated>2014-09-19T16:12:50-04:00</updated>
     <id>http://aaron-gustafson.com/notebook/2014/missed-connections</id>
     <content type="html"><![CDATA[<p>Earlier today, <a href="http://www.kryogenix.org">Stuart Langridge</a>—who I worked with on WaSP’s DOM Scripting Task Force and have the utmost respect for—<a href="http://www.kryogenix.org/days/2014/09/19/fundamentally-connected/">published a blog response</a> to <a href="http://aaron-gustafson.com/notebook/2014/a-fundamental-disconnect/">my last post</a>. In it, he made some good points I wanted to highlight, but he also misunderstood one thing I said and managed to avoid addressing the core of my argument. As comments aren’t enabled on his site, I thought I’d respond here.</p>
+
+<!-- more -->
+
 
 <p>Let’s start with the good stuff:</p>
 
@@ -114,6 +120,9 @@
     <id>http://aaron-gustafson.com/notebook/2014/a-fundamental-disconnect</id>
     <content type="html"><![CDATA[<p>Yesterday at <a href="//2014.blendconf.com/">BlendConf</a>, <a href="//www.hanselman.com/">Scott Hanselman</a> gave a fantastically-entertaining keynote entitled “JavaScript, The Cloud, and the rise of the New Virtual Machine.” In it, he chronicled all of the ways Web development and deployment has changed—for the better—over the years. He also boldly declared that JavaScript is now, effectively, a virtual machine in the browser.</p>
 
+<!-- more -->
+
+
 <p>This is a topic that has been weighing on my mind for quite some time now. I’ll start by saying that I’m a big fan of JavaScript. I write a lot of it and I find it incredibly useful, both as a programming language and as a way to improve the usability and accessibility of content on the Web. That said, I know its limitations. But I’ll get to that in a minute.</p>
 
 <p>In the early days of the Web, “proper” software developers shied away from JavaScript. Many viewed it as a “toy” language (and felt similarly about HTML and CSS). It wasn’t as powerful as Java or Perl or C in their minds, so it wasn’t really worth learning. In the intervening years, however, JavaScript has changed a lot.</p>
@@ -161,6 +170,9 @@
 
 
 <p>I wish I could say this is surprising, but it’s not: Any service that routes your content has the opportunity to modify the response being returned. Comcast is exploiting that opportunity and injecting JavaScript that, in turn, injects the ads.</p>
+
+<!-- more -->
+
 
 <p>The fact that middlemen can manipulate server responses is one reason <a href="https://www.youtube.com/watch?v=cBhZ6S0PFCY">Google is pushing for all sites to be served under HTTPS</a>. With traffic running to and from your server in an encrypted fashion, <a href="http://en.wikipedia.org/wiki/Man-in-the-middle_attack">man-in-the-middle attacks</a>—which, if we’re honest, is what this amounts to—become much more difficult.</p>
 

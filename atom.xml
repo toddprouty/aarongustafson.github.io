@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]></title>
 	<link href="http://aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2014-11-06T18:19:54-05:00</updated>
+	<updated>2014-11-07T09:49:01-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -21,7 +21,7 @@
 
 <p>We, as an industry, tend to have a pretty myopic view of experience. Those of us who work day-to-day in accessibility probably have a broader perspective than most, but I would argue that even we all fall short now and again when it comes to seeing the Web as others do.</p>
 
-<!--more-->
+<!-- more -->
 
 
 <h2>I: We are surrounded by technology</h2>
@@ -367,6 +367,9 @@
 			<id>http://aaron-gustafson.com/notebook/2014/aria-quicktip-labelledby-vs-describedby</id>
 			<content type="html"><![CDATA[<p>Last night, while we were enjoying a cool evening and a few drinks outside after day 1 of <a href="http://bdconf.com">BDConf</a>, <a href="http://adactio.com">Jeremy</a> asked me for some clarification on the ARIA attributes I had demoed as part of <a href="http://www.slideshare.net/AaronGustafson/falling-in-love-with-forms-bdconf-2014">my forms presentation</a> earlier in the afternoon. In particular, he was confused by how <code>aria-labelledby</code> and <code>aria-describedby</code> differ.</p>
 
+<!-- more -->
+
+
 <p>I hadn’t really thought about it before, but it’s a good question. They seem pretty similar in function, right? And both support a space separated list of one or more <code>id</code> references. It’s downright confusing.</p>
 
 <p>My simple explanation was that, at least in terms of form fields, they differ in when they are read. The <code>aria-labelledby</code> attribute replaces the associated <code>label</code> element (which is, of course, associated with the field via the <code>label</code>’s <code>for</code> attribute). The <code>aria-describedby</code> attribute, on the other hand, is read after the field type is stated.</p>
@@ -402,6 +405,9 @@ Screen Reader: ChromeVox</div>
 			<content type="html"><![CDATA[<p>I’ll level with you: I used to think I wanted variables in CSS.</p>
 
 <p>As a programmer, I love the idea of being able to abstract reusable bits like colors, border widths, font sizes, and the like to obviously named variables. It’s a far more <a href="https://en.wikipedia.org/wiki/Don't_repeat_yourself">DRY</a> approach and makes maintenance far easier.</p>
+
+<!-- more -->
+
 
 <p>Before I made the leap to using a CSS preprocessor, I was convinced we needed CSS variables, but I always wondered how we might make it possible without breaking one of the fundamental <a href="http://www.w3.org/TR/CSS21/intro.html#design-principles">design principles of CSS</a>: Forward and backward compatibility. Take a look at this example (which is based on <a href="http://www.w3.org/TR/css-variables/">the working draft spec</a>) and I think you’ll spot the problem:</p>
 
@@ -489,6 +495,9 @@ body {
 
 <blockquote><p>Just like modern browsers, our rendering engine might not support all of the technologies a page uses. Make sure your web design adheres to the principles of progressive enhancement as this helps our systems (and a wider range of browsers) see usable content and basic functionality when certain web design features are not yet supported.</p></blockquote>
 
+<!-- more -->
+
+
 <p>As someone who has been beating the drum for progressive enhancement for over a decade, this sort of support from such an influential company gets me a little teary-eyed.</p>
 
 <p>It’s nice to see Steve Champeon’s philosophy for web design finally beginning to gain traction outside of the ivory tower of Web standards. It is a fantastic philosophy that has been guiding our work since Steve unveiled it. And it has paid some handsome dividends for both us and our clients.</p>
@@ -515,6 +524,9 @@ body {
 			<updated>2014-09-20T16:43:22-04:00</updated>
 			<id>http://aaron-gustafson.com/notebook/2014/responsive-typography</id>
 			<content type="html"><![CDATA[<p>I’m incredibly excited to see that <a href="https://twitter.com/jpamental">Jason Pamental</a>’s fantastic <a href="http://www.amazon.com/gp/product/1491907096/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=1491907096&amp;amp;linkCode=as2&amp;amp;tag=easydesign-20&amp;amp;linkId=JC6INFXF3DHODKEM"><cite>Responsive Typography</cite></a> is finally available. I had the great pleasure of reviewing an early galley and I can honestly say that it’s a book well worth reading. Jason’s natural and friendly style makes for an easy read and it’s chock-full of actionable recommendations and tips you’ll want to start using right away.</p>
+
+<!-- more -->
+
 
 <p>In fact, I think <cite>Responsive Typography</cite> is such an invaluable book, I offered to write the Foreword and Jason (and O’Reilly) have been kind enough to let me reprint it here:</p>
 
@@ -549,6 +561,9 @@ body {
 			<updated>2014-09-19T16:12:50-04:00</updated>
 			<id>http://aaron-gustafson.com/notebook/2014/missed-connections</id>
 			<content type="html"><![CDATA[<p>Earlier today, <a href="http://www.kryogenix.org">Stuart Langridge</a>—who I worked with on WaSP’s DOM Scripting Task Force and have the utmost respect for—<a href="http://www.kryogenix.org/days/2014/09/19/fundamentally-connected/">published a blog response</a> to <a href="http://aaron-gustafson.com/notebook/2014/a-fundamental-disconnect/">my last post</a>. In it, he made some good points I wanted to highlight, but he also misunderstood one thing I said and managed to avoid addressing the core of my argument. As comments aren’t enabled on his site, I thought I’d respond here.</p>
+
+<!-- more -->
+
 
 <p>Let’s start with the good stuff:</p>
 
@@ -615,6 +630,9 @@ body {
 			<id>http://aaron-gustafson.com/notebook/2014/a-fundamental-disconnect</id>
 			<content type="html"><![CDATA[<p>Yesterday at <a href="//2014.blendconf.com/">BlendConf</a>, <a href="//www.hanselman.com/">Scott Hanselman</a> gave a fantastically-entertaining keynote entitled “JavaScript, The Cloud, and the rise of the New Virtual Machine.” In it, he chronicled all of the ways Web development and deployment has changed—for the better—over the years. He also boldly declared that JavaScript is now, effectively, a virtual machine in the browser.</p>
 
+<!-- more -->
+
+
 <p>This is a topic that has been weighing on my mind for quite some time now. I’ll start by saying that I’m a big fan of JavaScript. I write a lot of it and I find it incredibly useful, both as a programming language and as a way to improve the usability and accessibility of content on the Web. That said, I know its limitations. But I’ll get to that in a minute.</p>
 
 <p>In the early days of the Web, “proper” software developers shied away from JavaScript. Many viewed it as a “toy” language (and felt similarly about HTML and CSS). It wasn’t as powerful as Java or Perl or C in their minds, so it wasn’t really worth learning. In the intervening years, however, JavaScript has changed a lot.</p>
@@ -663,6 +681,9 @@ body {
 
 <p>I wish I could say this is surprising, but it’s not: Any service that routes your content has the opportunity to modify the response being returned. Comcast is exploiting that opportunity and injecting JavaScript that, in turn, injects the ads.</p>
 
+<!-- more -->
+
+
 <p>The fact that middlemen can manipulate server responses is one reason <a href="https://www.youtube.com/watch?v=cBhZ6S0PFCY">Google is pushing for all sites to be served under HTTPS</a>. With traffic running to and from your server in an encrypted fashion, <a href="http://en.wikipedia.org/wiki/Man-in-the-middle_attack">man-in-the-middle attacks</a>—which, if we’re honest, is what this amounts to—become much more difficult.</p>
 
 <p>Assuming you can’t run under HTTPS for one reason or another, how do you harden your <a href="https://adactio.com/journal/6246">web thang</a> against 3rd party manipulation you can’t control? What if Comcast’s JavaScript interferes with your own? Remember when <a href="http://www.theguardian.com/technology/2014/jan/28/sky-broadband-blocks-jquery-web-critical-plugin">Sky blocked jQuery for all of their customers</a>? That was a bad couple of hours for most UK-based internet users.</p>
@@ -692,6 +713,9 @@ body {
 <blockquote><p>But why this urge to re-style page elements that end-users are familiar with? … Or is it that we love native look and feel, except when we don’t?</p></blockquote>
 
 <p>Speaking as the guy who not only wrote JavaScript to help me create an accessible <code>select</code> element alternative, but who also made it <a href="http://d1b14unh5d6w7g.cloudfront.net/1590598563.01.S0ER.LXXXXXXX.jpg?Expires=1405686346&amp;Signature=DCT4Z0l75JQESDNyP0PVGVonuJYwY9XYtaTI3grX/RhdlLcXGRAVADJCB/N/fAj7GxLhEVzuXqstMebJIJ9Ip5I6kE7IKYt2F20F5EGD+1ghua9zKwyjS1e4KBgumMKzQytbcfIVX4dMr7XFzj26mScFKz9bSKtZT5jU1LU6hWM=&amp;Key-Pair-Id=APKAIUO27P366FGALUMQ">the focus of a case study (image)</a> in <a href="http://amzn.to/TaoffD">AdvancED DOM Scripting</a>, I am fully aware of the desire to have it both ways. I have not often seen the desire for both in a single individual, but it does happen in one particular instance occasionally.</p>
+
+<!-- more -->
+
 
 <p>Based on my own experience, I see the following arguments in favor of changing the display of a native control quite often:</p>
 
@@ -764,6 +788,9 @@ body {
 			<updated>2014-07-07T20:46:48-04:00</updated>
 			<id>http://aaron-gustafson.com/notebook/2014/a-grand-experiment</id>
 			<content type="html"><![CDATA[<p>So, a mere three years after my old “life blog” stopped working, I decided to scrap it and start fresh.</p>
+
+<!-- more -->
+
 
 <p>In my quest to learn something new (more on that in a forthcoming post), I decided to give <a href="http://octopress.org">Octopress</a> a whirl. We’ll see how it goes, but the content entry has gone well so far and the Octopress community has been pretty responsive to my requests. I just need to get used to the workflow.</p>
 

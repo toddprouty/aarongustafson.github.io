@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Standards | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/web-standards/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2014-11-06T18:19:54-05:00</updated>
+  <updated>2014-11-07T09:49:01-05:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -21,6 +21,9 @@
     <content type="html"><![CDATA[<p>I’ll level with you: I used to think I wanted variables in CSS.</p>
 
 <p>As a programmer, I love the idea of being able to abstract reusable bits like colors, border widths, font sizes, and the like to obviously named variables. It’s a far more <a href="https://en.wikipedia.org/wiki/Don't_repeat_yourself">DRY</a> approach and makes maintenance far easier.</p>
+
+<!-- more -->
+
 
 <p>Before I made the leap to using a CSS preprocessor, I was convinced we needed CSS variables, but I always wondered how we might make it possible without breaking one of the fundamental <a href="http://www.w3.org/TR/CSS21/intro.html#design-principles">design principles of CSS</a>: Forward and backward compatibility. Take a look at this example (which is based on <a href="http://www.w3.org/TR/css-variables/">the working draft spec</a>) and I think you’ll spot the problem:</p>
 
