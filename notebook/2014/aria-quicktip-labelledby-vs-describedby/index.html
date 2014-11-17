@@ -38,7 +38,10 @@
 <meta name="robots" content="NOODP">
 
 <link href="https://plus.google.com/+AaronGustafson?rel=author" rel="publisher">
-<meta property="fb:admins" content="100002880350996" />
+<meta property="fb:admins" content="100002880350996">
+
+<link rel="pingback" href="http://webmention.io/aaron-gustafson.com/xmlrpc" />
+<link rel="webmention" href="http://webmention.io/aaron-gustafson.com/webmention" />
 
 
 
@@ -108,49 +111,30 @@ window.grunticon=function(e){if(e&&3===e.length){var t=window,n=!(!t.document.cr
 	
 </header>
 		
-		<main role="main">
+		<main role="main" class="layout-container">
 			
 			
-	<header class="post__header">
-    	
-      		<h1 class="post__title entry-title">ARIA Quicktip: Labelledby vs. Describedby</h1>
-    	
-    	
-		
+
+<article role="article" class="layout-container__primary">
+	<div class="entry">
+		<header class="entry__header">
+	     	<h1 class="entry__title entry-title">ARIA Quicktip: Labelledby vs. Describedby</h1>
+
 			
-			<p class="post__meta">
-        		
+				<p class="entry__meta">
+	        		This will take 1 minute to read
 
+					
+						| <a href="#disqus_thread" data-disqus-identifier="http://aaron-gustafson.com/notebook/2014/aria-quicktip-labelledby-vs-describedby/">Comments</a>
+						| <a href="#webmentions">Webmentions</a>
+	        		
+	      		</p>
 
+	    	
+	  	</header>
 
-
-
-
-
-
-	
-
-
-
-	
-<time datetime="2014-11-05T10:45:22-05:00"  data-updated="true">05 November 2014
-		</time>
-        		
-				| You can read this in about 1 minute
-				
-				
-					| <a href="#disqus_thread" data-disqus-identifier="http://aaron-gustafson.com">Comments</a>
-        		
-      		</p>
-			
-    	
-  	</header>
-
-
-
-
-	<div class="entry__content">
-		<p>Last night, while we were enjoying a cool evening and a few drinks outside after day 1 of <a href="http://bdconf.com">BDConf</a>, <a href="http://adactio.com">Jeremy</a> asked me for some clarification on the ARIA attributes I had demoed as part of <a href="http://www.slideshare.net/AaronGustafson/falling-in-love-with-forms-bdconf-2014">my forms presentation</a> earlier in the afternoon. In particular, he was confused by how <code>aria-labelledby</code> and <code>aria-describedby</code> differ.</p>
+		<div class="entry__content entry-content">
+			<p>Last night, while we were enjoying a cool evening and a few drinks outside after day 1 of <a href="http://bdconf.com">BDConf</a>, <a href="http://adactio.com">Jeremy</a> asked me for some clarification on the ARIA attributes I had demoed as part of <a href="http://www.slideshare.net/AaronGustafson/falling-in-love-with-forms-bdconf-2014">my forms presentation</a> earlier in the afternoon. In particular, he was confused by how <code>aria-labelledby</code> and <code>aria-describedby</code> differ.</p>
 
 <!-- more -->
 
@@ -180,14 +164,11 @@ Screen Reader: ChromeVox</div>
 
 <p><em>Note: I did discover a bug in ChromeVox wherein the content of the elements referenced in <code>aria-describedby</code> are not read when the field receives focus via the keyboard (using the <kbd>tab</kbd> key), but it does when it receives focus via the mouse. I’ve submitted <a href="https://code.google.com/p/google-axs-chrome/issues/detail?id=158&amp;thanks=158&amp;ts=1415202123">a bug report</a> to to the powers that be.</em></p>
 
-	</div>
-	
+		</div>
 
-
-<footer class="post__footer">
-
-	
-		
+		<footer class="entry__footer">
+			
+				
 
 <div class="post__sharing">
 	<p>If you liked this, would you mind sharing it?
@@ -197,11 +178,31 @@ Screen Reader: ChromeVox</div>
 		<a class="share_link share_link--googleplus" href="https://plus.google.com/share?url=http://aaron-gustafson.com/notebook/2014/aria-quicktip-labelledby-vs-describedby/">Share on Google+</a>
 	</p>
 </div>
-    
+		    
 
-	<p class="post__meta">
-		This post <b class="hidden">is by <a class="post__author" href="/about">Aaron Gustafson</a> and</b> was filed under:
-		
+			<p class="entry__meta">
+				This entry was posted on 
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+		<time class="entry-date" datetime="2014-11-05T10:45:22-05:00"
+			 data-updated="true">05 November 2014</time>
+	  
+				<b class="hidden">by <a class="entry__author" href="/about">Aaron Gustafson</a></b>
+				and was filed under: 
 
 
 	<span class="post__categories">
@@ -211,34 +212,43 @@ Screen Reader: ChromeVox</div>
 	</span>
 
 
-	
+				
+			</p>
+		</footer>
+
 		
-	</p>
+			<hr>
 
-	
-	
-
-	
-</footer>
-
-
-	<hr>
-
-	<section class="post__comments">
-		<h1>Comments</h1>
-		<div id="disqus_thread" aria-live="polite">
-			<noscript>
-	<p>Sadly, I have not had the time to build a JavaScript-less implementation of the Disqus API yet, so you can’t comment. It’s a bummer. I really wanted to hear your thoughts.</p>
+			<section id="disqus" class="entry__comments">
+				<h1>Comments</h1>
+				<div id="disqus_thread" aria-live="polite">
+					<noscript>
+	<div class="nojs-fallback">
+		<p>Sadly, I have not had the time to build a JavaScript-less implementation of the Disqus API yet, so you can’t comment. It’s a bummer. I really wanted to hear your thoughts.</p>
+	</div>
 </noscript>
 
-		</div>
-	</section>
+				</div>
+			</section>
+
+			<hr>
+
+			<section id="webmentions" class="entry__comments">
+				<h1>Webmentions</h1>
+				
 
 
+<div class="webmentions"><p class="webmentions__not-found">No webmentions were found</p></div>
+			</section>
+		
+		
+	</div>
+</article>
+	
 
-	<hr>
+	<hr class="rule rule--optional">
 
-	<aside class="sidebar">
+	<aside class="layout-container__secondary">
 		
     		
 	<div class="about">
@@ -249,12 +259,16 @@ Screen Reader: ChromeVox</div>
 	
 
 		
+		
+		
+	
+
 	</aside>
 
 			
 	    </main>
 	  	
-		<hr>
+		<hr class="rule rule--optional">
 		
 		<nav role="navigation">
 
@@ -290,7 +304,7 @@ Screen Reader: ChromeVox</div>
 
 </nav>
 		
-		<hr>
+		<hr class="rule">
 		
 		<footer role="contentinfo" class="footer">
 	

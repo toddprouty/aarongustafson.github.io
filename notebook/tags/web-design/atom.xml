@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2014-11-07T09:49:01-05:00</updated>
+  <updated>2014-11-17T17:41:44-05:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -12,6 +12,36 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[What Do We Own?]]></title>
+    <link href="http://aaron-gustafson.com/notebook/2014/what-do-we-own/"/>
+    <updated>2014-11-17T09:43:54-05:00</updated>
+    <id>http://aaron-gustafson.com/notebook/2014/what-do-we-own</id>
+    <content type="html"><![CDATA[<p>My good friend <a href="http://adactio.com">Jeremy</a> is <a href="https://adactio.com/journal/6801">incredibly excited</a> about the <a href="http://indiewebcamp.com/">Indie Web movement</a> and I am right there with him. I love the idea of owning your content and then syndicating it out to social networks, photo sites, and the like. It makes complete sense… <a href="http://www.gyford.com/phil/writing/2009/04/28/geocities.php">Web-based services have a habit of disappearing</a>, so we shouldn’t rely on them. The only Web that is permanent is the one we control.</p>
+
+<!-- more -->
+
+
+<p>But going down this rabbit hole got me wondering <em>how much do we really control?</em> And beyond that, <em>what do we own?</em></p>
+
+<p>To borrow <a href="http://aworkinglibrary.com/writing/index-cards/">a quote from Mandy Brown</a> (which also Jeremy referenced):</p>
+
+<blockquote><p>No one owns this domain but me, and no one but me can take it down. I will not wake up one morning to discover that my service has been “sunsetted” and I have some days or weeks to export my data (if I have that at all). These URLs will never break.</p></blockquote>
+
+<p>I don’t know if her statement is true. Idealistically, I want it to be true, but consider the following:</p>
+
+<ol>
+<li><strong>We rent domain names through registrars.</strong> We “purchase” domain names, but we must renew them from time to time to remain in control. Assuming you keep up the payments, they can still be <a href="http://www.wired.com/2012/03/feds-seize-foreign-sites/">seized for any number of reasons</a> or <a href="https://en.wikipedia.org/wiki/Domain_hijacking">they can be stolen</a>. Or the <a href="https://en.wikipedia.org/wiki/RegisterFly">registrar can go out of business</a> and you have to scramble to move it to a new registrar.</li>
+<li><strong>Most of us rent space on the Web.</strong> I can’t think of a single friend of mine who still personally hosts his or her website. As such, we are beholden to our hosts. Even if we keep on top of our payments, things can go wrong: They could <a href="https://wordpress.org/support/topic/acenet-hosting-crashed-and-lost-all-my-data-what-do-i-do-now">crash or have another issue</a> and <a href="http://www.startupsmart.com.au/technology/crazy-domains-loses-web-hosting-data-as-startups-suffer/2014051912326.html">lose all of our data</a>. <a href="http://www.danrichard.com/2014/03/30/p2lhosting-is-now-closed-thank-you-everyone/">They could go under</a>. Or they could simply <a href="http://webdesignfromscratch.com/blog/how-123reg-almost-crippled-my-business/">lose your domain</a>.</li>
+</ol>
+
+
+<p>Knowing all of this—and realizing that when I am dead and gone all of the content I created could be lost to the ether if my family doesn’t know how to keep things going or doesn’t care to keep making these payments—I am left wondering <em>how do we achieve the permanence of print on the Web?</em></p>
+
+<p>I don’t have any answers, so I pose it as an open question to the Indie Web community. If you have some thoughts, I encourage you to post them on your own site and use <a href="http://indiewebcamp.com/webmention">webmentions</a> to add them to this page.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[The Web Is for Everyone]]></title>
@@ -552,43 +582,6 @@ body {
 <li><a href="http://www.alistapart.com/articles/progressiveenhancementwithjavascript/">Progressive Enhancement with JavaScript</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Responsive Typography]]></title>
-    <link href="http://aaron-gustafson.com/notebook/2014/responsive-typography/"/>
-    <updated>2014-09-20T16:43:22-04:00</updated>
-    <id>http://aaron-gustafson.com/notebook/2014/responsive-typography</id>
-    <content type="html"><![CDATA[<p>I’m incredibly excited to see that <a href="https://twitter.com/jpamental">Jason Pamental</a>’s fantastic <a href="http://www.amazon.com/gp/product/1491907096/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=1491907096&amp;amp;linkCode=as2&amp;amp;tag=easydesign-20&amp;amp;linkId=JC6INFXF3DHODKEM"><cite>Responsive Typography</cite></a> is finally available. I had the great pleasure of reviewing an early galley and I can honestly say that it’s a book well worth reading. Jason’s natural and friendly style makes for an easy read and it’s chock-full of actionable recommendations and tips you’ll want to start using right away.</p>
-
-<!-- more -->
-
-
-<p>In fact, I think <cite>Responsive Typography</cite> is such an invaluable book, I offered to write the Foreword and Jason (and O’Reilly) have been kind enough to let me reprint it here:</p>
-
-<blockquote><p>Back in my day, all we had was the <code>font</code> element.</p>
-
-<p>I fully realize that makes me sound like an old man, but I’m not ready to chase young whippersnappers off my lawn quite yet. But the fact remains that when I taught myself how to build web pages back in the mid-’90s, our design options were fairly limited. Heck, my first experience on the Web was on a text-based browser that provided me access to page upon glorious page of stark, blocky Courier. White text. Black background. 100% responsive.</p>
-
-<p>When visual browsers finally hit the scene, ushering in images and the <code>font</code> element, we web designers finally had the opportunity to move out of monospace. I’ll leave it to Jason to delve into the history of typography on the Web, but the advent of visual browsers opened the floodgates for use (and abuse) of type online. It was the desktop publishing revolution all over again: a direct assault on the sensibilities of anyone with even the slightest understanding of typography.</p>
-
-<p>Over the years, we’ve made a lot of mistakes with web type: Fonts embedded in images. Fonts embedded in Flash. Fonts embedded in JavaScript. Many of those were attempts to bypass the gridlock created by browser makers, type foundries, and the W3C, who couldn’t come to a consensus on how to balance a desire for more type options on the Web while ensuring typographers got paid for all of their hard work. While they bickered, we soldiered on, looking for more accessible and maintainable ways to use more typefaces.</p>
-
-<p>And while we were busy tinkering with sIFR and Cufón, eagerly awaiting the day we could abandon those hacks and have real browser support for actual font formats, an army of little black rectangles had caught a whiff of the awesome content we were serving up to desktop browsers.</p>
-
-<p>Like ants at a Sunday picnic, these little black rectangles initially appeared one or two at a time. They were easily ignored, a nuisance. Nothing to take too seriously. But before we knew what was happening, that trickle turned into a flood and those little rectangles  were hungry. Instead of taking a crumb here and there—which we tossed to them with a great sense of self-satisfaction—these ambitious ants were carrying off whole deli trays and the friggin’ <cite>New York Times</cite>.</p>
-
-<p>These little black rectangles are, of course, the surge of handheld (or at least hand-holdable) devices that have been redefining our concept of “the Web” almost daily. They exhibit widely variable screen sizes: from about the size of a matchbook, to ones that are bigger than an extra large pizza. They sport a plethora of pixel densities, new interaction methods, unpredictable network connection speeds, and low-powered processors that can’t possibly compete with traditional laptop and desktop CPUs (not to mention a handful of different operating systems and browsers). All of these factors affect how—and even whether—your typographic choices will make it to your customers, and it’s a lot to take in.</p>
-
-<p>Thankfully, Jason has your back. The book you’re now reading is invaluable: it’s chock-full of useful approaches, practical code samples, and advice for dealing with typography in the age of responsive web design.</p>
-
-<p>By the time you finish this brief book, you’ll be ready to handle pretty much any device someone may throw at you. But hopefully they won’t. Devices are hard. And expensive.</p>
-
-<p>— Aaron Gustafson<br/>
-&nbsp;&nbsp;&nbsp;Author, <cite>Adaptive Web Design</cite></p></blockquote>
-
-<p>By the way, if you’re on a typography kick I’ll also recommend an second new book by another Jason I respect greatly: <a href="http://jasonsantamaria.com">Jason Santa Maria</a>’s <a href="http://www.abookapart.com/products/on-web-typography"><cite>On Web Typography</cite></a>. The two books books compliment each other perfectly, with very little overlap. They’d make an awesome bundle.</p>
 ]]></content>
   </entry>
   

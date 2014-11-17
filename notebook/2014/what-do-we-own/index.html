@@ -15,10 +15,10 @@
 
 
 
-<title>The Network Effect, From the Notebook of Aaron Gustafson</title>
-<meta property="og:title" content="The Network Effect">
+<title>What Do We Own?, From the Notebook of Aaron Gustafson</title>
+<meta property="og:title" content="What Do We Own?">
 
-<meta property="og:url" content="http://aaron-gustafson.com/notebook/2014/the-network-effect/">
+<meta property="og:url" content="http://aaron-gustafson.com/notebook/2014/what-do-we-own/">
 
 <meta name="author" content="Aaron Gustafson">
 <meta property="og:type" content="website">
@@ -26,8 +26,8 @@
 <meta property="og:image" content="http://aaron-gustafson.com/i/og-logo.png">
 <meta property="og:locale" content="en_US">
 
-<meta property="og:description" content="Comcast’s move to inject JavaScript into other people’s web pages via their XFinity routers only serves to remind us—yet again—that we don’t control how our sites are delivered or what our users see.">
-<meta name="description" content="Comcast’s move to inject JavaScript into other people’s web pages via their XFinity routers only serves to remind us—yet again—that we don’t control how our sites are delivered or what our users see.">
+<meta property="og:description" content="I love the “indie web” movement, but I wonder: When you begin to assert ownership over your content, how far do you go?">
+<meta name="description" content="I love the “indie web” movement, but I wonder: When you begin to assert ownership over your content, how far do you go?">
 
 
 
@@ -118,14 +118,14 @@ window.grunticon=function(e){if(e&&3===e.length){var t=window,n=!(!t.document.cr
 <article role="article" class="layout-container__primary">
 	<div class="entry">
 		<header class="entry__header">
-	     	<h1 class="entry__title entry-title">The Network Effect</h1>
+	     	<h1 class="entry__title entry-title">What Do We Own?</h1>
 
 			
 				<p class="entry__meta">
 	        		This will take 2 minutes to read
 
 					
-						| <a href="#disqus_thread" data-disqus-identifier="http://aaron-gustafson.com/notebook/2014/the-network-effect/">Comments</a>
+						| <a href="#disqus_thread" data-disqus-identifier="http://aaron-gustafson.com/notebook/2014/what-do-we-own/">Comments</a>
 						| <a href="#webmentions">Webmentions</a>
 	        		
 	      		</p>
@@ -134,34 +134,28 @@ window.grunticon=function(e){if(e&&3===e.length){var t=window,n=!(!t.document.cr
 	  	</header>
 
 		<div class="entry__content entry-content">
-			<p><cite>Ars Technica</cite> revealed today that <a href="http://arstechnica.com/tech-policy/2014/09/why-comcasts-javascript-ad-injections-threaten-security-net-neutrality/">Comcast is injecting self-promotional advertising into web pages delivered via it’s Wi-Fi hotspots</a>:</p>
-
-<blockquote cite="http://arstechnica.com/tech-policy/2014/09/why-comcasts-javascript-ad-injections-threaten-security-net-neutrality/">
-    <p>A Comcast spokesman told Ars the program began months ago. One facet of it is designed to alert consumers that they are connected to Comcast&#8217;s Xfinity service. Other ads remind Web surfers to download Xfinity apps, Comcast spokesman Charlie Douglas told Ars in telephone interviews.</p>
-</blockquote>
-
-
-<p>I wish I could say this is surprising, but it’s not: Any service that routes your content has the opportunity to modify the response being returned. Comcast is exploiting that opportunity and injecting JavaScript that, in turn, injects the ads.</p>
+			<p>My good friend <a href="http://adactio.com">Jeremy</a> is <a href="https://adactio.com/journal/6801">incredibly excited</a> about the <a href="http://indiewebcamp.com/">Indie Web movement</a> and I am right there with him. I love the idea of owning your content and then syndicating it out to social networks, photo sites, and the like. It makes complete sense… <a href="http://www.gyford.com/phil/writing/2009/04/28/geocities.php">Web-based services have a habit of disappearing</a>, so we shouldn’t rely on them. The only Web that is permanent is the one we control.</p>
 
 <!-- more -->
 
 
-<p>The fact that middlemen can manipulate server responses is one reason <a href="https://www.youtube.com/watch?v=cBhZ6S0PFCY">Google is pushing for all sites to be served under HTTPS</a>. With traffic running to and from your server in an encrypted fashion, <a href="http://en.wikipedia.org/wiki/Man-in-the-middle_attack">man-in-the-middle attacks</a>—which, if we’re honest, is what this amounts to—become much more difficult.</p>
+<p>But going down this rabbit hole got me wondering <em>how much do we really control?</em> And beyond that, <em>what do we own?</em></p>
 
-<p>Assuming you can’t run under HTTPS for one reason or another, how do you harden your <a href="https://adactio.com/journal/6246">web thang</a> against 3rd party manipulation you can’t control? What if Comcast’s JavaScript interferes with your own? Remember when <a href="http://www.theguardian.com/technology/2014/jan/28/sky-broadband-blocks-jquery-web-critical-plugin">Sky blocked jQuery for all of their customers</a>? That was a bad couple of hours for most UK-based internet users.</p>
+<p>To borrow <a href="http://aworkinglibrary.com/writing/index-cards/">a quote from Mandy Brown</a> (which also Jeremy referenced):</p>
 
-<p>Comcast’s move only serves to remind us—yet again—that we don’t control how our sites are delivered or what our users see. Or rather we do, but only up to a point. So rather than focus on some ideal experience we expect everyone to have, we must focus on building great experiences that work in a variety of contexts and situations.</p>
+<blockquote><p>No one owns this domain but me, and no one but me can take it down. I will not wake up one morning to discover that my service has been “sunsetted” and I have some days or weeks to export my data (if I have that at all). These URLs will never break.</p></blockquote>
 
-<p>We need to develop <a href="http://en.wikipedia.org/wiki/Demolition_derby#Vehicles">the 1964 Chrysler Imperial</a> of websites: Sites that soldier on even when they are getting pummeled from all sides. After all, browsers, plug-ins, users, networks, and, yes, even the very routers that deliver our connections all have a say in how (and what) content gets to our users.</p>
+<p>I don’t know if her statement is true. Idealistically, I want it to be true, but consider the following:</p>
 
-<p>I’ll leave you with this scary quote from the <cite>Ars</cite> piece:</p>
+<ol>
+<li><strong>We rent domain names through registrars.</strong> We “purchase” domain names, but we must renew them from time to time to remain in control. Assuming you keep up the payments, they can still be <a href="http://www.wired.com/2012/03/feds-seize-foreign-sites/">seized for any number of reasons</a> or <a href="https://en.wikipedia.org/wiki/Domain_hijacking">they can be stolen</a>. Or the <a href="https://en.wikipedia.org/wiki/RegisterFly">registrar can go out of business</a> and you have to scramble to move it to a new registrar.</li>
+<li><strong>Most of us rent space on the Web.</strong> I can’t think of a single friend of mine who still personally hosts his or her website. As such, we are beholden to our hosts. Even if we keep on top of our payments, things can go wrong: They could <a href="https://wordpress.org/support/topic/acenet-hosting-crashed-and-lost-all-my-data-what-do-i-do-now">crash or have another issue</a> and <a href="http://www.startupsmart.com.au/technology/crazy-domains-loses-web-hosting-data-as-startups-suffer/2014051912326.html">lose all of our data</a>. <a href="http://www.danrichard.com/2014/03/30/p2lhosting-is-now-closed-thank-you-everyone/">They could go under</a>. Or they could simply <a href="http://webdesignfromscratch.com/blog/how-123reg-almost-crippled-my-business/">lose your domain</a>.</li>
+</ol>
 
-<blockquote cite="http://arstechnica.com/tech-policy/2014/09/why-comcasts-javascript-ad-injections-threaten-security-net-neutrality/">
-    <p>Security expert Dan Kaminsky said in an e-mail that JavaScript injection has the potential to break “all sorts of stuff, in that you no longer know as a website developer precisely what code is running in browsers out there. You didn&#8217;t send it, but your customers received it.”</p>
-</blockquote>
 
+<p>Knowing all of this—and realizing that when I am dead and gone all of the content I created could be lost to the ether if my family doesn’t know how to keep things going or doesn’t care to keep making these payments—I am left wondering <em>how do we achieve the permanence of print on the Web?</em></p>
 
-<p>Hooray!</p>
+<p>I don’t have any answers, so I pose it as an open question to the Indie Web community. If you have some thoughts, I encourage you to post them on your own site and use <a href="http://indiewebcamp.com/webmention">webmentions</a> to add them to this page.</p>
 
 		</div>
 
@@ -171,10 +165,10 @@ window.grunticon=function(e){if(e&&3===e.length){var t=window,n=!(!t.document.cr
 
 <div class="post__sharing">
 	<p>If you liked this, would you mind sharing it?
-		<a class="share_link share_link--twitter" href="https://twitter.com/intent/tweet?original_referer=http://aaron-gustafson.com/notebook/2014/the-network-effect/&amp;source=tweetbutton&amp;text=The+Network+Effect&amp;url=http://aaron-gustafson.com/notebook/2014/the-network-effect/">Share on Twitter</a>
-		<a class="share_link share_link--facebook" href="http://www.facebook.com/sharer.php?u=http://aaron-gustafson.com/notebook/2014/the-network-effect/">Post on Facebook</a>
-		<a class="share_link share_link--linkedin" href="https://www.linkedin.com/cws/share?url=http://aaron-gustafson.com/notebook/2014/the-network-effect/&amp;original_referer=http://aaron-gustafson.com/notebook/2014/the-network-effect/">Share on LinkedIn</a>
-		<a class="share_link share_link--googleplus" href="https://plus.google.com/share?url=http://aaron-gustafson.com/notebook/2014/the-network-effect/">Share on Google+</a>
+		<a class="share_link share_link--twitter" href="https://twitter.com/intent/tweet?original_referer=http://aaron-gustafson.com/notebook/2014/what-do-we-own/&amp;source=tweetbutton&amp;text=What+Do+We+Own?&amp;url=http://aaron-gustafson.com/notebook/2014/what-do-we-own/">Share on Twitter</a>
+		<a class="share_link share_link--facebook" href="http://www.facebook.com/sharer.php?u=http://aaron-gustafson.com/notebook/2014/what-do-we-own/">Post on Facebook</a>
+		<a class="share_link share_link--linkedin" href="https://www.linkedin.com/cws/share?url=http://aaron-gustafson.com/notebook/2014/what-do-we-own/&amp;original_referer=http://aaron-gustafson.com/notebook/2014/what-do-we-own/">Share on LinkedIn</a>
+		<a class="share_link share_link--googleplus" href="https://plus.google.com/share?url=http://aaron-gustafson.com/notebook/2014/what-do-we-own/">Share on Google+</a>
 	</p>
 </div>
 		    
@@ -197,8 +191,8 @@ window.grunticon=function(e){if(e&&3===e.length){var t=window,n=!(!t.document.cr
 
 
 
-		<time class="entry-date" datetime="2014-09-08T16:40:44-04:00"
-			 data-updated="true">08 September 2014</time>
+		<time class="entry-date" datetime="2014-11-17T09:43:54-05:00"
+			 data-updated="true">17 November 2014</time>
 	  
 				<b class="hidden">by <a class="entry__author" href="/about">Aaron Gustafson</a></b>
 				and was filed under: 
@@ -206,7 +200,7 @@ window.grunticon=function(e){if(e&&3===e.length){var t=window,n=!(!t.document.cr
 
 	<span class="post__categories">
 		
-			<a class='category' href='/notebook/tags/javascript/'>javascript</a>, <a class='category' href='/notebook/tags/web-design/'>web design</a>
+			<a class='category' href='/notebook/tags/decentralization/'>decentralization</a>, <a class='category' href='/notebook/tags/indie-web/'>indie web</a>, <a class='category' href='/notebook/tags/self-publishing/'>self-publishing</a>, <a class='category' href='/notebook/tags/web-design/'>web design</a>
 		
 	</span>
 
@@ -308,7 +302,7 @@ window.grunticon=function(e){if(e&&3===e.length){var t=window,n=!(!t.document.cr
 		<footer role="contentinfo" class="footer">
 	
 	
-		<p class="footer__fork-me">Did you spot a typo or error? Eesh. <a href="https://github.com/aarongustafson/aarongustafson.github.io/tree/source/source/2014-09-08-the-network-effect.markdown">Would you mind fixing it for me?</a> You’re so awesome.</p>
+		<p class="footer__fork-me">Did you spot a typo or error? Eesh. <a href="https://github.com/aarongustafson/aarongustafson.github.io/tree/source/source/2014-11-17-what-do-we-own.markdown">Would you mind fixing it for me?</a> You’re so awesome.</p>
 	
 	
 	<p class="footer__copyright"><b id="license">The content of this site is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons</a>.</b> <b>The site itself is powered by <a href="http://octopress.org">Octopress</a> and is <a href="https://github.com/aarongustafson/aarongustafson.github.io/">forkable on Github</a>.</b></p>
@@ -323,8 +317,8 @@ window.grunticon=function(e){if(e&&3===e.length){var t=window,n=!(!t.document.cr
 		
 			
 			// disqus_developer = 1,
-			disqus_identifier = 'http://aaron-gustafson.com/notebook/2014/the-network-effect/',
-			disqus_url = 'http://aaron-gustafson.com/notebook/2014/the-network-effect/',
+			disqus_identifier = 'http://aaron-gustafson.com/notebook/2014/what-do-we-own/',
+			disqus_url = 'http://aaron-gustafson.com/notebook/2014/what-do-we-own/',
 			disqus_script = 'embed.js';
 		
 		(function () {
