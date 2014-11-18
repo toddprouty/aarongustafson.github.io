@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2014-11-18T16:58:41-05:00</updated>
+  <updated>2014-11-18T18:23:29-05:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -12,6 +12,65 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Enabling Webmentions in Jekyll]]></title>
+    <link href="http://aaron-gustafson.com/notebook/2014/enabling-webmentions-in-jekyll/"/>
+    <updated>2014-11-18T17:01:08-05:00</updated>
+    <id>http://aaron-gustafson.com/notebook/2014/enabling-webmentions-in-jekyll</id>
+    <content type="html"><![CDATA[<p>While I am really happy with my choice to move away from a dynamic website/blog to a static one—powered by <a href="http://octopress.org/">Octopress</a>, hosted for free on <a href="https://github.com">Github</a>—it’s been pretty limiting when it comes to integrating comments and other more necessarily dynamic components.</p>
+
+<!-- more -->
+
+
+<p>Like many folks in the Octopress/Jekyll community, I’ve opted to use <a href="https://disqus.com/websites/">Disqus’ free service to manage comments</a>, but I’m not in love with it. First of all, it requires JavaScript. You know <a href="/notebook/2014/a-fundamental-disconnect/">my stance on that</a>. Now I’m willing to accept comments as an <a href="https://en.wikipedia.org/wiki/Progressive_enhancement">enhancement</a> to the reading process, but it doesn’t mean I like the situation. Secondly, they control the content and if they go away, so do all of your comments.</p>
+
+<p>I’ve become quite intrigued by the potential of <a href="http://indiewebcamp.com/webmention">webmentions</a> as a way of taking back control of our content. They are a brilliant way to loosely connect related posts on personal blogs and third-parties like Twitter, Facebook, and Google+. With my mind unable to think about anything else, I decided to see what it would take to get webmentions up and running here.</p>
+
+<p>At first I went to <a href="http://aaronparecki.com/">Aaron Parecki</a>’s <a href="http://webmention.io">webmention.io</a> project and looked through <a href="https://github.com/aaronpk/webmention.io/blob/master/README.md">the docs</a>. It looked like it could fit the bill, but I noticed there was no way to directly apply for an account, so I moved on to <a href="http://voxpelli.com/">Pelle Wessman</a>’s <a href="https://webmention.herokuapp.com/">webmention Heroku app</a>.</p>
+
+<p>I really like Pelle’s solution and easily implemented it locally, but the JavaScript reliance was nagging at me. I returned to webmention.io and decided to <a href="https://twitter.com/aarongustafson/status/534394789152948224">reach out to Aaron</a> on the off change he’d give me access to his service. <a href="https://twitter.com/aaronpk/status/534398408815964160">He responded pretty quickly</a> and I was off to the races.</p>
+
+<p>In preparation for building my plugin, I looked over a few other Jekyll plugins (Octopress is built on Jekyll) and got a sense of the structure and how to go about creating a <a href="https://github.com/Shopify/liquid/wiki/Liquid-for-Programmers#create-your-own-tags">Liquid tag</a> (Liquid being the default templating language used by Jekyll). Then I created a new Ruby file and got cracking. Now I’ll warn you, I don’t normally write Ruby. The last time I did it professionally was when <a href="https://github.com/rails/rails/tree/v0.12.0">Rails was at 0.12</a>, so that should tell you something. That said, it was pretty easy to get back into the flow and I managed to put together <a href="https://github.com/aarongustafson/jekyll-webmention_io">a basic Liquid Tag for webmentions and webmention counts</a> in about two hours.</p>
+
+<p>The tag to display webentions for a page is pretty simple:</p>
+
+<p><div><script src='https://gist.github.com/cb15ead6bf3a72b8f92a.js?file=webmentions.html'></script>
+<noscript><pre><code>{% webmentions YOUR_URL %}</code></pre></noscript></div>
+</p>
+
+<p>This tag outputs a container <code>div</code> and an ordered list of every webmention found when the site is generated (or previewed). To show the current webmention count, you use a slightly different tag which just outputs a number:</p>
+
+<p><div><script src='https://gist.github.com/cb15ead6bf3a72b8f92a.js?file=webmention_count.html'></script>
+<noscript><pre><code>{% webmention_count YOUR_URL %}</code></pre></noscript></div>
+</p>
+
+<p>These two tags allows me to bypass the JavaScript used in webmention.io’s integration examples and have Ruby consult the API directly. The plugin then creates the necessary markup using the JSON data the API provided.</p>
+
+<p>Unfortunately, Liquid tags are only processed by Jekyll when the site is compiled. The actual site exists only as static HTML files on Github’s servers, so any webmentions created after I generate the site won’t show up. That’s a little less than ideal.</p>
+
+<p>I don’t regenerate the site that often, nor do I want to set up a cron to automatically do it in order to update the webmentions. I took the afternoon to mull over some options to address this challenge. <em>How do I add in missing webmentions dynamically when the site itself is static?</em></p>
+
+<p>Then it dawned on me: JavaScript can fill in the gaps. Using the examples Aaron had put together, I cobbled together a script to update the webmention list and fill in any missing mentions. In the interest of reducing dependencies, I used <a href="http://vanilla-js.com">the infamous Vanilla.js library</a> to create and insert new webmentions when the page was loaded.</p>
+
+<p>And, as an added bonus, I adapted another bit of Aaron’s code to make the webmention list update in real time as new mentions are created elsewhere on the Web. The code uses <a href="http://www.w3.org/TR/websockets/">WebSockets</a>, <a href="http://caniuse.com/#feat=websockets">if available</a>, to make the magic happen. It’s pretty nifty and I tip my hat to Aaron for implementing that feature in the webmention.io service.</p>
+
+<p>It’s been a pretty fun mini-project. In the end, I created a useful bit of kit that provides three distinct experiences:</p>
+
+<ol>
+<li>Static webmentions collected when the site was generated form the baseline experience;</li>
+<li>JavaScript-enabled browsers get any webmentions that were published since I last generated the site; and</li>
+<li>JavaScript-enabled browsers with WebSockets support get real-time updates with any webmentions that are published after the page loads.</li>
+</ol>
+
+
+<p>And, even better, the next time I generate the site, any missing webmentions will be inserted into the static files for safe keeping.</p>
+
+<p>That’s a pretty nice continuum of experience if you ask me.</p>
+
+<p>If you are a Jekyll or Octopress user, you can pick up <a href="https://github.com/aarongustafson/jekyll-webmention_io">the plugin and optional JavaScript file on Github</a>. Feel free to fork and sent me your bug fixes and enhancements.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[What Do We Own?]]></title>
@@ -550,38 +609,6 @@ body {
 <p>Honestly, I love using variables… in the source files I use with a preprocessor. Given the potential loss of browser support, the pointless fallbacks I’d have to use if I wanted to continue supporting older browsers, the existence of numerous preprocessor options that solve the abstraction problem in a backward- and forward-compatible way, and the fact that CSS variables would make browsers have to work even harder to achieve the desired result, I’m not convinced we need them.</p>
 
 <p>CSS variables are a bad idea.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Google Embraces Progressive Enhancement]]></title>
-    <link href="http://aaron-gustafson.com/notebook/2014/google-embraces-progressive-enhancement/"/>
-    <updated>2014-10-28T21:07:35-04:00</updated>
-    <id>http://aaron-gustafson.com/notebook/2014/google-embraces-progressive-enhancement</id>
-    <content type="html"><![CDATA[<p>In case you missed it, <a href="http://googlewebmastercentral.blogspot.com/2014/10/updating-our-technical-webmaster.html">yesterday Pierre Far updated Google’s Webmaster Guidelines</a>. In his post, Pierre lays out their case for <a href="https://en.wikipedia.org/wiki/Progressive_enhancement">progressive enhancement</a>:</p>
-
-<blockquote><p>Just like modern browsers, our rendering engine might not support all of the technologies a page uses. Make sure your web design adheres to the principles of progressive enhancement as this helps our systems (and a wider range of browsers) see usable content and basic functionality when certain web design features are not yet supported.</p></blockquote>
-
-<!-- more -->
-
-
-<p>As someone who has been beating the drum for progressive enhancement for over a decade, this sort of support from such an influential company gets me a little teary-eyed.</p>
-
-<p>It’s nice to see Steve Champeon’s philosophy for web design finally beginning to gain traction outside of the ivory tower of Web standards. It is a fantastic philosophy that has been guiding our work since Steve unveiled it. And it has paid some handsome dividends for both us and our clients.</p>
-
-<p>If you need help wrapping your head around progressive enhancement, you should read <a href="#fn-2014-10-28">my introductory series for <cite>A List Apart</cite></a>. If you want more, there’s also <a href="http://adaptivewebdesign.info">my book on progressive enhancement: <cite>Adaptive Web Design</cite></a>. And if you need help getting your team up to speed, I’m more than happy to hop on a plane and come to you. Just <a href="/contact/">drop me a line</a>. I have helped many companies embrace this philosophy and have seen it improve their productivity, increase their reach by supporting more devices, and improve the accessibility of their products. Oh… and <a href="http://blog.easy-designs.net/archives/the-true-cost-of-progressive-enhancement">progressive enhancement has saved our clients real money and reduced their time to market</a>.</p>
-
-<p>I don’t tend to be a “magic pill” kind of believer, but I can honestly say that embracing progressive enhancement can radically change your business for the better. And I’m glad to see Google agrees with me.</p>
-
-<h2 id="fn-2014-10-28">My (still-relevant) 2008 series on Progressive Enhancement</h2>
-
-
-<ol>
-<li><a href="http://www.alistapart.com/articles/understandingprogressiveenhancement/">Understanding Progressive Enhancement</a></li>
-<li><a href="http://www.alistapart.com/articles/progressiveenhancementwithcss/">Progressive Enhancement with CSS</a></li>
-<li><a href="http://www.alistapart.com/articles/progressiveenhancementwithjavascript/">Progressive Enhancement with JavaScript</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
