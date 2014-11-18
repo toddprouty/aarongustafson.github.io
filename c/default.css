@@ -813,19 +813,23 @@ main {
 /*------------------------------------*\
     Gist
 \*------------------------------------*/
-.gist table {
+div.gist {
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+div.gist table {
   margin: 0;
 }
-.gist table .line-numbers {
+div.gist table .line-numbers {
   width: 3em;
 }
-.gist table .line-numbers,
-.gist table .gist-meta {
+div.gist table .line-numbers,
+div.gist table .gist-meta {
   speak: none;
 }
-.gist table,
-.gist tbody,
-.gist div.file-data {
+div.gist table,
+div.gist tbody,
+div.gist div.file-data {
   font-size: 100%;
 }
 
