@@ -1,3 +1,11 @@
+/**
+ *  WebMentions.io JS
+ *  A re-tooling of Aaron Parecki’s recommended JS for using the WebMention.io API
+ * 
+ *  Updates Webmentions on a static site immediately when the page is loaded and
+ *  in real-time (using WebSockets) as the user engages with the page.
+ */
+    
 ;(function(window){
     
     if ( !( 'AG' in window ) ){ window.AG = {}; }
@@ -18,9 +26,6 @@
         json_webmentions,
         this_page = window.location.href;
 
-    // make sure we always have the reference
-    this_page = this_page.replace( 'localhost:4000', 'aaron-gustafson.com' );
-        
     // bail early
     if ( $webmentions_list.length < 1 ){ return; }
     $webmentions_list = $webmentions_list[0];
