@@ -195,8 +195,11 @@
     }
     
     window.AG.processWebmentions = function( data ){
-        data.links.reverse();
-        data.links.forEach( addMention );
+        if ( ! ( 'error' in data ) )
+        {
+            data.links.reverse();
+            data.links.forEach( addMention );
+        }
     };
     
     // Load up any unpublished webmentions on load
