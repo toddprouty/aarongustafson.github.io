@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2014-11-20T07:29:38-05:00</updated>
+  <updated>2014-11-21T17:25:49-05:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -12,6 +12,233 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Adaptive Images in ExpressionEngine With CE Image]]></title>
+    <link href="http://aaron-gustafson.com/notebook/2014/adaptive-images-in-expressionengine-with-ce-image/"/>
+    <updated>2014-11-21T18:18:23-05:00</updated>
+    <id>http://aaron-gustafson.com/notebook/2014/adaptive-images-in-expressionengine-with-ce-image</id>
+    <content type="html"><![CDATA[<p>One of the biggest headaches of responsive design has been dealing with images. Thankfully our work on the <a href="http://ricg.io">Responsive <del>Images</del> <ins>Issues</ins> Community Group</a> has resulted in a rock-solid set of elements and attributes to address all of your adaptive image needs. My company, <a href="http://easy-designs.net">Easy Designs</a>, recently redesigned <a href="http://www.nichols.edu">Nichols College’s website</a> and that project just happened to coincide adaptive images landing in <a href="http://www.chromium.org/blink">Blink</a> (the rendering engine that powers Chrome and Opera). Naturally, we jumped at the opportunity to use them.</p>
+
+<!-- more -->
+
+
+<p>Most Nichols College sites run on <a href="http://ellislabs.com/expressionengine">EllisLab’s ExpressionEngine</a>, a solid little workhorse of a CMS we’ve been using for years. We love it because it gives us complete control over the markup it generates. Now EE offers some pretty decent file management and image manipulation utilities out of the box, but the options it provides were not enough to handle our adaptive image needs; we needed backup. <a href="http://www.causingeffect.com/software/expressionengine/ce-image">Causing Effect’s CE Image</a> add-on is reasonably priced and offered exactly the functionality we needed to make our adaptive image dreams a reality.</p>
+
+<p>I won’t bore you with how to set up CE Image as there is <a href="http://www.causingeffect.com/software/expressionengine/ce-image/user-guide">documentation on that</a>, but I will walk you through two different responsive image use-cases we had and how we addressed them using this add-on.</p>
+
+<h2>Header images</h2>
+
+<p>The first use case we had was a series of large, focal images. You can find different examples of them on <a href="http://www.nichols.edu">the homepage</a> and landing pages (like <a href="http://www.nichols.edu/admissions/">this one for Admissions</a>). The first pass on making these images adaptive involved the <code>picture</code> element for which <a href="https://html.spec.whatwg.org/multipage/embedded-content.html#adaptive-images">the spec</a> is known. The markup we were generating was based on the pattern outlined for <a href="http://scottjehl.github.io/picturefill/">Picturefill</a>, a JavaScript polyfill that implements adaptive images in browsers that don’t do it natively:</p>
+
+<p><div><script src='https://gist.github.com/96dd157a0206d59ac30a.js?file=picture-result.html'></script>
+<noscript><pre><code>&lt;picture class=&quot;page__image-header__photo&quot;&gt;
+    &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
+    &lt;source srcset=&quot;about_940_343_int_s_c1_full.jpg&quot; media=&quot;(min-width: 40em)&quot;&gt;
+    &lt;source srcset=&quot;about_800_350_int_c1_medium.jpg&quot; media=&quot;(min-width: 20em)&quot;&gt;
+    &lt;source srcset=&quot;about_480_350_int_c1_small.jpg&quot;&gt;
+    &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
+    &lt;script&gt;
+      document.write(&#39;&lt;img src=&quot;&quot; srcset=&quot;{made}&quot; alt=&quot;&quot;&gt;&#39;);
+    &lt;/script&gt;
+    &lt;noscript&gt;
+        &lt;p class=&quot;noscript-picture&quot;&gt;&lt;img src=&quot;{made}&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    &lt;/noscript&gt;
+&lt;/picture&gt;</code></pre></noscript></div>
+</p>
+
+<p>To get to that point, however, we needed to use CE Image to generate (and cache) the specific sizes we needed:</p>
+
+<p><div><script src='https://gist.github.com/96dd157a0206d59ac30a.js?file=picture-element.html'></script>
+<noscript><pre><code>&lt;picture class=&quot;page__image-header__photo&quot;&gt;
+    &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
+    {exp:ce_img:pair
+        src=&quot;{content_focal_image}&quot;
+        filename_suffix=&quot;_full&quot;
+        width=&quot;940&quot;
+        allow_scale_larger=&quot;yes&quot;
+        crop=&quot;yes&quot;
+        interlace=&quot;yes&quot;
+        cache_dir=&quot;/&quot;
+        }
+        &lt;source srcset=&quot;{made}&quot; media=&quot;(min-width: 40em)&quot;&gt;
+    {/exp:ce_img:pair}
+    {exp:ce_img:pair
+        src=&quot;{content_focal_image}&quot;
+        filename_suffix=&quot;_medium&quot;
+        width=&quot;800&quot;
+        height=&quot;600&quot;
+        crop=&quot;yes&quot;
+        interlace=&quot;yes&quot;
+        cache_dir=&quot;/&quot;
+        }
+        &lt;source srcset=&quot;{made}&quot; media=&quot;(min-width: 20em)&quot;&gt;
+    {/exp:ce_img:pair}
+    {exp:ce_img:pair
+        src=&quot;{content_focal_image}&quot;
+        filename_suffix=&quot;_small&quot;
+        width=&quot;480&quot;
+        height=&quot;360&quot;
+        crop=&quot;yes&quot;
+        interlace=&quot;yes&quot;
+        cache_dir=&quot;/&quot;
+        }
+        &lt;source srcset=&quot;{made}&quot;&gt;
+        &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
+        &lt;script&gt;
+            document.write(&#39;&lt;img src=&quot;&quot; srcset=&quot;{made}&quot; alt=&quot;&quot;&gt;&#39;);
+        &lt;/script&gt;
+        &lt;noscript&gt;
+            &lt;p class=&quot;noscript-picture&quot;&gt;&lt;img src=&quot;{made}&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+        &lt;/noscript&gt;
+    {/exp:ce_img:pair}
+&lt;/picture&gt;
+</code></pre></noscript></div>
+</p>
+
+<p>Not what’s a lot of code, so let’s just look at one segment of that jumble:</p>
+
+<p><div><script src='https://gist.github.com/96dd157a0206d59ac30a.js?file=picture-excerpt.html'></script>
+<noscript><pre><code>{exp:ce_img:pair
+    src=&quot;{content_focal_image}&quot;
+    filename_suffix=&quot;_full&quot;
+    width=&quot;940&quot;
+    allow_scale_larger=&quot;yes&quot;
+    crop=&quot;yes&quot;
+    interlace=&quot;yes&quot;
+    cache_dir=&quot;/&quot;
+    }
+    &lt;source srcset=&quot;{made}&quot; media=&quot;(min-width: 40em)&quot;&gt;
+{/exp:ce_img:pair}</code></pre></noscript></div>
+</p>
+
+<p>This is an example using CE Image’s tag pair option, which lets you control the markup output. In the opening tag, we set several properties:</p>
+
+<ul>
+<li><code>src</code> is the path to the original image uploaded by content authors;</li>
+<li><code>filename_suffix</code> is the suffix we want added to the cached file to differentiate it from others in the cache (and make the files more easily scannable);</li>
+<li><code>width</code> is our desired output width for the generated image;</li>
+<li><code>allow_scale_larger</code> does exactly what you’d expect: it dictates whether or not CE Image should scale the image to reach the desired width;</li>
+<li><code>crop</code> tells CE Image whether it’s okay to crop the image;</li>
+<li><code>interlace</code> tells CE Image to use image interlacing (which can speed load time); and</li>
+<li><code>cache_dir</code> tells CE Image where to store the cached image (in relation to our global configuration)</li>
+</ul>
+
+
+<p>Then, within the tag pair is the <code>source</code> element with the <code>srcset</code> value set to the path to the file CE Image generated (referenced by the <code>made</code> variable) and the associated media query.</p>
+
+<p>Multiply that a few times for the different sizes and you have the full <code>picture</code> element.</p>
+
+<p>Now that’s all well and good, but shortly after launch, <a href="http://ericportis.com/">Eric Portis</a> wrote <a href="http://ericportis.com/posts/2014/srcset-sizes/">an amazing post explaining how the <code>srcset</code> and <code>sizes</code> attributes operate</a> and it cleared up a lot of my confusion on the matter. He convinced me that the age-old <code>img</code> element, with these new attributes, would be far more maintainable. With a fire in my belly, I rewrote the markup:</p>
+
+<p><div><script src='https://gist.github.com/96dd157a0206d59ac30a.js?file=simple-resize.html'></script>
+<noscript><pre><code>&lt;img class=&quot;page__image-header__photo&quot; alt=&quot;&quot;
+    {exp:ce_img:pair
+        src=&quot;{embed:image}&quot;
+        filename_suffix=&quot;_small&quot;
+        width=&quot;480&quot;
+        height=&quot;320&quot;
+        crop=&quot;yes&quot;
+        interlace=&quot;yes&quot;
+        cache_dir=&quot;/&quot;
+        } 
+        src=&quot;{made}&quot;
+        srcset=&quot;{made} 480w,
+    {/exp:ce_img:pair}
+    {exp:ce_img:pair
+        src=&quot;{embed:image}&quot;
+        filename_suffix=&quot;_medium&quot;
+        width=&quot;800&quot;
+        height=&quot;600&quot;
+        crop=&quot;yes&quot;
+        interlace=&quot;yes&quot;
+        cache_dir=&quot;/&quot;
+        }
+        {made} 800w,
+    {/exp:ce_img:pair}
+    {exp:ce_img:pair
+        src=&quot;{embed:image}&quot;
+        filename_suffix=&quot;_full&quot;
+        width=&quot;940&quot;
+        allow_scale_larger=&quot;yes&quot;
+        crop=&quot;yes&quot;
+        interlace=&quot;yes&quot;
+        cache_dir=&quot;/&quot;
+        }
+        {made} 940w&quot;
+    {/exp:ce_img:pair}
+    &gt;</code></pre></noscript></div>
+</p>
+
+<p>The CE Image behavior is exactly the same, but the resulting markup is much clearer:</p>
+
+<p><div><script src='https://gist.github.com/96dd157a0206d59ac30a.js?file=srcset-result.html'></script>
+<noscript><pre><code>&lt;img class=&quot;page__image-header__photo&quot; alt=&quot;&quot;
+     src=&quot;about_480_320_int_c1_small.jpg&quot;
+     srcset=&quot;about_480_320_int_c1_small.jpg 480w,
+             about_800_350_int_c1_medium.jpg 800w,
+             about_940_343_int_s_c1_full.jpg 940w&quot;&gt;</code></pre></noscript></div>
+</p>
+
+<p>The added bonus of this approach is that I am not hard-coding any media queries and the browser gets to make the ultimate decision of which image to request. All I am doing is telling the browser the image options and their respective widths within the <code>srcset</code> attribute. As all of the images take up 100% of their containers, I didn’t even need to use the <code>sizes</code> attribute. Easy peasy.</p>
+
+<h2>&ldquo;Nice to Have&rdquo; Images</h2>
+
+<p>Not every image adds something to the page. Some are purely optional, a visual enhancement. In order to reduce the size of pages on smaller screens, we often choose to &ldquo;lazy load&rdquo; certain image assets after page load, when we know there is enough room to display the image or when we feel it would be an enhancement to the design.</p>
+
+<p>Now some of you might be wondering: <em>Why not just <code>display:none</code> below a certain threshold?</em> Well, I’ll tell you: images that are hidden with CSS are still requested by the browser. That means users who don’t see the images are still paying to download them (whether in terms of time waiting for the page to render or actual money on a metered connection). That kinda sucks for them. We should show our users a bit more respect and only request the images when we need them.</p>
+
+<p>We wrote <a href="https://github.com/easy-designs/easy-lazy-images.js">a lazy-loading image script</a> a few years back and have battle tested it on numerous sites to great success. It’s all based on a simple markup pattern:</p>
+
+<p><div><script src='https://gist.github.com/96dd157a0206d59ac30a.js?file=lazy-loaded-markup.html'></script>
+<noscript><pre><code>&lt;div class=&quot;module__image image--lazy&quot;
+     data-image-src=&quot;Tim-Smith_220x140_220_140_int_c1.jpg&quot;&gt;&lt;/div&gt;</code></pre></noscript></div>
+</p>
+
+<p>The <code>data-img-src</code> attribute defines the path to the &ldquo;nice to have&rdquo; image and then the JavaScript adds the image element into the page when the appropriate conditions are met:</p>
+
+<p><div><script src='https://gist.github.com/96dd157a0206d59ac30a.js?file=lazy-loaded-result.html'></script>
+<noscript><pre><code>&lt;div class=&quot;module__image image--lazy&quot;
+    data-image-src=&quot;Tim-Smith_220x140_220_140_int_c1.jpg&quot;
+    data-image-loaded=&quot;&quot;
+    &gt;
+    &lt;img alt=&quot;&quot; src=&quot;Tim-Smith_220x140_220_140_int_c1.jpg&quot;&gt;
+&lt;/div&gt;</code></pre></noscript></div>
+</p>
+
+<p>Pretty simple. It even supports <code>srcset</code>:</p>
+
+<p><div><script src='https://gist.github.com/96dd157a0206d59ac30a.js?file=lazy-loaded-srcset.html'></script>
+<noscript><pre><code>&lt;div class=&quot;module__image image--lazy&quot;
+     data-image=&quot;about_480_320_int_c1_small.jpg&quot;
+     data-image-srcset=&quot;about_480_320_int_c1_small.jpg 480w,
+                      about_800_350_int_c1_medium.jpg 800w,
+                      about_940_343_int_s_c1_full.jpg 940w&quot;&gt;&lt;/div&gt;</code></pre></noscript></div>
+</p>
+
+<p>The <a href="https://github.com/easy-designs/easy-lazy-images.js#usage">full documentation is up on Github</a>.</p>
+
+<p>Implementing this in the context of CE Image was a breeze and builds on the <code>source</code> pattern I showed earlier:</p>
+
+<p><div><script src='https://gist.github.com/96dd157a0206d59ac30a.js?file=lazy-loading.html'></script>
+<noscript><pre><code>{if testimonial_photo}
+    {exp:ce_img:pair
+        src=&quot;{testimonial_photo}&quot;
+        width=&quot;223&quot;
+        height=&quot;140&quot;
+        allow_scale_larger=&quot;yes&quot;
+        crop=&quot;yes&quot;
+        interlace=&quot;yes&quot;
+        cache_dir=&quot;/&quot;
+        }
+        &lt;div class=&quot;module__image image--lazy&quot; data-image-src=&quot;{made}&quot;&gt;&lt;/div&gt;
+    {/exp:ce_img:pair}
+{/if}</code></pre></noscript></div>
+</p>
+
+<p>We are only just beginning to scratch the surface of what’s possible with adaptive images and I am sure we will come up with newer, better ways to do this stuff. Heck, there may even be an adaptive images add-on in the pipeline for ExpressionEngine. But, in the meantime, if you are trying to implement adaptive images with ExpressionEngine, CE Image is a good way to go.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Enabling Webmentions in Jekyll]]></title>
@@ -520,95 +747,6 @@ Screen Reader: ChromeVox</div>
 <p><strong>Update:</strong> <a href="https://twitter.com/stevefaulkner">Steve Faulkner</a> shared a doc that discusses <a href="http://rawgit.com/w3c/aria/master/html-aam/html-aam.html#accessible-name-and-description-calculation">how accessible names and descriptions are calculated</a>. Thanks Steve!</p>
 
 <p><em>Note: I did discover a bug in ChromeVox wherein the content of the elements referenced in <code>aria-describedby</code> are not read when the field receives focus via the keyboard (using the <kbd>tab</kbd> key), but it does when it receives focus via the mouse. I’ve submitted <a href="https://code.google.com/p/google-axs-chrome/issues/detail?id=158&amp;thanks=158&amp;ts=1415202123">a bug report</a> to to the powers that be.</em></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[CSS Variables Are a Bad Idea]]></title>
-    <link href="http://aaron-gustafson.com/notebook/2014/css-variables-are-a-bad-idea/"/>
-    <updated>2014-11-04T14:58:01-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/2014/css-variables-are-a-bad-idea</id>
-    <content type="html"><![CDATA[<p>I’ll level with you: I used to think I wanted variables in CSS.</p>
-
-<p>As a programmer, I love the idea of being able to abstract reusable bits like colors, border widths, font sizes, and the like to obviously named variables. It’s a far more <a href="https://en.wikipedia.org/wiki/Don't_repeat_yourself">DRY</a> approach and makes maintenance far easier.</p>
-
-<!-- more -->
-
-
-<p>Before I made the leap to using a CSS preprocessor, I was convinced we needed CSS variables, but I always wondered how we might make it possible without breaking one of the fundamental <a href="http://www.w3.org/TR/CSS21/intro.html#design-principles">design principles of CSS</a>: Forward and backward compatibility. Take a look at this example (which is based on <a href="http://www.w3.org/TR/css-variables/">the working draft spec</a>) and I think you’ll spot the problem:</p>
-
-<p><div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=css-vairables.css'></script>
-<noscript><pre><code>:root {
-  --foreground-color: #333;
-  --background-color: #fff;
-}
-
-body {
-  background: var(--background-color);
-  color: var(--foreground-color);
-}</code></pre></noscript></div>
-</p>
-
-<p>For a browser that understands CSS variables, the interpreted stylesheet would look like this:</p>
-
-<p><div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=desired-result.css'></script>
-<noscript><pre><code>body {
-  background: #fff;
-  color: #333;
-}</code></pre></noscript></div>
-</p>
-
-<p>But any browser that doesn’t understand the variables would never get the color values because browsers follow <a href="http://www.w3.org/TR/CSS21/syndata.html#parsing-errors">the rules of fault tolerance in CSS</a> and ignore anything they don’t understand. The introduction of variables to CSS would effectively build a wall between older browsers and new ones. (For the record, as of this writing, <a href="http://caniuse.com/#feat=css-variables">only Firefox has implemented CSS variables</a>).</p>
-
-<p>In order to serve the broadest spectrum of devices, we’d have to provide a fallback like this:</p>
-
-<p><div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=css-variables-fallback.css'></script>
-<noscript><pre><code>:root {
-  --foreground-color: #333;
-  --background-color: #fff;
-}
-
-body {
-  background: #fff;
-  background: var(--background-color);
-  color: #333;
-  color: var(--foreground-color);
-}</code></pre></noscript></div>
-</p>
-
-<p>But that kinda defeats the whole purpose, right?</p>
-
-<p>Preprocessors already give us this access to variables today (along with nesting, mixins, and programmatic structures like conditionals, loops, etc.). Here’s a SASS example:</p>
-
-<p><div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=sass-variables.scss'></script>
-<noscript><pre><code>$foreground-color: #333;
-$background-color: #fff;
- 
- 
-body {
-  background: $background-color;
-  color: $foreground-color;
-}</code></pre></noscript></div>
-</p>
-
-<p>The big difference here is that this document is a source file, it is not what is sent to the browser. This file is compiled by the preprocessor into actual CSS, which is what we send to the browser and is exactly what we wanted in the first place:</p>
-
-<p><div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=desired-result.css'></script>
-<noscript><pre><code>body {
-  background: #fff;
-  color: #333;
-}</code></pre></noscript></div>
-</p>
-
-<p>And it works on every browser that supports CSS, all the way back to <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#Difficulty_with_adoption">IE 3</a>.</p>
-
-<p>With a preprocessor like SASS, Less, or Stylus, I get all of the maintainability benefits without sacrificing browser support. It’s a no-brainer. But even if that were not true, there’s another issue to consider: If I push CSS variables to browsers, they have to parse the CSS and substitute the variables before they can apply the styles.</p>
-
-<p>Now I’m sure browser makers can find ways to optimize this process, but it’s bound to affect the rendering time. And not in a positive way. I don’t even want to think about how bad it would be on a mobile chipset, especially on a low-end device.</p>
-
-<p>Honestly, I love using variables… in the source files I use with a preprocessor. Given the potential loss of browser support, the pointless fallbacks I’d have to use if I wanted to continue supporting older browsers, the existence of numerous preprocessor options that solve the abstraction problem in a backward- and forward-compatible way, and the fact that CSS variables would make browsers have to work even harder to achieve the desired result, I’m not convinced we need them.</p>
-
-<p>CSS variables are a bad idea.</p>
 ]]></content>
   </entry>
   
