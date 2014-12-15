@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Javascript | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/javascript/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2014-11-24T15:49:48-05:00</updated>
+  <updated>2014-12-15T18:07:30-05:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Google Embraces Progressive Enhancement]]></title>
-    <link href="http://aaron-gustafson.com/notebook/2014/google-embraces-progressive-enhancement/"/>
+    <link href="http://aaron-gustafson.com/notebook/google-embraces-progressive-enhancement/"/>
     <updated>2014-10-28T21:07:35-04:00</updated>
-    <id>http://aaron-gustafson.com/notebook/2014/google-embraces-progressive-enhancement</id>
+    <id>http://aaron-gustafson.com/notebook/google-embraces-progressive-enhancement</id>
     <content type="html"><![CDATA[<p>In case you missed it, <a href="http://googlewebmastercentral.blogspot.com/2014/10/updating-our-technical-webmaster.html">yesterday Pierre Far updated Google’s Webmaster Guidelines</a>. In his post, Pierre lays out their case for <a href="https://en.wikipedia.org/wiki/Progressive_enhancement">progressive enhancement</a>:</p>
 
 <blockquote><p>Just like modern browsers, our rendering engine might not support all of the technologies a page uses. Make sure your web design adheres to the principles of progressive enhancement as this helps our systems (and a wider range of browsers) see usable content and basic functionality when certain web design features are not yet supported.</p></blockquote>
@@ -47,9 +47,9 @@
   
   <entry>
     <title type="html"><![CDATA[Missed Connections]]></title>
-    <link href="http://aaron-gustafson.com/notebook/2014/missed-connections/"/>
+    <link href="http://aaron-gustafson.com/notebook/missed-connections/"/>
     <updated>2014-09-19T16:12:50-04:00</updated>
-    <id>http://aaron-gustafson.com/notebook/2014/missed-connections</id>
+    <id>http://aaron-gustafson.com/notebook/missed-connections</id>
     <content type="html"><![CDATA[<p>Earlier today, <a href="http://www.kryogenix.org">Stuart Langridge</a>—who I worked with on WaSP’s DOM Scripting Task Force and have the utmost respect for—<a href="http://www.kryogenix.org/days/2014/09/19/fundamentally-connected/">published a blog response</a> to <a href="http://aaron-gustafson.com/notebook/2014/a-fundamental-disconnect/">my last post</a>. In it, he made some good points I wanted to highlight, but he also misunderstood one thing I said and managed to avoid addressing the core of my argument. As comments aren’t enabled on his site, I thought I’d respond here.</p>
 
 <!-- more -->
@@ -115,9 +115,9 @@
   
   <entry>
     <title type="html"><![CDATA[A Fundamental Disconnect]]></title>
-    <link href="http://aaron-gustafson.com/notebook/2014/a-fundamental-disconnect/"/>
+    <link href="http://aaron-gustafson.com/notebook/a-fundamental-disconnect/"/>
     <updated>2014-09-13T15:01:58-04:00</updated>
-    <id>http://aaron-gustafson.com/notebook/2014/a-fundamental-disconnect</id>
+    <id>http://aaron-gustafson.com/notebook/a-fundamental-disconnect</id>
     <content type="html"><![CDATA[<p>Yesterday at <a href="//2014.blendconf.com/">BlendConf</a>, <a href="//www.hanselman.com/">Scott Hanselman</a> gave a fantastically-entertaining keynote entitled “JavaScript, The Cloud, and the rise of the New Virtual Machine.” In it, he chronicled all of the ways Web development and deployment has changed—for the better—over the years. He also boldly declared that JavaScript is now, effectively, a virtual machine in the browser.</p>
 
 <!-- more -->
@@ -159,9 +159,9 @@
   
   <entry>
     <title type="html"><![CDATA[The Network Effect]]></title>
-    <link href="http://aaron-gustafson.com/notebook/2014/the-network-effect/"/>
+    <link href="http://aaron-gustafson.com/notebook/the-network-effect/"/>
     <updated>2014-09-08T16:40:44-04:00</updated>
-    <id>http://aaron-gustafson.com/notebook/2014/the-network-effect</id>
+    <id>http://aaron-gustafson.com/notebook/the-network-effect</id>
     <content type="html"><![CDATA[<p><cite>Ars Technica</cite> revealed today that <a href="http://arstechnica.com/tech-policy/2014/09/why-comcasts-javascript-ad-injections-threaten-security-net-neutrality/">Comcast is injecting self-promotional advertising into web pages delivered via it’s Wi-Fi hotspots</a>:</p>
 
 <blockquote cite="http://arstechnica.com/tech-policy/2014/09/why-comcasts-javascript-ad-injections-threaten-security-net-neutrality/">

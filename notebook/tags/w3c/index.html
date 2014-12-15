@@ -45,6 +45,7 @@
 
 
 
+
 	
 	<link href="/favicon.png" rel="icon">
 	
@@ -107,7 +108,7 @@
 		
 		<main role="main" class="layout-container">
 			
-			<article role="article">
+			<article role="article" class="layout-container__primary h-entry">
 
   	
 		
@@ -128,7 +129,7 @@
 
 
 	<header class="entry__header">
-		<h1 class="entry__title entry-title"><a href="/notebook/2014/css-variables-are-a-bad-idea/">CSS Variables are a Bad Idea</a></h1>
+		<h1 class="entry__title entry-title"><a href="/notebook/css-variables-are-a-bad-idea/">CSS Variables are a Bad Idea</a></h1>
 		
 			<p class="entry__meta">
         		Added to the Notebook on 
@@ -148,7 +149,7 @@
 
 		<time class="dt-published" datetime="2014-11-04T14:58:01-05:00">04 November 2014</time>
 				
-					| <a href="/notebook/2014/css-variables-are-a-bad-idea/#disqus_thread" data-disqus-identifier="http://aaron-gustafson.com/notebook/2014/css-variables-are-a-bad-idea/">Comments</a>
+					| <a href="/notebook/css-variables-are-a-bad-idea/#disqus_thread" data-disqus-identifier="http://aaron-gustafson.com/notebook/css-variables-are-a-bad-idea/">Comments</a>
         		
       		</p>
 		
@@ -164,8 +165,8 @@
  	
 
 	<footer class="entry__footer">
-		<a rel="full-article" href="/notebook/2014/css-variables-are-a-bad-idea/">You can finish reading
-			<cite>CSS Variables are a Bad Idea</cite> in less than 2 minutes &rarr;</a>
+		<a rel="full-article" href="/notebook/css-variables-are-a-bad-idea/">You can finish reading
+			<cite>CSS Variables are a Bad Idea</cite> in less than 2 minutes&nbsp;&rarr;</a>
 	</footer>
 
 			</article>
@@ -189,21 +190,19 @@
 </article>
 
 
-
-
 	<hr class="rule rule--optional">
 
-	<aside class="sidebar">
+	<aside class="layout-container__secondary">
   		
     		
-	<div class="about">
-		<p>Hi there. I’m Aaron and I work on the web. I’m a <a href="/books">prolific</a> <a href="/articles">writer</a>, <a href="/events">frequent speaker</a>, and <a href="/appearances">evangelist for web stewardship</a>. I live &amp; work in Chattanooga, <abbr title=Tennessee>TN</abbr>. Want to know more? <a href="/about">Read on</a>.</p>
+	<div class="module module--about">
+		<p>Hi there. I’m Aaron and I work on the Web. I’m a <a href="/publications/">prolific writer</a>, <a href="/events/">frequent speaker</a>, and <a href="/appearances/">evangelist for web stewardship</a>. I live &amp; work in Chattanooga, <abbr title="Tennessee">TN</abbr>. Want to know more? <a href="/bio/">Read on</a>.</p>
 
 	</div>
 
-	<section class="networks">
+	<section class="module module--social">
 		<h2>You can stalk me on the following networks:</h2>
-		<ul class="listing listing--social">
+		<ul class="listing listing--links">
 			
 				<li class="listing__item listing__item--twitter">
 					<a href="https://twitter.com/aarongustafson" title="Follow on Twitter"><b class="icon icon-twitter"></b>Twitter</a>
@@ -246,6 +245,88 @@
 
 	
 
+		
+			<section class="module module--events">
+				<h1>Let’s Meet Up</h1>
+				<p>I travel often for conferences. If I’m coming to your city and you’d like to arrange a private training or consultation while I’m there, feel free to <a href="/contact">reach out</a>.</p>
+
+				<ul class="listing listing--events">
+		
+
+		<li class="listing__item listing__item--1 event event--future">
+			<h3 class="listing__item__title event__title">
+				
+					To Be Announced
+				
+			</h3>
+			<p class="listing__item__meta">
+				<b class="event__date">April 2015</b>
+				<b class="event__location">Salt Lake City, UT USA</b>
+			</p>
+		</li>
+	
+		
+	
+	
+
+		
+
+		<li class="listing__item listing__item--2 event event--future">
+			<h3 class="listing__item__title event__title">
+				
+					To Be Announced
+				
+			</h3>
+			<p class="listing__item__meta">
+				<b class="event__date">April 2015</b>
+				<b class="event__location">Columbia, SC USA</b>
+			</p>
+		</li>
+	
+		
+	
+	
+
+		
+
+		<li class="listing__item listing__item--3 event event--future">
+			<h3 class="listing__item__title event__title">
+				
+					To Be Announced
+				
+			</h3>
+			<p class="listing__item__meta">
+				<b class="event__date">June 2015</b>
+				<b class="event__location">Nashville, TN USA</b>
+			</p>
+		</li>
+	
+		
+	
+	
+
+		
+
+		<li class="listing__item listing__item--4 event event--future">
+			<h3 class="listing__item__title event__title">
+				
+					To Be Announced
+				
+			</h3>
+			<p class="listing__item__meta">
+				<b class="event__date">June 2015</b>
+				<b class="event__location">Pittsburgh, PA USA</b>
+			</p>
+		</li>
+	
+		
+					<li class="more"><a href="/speaking-engagements/#future-events">See More<b class="hidden"> Events</b></a></li>
+				</ul>
+			</section>
+		
+	
+	
+
   		
 	</aside>
 
@@ -261,13 +342,13 @@
 		
 			<li><a href="/about/"><b class="hidden">A Bit </b>About<b class="hidden"> Me</b></a></li>
 		
-			<li><a href="/books/"><b class="hidden">A List of My </b>Books</a></li>
-		
-			<li><a href="/articles/"><b class="hidden">Links to My </b>Articles</a></li>
-		
-			<li><a href="/appearances/"><b class="hidden">Links to </b>Interviews<b class="hidden"> &amp; Such I’ve Given</b></a></li>
-		
 			<li><a href="/notebook/"><b class="hidden">Entries in My </b>Notebook</a></li>
+		
+			<li><a href="/speaking-engagements/"><b class="hidden">A List of My </b>Speaking<b class="hidden"> Engagements</b></a></li>
+		
+			<li><a href="/publications/"><b class="hidden">A List of My </b>Publications</a></li>
+		
+			<li><a href="/appearances/"><b class="hidden">Links to </b>Interviews<b class="hidden"> I’ve Given</b></a></li>
 		
 			<li><a href="/contact/"><b class="hidden">The Requisite </b>Contact<b class="hidden"> Form</b></a></li>
 		

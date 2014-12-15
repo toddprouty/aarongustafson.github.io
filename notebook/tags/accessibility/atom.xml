@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Accessibility | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/accessibility/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2014-11-24T15:49:48-05:00</updated>
+  <updated>2014-12-15T18:07:30-05:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[The Web Is for Everyone]]></title>
-    <link href="http://aaron-gustafson.com/notebook/2014/the-web-is-for-everyone/"/>
+    <link href="http://aaron-gustafson.com/notebook/the-web-is-for-everyone/"/>
     <updated>2014-11-06T15:47:54-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/2014/the-web-is-for-everyone</id>
+    <id>http://aaron-gustafson.com/notebook/the-web-is-for-everyone</id>
     <content type="html"><![CDATA[<p><em>I gave this speech as the closing keynote at <a href="http://a11yqc.org/">A11yQC</a>, a conference on Web accessibility, on 14 October 2014 in Québec City, Canada. I have published my script here as the slides can’t really convey its message on their own.</em></p>
 
 <p>We, as an industry, tend to have a pretty myopic view of experience. Those of us who work day-to-day in accessibility probably have a broader perspective than most, but I would argue that even we all fall short now and again when it comes to seeing the Web as others do.</p>
@@ -399,9 +399,9 @@
   
   <entry>
     <title type="html"><![CDATA[ARIA Quicktip: Labelledby vs. Describedby]]></title>
-    <link href="http://aaron-gustafson.com/notebook/2014/aria-quicktip-labelledby-vs-describedby/"/>
+    <link href="http://aaron-gustafson.com/notebook/aria-quicktip-labelledby-vs-describedby/"/>
     <updated>2014-11-05T10:45:22-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/2014/aria-quicktip-labelledby-vs-describedby</id>
+    <id>http://aaron-gustafson.com/notebook/aria-quicktip-labelledby-vs-describedby</id>
     <content type="html"><![CDATA[<p>Last night, while we were enjoying a cool evening and a few drinks outside after day 1 of <a href="http://bdconf.com">BDConf</a>, <a href="http://adactio.com">Jeremy</a> asked me for some clarification on the ARIA attributes I had demoed as part of <a href="http://www.slideshare.net/AaronGustafson/falling-in-love-with-forms-bdconf-2014">my forms presentation</a> earlier in the afternoon. In particular, he was confused by how <code>aria-labelledby</code> and <code>aria-describedby</code> differ.</p>
 
 <!-- more -->

@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Standards | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/web-standards/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2014-11-24T15:49:48-05:00</updated>
+  <updated>2014-12-15T18:07:30-05:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[CSS Variables Are a Bad Idea]]></title>
-    <link href="http://aaron-gustafson.com/notebook/2014/css-variables-are-a-bad-idea/"/>
+    <link href="http://aaron-gustafson.com/notebook/css-variables-are-a-bad-idea/"/>
     <updated>2014-11-04T14:58:01-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/2014/css-variables-are-a-bad-idea</id>
+    <id>http://aaron-gustafson.com/notebook/css-variables-are-a-bad-idea</id>
     <content type="html"><![CDATA[<p>I’ll level with you: I used to think I wanted variables in CSS.</p>
 
 <p>As a programmer, I love the idea of being able to abstract reusable bits like colors, border widths, font sizes, and the like to obviously named variables. It’s a far more <a href="https://en.wikipedia.org/wiki/Don't_repeat_yourself">DRY</a> approach and makes maintenance far easier.</p>

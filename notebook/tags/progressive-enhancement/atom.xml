@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Progressive Enhancement | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/progressive-enhancement/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2014-11-24T15:49:48-05:00</updated>
+  <updated>2014-12-15T18:07:30-05:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Adaptive Images in ExpressionEngine With CE Image]]></title>
-    <link href="http://aaron-gustafson.com/notebook/2014/adaptive-images-in-expressionengine-with-ce-image/"/>
+    <link href="http://aaron-gustafson.com/notebook/adaptive-images-in-expressionengine-with-ce-image/"/>
     <updated>2014-11-21T18:18:23-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/2014/adaptive-images-in-expressionengine-with-ce-image</id>
+    <id>http://aaron-gustafson.com/notebook/adaptive-images-in-expressionengine-with-ce-image</id>
     <content type="html"><![CDATA[<p>One of the biggest headaches of responsive design has been dealing with images. Thankfully our work on the <a href="http://ricg.io">Responsive <del>Images</del> <ins>Issues</ins> Community Group</a> has resulted in a rock-solid set of elements and attributes to address all of your adaptive image needs. My company, <a href="http://easy-designs.net">Easy Designs</a>, recently redesigned <a href="http://www.nichols.edu">Nichols College’s website</a> and that project just happened to coincide adaptive images landing in <a href="http://www.chromium.org/blink">Blink</a> (the rendering engine that powers Chrome and Opera). Naturally, we jumped at the opportunity to use them.</p>
 
 <!-- more -->
@@ -242,9 +242,9 @@
   
   <entry>
     <title type="html"><![CDATA[Google Embraces Progressive Enhancement]]></title>
-    <link href="http://aaron-gustafson.com/notebook/2014/google-embraces-progressive-enhancement/"/>
+    <link href="http://aaron-gustafson.com/notebook/google-embraces-progressive-enhancement/"/>
     <updated>2014-10-28T21:07:35-04:00</updated>
-    <id>http://aaron-gustafson.com/notebook/2014/google-embraces-progressive-enhancement</id>
+    <id>http://aaron-gustafson.com/notebook/google-embraces-progressive-enhancement</id>
     <content type="html"><![CDATA[<p>In case you missed it, <a href="http://googlewebmastercentral.blogspot.com/2014/10/updating-our-technical-webmaster.html">yesterday Pierre Far updated Google’s Webmaster Guidelines</a>. In his post, Pierre lays out their case for <a href="https://en.wikipedia.org/wiki/Progressive_enhancement">progressive enhancement</a>:</p>
 
 <blockquote><p>Just like modern browsers, our rendering engine might not support all of the technologies a page uses. Make sure your web design adheres to the principles of progressive enhancement as this helps our systems (and a wider range of browsers) see usable content and basic functionality when certain web design features are not yet supported.</p></blockquote>
