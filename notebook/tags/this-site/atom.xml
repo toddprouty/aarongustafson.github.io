@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: This Site | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/this-site/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2014-12-15T18:15:01-05:00</updated>
+  <updated>2014-12-16T11:05:22-05:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -12,6 +12,54 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Indecisiveness and URLs]]></title>
+    <link href="http://aaron-gustafson.com/notebook/indecisiveness-and-urls/"/>
+    <updated>2014-12-16T10:23:15-05:00</updated>
+    <id>http://aaron-gustafson.com/notebook/indecisiveness-and-urls</id>
+    <content type="html"><![CDATA[<p>If you know me, you know I am a pretty indecisive guy. It is not uncommon for <a href="https://twitter.com/shirleytemper">Kelly</a> and I to spend 15 minutes or more just trying to figure out where we want to grab a meal.</p>
+
+<p>What I’m trying to say (or rather excuse) is that I have been struggling with some of my initial decisions with respect to URLs on this site and finally decided to make some changes before too many links to its content get out there. I was a bit reluctant to do so as we all know <a href="http://www.w3.org/Provider/Style/URI.html">what Sir Tim Berners-Lee says</a></p>
+
+<blockquote><p>Cool URIs don’t change.</p></blockquote>
+
+<p>Well, consider me uncool as I decided to change some things around here:</p>
+
+<ol>
+<li>I dropped the year indicator from blog post URLs. I realized that the likelihood of me having two posts with the same name was pretty much nil, so it was unnecessary to disambiguate like that. Plus it would save me from having to create the annual archives I would feel compelled to make in order to justify the “2014“ directory in the URL.</li>
+<li>I consolidated my book and article pages to <a href="/publications">a single page or publications</a>. I thought it might be nice to maintain them separately, but in retrospect that seems unnecessarily complicated.</li>
+<li>I changed the URL to my speaking engagements from “events” to “speaking-engagements” as it just made more sense.</li>
+</ol>
+
+
+<p>On the off chance you ever consider changing URLs on a Jekyll or Octopress site, I thought I’d share my process.</p>
+
+<h2>Redirecting Old Links</h2>
+
+<p>I was quite concerned concerned about old links being broken in this site. It’s just not a good thing to do.</p>
+
+<p>In a traditional hosting scenario, I could use <code>.htaccess</code> to set up <a href="https://en.wikipedia.org/wiki/HTTP_302">302 redirects</a>, but I am hosting on Github so that isn’t an option. On top of that, this site is built using Octopress (and Jekyll), so there is no dynamic system in place to programmatically manage those redirects.</p>
+
+<p>Thankfully, there is <a href="https://github.com/jekyll/jekyll-redirect-from">a plugin for Jekyll to manage redirects</a>. With it, you can redirect from an an existing page in the YAML front matter using the <code>redirect_to</code> key or you can use the <code>redirect_from</code> key in the YAML front matter on the destination page. I ended up using the former for old pages (articles, books, and events), and the latter for blog posts.</p>
+
+<p>The plugin covers all the bases. It generates pages at the old URLs that redirect using the good old <code>meta</code> refresh, a JavaScript redirect, and a fallback link just in case neither of those work. Oh, and it sets the new URL as the <a href="https://support.google.com/webmasters/answer/139066?hl=en">canonical reference</a> to boot.</p>
+
+<p>Done and done.</p>
+
+<h2>Keeping Webmentions</h2>
+
+<p>As I mentioned a few weeks back, I wrote <a href="/notebook/enabling-webmentions-in-jekyll/">a Jekyll plugin to enable webmentions</a>. As web mentions are tied to the “mentioned” URL, changing a post’s URL was going to cause me to lose any previous webmentions. I didn’t like that idea, so <a href="https://github.com/aaronpk/webmention.io/issues/31">I talked to Aaron about adding multiple URL support to the webmention.io API</a> and he agreed it was a good idea.</p>
+
+<p>The feature landed late last week and I adjusted <a href="https://github.com/aarongustafson/jekyll-webmention_io">my Jekyll Webmention.io plugin</a> to allow you to supply multiple URLs. While I was at it, I did some other upgrades: I added caching, downloading of webmention titles if the API didn’t supply one, and a test for the existence of avatars before inserting them (so you don’t end up with missing images).</p>
+
+<p>If you were using the plugin, I definitely recommend upgrading as it performs a lot better now. I also added <a href="https://github.com/aarongustafson/jekyll-webmention_io/blob/master/webmention.Rakefile">a Rake task for sending webmentions</a> which is super handy.</p>
+
+<h2>Pardon My Dust</h2>
+
+<p>I apologize for changing URLs on you, but I am hopeful this will be the last major change on the site. As it (currently) says at the top, <a href="/notebook/a-grand-experiment/">this is an open redesign</a>, so there are bound to be a few bumps here and there. That said, I will try to keep them to a minimum in the future.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[A Grand Experiment]]></title>
