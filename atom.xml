@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2014-12-17T11:34:19-05:00</updated>
+	<updated>2014-12-17T14:40:35-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -61,6 +61,19 @@
 <h2>Pardon My Dust</h2>
 
 <p>I apologize for changing URLs on you, but I am hopeful this will be the last major change on the site. As it (currently) says at the top, <a href="http://aaron-gustafson.com/notebook/a-grand-experiment/">this is an open redesign</a>, so there are bound to be a few bumps here and there. That said, I will try to keep them to a minimum in the future.</p>
+]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Update Your SSH Keys on Github]]></title>
+				<link href="https://developer.github.com/changes/2014-12-12-replace-older-ssh-keys-created-by-your-application/"/>
+				<updated>2014-12-16T08:21:08-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/update-your-ssh-keys-on-github</id>
+				<content type="html"><![CDATA[<p>Honestly, it’s probably good to get into the habit of updating your SSH keys regularly anyway, but in case you needed a reminder:</p>
+
+<blockquote><p>Back in February, we improved the security audit trail for SSH keys. Soon, organizations will be able to block access for SSH keys that were created prior to those improvements. If your application relies on deploy keys or user keys for repository access, we recommend replacing any keys created before February 24, 2014.</p></blockquote>
 ]]></content>
 			</entry>
 		
