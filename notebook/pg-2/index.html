@@ -15,10 +15,10 @@
 
 
 
-<title>Browse by Tag: Software Development Aaron Gustafson</title>
-<meta property="og:title" content="Browse by Tag: Software Development Aaron Gustafson">
+<title>The Notebook Of Aaron Gustafson</title>
+<meta property="og:title" content="The Notebook Of Aaron Gustafson">
 
-<meta property="og:url" content="http://aaron-gustafson.com/notebook/tags/software-development/">
+<meta property="og:url" content="http://aaron-gustafson.com/notebook/pg-2/">
 
 <meta name="author" content="Aaron Gustafson">
 <meta property="og:type" content="website">
@@ -26,8 +26,8 @@
 <meta property="og:image" content="http://aaron-gustafson.com/i/og-logo.png">
 <meta property="og:locale" content="en_US">
 
-<meta property="og:description" content="Category: software development">
-<meta name="description" content="Category: software development">
+<meta property="og:description" content="Hi there. My name is Aaron Gustafson and I work on the web.">
+<meta name="description" content="Hi there. My name is Aaron Gustafson and I work on the web.">
 
 
 
@@ -95,7 +95,7 @@
 </head>
 
 
-	<body  >
+	<body  class="notebook"  >
 
 		
 
@@ -112,80 +112,21 @@
 		
 		<main role="main">
 			
-			<div class="layout-container">
-	<article role="article" class="layout-container__primary h-entry">
+			<article role="article" class="page layout-container">
 
-	  	
-			
-			  	<header>
-			    	<h1 class="entry-title">Browse by Tag: Software Development</h1>
-			    	
-			  	</header>
-			
-	  	
+	
+  		
+		<h1 class="page__title">Notes From the Internets</h1>
+	
+
+	<div class="layout-container__primary">
   	
-		<div id="blog-archives">
-	
-
-		
-
-			<article>
-	  			
-
-
-	<header class="entry__header">
-		<h1 class="entry__title entry-title"><a href="/notebook/missed-connections/">Missed Connections</a></h1>
-		
-			<p class="entry__meta">
-        		Added to the Notebook on 
-
-
-
-
-
-
-
-
-	
-
-
-
-
-
-		<time class="dt-published" datetime="2014-09-19T16:12:50-04:00">19 September 2014</time>
-				
-					| <a href="/notebook/missed-connections/#disqus_thread" data-disqus-identifier="http://aaron-gustafson.com/notebook/missed-connections/">Comments</a>
-        		
-      		</p>
-		
-  	</header>
-
-
-<div class="entry__content entry__content--excerpt entry-content">
-	<p>Earlier today, <a href="http://www.kryogenix.org">Stuart Langridge</a>—who I worked with on WaSP’s DOM Scripting Task Force and have the utmost respect for—<a href="http://www.kryogenix.org/days/2014/09/19/fundamentally-connected/">published a blog response</a> to <a href="http://aaron-gustafson.com/notebook/2014/a-fundamental-disconnect/">my last post</a>. In it, he made some good points I wanted to highlight, but he also misunderstood one thing I said and managed to avoid addressing the core of my argument. As comments aren’t enabled on his site, I thought I’d respond here.</p>
-
-</div>
- 	
-
-	<footer class="entry__footer">
-		<a rel="full-article" href="/notebook/missed-connections/">You can finish reading
-			<cite>Missed Connections</cite> in less than 13 minutes&nbsp;&rarr;</a>
-	</footer>
-
-			</article>
-
-			
-				<hr class="rule">
-			
-
 		
 
 	
 
-		
-
-			<article>
-	  			
+		<article class="entry entry--teaser">
+  			
 
 
 	<header class="entry__header">
@@ -219,6 +160,9 @@
 <div class="entry__content entry__content--excerpt entry-content">
 	<p>Yesterday at <a href="//2014.blendconf.com/">BlendConf</a>, <a href="//www.hanselman.com/">Scott Hanselman</a> gave a fantastically-entertaining keynote entitled “JavaScript, The Cloud, and the rise of the New Virtual Machine.” In it, he chronicled all of the ways Web development and deployment has changed—for the better—over the years. He also boldly declared that JavaScript is now, effectively, a virtual machine in the browser.</p>
 
+
+
+
 </div>
  	
 
@@ -227,25 +171,287 @@
 			<cite>A Fundamental Disconnect</cite> in less than 4 minutes&nbsp;&rarr;</a>
 	</footer>
 
-			</article>
+		</article>
 
-			
+		
+			<hr class="rule">
+		
+
+	
+
+
+
+	
+
+		<article class="entry entry--teaser">
+  			
+
+
+	<header class="entry__header">
+		<h1 class="entry__title entry-title"><a href="/notebook/the-network-effect/">The Network Effect</a></h1>
+		
+			<p class="entry__meta">
+        		Added to the Notebook on 
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+		<time class="dt-published" datetime="2014-09-08T16:40:44-04:00">08 September 2014</time>
+				
+					| <a href="/notebook/the-network-effect/#disqus_thread" data-disqus-identifier="http://aaron-gustafson.com/notebook/the-network-effect/">Comments</a>
+        		
+      		</p>
+		
+  	</header>
+
+
+<div class="entry__content entry__content--excerpt entry-content">
+	<p><cite>Ars Technica</cite> revealed today that <a href="http://arstechnica.com/tech-policy/2014/09/why-comcasts-javascript-ad-injections-threaten-security-net-neutrality/">Comcast is injecting self-promotional advertising into web pages delivered via it’s Wi-Fi hotspots</a>:</p>
+
+
+
+
+<blockquote cite="http://arstechnica.com/tech-policy/2014/09/why-comcasts-javascript-ad-injections-threaten-security-net-neutrality/">
+    <p>A Comcast spokesman told Ars the program began months ago. One facet of it is designed to alert consumers that they are connected to Comcast&#8217;s Xfinity service. Other ads remind Web surfers to download Xfinity apps, Comcast spokesman Charlie Douglas told Ars in telephone interviews.</p>
+</blockquote>
+
+
+
+
+<p>I wish I could say this is surprising, but it’s not: Any service that routes your content has the opportunity to modify the response being returned. Comcast is exploiting that opportunity and injecting JavaScript that, in turn, injects the ads.</p>
+
+
+
+
+</div>
+ 	
+
+	<footer class="entry__footer">
+		<a rel="full-article" href="/notebook/the-network-effect/">You can finish reading
+			<cite>The Network Effect</cite> in less than 2 minutes&nbsp;&rarr;</a>
+	</footer>
+
+		</article>
+
+		
+			<hr class="rule">
+		
+
+	
+
+
+
+	
+
+		<article class="entry entry--teaser">
+  			
+
+
+	<header class="entry__header">
+		<h1 class="entry__title entry-title"><a href="/notebook/native-vs-stylable-tug-of-war/">The “Native” vs. “Stylable” Tug of War</a></h1>
+		
+			<p class="entry__meta">
+        		Added to the Notebook on 
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+		<time class="dt-published" datetime="2014-07-17T08:21:47-04:00">17 July 2014</time>
+				
+					| <a href="/notebook/native-vs-stylable-tug-of-war/#disqus_thread" data-disqus-identifier="http://aaron-gustafson.com/notebook/native-vs-stylable-tug-of-war/">Comments</a>
+        		
+      		</p>
+		
+  	</header>
+
+
+<div class="entry__content entry__content--excerpt entry-content">
+	<p>In his astute post <a href="//www.brucelawson.co.uk/2014/native-experience-vs-styling-select-boxes/">“‘Native experience’ vs styling select boxes”</a>, Bruce Lawson correctly identified a common tension in the web world:</p>
+
+
+
+
+<blockquote><p>But why this urge to re-style page elements that end-users are familiar with? … Or is it that we love native look and feel, except when we don’t?</p></blockquote>
+
+
+
+
+<p>Speaking as the guy who not only wrote JavaScript to help me create an accessible <code>select</code> element alternative, but who also made it <a href="http://d1b14unh5d6w7g.cloudfront.net/1590598563.01.S0ER.LXXXXXXX.jpg?Expires=1405686346&amp;Signature=DCT4Z0l75JQESDNyP0PVGVonuJYwY9XYtaTI3grX/RhdlLcXGRAVADJCB/N/fAj7GxLhEVzuXqstMebJIJ9Ip5I6kE7IKYt2F20F5EGD+1ghua9zKwyjS1e4KBgumMKzQytbcfIVX4dMr7XFzj26mScFKz9bSKtZT5jU1LU6hWM=&amp;Key-Pair-Id=APKAIUO27P366FGALUMQ">the focus of a case study (image)</a> in <a href="http://amzn.to/TaoffD">AdvancED DOM Scripting</a>, I am fully aware of the desire to have it both ways. I have not often seen the desire for both in a single individual, but it does happen in one particular instance occasionally.</p>
+
+
+
+
+</div>
+ 	
+
+	<footer class="entry__footer">
+		<a rel="full-article" href="/notebook/native-vs-stylable-tug-of-war/">You can finish reading
+			<cite>The “Native” vs. “Stylable” Tug of War</cite> in less than 6 minutes&nbsp;&rarr;</a>
+	</footer>
+
+		</article>
+
+		
+			<hr class="rule">
+		
+
+	
+
+
+
+	
+
+		<article class="entry entry--teaser">
+  			
+
+
+	<header class="entry__header">
+		<h1 class="entry__title entry-title"><a href="/notebook/searching-for-the-right-size/">Searching for the “Right Size”</a></h1>
+		
+			<p class="entry__meta">
+        		Added to the Notebook on 
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+		<time class="dt-published" datetime="2014-07-10T20:38:16-04:00">10 July 2014</time>
+				
+					| <a href="/notebook/searching-for-the-right-size/#disqus_thread" data-disqus-identifier="http://aaron-gustafson.com/notebook/searching-for-the-right-size/">Comments</a>
+        		
+      		</p>
+		
+  	</header>
+
+
+<div class="entry__content entry__content--excerpt entry-content">
+	<p>This <a href="http://www.wired.com/2014/07/what-a-stalling-tablet-market-says-about-our-search-for-the-perfect-screen/">recent piece from <cite>Wired</cite></a> attributes dwindling tablet sales to cannibalization from larger mobile phones (<abbr title="also known as">aka</abbr> “phablets”) which are nearly as big as 7-8˝ tablets:</p>
+
+
+
+
+<blockquote><p>Aside from the ability to make a phone call, the difference between a phone and a tablet comes down to 1.5 inches or less. … But the real issue is device makers are running out of good arguments for why these ever more subtle size gradations matter. After a point, the differences come down to personal preference rather than any meaningful new use case. As phones and tablets converge into this tight window, slightly bigger phones could accelerate the decline in tablet demand.</p></blockquote>
+
+
+
+
+<p>Personally, I’m not sure it matters. We’re in the midst of one big experiment being run by the device manufacturers. We’re in the scattershot. The industry is feeling out the &ldquo;right&rdquo; screen size (or sizes) that most people want to use and we are (in large part) footing the bill.</p>
+
+
+</div>
+ 	
+
+		</article>
+
+		
+			<hr class="rule">
+		
+
+	
+
+
+
+	
+
+		<article class="entry entry--teaser">
+  			
+
+
+	<header class="entry__header">
+		<h1 class="entry__title entry-title"><a href="/notebook/a-grand-experiment/">A Grand Experiment</a></h1>
+		
+			<p class="entry__meta">
+        		Added to the Notebook on 
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+		<time class="dt-published" datetime="2014-07-07T20:46:48-04:00">07 July 2014</time>
+				
+					| <a href="/notebook/a-grand-experiment/#disqus_thread" data-disqus-identifier="http://aaron-gustafson.com/notebook/a-grand-experiment/">Comments</a>
+        		
+      		</p>
+		
+  	</header>
+
+
+<div class="entry__content entry__content--excerpt entry-content">
+	<p>So, a mere three years after my old “life blog” stopped working, I decided to scrap it and start fresh.</p>
+
+
+
+
+</div>
+ 	
+
+	<footer class="entry__footer">
+		<a rel="full-article" href="/notebook/a-grand-experiment/">You can finish reading
+			<cite>A Grand Experiment</cite> in less than 1 minute&nbsp;&rarr;</a>
+	</footer>
+
+		</article>
 
 		
 
 	
-</div>
 
-  	
-		
-	    	<footer>
-	      		
-			
-	      		
-			</footer>
-		
 
-	</article>
+
+
+	<div class="pagination">
+		
+			<a class="prev" href="/notebook/">&larr; Prev</a>
+		
+		<span class="pagination__pages">
+			page
+			<span class="pagination__pages__current">2</span>
+			of
+			<span class="pagination__pages__current">2</span>
+		</span>
+		
+	</div>
+
+		
+  	</div>
 
 	
 		<hr class="rule rule--optional">
@@ -389,7 +595,7 @@
 		</aside>
 	
 
-</div>
+</article>
 			
 	    </main>
 	  	
@@ -435,7 +641,7 @@
 		<footer role="contentinfo" class="footer">
 	<div class="layout-container">
 		
-			<p class="footer__fork-me">Did you spot a typo or error? Eesh. <a href="https://github.com/aarongustafson/aarongustafson.github.io/tree/source/source/notebook/tags/software-development/index.html">Would you mind fixing it for me?</a> You’re so awesome.</p>
+			<p class="footer__fork-me">Did you spot a typo or error? Eesh. <a href="https://github.com/aarongustafson/aarongustafson.github.io/tree/source/source/notebook/pg-2/index.html">Would you mind fixing it for me?</a> You’re so awesome.</p>
 		
 		<p class="footer__copyright"><b id="license">The content of this site is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons</a>.</b> <b>The site itself is powered by <a href="http://octopress.org">Octopress</a> and is <a href="https://github.com/aarongustafson/aarongustafson.github.io/">forkable on Github</a>.</b></p>
 	</div>
