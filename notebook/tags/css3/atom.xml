@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Css3 | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/css3/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2014-12-18T17:46:39-05:00</updated>
+  <updated>2014-12-18T17:50:54-05:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -33,17 +33,15 @@
 
 <p>
 <figure id="fig-114921831" class="media-container media-container--vimeo">
-<div class="ratio-16-9 embed-video-container" onclick="var myAnchor = document.getElementById('114921831');var tmpDiv = document.createElement('div');tmpDiv.innerHTML = '&lt;iframe style=&quot;vertical-align:top;width:100%;height:100%;position:absolute;&quot; src=&quot;//player.vimeo.com/video/114921831?autoplay=1&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;';myAnchor.parentNode.replaceChild(tmpDiv.firstChild, myAnchor);return false;" title="click here to play" tabindex="0">
+<div class="ratio-16-9 embed-video-container" onclick="var myAnchor = document.getElementById('114921831');var tmpDiv = document.createElement('div');tmpDiv.innerHTML = '&lt;iframe style=&quot;vertical-align:top;width:100%;height:100%;position:absolute;&quot; src=&quot;//player.vimeo.com/video/114921831?autoplay=1&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;';myAnchor.parentNode.replaceChild(tmpDiv.firstChild, myAnchor);return false;" title="Click here to play “@title”">
 <a class="vimeo-lazy-link" style="width:100%;height:100%;background:#000 url(http://i.vimeocdn.com/video/500772734_1280.jpg) center center no-repeat;background-size:contain;position:absolute" href="http://www.youtube.com/watch?v=114921831" id="114921831" onclick="return false;">
 <div class="vimeo-lazy-link-div"></div>
+<div class="vimeo-lazy-link-info">Dissecting CSS3 Transforms</div>
 </a>
-</div>
-<figcaption>
-  <h1 class="vimeo-lazy-link-info">Dissecting CSS3 Transforms</h1>
-  <p class="video-info">This is a walkthrough of using a simple tool for dissecting CSS3 transforms and it demonstrates why the order of your transformation functions matters.
+<div class="video-info" >This is a walkthrough of using a simple tool for dissecting CSS3 transforms and it demonstrates why the order of your transformation functions matters.
 
-Tool: http://codepen.io/aarongustafson/full/jEryLV/</p>
-</figcaption>
+Tool: http://codepen.io/aarongustafson/full/jEryLV/</div>
+</div>
 </figure>
 
 </p>
