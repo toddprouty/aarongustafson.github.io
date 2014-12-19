@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2014-12-19T11:06:52-05:00</updated>
+	<updated>2014-12-19T18:09:17-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -929,6 +929,30 @@ body {
 	
 		
 			<entry>
+				<title type="html"><![CDATA[Celebrating CSS]]></title>
+				<link href="https://adactio.com/journal/7653"/>
+				<updated>2014-10-14T19:07:18-04:00</updated>
+				<id>http://aaron-gustafson.com/notebook/celebrating-css</id>
+				<content type="html"><![CDATA[<p>As usual, Jeremy sums up my thoughts perfectly:</p>
+
+<blockquote><p>Personally, I don’t think there’s any reason to have variables in the CSS language; it’s enough to have them in pre-processing tools. Variables add enormous value for developers, and no value at all for end users.</p></blockquote>
+]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[The Demons of On-Demand]]></title>
+				<link href="http://techcrunch.com/2014/09/20/the-demons-of-on-demand/"/>
+				<updated>2014-09-21T19:08:27-04:00</updated>
+				<id>http://aaron-gustafson.com/notebook/the-demons-of-on-demand</id>
+				<content type="html"><![CDATA[<blockquote><p>We were promised flying cars; we were added to mailing lists.</p></blockquote>
+]]></content>
+			</entry>
+		
+	
+		
+			<entry>
 				<title type="html"><![CDATA[Responsive Typography]]></title>
 				<link href="http://aaron-gustafson.com/notebook/responsive-typography/"/>
 				<updated>2014-09-20T16:43:22-04:00</updated>
@@ -1122,6 +1146,17 @@ body {
 	
 		
 			<entry>
+				<title type="html"><![CDATA[Fixed and Inflexible]]></title>
+				<link href="http://blog.cloudfour.com/fixed-and-inflexible/"/>
+				<updated>2014-07-25T19:06:07-04:00</updated>
+				<id>http://aaron-gustafson.com/notebook/fixed-and-inflexible</id>
+				<content type="html"><![CDATA[<blockquote><p>Our screens act like windows to content of variable size and scale, demanding an awful lot of abstract thinking to design for. Sometimes we’re successful, revising content, designing modern day deliverables and embracing compromise like we know in our hearts we should. Other times…</p></blockquote>
+]]></content>
+			</entry>
+		
+	
+		
+			<entry>
 				<title type="html"><![CDATA[The “Native” vs. “Stylable” Tug of War]]></title>
 				<link href="http://aaron-gustafson.com/notebook/native-vs-stylable-tug-of-war/"/>
 				<updated>2014-07-17T08:21:47-04:00</updated>
@@ -1211,29 +1246,7 @@ body {
 				<id>http://aaron-gustafson.com/notebook/making-time-for-side-projects</id>
 				<content type="html"><![CDATA[<p>Great piece on how to carve out time while still working &amp; living.</p>
 
-<blockquote><p>We find the time for those things we place importance on. “Finding the time” often relies upon having a goal that is meaningful and important to you; a goal that is valuable enough to make a priority. If you consistently don’t have time to make progress on your project, take a reality check: is this something you really want to achieve? If you feel it really is a priority for you, move forward by fitting it in with the priorities you share with the people in your life.</p></blockquote>
-]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[A Grand Experiment]]></title>
-				<link href="http://aaron-gustafson.com/notebook/a-grand-experiment/"/>
-				<updated>2014-07-07T20:46:48-04:00</updated>
-				<id>http://aaron-gustafson.com/notebook/a-grand-experiment</id>
-				<content type="html"><![CDATA[<p>So, a mere three years after my old “life blog” stopped working, I decided to scrap it and start fresh.</p>
-
-<!-- more -->
-
-
-<p>In my quest to learn something new (more on that in a forthcoming post), I decided to give <a href="http://octopress.org">Octopress</a> a whirl. We’ll see how it goes, but the content entry has gone well so far and the Octopress community has been pretty responsive to my requests. I just need to get used to the workflow.</p>
-
-<p>In the spirit of openness, I’ve decided to host the new site on <a href="http://github.com">Github</a> as a <a href="https://pages.github.com/">Github Page</a>. This frees me up from worrying about hosting fees of course, but it also means this site can serve as an educational tool for those inclined to dig in to the work I do and want some introspection into the way I do it. You can <a href="https://github.com/aarongustafson/aarongustafson.github.io/">view (and fork) the whole darn thing</a> at your leisure.</p>
-
-<p>Finally, I’m designing and building this site in the open and, for posterity, taking screen shot of the progress. The screenshots will go up in time as an animated GIF, but those of you who wish will be able to follow along at home or work, seeing how I typically piece together a site, layer by layer, using <a href="http://adaptivewebdesign.info">progressive enhancement</a>. So far it’s just the content, but that’s what I preach: content first.</p>
-
-<p>Now it’s time to get back to it. Feel free to reach out if you have any questions.</p>
+<blockquote><p>We find the time for those things we place importance on. ‘Finding the time’ often relies upon having a goal that is meaningful and important to you; a goal that is valuable enough to make a priority. If you consistently don’t have time to make progress on your project, take a reality check: is this something you really want to achieve? If you feel it really is a priority for you, move forward by fitting it in with the priorities you share with the people in your life.</p></blockquote>
 ]]></content>
 			</entry>
 		
