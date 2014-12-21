@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2014-12-19T18:09:17-05:00</updated>
+	<updated>2014-12-21T15:28:27-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -1062,6 +1062,39 @@ body {
 	
 		
 			<entry>
+				<title type="html"><![CDATA[Autoplay, Don’t Do It]]></title>
+				<link href="http://aaron-gustafson.com/notebook/autoplay-dont-do-it/"/>
+				<updated>2014-09-19T16:12:50-04:00</updated>
+				<id>http://aaron-gustafson.com/notebook/autoplay-dont-do-it</id>
+				<content type="html"><![CDATA[<p>A while back <a href="https://gigaom.com/2014/09/04/facebooks-autoplay-has-led-to-a-60-boost-in-traffic-on-mobile-networks/">GogOm reported on how Facebook’s decision to autoplay videos led to a 60% increase in mobile data usage</a>. It was a business decision with the intent of increasing engagement, but it was a bad decision from a user experience. It’s a tax on users and they weren’t to happy about it.</p>
+
+<p>You may be wondering <em>Why is this a bad thing for users? They want to see videos, so we’re just giving them what they want.</em> Well, let me share a little story.</p>
+
+<p>I was in Lisbon for <a href="http://lanyrd.com/2013/uxlx/">UxLx</a> last year and was on roaming data through my mobile provider. At the hotel, the Wifi was giving me trouble, so I opted to tether my computer so I can pull down a document I needed. Chrome crashed. Lame, but no big deal. I relaunched it and, Chrome being the helpful browser that it is, all of my tabs were restored and I got back to work.</p>
+
+<p>A few minutes later I got a text message from my provider: I’d just used a tremendous amount of my data in a very short amount of time. And I had only landed an hour before. I was understandably concerned. And perplexed. What happened?</p>
+
+<p>Well, it turns out one of the tabs that re-spawned after Chrome crashed was a page on YouTube. And on that page was an hour-long video. In HD. And it auto-played. I had the volume off and it was in background tab, so I had no idea.</p>
+
+<p>YouTube’s “business decision” to autoplay their videos cost me real money. A lot of it.</p>
+
+<p>Don’t autoplay. Any benefits you might see in user engagement are probably going to be drowned out by legitimate complaints from your users. Just don’t do it.</p>
+
+<p>Incidentally, you can <a href="https://www.facebook.com/help/633446180035470">disable auto-play in Facebook</a>, but first of all you have to know it’s an option. Facebook gives you the choice of turning it on or off entirely or to turn it on only over Wifi. That may seem like a great compromise, but I’d like to put forward a few arguments as to why it’s not:</p>
+
+<ol>
+<li><em>Tethering:</em> If I am tethered to my phone, it is likely being done over Wifi. Even if my browser is aware that I am on Wifi and even if the website is paying attention to that (using the <a href="http://www.w3.org/TR/netinfo-api/">Network Informaion API</a>), the website is probably going to get a false positive for Wifi even though the <em>actual</em> data connection is over a mobile network.</li>
+<li><em>Metered Wifi:</em> Hotels and other providers often limit how much data you can use. You could be on an awesomely fast Wifi network, but if you are limited to 100MB—it happens—being on Wifi doesn’t matter.</li>
+</ol>
+
+
+<p>So again: Autoplay, don’t do it.</p>
+]]></content>
+			</entry>
+		
+	
+		
+			<entry>
 				<title type="html"><![CDATA[A Fundamental Disconnect]]></title>
 				<link href="http://aaron-gustafson.com/notebook/a-fundamental-disconnect/"/>
 				<updated>2014-09-13T15:01:58-04:00</updated>
@@ -1234,19 +1267,6 @@ body {
 <blockquote><p>Aside from the ability to make a phone call, the difference between a phone and a tablet comes down to 1.5 inches or less. … But the real issue is device makers are running out of good arguments for why these ever more subtle size gradations matter. After a point, the differences come down to personal preference rather than any meaningful new use case. As phones and tablets converge into this tight window, slightly bigger phones could accelerate the decline in tablet demand.</p></blockquote>
 
 <p>Personally, I’m not sure it matters. We’re in the midst of one big experiment being run by the device manufacturers. We’re in the scattershot. The industry is feeling out the &ldquo;right&rdquo; screen size (or sizes) that most people want to use and we are (in large part) footing the bill.</p>
-]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Making Time for Side Projects]]></title>
-				<link href="http://alistapart.com/column/making-time-for-side-projects"/>
-				<updated>2014-07-09T09:21:08-04:00</updated>
-				<id>http://aaron-gustafson.com/notebook/making-time-for-side-projects</id>
-				<content type="html"><![CDATA[<p>Great piece on how to carve out time while still working &amp; living.</p>
-
-<blockquote><p>We find the time for those things we place importance on. ‘Finding the time’ often relies upon having a goal that is meaningful and important to you; a goal that is valuable enough to make a priority. If you consistently don’t have time to make progress on your project, take a reality check: is this something you really want to achieve? If you feel it really is a priority for you, move forward by fitting it in with the priorities you share with the people in your life.</p></blockquote>
 ]]></content>
 			</entry>
 		
