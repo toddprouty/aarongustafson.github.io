@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Development | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/web-development/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2014-12-21T15:28:27-05:00</updated>
+  <updated>2014-12-21T15:29:17-05:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -210,6 +210,9 @@ body {
     <content type="html"><![CDATA[<p>A while back <a href="https://gigaom.com/2014/09/04/facebooks-autoplay-has-led-to-a-60-boost-in-traffic-on-mobile-networks/">GogOm reported on how Facebook’s decision to autoplay videos led to a 60% increase in mobile data usage</a>. It was a business decision with the intent of increasing engagement, but it was a bad decision from a user experience. It’s a tax on users and they weren’t to happy about it.</p>
 
 <p>You may be wondering <em>Why is this a bad thing for users? They want to see videos, so we’re just giving them what they want.</em> Well, let me share a little story.</p>
+
+<!-- more -->
+
 
 <p>I was in Lisbon for <a href="http://lanyrd.com/2013/uxlx/">UxLx</a> last year and was on roaming data through my mobile provider. At the hotel, the Wifi was giving me trouble, so I opted to tether my computer so I can pull down a document I needed. Chrome crashed. Lame, but no big deal. I relaunched it and, Chrome being the helpful browser that it is, all of my tabs were restored and I got back to work.</p>
 
