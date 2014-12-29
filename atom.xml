@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2014-12-28T22:08:48-05:00</updated>
+	<updated>2014-12-28T22:13:09-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -18,7 +18,7 @@
 				<link href="http://aaron-gustafson.com/notebook/we-need-more-empathy/"/>
 				<updated>2014-12-28T11:17:21-05:00</updated>
 				<id>http://aaron-gustafson.com/notebook/we-need-more-empathy</id>
-				<content type="html"><![CDATA[<p>For a while now I’ve been <a href="http://www.slideshare.net/AaronGustafson/designing-with-empathy-breaking-development-nashville-2013">beating the “empathy” drum</a> (<a href="http://www.lukew.com/ff/entry.asp?1810">notes</a>), trying to get folks in our industry to understand the importance of creating connections with the people for whom we build software, websites, etc. After all, we design and build tools to solve the needs of actual people, not some generic “user”.<!-- more --><sup><a href="#fn-1" id="ref-1">1</a></sup></p>
+				<content type="html"><![CDATA[<p>For a while now I’ve been <a href="http://www.slideshare.net/AaronGustafson/designing-with-empathy-breaking-development-nashville-2013">beating the “empathy” drum</a> (<a href="http://www.lukew.com/ff/entry.asp?1810">notes</a>), trying to get folks in our industry to understand the importance of creating connections with the people for whom we build software, websites, etc. After all, we design and build tools to solve the needs of actual people, not some generic “user”.<!-- more --><sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
 
 <p>It’s tough to connect with other people and we often fall into the trap of designing products for us and people like us. Jeffrey Zeldman characterizes the problem perfectly in <a href="http://www.zeldman.com/2014/12/28/unexamined-privilege-is-the-real-source-of-cruelty-in-facebooks-your-year-in-review/">his recent post</a>:</p>
 
@@ -33,16 +33,14 @@
 <p>In order to address these issues, we need to flex our empathetic muscles. We need to create connections with people who are not like us. People who live in different neighborhoods. People who come from different countries. People who require alternate means to accessing our sites and services. We need to see that the world is full of differences.</p>
 
 <p>Life is full of great joy as well as great tragedy. When we acknowledge diversity of experience and actually embrace it, we become better designers.</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>I don’t mind the aggregate “users”, but “user” is too clinical and distanced for my tastes. Terms like “the user” keep us from connecting with the people who actually use our software and when we are disconnected from our users, we will not do a great job of solving their problems. And solving problems is the whole point of design.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
 
-<p><section class="module module--footnotes footnotes"></p>
-
-<pre><code>&lt;h1&gt;Footnotes&lt;/h1&gt;
-&lt;ol class="footnotes__list"&gt;
-    &lt;li class="footnotes__item"&gt;&lt;a id="fn-1"&gt;I don’t mind the aggregate “users”, but “user” is too clinical and distanced for my tastes. Terms like “the user” keep us from connecting with the people who actually use our software and when we are disconnected from our users, we will not do a great job of solving their problems. And solving problems is the whole point of design.&lt;/a&gt; &lt;a class="footnotes__return" href="#ref-1"&gt;Return to the Reference&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</code></pre>
-
-<p></section></p>
 ]]></content>
 			</entry>
 		
