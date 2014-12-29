@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2014-12-23T12:53:37-05:00</updated>
+  <updated>2014-12-28T22:08:48-05:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -12,6 +12,39 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[We Need More Empathy]]></title>
+    <link href="http://aaron-gustafson.com/notebook/we-need-more-empathy/"/>
+    <updated>2014-12-28T11:17:21-05:00</updated>
+    <id>http://aaron-gustafson.com/notebook/we-need-more-empathy</id>
+    <content type="html"><![CDATA[<p>For a while now I’ve been <a href="http://www.slideshare.net/AaronGustafson/designing-with-empathy-breaking-development-nashville-2013">beating the “empathy” drum</a> (<a href="http://www.lukew.com/ff/entry.asp?1810">notes</a>), trying to get folks in our industry to understand the importance of creating connections with the people for whom we build software, websites, etc. After all, we design and build tools to solve the needs of actual people, not some generic “user”.<!-- more --><sup><a href="#fn-1" id="ref-1">1</a></sup></p>
+
+<p>It’s tough to connect with other people and we often fall into the trap of designing products for us and people like us. Jeffrey Zeldman characterizes the problem perfectly in <a href="http://www.zeldman.com/2014/12/28/unexamined-privilege-is-the-real-source-of-cruelty-in-facebooks-your-year-in-review/">his recent post</a>:</p>
+
+<blockquote><p>If we keep throwing only young, mostly white, mostly upper middle class people at the engine that makes our digital world go, we’ll keep getting camera and reminder and hookup apps—things that make an already privileged life even smoother—and we’ll keep producing features that sound like a good idea to everyone in the room, until they unexpectedly stab someone in the heart.</p></blockquote>
+
+<p>Empathy is difficult when we are surrounded by others like us. We need to be surrounded by different people. Certainly gender and ethnic diversity is incredibly important here, but so is diversity of experience. As Jeffrey astutely points out, diversity in the room where Facebook’s “Year in Review” concept was given the green light would have—I have to hope—helped create some safeguards to keep some of their actual customers from being reminded of tragedies they experienced this year.</p>
+
+<p>In all likelihood, the worst thing they probably discussed was an embarrassing hookup being celebrated, but I’ve had several friends lose children and loved ones this year, other friends battling serious illnesses, and still others who have suffered losses of different sorts. All bore their souls on Facebook in the past year and this feature has brought it back and, in some cases, <a href="http://meyerweb.com/eric/thoughts/2014/12/24/inadvertent-algorithmic-cruelty/">celebrated these tragic events in a very uncanny and dispassionate way</a>.</p>
+
+<p>And Facebook isn’t the only company to blame for this sort of thing. Pretty much every social network suffers from similar issues. Reading the comments on the various press accounts of this story have revealed similar problems at <a href="http://arstechnica.com/business/2014/12/facebook-apologizes-for-morbid-results-with-its-year-in-review-nag/?comments=1&amp;post=28196195#comment-28196195">LinkedIn</a>, <a href="http://arstechnica.com/business/2014/12/facebook-apologizes-for-morbid-results-with-its-year-in-review-nag/?comments=1&amp;post=28196709#comment-28196709">Google+</a>, <a href="http://www.deathanddigitallegacy.com/2010/08/05/twitter-recommends-dead-friends/">Twitter</a>, and others. We can and need to do better.</p>
+
+<p>In order to address these issues, we need to flex our empathetic muscles. We need to create connections with people who are not like us. People who live in different neighborhoods. People who come from different countries. People who require alternate means to accessing our sites and services. We need to see that the world is full of differences.</p>
+
+<p>Life is full of great joy as well as great tragedy. When we acknowledge diversity of experience and actually embrace it, we become better designers.</p>
+
+<p><section class="module module--footnotes footnotes"></p>
+
+<pre><code>&lt;h1&gt;Footnotes&lt;/h1&gt;
+&lt;ol class="footnotes__list"&gt;
+    &lt;li class="footnotes__item"&gt;&lt;a id="fn-1"&gt;I don’t mind the aggregate “users”, but “user” is too clinical and distanced for my tastes. Terms like “the user” keep us from connecting with the people who actually use our software and when we are disconnected from our users, we will not do a great job of solving their problems. And solving problems is the whole point of design.&lt;/a&gt; &lt;a class="footnotes__return" href="#ref-1"&gt;Return to the Reference&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</code></pre>
+
+<p></section></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Autoplay, Don’t Do It]]></title>
@@ -346,65 +379,6 @@
 </p>
 
 <p>We are only just beginning to scratch the surface of what’s possible with adaptive images and I am sure we will come up with newer, better ways to do this stuff. Heck, there may even be an adaptive images add-on in the pipeline for ExpressionEngine. But, in the meantime, if you are trying to implement adaptive images with ExpressionEngine, CE Image is a good way to go.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Enabling Webmentions in Jekyll]]></title>
-    <link href="http://aaron-gustafson.com/notebook/enabling-webmentions-in-jekyll/"/>
-    <updated>2014-11-18T17:01:08-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/enabling-webmentions-in-jekyll</id>
-    <content type="html"><![CDATA[<p>While I am really happy with my choice to move away from a dynamic website/blog to a static one—powered by <a href="http://octopress.org/">Octopress</a>, hosted for free on <a href="https://github.com">Github</a>—it’s been pretty limiting when it comes to integrating comments and other more necessarily dynamic components.</p>
-
-<!-- more -->
-
-
-<p>Like many folks in the Octopress/Jekyll community, I’ve opted to use <a href="https://disqus.com/websites/">Disqus’ free service to manage comments</a>, but I’m not in love with it. First of all, it requires JavaScript. You know <a href="/notebook/2014/a-fundamental-disconnect/">my stance on that</a>. Now I’m willing to accept comments as an <a href="https://en.wikipedia.org/wiki/Progressive_enhancement">enhancement</a> to the reading process, but it doesn’t mean I like the situation. Secondly, they control the content and if they go away, so do all of your comments.</p>
-
-<p>I’ve become quite intrigued by the potential of <a href="http://indiewebcamp.com/webmention">webmentions</a> as a way of taking back control of our content. They are a brilliant way to loosely connect related posts on personal blogs and third-parties like Twitter, Facebook, and Google+. With my mind unable to think about anything else, I decided to see what it would take to get webmentions up and running here.</p>
-
-<p>At first I went to <a href="http://aaronparecki.com/">Aaron Parecki</a>’s <a href="http://webmention.io">webmention.io</a> project and looked through <a href="https://github.com/aaronpk/webmention.io/blob/master/README.md">the docs</a>. It looked like it could fit the bill, but I noticed there was no way to directly apply for an account, so I moved on to <a href="http://voxpelli.com/">Pelle Wessman</a>’s <a href="https://webmention.herokuapp.com/">webmention Heroku app</a>.</p>
-
-<p>I really like Pelle’s solution and easily implemented it locally, but the JavaScript reliance was nagging at me. I returned to webmention.io and decided to <a href="https://twitter.com/aarongustafson/status/534394789152948224">reach out to Aaron</a> on the off change he’d give me access to his service. <a href="https://twitter.com/aaronpk/status/534398408815964160">He responded pretty quickly</a> and I was off to the races.</p>
-
-<p>In preparation for building my plugin, I looked over a few other Jekyll plugins (Octopress is built on Jekyll) and got a sense of the structure and how to go about creating a <a href="https://github.com/Shopify/liquid/wiki/Liquid-for-Programmers#create-your-own-tags">Liquid tag</a> (Liquid being the default templating language used by Jekyll). Then I created a new Ruby file and got cracking. Now I’ll warn you, I don’t normally write Ruby. The last time I did it professionally was when <a href="https://github.com/rails/rails/tree/v0.12.0">Rails was at 0.12</a>, so that should tell you something. That said, it was pretty easy to get back into the flow and I managed to put together <a href="https://github.com/aarongustafson/jekyll-webmention_io">a basic Liquid Tag for webmentions and webmention counts</a> in about two hours.</p>
-
-<p>The tag to display webentions for a page is pretty simple:</p>
-
-<p><div><script src='https://gist.github.com/cb15ead6bf3a72b8f92a.js?file=webmentions.html'></script>
-<noscript><pre><code>{% webmentions YOUR_URL %}</code></pre></noscript></div>
-</p>
-
-<p>This tag outputs a container <code>div</code> and an ordered list of every webmention found when the site is generated (or previewed). To show the current webmention count, you use a slightly different tag which just outputs a number:</p>
-
-<p><div><script src='https://gist.github.com/cb15ead6bf3a72b8f92a.js?file=webmention_count.html'></script>
-<noscript><pre><code>{% webmention_count YOUR_URL %}</code></pre></noscript></div>
-</p>
-
-<p>These two tags allows me to bypass the JavaScript used in webmention.io’s integration examples and have Ruby consult the API directly. The plugin then creates the necessary markup using the JSON data the API provided.</p>
-
-<p>Unfortunately, Liquid tags are only processed by Jekyll when the site is compiled. The actual site exists only as static HTML files on Github’s servers, so any webmentions created after I generate the site won’t show up. That’s a little less than ideal.</p>
-
-<p>I don’t regenerate the site that often, nor do I want to set up a cron to automatically do it in order to update the webmentions. I took the afternoon to mull over some options to address this challenge. <em>How do I add in missing webmentions dynamically when the site itself is static?</em></p>
-
-<p>Then it dawned on me: JavaScript can fill in the gaps. Using the examples Aaron had put together, I cobbled together a script to update the webmention list and fill in any missing mentions. In the interest of reducing dependencies, I used <a href="http://vanilla-js.com">the infamous Vanilla.js library</a> to create and insert new webmentions when the page was loaded.</p>
-
-<p>And, as an added bonus, I adapted another bit of Aaron’s code to make the webmention list update in real time as new mentions are created elsewhere on the Web. The code uses <a href="http://www.w3.org/TR/websockets/">WebSockets</a>, <a href="http://caniuse.com/#feat=websockets">if available</a>, to make the magic happen. It’s pretty nifty and I tip my hat to Aaron for implementing that feature in the webmention.io service.</p>
-
-<p>It’s been a pretty fun mini-project. In the end, I created a useful bit of kit that provides three distinct experiences:</p>
-
-<ol>
-<li>Static webmentions collected when the site was generated form the baseline experience;</li>
-<li>JavaScript-enabled browsers get any webmentions that were published since I last generated the site; and</li>
-<li>JavaScript-enabled browsers with WebSockets support get real-time updates with any webmentions that are published after the page loads.</li>
-</ol>
-
-
-<p>And, even better, the next time I generate the site, any missing webmentions will be inserted into the static files for safe keeping.</p>
-
-<p>That’s a pretty nice continuum of experience if you ask me.</p>
-
-<p>If you are a Jekyll or Octopress user, you can pick up <a href="https://github.com/aarongustafson/jekyll-webmention_io">the plugin and optional JavaScript file on Github</a>. Feel free to fork and sent me your bug fixes and enhancements.</p>
 ]]></content>
   </entry>
   

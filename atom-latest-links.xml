@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2014-12-23T12:53:37-05:00</updated>
+	<updated>2014-12-28T22:08:48-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,8 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
 	
 		
 			<entry>
@@ -101,8 +103,6 @@
 				<content type="html"><![CDATA[<blockquote><p>Our screens act like windows to content of variable size and scale, demanding an awful lot of abstract thinking to design for. Sometimes we’re successful, revising content, designing modern day deliverables and embracing compromise like we know in our hearts we should. Other times…</p></blockquote>
 ]]></content>
 			</entry>
-		
-	
 		
 	
 </feed>
