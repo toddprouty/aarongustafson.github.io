@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2014-12-28T22:13:09-05:00</updated>
+	<updated>2014-12-30T08:27:33-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[A Maintainable Style Guide]]></title>
+				<link href="http://ianfeather.co.uk/a-maintainable-style-guide/"/>
+				<updated>2014-12-29T18:29:18-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/a-maintainable-style-guide-ian-feather</id>
+				<content type="html"><![CDATA[<p>This is a fantastic overview of the modular architecture Lonely Planet is using to run their website and their style guide, keeping both perfectly in sync. The system that drives all of this, Rizzo, is <a href="https://github.com/lonelyplanet/rizzo">available on Github</a>.</p>
+]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -1224,17 +1235,6 @@ body {
 
 
 <p>Hooray!</p>
-]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Fixed and Inflexible]]></title>
-				<link href="http://blog.cloudfour.com/fixed-and-inflexible/"/>
-				<updated>2014-07-25T19:06:07-04:00</updated>
-				<id>http://aaron-gustafson.com/notebook/fixed-and-inflexible</id>
-				<content type="html"><![CDATA[<blockquote><p>Our screens act like windows to content of variable size and scale, demanding an awful lot of abstract thinking to design for. Sometimes we’re successful, revising content, designing modern day deliverables and embracing compromise like we know in our hearts we should. Other times…</p></blockquote>
 ]]></content>
 			</entry>
 		
