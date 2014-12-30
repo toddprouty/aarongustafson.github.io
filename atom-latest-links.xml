@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2014-12-30T09:34:26-05:00</updated>
+	<updated>2014-12-30T10:11:15-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,19 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Researching the Performance Costs of JavaScript MVC Frameworks]]></title>
+				<link href="http://www.filamentgroup.com/lab/mv-initial-load-times.html"/>
+				<updated>2014-12-30T09:36:18-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/researching-the-performance-costs-of-javascript-mvc-frameworks</id>
+				<content type="html"><![CDATA[<p>I often talk about the negative performance impact of using front-end MVC frameworks like Angular and Ember to generate your HTML. It should be pretty obvious why: a framework must be downloaded, interpreted, and executed before any HTML is generated and eventually rendered in the browser. The one thing I had yet to do was actually see how the various frameworks stack up side-by-side. Now the <a href="http://www.filamentgroup.com">Filament Group</a> has done just that.</p>
+
+<p>If you are using or are considering a front-end Javascript framework, you need to read this report.</p>
+]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -95,8 +108,6 @@
 				<content type="html"><![CDATA[<blockquote><p>We were promised flying cars; we were added to mailing lists.</p></blockquote>
 ]]></content>
 			</entry>
-		
-	
 		
 	
 		
