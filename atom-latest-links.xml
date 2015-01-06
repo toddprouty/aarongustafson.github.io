@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-01-05T17:14:44-05:00</updated>
+	<updated>2015-01-06T18:08:21-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Gogo Wi-Fi Is Using Man-in-the-Middle Malware Tactics on Its Own Users]]></title>
+				<link href="http://gizmodo.com/gogo-is-using-man-in-the-middle-malware-tactics-on-its-1677559652"/>
+				<updated>2015-01-06T18:02:57-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/gogo-is-using-man-in-the-middle-malware-tactics-on-its-own-users</id>
+				<content type="html"><![CDATA[<p>So earlier, <a href="http://aaron-gustafson.com/notebook/the-network-effect/">when I said the only way we could trust that the content we delivered was what we sent was via HTTPS</a>? I stand corrected. Even HTTPS can’t guarantee it.</p>
+]]></content>
+			</entry>
+		
 	
 		
 	
@@ -110,8 +121,6 @@
 				<content type="html"><![CDATA[<blockquote><p>We were promised flying cars; we were added to mailing lists.</p></blockquote>
 ]]></content>
 			</entry>
-		
-	
 		
 	
 		
