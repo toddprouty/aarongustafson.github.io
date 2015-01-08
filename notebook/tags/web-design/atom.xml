@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Browse by Tag: ”web Design” | Aaron Gustafson]]></title>
+  <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2015-01-08T14:14:20-05:00</updated>
+  <updated>2015-01-08T14:19:07-05:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[“webOS Is Back"]]></title>
+    <title type="html"><![CDATA[webOS Is Back]]></title>
     <link href="http://aaron-gustafson.com/notebook/webos-is-back/"/>
     <updated>2015-01-08T10:17:09-05:00</updated>
     <id>http://aaron-gustafson.com/notebook/webos-is-back</id>
@@ -34,6 +34,121 @@
 <p>In 2013 <a href="http://www.theverge.com/2013/2/25/4027814/hp-emerges-as-big-winner-in-webos-sale">HP announced it was selling parts of webOS to LG</a> for use in smart TVs. It was a glimmer of hope for the beleaguered OS. And now, not only do we have webOS based <a href="http://www.lg.com/uk/smarttv/webos">smart TVs</a>, but <a href="http://gizmodo.com/lgs-new-smart-watch-is-powered-by-webos-1678191522">LG’s new smart watches are sporting the OS as well</a>. And LG has not ruled out bringing it back for a phone either.</p>
 
 <p>I’m happy to see webOS sticking around. It may have been the laughing stock in the app development community back in the day, but I’ve always had a soft spot in my heart for it.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Revisiting (and Releasing) <cite>Adaptive Web Design</cite>]]></title>
+    <link href="http://aaron-gustafson.com/notebook/revisiting-and-releasing-adaptive-web-design/"/>
+    <updated>2015-01-05T14:10:49-05:00</updated>
+    <id>http://aaron-gustafson.com/notebook/revisiting-and-releasing-adaptive-web-design</id>
+    <content type="html"><![CDATA[<p>As you probably know, back in 2011 Easy Readers published my first solo book: <a href="http://adaptivewebdesign.info"><cite>Adaptive Web Design</cite></a>. It was an immediate hit and the response to continues to be tremendous even though it will turn four this coming May (which has to be like 80 in technology book years… many are outdated before they are even released).</p>
+
+<!-- more -->
+
+
+<p><div class='embed tweet'>Tweet could not be processed</div></p>
+
+<p>I think one of the main reasons the book has remained relevant for so long is because at its core, <cite>Adaptive Web Design</cite> is a <em>philosophy</em> book. Sure, there are some code examples here and there, but they only serve to demonstrate how you can apply progressive enhancement in your work. The philosophy of progressive enhancement works and only continues to demonstrate its brilliance with each new Web-enabled screen that debuts in the ever-expanding global marketplace. In fact, I’ll go out on a limb and declare that progressive enhancement is probably even more relevant today than it was when I wrote <cite>Adaptive Web Design</cite> in 2010.</p>
+
+<p>As such, I’ve been thinking a lot about an update. So much has happened since mid-2010 when I was writing the book. Heck, I didn’t even address Responsive Web Design and only touched a little on mobile. Then there are things like single-page apps &amp; isomorphic JavaScript I’d love to discuss. <a href="http://opengraphprotocol.org/">Open Graph</a> &amp; <a href="http://schema.org/">Schema.org</a>… new tweaks to <a href="http://www.w3.org/WAI/intro/aria.php">the ARIA spec</a>… <a href="http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#the-picture-element"><code>picture</code></a>, <a href="http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#attr-img-srcset"><code>srcset</code></a> &amp; <a href="http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#attr-img-sizes"><code>sizes</code></a>… the <a href="http://www.w3.org/TR/shadow-dom/">shadow DOM</a>… <a href="http://www.w3.org/TR/components-intro/">web components</a>… the list goes on and on. Progressive enhancement can help you better understand the pros and cons of all of these new advances and help you employ them while simultaneously keeping your projects on time and on budget.</p>
+
+<p>My hope is that the second edition of <cite>Adaptive Web Design</cite> will be out an in your hands by the end of 2015. But in the meantime, <a href="https://adactio.com/journal/4956">taking a page from Jeremy</a>, I felt it was time to give away the first edition. You can now <a href="http://adaptivewebdesign.info/1st-edition/">read <cite>Adaptive Web Design</cite></a>, in it’s entirety, from the comfort of your own browser… for free.</p>
+
+<p>The HTML version of <cite>Adaptive Web Design</cite> is a nearly direct port of the XHTML I wrote for the hand-coded ePub. I made a few tweaks to make it a little more readable in the browser, but it’s all there including the videos. And yes, it makes use of progressive enhancement.</p>
+
+<p>I hope you enjoy reading it as much as I enjoyed writing it and I look forward to getting you the revised and expanded second edition in the not to distant future.</p>
+
+<p>PS &ndash; Easy Readers closed up shop at the end of 2014 and delivered the remaining paperback copies—of which there are only 50 or so—to me. If you missed out on getting a copy and would like to purchase one, <a href="/contact/">drop me a line</a> and I can sell you one. I’ll even sign it for you!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[We Need More Empathy]]></title>
+    <link href="http://aaron-gustafson.com/notebook/we-need-more-empathy/"/>
+    <updated>2014-12-28T11:17:21-05:00</updated>
+    <id>http://aaron-gustafson.com/notebook/we-need-more-empathy</id>
+    <content type="html"><![CDATA[<p>For a while now I’ve been <a href="http://www.slideshare.net/AaronGustafson/designing-with-empathy-breaking-development-nashville-2013">beating the “empathy” drum</a> (<a href="http://www.lukew.com/ff/entry.asp?1810">notes</a>), trying to get folks in our industry to understand the importance of creating connections with the people for whom we build software, websites, etc. After all, we design and build tools to solve the needs of actual people, not some generic “user”.<!-- more --><sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+
+<p>It’s tough to connect with other people and we often fall into the trap of designing products for us and people like us. Jeffrey Zeldman characterizes the problem perfectly in <a href="http://www.zeldman.com/2014/12/28/unexamined-privilege-is-the-real-source-of-cruelty-in-facebooks-your-year-in-review/">his recent post</a>:</p>
+
+<blockquote><p>If we keep throwing only young, mostly white, mostly upper middle class people at the engine that makes our digital world go, we’ll keep getting camera and reminder and hookup apps—things that make an already privileged life even smoother—and we’ll keep producing features that sound like a good idea to everyone in the room, until they unexpectedly stab someone in the heart.</p></blockquote>
+
+<p>Empathy is difficult when we are surrounded by others like us. We need to be surrounded by different people. Certainly gender and ethnic diversity is incredibly important here, but so is diversity of experience. As Jeffrey astutely points out, diversity in the room where Facebook’s “Year in Review” concept was given the green light would have—I have to hope—helped create some safeguards to keep some of their actual customers from being reminded of tragedies they experienced this year.</p>
+
+<p>In all likelihood, the worst thing they probably discussed was an embarrassing hookup being celebrated, but I’ve had several friends lose children and loved ones this year, other friends battling serious illnesses, and still others who have suffered losses of different sorts. All bore their souls on Facebook in the past year and this feature has brought it back and, in some cases, <a href="http://meyerweb.com/eric/thoughts/2014/12/24/inadvertent-algorithmic-cruelty/">celebrated these tragic events in a very uncanny and dispassionate way</a>.</p>
+
+<p>And Facebook isn’t the only company to blame for this sort of thing. Pretty much every social network suffers from similar issues. Reading the comments on the various press accounts of this story have revealed similar problems at <a href="http://arstechnica.com/business/2014/12/facebook-apologizes-for-morbid-results-with-its-year-in-review-nag/?comments=1&amp;post=28196195#comment-28196195">LinkedIn</a>, <a href="http://arstechnica.com/business/2014/12/facebook-apologizes-for-morbid-results-with-its-year-in-review-nag/?comments=1&amp;post=28196709#comment-28196709">Google+</a>, <a href="http://www.deathanddigitallegacy.com/2010/08/05/twitter-recommends-dead-friends/">Twitter</a>, and others. We can and need to do better.</p>
+
+<p>In order to address these issues, we need to flex our empathetic muscles. We need to create connections with people who are not like us. People who live in different neighborhoods. People who come from different countries. People who require alternate means to accessing our sites and services. We need to see that the world is full of differences.</p>
+
+<p>Life is full of great joy as well as great tragedy. When we acknowledge diversity of experience and actually embrace it, we become better designers.</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>I don’t mind the aggregate “users”, but “user” is too clinical and distanced for my tastes. Terms like “the user” keep us from connecting with the people who actually use our software and when we are disconnected from our users, we will not do a great job of solving their problems. And solving problems is the whole point of design.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Autoplay, Don’t Do It]]></title>
+    <link href="http://aaron-gustafson.com/notebook/autoplay-dont-do-it/"/>
+    <updated>2014-12-21T15:12:50-05:00</updated>
+    <id>http://aaron-gustafson.com/notebook/autoplay-dont-do-it</id>
+    <content type="html"><![CDATA[<p>A while back <a href="https://gigaom.com/2014/09/04/facebooks-autoplay-has-led-to-a-60-boost-in-traffic-on-mobile-networks/">GogOm reported on how Facebook’s decision to autoplay videos led to a 60% increase in mobile data usage</a>. It was a business decision with the intent of increasing engagement, but it was a bad decision from a user experience. It’s a tax on users and they weren’t to happy about it.</p>
+
+<p>You may be wondering <em>Why is this a bad thing for users? They want to see videos, so we’re just giving them what they want.</em> Well, let me share a little story.</p>
+
+<!-- more -->
+
+
+<p>I was in Lisbon for <a href="http://lanyrd.com/2013/uxlx/">UxLx</a> last year and was on roaming data through my mobile provider. At the hotel, the Wifi was giving me trouble, so I opted to tether my computer so I can pull down a document I needed. Chrome crashed. Lame, but no big deal. I relaunched it and, Chrome being the helpful browser that it is, all of my tabs were restored and I got back to work.</p>
+
+<p>A few minutes later I got a text message from my provider: I’d just used a tremendous amount of my data in a very short amount of time. And I had only landed an hour before. I was understandably concerned. And perplexed. What happened?</p>
+
+<p>Well, it turns out one of the tabs that re-spawned after Chrome crashed was a page on YouTube. And on that page was an hour-long video. In HD. And it auto-played. I had the volume off and it was in background tab, so I had no idea.</p>
+
+<p>YouTube’s “business decision” to autoplay their videos cost me real money. A lot of it.</p>
+
+<p>Don’t autoplay. Any benefits you might see in user engagement are probably going to be drowned out by legitimate complaints from your users. Just don’t do it.</p>
+
+<p>Incidentally, you can <a href="https://www.facebook.com/help/633446180035470">disable auto-play in Facebook</a>, but first of all you have to know it’s an option. Facebook gives you the choice of turning it on or off entirely or to turn it on only over Wifi. That may seem like a great compromise, but I’d like to put forward a few arguments as to why it’s not:</p>
+
+<ol>
+<li><em>Tethering:</em> If I am tethered to my phone, it is likely being done over Wifi. Even if my browser is aware that I am on Wifi and even if the website is paying attention to that (using the <a href="http://www.w3.org/TR/netinfo-api/">Network Informaion API</a>), the website is probably going to get a false positive for Wifi even though the <em>actual</em> data connection is over a mobile network.</li>
+<li><em>Metered Wifi:</em> Hotels and other providers often limit how much data you can use. You could be on an awesomely fast Wifi network, but if you are limited to 100MB—it happens—being on Wifi doesn’t matter.</li>
+</ol>
+
+
+<p>So again: Autoplay, don’t do it.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Visualizing CSS3 Transformations]]></title>
+    <link href="http://aaron-gustafson.com/notebook/visualizing-css3-transformations/"/>
+    <updated>2014-12-18T16:53:18-05:00</updated>
+    <id>http://aaron-gustafson.com/notebook/visualizing-css3-transformations</id>
+    <content type="html"><![CDATA[<p>It’s pretty amazing what you can do with <a href="http://dev.w3.org/csswg/css-transforms">CSS3 transforms</a> these days, but I often struggle with explaining the importance of function order when I am training people on how to use them. Transformation functions are a visual thing, so they require a visual tool to fully understand them and the implications of your function order decisions.</p>
+
+<!-- more -->
+
+
+<p>To address this need, I put together <a href="http://codepen.io/aarongustafson/full/jEryLV/">a tool that dissects CSS3 transforms</a> so the transform process would be more clear for my students. I decided to throw it up on Codepen so you could learn from it as well. Why don’t you open that link and I’ll explain how it works. (Obviously, you’ll need to be in <a href="http://caniuse.com/#feat=transforms2d">a browser that supports transforms</a> for the tool to be useful to you.)</p>
+
+<p>The tool starts you off with a simple three-function <code>transform</code> that includes both <code>translate</code> and <code>rotate</code> functions. If you hit the &ldquo;Show Me&rdquo; button, the browser will draw a box and step you through the application of the <code>transform</code> functions, one by one, animating their application so it’s easy to follow. This makes it pretty clear why an element ends up where it does.</p>
+
+<p>Beside the &ldquo;Show Me&rdquo; button is the &ldquo;Rearrange&rdquo; button. It does exactly what you’d think: It rearranges the functions into a new, random order. If you press it and then press &ldquo;Show Me&rdquo; again, you can see if (and why) the element ends up in a different place. The original box remains ghosted out so you can see any differences.</p>
+
+<p>Here’s a video of me playing around with the default <code>transform</code> stack:</p>
+
+<p><figure id="fig-114921831" class="figure figure--video"><div class="video-embed video-embed--vimeo video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(http://i.vimeocdn.com/video/500772734_1280.jpg)" href="//vimeo.com/114921831" data-lazy-video-src="//player.vimeo.com/video/114921831?autoplay=1"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Dissecting CSS3 Transforms</div></a></div></figure></p>
+
+<p>Have a play and let me know your thoughts. I hope you find this tool as helpful as I (and my students) have.</p>
 ]]></content>
   </entry>
   
