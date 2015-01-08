@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Posts]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-posts.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-01-07T13:11:55-05:00</updated>
+	<updated>2015-01-08T14:14:20-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,32 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[“webOS Is Back"]]></title>
+				<link href="http://aaron-gustafson.com/notebook/webos-is-back/"/>
+				<updated>2015-01-08T10:17:09-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/webos-is-back</id>
+				<content type="html"><![CDATA[<p>You may not remember it, but Palm’s groundbreaking—yes, I said groundbreaking—operating system, <a href="https://en.wikipedia.org/wiki/WebOS">webOS</a>, has been resuscitated yet again. This time by LG.</p>
+
+<!-- more -->
+
+
+<p>For those of you who may have missed out on webOS in the past, here’s a primer: webOS was developed by Palm and debuted on the Palm Pre in 2009. It was the first “HTML5-based” operating system. Yes you read that right: the OS was built on HTML, CSS, and JavaScript. In 2009. Six. Years. Ago.</p>
+
+<p>Applications for webOS were written using the front-end Web stack, with the JavaScript application logic tied into the device via the Mojo—and later Enyo—JavaScript application framework. Though novel at the time, this concept has since taken off in the intervening years. <a href="http://msdn.microsoft.com/en-us/library/windows/apps/dn631758.aspx">Windows</a>, <a href="https://marketplace.firefox.com/developers/">Firefox OS</a>, and <a href="https://www.google.com/search?q=build%20native%20apps%20with%20html5">countless “unified” native app development platforms</a> have embraced the front-end Web stack as a means of building software.</p>
+
+<p>webOS also supported multitasking, which was not common back then. And to make it easy to manage, webOS introduced the brilliant card metaphor for viewing and switching between running applications. Apple, of course, ripped that idea off for iOS 7. If you dig that feature on your iPhone you have Palm to thank.</p>
+
+<p>Sadly, Palm usage was on the decline when webOS debuted so operating system never really took off. Eventually Palm was engulfed by HP, which launched the ill-fated HP TouchPad. It too failed to gather any steam and we thought webOS was dead (despite many proclamations to the contrary from well-meaning folks at HP).</p>
+
+<p>In 2013 <a href="http://www.theverge.com/2013/2/25/4027814/hp-emerges-as-big-winner-in-webos-sale">HP announced it was selling parts of webOS to LG</a> for use in smart TVs. It was a glimmer of hope for the beleaguered OS. And now, not only do we have webOS based <a href="http://www.lg.com/uk/smarttv/webos">smart TVs</a>, but <a href="http://gizmodo.com/lgs-new-smart-watch-is-powered-by-webos-1678191522">LG’s new smart watches are sporting the OS as well</a>. And LG has not ruled out bringing it back for a phone either.</p>
+
+<p>I’m happy to see webOS sticking around. It may have been the laughing stock in the app development community back in the day, but I’ve always had a soft spot in my heart for it.</p>
+]]></content>
+			</entry>
+		
 	
 		
 	
@@ -1025,8 +1051,6 @@ body {
 
 ]]></content>
 			</entry>
-		
-	
 		
 	
 		
