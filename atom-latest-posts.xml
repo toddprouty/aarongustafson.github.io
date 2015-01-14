@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Posts]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-posts.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-01-10T13:13:19-05:00</updated>
+	<updated>2015-01-14T11:46:08-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,27 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+	
+		
+	
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[The Linkblog]]></title>
+				<link href="http://aaron-gustafson.com/notebook/the-linkblog/"/>
+				<updated>2015-01-14T09:34:34-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/the-linkblog</id>
+				<content type="html"><![CDATA[<p>Since re-starting my blog I’ve been continuing to tinker with Octopress and Jekyll in an effort to customize things a bit more to my liking.</p>
+
+<p>I recently began posting links (with commentary) in a bit of a link blog, but I wasn’t really happy with having it mixed in with the rest of my Notebook posts. I finally took a few minutes to formally bust out the links into <a href="http://aaron-gustafson.com/notebook/links/">their own paginated section</a>, so you can keep up with them independently. I also set up a three distinct Atom feeds to let you consume this site’s content how you want to: <a href="http://aaron-gustafson.com/atom.xml">Latest 20 posts and links</a>, <a href="http://aaron-gustafson.com/atom-latest-posts.xml">latest 20 posts</a>, and <a href="http://aaron-gustafson.com/atom-latest-links.xml">Latest 20 links</a>.</p>
+
+<p>I’m hopeful this organization will prove as helpful to you as it is for my compartmentalization anxiety.</p>
+]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -900,159 +921,6 @@
 <p>Thank you.</p>
 ]]></content>
 			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[ARIA Quicktip: Labelledby vs. Describedby]]></title>
-				<link href="http://aaron-gustafson.com/notebook/aria-quicktip-labelledby-vs-describedby/"/>
-				<updated>2014-11-05T10:45:22-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/aria-quicktip-labelledby-vs-describedby</id>
-				<content type="html"><![CDATA[<p>Last night, while we were enjoying a cool evening and a few drinks outside after day 1 of <a href="http://bdconf.com">BDConf</a>, <a href="http://adactio.com">Jeremy</a> asked me for some clarification on the ARIA attributes I had demoed as part of <a href="http://www.slideshare.net/AaronGustafson/falling-in-love-with-forms-bdconf-2014">my forms presentation</a> earlier in the afternoon. In particular, he was confused by how <code>aria-labelledby</code> and <code>aria-describedby</code> differ.</p>
-
-<!-- more -->
-
-
-<p>I hadn’t really thought about it before, but it’s a good question. They seem pretty similar in function, right? And both support a space separated list of one or more <code>id</code> references. It’s downright confusing.</p>
-
-<p>My simple explanation was that, at least in terms of form fields, they differ in when they are read. The <code>aria-labelledby</code> attribute replaces the associated <code>label</code> element (which is, of course, associated with the field via the <code>label</code>’s <code>for</code> attribute). The <code>aria-describedby</code> attribute, on the other hand, is read after the field type is stated.</p>
-
-<p>To demonstrate how all of this plays out, I threw together <a href="http://codepen.io/aarongustafson/pen/dmuoe/">a quick CodePen demo</a> that takes you through numerous ways you can use and combine these attributes. I also did a <a href="http://youtu.be/U8_VjI-Z1LA">screen recording to demonstrate how ChromeVox exposes these attributes</a>:</p>
-
-<p><figure id="fig-U8_VjI-Z1LA" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--4x3"><a class="video-embed__lazy-link" style="background-image:url(http://i2.ytimg.com/vi/U8_VjI-Z1LA/0.jpg)" href="//www.youtube.com/watch?v=U8_VjI-Z1LA" data-lazy-video-src="http://www.youtube.com/embed/U8_VjI-Z1LA?autoplay=1"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">aria-labelledby vs. aria-describedby</div></a></div></figure></p>
-
-<p><strong>Update:</strong> <a href="https://twitter.com/stevefaulkner">Steve Faulkner</a> shared a doc that discusses <a href="http://rawgit.com/w3c/aria/master/html-aam/html-aam.html#accessible-name-and-description-calculation">how accessible names and descriptions are calculated</a>. Thanks Steve!</p>
-
-<p><em>Note: I did discover a bug in ChromeVox wherein the content of the elements referenced in <code>aria-describedby</code> are not read when the field receives focus via the keyboard (using the <kbd>tab</kbd> key), but it does when it receives focus via the mouse. I’ve submitted <a href="https://code.google.com/p/google-axs-chrome/issues/detail?id=158&amp;thanks=158&amp;ts=1415202123">a bug report</a> to to the powers that be.</em></p>
-]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[CSS Variables Are a Bad Idea]]></title>
-				<link href="http://aaron-gustafson.com/notebook/css-variables-are-a-bad-idea/"/>
-				<updated>2014-11-04T14:58:01-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/css-variables-are-a-bad-idea</id>
-				<content type="html"><![CDATA[<p>I’ll level with you: I used to think I wanted variables in CSS.</p>
-
-<p>As a programmer, I love the idea of being able to abstract reusable bits like colors, border widths, font sizes, and the like to obviously named variables. It’s a far more <a href="https://en.wikipedia.org/wiki/Don't_repeat_yourself">DRY</a> approach and makes maintenance far easier.</p>
-
-<!-- more -->
-
-
-<p>Before I made the leap to using a CSS preprocessor, I was convinced we needed CSS variables, but I always wondered how we might make it possible without breaking one of the fundamental <a href="http://www.w3.org/TR/CSS21/intro.html#design-principles">design principles of CSS</a>: Forward and backward compatibility. Take a look at this example (which is based on <a href="http://www.w3.org/TR/css-variables/">the working draft spec</a>) and I think you’ll spot the problem:</p>
-
-<div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=css-vairables.css'></script>
-<noscript><pre><code>:root {
-  --foreground-color: #333;
-  --background-color: #fff;
-}
-
-body {
-  background: var(--background-color);
-  color: var(--foreground-color);
-}</code></pre></noscript></div>
-
-
-<p>For a browser that understands CSS variables, the interpreted stylesheet would look like this:</p>
-
-<div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=desired-result.css'></script>
-<noscript><pre><code>body {
-  background: #fff;
-  color: #333;
-}</code></pre></noscript></div>
-
-
-<p>But any browser that doesn’t understand the variables would never get the color values because browsers follow <a href="http://www.w3.org/TR/CSS21/syndata.html#parsing-errors">the rules of fault tolerance in CSS</a> and ignore anything they don’t understand. The introduction of variables to CSS would effectively build a wall between older browsers and new ones. (For the record, as of this writing, <a href="http://caniuse.com/#feat=css-variables">only Firefox has implemented CSS variables</a>).</p>
-
-<p>In order to serve the broadest spectrum of devices, we’d have to provide a fallback like this:</p>
-
-<div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=css-variables-fallback.css'></script>
-<noscript><pre><code>:root {
-  --foreground-color: #333;
-  --background-color: #fff;
-}
-
-body {
-  background: #fff;
-  background: var(--background-color);
-  color: #333;
-  color: var(--foreground-color);
-}</code></pre></noscript></div>
-
-
-<p>But that kinda defeats the whole purpose, right?</p>
-
-<p>Preprocessors already give us this access to variables today (along with nesting, mixins, and programmatic structures like conditionals, loops, etc.). Here’s a SASS example:</p>
-
-<div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=sass-variables.scss'></script>
-<noscript><pre><code>$foreground-color: #333;
-$background-color: #fff;
- 
- 
-body {
-  background: $background-color;
-  color: $foreground-color;
-}</code></pre></noscript></div>
-
-
-<p>The big difference here is that this document is a source file, it is not what is sent to the browser. This file is compiled by the preprocessor into actual CSS, which is what we send to the browser and is exactly what we wanted in the first place:</p>
-
-<div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=desired-result.css'></script>
-<noscript><pre><code>body {
-  background: #fff;
-  color: #333;
-}</code></pre></noscript></div>
-
-
-<p>And it works on every browser that supports CSS, all the way back to <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#Difficulty_with_adoption">IE 3</a>.</p>
-
-<p>With a preprocessor like SASS, Less, or Stylus, I get all of the maintainability benefits without sacrificing browser support. It’s a no-brainer. But even if that were not true, there’s another issue to consider: If I push CSS variables to browsers, they have to parse the CSS and substitute the variables before they can apply the styles.</p>
-
-<p>Now I’m sure browser makers can find ways to optimize this process, but it’s bound to affect the rendering time. And not in a positive way. I don’t even want to think about how bad it would be on a mobile chipset, especially on a low-end device.</p>
-
-<p>Honestly, I love using variables… in the source files I use with a preprocessor. Given the potential loss of browser support, the pointless fallbacks I’d have to use if I wanted to continue supporting older browsers, the existence of numerous preprocessor options that solve the abstraction problem in a backward- and forward-compatible way, and the fact that CSS variables would make browsers have to work even harder to achieve the desired result, I’m not convinced we need them.</p>
-
-<p>CSS variables are a bad idea.</p>
-]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Google Embraces Progressive Enhancement]]></title>
-				<link href="http://aaron-gustafson.com/notebook/google-embraces-progressive-enhancement/"/>
-				<updated>2014-10-28T21:07:35-04:00</updated>
-				<id>http://aaron-gustafson.com/notebook/google-embraces-progressive-enhancement</id>
-				<content type="html"><![CDATA[<p>In case you missed it, <a href="http://googlewebmastercentral.blogspot.com/2014/10/updating-our-technical-webmaster.html">yesterday Pierre Far updated Google’s Webmaster Guidelines</a>. In his post, Pierre lays out their case for <a href="https://en.wikipedia.org/wiki/Progressive_enhancement">progressive enhancement</a>:</p>
-
-<blockquote><p>Just like modern browsers, our rendering engine might not support all of the technologies a page uses. Make sure your web design adheres to the principles of progressive enhancement as this helps our systems (and a wider range of browsers) see usable content and basic functionality when certain web design features are not yet supported.</p></blockquote>
-
-<!-- more -->
-
-
-<p>As someone who has been beating the drum for progressive enhancement for over a decade, this sort of support from such an influential company gets me a little teary-eyed.</p>
-
-<p>It’s nice to see Steve Champeon’s philosophy for web design finally beginning to gain traction outside of the ivory tower of Web standards. It is a fantastic philosophy that has been guiding our work since Steve unveiled it. And it has paid some handsome dividends for both us and our clients.</p>
-
-<p>If you need help wrapping your head around progressive enhancement, you should read <a href="#fn-2014-10-28">my introductory series for <cite>A List Apart</cite></a>. If you want more, there’s also <a href="http://adaptivewebdesign.info">my book on progressive enhancement: <cite>Adaptive Web Design</cite></a>. And if you need help getting your team up to speed, I’m more than happy to hop on a plane and come to you. Just <a href="http://aaron-gustafson.com/contact/">drop me a line</a>. I have helped many companies embrace this philosophy and have seen it improve their productivity, increase their reach by supporting more devices, and improve the accessibility of their products. Oh… and <a href="http://blog.easy-designs.net/archives/the-true-cost-of-progressive-enhancement">progressive enhancement has saved our clients real money and reduced their time to market</a>.</p>
-
-<p>I don’t tend to be a “magic pill” kind of believer, but I can honestly say that embracing progressive enhancement can radically change your business for the better. And I’m glad to see Google agrees with me.</p>
-
-<h2 id="fn-2014-10-28">My (still-relevant) 2008 series on Progressive Enhancement</h2>
-
-
-<ol>
-<li><a href="http://www.alistapart.com/articles/understandingprogressiveenhancement/">Understanding Progressive Enhancement</a></li>
-<li><a href="http://www.alistapart.com/articles/progressiveenhancementwithcss/">Progressive Enhancement with CSS</a></li>
-<li><a href="http://www.alistapart.com/articles/progressiveenhancementwithjavascript/">Progressive Enhancement with JavaScript</a></li>
-</ol>
-
-]]></content>
-			</entry>
-		
-	
 		
 	
 </feed>
