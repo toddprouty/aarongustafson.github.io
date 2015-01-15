@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2015-01-14T11:46:08-05:00</updated>
+  <updated>2015-01-15T12:42:33-05:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -12,6 +12,38 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[An Onslaught of Low-cost Smartphones]]></title>
+    <link href="http://aaron-gustafson.com/notebook/an-onslaught-of-low-cost-smartphones/"/>
+    <updated>2015-01-15T11:58:11-05:00</updated>
+    <id>http://aaron-gustafson.com/notebook/an-onslaught-of-low-cost-smartphones</id>
+    <content type="html"><![CDATA[<p>It seems every week we are seeing more and more low-cost devices being launched in an effort to connect the unconnected. For instance, this past week  saw the announcement of <a href="http://www.theverge.com/2015/1/14/7544107/microsoft-lumia-435-532-launch-specs-price-release-date">two new entries in the Microsoft Lumia line, the 435 and the 532</a>, and the announcement of <a href="http://arstechnica.com/gadgets/2015/01/samsung-finally-puts-tizen-on-a-smartphone-launches-the-z1-in-india/">Samsung’s first Tizen phone, the Z1</a>.</p>
+
+<!-- more -->
+
+
+<p>The two Lumia devices are the cheapest Windows Phone offerings to date: The Lumia 435 is €69 (about US$80) and the Lumia 532 is just slightly more expensive at €79 (about US$94). By comparison, the Lumia 535 was the previous low-cost Windows Phone winner at US$135. And Samsung’s Z1, which is aimed at the Indian market, runs a mere Rs 5,700 (roughly US$92).</p>
+
+<p>Now if you’ve read this far, you are probably wondering why this matters. Well, spec-wise, many of these lower-end devices are far from what we are used to. All of these devices are running a resolution of 800×480. And their processing speeds are slower than the device you likely have in your pocket. But they are all far cheaper too. And remember that people in China and India have <a href="#fig-2015-01-15-01">far less disposible income than we do</a>.</p>
+
+<p><figure id="fig-2015-01-15-01" class="media-container"></p>
+
+<pre><code>&lt;img src="http://aaron-gustafson.com/i/posts/2014-11-06/05-sm.jpg"
+     srcset="/i/posts/2014-11-06/05-lg.jpg 1920w, /i/posts/2014-11-06/05-md.jpg 600w, /i/posts/2014-11-06/05-sm.jpg 320w"
+     alt="A bar chart comparing the average monthly incomes of people living in the U.S., Canada, China, and India."
+     &gt;
+</code></pre>
+
+<p></figure></p>
+
+<p>If you only earned US$295 a month, a US$799 smartphone would likely be out of the question.</p>
+
+<p>As Web designers and developers, we need to expose ourselves to the Web as others see it. This is why we need to view our sites and applications on lower-end devices and over lower-speed—2G, 3G, etc.—connections. Only by testing our wares can we truly ensure our content and services are available and accessible by anyone, anywhere, on any device. You know, <a href="http://webfoundation.org/about/vision/">the vision for the Web</a>.</p>
+
+<p>Of course you probably don’t have the budget to purchase a bunch of devices, no matter how cheap they are. So how do you test on them? <a href="http://opendevicelab.com/">Visit a local Open Device Lab</a> like <a href="http://chadevicelab.org">the one we have here in Chattanooga</a>. Or if you don’t have one near you, consider getting together with some colleagues and <a href="http://lab-up.org/">starting an ODL in your area</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[The Linkblog]]></title>
@@ -104,40 +136,6 @@
 </ol>
 </div>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Autoplay, Don’t Do It]]></title>
-    <link href="http://aaron-gustafson.com/notebook/autoplay-dont-do-it/"/>
-    <updated>2014-12-21T15:12:50-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/autoplay-dont-do-it</id>
-    <content type="html"><![CDATA[<p>A while back <a href="https://gigaom.com/2014/09/04/facebooks-autoplay-has-led-to-a-60-boost-in-traffic-on-mobile-networks/">GogOm reported on how Facebook’s decision to autoplay videos led to a 60% increase in mobile data usage</a>. It was a business decision with the intent of increasing engagement, but it was a bad decision from a user experience. It’s a tax on users and they weren’t to happy about it.</p>
-
-<p>You may be wondering <em>Why is this a bad thing for users? They want to see videos, so we’re just giving them what they want.</em> Well, let me share a little story.</p>
-
-<!-- more -->
-
-
-<p>I was in Lisbon for <a href="http://lanyrd.com/2013/uxlx/">UxLx</a> last year and was on roaming data through my mobile provider. At the hotel, the Wifi was giving me trouble, so I opted to tether my computer so I can pull down a document I needed. Chrome crashed. Lame, but no big deal. I relaunched it and, Chrome being the helpful browser that it is, all of my tabs were restored and I got back to work.</p>
-
-<p>A few minutes later I got a text message from my provider: I’d just used a tremendous amount of my data in a very short amount of time. And I had only landed an hour before. I was understandably concerned. And perplexed. What happened?</p>
-
-<p>Well, it turns out one of the tabs that re-spawned after Chrome crashed was a page on YouTube. And on that page was an hour-long video. In HD. And it auto-played. I had the volume off and it was in background tab, so I had no idea.</p>
-
-<p>YouTube’s “business decision” to autoplay their videos cost me real money. A lot of it.</p>
-
-<p>Don’t autoplay. Any benefits you might see in user engagement are probably going to be drowned out by legitimate complaints from your users. Just don’t do it.</p>
-
-<p>Incidentally, you can <a href="https://www.facebook.com/help/633446180035470">disable auto-play in Facebook</a>, but first of all you have to know it’s an option. Facebook gives you the choice of turning it on or off entirely or to turn it on only over Wifi. That may seem like a great compromise, but I’d like to put forward a few arguments as to why it’s not:</p>
-
-<ol>
-<li><em>Tethering:</em> If I am tethered to my phone, it is likely being done over Wifi. Even if my browser is aware that I am on Wifi and even if the website is paying attention to that (using the <a href="http://www.w3.org/TR/netinfo-api/">Network Informaion API</a>), the website is probably going to get a false positive for Wifi even though the <em>actual</em> data connection is over a mobile network.</li>
-<li><em>Metered Wifi:</em> Hotels and other providers often limit how much data you can use. You could be on an awesomely fast Wifi network, but if you are limited to 100MB—it happens—being on Wifi doesn’t matter.</li>
-</ol>
-
-
-<p>So again: Autoplay, don’t do it.</p>
 ]]></content>
   </entry>
   

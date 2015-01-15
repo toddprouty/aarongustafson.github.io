@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Devices | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/devices/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2015-01-14T11:46:08-05:00</updated>
+  <updated>2015-01-15T12:42:33-05:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -12,6 +12,38 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[An Onslaught of Low-cost Smartphones]]></title>
+    <link href="http://aaron-gustafson.com/notebook/an-onslaught-of-low-cost-smartphones/"/>
+    <updated>2015-01-15T11:58:11-05:00</updated>
+    <id>http://aaron-gustafson.com/notebook/an-onslaught-of-low-cost-smartphones</id>
+    <content type="html"><![CDATA[<p>It seems every week we are seeing more and more low-cost devices being launched in an effort to connect the unconnected. For instance, this past week  saw the announcement of <a href="http://www.theverge.com/2015/1/14/7544107/microsoft-lumia-435-532-launch-specs-price-release-date">two new entries in the Microsoft Lumia line, the 435 and the 532</a>, and the announcement of <a href="http://arstechnica.com/gadgets/2015/01/samsung-finally-puts-tizen-on-a-smartphone-launches-the-z1-in-india/">Samsung’s first Tizen phone, the Z1</a>.</p>
+
+<!-- more -->
+
+
+<p>The two Lumia devices are the cheapest Windows Phone offerings to date: The Lumia 435 is €69 (about US$80) and the Lumia 532 is just slightly more expensive at €79 (about US$94). By comparison, the Lumia 535 was the previous low-cost Windows Phone winner at US$135. And Samsung’s Z1, which is aimed at the Indian market, runs a mere Rs 5,700 (roughly US$92).</p>
+
+<p>Now if you’ve read this far, you are probably wondering why this matters. Well, spec-wise, many of these lower-end devices are far from what we are used to. All of these devices are running a resolution of 800×480. And their processing speeds are slower than the device you likely have in your pocket. But they are all far cheaper too. And remember that people in China and India have <a href="#fig-2015-01-15-01">far less disposible income than we do</a>.</p>
+
+<p><figure id="fig-2015-01-15-01" class="media-container"></p>
+
+<pre><code>&lt;img src="http://aaron-gustafson.com/i/posts/2014-11-06/05-sm.jpg"
+     srcset="/i/posts/2014-11-06/05-lg.jpg 1920w, /i/posts/2014-11-06/05-md.jpg 600w, /i/posts/2014-11-06/05-sm.jpg 320w"
+     alt="A bar chart comparing the average monthly incomes of people living in the U.S., Canada, China, and India."
+     &gt;
+</code></pre>
+
+<p></figure></p>
+
+<p>If you only earned US$295 a month, a US$799 smartphone would likely be out of the question.</p>
+
+<p>As Web designers and developers, we need to expose ourselves to the Web as others see it. This is why we need to view our sites and applications on lower-end devices and over lower-speed—2G, 3G, etc.—connections. Only by testing our wares can we truly ensure our content and services are available and accessible by anyone, anywhere, on any device. You know, <a href="http://webfoundation.org/about/vision/">the vision for the Web</a>.</p>
+
+<p>Of course you probably don’t have the budget to purchase a bunch of devices, no matter how cheap they are. So how do you test on them? <a href="http://opendevicelab.com/">Visit a local Open Device Lab</a> like <a href="http://chadevicelab.org">the one we have here in Chattanooga</a>. Or if you don’t have one near you, consider getting together with some colleagues and <a href="http://lab-up.org/">starting an ODL in your area</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[webOS Is Back]]></title>
