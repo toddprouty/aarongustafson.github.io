@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2015-01-16T08:11:54-05:00</updated>
+  <updated>2015-01-16T09:49:42-05:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -25,7 +25,9 @@
 
 <h2><a href="http://www.w3.org/TR/2015/WD-css-pseudo-4-20150115">CSS 4 Pseudo-elements</a>.</h2>
 
-<p>Most of this is stuff you know: <code>::first-line</code>, <code>::first-letter</code>, and <code>::selection</code>. But what magic is this? <code>::spelling-error</code> and <code>::grammar-error</code> too! What?! Now I know I may be a little too excited about this, but it’s not because spelling and grammar errors are going to solve all of our design problems; I am excited about this because it points to us being granted more control over how more of the internals of browser operations are rendered to our users. Obviously <a href="/notebook/native-vs-stylable-tug-of-war/">this is a double edged sword</a> and could be abused to the detriment of the user experience, but it may also lead to someone coming up with clearer conventions for indicating spelling and grammar errors than the ones we’ve been using since the early days of Microsoft Word.</p>
+<p>Most of this is stuff you know: <code>::first-line</code>, <code>::first-letter</code>, and <code>::selection</code>. But what magic is this? <code>::spelling-error</code> and <code>::grammar-error</code> too! What?! Now I know I may be a little too excited about this, but it’s not because spelling and grammar errors are going to solve all of our design problems; I am excited about this because it points to us being granted more control over how more of the internals of browser operations are rendered to our users.</p>
+
+<p>Obviously <a href="/notebook/native-vs-stylable-tug-of-war/">this is a double edged sword</a> and could be abused to the detriment of the user experience, but it may also lead to someone coming up with clearer conventions for indicating spelling and grammar errors than the ones we’ve been using since the early days of Microsoft Word.</p>
 
 <h2><a href="http://www.w3.org/TR/2015/WD-css3-exclusions-20150115/">CSS 3 Exclusions</a></h2>
 
