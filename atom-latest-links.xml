@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-01-16T09:49:42-05:00</updated>
+	<updated>2015-01-16T15:39:56-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,19 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[The Problem With Angular]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/the-problem-with-angular/"/>
+				<updated>2015-01-16T15:37:16-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/the-problem-with-angular</id>
+				<content type="html"><![CDATA[<p>In this extensive piece, PPK does a brilliant job voicing the thoughts and feeling I think a lot of us front-enders have when it comes to Angular. You should do yourself a favor and read the whole thing. Seriously. Especially if you are in IT in a large company that is using or thinking of using Angular. Seriously.</p>
+
+<p>Go. Read. It.</p>
+<p><a rel="full-article" href="http://www.quirksmode.org/blog/archives/2015/01/the_problem_wit.html">Read on PPK’s QuirksBlog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 	
@@ -172,8 +185,6 @@
 <blockquote><p>Back in February, we improved the security audit trail for SSH keys. Soon, organizations will be able to block access for SSH keys that were created prior to those improvements. If your application relies on deploy keys or user keys for repository access, we recommend replacing any keys created before February 24, 2014.</p></blockquote>
 <p><a rel="full-article" href="https://developer.github.com/changes/2014-12-12-replace-older-ssh-keys-created-by-your-application/">Read on Github Developer&nbsp;&rarr;</a></p>]]></content>
 			</entry>
-		
-	
 		
 	
 		
