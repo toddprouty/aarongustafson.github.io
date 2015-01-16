@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-01-15T17:18:48-05:00</updated>
+	<updated>2015-01-16T08:10:04-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,8 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
 	
 		
 	
@@ -170,8 +172,6 @@
 <blockquote><p>Back in February, we improved the security audit trail for SSH keys. Soon, organizations will be able to block access for SSH keys that were created prior to those improvements. If your application relies on deploy keys or user keys for repository access, we recommend replacing any keys created before February 24, 2014.</p></blockquote>
 <p><a rel="full-article" href="https://developer.github.com/changes/2014-12-12-replace-older-ssh-keys-created-by-your-application/">Read on Github Developer&nbsp;&rarr;</a></p>]]></content>
 			</entry>
-		
-	
 		
 	
 		

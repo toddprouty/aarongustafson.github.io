@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2015-01-15T17:18:48-05:00</updated>
+  <updated>2015-01-16T08:10:04-05:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -12,6 +12,54 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Spelling Errors, Exclusions, and Packages, Oh My—Working Drafts at the W3C]]></title>
+    <link href="http://aaron-gustafson.com/notebook/spelling-errors/"/>
+    <updated>2015-01-16T07:15:12-05:00</updated>
+    <id>http://aaron-gustafson.com/notebook/spelling-errors</id>
+    <content type="html"><![CDATA[<p>This week the W3C published a couple of really cool new Working Drafts I wanted to bring to your attention (just in case you missed them).</p>
+
+<!-- more -->
+
+
+<h2><a href="http://www.w3.org/TR/2015/WD-css-pseudo-4-20150115">CSS 4 Pseudo-elements</a>.</h2>
+
+<p>Most of this is stuff you know: <code>::first-line</code>, <code>::first-letter</code>, and <code>::selection</code>. But what magic is this? <code>::spelling-error</code> and <code>::grammar-error</code> too! What?! Now I know I may be a little too excited about this, but it’s not because spelling and grammar errors are going to solve all of our design problems; I am excited about this because it points to us being granted more control over how more of the internals of browser operations are rendered to our users. Obviously <a href="/notebook/native-vs-stylable-tug-of-war/">this is a double edged sword</a> and could be abused to the detriment of the user experience, but it may also lead to someone coming up with clearer conventions for indicating spelling and grammar errors than the ones we’ve been using since the early days of Microsoft Word.</p>
+
+<h2><a href="http://www.w3.org/TR/2015/WD-css3-exclusions-20150115/">CSS 3 Exclusions</a></h2>
+
+<p>This has been a long time coming. The idea is pretty simple: Within a flow-type element (think <code>p</code>, <code>div</code>, etc.) you can apply <a href="http://www.w3.org/TR/2015/WD-css3-exclusions-20150115/#wrap-flow-property">the <code>wrap-flow</code> property</a> to children in order to control where content can go in relation to them. Here’s an example from the spec:</p>
+
+<p><figure id="fig-2015-01-16-1"></p>
+
+<pre><code>&lt;img src="http://www.w3.org/TR/2015/WD-css3-exclusions-20150115/images/exclusions-illustration.png" alt="Four boxes layed out roughly diagonally from the upper left to the lower right within a larger container. A flow of blue color shows where text is allowed to flow."&gt;
+</code></pre>
+
+<p></figure></p>
+
+<p>In this example, child A is set to <code>wrap-flow: both</code>, allowing content to flow on both sides of it. Child B is set to <code>wrap-flow: start</code> meaning content should only be allowed on the starting side of the element (based on text direction, in this case left to right). Child C is set to <code>wrap-flow: end</code> meaning content can only appear after it in terms of text-direction. And child D is set to <code>wrap-flow: clear</code> which, as you might expect based on your existing CSS knowledge, ensures no content appears on either side of it.</p>
+
+<p>There is <a href="http://www.w3.org/TR/2015/WD-css3-exclusions-20150115/#wrap-flow-property">another, more thorough example in the Working Draft</a> (scroll down a little bit), but it uses grid layout as well and is a little more complicated that I want to get into today.</p>
+
+<p>On the flip side of the equation, there is <a href="http://www.w3.org/TR/2015/WD-css3-exclusions-20150115/#wrap-through-property">the <code>wrap-through</code> property</a> which allows other elements to control whether or not they pay attention to the <code>wrap-flow</code> property of another element. A <code>wrap-through</code> value of &ldquo;wrap&rdquo; adheres to what they are calling the &ldquo;wrapping context&rdquo; of the parent element (which basically means it behaves as you’d expect, being a child element). Setting a <code>wrap-through</code> value of &ldquo;none&rdquo; on the child element, however, would make it ignore the parent element’s wrapping context and allow this child’s content to flow through (hence <code>wrap-through</code>) the excluded element.</p>
+
+<p>It’s a lot to take in and (of course) still subject to change, but I just wanted to bring this concept to your attention as it is pretty cool stuff and is a nice complement to <a href="http://www.w3.org/TR/css-shapes-1/">CSS Shapes</a>, which landed early last year.</p>
+
+<h2><a href="http://www.w3.org/TR/2015/WD-web-packaging-20150115/">Streamable Package Format</a></h2>
+
+<p>This one is pretty crazy and I am still tucking into it, but here’s the gist: You could provide a &ldquo;package&rdquo; or rolled up collection of files necessary to render your page—think CSS, images, fonts, etc.—in <a href="http://www.w3.org/TR/2015/WD-web-packaging-20150115/#streamable-package-format">Streamable Package Format</a> which would allow a browser to download them all in one go rather than having to request each resource individually. This could be really useful from a performance standpoint on high-latency connections as it cuts down on the number of round-trips the browser must make to the server before it can render the page. And, since the package can be streamed, we can optimize the contents to provide the most important bits first so the browser can go about rendering the document as quickly as possible.</p>
+
+<p>This is a very cool concept with a lot of potential benefit to our users. Of course, as the document acknowledges, it’s also possible to abuse this and adversely affect performance by including a lot of unnecessary content. Kinda like <a href="https://www.polymer-project.org/articles/spa.html">that guy who made his whole single-page app into a Web Component</a>. Just because you can do something doesn’t make it a good idea.</p>
+
+<p>Still, there’s a lot of potential here and I’m excited to see where it goes.</p>
+
+<hr>
+
+
+<p>Now the caveat: all of these are Working Drafts, not Technical Recommendations, so <em>they are not final by any means</em>. That said, they do point to a pretty interesting not to distant future.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[An Onslaught of Low-cost Smartphones]]></title>
@@ -105,37 +153,6 @@
 <p>I hope you enjoy reading it as much as I enjoyed writing it and I look forward to getting you the revised and expanded second edition in the not to distant future.</p>
 
 <p>PS &ndash; Easy Readers closed up shop at the end of 2014 and delivered the remaining paperback copies—of which there are only 50 or so—to me. If you missed out on getting a copy and would like to purchase one, <a href="/contact/">drop me a line</a> and I can sell you one. I’ll even sign it for you!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[We Need More Empathy]]></title>
-    <link href="http://aaron-gustafson.com/notebook/we-need-more-empathy/"/>
-    <updated>2014-12-28T11:17:21-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/we-need-more-empathy</id>
-    <content type="html"><![CDATA[<p>For a while now I’ve been <a href="http://www.slideshare.net/AaronGustafson/designing-with-empathy-breaking-development-nashville-2013">beating the “empathy” drum</a> (<a href="http://www.lukew.com/ff/entry.asp?1810">notes</a>), trying to get folks in our industry to understand the importance of creating connections with the people for whom we build software, websites, etc. After all, we design and build tools to solve the needs of actual people, not some generic “user”.<!-- more --><sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
-
-<p>It’s tough to connect with other people and we often fall into the trap of designing products for us and people like us. Jeffrey Zeldman characterizes the problem perfectly in <a href="http://www.zeldman.com/2014/12/28/unexamined-privilege-is-the-real-source-of-cruelty-in-facebooks-your-year-in-review/">his recent post</a>:</p>
-
-<blockquote><p>If we keep throwing only young, mostly white, mostly upper middle class people at the engine that makes our digital world go, we’ll keep getting camera and reminder and hookup apps—things that make an already privileged life even smoother—and we’ll keep producing features that sound like a good idea to everyone in the room, until they unexpectedly stab someone in the heart.</p></blockquote>
-
-<p>Empathy is difficult when we are surrounded by others like us. We need to be surrounded by different people. Certainly gender and ethnic diversity is incredibly important here, but so is diversity of experience. As Jeffrey astutely points out, diversity in the room where Facebook’s “Year in Review” concept was given the green light would have—I have to hope—helped create some safeguards to keep some of their actual customers from being reminded of tragedies they experienced this year.</p>
-
-<p>In all likelihood, the worst thing they probably discussed was an embarrassing hookup being celebrated, but I’ve had several friends lose children and loved ones this year, other friends battling serious illnesses, and still others who have suffered losses of different sorts. All bore their souls on Facebook in the past year and this feature has brought it back and, in some cases, <a href="http://meyerweb.com/eric/thoughts/2014/12/24/inadvertent-algorithmic-cruelty/">celebrated these tragic events in a very uncanny and dispassionate way</a>.</p>
-
-<p>And Facebook isn’t the only company to blame for this sort of thing. Pretty much every social network suffers from similar issues. Reading the comments on the various press accounts of this story have revealed similar problems at <a href="http://arstechnica.com/business/2014/12/facebook-apologizes-for-morbid-results-with-its-year-in-review-nag/?comments=1&amp;post=28196195#comment-28196195">LinkedIn</a>, <a href="http://arstechnica.com/business/2014/12/facebook-apologizes-for-morbid-results-with-its-year-in-review-nag/?comments=1&amp;post=28196709#comment-28196709">Google+</a>, <a href="http://www.deathanddigitallegacy.com/2010/08/05/twitter-recommends-dead-friends/">Twitter</a>, and others. We can and need to do better.</p>
-
-<p>In order to address these issues, we need to flex our empathetic muscles. We need to create connections with people who are not like us. People who live in different neighborhoods. People who come from different countries. People who require alternate means to accessing our sites and services. We need to see that the world is full of differences.</p>
-
-<p>Life is full of great joy as well as great tragedy. When we acknowledge diversity of experience and actually embrace it, we become better designers.</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>I don’t mind the aggregate “users”, but “user” is too clinical and distanced for my tastes. Terms like “the user” keep us from connecting with the people who actually use our software and when we are disconnected from our users, we will not do a great job of solving their problems. And solving problems is the whole point of design.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
-
 ]]></content>
   </entry>
   
