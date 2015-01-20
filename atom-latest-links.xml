@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-01-20T13:27:43-05:00</updated>
+	<updated>2015-01-20T13:33:28-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -14,10 +14,27 @@
 	
 		
 			<entry>
+				<title type="html"><![CDATA[Front End and Back End]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/front-end-and-back-end-quirksblog/"/>
+				<updated>2015-01-20T13:31:09-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/front-end-and-back-end-quirksblog</id>
+				<content type="html"><![CDATA[<p>PPK nails it as usual:</p>
+
+<blockquote><p>Back-enders work with only one environment, their server. They have the option of changing their environment; for instance by installing new software or upgrading the hardware.</p>
+
+<p>Front-enders work with an unknown number of radically different environments, ranging from state-of-the-art desktop computer to three-year-old, crappy phones with limited memory and processor time. They cannot change these environments because they have no power over their users’ browsers. Still, their code should work in all of them.</p></blockquote>
+
+<p>I shared similar thoughts in my post <a href="http://aaron-gustafson.com/notebook/a-fundamental-disconnect/">A Fundamental Disconnect</a>.</p>
+<p><a rel="full-article" href="http://www.quirksmode.org/blog/archives/2015/01/front_end_and_b.html">Read on Quirks Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
 				<title type="html"><![CDATA[Monday, 19 January 2015]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/monday-19-january-2015try%7Btypekit-dot-load-%7Dcatch-e-%7B%7D/"/>
+				<link href="http://aaron-gustafson.com/notebook/links/monday-19-january-2015/"/>
 				<updated>2015-01-20T13:14:01-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/monday-19-january-2015try{typekit-dot-load-}catch-e-{}</id>
+				<id>http://aaron-gustafson.com/notebook/links/monday-19-january-2015</id>
 				<content type="html"><![CDATA[<p>This brilliant piece from Eileen Webb discusses her experience as a woman who has been working in tech since her first internship in 1997. In it, she chronicled a number of incredibly inappropriate work-related activities and situations she has endured—<em>that sucks, Eileen, I’m sorry you had to deal with all that crap</em>—but the point of the post is not to dwell on these. Instead Eileen urges us to listen when women (and I have to imagine any underrepresented group) vent about mistreatment and to reflect on it rather than reacting:</p>
 
 <blockquote><p>Yes, many women are angry, and injured, and our public seething will make you uncomfortable. Sit with that. Let it wash over you, and through you. Breathe, and feel the urge to squirm, and choose to be still instead. For we who have been living with this discomfort our whole careers, you can handle not-reacting for a few minutes.</p></blockquote>
@@ -194,8 +211,6 @@
 <p>I’m not broken and neither are you.</p></blockquote>
 <p><a rel="full-article" href="http://www.bookwormblues.net/2014/09/10/i-am-not-broken-the-language-of-disability/">Read on Bookworm Blues&nbsp;&rarr;</a></p>]]></content>
 			</entry>
-		
-	
 		
 	
 		
