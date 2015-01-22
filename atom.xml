@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-01-21T19:00:23-05:00</updated>
+	<updated>2015-01-22T07:55:57-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,21 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[It’s Time for Microsoft to Open Source Internet Explorer]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/its-time-for-microsoft-to-open-source-internet-explorer/"/>
+				<updated>2015-01-22T07:48:47-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/its-time-for-microsoft-to-open-source-internet-explorer</id>
+				<content type="html"><![CDATA[<p>This is a pretty interesting idea and I see where <a href="https://twitter.com/drpizza">Peter Bright</a> is coming from with this sentiment:</p>
+
+<blockquote><p>Although Microsoft has endeavored to be more open about how it&rsquo;s developing its browser, and which features it is prioritizing, that development nonetheless takes place in private. Developing in the open, with a public bug tracker, source code repositories, and public discussion of the browser&rsquo;s future direction is the next logical step.</p></blockquote>
+
+<p>With Microsoft <a href="https://status.modern.ie/">opening up their process</a> <a href="https://wpdev.uservoice.com/forums/257854-internet-explorer-platform/">more and more</a>, I wonder if they’ve considered open-sourcing Trident (or whatever is driving <a href="http://www.theverge.com/2015/1/21/7863331/microsoft-project-spartan-new-web-browser">“Project Spartan”</a> under the hood).</p>
+<p><a rel="full-article" href="http://arstechnica.com/information-technology/2015/01/its-time-for-microsoft-to-open-source-internet-explorer/">Read on Ars Technica&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -506,17 +521,6 @@
 
 <p>If you are using or are considering a front-end Javascript framework, you need to read this report.</p>
 <p><a rel="full-article" href="http://www.filamentgroup.com/lab/mv-initial-load-times.html">Read on Filament Group&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[A Maintainable Style Guide]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/a-maintainable-style-guide/"/>
-				<updated>2014-12-29T18:29:18-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/a-maintainable-style-guide</id>
-				<content type="html"><![CDATA[<p>This is a fantastic overview of the modular architecture Lonely Planet is using to run their website and their style guide, keeping both perfectly in sync. The system that drives all of this, Rizzo, is <a href="https://github.com/lonelyplanet/rizzo">available on Github</a>.</p>
-<p><a rel="full-article" href="http://ianfeather.co.uk/a-maintainable-style-guide/">Read on Ian Feather’s Blog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
