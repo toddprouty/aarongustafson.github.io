@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-01-22T07:55:57-05:00</updated>
+	<updated>2015-01-22T07:59:05-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -51,9 +51,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Why We Can’t Do Real Responsive Images With CSS or JavaScript]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/bruce-lawsons-personal-site-why-we-cant-do-real-responsive-images-with-css-or-javascript/"/>
+				<link href="http://aaron-gustafson.com/notebook/links/why-we-cant-do-real-responsive-images-with-css-or-javascript/"/>
 				<updated>2015-01-21T18:15:06-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/bruce-lawsons-personal-site-why-we-cant-do-real-responsive-images-with-css-or-javascript</id>
+				<id>http://aaron-gustafson.com/notebook/links/why-we-cant-do-real-responsive-images-with-css-or-javascript</id>
 				<content type="html"><![CDATA[<p>Bruce Lawson, briefly, on why <a href="https://html.spec.whatwg.org/multipage/embedded-content.html#adaptive-images"><code>picture</code>, <code>srcset</code>, and <code>sizes</code></a> are better for adaptive images than CSS or JavaScript any day of the week when it comes to performance:</p>
 
 <blockquote><p>The only way to beat the preloader is to put all the potential image sources in the HTML and give the browser all the information it needs to make the selection there.</p></blockquote>
@@ -118,9 +118,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Front End and Back End]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/front-end-and-back-end-quirksblog/"/>
+				<link href="http://aaron-gustafson.com/notebook/links/front-end-and-back-end/"/>
 				<updated>2015-01-20T13:31:09-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/front-end-and-back-end-quirksblog</id>
+				<id>http://aaron-gustafson.com/notebook/links/front-end-and-back-end</id>
 				<content type="html"><![CDATA[<p>PPK nails it as usual:</p>
 
 <blockquote><p>Back-enders work with only one environment, their server. They have the option of changing their environment; for instance by installing new software or upgrading the hardware.</p>
