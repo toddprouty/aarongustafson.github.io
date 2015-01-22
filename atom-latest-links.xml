@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-01-20T13:33:28-05:00</updated>
+	<updated>2015-01-21T19:00:23-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,44 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Timeline of Web Browsers]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/timeline-of-web-browsers-wikipedia-the-free-encyclopedia/"/>
+				<updated>2015-01-21T18:22:31-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/timeline-of-web-browsers-wikipedia-the-free-encyclopedia</id>
+				<content type="html"><![CDATA[<p>I love this visual timeline of Web browsers because it shows where we’ve been, where we’re at and where browsers have converged, diverged, and switched things up. Thank you Internet!</p>
+
+<figure id="fig-2015-01-21-01" class="media-container">
+    <a href="http://upload.wikimedia.org/wikipedia/commons/7/74/Timeline_of_web_browsers.svg">
+        <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Timeline_of_web_browsers.svg/320px-Timeline_of_web_browsers.svg.png"
+             srcset="http://upload.wikimedia.org/wikipedia/commons/7/74/Timeline_of_web_browsers.svg"
+             alt="The timeline"
+             >
+    </a>
+</figure>
+
+<p><a rel="full-article" href="http://en.wikipedia.org/wiki/Timeline_of_web_browsers">Read on Wikipedia&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Why We Can’t Do Real Responsive Images With CSS or JavaScript]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/bruce-lawsons-personal-site-why-we-cant-do-real-responsive-images-with-css-or-javascript/"/>
+				<updated>2015-01-21T18:15:06-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/bruce-lawsons-personal-site-why-we-cant-do-real-responsive-images-with-css-or-javascript</id>
+				<content type="html"><![CDATA[<p>Bruce Lawson, briefly, on why <a href="https://html.spec.whatwg.org/multipage/embedded-content.html#adaptive-images"><code>picture</code>, <code>srcset</code>, and <code>sizes</code></a> are better for adaptive images than CSS or JavaScript any day of the week when it comes to performance:</p>
+
+<blockquote><p>The only way to beat the preloader is to put all the potential image sources in the HTML and give the browser all the information it needs to make the selection there.</p></blockquote>
+
+<p>Good stuff, Bruce. I’m sorry I won’t be in Barcelona to see this presentation (and you)!</p>
+<p><a rel="full-article" href="http://www.brucelawson.co.uk/2015/why-we-cant-do-real-responsive-images-with-css-or-javascript/">Read on Bruce Lawson’s  personal site&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
 	
 		
 			<entry>
@@ -194,25 +232,6 @@
 				<content type="html"><![CDATA[<p>This is a fantastic overview of the modular architecture Lonely Planet is using to run their website and their style guide, keeping both perfectly in sync. The system that drives all of this, Rizzo, is <a href="https://github.com/lonelyplanet/rizzo">available on Github</a>.</p>
 <p><a rel="full-article" href="http://ianfeather.co.uk/a-maintainable-style-guide/">Read on Ian Feather’s Blog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
-		
-	
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[I Am Not Broken: The Language of Disability]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/i-am-not-broken-the-language-of-disability-bookworm-blues/"/>
-				<updated>2014-12-23T12:49:09-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/i-am-not-broken-the-language-of-disability-bookworm-blues</id>
-				<content type="html"><![CDATA[<p>I love this!</p>
-
-<blockquote><p>The world we live in isn’t defined by two versions of reality. There isn’t the “normal” reality for all the normal people, and the slightly skewed reality for all of the rest of us who yearn for normalcy. Our fiction should reflect that. King George VI wasn’t any less of a powerful speaker or ruler for all of his stuttering. Odetta Holmes wasn’t slowed down by her wheelchair.</p>
-
-<p>I’m not broken and neither are you.</p></blockquote>
-<p><a rel="full-article" href="http://www.bookwormblues.net/2014/09/10/i-am-not-broken-the-language-of-disability/">Read on Bookworm Blues&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
 		
 	
 </feed>

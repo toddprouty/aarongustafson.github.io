@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Posts]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-posts.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-01-20T13:33:28-05:00</updated>
+	<updated>2015-01-21T19:00:23-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,62 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+	
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Competing on “Chrome”]]></title>
+				<link href="http://aaron-gustafson.com/notebook/competing-on-chrome/"/>
+				<updated>2015-01-21T15:20:40-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/competing-on-chrome</id>
+				<content type="html"><![CDATA[<p>Watching the <a href="http://news.microsoft.com/windows10story/">Windows 10 announcement</a> today and the “unveiling” of its new browser, codenamed “Project Spartan”, I was amazed… not by what was said so much as what wasn’t.</p>
+
+<!-- more -->
+
+
+<p>Let me back up a bit here. As many of you know, I’ve been working on the Web for a long time and, like many old codgers, lived through the first browser wars and remember not only the unveiling of Internet Explorer 6—which was pretty amazing for its time—but I also worked on the Web for the entire 5 years that browser sat on the shelf.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+
+<p>By the time Internet Explorer 7 came out in late 2006, there had been a number of advancements on the Web. And there was more competition for user and developer mindshare. Safari popped up shortly after IE6’s launch and was gaining traction on the Mac with its port of Konqueror’s layout engine, KHTML, which they renamed WebKit. Netscape was in it’s death throes, but Firefox arose from the ashes<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> and was capturing an ever-growing share of the market with its improved security, extensibility through browser plug-ins, and tabbed browsing. Not only that, but the Mozilla core of Firefox had also been spun into several other browsers that were similarly taking off: Camino, Flock, SeaMonkey, Galeon, and Epiphany. And then, of course, the Opera browser was still going strong on the desktop and growing rapidly in the mobile space.<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup></p>
+
+<p>When IE7 finally made it out into the world, developers were at peak frustration when it came to dealing with standards-compatibility issues in IE. So it’s no surprise that the messaging focus for IE7 was, at least in terms of the Web designer/developer audience, focused on <a href="http://www.zdnet.com/article/ie7-and-standards-compliance-microsofts-chris-wilson-charts-progress/">apologizing for the past and promising that they cared about (and were supporting) interoperable Web standards</a>.</p>
+
+<p>And this was an earnest sentiment, it wasn’t bullshit. I remember <a href="https://twitter.com/cwilso">Chris Wilson</a>—then Platform Architect of Internet Explorer Platform team—telling me he had personally printed out <a href="http://www.w3.org/TR/CSS2/">the entire CSS 2.1 spec</a> and put it on the desk of each developer working on Trident, the browser’s rendering engine.</p>
+
+<p>And IE7, for all of its faults, was an improvement over IE6. A few years later, IE8 was an improvement over that. And, a little later, IE9 gave us a completely reborn Internet Explorer, largely free of the layout and rendering quirks we had earned so much grey hair fighting. And so on. And so on. But all the while, the drumbeat from the IE team was this: Now with more standards support!</p>
+
+<p>And it wasn’t just IE that was making this claim. Other browsers began to tout their support of one particular standard or another that the others didn’t in hopes of getting developers to pay more attention to them.</p>
+
+<p>Some time before the launch of IE8, I remember having a conversation with Chris Wilson over drinks at a conference. We talked at length about the state of Web standards, browsers, and the like. During the course of our chat, he offered up his dream:</p>
+
+<blockquote><p>I’ll be happy when browsers stop competing on standards support and start competing on chrome.<sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup></p></blockquote>
+
+<p>It stuck with me because what he was saying made a lot of sense: Standards-compliance should be a given; browsers should be competing on the extra stuff they offer.</p>
+
+<p>Which brings me back to today’s announcement. Standards-compliance wasn’t mentioned<sup id="fnref:5"><a href="#fn:5" rel="footnote">5</a></sup> by <a href="https://twitter.com/joebelfiore">Joe Belfiore</a> in his walkthrough of “Project Spartan”. Instead, Joe focused on the value adds in the browser: in-app note taking, a focused reading mode, cross-device synchronization, and Cortana integration.</p>
+
+<p>This is a major milestone for IE in my opinion and it makes me wonder if we’ve finally reached the place that Chris dreamed about all those years ago. I certainly hope so.</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>I was told that, internally, decision-makers felt the browser was “done” and there would be no more advancements on the Web that would require a new browser.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<li id="fn:2">
+<p>An apt metaphor, Firefox was originally Phoenix, then later Firebird, before eventually becoming Firefox. <a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+<li id="fn:3">
+<p>You may not realize it, but Opera Mobile predated even IE6. And it’s Opera Mini variant touts big numbers too: In April 2014, there were over 267 million Opera mobile browser users (244 million of whom used Opera Mini) and Opera Mini users viewed over 177 billion pages in that same month. (<a href="http://www.operasoftware.com/smw/2014-04">Source</a>)<a href="#fnref:3" rev="footnote">&#8617;</a></p></li>
+<li id="fn:4">
+<p>The Chrome browser, from Google, did not exist at this time. By &ldquo;chrome&rdquo; he meant the window around a webpage—it toolbars, buttons, menus, and other browser-based functionality.<a href="#fnref:4" rev="footnote">&#8617;</a></p></li>
+<li id="fn:5">
+<p>The only phrases that even hint at standards compliance were “modern Web” and “a new rendering engine… that is compatible with how the Web is written today” (starting at around 59:05 in <a href="https://ll.ms-studiosmedia.com/events/2015/1501/Windows10CP/live/Windows10CP.html?title=Windows10CP-mscom">the video</a>).<a href="#fnref:5" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+			</entry>
+		
 	
 		
 	
@@ -280,77 +336,6 @@
 	
 		
 	
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[We Need More Empathy]]></title>
-				<link href="http://aaron-gustafson.com/notebook/we-need-more-empathy/"/>
-				<updated>2014-12-28T11:17:21-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/we-need-more-empathy</id>
-				<content type="html"><![CDATA[<p>For a while now I’ve been <a href="http://www.slideshare.net/AaronGustafson/designing-with-empathy-breaking-development-nashville-2013">beating the “empathy” drum</a> (<a href="http://www.lukew.com/ff/entry.asp?1810">notes</a>), trying to get folks in our industry to understand the importance of creating connections with the people for whom we build software, websites, etc. After all, we design and build tools to solve the needs of actual people, not some generic “user”.<!-- more --><sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
-
-<p>It’s tough to connect with other people and we often fall into the trap of designing products for us and people like us. Jeffrey Zeldman characterizes the problem perfectly in <a href="http://www.zeldman.com/2014/12/28/unexamined-privilege-is-the-real-source-of-cruelty-in-facebooks-your-year-in-review/">his recent post</a>:</p>
-
-<blockquote><p>If we keep throwing only young, mostly white, mostly upper middle class people at the engine that makes our digital world go, we’ll keep getting camera and reminder and hookup apps—things that make an already privileged life even smoother—and we’ll keep producing features that sound like a good idea to everyone in the room, until they unexpectedly stab someone in the heart.</p></blockquote>
-
-<p>Empathy is difficult when we are surrounded by others like us. We need to be surrounded by different people. Certainly gender and ethnic diversity is incredibly important here, but so is diversity of experience. As Jeffrey astutely points out, diversity in the room where Facebook’s “Year in Review” concept was given the green light would have—I have to hope—helped create some safeguards to keep some of their actual customers from being reminded of tragedies they experienced this year.</p>
-
-<p>In all likelihood, the worst thing they probably discussed was an embarrassing hookup being celebrated, but I’ve had several friends lose children and loved ones this year, other friends battling serious illnesses, and still others who have suffered losses of different sorts. All bore their souls on Facebook in the past year and this feature has brought it back and, in some cases, <a href="http://meyerweb.com/eric/thoughts/2014/12/24/inadvertent-algorithmic-cruelty/">celebrated these tragic events in a very uncanny and dispassionate way</a>.</p>
-
-<p>And Facebook isn’t the only company to blame for this sort of thing. Pretty much every social network suffers from similar issues. Reading the comments on the various press accounts of this story have revealed similar problems at <a href="http://arstechnica.com/business/2014/12/facebook-apologizes-for-morbid-results-with-its-year-in-review-nag/?comments=1&amp;post=28196195#comment-28196195">LinkedIn</a>, <a href="http://arstechnica.com/business/2014/12/facebook-apologizes-for-morbid-results-with-its-year-in-review-nag/?comments=1&amp;post=28196709#comment-28196709">Google+</a>, <a href="http://www.deathanddigitallegacy.com/2010/08/05/twitter-recommends-dead-friends/">Twitter</a>, and others. We can and need to do better.</p>
-
-<p>In order to address these issues, we need to flex our empathetic muscles. We need to create connections with people who are not like us. People who live in different neighborhoods. People who come from different countries. People who require alternate means to accessing our sites and services. We need to see that the world is full of differences.</p>
-
-<p>Life is full of great joy as well as great tragedy. When we acknowledge diversity of experience and actually embrace it, we become better designers.</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>I don’t mind the aggregate “users”, but “user” is too clinical and distanced for my tastes. Terms like “the user” keep us from connecting with the people who actually use our software and when we are disconnected from our users, we will not do a great job of solving their problems. And solving problems is the whole point of design.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
-
-]]></content>
-			</entry>
-		
-	
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Autoplay, Don’t Do It]]></title>
-				<link href="http://aaron-gustafson.com/notebook/autoplay-dont-do-it/"/>
-				<updated>2014-12-21T15:12:50-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/autoplay-dont-do-it</id>
-				<content type="html"><![CDATA[<p>A while back <a href="https://gigaom.com/2014/09/04/facebooks-autoplay-has-led-to-a-60-boost-in-traffic-on-mobile-networks/">GogOm reported on how Facebook’s decision to autoplay videos led to a 60% increase in mobile data usage</a>. It was a business decision with the intent of increasing engagement, but it was a bad decision from a user experience. It’s a tax on users and they weren’t to happy about it.</p>
-
-<p>You may be wondering <em>Why is this a bad thing for users? They want to see videos, so we’re just giving them what they want.</em> Well, let me share a little story.</p>
-
-<!-- more -->
-
-
-<p>I was in Lisbon for <a href="http://lanyrd.com/2013/uxlx/">UxLx</a> last year and was on roaming data through my mobile provider. At the hotel, the Wifi was giving me trouble, so I opted to tether my computer so I can pull down a document I needed. Chrome crashed. Lame, but no big deal. I relaunched it and, Chrome being the helpful browser that it is, all of my tabs were restored and I got back to work.</p>
-
-<p>A few minutes later I got a text message from my provider: I’d just used a tremendous amount of my data in a very short amount of time. And I had only landed an hour before. I was understandably concerned. And perplexed. What happened?</p>
-
-<p>Well, it turns out one of the tabs that re-spawned after Chrome crashed was a page on YouTube. And on that page was an hour-long video. In HD. And it auto-played. I had the volume off and it was in background tab, so I had no idea.</p>
-
-<p>YouTube’s “business decision” to autoplay their videos cost me real money. A lot of it.</p>
-
-<p>Don’t autoplay. Any benefits you might see in user engagement are probably going to be drowned out by legitimate complaints from your users. Just don’t do it.</p>
-
-<p>Incidentally, you can <a href="https://www.facebook.com/help/633446180035470">disable auto-play in Facebook</a>, but first of all you have to know it’s an option. Facebook gives you the choice of turning it on or off entirely or to turn it on only over Wifi. That may seem like a great compromise, but I’d like to put forward a few arguments as to why it’s not:</p>
-
-<ol>
-<li><em>Tethering:</em> If I am tethered to my phone, it is likely being done over Wifi. Even if my browser is aware that I am on Wifi and even if the website is paying attention to that (using the <a href="http://www.w3.org/TR/netinfo-api/">Network Informaion API</a>), the website is probably going to get a false positive for Wifi even though the <em>actual</em> data connection is over a mobile network.</li>
-<li><em>Metered Wifi:</em> Hotels and other providers often limit how much data you can use. You could be on an awesomely fast Wifi network, but if you are limited to 100MB—it happens—being on Wifi doesn’t matter.</li>
-</ol>
-
-
-<p>So again: Autoplay, don’t do it.</p>
-]]></content>
-			</entry>
 		
 	
 </feed>

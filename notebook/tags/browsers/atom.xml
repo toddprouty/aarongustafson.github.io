@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Browsers | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/browsers/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2015-01-20T13:33:28-05:00</updated>
+  <updated>2015-01-21T19:00:23-05:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -12,6 +12,56 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Competing on “Chrome”]]></title>
+    <link href="http://aaron-gustafson.com/notebook/competing-on-chrome/"/>
+    <updated>2015-01-21T15:20:40-05:00</updated>
+    <id>http://aaron-gustafson.com/notebook/competing-on-chrome</id>
+    <content type="html"><![CDATA[<p>Watching the <a href="http://news.microsoft.com/windows10story/">Windows 10 announcement</a> today and the “unveiling” of its new browser, codenamed “Project Spartan”, I was amazed… not by what was said so much as what wasn’t.</p>
+
+<!-- more -->
+
+
+<p>Let me back up a bit here. As many of you know, I’ve been working on the Web for a long time and, like many old codgers, lived through the first browser wars and remember not only the unveiling of Internet Explorer 6—which was pretty amazing for its time—but I also worked on the Web for the entire 5 years that browser sat on the shelf.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+
+<p>By the time Internet Explorer 7 came out in late 2006, there had been a number of advancements on the Web. And there was more competition for user and developer mindshare. Safari popped up shortly after IE6’s launch and was gaining traction on the Mac with its port of Konqueror’s layout engine, KHTML, which they renamed WebKit. Netscape was in it’s death throes, but Firefox arose from the ashes<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> and was capturing an ever-growing share of the market with its improved security, extensibility through browser plug-ins, and tabbed browsing. Not only that, but the Mozilla core of Firefox had also been spun into several other browsers that were similarly taking off: Camino, Flock, SeaMonkey, Galeon, and Epiphany. And then, of course, the Opera browser was still going strong on the desktop and growing rapidly in the mobile space.<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup></p>
+
+<p>When IE7 finally made it out into the world, developers were at peak frustration when it came to dealing with standards-compatibility issues in IE. So it’s no surprise that the messaging focus for IE7 was, at least in terms of the Web designer/developer audience, focused on <a href="http://www.zdnet.com/article/ie7-and-standards-compliance-microsofts-chris-wilson-charts-progress/">apologizing for the past and promising that they cared about (and were supporting) interoperable Web standards</a>.</p>
+
+<p>And this was an earnest sentiment, it wasn’t bullshit. I remember <a href="https://twitter.com/cwilso">Chris Wilson</a>—then Platform Architect of Internet Explorer Platform team—telling me he had personally printed out <a href="http://www.w3.org/TR/CSS2/">the entire CSS 2.1 spec</a> and put it on the desk of each developer working on Trident, the browser’s rendering engine.</p>
+
+<p>And IE7, for all of its faults, was an improvement over IE6. A few years later, IE8 was an improvement over that. And, a little later, IE9 gave us a completely reborn Internet Explorer, largely free of the layout and rendering quirks we had earned so much grey hair fighting. And so on. And so on. But all the while, the drumbeat from the IE team was this: Now with more standards support!</p>
+
+<p>And it wasn’t just IE that was making this claim. Other browsers began to tout their support of one particular standard or another that the others didn’t in hopes of getting developers to pay more attention to them.</p>
+
+<p>Some time before the launch of IE8, I remember having a conversation with Chris Wilson over drinks at a conference. We talked at length about the state of Web standards, browsers, and the like. During the course of our chat, he offered up his dream:</p>
+
+<blockquote><p>I’ll be happy when browsers stop competing on standards support and start competing on chrome.<sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup></p></blockquote>
+
+<p>It stuck with me because what he was saying made a lot of sense: Standards-compliance should be a given; browsers should be competing on the extra stuff they offer.</p>
+
+<p>Which brings me back to today’s announcement. Standards-compliance wasn’t mentioned<sup id="fnref:5"><a href="#fn:5" rel="footnote">5</a></sup> by <a href="https://twitter.com/joebelfiore">Joe Belfiore</a> in his walkthrough of “Project Spartan”. Instead, Joe focused on the value adds in the browser: in-app note taking, a focused reading mode, cross-device synchronization, and Cortana integration.</p>
+
+<p>This is a major milestone for IE in my opinion and it makes me wonder if we’ve finally reached the place that Chris dreamed about all those years ago. I certainly hope so.</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>I was told that, internally, decision-makers felt the browser was “done” and there would be no more advancements on the Web that would require a new browser.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<li id="fn:2">
+<p>An apt metaphor, Firefox was originally Phoenix, then later Firebird, before eventually becoming Firefox. <a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+<li id="fn:3">
+<p>You may not realize it, but Opera Mobile predated even IE6. And it’s Opera Mini variant touts big numbers too: In April 2014, there were over 267 million Opera mobile browser users (244 million of whom used Opera Mini) and Opera Mini users viewed over 177 billion pages in that same month. (<a href="http://www.operasoftware.com/smw/2014-04">Source</a>)<a href="#fnref:3" rev="footnote">&#8617;</a></p></li>
+<li id="fn:4">
+<p>The Chrome browser, from Google, did not exist at this time. By &ldquo;chrome&rdquo; he meant the window around a webpage—it toolbars, buttons, menus, and other browser-based functionality.<a href="#fnref:4" rev="footnote">&#8617;</a></p></li>
+<li id="fn:5">
+<p>The only phrases that even hint at standards compliance were “modern Web” and “a new rendering engine… that is compatible with how the Web is written today” (starting at around 59:05 in <a href="https://ll.ms-studiosmedia.com/events/2015/1501/Windows10CP/live/Windows10CP.html?title=Windows10CP-mscom">the video</a>).<a href="#fnref:5" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[The “Native” vs. “Stylable” Tug of War]]></title>
