@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Posts]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-posts.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-01-22T17:24:04-05:00</updated>
+	<updated>2015-01-22T17:42:40-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,29 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Creepy Namefellow]]></title>
+				<link href="http://aaron-gustafson.com/notebook/creepy-namefellow/"/>
+				<updated>2015-01-22T17:27:27-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/creepy-namefellow</id>
+				<content type="html"><![CDATA[<p>So yeah, this happened:</p>
+
+<figure id="2015-01-22-2" class="media-container">
+    <img src="http://aaron-gustafson.com/i/posts/2015-01-22/creepy-sm.png"
+         srcset="/i/posts/2015-01-22/creepy-lg.png 1062w, /i/posts/2015-01-22/creepy-md.png 600w, /i/posts/2015-01-22/creepy-sm.png 320w"
+         alt="">
+    <figcaption>
+        <p>The @GustafsonAaron Twitter account only follows 5 people, and they are all named “Aaron Gustafson”.</p>
+    </figcaption>
+</figure>
+
+
+<p>It’s a little creepy, I won’t lie.</p>
+]]></content>
+			</entry>
+		
 	
 		
 	
@@ -304,8 +327,6 @@
 <p>I’m happy to see webOS sticking around. It may have been the laughing stock in the app development community back in the day, but I’ve always had a soft spot in my heart for it.</p>
 ]]></content>
 			</entry>
-		
-	
 		
 	
 </feed>

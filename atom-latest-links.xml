@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-01-22T17:24:04-05:00</updated>
+	<updated>2015-01-22T17:42:40-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,8 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
 	
 		
 			<entry>
@@ -22,11 +24,8 @@
 
 <p>Because a picture is worth a thousand words:</p>
 
-<figure id="2015-01-22-1">
+<figure id="2015-01-22-1" class="media-container">
     <img src="http://blogs.msdn.com/cfs-file.ashx/__key/communityserver-blogs-components-weblogfiles/00-00-00-38-71-metablogapi/3644.psatwjpb_2D00_image3.gif" alt="Dual rendering engine architecture animation">
-    <figcaption>
-        <p>Image credit Jason Weber</p>
-    </figcaption>
 </figure>
 
 <p><a rel="full-article" href="http://blogs.msdn.com/b/ie/archive/2015/01/22/project-spartan-and-the-windows-10-january-preview-build.aspx">Read on IEBlog&nbsp;&rarr;</a></p>]]></content>
@@ -250,32 +249,6 @@
 	
 		
 	
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Living on the Edge – Our Next Step in Helping the Web Just Work]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/living-on-the-edge-our-next-step-in-helping-the-web-just-work-ieblog-site-home-msdn-blogs/"/>
-				<updated>2015-01-07T08:42:43-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/living-on-the-edge-our-next-step-in-helping-the-web-just-work-ieblog-site-home-msdn-blogs</id>
-				<content type="html"><![CDATA[<p>With the holidays, I completely missed this announcement from IE team. In IE for Windows 10, we’re getting:</p>
-
-<ol>
-<li>All public (i.e. non-intranet) sites will render in &ldquo;Edge mode&rdquo; meaning they get the latest standards implementation. <em>Note: It will ignore <a href="http://alistapart.com/article/beyonddoctype">X-UA-Compatible version targeting</a>.</em></li>
-<li><a href="https://status.modern.ie/csstransformspreserve3d">CSS Preserve-3D</a></li>
-<li><a href="https://status.modern.ie/contentsecuritypolicy">Content Security Policy 1.0</a> sandboxing</li>
-<li><a href="https://status.modern.ie/mediaquerieslevel4interactionmediafeaturespointerandhover">CSS Interaction Media Queries (Level 4)</a> &ndash; pointer type &amp; hover testing!</li>
-<li><a href="https://status.modern.ie/gamepadapi">Gamepad API</a></li>
-<li><a href="https://status.modern.ie/selectionapi">Selection API</a></li>
-<li>ECMAScript 6 features including <a href="https://status.modern.ie/classeses6">classes</a>, <a href="https://status.modern.ie/promiseses6">promises</a>, <a href="https://status.modern.ie/jsiteratorsietheforoffeature">iterators</a>, <a href="https://status.modern.ie/arrowfunction">the arrow function</a>, <a href="https://status.modern.ie/mathbuiltinses6">Math utility functions</a>, <a href="https://status.modern.ie/numberbuiltinses6">Number utility functions</a>, <a href="https://status.modern.ie/objectbuiltinses6">Object utility functions</a>, <a href="https://status.modern.ie/stringbuiltinses6">String utility functions</a>, <a href="https://status.modern.ie/es6objectliteralenhancements">Object literal enhancements</a>, <a href="https://status.modern.ie/spreades6">spread</a>, <a href="https://status.modern.ie/templatestringses6">template strings</a>, <a href="https://status.modern.ie/symbols">symbols</a>, <a href="https://status.modern.ie/proxieses6">proxies</a>, and <a href="https://status.modern.ie/weaksetes6">weak set</a>.</li>
-</ol>
-
-
-<p>Pretty awesome stuff! What do you want to see in future versions of IE? You can <a href="https://wpdev.uservoice.com/forums/257854-internet-explorer-platform">post your thoughts and votes on UserVoice</a>.</p>
-
-<p>If—like me—you’re on a Mac, you can run the latest version of IE via <a href="https://remote.modern.ie/">RemoteIE</a>. Haven’t heard of it? Rey Bango has <a href="http://blog.reybango.com/2014/11/03/a-new-way-to-test-internet-explorer-on-os-x-ios-and-android/">a great write-up of how to set up RemoteIE on Macs, iOS, and even Android</a>.</p>
-<p><a rel="full-article" href="http://blogs.msdn.com/b/ie/archive/2014/11/11/living-on-the-edge-our-next-step-in-interoperability.aspx">Read on IE Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
 		
 	
 </feed>
