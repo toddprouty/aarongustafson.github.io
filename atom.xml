@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-01-22T08:54:15-05:00</updated>
+	<updated>2015-01-22T17:24:04-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,40 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Project Spartan and the Windows 10 January Preview Build]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/project-spartan-and-the-windows-10-january-preview-build/"/>
+				<updated>2015-01-22T14:21:33-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/project-spartan-and-the-windows-10-january-preview-build</id>
+				<content type="html"><![CDATA[<p><a href="http://www.jasonweber.com/">Jason Weber</a>, Group Program Manager of Internet Explorer, provides a little more insight into “Project Spartan” and how Microsoft plans to balance consumer and enterprise needs.</p>
+
+<p>Because a picture is worth a thousand words:</p>
+
+<figure id="2015-01-22-1">
+    <img src="http://blogs.msdn.com/cfs-file.ashx/__key/communityserver-blogs-components-weblogfiles/00-00-00-38-71-metablogapi/3644.psatwjpb_2D00_image3.gif" alt="Dual rendering engine architecture animation">
+    <figcaption>
+        <p>Image credit Jason Weber</p>
+    </figcaption>
+</figure>
+
+<p><a rel="full-article" href="http://blogs.msdn.com/b/ie/archive/2015/01/22/project-spartan-and-the-windows-10-january-preview-build.aspx">Read on IEBlog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Browsers, Services and the OS &#8211; Oh My…]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/browsers-services-and-the-os-oh-my-dot-dot-dot/"/>
+				<updated>2015-01-22T14:19:02-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/browsers-services-and-the-os-oh-my-dot-dot-dot</id>
+				<content type="html"><![CDATA[<p><a href="http://christianheilmann.com">Christian Heilmann</a>’s take on <a href="http://news.microsoft.com/windows10story/">yesterday’s IE announcement</a>, including a bit of historical context and a look toward the future of browsers killing stand-alone apps.</p>
+
+<blockquote><p>For me, however, the whole thing was a bit of an epiphany about browsers. I’ve always seen browsers as my main playground and got frustrated by lack of standards support across them. I got annoyed by users not upgrading to new ones or companies making that hard. And I was disappointed by developers having their pet browsers to support and demand people to use the same. What I missed out on was how amazing browsers themselves have become as tools for end users.</p></blockquote>
+<p><a rel="full-article" href="http://christianheilmann.com/2015/01/22/browsers-services-and-the-os-oh-my/">Read on Christian Heilmann&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -497,49 +531,6 @@
 
 <p>If—like me—you’re on a Mac, you can run the latest version of IE via <a href="https://remote.modern.ie/">RemoteIE</a>. Haven’t heard of it? Rey Bango has <a href="http://blog.reybango.com/2014/11/03/a-new-way-to-test-internet-explorer-on-os-x-ios-and-android/">a great write-up of how to set up RemoteIE on Macs, iOS, and even Android</a>.</p>
 <p><a rel="full-article" href="http://blogs.msdn.com/b/ie/archive/2014/11/11/living-on-the-edge-our-next-step-in-interoperability.aspx">Read on IE Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Gogo Wi-Fi Is Using Man-in-the-Middle Malware Tactics on Its Own Users]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/gogo-is-using-man-in-the-middle-malware-tactics-on-its-own-users/"/>
-				<updated>2015-01-06T18:02:57-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/gogo-is-using-man-in-the-middle-malware-tactics-on-its-own-users</id>
-				<content type="html"><![CDATA[<p>So earlier, <a href="http://aaron-gustafson.com/notebook/the-network-effect/">when I said the only way we could trust that the content we delivered was what we sent was via HTTPS</a>? I stand corrected. Even HTTPS can’t guarantee it.</p>
-<p><a rel="full-article" href="http://gizmodo.com/gogo-is-using-man-in-the-middle-malware-tactics-on-its-1677559652">Read on Gizmodo&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Revisiting (and Releasing) <cite>Adaptive Web Design</cite>]]></title>
-				<link href="http://aaron-gustafson.com/notebook/revisiting-and-releasing-adaptive-web-design/"/>
-				<updated>2015-01-05T14:10:49-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/revisiting-and-releasing-adaptive-web-design</id>
-				<content type="html"><![CDATA[<p>As you probably know, back in 2011 Easy Readers published my first solo book: <a href="http://adaptivewebdesign.info"><cite>Adaptive Web Design</cite></a>. It was an immediate hit and the response to continues to be tremendous even though it will turn four this coming May (which has to be like 80 in technology book years… many are outdated before they are even released).</p>
-
-<!-- more -->
-
-
-
-
-<div class='embed tweet'><blockquote class="twitter-tweet"><p>Time and again, I return to <a href="https://twitter.com/AaronGustafson">@AaronGustafson</a>’s “Adaptive Web Design”. Like a North Star for user-focused web design.&#10;&#10;<a href="http://t.co/K1tbm6qAON">http://t.co/K1tbm6qAON</a></p>&mdash; Mark Llobrera (@dirtystylus) <a href="https://twitter.com/dirtystylus/status/530756679286423552">November 7, 2014</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-
-
-<p>I think one of the main reasons the book has remained relevant for so long is because at its core, <cite>Adaptive Web Design</cite> is a <em>philosophy</em> book. Sure, there are some code examples here and there, but they only serve to demonstrate how you can apply progressive enhancement in your work. The philosophy of progressive enhancement works and only continues to demonstrate its brilliance with each new Web-enabled screen that debuts in the ever-expanding global marketplace. In fact, I’ll go out on a limb and declare that progressive enhancement is probably even more relevant today than it was when I wrote <cite>Adaptive Web Design</cite> in 2010.</p>
-
-<p>As such, I’ve been thinking a lot about an update. So much has happened since mid-2010 when I was writing the book. Heck, I didn’t even address Responsive Web Design and only touched a little on mobile. Then there are things like single-page apps &amp; isomorphic JavaScript I’d love to discuss. <a href="http://opengraphprotocol.org/">Open Graph</a> &amp; <a href="http://schema.org/">Schema.org</a>… new tweaks to <a href="http://www.w3.org/WAI/intro/aria.php">the ARIA spec</a>… <a href="http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#the-picture-element"><code>picture</code></a>, <a href="http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#attr-img-srcset"><code>srcset</code></a> &amp; <a href="http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#attr-img-sizes"><code>sizes</code></a>… the <a href="http://www.w3.org/TR/shadow-dom/">shadow DOM</a>… <a href="http://www.w3.org/TR/components-intro/">web components</a>… the list goes on and on. Progressive enhancement can help you better understand the pros and cons of all of these new advances and help you employ them while simultaneously keeping your projects on time and on budget.</p>
-
-<p>My hope is that the second edition of <cite>Adaptive Web Design</cite> will be out an in your hands by the end of 2015. But in the meantime, <a href="https://adactio.com/journal/4956">taking a page from Jeremy</a>, I felt it was time to give away the first edition. You can now <a href="http://adaptivewebdesign.info/1st-edition/">read <cite>Adaptive Web Design</cite></a>, in it’s entirety, from the comfort of your own browser… for free.</p>
-
-<p>The HTML version of <cite>Adaptive Web Design</cite> is a nearly direct port of the XHTML I wrote for the hand-coded ePub. I made a few tweaks to make it a little more readable in the browser, but it’s all there including the videos. And yes, it makes use of progressive enhancement.</p>
-
-<p>I hope you enjoy reading it as much as I enjoyed writing it and I look forward to getting you the revised and expanded second edition in the not to distant future.</p>
-
-<p>PS &ndash; Easy Readers closed up shop at the end of 2014 and delivered the remaining paperback copies—of which there are only 50 or so—to me. If you missed out on getting a copy and would like to purchase one, <a href="http://aaron-gustafson.com/contact/">drop me a line</a> and I can sell you one. I’ll even sign it for you!</p>
-]]></content>
 			</entry>
 		
 	

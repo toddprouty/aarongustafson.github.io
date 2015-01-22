@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-01-22T08:54:15-05:00</updated>
+	<updated>2015-01-22T17:24:04-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,40 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Project Spartan and the Windows 10 January Preview Build]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/project-spartan-and-the-windows-10-january-preview-build/"/>
+				<updated>2015-01-22T14:21:33-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/project-spartan-and-the-windows-10-january-preview-build</id>
+				<content type="html"><![CDATA[<p><a href="http://www.jasonweber.com/">Jason Weber</a>, Group Program Manager of Internet Explorer, provides a little more insight into “Project Spartan” and how Microsoft plans to balance consumer and enterprise needs.</p>
+
+<p>Because a picture is worth a thousand words:</p>
+
+<figure id="2015-01-22-1">
+    <img src="http://blogs.msdn.com/cfs-file.ashx/__key/communityserver-blogs-components-weblogfiles/00-00-00-38-71-metablogapi/3644.psatwjpb_2D00_image3.gif" alt="Dual rendering engine architecture animation">
+    <figcaption>
+        <p>Image credit Jason Weber</p>
+    </figcaption>
+</figure>
+
+<p><a rel="full-article" href="http://blogs.msdn.com/b/ie/archive/2015/01/22/project-spartan-and-the-windows-10-january-preview-build.aspx">Read on IEBlog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Browsers, Services and the OS &#8211; Oh My…]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/browsers-services-and-the-os-oh-my-dot-dot-dot/"/>
+				<updated>2015-01-22T14:19:02-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/browsers-services-and-the-os-oh-my-dot-dot-dot</id>
+				<content type="html"><![CDATA[<p><a href="http://christianheilmann.com">Christian Heilmann</a>’s take on <a href="http://news.microsoft.com/windows10story/">yesterday’s IE announcement</a>, including a bit of historical context and a look toward the future of browsers killing stand-alone apps.</p>
+
+<blockquote><p>For me, however, the whole thing was a bit of an epiphany about browsers. I’ve always seen browsers as my main playground and got frustrated by lack of standards support across them. I got annoyed by users not upgrading to new ones or companies making that hard. And I was disappointed by developers having their pet browsers to support and demand people to use the same. What I missed out on was how amazing browsers themselves have become as tools for end users.</p></blockquote>
+<p><a rel="full-article" href="http://christianheilmann.com/2015/01/22/browsers-services-and-the-os-oh-my/">Read on Christian Heilmann&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -242,19 +276,6 @@
 <p>If—like me—you’re on a Mac, you can run the latest version of IE via <a href="https://remote.modern.ie/">RemoteIE</a>. Haven’t heard of it? Rey Bango has <a href="http://blog.reybango.com/2014/11/03/a-new-way-to-test-internet-explorer-on-os-x-ios-and-android/">a great write-up of how to set up RemoteIE on Macs, iOS, and even Android</a>.</p>
 <p><a rel="full-article" href="http://blogs.msdn.com/b/ie/archive/2014/11/11/living-on-the-edge-our-next-step-in-interoperability.aspx">Read on IE Blog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Gogo Wi-Fi Is Using Man-in-the-Middle Malware Tactics on Its Own Users]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/gogo-is-using-man-in-the-middle-malware-tactics-on-its-own-users/"/>
-				<updated>2015-01-06T18:02:57-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/gogo-is-using-man-in-the-middle-malware-tactics-on-its-own-users</id>
-				<content type="html"><![CDATA[<p>So earlier, <a href="http://aaron-gustafson.com/notebook/the-network-effect/">when I said the only way we could trust that the content we delivered was what we sent was via HTTPS</a>? I stand corrected. Even HTTPS can’t guarantee it.</p>
-<p><a rel="full-article" href="http://gizmodo.com/gogo-is-using-man-in-the-middle-malware-tactics-on-its-1677559652">Read on Gizmodo&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
 		
 	
 </feed>
