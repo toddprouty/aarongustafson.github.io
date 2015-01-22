@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-01-22T08:25:35-05:00</updated>
+	<updated>2015-01-22T08:29:19-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -20,7 +20,7 @@
 				<id>http://aaron-gustafson.com/notebook/links/yawn-ie6-must-die-yawn-dot-dot-dot</id>
 				<content type="html"><![CDATA[<p>Way back in 2010, <a href="https://twitter.com/getify">Kyle Simpson</a> proposed that a new version of IE should live beside an older version to allow the new IE to prosper while the old one remains stable for enterprises that require its proprietary features:</p>
 
-<blockquote><p>The IE (Consumer Edition) would at its heart be a very different browser than the IE (Platform Edition). Instead of releasing once every couple of years, IE-CE could release every couple of months. IE-CE could ditch all that legacy JScript extension junk (and ActiveX!) and fully conform to open web standards. They could embrace SVG, <canvas>, <video>, CSS3, and all the other amazing things that IE9 is only barely now giving us a glimpse of. Microsoft could stop being the joke of the open web community, stop playing catch up, and actually take the lead in helping innovate in the consumer browser space.</p>
+<blockquote><p>The IE (Consumer Edition) would at its heart be a very different browser than the IE (Platform Edition). Instead of releasing once every couple of years, IE-CE could release every couple of months. IE-CE could ditch all that legacy JScript extension junk (and ActiveX!) and fully conform to open web standards. They could embrace SVG, <code>canvas</code>, <code>video</code>, CSS3, and all the other amazing things that IE9 is only barely now giving us a glimpse of. Microsoft could stop being the joke of the open web community, stop playing catch up, and actually take the lead in helping innovate in the consumer browser space.</p>
 
 <p>And all the while, they could keep (and from time to time, back-port to) IE-PE stable and reliable for the Platform world. IE-PE would be Microsoft’s proprietary extensions on the open-web consumer browser experience. IE-PE would serve the needs of corporations and sysadmins by giving them stability and security and not be bothered by all the “noise” of the rapidly changing consumer browser market.</p></blockquote>
 
