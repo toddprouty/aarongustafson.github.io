@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-01-22T07:59:05-05:00</updated>
+	<updated>2015-01-22T08:25:35-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,36 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Yawn, &#8220;IE6 Must Die&#8221;, Yawn&#8230;]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/yawn-ie6-must-die-yawn-dot-dot-dot/"/>
+				<updated>2015-01-22T08:17:26-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/yawn-ie6-must-die-yawn-dot-dot-dot</id>
+				<content type="html"><![CDATA[<p>Way back in 2010, <a href="https://twitter.com/getify">Kyle Simpson</a> proposed that a new version of IE should live beside an older version to allow the new IE to prosper while the old one remains stable for enterprises that require its proprietary features:</p>
+
+<blockquote><p>The IE (Consumer Edition) would at its heart be a very different browser than the IE (Platform Edition). Instead of releasing once every couple of years, IE-CE could release every couple of months. IE-CE could ditch all that legacy JScript extension junk (and ActiveX!) and fully conform to open web standards. They could embrace SVG, <canvas>, <video>, CSS3, and all the other amazing things that IE9 is only barely now giving us a glimpse of. Microsoft could stop being the joke of the open web community, stop playing catch up, and actually take the lead in helping innovate in the consumer browser space.</p>
+
+<p>And all the while, they could keep (and from time to time, back-port to) IE-PE stable and reliable for the Platform world. IE-PE would be Microsoft’s proprietary extensions on the open-web consumer browser experience. IE-PE would serve the needs of corporations and sysadmins by giving them stability and security and not be bothered by all the “noise” of the rapidly changing consumer browser market.</p></blockquote>
+
+<p>I wonder if he called it. Will “Project Spartan” live alongside IE11? I guess time will tell.</p>
+
+<!-- more -->
+
+
+<p>PS &ndash; I love this opening rant from that post. I still feel this way, nearly five years later:</p>
+
+<blockquote><p>I am so entirely bored by the “IE6 must die” External Link movement External Link. All you people out there who think you’re on some high horse External Link of morality and rightness for the web’s future — this is a complete waste of effort. It’s useless windbaggery and nonsense. To date, I don’t think a single user has ever upgraded their IE6 simply because some douche-bag developer told them to. You live in a bubble if that’s how you think the real world works.</p>
+
+<p>And while we’re at it, you sites out there who intentionally abandon IE6 support, not because it makes sense for your site (and not because you’ve provided a reasonable fallback graceful degradation for the less fortunate), but instead just because you want to flip the finger at Microsoft… well, you suck. And you know who else sucks? The sites who intentionally employ techniques they know will cause IE6 to crash External Link, as sort of a holier-than-thou “screw you” to a user who still surfs any of the web with IE6.</p>
+
+<p>Then there are those who feel that we can create self-fulfilling prophecies External Link and that will make this problem go away. Or the nagging site banners and twitter icon overlays External Link reminding everyone just how much of a jack ass you are about IE6. Yeah right. Amusing, I guess, but not productive.</p>
+
+<p>Get over yourselves, already. There, I said it. Deal with it.</p></blockquote>
+<p><a rel="full-article" href="http://blog.getify.com/yawn-ie6-must-die-yawn/">Read on getiblog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -508,19 +538,6 @@
 
 <p>PS &ndash; Easy Readers closed up shop at the end of 2014 and delivered the remaining paperback copies—of which there are only 50 or so—to me. If you missed out on getting a copy and would like to purchase one, <a href="http://aaron-gustafson.com/contact/">drop me a line</a> and I can sell you one. I’ll even sign it for you!</p>
 ]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Researching the Performance Costs of JavaScript MVC Frameworks]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/researching-the-performance-costs-of-javascript-mvc-frameworks/"/>
-				<updated>2014-12-30T09:36:18-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/researching-the-performance-costs-of-javascript-mvc-frameworks</id>
-				<content type="html"><![CDATA[<p>I often talk about the negative performance impact of using front-end MVC frameworks like Angular and Ember to generate your HTML. It should be pretty obvious why: a framework must be downloaded, interpreted, and executed before any HTML is generated and eventually rendered in the browser. The one thing I had yet to do was actually see how the various frameworks stack up side-by-side. Now the <a href="http://www.filamentgroup.com">Filament Group</a> has done just that.</p>
-
-<p>If you are using or are considering a front-end Javascript framework, you need to read this report.</p>
-<p><a rel="full-article" href="http://www.filamentgroup.com/lab/mv-initial-load-times.html">Read on Filament Group&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
