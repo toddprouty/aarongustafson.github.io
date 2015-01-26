@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Posts]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-posts.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-01-26T11:20:28-05:00</updated>
+	<updated>2015-01-26T11:25:56-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,21 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[The One Weird Trick That Takes the Pain Out of Cross-browser Testing]]></title>
+				<link href="http://aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing/"/>
+				<updated>2015-01-26T11:24:25-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing</id>
+				<content type="html"><![CDATA[<p>Love this!</p>
+
+<div class='embed tweet'><blockquote class="twitter-tweet"><p>You&#39;ll never believe this one weird trick that takes the pain out of cross browser testing: Progressive enhancement.</p>&mdash; Orde Saunders (@decadecity) <a href="https://twitter.com/decadecity/status/559693419808034816">January 26, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+
+]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -318,21 +333,6 @@
 	
 		
 	
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[The Linkblog]]></title>
-				<link href="http://aaron-gustafson.com/notebook/the-linkblog/"/>
-				<updated>2015-01-14T09:34:34-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/the-linkblog</id>
-				<content type="html"><![CDATA[<p>Since re-starting my blog I’ve been continuing to tinker with Octopress and Jekyll in an effort to customize things a bit more to my liking.</p>
-
-<p>I recently began posting links (with commentary) in a bit of a link blog, but I wasn’t really happy with having it mixed in with the rest of my Notebook posts. I finally took a few minutes to formally bust out the links into <a href="http://aaron-gustafson.com/notebook/links/">their own paginated section</a>, so you can keep up with them independently. I also set up a three distinct Atom feeds to let you consume this site’s content how you want to: <a href="http://aaron-gustafson.com/atom.xml">Latest 20 posts and links</a>, <a href="http://aaron-gustafson.com/atom-latest-posts.xml">latest 20 posts</a>, and <a href="http://aaron-gustafson.com/atom-latest-links.xml">Latest 20 links</a>.</p>
-
-<p>I’m hopeful this organization will prove as helpful to you as it is for my compartmentalization anxiety.</p>
-]]></content>
-			</entry>
 		
 	
 </feed>

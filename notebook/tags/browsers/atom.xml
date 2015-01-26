@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Browsers | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/browsers/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2015-01-26T11:20:28-05:00</updated>
+  <updated>2015-01-26T11:25:56-05:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[The One Weird Trick That Takes the Pain Out of Cross-browser Testing]]></title>
+    <link href="http://aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing/"/>
+    <updated>2015-01-26T11:24:25-05:00</updated>
+    <id>http://aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing</id>
+    <content type="html"><![CDATA[<p>Love this!</p>
+
+<p><div class='embed tweet'>Tweet could not be processed</div></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Competing on “Chrome”]]></title>
