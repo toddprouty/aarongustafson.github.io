@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-01-26T12:45:43-05:00</updated>
+	<updated>2015-01-26T12:46:25-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -108,9 +108,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[How We Use Progressive Enhancement to Improve Our Email Templates]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/how-we-use-progressive-enhancement-to-improve-our-email-templates-campaign-monitor/"/>
+				<link href="http://aaron-gustafson.com/notebook/links/how-we-use-progressive-enhancement-to-improve-our-email-templates/"/>
 				<updated>2015-01-26T11:31:38-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/how-we-use-progressive-enhancement-to-improve-our-email-templates-campaign-monitor</id>
+				<id>http://aaron-gustafson.com/notebook/links/how-we-use-progressive-enhancement-to-improve-our-email-templates</id>
 				<content type="html"><![CDATA[<p>Great stuff from some folks who know an awful lot about email:</p>
 
 <blockquote><p>If there&rsquo;s a medium that lends itself to progressive enhancement, it&rsquo;s email. Given the contexts in which email content is parsed and displayed (and will be in the future), it pays to consider content first and independently from the presentation.</p>
