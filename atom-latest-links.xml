@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-01-26T12:49:02-05:00</updated>
+	<updated>2015-01-27T08:48:43-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,19 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Meet Vivaldi, a New Browser From the Former CEO of Opera]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/meet-vivaldi-a-new-browser-from-the-former-ceo-of-opera/"/>
+				<updated>2015-01-27T08:45:00-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/meet-vivaldi-a-new-browser-from-the-former-ceo-of-opera</id>
+				<content type="html"><![CDATA[<p>And here we have yet another new browser. Vivaldi is inspired by the Opera of old and is pretty feature-rich according to the article. I’ll give it a shot.</p>
+
+<p>Vivaldi runs Blink under the hood (like Opera and Chrome), which lends credence to my theory that <a href="http://aaron-gustafson.com/notebook/competing-on-chrome/">soon browsers will compete on chrome, rather than standards implementations</a>.</p>
+<p><a rel="full-article" href="http://thenextweb.com/apps/2015/01/27/meet-vivaldi-new-browser-former-ceo-opera/">Read on The Next Web&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -286,17 +299,6 @@
 
 <p>We need to listen in order to be aware. We need to reflect in order to understand. And when we do that, we can recognize forms of oppression and disrespectful behavior, identify it as such, and stand together in declaring it unacceptable.</p>
 <p><a rel="full-article" href="https://the-pastry-box-project.net/eileen-webb/2015-January-19">Read on The Pastry Box Project&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Interactive WCAG 2.0]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/interactive-wcag-2/"/>
-				<updated>2015-01-20T13:09:45-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/interactive-wcag-2</id>
-				<content type="html"><![CDATA[<p>This is a handy interactive, mash-up reference for the <a href="http://www.w3.org/TR/WCAG20/">WCAG 2.0 accessibility guidelines from the W3C</a> and <a href="http://webaim.org/standards/wcag/checklist">related recommendations from WebAIM</a>. Thanks Viget!</p>
-<p><a rel="full-article" href="http://vigetlabs.github.io/interactive-wcag/">Read on Viget Labs&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
