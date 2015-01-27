@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-01-27T11:32:40-05:00</updated>
+	<updated>2015-01-27T11:38:34-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,19 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[WhatsApp Doesn't Understand the Web]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/whatsapp-doesnt-understand-the-web/"/>
+				<updated>2015-01-27T11:35:18-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/whatsapp-doesnt-understand-the-web</id>
+				<content type="html"><![CDATA[<p>I am not a WhatsApp user, but I have long been impressed with the way they embrace operating systems others ignore. I think it has been a key to their success and speaks to the &ldquo;accessibility&rdquo; (in the broader sense) of their service.</p>
+
+<p>I am completely baffled by the design decisions they made in their Web client, as is Andre Alves Garzia.</p>
+<p><a rel="full-article" href="http://andregarzia.com/posts/en/whatsappdoesntunderstandtheweb/">Read on Andre Alves Garzia’s Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -371,21 +384,6 @@
 </figure>
 
 <p><a rel="full-article" href="http://en.wikipedia.org/wiki/Timeline_of_web_browsers">Read on Wikipedia&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Why We Can’t Do Real Responsive Images With CSS or JavaScript]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/why-we-cant-do-real-responsive-images-with-css-or-javascript/"/>
-				<updated>2015-01-21T18:15:06-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/why-we-cant-do-real-responsive-images-with-css-or-javascript</id>
-				<content type="html"><![CDATA[<p>Bruce Lawson, briefly, on why <a href="https://html.spec.whatwg.org/multipage/embedded-content.html#adaptive-images"><code>picture</code>, <code>srcset</code>, and <code>sizes</code></a> are better for adaptive images than CSS or JavaScript any day of the week when it comes to performance:</p>
-
-<blockquote><p>The only way to beat the preloader is to put all the potential image sources in the HTML and give the browser all the information it needs to make the selection there.</p></blockquote>
-
-<p>Good stuff, Bruce. I’m sorry I won’t be in Barcelona to see this presentation (and you)!</p>
-<p><a rel="full-article" href="http://www.brucelawson.co.uk/2015/why-we-cant-do-real-responsive-images-with-css-or-javascript/">Read on Bruce Lawson’s  personal site&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
