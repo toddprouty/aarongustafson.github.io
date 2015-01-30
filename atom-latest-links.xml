@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-01-30T09:46:17-05:00</updated>
+	<updated>2015-01-30T10:10:25-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -23,6 +23,8 @@
 <blockquote><p>I was looking forward to getting really stuck into Web Components and figuring out ways of creating powerful little extensions that I could start using now. But if Web Components turn out to be an all-or-nothing technology—a “platform”, if you will—then I will not only not be using them, I’ll be actively arguing against their use.</p></blockquote>
 <p><a rel="full-article" href="https://adactio.com/journal/8276">Read on Adactio’s Journal&nbsp;&rarr;</a></p>]]></content>
 			</entry>
+		
+	
 		
 	
 		
@@ -280,19 +282,6 @@
 </figure>
 
 <p><a rel="full-article" href="http://blogs.msdn.com/b/ie/archive/2015/01/22/project-spartan-and-the-windows-10-january-preview-build.aspx">Read on IEBlog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Browsers, Services and the OS &#8211; Oh My…]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/browsers-services-and-the-os-oh-my-dot-dot-dot/"/>
-				<updated>2015-01-22T14:19:02-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/browsers-services-and-the-os-oh-my-dot-dot-dot</id>
-				<content type="html"><![CDATA[<p><a href="http://christianheilmann.com">Christian Heilmann</a>’s take on <a href="http://news.microsoft.com/windows10story/">yesterday’s IE announcement</a>, including a bit of historical context and a look toward the future of browsers killing stand-alone apps.</p>
-
-<blockquote><p>For me, however, the whole thing was a bit of an epiphany about browsers. I’ve always seen browsers as my main playground and got frustrated by lack of standards support across them. I got annoyed by users not upgrading to new ones or companies making that hard. And I was disappointed by developers having their pet browsers to support and demand people to use the same. What I missed out on was how amazing browsers themselves have become as tools for end users.</p></blockquote>
-<p><a rel="full-article" href="http://christianheilmann.com/2015/01/22/browsers-services-and-the-os-oh-my/">Read on Christian Heilmann&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
