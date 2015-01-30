@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-01-30T10:10:25-05:00</updated>
+	<updated>2015-01-30T10:57:00-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -14,22 +14,9 @@
 	
 		
 			<entry>
-				<title type="html"><![CDATA[Extensibility]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/extensibility/"/>
-				<updated>2015-01-30T09:44:38-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/extensibility</id>
-				<content type="html"><![CDATA[<p>Great post from Jeremy on Web components. I couldn’t agree more:</p>
-
-<blockquote><p>I was looking forward to getting really stuck into Web Components and figuring out ways of creating powerful little extensions that I could start using now. But if Web Components turn out to be an all-or-nothing technology—a “platform”, if you will—then I will not only not be using them, I’ll be actively arguing against their use.</p></blockquote>
-<p><a rel="full-article" href="https://adactio.com/journal/8276">Read on Adactio’s Journal&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
 				<title type="html"><![CDATA[Ch-ch-ch-changes]]></title>
 				<link href="http://aaron-gustafson.com/notebook/ch-ch-ch-changes/"/>
-				<updated>2015-01-29T16:29:40-05:00</updated>
+				<updated>2015-01-30T10:14:40-05:00</updated>
 				<id>http://aaron-gustafson.com/notebook/ch-ch-ch-changes</id>
 				<content type="html"><![CDATA[<p>Monday, February 2nd will be the start of a new chapter in my professional career: I will joining Microsoft as a standards evangelist.</p>
 
@@ -103,6 +90,19 @@
 
 <p>I’m excited about the future and I’m thrilled to be given the opportunity to focus on making the Web better… for everyone.</p>
 ]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Extensibility]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/extensibility/"/>
+				<updated>2015-01-30T09:44:38-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/extensibility</id>
+				<content type="html"><![CDATA[<p>Great post from Jeremy on Web components. I couldn’t agree more:</p>
+
+<blockquote><p>I was looking forward to getting really stuck into Web Components and figuring out ways of creating powerful little extensions that I could start using now. But if Web Components turn out to be an all-or-nothing technology—a “platform”, if you will—then I will not only not be using them, I’ll be actively arguing against their use.</p></blockquote>
+<p><a rel="full-article" href="https://adactio.com/journal/8276">Read on Adactio’s Journal&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
