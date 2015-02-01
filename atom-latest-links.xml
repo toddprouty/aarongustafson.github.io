@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-01-30T10:57:00-05:00</updated>
+	<updated>2015-02-01T13:26:19-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,30 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Accessible Timeout Notifications]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/accessible-timeout-notifications-tink/"/>
+				<updated>2015-02-01T13:23:17-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/accessible-timeout-notifications-tink</id>
+				<content type="html"><![CDATA[<p>I’m not generally a fan of session timeouts, but if you have to do it, Léonie Watson has outlined a pretty good route to go. My only nit might be using a <code>role</code> of &ldquo;alert&rdquo; or &ldquo;alertdialog&rdquo; instead of &ldquo;group&rdquo;, but that’s because it would trigger an audible chime and get read by assistive tech. But that’s pretty minor.</p>
+
+<p>Pay particular attention to the keyboard focus stuff too.</p>
+<p><a rel="full-article" href="http://tink.uk/accessible-timeout-notifications/">Read on Tink&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[The Browser Accessibility Tree]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/the-browser-accessibility-tree/"/>
+				<updated>2015-02-01T13:20:41-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/the-browser-accessibility-tree</id>
+				<content type="html"><![CDATA[<p>A clear and concise overview of browsers’ accessibility trees, using the <code>video</code> element as an example. Yet another reason to love <a href="https://twitter.com/stevefaulkner">Steve Faulkner</a>.</p>
+<p><a rel="full-article" href="http://www.paciellogroup.com/blog/2015/01/the-browser-accessibility-tree/">Read on The Paciello Group&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 	
@@ -263,26 +287,6 @@
 	
 		
 	
-		
-	
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Project Spartan and the Windows 10 January Preview Build]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/project-spartan-and-the-windows-10-january-preview-build/"/>
-				<updated>2015-01-22T14:21:33-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/project-spartan-and-the-windows-10-january-preview-build</id>
-				<content type="html"><![CDATA[<p><a href="http://www.jasonweber.com/">Jason Weber</a>, Group Program Manager of Internet Explorer, provides a little more insight into “Project Spartan” and how Microsoft plans to balance consumer and enterprise needs.</p>
-
-<p>Because a picture is worth a thousand words:</p>
-
-<figure id="2015-01-22-1" class="media-container">
-    <img src="http://blogs.msdn.com/cfs-file.ashx/__key/communityserver-blogs-components-weblogfiles/00-00-00-38-71-metablogapi/3644.psatwjpb_2D00_image3.gif" alt="Dual rendering engine architecture animation">
-</figure>
-
-<p><a rel="full-article" href="http://blogs.msdn.com/b/ie/archive/2015/01/22/project-spartan-and-the-windows-10-january-preview-build.aspx">Read on IEBlog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
 		
 	
 </feed>
