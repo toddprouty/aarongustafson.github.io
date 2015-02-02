@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-02-01T13:26:19-05:00</updated>
+	<updated>2015-02-02T07:37:52-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,27 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Emulating Failure]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/emulating-failure/"/>
+				<updated>2015-02-02T07:09:54-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/emulating-failure</id>
+				<content type="html"><![CDATA[<p>Another beautifully-eloquent post about the potential perils of <a href="http://www.w3.org/wiki/WebComponents/">Web Components</a>:</p>
+
+<blockquote><p>HTML has a problem. As implemented in browsers many interactive elements cannot be styled as desired by web developers, or developers as directed by designers, marketing or any of the numerous others whose wishes code cutters must abide by.</p>
+
+<p>…</p>
+
+<p>Now in 2015 we have web components re-inventing native HTML buttons, radio buttons and checkboxes, for relief from the scourge of divitis, perpetrated upon us by the as shipped inability to style a native HTML element as desired.</p>
+
+<p>Is it just me, or are new web UI technologies continuing to try to solve the wrong problems?</p></blockquote>
+
+<p>Now, the <a href="http://glazkov.com/2011/01/14/what-the-heck-is-shadow-dom/">Shadow DOM</a> (and <a href="https://gist.github.com/webtobesocial/aefd6e25064c08e0cc9a">associated pseudo-elements</a>) should allow us to control the style of these elements. The deeper problem is functionality. Take <a href="https://html.spec.whatwg.org/multipage/forms.html#the-datalist-element">the <code>datalist</code> for predictive typing</a>. What if you want fuzzy search instead of initial search when someone types. That’s not supported. This is where Web Components get interesting.</p>
+<p><a rel="full-article" href="http://www.paciellogroup.com/blog/2015/02/emulating-failure/">Read on The Paciello Group&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -283,8 +304,6 @@
 <p>It is possible to have your cake and eat it too if you go <a href="http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/">the isomorphic JavaScript route</a> though.</p>
 <p><a rel="full-article" href="https://adactio.com/journal/8245">Read on Adactio’s Journal&nbsp;&rarr;</a></p>]]></content>
 			</entry>
-		
-	
 		
 	
 		
