@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-02-04T16:16:05-05:00</updated>
+	<updated>2015-02-05T13:13:27-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,19 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Power of the Platforms]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/power-of-the-platforms-oreilly-radar/"/>
+				<updated>2015-02-05T13:11:05-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/power-of-the-platforms-oreilly-radar</id>
+				<content type="html"><![CDATA[<p>This is a great post from Simon St. Laurent on how isolated Web &ldquo;platforms&rdquo; have come and go while the &ldquo;tangled mess&rdquo; that is HTML, CSS, and JavaScript soldiers on. It’s a must read.</p>
+
+<blockquote><p>The web bends with the wind, supporting incredibly diverse use cases across a wide variety of environments. Your code should, too.</p></blockquote>
+<p><a rel="full-article" href="http://radar.oreilly.com/2015/02/power-of-the-platforms.html">Read on O’Reilly Radar&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -386,21 +399,6 @@
 
 <p>Traditionally, email designers have taken all sorts of scrappy approaches to ensuring that text in email &ldquo;looks the same across all clients&rdquo;. Your Gmail experience should be the same as your Outlook experience and so-forth. I&rsquo;d argue that &ldquo;reading the same across all clients&rdquo; is vastly more important and that when possible, visually lovely flourishes should be added, for the environments that support them.</p></blockquote>
 <p><a rel="full-article" href="https://www.campaignmonitor.com/blog/post/4401/progressive-enhancement-in-email">Read on Campaign Monitor Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Angular Momentum]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/angular-momentum/"/>
-				<updated>2015-01-26T11:28:38-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/angular-momentum</id>
-				<content type="html"><![CDATA[<p>Jeremy perfectly captures my feelings on most client-side MVC frameworks:</p>
-
-<blockquote><p>Angular is for making (possibly enterprise) applications that happen to be on the web, but are not of the web.</p></blockquote>
-
-<p>It is possible to have your cake and eat it too if you go <a href="http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/">the isomorphic JavaScript route</a> though.</p>
-<p><a rel="full-article" href="https://adactio.com/journal/8245">Read on Adactio’s Journal&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
