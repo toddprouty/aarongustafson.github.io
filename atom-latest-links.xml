@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-02-05T13:13:27-05:00</updated>
+	<updated>2015-02-05T13:26:42-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -15,9 +15,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Power of the Platforms]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/power-of-the-platforms-oreilly-radar/"/>
+				<link href="http://aaron-gustafson.com/notebook/links/power-of-the-platforms/"/>
 				<updated>2015-02-05T13:11:05-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/power-of-the-platforms-oreilly-radar</id>
+				<id>http://aaron-gustafson.com/notebook/links/power-of-the-platforms</id>
 				<content type="html"><![CDATA[<p>This is a great post from Simon St. Laurent on how isolated Web &ldquo;platforms&rdquo; have come and go while the &ldquo;tangled mess&rdquo; that is HTML, CSS, and JavaScript soldiers on. It’s a must read.</p>
 
 <blockquote><p>The web bends with the wind, supporting incredibly diverse use cases across a wide variety of environments. Your code should, too.</p></blockquote>
