@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-02-05T20:16:33-05:00</updated>
+	<updated>2015-02-06T09:35:48-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,27 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Reframing Accessibility for the Web]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/reframing-accessibility-for-the-web/"/>
+				<updated>2015-02-05T21:05:36-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/reframing-accessibility-for-the-web</id>
+				<content type="html"><![CDATA[<p>Lots of great stuff here from Anne Gibson:</p>
+
+<blockquote><p>We need to change the way we talk about accessibility. Most people are taught that “web accessibility means that people with disabilities can use the Web”—the official definition from the W3C. This is wrong. Web accessibility means that people can use the web.</p>
+
+<p>Not “people with disabilities.” Not “blind people and deaf people.” Not “people who have cognitive disabilities” or “men who are color blind” or “people with motor disabilities.” People. People who are using the web. People who are using what you’re building.</p>
+
+<p>We need to stop invoking the internal stereotypes we have about who is disabled.</p></blockquote>
+
+<p>Anne goes on to offer a lot of practical and helpful advice around how to change the way you think about accessibility and how to act upon that change. You should definitely read it.</p>
+
+<p>For similar content on this site, see <a href="http://aaron-gustafson.com/notebook/the-web-is-for-everyone/">my keynote from A11yQC</a> and <a href="http://aaron-gustafson.com/notebook/egalitarianism/">my post on egalitarianism</a>.</p>
+<p><a rel="full-article" href="http://alistapart.com/article/reframing-accessibility-for-the-web">Read on A List Apart&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -390,17 +411,6 @@
 
 <p>Thanks for putting this together Adrian!</p>
 <p><a rel="full-article" href="http://blog.adrianroselli.com/2015/01/on-use-of-lang-attribute.html">Read on Adrian Roselli’s Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Longdesc Alternatives in HTML5]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/longdesc-alternatives-in-html5/"/>
-				<updated>2015-01-26T11:31:53-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/longdesc-alternatives-in-html5</id>
-				<content type="html"><![CDATA[<p>The insightful James Craig is compiling a list of alternatives to the <a href="http://lists.w3.org/Archives/Public/public-html-a11y/2014Jun/0115.html">troublesome <code>longdesc</code> attribute</a>. You should follow along.</p>
-<p><a rel="full-article" href="http://cookiecrook.com/longdesc/">Read on James Craig’s Website&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
