@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-02-06T11:06:09-05:00</updated>
+	<updated>2015-02-06T11:07:07-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -20,7 +20,8 @@
 				<id>http://aaron-gustafson.com/notebook/links/when-browsers-dont-play-nicely-in-the-open-source-sandbox</id>
 				<content type="html"><![CDATA[<p>Passive aggression at its best:</p>
 
-<blockquote><p><code>console.log('Google, please make sure your obfuscator does not change class names, so our patch continues working (or stop browser-sniffing as we both use and contribute to Blink!) - love, Opera.');</code></p></blockquote>
+<pre><code class="javascript">console.log('Google, please make sure your obfuscator does not change class names, so our patch continues working (or stop browser-sniffing as we both use and contribute to Blink!) - love, Opera.');</code></pre>
+
 <p><a rel="full-article" href="https://github.com/operasoftware/browserjs/blob/master/OPRdesktop/browserjs-25.0.js#L252">Read on Github&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
