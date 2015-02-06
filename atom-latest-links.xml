@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-02-06T11:08:44-05:00</updated>
+	<updated>2015-02-06T11:15:49-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,35 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Designing for the Elderly: Ways Older People Use Digital Technology Differently]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/designing-digital-technology-for-the-elderly/"/>
+				<updated>2015-02-06T17:51:36-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/designing-digital-technology-for-the-elderly</id>
+				<content type="html"><![CDATA[<p>We’re all aging. There’s no way to avoid it, no matter how much <a href="http://en.wikipedia.org/wiki/Growth_hormone">HGH</a> you consume. And as we age, our eyesight typically worsens, we lose some motor control, and our brains often don’t process data quite as fast as they did when we were 18 or even 30. As designers, we need to be cognizant of the needs of aging computer users.</p>
+
+<p>Ollie Campbell has put together a great read on creating digital products that accommodate the aging population (estimated to top 19% of the US population by 2030). In it, he discusses things we should consider with respect to</p>
+
+<ul>
+<li>vision and hearing,</li>
+<li>motor control,</li>
+<li>device use,</li>
+<li>relationships,</li>
+<li>life stage,</li>
+<li>experience with technology,</li>
+<li>cognition,</li>
+<li>memory,</li>
+<li>attention, and</li>
+<li>decision-making.</li>
+</ul>
+
+
+<p>It’s pretty exhaustive. You should definitely give it a read.</p>
+<p><a rel="full-article" href="http://www.smashingmagazine.com/2015/02/05/designing-digital-technology-for-the-elderly/">Read on Smashing Magazine&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -168,35 +197,6 @@
 
 <p>Going to the middle of this content takes us to page 100. What does this mean, beyond we&rsquo;re at the middle? Not much.</p></blockquote>
 <p><a rel="full-article" href="https://nolancaudill.com/2012/03/24/pagination/">Read on Nolan Caudill’s Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Designing for the Elderly: Ways Older People Use Digital Technology Differently]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/designing-digital-technology-for-the-elderly/"/>
-				<updated>2015-01-28T17:51:36-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/designing-digital-technology-for-the-elderly</id>
-				<content type="html"><![CDATA[<p>We’re all aging. There’s no way to avoid it, no matter how much <a href="http://en.wikipedia.org/wiki/Growth_hormone">HGH</a> you consume. And as we age, our eyesight typically worsens, we lose some motor control, and our brains often don’t process data quite as fast as they did when we were 18 or even 30. As designers, we need to be cognizant of the needs of aging computer users.</p>
-
-<p>Ollie Campbell has put together a great read on creating digital products that accommodate the aging population (estimated to top 19% of the US population by 2030). In it, he discusses things we should consider with respect to</p>
-
-<ul>
-<li>vision and hearing,</li>
-<li>motor control,</li>
-<li>device use,</li>
-<li>relationships,</li>
-<li>life stage,</li>
-<li>experience with technology,</li>
-<li>cognition,</li>
-<li>memory,</li>
-<li>attention, and</li>
-<li>decision-making.</li>
-</ul>
-
-
-<p>It’s pretty exhaustive. You should definitely give it a read.</p>
-<p><a rel="full-article" href="http://www.smashingmagazine.com/2015/02/05/designing-digital-technology-for-the-elderly/">Read on Smashing Magazine&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
