@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-02-05T19:05:42-05:00</updated>
+	<updated>2015-02-05T20:04:37-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,23 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[You’re Missing the Point of Server-Side Rendered JavaScript Apps]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/youre-missing-the-point-of-server-side-rendered-javascript-apps/"/>
+				<updated>2015-02-05T19:20:05-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/youre-missing-the-point-of-server-side-rendered-javascript-apps</id>
+				<content type="html"><![CDATA[<p>I agree with Tom Dale. Yup, you read that right: I agree with Tom Dale. Well, he finally said something sensible:</p>
+
+<blockquote><p>Say what you will about server-rendered apps, the performance of your server is much more predictable, and more easily upgraded, than the many, many different device configurations of your users. Server-rendering is important to ensure that users who are not on the latest-and-greatest can see your content immediately when they click a link.</p></blockquote>
+
+<p>You might remember Tom as the guy who <a href="http://tomdale.net/2013/09/progressive-enhancement-is-dead/">declared progressive enhancement dead in late 2013</a>. He’s apparently seen the light and has been hard at work to get Ember ready for server side rendering.</p>
+
+<p>I’m shocked, but glad he finally came around. Progressive enhancement FTW!</p>
+<p><a rel="full-article" href="http://tomdale.net/2015/02/youre-missing-the-point-of-server-side-rendered-javascript-apps/">Read on Tom Dale’s Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -384,21 +401,6 @@
 				<id>http://aaron-gustafson.com/notebook/links/longdesc-alternatives-in-html5</id>
 				<content type="html"><![CDATA[<p>The insightful James Craig is compiling a list of alternatives to the <a href="http://lists.w3.org/Archives/Public/public-html-a11y/2014Jun/0115.html">troublesome <code>longdesc</code> attribute</a>. You should follow along.</p>
 <p><a rel="full-article" href="http://cookiecrook.com/longdesc/">Read on James Craig’s Website&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[How We Use Progressive Enhancement to Improve Our Email Templates]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/how-we-use-progressive-enhancement-to-improve-our-email-templates/"/>
-				<updated>2015-01-26T11:31:38-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/how-we-use-progressive-enhancement-to-improve-our-email-templates</id>
-				<content type="html"><![CDATA[<p>Great stuff from some folks who know an awful lot about email:</p>
-
-<blockquote><p>If there&rsquo;s a medium that lends itself to progressive enhancement, it&rsquo;s email. Given the contexts in which email content is parsed and displayed (and will be in the future), it pays to consider content first and independently from the presentation.</p>
-
-<p>Traditionally, email designers have taken all sorts of scrappy approaches to ensuring that text in email &ldquo;looks the same across all clients&rdquo;. Your Gmail experience should be the same as your Outlook experience and so-forth. I&rsquo;d argue that &ldquo;reading the same across all clients&rdquo; is vastly more important and that when possible, visually lovely flourishes should be added, for the environments that support them.</p></blockquote>
-<p><a rel="full-article" href="https://www.campaignmonitor.com/blog/post/4401/progressive-enhancement-in-email">Read on Campaign Monitor Blog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
