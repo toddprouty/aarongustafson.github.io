@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-02-06T09:42:13-05:00</updated>
+	<updated>2015-02-06T10:56:25-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,19 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[When Browsers Don’t Play Nicely in the Open Source Sandbox]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/when-browsers-dont-play-nicely-in-the-open-source-sandbox/"/>
+				<updated>2015-02-06T10:07:36-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/when-browsers-dont-play-nicely-in-the-open-source-sandbox</id>
+				<content type="html"><![CDATA[<p>Passive aggression at its best:</p>
+
+<blockquote><p><code>console.log('Google, please make sure your obfuscator does not change class names, so our patch continues working (or stop browser-sniffing as we both use and contribute to Blink!) - love, Opera.');</code></p></blockquote>
+<p><a rel="full-article" href="https://github.com/operasoftware/browserjs/blob/master/OPRdesktop/browserjs-25.0.js#L252">Read on Github&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -238,6 +251,35 @@
 	
 		
 			<entry>
+				<title type="html"><![CDATA[Designing for the Elderly: Ways Older People Use Digital Technology Differently]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/designing-digital-technology-for-the-elderly/"/>
+				<updated>2015-01-28T17:51:36-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/designing-digital-technology-for-the-elderly</id>
+				<content type="html"><![CDATA[<p>We’re all aging. There’s no way to avoid it, no matter how much <a href="http://en.wikipedia.org/wiki/Growth_hormone">HGH</a> you consume. And as we age, our eyesight typically worsens, we lose some motor control, and our brains often don’t process data quite as fast as they did when we were 18 or even 30. As designers, we need to be cognizant of the needs of aging computer users.</p>
+
+<p>Ollie Campbell has put together a great read on creating digital products that accommodate the aging population (estimated to top 19% of the US population by 2030). In it, he discusses things we should consider with respect to</p>
+
+<ul>
+<li>vision and hearing,</li>
+<li>motor control,</li>
+<li>device use,</li>
+<li>relationships,</li>
+<li>life stage,</li>
+<li>experience with technology,</li>
+<li>cognition,</li>
+<li>memory,</li>
+<li>attention, and</li>
+<li>decision-making.</li>
+</ul>
+
+
+<p>It’s pretty exhaustive. You should definitely give it a read.</p>
+<p><a rel="full-article" href="http://www.smashingmagazine.com/2015/02/05/designing-digital-technology-for-the-elderly/">Read on Smashing Magazine&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
 				<title type="html"><![CDATA[Why All Three Game Consoles Have Now Ditched the TV]]></title>
 				<link href="http://aaron-gustafson.com/notebook/links/why-all-three-game-consoles-have-now-ditched-the-tv/"/>
 				<updated>2015-01-28T17:48:16-05:00</updated>
@@ -366,51 +408,6 @@
 
 <p>If this sounds cool, you may also like his <a href="http://blog.adrianroselli.com/2012/06/accessibility-bookmarklets-and-tools.html">Accessibility Bookmarklets and Tools</a>.</p>
 <p><a rel="full-article" href="http://blog.adrianroselli.com/2015/01/css-bookmarklets-for-testing-and-fixing.html">Read on Adrian Roselli’s Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[What's New in CSS Selectors 4]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/whats-new-in-css-selectors-4/"/>
-				<updated>2015-01-26T11:32:16-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/whats-new-in-css-selectors-4</id>
-				<content type="html"><![CDATA[<p>Matt offers us a nice round-up of new selectors that will likely be a part of the <a href="http://dev.w3.org/csswg/selectors-4/">CSS 4 Selectors Module</a>. Notable additions:</p>
-
-<ul>
-<li><a href="https://grack.com/blog/2015/01/11/css-selectors-4/#has"><code>:has</code></a> &ndash; select an element based on children it contains,</li>
-<li><a href="https://grack.com/blog/2015/01/11/css-selectors-4/#matches"><code>:matches</code></a> &ndash; a more compact way to select elements via alternate selector paths,</li>
-<li><a href="https://grack.com/blog/2015/01/11/css-selectors-4/#not"><code>:not()</code> in a stack</a> &ndash; lets you combine multiple selectors not to match, using commas.</li>
-<li><a href="https://grack.com/blog/2015/01/11/css-selectors-4/#column-combinator--and-nth-column">Column selection</a></li>
-</ul>
-
-<p><a rel="full-article" href="https://grack.com/blog/2015/01/11/css-selectors-4/">Read on Matt Mastracci’s Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[On Use of the `lang` Attribute]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/on-use-of-the-lang-attribute/"/>
-				<updated>2015-01-26T11:32:05-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/on-use-of-the-lang-attribute</id>
-				<content type="html"><![CDATA[<p>Adrian has put together a great overview of why <code>lang</code> is important and how many sites are using it. Here are a few takeaways:</p>
-
-<blockquote>
-    <ol>
-        <li>VoiceOver on iOS uses the attribute to auto-switch voices.</li>
-        <li>VoiceOver can speak a particular language using a different accent when specified.</li>
-        <li>Leaving out the `lang` attribute may require the user to manually switch to the correct language for proper pronunciation.</li>
-        <li>JAWS uses it to load the correct phonetic engine/phonologic dictionary — Handy for sites with multiple languages.</li>
-        <li>NVDA (Windows) uses it in the same way as VoiceOver and JAWS.</li>
-        <li>When used in HTML that is used to form an ePub or Apple iBooks document, it affects how VoiceOver will read the book.</li>
-        <li>Firefox, IE10, and Safari (as of a year ago) only support CSS `hyphens: auto` when the `lang` attribute is set.</li>
-    </ol>
-</blockquote>
-
-
-<p>Thanks for putting this together Adrian!</p>
-<p><a rel="full-article" href="http://blog.adrianroselli.com/2015/01/on-use-of-lang-attribute.html">Read on Adrian Roselli’s Blog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
