@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Browse by Tag: Web Standards | Aaron Gustafson]]></title>
+  <link href="http://aaron-gustafson.com/notebook/tags/web-standards/atom.xml" rel="self"/>
+  <link href="http://aaron-gustafson.com/"/>
+  <updated>2015-02-05T20:10:16-05:00</updated>
+  <id>http://aaron-gustafson.com/</id>
+  <author>
+    <name><![CDATA[Aaron Gustafson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Competing on “Chrome”]]></title>
+    <link href="http://aaron-gustafson.com/notebook/competing-on-chrome/"/>
+    <updated>2015-01-21T15:20:40-05:00</updated>
+    <id>http://aaron-gustafson.com/notebook/competing-on-chrome</id>
+    <content type="html"><![CDATA[<p>Watching the <a href="http://news.microsoft.com/windows10story/">Windows 10 announcement</a> today and the “unveiling” of its new browser, codenamed “Project Spartan”, I was amazed… not by what was said so much as what wasn’t.</p>
+
+<!-- more -->
+
+
+<p>Let me back up a bit here. As many of you know, I’ve been working on the Web for a long time and, like many old codgers, lived through the first browser wars and remember not only the unveiling of Internet Explorer 6—which was pretty amazing for its time—but I also worked on the Web for the entire 5 years that browser sat on the shelf.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+
+<p>By the time Internet Explorer 7 came out in late 2006, there had been a number of advancements on the Web. And there was more competition for user and developer mindshare. Safari popped up shortly after IE6’s launch and was gaining traction on the Mac with its port of Konqueror’s layout engine, KHTML, which they renamed WebKit. Netscape was in it’s death throes, but Firefox arose from the ashes<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> and was capturing an ever-growing share of the market with its improved security, extensibility through browser plug-ins, and tabbed browsing. Not only that, but the Mozilla core of Firefox had also been spun into several other browsers that were similarly taking off: Camino, Flock, SeaMonkey, Galeon, and Epiphany. And then, of course, the Opera browser was still going strong on the desktop and growing rapidly in the mobile space.<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup></p>
+
+<p>When IE7 finally made it out into the world, developers were at peak frustration when it came to dealing with standards-compatibility issues in IE. So it’s no surprise that the messaging focus for IE7 was, at least in terms of the Web designer/developer audience, focused on <a href="http://www.zdnet.com/article/ie7-and-standards-compliance-microsofts-chris-wilson-charts-progress/">apologizing for the past and promising that they cared about (and were supporting) interoperable Web standards</a>.</p>
+
+<p>And this was an earnest sentiment, it wasn’t bullshit. I remember <a href="https://twitter.com/cwilso">Chris Wilson</a>—then Platform Architect of Internet Explorer Platform team—telling me he had personally printed out <a href="http://www.w3.org/TR/CSS2/">the entire CSS 2.1 spec</a> and put it on the desk of each developer working on Trident, the browser’s rendering engine.</p>
+
+<p>And IE7, for all of its faults, was an improvement over IE6. A few years later, IE8 was an improvement over that. And, a little later, IE9 gave us a completely reborn Internet Explorer, largely free of the layout and rendering quirks we had earned so much grey hair fighting. And so on. And so on. But all the while, the drumbeat from the IE team was this: Now with more standards support!</p>
+
+<p>And it wasn’t just IE that was making this claim. Other browsers began to tout their support of one particular standard or another that the others didn’t in hopes of getting developers to pay more attention to them.</p>
+
+<p>Some time before the launch of IE8, I remember having a conversation with Chris Wilson over drinks at a conference. We talked at length about the state of Web standards, browsers, and the like. During the course of our chat, he offered up his dream:</p>
+
+<blockquote><p>I’ll be happy when browsers stop competing on standards support and start competing on chrome.<sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup></p></blockquote>
+
+<p>It stuck with me because what he was saying made a lot of sense: Standards-compliance should be a given; browsers should be competing on the extra stuff they offer.</p>
+
+<p>Which brings me back to today’s announcement. Standards-compliance wasn’t mentioned<sup id="fnref:5"><a href="#fn:5" rel="footnote">5</a></sup> by <a href="https://twitter.com/joebelfiore">Joe Belfiore</a> in his walkthrough of “Project Spartan”. Instead, Joe focused on the value adds in the browser: in-app note taking, a focused reading mode, cross-device synchronization, and Cortana integration.</p>
+
+<p>This is a major milestone for IE in my opinion and it makes me wonder if we’ve finally reached the place that Chris dreamed about all those years ago. I certainly hope so.</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>I was told that, internally, decision-makers felt the browser was “done” and there would be no more advancements on the Web that would require a new browser.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<li id="fn:2">
+<p>An apt metaphor, Firefox was originally Phoenix, then later Firebird, before eventually becoming Firefox. <a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+<li id="fn:3">
+<p>You may not realize it, but Opera Mobile predated even IE6. And it’s Opera Mini variant touts big numbers too: In April 2014, there were over 267 million Opera mobile browser users (244 million of whom used Opera Mini) and Opera Mini users viewed over 177 billion pages in that same month. (<a href="http://www.operasoftware.com/smw/2014-04">Source</a>)<a href="#fnref:3" rev="footnote">&#8617;</a></p></li>
+<li id="fn:4">
+<p>The Chrome browser, from Google, did not exist at this time. By &ldquo;chrome&rdquo; he meant the window around a webpage—it toolbars, buttons, menus, and other browser-based functionality.<a href="#fnref:4" rev="footnote">&#8617;</a></p></li>
+<li id="fn:5">
+<p>The only phrases that even hint at standards compliance were “modern Web” and “a new rendering engine… that is compatible with how the Web is written today” (starting at around 59:05 in <a href="https://ll.ms-studiosmedia.com/events/2015/1501/Windows10CP/live/Windows10CP.html?title=Windows10CP-mscom">the video</a>).<a href="#fnref:5" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Spelling Errors, Exclusions, and Packages, Oh My—Working Drafts at the W3C]]></title>
+    <link href="http://aaron-gustafson.com/notebook/spelling-errors-exclusions-and-packages-oh-my/"/>
+    <updated>2015-01-16T07:15:12-05:00</updated>
+    <id>http://aaron-gustafson.com/notebook/spelling-errors-exclusions-and-packages-oh-my</id>
+    <content type="html"><![CDATA[<p>This week the W3C published a couple of really cool new Working Drafts I wanted to bring to your attention (just in case you missed them).</p>
+
+<!-- more -->
+
+
+<h2><a href="http://www.w3.org/TR/2015/WD-css-pseudo-4-20150115">CSS 4 Pseudo-elements</a>.</h2>
+
+<p>Most of this is stuff you know: <code>::first-line</code>, <code>::first-letter</code>, and <code>::selection</code>. But what magic is this? <code>::spelling-error</code> and <code>::grammar-error</code> too! What?! Now I know I may be a little too excited about this, but it’s not because spelling and grammar errors are going to solve all of our design problems; I am excited about this because it points to us being granted more control over how more of the internals of browser operations are rendered to our users.</p>
+
+<p>Obviously <a href="/notebook/native-vs-stylable-tug-of-war/">this is a double edged sword</a> and could be abused to the detriment of the user experience, but it may also lead to someone coming up with clearer conventions for indicating spelling and grammar errors than the ones we’ve been using since the early days of Microsoft Word.</p>
+
+<h2><a href="http://www.w3.org/TR/2015/WD-css3-exclusions-20150115/">CSS 3 Exclusions</a></h2>
+
+<p>This has been a long time coming. The idea is pretty simple: Within a flow-type element (think <code>p</code>, <code>div</code>, etc.) you can apply <a href="http://www.w3.org/TR/2015/WD-css3-exclusions-20150115/#wrap-flow-property">the <code>wrap-flow</code> property</a> to children in order to control where content can go in relation to them. Here’s an example from the spec:</p>
+
+<p><figure id="fig-2015-01-16-1"></p>
+
+<pre><code>&lt;img src="http://www.w3.org/TR/2015/WD-css3-exclusions-20150115/images/exclusions-illustration.png" alt="Four boxes layed out roughly diagonally from the upper left to the lower right within a larger container. A flow of blue color shows where text is allowed to flow."&gt;
+</code></pre>
+
+<p></figure></p>
+
+<p>In this example, child A is set to <code>wrap-flow: both</code>, allowing content to flow on both sides of it. Child B is set to <code>wrap-flow: start</code> meaning content should only be allowed on the starting side of the element (based on text direction, in this case left to right). Child C is set to <code>wrap-flow: end</code> meaning content can only appear after it in terms of text-direction. And child D is set to <code>wrap-flow: clear</code> which, as you might expect based on your existing CSS knowledge, ensures no content appears on either side of it.</p>
+
+<p>There is <a href="http://www.w3.org/TR/2015/WD-css3-exclusions-20150115/#wrap-flow-property">another, more thorough example in the Working Draft</a> (scroll down a little bit), but it uses grid layout as well and is a little more complicated that I want to get into today.</p>
+
+<p>On the flip side of the equation, there is <a href="http://www.w3.org/TR/2015/WD-css3-exclusions-20150115/#wrap-through-property">the <code>wrap-through</code> property</a> which allows other elements to control whether or not they pay attention to the <code>wrap-flow</code> property of another element. A <code>wrap-through</code> value of &ldquo;wrap&rdquo; adheres to what they are calling the &ldquo;wrapping context&rdquo; of the parent element (which basically means it behaves as you’d expect, being a child element). Setting a <code>wrap-through</code> value of &ldquo;none&rdquo; on the child element, however, would make it ignore the parent element’s wrapping context and allow this child’s content to flow through (hence <code>wrap-through</code>) the excluded element.</p>
+
+<p>It’s a lot to take in and (of course) still subject to change, but I just wanted to bring this concept to your attention as it is pretty cool stuff and is a nice complement to <a href="http://www.w3.org/TR/css-shapes-1/">CSS Shapes</a>, which landed early last year.</p>
+
+<h2><a href="http://www.w3.org/TR/2015/WD-web-packaging-20150115/">Streamable Package Format</a></h2>
+
+<p>This one is pretty crazy and I am still tucking into it, but here’s the gist: You could provide a &ldquo;package&rdquo; or rolled up collection of files necessary to render your page—think CSS, images, fonts, etc.—in <a href="http://www.w3.org/TR/2015/WD-web-packaging-20150115/#streamable-package-format">Streamable Package Format</a> which would allow a browser to download them all in one go rather than having to request each resource individually. This could be really useful from a performance standpoint on high-latency connections as it cuts down on the number of round-trips the browser must make to the server before it can render the page. And, since the package can be streamed, we can optimize the contents to provide the most important bits first so the browser can go about rendering the document as quickly as possible.</p>
+
+<p>This is a very cool concept with a lot of potential benefit to our users. Of course, as the document acknowledges, it’s also possible to abuse this and adversely affect performance by including a lot of unnecessary content. Kinda like <a href="https://www.polymer-project.org/articles/spa.html">that guy who made his whole single-page app into a Web Component</a>. Just because you can do something doesn’t make it a good idea.</p>
+
+<p>Still, there’s a lot of potential here and I’m excited to see where it goes.</p>
+
+<hr>
+
+
+<p>Now the caveat: all of these are Working Drafts, not Technical Recommendations, so <em>they are not final by any means</em>. That said, they do point to a pretty interesting not to distant future.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Visualizing CSS3 Transformations]]></title>
+    <link href="http://aaron-gustafson.com/notebook/visualizing-css3-transformations/"/>
+    <updated>2014-12-18T16:53:18-05:00</updated>
+    <id>http://aaron-gustafson.com/notebook/visualizing-css3-transformations</id>
+    <content type="html"><![CDATA[<p>It’s pretty amazing what you can do with <a href="http://dev.w3.org/csswg/css-transforms">CSS3 transforms</a> these days, but I often struggle with explaining the importance of function order when I am training people on how to use them. Transformation functions are a visual thing, so they require a visual tool to fully understand them and the implications of your function order decisions.</p>
+
+<!-- more -->
+
+
+<p>To address this need, I put together <a href="http://codepen.io/aarongustafson/full/jEryLV/">a tool that dissects CSS3 transforms</a> so the transform process would be more clear for my students. I decided to throw it up on Codepen so you could learn from it as well. Why don’t you open that link and I’ll explain how it works. (Obviously, you’ll need to be in <a href="http://caniuse.com/#feat=transforms2d">a browser that supports transforms</a> for the tool to be useful to you.)</p>
+
+<p>The tool starts you off with a simple three-function <code>transform</code> that includes both <code>translate</code> and <code>rotate</code> functions. If you hit the &ldquo;Show Me&rdquo; button, the browser will draw a box and step you through the application of the <code>transform</code> functions, one by one, animating their application so it’s easy to follow. This makes it pretty clear why an element ends up where it does.</p>
+
+<p>Beside the &ldquo;Show Me&rdquo; button is the &ldquo;Rearrange&rdquo; button. It does exactly what you’d think: It rearranges the functions into a new, random order. If you press it and then press &ldquo;Show Me&rdquo; again, you can see if (and why) the element ends up in a different place. The original box remains ghosted out so you can see any differences.</p>
+
+<p>Here’s a video of me playing around with the default <code>transform</code> stack:</p>
+
+<p><figure id="fig-114921831" class="figure figure--video"><div class="video-embed video-embed--vimeo video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(http://i.vimeocdn.com/video/500772734_1280.jpg)" href="//vimeo.com/114921831" data-lazy-video-src="//player.vimeo.com/video/114921831?autoplay=1"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Dissecting CSS3 Transforms</div></a></div></figure></p>
+
+<p>Have a play and let me know your thoughts. I hope you find this tool as helpful as I (and my students) have.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[CSS Variables Are a Bad Idea]]></title>
+    <link href="http://aaron-gustafson.com/notebook/css-variables-are-a-bad-idea/"/>
+    <updated>2014-11-04T14:58:01-05:00</updated>
+    <id>http://aaron-gustafson.com/notebook/css-variables-are-a-bad-idea</id>
+    <content type="html"><![CDATA[<p>I’ll level with you: I used to think I wanted variables in CSS.</p>
+
+<p>As a programmer, I love the idea of being able to abstract reusable bits like colors, border widths, font sizes, and the like to obviously named variables. It’s a far more <a href="https://en.wikipedia.org/wiki/Don't_repeat_yourself">DRY</a> approach and makes maintenance far easier.</p>
+
+<!-- more -->
+
+
+<p>Before I made the leap to using a CSS preprocessor, I was convinced we needed CSS variables, but I always wondered how we might make it possible without breaking one of the fundamental <a href="http://www.w3.org/TR/CSS21/intro.html#design-principles">design principles of CSS</a>: Forward and backward compatibility. Take a look at this example (which is based on <a href="http://www.w3.org/TR/css-variables/">the working draft spec</a>) and I think you’ll spot the problem:</p>
+
+<p><div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=css-vairables.css'></script>
+<noscript><pre><code>:root {
+  --foreground-color: #333;
+  --background-color: #fff;
+}
+
+body {
+  background: var(--background-color);
+  color: var(--foreground-color);
+}</code></pre></noscript></div>
+</p>
+
+<p>For a browser that understands CSS variables, the interpreted stylesheet would look like this:</p>
+
+<p><div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=desired-result.css'></script>
+<noscript><pre><code>body {
+  background: #fff;
+  color: #333;
+}</code></pre></noscript></div>
+</p>
+
+<p>But any browser that doesn’t understand the variables would never get the color values because browsers follow <a href="http://www.w3.org/TR/CSS21/syndata.html#parsing-errors">the rules of fault tolerance in CSS</a> and ignore anything they don’t understand. The introduction of variables to CSS would effectively build a wall between older browsers and new ones. (For the record, as of this writing, <a href="http://caniuse.com/#feat=css-variables">only Firefox has implemented CSS variables</a>).</p>
+
+<p>In order to serve the broadest spectrum of devices, we’d have to provide a fallback like this:</p>
+
+<p><div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=css-variables-fallback.css'></script>
+<noscript><pre><code>:root {
+  --foreground-color: #333;
+  --background-color: #fff;
+}
+
+body {
+  background: #fff;
+  background: var(--background-color);
+  color: #333;
+  color: var(--foreground-color);
+}</code></pre></noscript></div>
+</p>
+
+<p>But that kinda defeats the whole purpose, right?</p>
+
+<p>Preprocessors already give us this access to variables today (along with nesting, mixins, and programmatic structures like conditionals, loops, etc.). Here’s a SASS example:</p>
+
+<p><div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=sass-variables.scss'></script>
+<noscript><pre><code>$foreground-color: #333;
+$background-color: #fff;
+ 
+ 
+body {
+  background: $background-color;
+  color: $foreground-color;
+}</code></pre></noscript></div>
+</p>
+
+<p>The big difference here is that this document is a source file, it is not what is sent to the browser. This file is compiled by the preprocessor into actual CSS, which is what we send to the browser and is exactly what we wanted in the first place:</p>
+
+<p><div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=desired-result.css'></script>
+<noscript><pre><code>body {
+  background: #fff;
+  color: #333;
+}</code></pre></noscript></div>
+</p>
+
+<p>And it works on every browser that supports CSS, all the way back to <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#Difficulty_with_adoption">IE 3</a>.</p>
+
+<p>With a preprocessor like SASS, Less, or Stylus, I get all of the maintainability benefits without sacrificing browser support. It’s a no-brainer. But even if that were not true, there’s another issue to consider: If I push CSS variables to browsers, they have to parse the CSS and substitute the variables before they can apply the styles.</p>
+
+<p>Now I’m sure browser makers can find ways to optimize this process, but it’s bound to affect the rendering time. And not in a positive way. I don’t even want to think about how bad it would be on a mobile chipset, especially on a low-end device.</p>
+
+<p>Honestly, I love using variables… in the source files I use with a preprocessor. Given the potential loss of browser support, the pointless fallbacks I’d have to use if I wanted to continue supporting older browsers, the existence of numerous preprocessor options that solve the abstraction problem in a backward- and forward-compatible way, and the fact that CSS variables would make browsers have to work even harder to achieve the desired result, I’m not convinced we need them.</p>
+
+<p>CSS variables are a bad idea.</p>
+]]></content>
+  </entry>
+  
+</feed>

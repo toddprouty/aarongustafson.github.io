@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Browse by Tag: Devices | Aaron Gustafson]]></title>
+  <link href="http://aaron-gustafson.com/notebook/tags/devices/atom.xml" rel="self"/>
+  <link href="http://aaron-gustafson.com/"/>
+  <updated>2015-02-05T20:10:16-05:00</updated>
+  <id>http://aaron-gustafson.com/</id>
+  <author>
+    <name><![CDATA[Aaron Gustafson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[An Onslaught of Low-cost Smartphones]]></title>
+    <link href="http://aaron-gustafson.com/notebook/an-onslaught-of-low-cost-smartphones/"/>
+    <updated>2015-01-15T11:58:11-05:00</updated>
+    <id>http://aaron-gustafson.com/notebook/an-onslaught-of-low-cost-smartphones</id>
+    <content type="html"><![CDATA[<p>It seems every week we are seeing more and more low-cost devices being launched in an effort to connect the unconnected. For instance, this past week  saw the announcement of <a href="http://www.theverge.com/2015/1/14/7544107/microsoft-lumia-435-532-launch-specs-price-release-date">two new entries in the Microsoft Lumia line, the 435 and the 532</a>, and the announcement of <a href="http://arstechnica.com/gadgets/2015/01/samsung-finally-puts-tizen-on-a-smartphone-launches-the-z1-in-india/">Samsung’s first Tizen phone, the Z1</a>.</p>
+
+<!-- more -->
+
+
+<p>The two Lumia devices are the cheapest Windows Phone offerings to date: The Lumia 435 is €69 (about US$80) and the Lumia 532 is just slightly more expensive at €79 (about US$94). By comparison, the Lumia 535 was the previous low-cost Windows Phone winner at US$135. And Samsung’s Z1, which is aimed at the Indian market, runs a mere Rs 5,700 (roughly US$92).</p>
+
+<p>Now if you’ve read this far, you are probably wondering why this matters. Well, spec-wise, many of these lower-end devices are far from what we are used to. All of these devices are running a resolution of 800×480. And their processing speeds are slower than the device you likely have in your pocket. But they are all far cheaper too. And remember that people in China and India have <a href="#fig-2015-01-15-01">far less disposible income than we do</a>.</p>
+
+<p><figure id="fig-2015-01-15-01" class="media-container"></p>
+
+<pre><code>&lt;img src="http://aaron-gustafson.com/i/posts/2014-11-06/05-sm.jpg"
+     srcset="/i/posts/2014-11-06/05-lg.jpg 1920w, /i/posts/2014-11-06/05-md.jpg 600w, /i/posts/2014-11-06/05-sm.jpg 320w"
+     alt="A bar chart comparing the average monthly incomes of people living in the U.S., Canada, China, and India."
+     &gt;
+</code></pre>
+
+<p></figure></p>
+
+<p>If you only earned US$295 a month, a US$799 smartphone would likely be out of the question.</p>
+
+<p>As Web designers and developers, we need to expose ourselves to the Web as others see it. This is why we need to view our sites and applications on lower-end devices and over lower-speed—2G, 3G, etc.—connections. Only by testing our wares can we truly ensure our content and services are available and accessible by anyone, anywhere, on any device. You know, <a href="http://webfoundation.org/about/vision/">the vision for the Web</a>.</p>
+
+<p>Of course you probably don’t have the budget to purchase a bunch of devices, no matter how cheap they are. So how do you test on them? <a href="http://opendevicelab.com/">Visit a local Open Device Lab</a> like <a href="http://chadevicelab.org">the one we have here in Chattanooga</a>. Or if you don’t have one near you, consider getting together with some colleagues and <a href="http://lab-up.org/">starting an ODL in your area</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[webOS Is Back]]></title>
+    <link href="http://aaron-gustafson.com/notebook/webos-is-back/"/>
+    <updated>2015-01-08T10:17:09-05:00</updated>
+    <id>http://aaron-gustafson.com/notebook/webos-is-back</id>
+    <content type="html"><![CDATA[<p>You may not remember it, but Palm’s groundbreaking—yes, I said groundbreaking—operating system, <a href="https://en.wikipedia.org/wiki/WebOS">webOS</a>, has been resuscitated yet again. This time by LG.</p>
+
+<!-- more -->
+
+
+<p>For those of you who may have missed out on webOS in the past, here’s a primer: webOS was developed by Palm and debuted on the Palm Pre in 2009. It was the first “HTML5-based” operating system. Yes you read that right: the OS was built on HTML, CSS, and JavaScript. In 2009. Six. Years. Ago.</p>
+
+<p>Applications for webOS were written using the front-end Web stack, with the JavaScript application logic tied into the device via the Mojo—and later Enyo—JavaScript application framework. Though novel at the time, this concept has since taken off in the intervening years. <a href="http://msdn.microsoft.com/en-us/library/windows/apps/dn631758.aspx">Windows</a>, <a href="https://marketplace.firefox.com/developers/">Firefox OS</a>, and <a href="https://www.google.com/search?q=build%20native%20apps%20with%20html5">countless “unified” native app development platforms</a> have embraced the front-end Web stack as a means of building software.</p>
+
+<p>webOS also supported multitasking, which was not common back then. And to make it easy to manage, webOS introduced the brilliant card metaphor for viewing and switching between running applications. Apple, of course, ripped that idea off for iOS 7. If you dig that feature on your iPhone you have Palm to thank.</p>
+
+<p>Sadly, Palm usage was on the decline when webOS debuted so operating system never really took off. Eventually Palm was engulfed by HP, which launched the ill-fated HP TouchPad. It too failed to gather any steam and we thought webOS was dead (despite many proclamations to the contrary from well-meaning folks at HP).</p>
+
+<p>In 2013 <a href="http://www.theverge.com/2013/2/25/4027814/hp-emerges-as-big-winner-in-webos-sale">HP announced it was selling parts of webOS to LG</a> for use in smart TVs. It was a glimmer of hope for the beleaguered OS. And now, not only do we have webOS based <a href="http://www.lg.com/uk/smarttv/webos">smart TVs</a>, but <a href="http://gizmodo.com/lgs-new-smart-watch-is-powered-by-webos-1678191522">LG’s new smart watches are sporting the OS as well</a>. And LG has not ruled out bringing it back for a phone either.</p>
+
+<p>I’m happy to see webOS sticking around. It may have been the laughing stock in the app development community back in the day, but I’ve always had a soft spot in my heart for it.</p>
+]]></content>
+  </entry>
+  
+</feed>

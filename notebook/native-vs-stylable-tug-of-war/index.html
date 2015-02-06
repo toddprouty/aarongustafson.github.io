@@ -1,0 +1,477 @@
+
+<!DOCTYPE html>
+<html id="aaron-gustafson_com" lang="en" dir="ltr">
+
+	<head>
+
+	<meta charset="utf-8">
+	
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+		<meta http-equiv="cleartype" content="on">
+	<![endif]-->
+	
+	
+
+
+
+<title>The “Native” vs. “Stylable” Tug of War, From the Notebook of Aaron Gustafson</title>
+<meta property="og:title" content="The “Native” vs. “Stylable” Tug of War, From the Notebook of Aaron Gustafson">
+
+<meta property="og:url" content="http://aaron-gustafson.com/notebook/native-vs-stylable-tug-of-war/">
+
+<meta name="author" content="Aaron Gustafson">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Aaron Gustafson">
+<meta property="og:image" content="http://aaron-gustafson.com/i/og-logo.png">
+<meta property="og:locale" content="en_US">
+
+<meta property="og:description" content="In his astute post “‘Native experience’ vs styling select boxes”, Bruce Lawson correctly identified a common tension in the web world: wanting better native controls vs. wanting to throw away what &hellip;">
+<meta name="description" content="In his astute post “‘Native experience’ vs styling select boxes”, Bruce Lawson correctly identified a common tension in the web world: wanting better native controls vs. wanting to throw away what &hellip;">
+
+<!-- Twitter -->
+<meta name="twitter:card" value="summary"/>
+<meta name="twitter:site" value="@AaronGustafson"/>
+
+
+
+<link href="/atom.xml" rel="alternate" title="Posts and Links From the Notebook of Aaron Gustafson" type="application/atom+xml">
+<link href="/atom-latest-posts.xml" rel="alternate" title="Posts From the Notebook of Aaron Gustafson" type="application/atom+xml">
+<link href="/atom-latest-links.xml" rel="alternate" title="Links From the Notebook of Aaron Gustafson" type="application/atom+xml">
+
+<meta name="revisit-after" content="7 days">
+<meta name="ROBOTS" content="index,follow">
+<meta name="robots" content="NOODP">
+
+<link href="https://plus.google.com/+AaronGustafson?rel=author" rel="publisher">
+<meta property="fb:admins" content="100002880350996">
+
+<link rel="pingback" href="http://webmention.io/aaron-gustafson.com/xmlrpc" />
+<link rel="webmention" href="http://webmention.io/aaron-gustafson.com/webmention" />
+
+
+	<link rel="canonical" href="http://blog.easy-designs.net/archives/the-native-vs-stylable-tug-of-war/">
+
+
+
+	<meta property="webmention:redirected_from" content="/notebook/2014/the-native-vs-stylable-tug-of-war/">
+
+	
+	<link href="/favicon.png" rel="icon">
+	
+	
+
+<link rel="stylesheet" href="/c/default.css" media="screen">
+<!--[if gt IE 8]><!-->
+	<link rel="stylesheet" href="/c/advanced.css" media="screen">
+<!--<![endif]-->
+<!--[if (IE 8)&(!IEMobile)]>
+	<link rel="stylesheet" href="/c/old-ie.css" media="screen">
+<![endif]-->
+<link rel="stylesheet" href="/c/print.css" media="print">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+	
+	
+
+<script>
+	(function(d){var config={kitId:'jje3afr',scriptTimeout:3000},h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config);}catch(e){}};s.parentNode.insertBefore(tk,s);})(document);
+</script>
+
+
+
+	
+	<script type="text/javascript">
+		function _kms(e){setTimeout(function(){var t=document,n=t.getElementsByTagName("script")[0],r=t.createElement("script");r.type="text/javascript";r.async=true;r.src=e;n.parentNode.insertBefore(r,n)},1)}var _kmq=_kmq||[];var _kmk=_kmk||"f0d52d1a61f4cb2f69aa62a6c07c049f7ae815b6";_kms("//i.kissmetrics.com/i.js");_kms("//doug1izaerwt3.cloudfront.net/"+_kmk+".1.js")
+	</script>
+
+	
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-176472-5', 'http://aaron-gustafson.com');
+		ga('send', 'pageview');
+	</script>
+
+
+
+
+
+</head>
+
+
+	<body  >
+
+		
+
+		<div class="alert"><strong>This site is <a href="/notebook/a-grand-experiment/">undergoing an open redesign</a>, so if it looks strange, that’s why.</strong></div>
+		
+		<header role="banner" class="banner">
+	<div class="layout-container">
+		<h1><a href="/">Aaron Gustafson</a></h1>
+		
+			<h2>Web Design Author, Evangelist, Practitioner, and Teacher</h2>
+		
+	</div>
+</header>
+		
+		<main role="main">
+			
+			
+
+<div class="layout-container">
+	<article role="article" class="layout-container__primary h-entry">
+		<div class="entry">
+			<header class="entry__header">
+		     	<h1 class="entry__title p-name">The “Native” vs. “Stylable” Tug of War</h1>
+			
+				
+					<p class="entry__meta">
+		        		This will take 6 minutes to read
+
+						
+							| <a href="#disqus_thread" data-disqus-identifier="http://aaron-gustafson.com/notebook/native-vs-stylable-tug-of-war/">Comments</a>
+							| <a href="#webmentions">Webmentions</a>
+		        		
+		      		</p>
+		    	
+		  	</header>
+	
+			
+
+			<div class="entry__content e-content">
+				<p>In his astute post <a href="//www.brucelawson.co.uk/2014/native-experience-vs-styling-select-boxes/">“‘Native experience’ vs styling select boxes”</a>, Bruce Lawson correctly identified a common tension in the web world:</p>
+
+<blockquote><p>But why this urge to re-style page elements that end-users are familiar with? … Or is it that we love native look and feel, except when we don’t?</p></blockquote>
+
+<p>Speaking as the guy who not only wrote JavaScript to help me create an accessible <code>select</code> element alternative, but who also made it <a href="http://d1b14unh5d6w7g.cloudfront.net/1590598563.01.S0ER.LXXXXXXX.jpg?Expires=1405686346&amp;Signature=DCT4Z0l75JQESDNyP0PVGVonuJYwY9XYtaTI3grX/RhdlLcXGRAVADJCB/N/fAj7GxLhEVzuXqstMebJIJ9Ip5I6kE7IKYt2F20F5EGD+1ghua9zKwyjS1e4KBgumMKzQytbcfIVX4dMr7XFzj26mScFKz9bSKtZT5jU1LU6hWM=&amp;Key-Pair-Id=APKAIUO27P366FGALUMQ">the focus of a case study (image)</a> in <a href="http://amzn.to/TaoffD">AdvancED DOM Scripting</a>, I am fully aware of the desire to have it both ways. I have not often seen the desire for both in a single individual, but it does happen in one particular instance occasionally.</p>
+
+<!-- more -->
+
+
+<p>Based on my own experience, I see the following arguments in favor of changing the display of a native control quite often:</p>
+
+<ol>
+<li>It doesn’t look good to me.</li>
+<li>It is not “on brand”.</li>
+<li>It clashes with our brand’s color scheme.</li>
+<li>We want the web experience to feel like a native app.</li>
+<li>It doesn’t behave how we think it should.</li>
+</ol>
+
+
+<p><em>(<abbr lang="it" title="nota bene: please note">n.b.</abbr> Browsers have done a pretty good job reducing the amount of color and the overall visual strength used in native controls to help them better blend in with a wide variety of designs, so clashes as mentioned in #3 happen far less often than they did nearly a decade ago.)</em></p>
+
+<p>As the weathered, battle tested (and, admittedly, somewhat jaded) front-end dev that I am, I typically push back with one or more of the following:</p>
+
+<h2>In Addressing Desired Design Changes</h2>
+
+<p>In terms of aesthetics (addressing arguments 1, 2, and 3), I understand where you’re coming from. Native controls are not the most appealing things, but they are familiar to your users. A <code>select</code> box they see on your site that looks like the one they see on Wikipedia or their banking site will be immediately recognizable. Sure, the looks and feel may differ from browser to browser, but most people use only a small number of browsers throughout the day—at work, at home, on their device—and if you want to ensure the design of a form control feels “right” in the browser they are using, sometimes it’s best to let go of that control.</p>
+
+<h2>In Addressing OS Parity</h2>
+
+<p>I can understand the desire to have a form control in a web page look and feel like the same (or a similar) control within the native operating system (argument 4), but I am not sure that’s a rabbit hole you want to go down. Here’s why: Achieving exact design and functional parity between a native control and a web control quite often requires extra markup, a bunch of CSS, and a bit of JavaScript. Anything is achievable with unlimited time and budget, so it’s completely doable, but it would be good to estimate the cost to see if you still think it is a worthwhile endeavor.</p>
+
+<p>Assuming it is, we then have the question of which operating system to model the control after. Or maybe you want to offer a different take on the control based on the operating system your user is using. In that case, we may need to multiply the original estimate by the number of operating systems you want to support. But it’s worth noting that, in the Android world, different device manufacturers often “skin” the operating system to look different from other ones. Sometimes they even do it on a device-by-device basis. We’ll need to figure out which ones you want to include in your native control matrix and multiply the estimate accordingly.</p>
+
+<p>Then there’s maintenance. We’ll need to test these native-like controls on each of their corresponding platforms and test the script that determines which experience gets delivered to which device to make sure we’re not accidentally sending the wrong experience. We’ll also need to test the delivery script on every other browser in our test matrix to ensure it is not causing issues there.</p>
+
+<p>What should we do when a new operating system version is rolled out? iOS, for example, has made radical shifts in the design of their native controls in each major release. We’ll probably want to create unique versions of the control for each version of each OS we support and we’ll need to keep tabs on upgrades so we don’t end up confusing our users if they visit our site in iOS 7 and have a control that looks like it’s from iOS 6. We’ll need to add the number of OS versions into the multiplier as well.</p>
+
+<p>Ok, and finally: How many controls did you want to apply this approach to again?</p>
+
+<p>Or we could use the native form control and it will just work.</p>
+
+<h2>In Addressing Altered Behavior</h2>
+
+<p>I completely agree that not all native controls work exactly how I would like, but there are several risks in changing the expected behavior of a native control.</p>
+
+<p>First of all, there’s the possibility we could actually end up making the interface more confusing or that the change in behavior might not be exactly what our user’s wanted (either based on what they are used to or our mental model not aligning with theirs). In order to rule out these issues, we should run a few rounds of usability tests. These could be quick café tests or more formal studies depending on the budget.</p>
+
+<p>Assuming our tests go well, we will need to maintain this code and do all of the requisite browser testing. And potentially upgrade our code as new browsers and browser versions come out. Depending on the complexity of the code, this could become a large requirement, but if it is ultimately in the service of making the web a better, more usable interaction environment, it could be worth it.</p>
+
+<p>For what it’s worth, if we go this route and are successful, we should consider getting involved in the spec-writing process at the <a href="//w3.org">W3C</a> or  <a href="//whatwg.org">WhatWG</a>. We should contribute our recommended changes back to the community and share what we learned. If we make a compelling argument, perhaps our idea will become part of some future standard and we can taper off our browser testing when the change goes native.</p>
+
+<hr>
+
+
+<p>As you can probably tell, I’m not a really big fan of changing existing controls as I feel it can amount to a wasted effort. That said, if there are design improvements to be made—“design” in the true sense: being about how usable something is, not just how aesthetically-pleasing it is to someone (e.g. improving contrast, making the control more intuitive, etc.)—I’m willing to accept the change as something we <em>should</em> do and then work to make sure that change has been vetted and, if successful, given away for inclusion in other projects. If it solves a major issue on the web, I want to give that change every opportunity to make it into the appropriate spec by talking to the appropriate folks about it both in-person, in blog posts, and on the appropriate mailing list. If the change solves a problem in a specific browser, I want to see it incorporated into said browser and will file a bug report and try to build momentum around it by engaging the community.</p>
+
+<p>Anyway, that’s my general position on augmenting native controls. What are your thoughts on the topic?</p>
+
+			</div>
+
+			<footer class="entry__footer">
+				
+					
+
+<p class="entry__sharing">If you liked this, would you mind sharing it?
+	<a class="share_link share_link--twitter" href="https://twitter.com/intent/tweet?original_referer=http://aaron-gustafson.com/notebook/native-vs-stylable-tug-of-war/&amp;source=tweetbutton&amp;text=The+“Native”+vs.+“Stylable”+Tug+of+War&amp;url=http://aaron-gustafson.com/notebook/native-vs-stylable-tug-of-war/">Share on Twitter</a>
+	<a class="share_link share_link--facebook" href="http://www.facebook.com/sharer.php?u=http://aaron-gustafson.com/notebook/native-vs-stylable-tug-of-war/">Post on Facebook</a>
+	<a class="share_link share_link--linkedin" href="https://www.linkedin.com/cws/share?url=http://aaron-gustafson.com/notebook/native-vs-stylable-tug-of-war/&amp;original_referer=http://aaron-gustafson.com/notebook/native-vs-stylable-tug-of-war/">Share on LinkedIn</a>
+	<a class="share_link share_link--googleplus" href="https://plus.google.com/share?url=http://aaron-gustafson.com/notebook/native-vs-stylable-tug-of-war/">Share on Google+</a>
+</p>
+			    
+
+				<p class="entry__meta">
+					This entry was posted on 
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+		<time class="dt-published" datetime="2014-07-17T08:21:47-04:00">17 July 2014</time> 
+					<b class="hidden">by <a class="p-author h-card" href="/about">Aaron Gustafson</a></b>
+					
+					and was filed under: 
+
+
+	<span class="post__categories">
+		
+			<a class='category p-category' href='/notebook/tags/browsers/'>browsers</a>, <a class='category p-category' href='/notebook/tags/design/'>design</a>, <a class='category p-category' href='/notebook/tags/mobile/'>mobile</a>, <a class='category p-category' href='/notebook/tags/native/'>native</a>, <a class='category p-category' href='/notebook/tags/web-design/'>web design</a>
+		
+	</span>
+
+
+					
+						| <b class="entry__canonical">It originally appeared on 
+						<a class="u-repost-of" href="http://blog.easy-designs.net/archives/the-native-vs-stylable-tug-of-war/">The Easy Designs Blog</a>.
+					
+				</p>
+			</footer>
+
+			
+				<hr>
+
+				<section id="disqus" class="entry__comments">
+					<h1>Comments</h1>
+					<div id="disqus_thread" aria-live="polite">
+						<noscript>
+	<div class="nojs-fallback">
+		<p>Sadly, I have not had the time to build a JavaScript-less implementation of the Disqus API yet, so you can’t comment. It’s a bummer. I really wanted to hear your thoughts.</p>
+	</div>
+</noscript>
+
+					</div>
+				</section>
+			
+		
+			<hr>
+
+			<section id="webmentions" class="entry__comments">
+				<h1>Webmentions</h1>
+				
+
+
+
+
+	<div class="webmentions"><p class="webmentions__not-found">No webmentions were found</p></div>
+
+			</section>
+
+		</div>
+	</article>
+	
+	
+		<hr class="rule rule--optional">
+
+		<aside class="layout-container__secondary">
+			
+	    		
+	<div class="module module--about">
+		<p>Hi there. I’m Aaron and I work on the Web. I’m a <a href="/publications/">prolific writer</a>, <a href="/events/">frequent speaker</a>, and <a href="/appearances/">evangelist for web stewardship</a>. I live &amp; work in Chattanooga, <abbr title="Tennessee">TN</abbr>. Want to know more? <a href="/bio/">Read on</a>.</p>
+
+	</div>
+
+	
+
+		
+			<section class="module module--events">
+				<h1 class="module__title">Let’s Meet Up</h1>
+				<p>I travel often for conferences. If I’m coming to your city and you’d like to arrange a private training or consultation while I’m there, feel free to <a href="/contact">reach out</a>.</p>
+
+				<ul class="listing listing--events">
+		
+
+		<li class="listing__item listing__item--1 event event--future">
+			<h2 class="listing__item__title event__title">
+				
+					<a href="http://uxim15.uie.com/">UX Mobile Immersion</a>
+				
+			</h2>
+			<p class="listing__item__meta">
+				<b class="event__date">April 2015</b><br>
+				<b class="event__location">Salt Lake City, UT USA</b>
+			</p>
+		</li>
+	
+		
+	
+	
+
+		
+
+		<li class="listing__item listing__item--2 event event--future">
+			<h2 class="listing__item__title event__title">
+				
+					<a href="http://lanyrd.com/2015/convergese/">Converge SE</a>
+				
+			</h2>
+			<p class="listing__item__meta">
+				<b class="event__date">April 2015</b><br>
+				<b class="event__location">Columbia, SC USA</b>
+			</p>
+		</li>
+	
+		
+	
+	
+
+		
+
+		<li class="listing__item listing__item--3 event event--future">
+			<h2 class="listing__item__title event__title">
+				
+					<a href="http://lanyrd.com/2015/bdconf/">Breaking Development</a>
+				
+			</h2>
+			<p class="listing__item__meta">
+				<b class="event__date">June 2015</b><br>
+				<b class="event__location">Nashville, TN USA</b>
+			</p>
+		</li>
+	
+		
+	
+	
+
+		
+
+		<li class="listing__item listing__item--4 event event--future">
+			<h2 class="listing__item__title event__title">
+				
+					<a href="http://www.webdesignday.com/">Web Design Day</a>
+				
+			</h2>
+			<p class="listing__item__meta">
+				<b class="event__date">June 2015</b><br>
+				<b class="event__location">Pittsburgh, PA USA</b>
+			</p>
+		</li>
+	
+		
+					<li class="more"><a href="/speaking-engagements/#future-events">See More<b class="hidden"> Events</b></a></li>
+				</ul>
+			</section>
+		
+	
+	
+
+			
+		
+			
+	
+
+		</aside>
+	
+
+	<script src="/j/post.min.js" async></script>
+</div>
+			
+	    </main>
+	  	
+		<hr class="rule rule--optional">
+		
+		<nav role="navigation">
+	<div class="layout-container">
+
+		<h1 class="hidden">Here’s what you can find on this site:</h1>
+		<ul class="main-navigation">
+			
+				<li><a href="/about/"><b class="hidden">A Bit </b>About<b class="hidden"> Me</b></a></li>
+			
+				<li><a href="/notebook/"><b class="hidden">Entries in My </b>Notebook</a></li>
+			
+				<li><a href="/speaking-engagements/"><b class="hidden">A List of My </b>Speaking<b class="hidden"> Engagements</b></a></li>
+			
+				<li><a href="/publications/"><b class="hidden">A List of My </b>Publications</a></li>
+			
+				<li><a href="/appearances/"><b class="hidden">Links to </b>Interviews<b class="hidden"> I’ve Given</b></a></li>
+			
+				<li><a href="/contact/"><b class="hidden">The Requisite </b>Contact<b class="hidden"> Form</b></a></li>
+			
+			<li><a href="/atom.xml" title="subscribe via RSS">RSS</a></li>
+		</ul>
+
+		
+			<form action="https://www.google.com/search" method="get" role="search">
+				<ol>
+					<li class="search">
+						<label class="hidden">What are you looking for?</label>
+						<input type="search" name="q">
+					</li>
+					<li><button><b class="hidden">Let’s see if </b>Google <b class="hidden">Finds </b>it</button></li>
+				</ol>
+			</form>
+		
+	</div>
+</nav>
+		
+		<hr class="rule">
+		
+		<footer role="contentinfo" class="footer">
+	<div class="layout-container">
+		
+			<p class="footer__fork-me">Did you spot a typo or error? Eesh. <a href="https://github.com/aarongustafson/aarongustafson.github.io/tree/source/source/2014-07-17-native-vs-stylable-tug-of-war.markdown">Would you mind fixing it for me?</a> You’re so awesome.</p>
+		
+		<p class="footer__copyright"><b id="license">The content of this site is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons</a>.</b> <b>The site itself is powered by <a href="http://octopress.org">Octopress</a> and is <a href="https://github.com/aarongustafson/aarongustafson.github.io/">forkable on Github</a>.</b></p>
+	</div>
+</footer>
+		
+	  	
+
+
+	<script>
+		var disqus_shortname = 'aarongustafson',
+		
+			
+			// disqus_developer = 1,
+			disqus_identifier = 'http://aaron-gustafson.com/notebook/native-vs-stylable-tug-of-war/',
+			disqus_url = 'http://aaron-gustafson.com/notebook/native-vs-stylable-tug-of-war/',
+			disqus_script = 'embed.js';
+		
+		(function () {
+			var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+			dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		}());
+	</script>
+
+
+
+	<script src="/j/main.js"></script>
+
+
+
+<noscript>
+	<img src="http://nojsstats.appspot.com/UA-176472-5/http://aaron-gustafson.com" alt=""/>
+</noscript>
+
+	
+	</body>
+
+</html>

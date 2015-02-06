@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Browse by Tag: Tools | Aaron Gustafson]]></title>
+  <link href="http://aaron-gustafson.com/notebook/tags/tools/atom.xml" rel="self"/>
+  <link href="http://aaron-gustafson.com/"/>
+  <updated>2015-02-05T20:10:16-05:00</updated>
+  <id>http://aaron-gustafson.com/</id>
+  <author>
+    <name><![CDATA[Aaron Gustafson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Visualizing CSS3 Transformations]]></title>
+    <link href="http://aaron-gustafson.com/notebook/visualizing-css3-transformations/"/>
+    <updated>2014-12-18T16:53:18-05:00</updated>
+    <id>http://aaron-gustafson.com/notebook/visualizing-css3-transformations</id>
+    <content type="html"><![CDATA[<p>It’s pretty amazing what you can do with <a href="http://dev.w3.org/csswg/css-transforms">CSS3 transforms</a> these days, but I often struggle with explaining the importance of function order when I am training people on how to use them. Transformation functions are a visual thing, so they require a visual tool to fully understand them and the implications of your function order decisions.</p>
+
+<!-- more -->
+
+
+<p>To address this need, I put together <a href="http://codepen.io/aarongustafson/full/jEryLV/">a tool that dissects CSS3 transforms</a> so the transform process would be more clear for my students. I decided to throw it up on Codepen so you could learn from it as well. Why don’t you open that link and I’ll explain how it works. (Obviously, you’ll need to be in <a href="http://caniuse.com/#feat=transforms2d">a browser that supports transforms</a> for the tool to be useful to you.)</p>
+
+<p>The tool starts you off with a simple three-function <code>transform</code> that includes both <code>translate</code> and <code>rotate</code> functions. If you hit the &ldquo;Show Me&rdquo; button, the browser will draw a box and step you through the application of the <code>transform</code> functions, one by one, animating their application so it’s easy to follow. This makes it pretty clear why an element ends up where it does.</p>
+
+<p>Beside the &ldquo;Show Me&rdquo; button is the &ldquo;Rearrange&rdquo; button. It does exactly what you’d think: It rearranges the functions into a new, random order. If you press it and then press &ldquo;Show Me&rdquo; again, you can see if (and why) the element ends up in a different place. The original box remains ghosted out so you can see any differences.</p>
+
+<p>Here’s a video of me playing around with the default <code>transform</code> stack:</p>
+
+<p><figure id="fig-114921831" class="figure figure--video"><div class="video-embed video-embed--vimeo video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(http://i.vimeocdn.com/video/500772734_1280.jpg)" href="//vimeo.com/114921831" data-lazy-video-src="//player.vimeo.com/video/114921831?autoplay=1"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Dissecting CSS3 Transforms</div></a></div></figure></p>
+
+<p>Have a play and let me know your thoughts. I hope you find this tool as helpful as I (and my students) have.</p>
+]]></content>
+  </entry>
+  
+</feed>
