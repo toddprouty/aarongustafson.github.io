@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-02-11T10:03:59-05:00</updated>
+	<updated>2015-02-11T10:22:04-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,28 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Let’s Write Fast JavaScript]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/lets-write-fast-javascript/"/>
+				<updated>2015-02-11T10:13:53-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/lets-write-fast-javascript</id>
+				<content type="html"><![CDATA[<p>You may have already seen this piece from <a href="https://medium.com/@mdibaiee">Mahdi Dibaiee</a>, but if you haven’t it’s definitely worth a read. I also highly recommend <a href="https://twitter.com/slicknet">Nicholas Zakas</a>’ <a href="http://www.amazon.com/gp/product/059680279X/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=059680279X&amp;linkCode=as2&amp;tag=easydesign-20&amp;linkId=EIBQXEP7I2PP5RQE">High Performance JavaScript</a> and <a href="https://twitter.com/amyhoy">Amy Hoy</a> &amp; <a href="https://twitter.com/thomasfuchs">Thomas Fuchs</a>’ <a href="http://javascriptrocks.com/">JavaScript Performance Rocks</a>.</p>
+<p><a rel="full-article" href="https://medium.com/the-javascript-collection/lets-write-fast-javascript-2b03c5575d9e">Read on Medium&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[This Uncanny Valley of Voice Recognition]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/this-uncanny-valley-of-voice-recognition/"/>
+				<updated>2015-02-11T10:09:17-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/this-uncanny-valley-of-voice-recognition</id>
+				<content type="html"><![CDATA[<p>I am incredibly excited about the future of voice-based user experiences, but I also fully recognize that we’ve got a long way to go. This post from <a href="https://twitter.com/holman">Zach Holman</a> does a great job illustrating the issues we are currently dealing with. And it’s a fun read to boot!</p>
+<p><a rel="full-article" href="http://zachholman.com/posts/uncanny-valley/">Read on Zach Holman’s Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -321,38 +343,6 @@
 
 <p>Super clever stuff Zach!</p>
 <p><a rel="full-article" href="http://www.zachleat.com/web/foft/">Read on Zach Leatherman’s Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[All of This Has Happened Before and Will Happen Again]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/all-of-this-has-happened-before-and-will-happen-again/"/>
-				<updated>2015-01-27T08:49:25-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/all-of-this-has-happened-before-and-will-happen-again</id>
-				<content type="html"><![CDATA[<p>Another awesome post from Adrian Roselli on the perils of pushing for a one-browser (a.k.a. WebKit) world:</p>
-
-<blockquote><p>Everyone who calls for WebKit in Internet Explorer is exactly the same kind of developer who would have coded to Internet Explorer 15 years ago (and probably happily displayed the best viewed in badge).</p>
-
-<p>If you are that developer, then it will all be your fault when it happens again. When WebKit is no longer the hot engine. When Chrome loses its dominance. When Apple&rsquo;s market share falls to match the developing world. You will be to blame.</p>
-
-<p>Do you think that won&rsquo;t happen? Just look to Android browser fragmentation, or WebKit failing to support a standard that Firefox and IE have nailed, or Chrome introducing its own proprietary features (can&rsquo;t find the link; it&rsquo;s coming), or failing to use best practices as it tries to carry the next big thing forward, or the complete lack of developer relations from Apple. We&rsquo;ve had over half a decade of warning signs.</p>
-
-<p>It&rsquo;s happening again, and every petulant, lazy developer who calls for a WebKit-only world is responsible.</p></blockquote>
-<p><a rel="full-article" href="http://blog.adrianroselli.com/2015/01/all-of-this-has-happened-before-and.html">Read on Adrian Roselli’s Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Meet Vivaldi, a New Browser From the Former CEO of Opera]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/meet-vivaldi-a-new-browser-from-the-former-ceo-of-opera/"/>
-				<updated>2015-01-27T08:45:00-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/meet-vivaldi-a-new-browser-from-the-former-ceo-of-opera</id>
-				<content type="html"><![CDATA[<p>And here we have yet another new browser. Vivaldi is inspired by the Opera of old and is pretty feature-rich according to the article. I’ll give it a shot.</p>
-
-<p>Vivaldi runs Blink under the hood (like Opera and Chrome), which lends credence to my theory that <a href="http://aaron-gustafson.com/notebook/competing-on-chrome/">soon browsers will compete on chrome, rather than standards implementations</a>.</p>
-<p><a rel="full-article" href="http://thenextweb.com/apps/2015/01/27/meet-vivaldi-new-browser-former-ceo-opera/">Read on The Next Web&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
