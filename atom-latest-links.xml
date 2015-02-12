@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-02-11T17:12:05-05:00</updated>
+	<updated>2015-02-12T08:56:10-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Accessible Toggle-style Checkbox]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/accessible-toggle-style-checkbox/"/>
+				<updated>2015-02-12T08:41:36-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/accessible-toggle-style-checkbox</id>
+				<content type="html"><![CDATA[<p>This is, by far, the best implementation of a toggle slider checkbox replacement I&rsquo;ve seen.</p>
+<p><a rel="full-article" href="http://codepen.io/personable/pen/stpwD">Read on Codepen&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -330,19 +341,6 @@
 
 <p>Promising stuff all around. I am still wondering if we’ll eventually see the new browser appear on other operating systems (even if it’s  just the browser chrome and not the rendering engine—like Chrome on iOS). Time will tell.</p>
 <p><a rel="full-article" href="http://www.smashingmagazine.com/2015/01/26/inside-microsofts-new-rendering-engine-project-spartan/">Read on Smashing Magazine&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Flash of Faux Text]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/flash-of-faux-text/"/>
-				<updated>2015-01-27T08:56:47-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/flash-of-faux-text</id>
-				<content type="html"><![CDATA[<p>In his continuing exploration of font loading optimization, Zach Leatherman proposes loading a Roman (i.e. normal weight, non-italic) font first and letting the browser synthesize (i.e. fake) the bold, italic, etc. variants to reduce the load time and reflow of the document and let users start reading as soon as possible. Then he lazy loads the additional font weights and styles so the browser can swap out the synthesized glyphs for the actual ones.</p>
-
-<p>Super clever stuff Zach!</p>
-<p><a rel="full-article" href="http://www.zachleat.com/web/foft/">Read on Zach Leatherman’s Blog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	

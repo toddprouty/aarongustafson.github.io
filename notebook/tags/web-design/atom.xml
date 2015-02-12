@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2015-02-12T08:54:10-05:00</updated>
+  <updated>2015-02-12T08:56:10-05:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -99,7 +99,7 @@
     <id>http://aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing</id>
     <content type="html"><![CDATA[<p>Love this!</p>
 
-<p>{% tweet <a href="https://twitter.com/decadecity/status/559693419808034816">https://twitter.com/decadecity/status/559693419808034816</a> %}</p>
+<p><div class='embed tweet'>Tweet could not be processed</div></p>
 ]]></content>
   </entry>
   
