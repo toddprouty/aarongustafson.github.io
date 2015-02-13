@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Posts]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-posts.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-02-13T16:41:49-05:00</updated>
+	<updated>2015-02-13T16:55:39-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -59,7 +59,7 @@
 
 <ol>
 <li><strong>The “Moral” Argument for Progressive Enhancement</strong> &ndash; Personally, I think Jason gives in too easily on this. Access to content is <a href="http://www.pewinternet.org/topics/digital-divide/">a social justice issue</a> and that is nothing to gloss over. In some cases it is also a <a href="http://www.section508.gov/">legal requirement</a>.</li>
-<li><strong>The “Cost” of Progressive Enhancement</strong> &ndash; Jason does a good job addressing the costs (monetarily and temporally) associated with adopting progressive enhancement in terms of building, testing, and supporting websites. As he says, it is more costly to &ldquo;bolt on&rdquo; accessibility and progressive enhancement at the end of a project. He is also correct in his assertion that progressively-enhanced websites actually require less testing. And when you <a href="http://bradfrost.com/blog/mobile/support-vs-optimization/">draw a stark line between support and optimization</a>, support for additional browsers and devices also becomes far less costly. What Jason was missing was numbers to back all this up. <a href="blog.easy-designs.net/archives/the-true-cost-of-progressive-enhancement/">I have those numbers</a>. Enjoy.</li>
+<li><strong>The “Cost” of Progressive Enhancement</strong> &ndash; Jason does a good job addressing the costs (monetarily and temporally) associated with adopting progressive enhancement in terms of building, testing, and supporting websites. As he says, it is more costly to &ldquo;bolt on&rdquo; accessibility and progressive enhancement at the end of a project. He is also correct in his assertion that progressively-enhanced websites actually require less testing. And when you <a href="http://bradfrost.com/blog/mobile/support-vs-optimization/">draw a stark line between support and optimization</a>, support for additional browsers and devices also becomes far less costly. What Jason was missing was numbers to back all this up. <a href="http://blog.easy-designs.net/archives/the-true-cost-of-progressive-enhancement/">I have those numbers</a>. Enjoy.</li>
 <li><strong>Practicality</strong> &ndash; Finally, Jason calls out games and their ilk as edge cases. He correctly asserts that the vast majority of properties on the Web could easily be built following progressive enhancement. Sure, you might not build a Photoshop clone using progressive enhancement, but how many of you are building an image editor for the Web? I didn’t think so.</li>
 </ol>
 
