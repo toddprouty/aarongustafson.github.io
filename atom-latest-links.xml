@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-02-12T19:29:54-05:00</updated>
+	<updated>2015-02-12T21:51:13-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,47 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Five Easy Ways to Be a Better Web Professional]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/five-easy-ways-to-be-a-better-web-professional/"/>
+				<updated>2015-02-12T21:05:36-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/five-easy-ways-to-be-a-better-web-professional</id>
+				<content type="html"><![CDATA[<p>My old friend Jason Garber—who I, sadly, haven’t seen in probably a decade—came up with a great list of &ldquo;professional self-improvement tips for anyone working on the Web today&rdquo;. I’ll give you the synopses, but you should do yourself a favor and read the full post for the background:</p>
+
+<ol>
+<li>Know Your History</li>
+<li>Know Your Medium</li>
+<li>Respect Those Who Came Before You</li>
+<li>Respect Your Audience</li>
+<li>Get Involved</li>
+</ol>
+
+
+<p>I would absolutely echo these to anyone looking to become (or improve as) a web professional.</p>
+<p><a rel="full-article" href="http://sixtwothree.org/posts/five-easy-ways-to-be-a-better-web-professional">Read on Jason Garber’s Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Client-side MVC's Major Bug]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/client-side-templatings-major-bug/"/>
+				<updated>2015-02-12T21:05:36-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/client-side-templatings-major-bug</id>
+				<content type="html"><![CDATA[<p>Astute observations (as always) from <a href="http://twitter.com/tkadlec">Tim Kadlec</a>. I’ll let Tim set the scene:</p>
+
+<blockquote><p>Over the past year I conducted performance audits on a handful of sites that all used client-side MVC’s, typically Angular but not always. Each site had their own optimizations that needed to take place to improve performance. Yet a pattern emerged: client-side MVC’s were the major bottleneck for each. It slowed down the initial rendering of the page (particularly on mobile) and it limited our ability to optimize the critical path.</p></blockquote>
+
+<p>Obviously Tim knows what he’s talking about.</p>
+
+<p>He goes on to bring in the voices of the Filament Group and PPK (both of whom I’ve <a href="http://aaron-gustafson.com/notebook/links/researching-the-performance-costs-of-javascript-mvc-frameworks/">linked to previously</a> <a href="http://aaron-gustafson.com/notebook/links/the-problem-with-angular/">for the same reasons</a>): lots of smart people have come to the conclusion that relying on client-side generation of web pages is a bad idea. Tim goes so far as to say “if your client-side MVC framework does not support server-side rendering, that is a bug” and I can’t help but agree.</p>
+
+<p>His post is great, you should read it. Frankly, I wish I’d written it.</p>
+<p><a rel="full-article" href="http://timkadlec.com/2015/02/client-side-templatings-major-bug/">Read on Time Kadlec’s Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -303,44 +344,6 @@
 
 <blockquote><p>More and more so, the programming we once watched on TV is migrating to our tablets and phones. Cable providers have apps that let customers access live television, and even the contents of their DVRs, on their personal devices. Comcast et al realize they must let you access that content where your eyeballs are, or you’ll find other content. Ditto Nintendo, Microsoft and Sony. Game consoles cannot be married to the TV.</p></blockquote>
 <p><a rel="full-article" href="http://www.wired.com/2015/01/xbox-streaming-windows-10/">Read on Wired&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[WhatsApp Doesn't Understand the Web]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/whatsapp-doesnt-understand-the-web/"/>
-				<updated>2015-01-27T11:35:18-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/whatsapp-doesnt-understand-the-web</id>
-				<content type="html"><![CDATA[<p>I am not a WhatsApp user, but I have long been impressed with the way they embrace operating systems others ignore. I think it has been a key to their success and speaks to the &ldquo;accessibility&rdquo; (in the broader sense) of their service.</p>
-
-<p>I am completely baffled by the design decisions they made in their Web client, as is Andre Alves Garzia.</p>
-<p><a rel="full-article" href="http://andregarzia.com/posts/en/whatsappdoesntunderstandtheweb/">Read on Andre Alves Garzia’s Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Inside Microsoft’s New Rendering Engine for the &quot;Project Spartan&quot;]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/inside-microsofts-new-rendering-engine-for-the-project-spartan-smashing-magazine/"/>
-				<updated>2015-01-27T11:32:05-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/inside-microsofts-new-rendering-engine-for-the-project-spartan-smashing-magazine</id>
-				<content type="html"><![CDATA[<p>This is Microsoft’s Jacob Rossi on how “Project Spartan” came to be and what is going on inside the browser that comes after Internet Explorer.</p>
-
-<p>On that elated feeling of removing legacy code:</p>
-
-<blockquote><p>[S]wathes of IE legacy were deleted from the new engine. Gone were document modes. Removed was the subsystem responsible for emulating IE8 layout quirks. VBScript eliminated. Remnants like attachEvent, X-UA-Compatible, currentStyle were all purged from the new engine. The codebase looks little like Trident anymore (far more diverged already than even Blink is from WebKit).</p></blockquote>
-
-<p>On a faster dev cycle for the new browser:</p>
-
-<blockquote><p>[W]e’ll treat Windows 10 as a service—keeping users up to date and delivering features when they are ready (“auto-update”), not waiting for the next major release. This means the new rendering engine will always be truly evergreen.</p></blockquote>
-
-<p>On opening up the process:</p>
-
-<blockquote><p>Another welcomed change that we’ve been rolling out over the past year is a promise for increased openness about our web platform plans and roadmap. Over the last year, you’ve hopefully experienced some of this through our open standards roadmap15 (one of my personal side projects), our Reddit AMA16, regular dialog through @IEDevChat17, and sharing preview builds18 very early in our development process. You’ll see more of this over the next year.</p></blockquote>
-
-<p>Promising stuff all around. I am still wondering if we’ll eventually see the new browser appear on other operating systems (even if it’s  just the browser chrome and not the rendering engine—like Chrome on iOS). Time will tell.</p>
-<p><a rel="full-article" href="http://www.smashingmagazine.com/2015/01/26/inside-microsofts-new-rendering-engine-project-spartan/">Read on Smashing Magazine&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
