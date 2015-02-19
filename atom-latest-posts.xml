@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Posts]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-posts.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-02-16T02:59:31-05:00</updated>
+	<updated>2015-02-18T22:26:15-08:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -14,9 +14,56 @@
 	
 		
 			<entry>
+				<title type="html"><![CDATA[Who Should Pay?]]></title>
+				<link href="http://aaron-gustafson.com/notebook/who-should-pay/"/>
+				<updated>2015-02-18T20:35:06-08:00</updated>
+				<id>http://aaron-gustafson.com/notebook/who-should-pay</id>
+				<content type="html"><![CDATA[<p>In more than a handful of conversations lately, it’s become quite clear that we, the web development community, are prioritizing our own convenience and our own time over that of our users. With our industry’s focus on “user-centered design”, you might find that hard to believe, but it’s true.</p>
+
+<!-- more -->
+
+
+<p>Here’s one example. In reaction to <a href="http://aaron-gustafson.com/notebook/css-variables-are-a-bad-idea/">my post on why I think CSS variables are a bad idea</a>, <a href="http://sass-lang.com">SASS</a> core team member <a href="https://twitter.com/chriseppstein/">Chris Eppstein</a> had this to say:</p>
+
+<div class='embed tweet'><blockquote class="twitter-tweet"><p><a href="https://twitter.com/AaronGustafson">@AaronGustafson</a> Authoring CSS shouldn’t be so onerous as to require the use of a preprocessor.</p>&mdash; Chris Eppstein (@chriseppstein) <a href="https://twitter.com/chriseppstein/status/567756897105620992">February 17, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+
+
+<p>Fundamentally, I agree with his sentiment: A preprocessor should <em>not</em> be a requirement for authoring CSS. Thankfully, <em>it never was</em>; you can build amazing things using only hand-authored CSS. And if you find a preprocessor helpful to your process for one reason or another, great. But using a preprocessor never has been (nor should it ever be) a requirement.</p>
+
+<p>But Chris was not railing against preprocessors. Instead, he is echoing a sentiment held by many people in the preprocessor community. He feels CSS is not as powerful as it could/should be and he hopes that one day soon preprocessors won’t need to exist because CSS will have all of the features they offer natively. Like variables.</p>
+
+<p>I used to feel that way. I used to want variables… and mixins… and functions… and loops… and declaration block-level inheritance. But I’ve changed my mind.</p>
+
+<p>Don’t get me wrong, I love these constructs. I use them nearly every day in the SASS I write and I am incredibly thankful for the hard work that has gone into their creation and maintenance.  Chris alone has probably saved me several weeks worth of work over the last four years through his contributions to SASS and <a href="http://compass-style.org/">Compass</a>. I definitely owe him a beer (or three).</p>
+
+<p>Ok, so if my issue is not with the idea of programmatically generating styles, why would I not want these to be part of CSS, the <i>lingua franca</i> for design on the Web? Well, it’s pretty simple: Converting all of these constructs into something that is actionable by the browser takes time and processing power. Someone has to pay that cost and I wouldn’t feel right passing that cost on to my end users if there are better options.</p>
+
+<p>This is a topic I bring up often in my conference talks and workshops: Every decision we make affects the user experience in some way.</p>
+
+<p>When we add another JavaScript library or plugin, it’s no big deal from our perspective. We tend to have fast connections and faster processors. For our users it’s another story: It’s one more thing to request. One more thing to download. One more script to parse. One more thing holding up page rendering. One more reason to leave our site and seek out a competitor who actually values their time.</p>
+
+<p>When we hide an <code>img</code> in the small screen version of our responsive design using <code>display: none</code>, the cost to us is quite minimal. It’s just one little declaration. What’s the harm? But the cost to our end users is quite significant: Longer load times, slower performance, and (in some cases) in real dollars if they are on a <a href="http://blog.kaspersky.com/cost-aware/">metered data connection</a>. And they don’t even get to see the image they paid for!</p>
+
+<p>When we decide to build a site using a front-end JavaScript MVC framework, it can make the development process go so much faster for us and we can reduce our need for a robust back-end infrastructure. I mean everyone has JavaScript these days… <a href="http://aaron-gustafson.com/notebook/a-fundamental-disconnect/">the browser is the new VM</a>. But when we do this, our users suffer because we don’t give their browsers real HTML. Instead we force them to download a hefty framework so we can move all of the processing we would normally handle on a much faster, dedicated server to their questionably-capable machine instead. Oh, and if the browser encounters an error while parsing or executing the JavaScript execution, they don’t get anything at all. Welcome to the Modern Web™!</p>
+
+<hr>
+
+
+<p>When I look around, I see our community spending a lot of time coming up with new tools and techniques to make our jobs easier. To ship faster. And it’s not that I’m against efficiency, but I think we need to consider the implications of our decisions. And if one of those implications is making our users suffer—or potentially suffer—in order to make our lives easier, I think we need to consider their needs above our own.</p>
+
+<p>So yes, I would love a world where preprocessors are unnecessary, but I would much rather spend a few seconds (or even a few minutes) transcompiling my SASS into CSS in order to save my users even a few milliseconds. It’s the same reason I optimize my images, minify my JavaScript, use Gzip, and lazy load design and experience enhancements only in contexts where they provide a real benefit.</p>
+
+<p>Our users should never foot the bill for our convenience. We need to put their needs above our own.</p>
+]]></content>
+			</entry>
+		
+	
+		
+			<entry>
 				<title type="html"><![CDATA[I Don’t Want to Teach the World to Code… I Want to Teach the World to Problem Solve]]></title>
 				<link href="http://aaron-gustafson.com/notebook/i-dont-want-to-teach-the-world-to-code/"/>
-				<updated>2015-02-15T17:51:36-05:00</updated>
+				<updated>2015-02-15T14:51:36-08:00</updated>
 				<id>http://aaron-gustafson.com/notebook/i-dont-want-to-teach-the-world-to-code</id>
 				<content type="html"><![CDATA[<p>It seems that every other day a new code school opens it doors. In my mid-sized city, Chattanooga, there are no fewer than three businesses centered around teaching “coding” classes<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> that I am aware of. And there are at least a half-dozen free or community driven programs and camps on top of that. Most are aimed at youth, but some offer adult education as well. And that, of course, is over and above what&rsquo;s available in our public and private schools (which is considerable) and a plethora of online options.</p>
 
@@ -60,7 +107,7 @@
 			<entry>
 				<title type="html"><![CDATA[Three Worthwhile Posts on Progressive Enhancement]]></title>
 				<link href="http://aaron-gustafson.com/notebook/three-worthwhile-posts-on-progressive-enhancement/"/>
-				<updated>2015-02-13T10:14:40-05:00</updated>
+				<updated>2015-02-13T07:14:40-08:00</updated>
 				<id>http://aaron-gustafson.com/notebook/three-worthwhile-posts-on-progressive-enhancement</id>
 				<content type="html"><![CDATA[<p>Jason Garber has penned a series of posts on progressive enhancement. Here’s a quick rundown on what they cover and why you should read them.</p>
 
@@ -151,7 +198,7 @@
 			<entry>
 				<title type="html"><![CDATA[Ch-ch-ch-changes]]></title>
 				<link href="http://aaron-gustafson.com/notebook/ch-ch-ch-changes/"/>
-				<updated>2015-01-30T10:14:40-05:00</updated>
+				<updated>2015-01-30T07:14:40-08:00</updated>
 				<id>http://aaron-gustafson.com/notebook/ch-ch-ch-changes</id>
 				<content type="html"><![CDATA[<p>Monday, February 2nd will be the start of a new chapter in my professional career: I will joining Microsoft as a standards evangelist.</p>
 
@@ -226,8 +273,6 @@
 <p>I’m excited about the future and I’m thrilled to be given the opportunity to focus on making the Web better… for everyone.</p>
 ]]></content>
 			</entry>
-		
-	
 		
 	
 </feed>
