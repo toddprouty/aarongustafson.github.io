@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Accessibility | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/accessibility/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2015-02-18T22:26:15-08:00</updated>
+  <updated>2015-02-23T12:56:34-05:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -14,9 +14,61 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Consider How Your Forms Read]]></title>
+    <link href="http://aaron-gustafson.com/notebook/consider-how-your-forms-read/"/>
+    <updated>2015-02-23T11:21:24-05:00</updated>
+    <id>http://aaron-gustafson.com/notebook/consider-how-your-forms-read</id>
+    <content type="html"><![CDATA[<p>While listening to <a href="http://www.radiolab.org/story/trust-engineers/">Radiolab’s &ldquo;The Trust Engineers&rdquo;</a>, I’ll admit I got a little excited when they started talking about web form performance. And no, not &ldquo;performance&rdquo; in the time-to-download sense, but &ldquo;performance&rdquo; in terms of how well the forms performed in attempting to capture meaningful, actionable data.</p>
+
+<!-- more -->
+
+
+<p>I’ll set the scene: It’s the holiday season in 2011 and people are uploading photos to Facebook like crazy. In the span of a few days, Facebook processed more photo uploads than are contained in the entirety of Flickr. Seriously, that’s a lot of photos.</p>
+
+<p>Anyway, one unintended consequence of this deluge of photo uploads was a significant uptick in <a href="https://www.facebook.com/help/189722821075378">photo reports</a>. Facebook received millions of them, but they made no sense: Moms holding babies reported for harassment, pictures of puppies reported for hate speech, and so on. Roughly 97% of these photo reports were miscategorized.</p>
+
+<p>When Facebook engineers reached out to some of the users who had reported these photos for a bit more background behind their decisions, they discovered that many of the reports were because users didn’t want the photo on Facebook reasons other than the options provided. In some cases it was because they didn’t like how they looked in the photo and in others it was because the photo was of an ex or even a beloved pet they shared with an ex.</p>
+
+<p>The existing photo reporting form had not done a good job of accounting for these more personal reasons for wanting a photo removed, so the Facebook engineers went to work. They added a step that asked <em>How does this photo make you feel?</em> The options were simple:</p>
+
+<ul>
+<li>Embarrassing</li>
+<li>Upsetting</li>
+<li>Saddening</li>
+<li>Bad Photo</li>
+<li>Other</li>
+</ul>
+
+
+<p>The &ldquo;other&rdquo; option also provided a free-response field to fill in.</p>
+
+<p>With this system in place, they found that 50% of reporters would choose one of the provided options. That was pretty helpful, but there was still a problem: 34% of the &ldquo;other&rdquo; respondents were writing &ldquo;It’s embarrassing&rdquo; in the blank rather than choosing the &ldquo;embarrassing&rdquo; option already provided.</p>
+
+<p>What they realized was that people were not identifying with the &ldquo;embarrassing&rdquo; text (or may have even thought it was referring to them, rather than assuming the implied &ldquo;It’s&rdquo;). A subtle shift in language was needed, so they changed the label to <em>Please describe the photo</em>. And they updated the options to mirror how people actually talk:</p>
+
+<ul>
+<li>It’s embarrassing</li>
+<li>It’s a bad photo of me</li>
+<li>It makes me sad</li>
+</ul>
+
+
+<p>With this subtle change, they were able to increase the percentage of photo reporters who chose one of the options provided to a whopping 78%.</p>
+
+<p>Sometimes we feel compelled to create forms that are very clinical. In the survey world we’re often taught to limit the &ldquo;personality&rdquo; of our forms in order to avoid influencing the responses.</p>
+
+<p>That said, we need to remember that we are authoring interfaces that will be used by actual people. When we are creating forms that don’t require that kind of scientific rigor, we can (and should) do whatever we can to make the interaction more human.</p>
+
+<p>Ask real questions: <em>What’s your name?</em>, <em>What’s your email?</em>, and <em>How would you prefer we contact you?</em> are far more friendly than <em>Name</em>, <em>Email</em>, and <em>Contact Preference</em>.</p>
+
+<p>A little thoughtful consideration for the people who need to fill in your form goes a long way toward making them feel at ease and also helps to ensure the feedback you receive is accurate, valuable, and actionable.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Egalitarianism]]></title>
     <link href="http://aaron-gustafson.com/notebook/egalitarianism/"/>
-    <updated>2015-01-19T07:32:20-08:00</updated>
+    <updated>2015-01-19T10:32:20-05:00</updated>
     <id>http://aaron-gustafson.com/notebook/egalitarianism</id>
     <content type="html"><![CDATA[<p>Today is Martin Luther King Day in the United States, so I thought I’d take a moment to reflect on one aspect of equality I think is incredibly important: egalitarianism.</p>
 
@@ -107,7 +159,7 @@
   <entry>
     <title type="html"><![CDATA[The Web Is for Everyone]]></title>
     <link href="http://aaron-gustafson.com/notebook/the-web-is-for-everyone/"/>
-    <updated>2014-11-06T12:47:54-08:00</updated>
+    <updated>2014-11-06T15:47:54-05:00</updated>
     <id>http://aaron-gustafson.com/notebook/the-web-is-for-everyone</id>
     <content type="html"><![CDATA[<p><em>I gave this speech as the closing keynote at <a href="http://a11yqc.org/">A11yQC</a>, a conference on Web accessibility, on 14 October 2014 in Québec City, Canada. I have published my script here as the slides can’t really convey its message on their own.</em></p>
 
@@ -491,7 +543,7 @@
   <entry>
     <title type="html"><![CDATA[ARIA Quicktip: Labelledby vs. Describedby]]></title>
     <link href="http://aaron-gustafson.com/notebook/aria-quicktip-labelledby-vs-describedby/"/>
-    <updated>2014-11-05T07:45:22-08:00</updated>
+    <updated>2014-11-05T10:45:22-05:00</updated>
     <id>http://aaron-gustafson.com/notebook/aria-quicktip-labelledby-vs-describedby</id>
     <content type="html"><![CDATA[<p>Last night, while we were enjoying a cool evening and a few drinks outside after day 1 of <a href="http://bdconf.com">BDConf</a>, <a href="http://adactio.com">Jeremy</a> asked me for some clarification on the ARIA attributes I had demoed as part of <a href="http://www.slideshare.net/AaronGustafson/falling-in-love-with-forms-bdconf-2014">my forms presentation</a> earlier in the afternoon. In particular, he was confused by how <code>aria-labelledby</code> and <code>aria-describedby</code> differ.</p>
 
