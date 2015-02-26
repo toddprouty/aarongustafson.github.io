@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-02-23T12:56:34-05:00</updated>
+	<updated>2015-02-26T11:03:21-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,8 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
 	
 		
 	
@@ -298,17 +300,6 @@
 
 <p>Pay particular attention to the keyboard focus stuff too.</p>
 <p><a rel="full-article" href="http://tink.uk/accessible-timeout-notifications/">Read on Tink&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[The Browser Accessibility Tree]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/the-browser-accessibility-tree/"/>
-				<updated>2015-02-01T13:20:41-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/the-browser-accessibility-tree</id>
-				<content type="html"><![CDATA[<p>A clear and concise overview of browsers’ accessibility trees, using the <code>video</code> element as an example. Yet another reason to love <a href="https://twitter.com/stevefaulkner">Steve Faulkner</a>.</p>
-<p><a rel="full-article" href="http://www.paciellogroup.com/blog/2015/01/the-browser-accessibility-tree/">Read on The Paciello Group&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
