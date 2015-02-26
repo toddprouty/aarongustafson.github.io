@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Standards | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/web-standards/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2015-02-26T11:22:16-05:00</updated>
+  <updated>2015-02-26T11:25:19-05:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -57,9 +57,7 @@
 
 <blockquote><p>Let’s set any opinions about Pointer Events aside. Frankly, I need to do a <em>lot</em> more digging here before I have any sort of strong opinion in one direction or another. There is a bigger issue here. We have a recurring situation where all vendors (save for Apple) show interest in standard, but because Apple does not express that same interest, the standard gets waylaid.</p></blockquote>
 
-<p>This whole thing has caused quite a kerfuffle in the Web community. Obviously, some people are demonizing Apple (and, by proxy, Google) for holding us back. Others are quick to excuse Apple because of their history of pushing the Web forward (see CSS transitions, animations, etc.).<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> Personally, I don’t think anything is ever truly black and white. Every company does some good things and some bad things. To channel Lisa Welshman again, it’s like yin and yang: The light has a little bit of the dark in it, and the dark has a little bit of the light in it.</p>
-
-<p><figure id="fig-2015-02-25-02" class="media-container"></p>
+<p><figure id="fig-2015-02-25-02" class="media-container media-container--right"></p>
 
 <pre><code>&lt;img src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Yin_yang.svg/200px-Yin_yang.svg.png"
      srcset="http://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Yin_yang.svg/800px-Yin_yang.svg.png 800w, http://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Yin_yang.svg/400px-Yin_yang.svg.png 400w, http://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Yin_yang.svg/200px-Yin_yang.svg.png 200w"
@@ -68,6 +66,8 @@
 </code></pre>
 
 <p></figure></p>
+
+<p>This whole thing has caused quite a kerfuffle in the Web community. Obviously, some people are demonizing Apple (and, by proxy, Google) for holding us back. Others are quick to excuse Apple because of their history of pushing the Web forward (see CSS transitions, animations, etc.).<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> Personally, I don’t think anything is ever truly black and white. Every company does some good things and some bad things. To channel Lisa Welshman again, it’s like yin and yang: The light has a little bit of the dark in it, and the dark has a little bit of the light in it.</p>
 
 <p>Generally, I’ve found that Apple tends to do what is best for Apple, without considering how it affects designers, developers, or the Open Web. On this issue however, I just haven’t figured out their angle yet.</p>
 
