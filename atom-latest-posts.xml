@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Posts]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-posts.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-02-26T17:02:46-05:00</updated>
+	<updated>2015-02-26T20:22:09-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,8 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
 	
 		
 			<entry>
@@ -324,8 +326,6 @@
 <p>In all, this was a nice little series. Great work Jason! If you want to dig into this progressive enhancement stuff a bit more, you can read the entirety of my award-winning book <a href="http://adaptivewebdesign.info/1st-edition/"><cite>Adaptive Web Design: Crafting Rich Experiences with Progressive Enhancement</cite> online, for free</a>.</p>
 ]]></content>
 			</entry>
-		
-	
 		
 	
 		

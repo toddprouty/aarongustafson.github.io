@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-02-26T17:02:46-05:00</updated>
+	<updated>2015-02-26T20:22:09-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,21 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[A Break From the Past: The Birth of Microsoft’s New Web Rendering Engine]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/a-break-from-the-past-the-birth-of-microsoft/"/>
+				<updated>2015-02-26T20:08:16-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/a-break-from-the-past-the-birth-of-microsoft</id>
+				<content type="html"><![CDATA[<p><a href="https://twitter.com/morris_charles">Charles Morris</a> wrote a lengthy post about the germination of Microsoft’s new browser rendering engine. If you ever wondered where <del>babies</del> <ins>browsers</ins> come from, this is full of insights.</p>
+
+<p>On a side note, this is one of the most exciting aspects of the new browser (and new Microsoft) for me:</p>
+
+<blockquote><p>Our mission to create a Web that “just works” won’t be successful without your help.</p></blockquote>
+<p><a rel="full-article" href="http://blogs.msdn.com/b/ie/archive/2015/02/26/a-break-from-the-past-the-birth-of-microsoft-s-new-web-rendering-engine.aspx">Read on IEBlog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -591,19 +606,6 @@
 
 <p>Now, the <a href="http://glazkov.com/2011/01/14/what-the-heck-is-shadow-dom/">Shadow DOM</a> (and <a href="https://gist.github.com/webtobesocial/aefd6e25064c08e0cc9a">associated pseudo-elements</a>) should allow us to control the style of these elements. The deeper problem is functionality. Take <a href="https://html.spec.whatwg.org/multipage/forms.html#the-datalist-element">the <code>datalist</code> for predictive typing</a>. What if you want fuzzy search instead of initial search when someone types. That’s not supported. This is where Web Components get interesting.</p>
 <p><a rel="full-article" href="http://www.paciellogroup.com/blog/2015/02/emulating-failure/">Read on The Paciello Group&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Accessible Timeout Notifications]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/accessible-timeout-notifications-tink/"/>
-				<updated>2015-02-01T13:23:17-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/accessible-timeout-notifications-tink</id>
-				<content type="html"><![CDATA[<p>I’m not generally a fan of session timeouts, but if you have to do it, Léonie Watson has outlined a pretty good route to go. My only nit might be using a <code>role</code> of &ldquo;alert&rdquo; or &ldquo;alertdialog&rdquo; instead of &ldquo;group&rdquo;, but that’s because it would trigger an audible chime and get read by assistive tech. But that’s pretty minor.</p>
-
-<p>Pay particular attention to the keyboard focus stuff too.</p>
-<p><a rel="full-article" href="http://tink.uk/accessible-timeout-notifications/">Read on Tink&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
