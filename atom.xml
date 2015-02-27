@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-02-27T15:00:18-05:00</updated>
+	<updated>2015-02-27T15:11:44-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Dropdown Menus With More Forgiving Mouse Movement Paths]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/dropdown-menus-with-more-forgiving-mouse-movement-paths/"/>
+				<updated>2015-02-27T15:10:09-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/dropdown-menus-with-more-forgiving-mouse-movement-paths</id>
+				<content type="html"><![CDATA[<p>Chris Coyier put together a nice overview of ways to reduce user frustration when dealing with dropdown and flyout menus because, you know, some people still use a mouse.</p>
+<p><a rel="full-article" href="https://css-tricks.com/dropdown-menus-with-more-forgiving-mouse-movement-paths/">Read on CSS Tricks&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -575,19 +586,6 @@
 
 <p>I’m shocked, but glad he finally came around. Progressive enhancement FTW!</p>
 <p><a rel="full-article" href="http://tomdale.net/2015/02/youre-missing-the-point-of-server-side-rendered-javascript-apps/">Read on Tom Dale’s Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Power of the Platforms]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/power-of-the-platforms/"/>
-				<updated>2015-02-05T13:11:05-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/power-of-the-platforms</id>
-				<content type="html"><![CDATA[<p>This is a great post from Simon St. Laurent on how isolated Web &ldquo;platforms&rdquo; have come and go while the &ldquo;tangled mess&rdquo; that is HTML, CSS, and JavaScript soldiers on. It’s a must read.</p>
-
-<blockquote><p>The web bends with the wind, supporting incredibly diverse use cases across a wide variety of environments. Your code should, too.</p></blockquote>
-<p><a rel="full-article" href="http://radar.oreilly.com/2015/02/power-of-the-platforms.html">Read on O’Reilly Radar&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
