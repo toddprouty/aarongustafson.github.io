@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-02-27T12:29:19-05:00</updated>
+	<updated>2015-02-27T15:00:18-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Keeping `srcset` and `sizes` Under Control]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/keeping-srcset-and-sizes-under-control/"/>
+				<updated>2015-02-27T14:54:19-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/keeping-srcset-and-sizes-under-control</id>
+				<content type="html"><![CDATA[<p>Matt Wilcox walks through his methodical process for managing <code>srcset</code> and <code>sizes</code>. It’s a good read an will be helpful for keeping you from being unnecessarily verbose (or getting to granular).</p>
+<p><a rel="full-article" href="https://mattwilcox.net/web-development/keeping-srcset-and-sizes-under-control">Read on Matt Wilcox’s Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -273,25 +284,6 @@
 
 <blockquote><p>The web bends with the wind, supporting incredibly diverse use cases across a wide variety of environments. Your code should, too.</p></blockquote>
 <p><a rel="full-article" href="http://radar.oreilly.com/2015/02/power-of-the-platforms.html">Read on O’Reilly Radar&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[The Truth About Multiple H1 Tags in the HTML5 Era]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/the-truth-about-multiple-h1-tags-in-the-html5-era/"/>
-				<updated>2015-02-03T16:14:54-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/the-truth-about-multiple-h1-tags-in-the-html5-era</id>
-				<content type="html"><![CDATA[<p>This is a beautiful and exhaustive survey of heading level usage before HTML5 and in HTML5. Sadly, <a href="http://www.w3.org/TR/html5/sections.html#outlines">no one implements the HTML5 scenario yet</a>. But it’s nice to dream. Maybe one day.</p>
-
-<p>For more:</p>
-
-<ul>
-<li><a href="http://www.paciellogroup.com/blog/2013/10/html5-document-outline/">The HTML5 Document Outline</a></li>
-<li><a href="http://blog.adrianroselli.com/2013/12/the-truth-about-truth-about-multiple-h1.html">The Truth about “The Truth About Multiple H1 Tags”</a></li>
-</ul>
-
-<p><a rel="full-article" href="http://webdesign.tutsplus.com/articles/the-truth-about-multiple-h1-tags-in-the-html5-era--webdesign-16824">Read on Tuts+&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
