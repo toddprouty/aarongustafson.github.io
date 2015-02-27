@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-02-26T20:22:09-05:00</updated>
+	<updated>2015-02-27T12:29:19-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Can We Please Stop Fighting the Native vs. Web App Wars?]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/native-vs-web-apps-ceasefire/"/>
+				<updated>2015-02-27T12:27:14-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/native-vs-web-apps-ceasefire</id>
+				<content type="html"><![CDATA[<p>Matt Asay does a great job dispelling some of the myths frequently spouted in the Web vs. native debate. It’s definitely worth a read.</p>
+<p><a rel="full-article" href="http://readwrite.com/2015/02/27/native-vs-web-apps-ceasefire">Read on ReadWrite&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -281,27 +292,6 @@
 </ul>
 
 <p><a rel="full-article" href="http://webdesign.tutsplus.com/articles/the-truth-about-multiple-h1-tags-in-the-html5-era--webdesign-16824">Read on Tuts+&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Emulating Failure]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/emulating-failure/"/>
-				<updated>2015-02-02T07:09:54-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/emulating-failure</id>
-				<content type="html"><![CDATA[<p>Another beautifully-eloquent post about the potential perils of <a href="http://www.w3.org/wiki/WebComponents/">Web Components</a>:</p>
-
-<blockquote><p>HTML has a problem. As implemented in browsers many interactive elements cannot be styled as desired by web developers, or developers as directed by designers, marketing or any of the numerous others whose wishes code cutters must abide by.</p>
-
-<p>…</p>
-
-<p>Now in 2015 we have web components re-inventing native HTML buttons, radio buttons and checkboxes, for relief from the scourge of divitis, perpetrated upon us by the as shipped inability to style a native HTML element as desired.</p>
-
-<p>Is it just me, or are new web UI technologies continuing to try to solve the wrong problems?</p></blockquote>
-
-<p>Now, the <a href="http://glazkov.com/2011/01/14/what-the-heck-is-shadow-dom/">Shadow DOM</a> (and <a href="https://gist.github.com/webtobesocial/aefd6e25064c08e0cc9a">associated pseudo-elements</a>) should allow us to control the style of these elements. The deeper problem is functionality. Take <a href="https://html.spec.whatwg.org/multipage/forms.html#the-datalist-element">the <code>datalist</code> for predictive typing</a>. What if you want fuzzy search instead of initial search when someone types. That’s not supported. This is where Web Components get interesting.</p>
-<p><a rel="full-article" href="http://www.paciellogroup.com/blog/2015/02/emulating-failure/">Read on The Paciello Group&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
