@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-02-27T19:52:10-05:00</updated>
+	<updated>2015-02-16T02:59:31-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,60 +11,6 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Dropdown Menus With More Forgiving Mouse Movement Paths]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/dropdown-menus-with-more-forgiving-mouse-movement-paths/"/>
-				<updated>2015-02-27T15:10:09-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/dropdown-menus-with-more-forgiving-mouse-movement-paths</id>
-				<content type="html"><![CDATA[<p>Chris Coyier put together a nice overview of ways to reduce user frustration when dealing with dropdown and flyout menus because, you know, some people still use a mouse.</p>
-<p><a rel="full-article" href="https://css-tricks.com/dropdown-menus-with-more-forgiving-mouse-movement-paths/">Read on CSS Tricks&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Keeping `srcset` and `sizes` Under Control]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/keeping-srcset-and-sizes-under-control/"/>
-				<updated>2015-02-27T14:54:19-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/keeping-srcset-and-sizes-under-control</id>
-				<content type="html"><![CDATA[<p>Matt Wilcox walks through his methodical process for managing <code>srcset</code> and <code>sizes</code>. It’s a good read an will be helpful for keeping you from being unnecessarily verbose (or getting to granular).</p>
-<p><a rel="full-article" href="https://mattwilcox.net/web-development/keeping-srcset-and-sizes-under-control">Read on Matt Wilcox’s Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Can We Please Stop Fighting the Native vs. Web App Wars?]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/native-vs-web-apps-ceasefire/"/>
-				<updated>2015-02-27T12:27:14-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/native-vs-web-apps-ceasefire</id>
-				<content type="html"><![CDATA[<p>Matt Asay does a great job dispelling some of the myths frequently spouted in the Web vs. native debate. It’s definitely worth a read.</p>
-<p><a rel="full-article" href="http://readwrite.com/2015/02/27/native-vs-web-apps-ceasefire">Read on ReadWrite&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[A Break From the Past: The Birth of Microsoft’s New Web Rendering Engine]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/a-break-from-the-past-the-birth-of-microsoft/"/>
-				<updated>2015-02-26T20:08:16-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/a-break-from-the-past-the-birth-of-microsoft</id>
-				<content type="html"><![CDATA[<p><a href="https://twitter.com/morris_charles">Charles Morris</a> wrote a lengthy post about the germination of Microsoft’s new browser rendering engine. If you ever wondered where <del>babies</del> <ins>browsers</ins> come from, this is full of insights.</p>
-
-<p>On a side note, this is one of the most exciting aspects of the new browser (and new Microsoft) for me:</p>
-
-<blockquote><p>Our mission to create a Web that “just works” won’t be successful without your help.</p></blockquote>
-<p><a rel="full-article" href="http://blogs.msdn.com/b/ie/archive/2015/02/26/a-break-from-the-past-the-birth-of-microsoft-s-new-web-rendering-engine.aspx">Read on IEBlog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-	
-		
-	
-		
 	
 		
 	
@@ -282,6 +228,98 @@
 
 <p>I’m shocked, but glad he finally came around. Progressive enhancement FTW!</p>
 <p><a rel="full-article" href="http://tomdale.net/2015/02/youre-missing-the-point-of-server-side-rendered-javascript-apps/">Read on Tom Dale’s Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Power of the Platforms]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/power-of-the-platforms/"/>
+				<updated>2015-02-05T13:11:05-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/power-of-the-platforms</id>
+				<content type="html"><![CDATA[<p>This is a great post from Simon St. Laurent on how isolated Web &ldquo;platforms&rdquo; have come and go while the &ldquo;tangled mess&rdquo; that is HTML, CSS, and JavaScript soldiers on. It’s a must read.</p>
+
+<blockquote><p>The web bends with the wind, supporting incredibly diverse use cases across a wide variety of environments. Your code should, too.</p></blockquote>
+<p><a rel="full-article" href="http://radar.oreilly.com/2015/02/power-of-the-platforms.html">Read on O’Reilly Radar&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[The Truth About Multiple H1 Tags in the HTML5 Era]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/the-truth-about-multiple-h1-tags-in-the-html5-era/"/>
+				<updated>2015-02-03T16:14:54-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/the-truth-about-multiple-h1-tags-in-the-html5-era</id>
+				<content type="html"><![CDATA[<p>This is a beautiful and exhaustive survey of heading level usage before HTML5 and in HTML5. Sadly, <a href="http://www.w3.org/TR/html5/sections.html#outlines">no one implements the HTML5 scenario yet</a>. But it’s nice to dream. Maybe one day.</p>
+
+<p>For more:</p>
+
+<ul>
+<li><a href="http://www.paciellogroup.com/blog/2013/10/html5-document-outline/">The HTML5 Document Outline</a></li>
+<li><a href="http://blog.adrianroselli.com/2013/12/the-truth-about-truth-about-multiple-h1.html">The Truth about “The Truth About Multiple H1 Tags”</a></li>
+</ul>
+
+<p><a rel="full-article" href="http://webdesign.tutsplus.com/articles/the-truth-about-multiple-h1-tags-in-the-html5-era--webdesign-16824">Read on Tuts+&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Emulating Failure]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/emulating-failure/"/>
+				<updated>2015-02-02T07:09:54-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/emulating-failure</id>
+				<content type="html"><![CDATA[<p>Another beautifully-eloquent post about the potential perils of <a href="http://www.w3.org/wiki/WebComponents/">Web Components</a>:</p>
+
+<blockquote><p>HTML has a problem. As implemented in browsers many interactive elements cannot be styled as desired by web developers, or developers as directed by designers, marketing or any of the numerous others whose wishes code cutters must abide by.</p>
+
+<p>…</p>
+
+<p>Now in 2015 we have web components re-inventing native HTML buttons, radio buttons and checkboxes, for relief from the scourge of divitis, perpetrated upon us by the as shipped inability to style a native HTML element as desired.</p>
+
+<p>Is it just me, or are new web UI technologies continuing to try to solve the wrong problems?</p></blockquote>
+
+<p>Now, the <a href="http://glazkov.com/2011/01/14/what-the-heck-is-shadow-dom/">Shadow DOM</a> (and <a href="https://gist.github.com/webtobesocial/aefd6e25064c08e0cc9a">associated pseudo-elements</a>) should allow us to control the style of these elements. The deeper problem is functionality. Take <a href="https://html.spec.whatwg.org/multipage/forms.html#the-datalist-element">the <code>datalist</code> for predictive typing</a>. What if you want fuzzy search instead of initial search when someone types. That’s not supported. This is where Web Components get interesting.</p>
+<p><a rel="full-article" href="http://www.paciellogroup.com/blog/2015/02/emulating-failure/">Read on The Paciello Group&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Accessible Timeout Notifications]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/accessible-timeout-notifications-tink/"/>
+				<updated>2015-02-01T13:23:17-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/accessible-timeout-notifications-tink</id>
+				<content type="html"><![CDATA[<p>I’m not generally a fan of session timeouts, but if you have to do it, Léonie Watson has outlined a pretty good route to go. My only nit might be using a <code>role</code> of &ldquo;alert&rdquo; or &ldquo;alertdialog&rdquo; instead of &ldquo;group&rdquo;, but that’s because it would trigger an audible chime and get read by assistive tech. But that’s pretty minor.</p>
+
+<p>Pay particular attention to the keyboard focus stuff too.</p>
+<p><a rel="full-article" href="http://tink.uk/accessible-timeout-notifications/">Read on Tink&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[The Browser Accessibility Tree]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/the-browser-accessibility-tree/"/>
+				<updated>2015-02-01T13:20:41-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/the-browser-accessibility-tree</id>
+				<content type="html"><![CDATA[<p>A clear and concise overview of browsers’ accessibility trees, using the <code>video</code> element as an example. Yet another reason to love <a href="https://twitter.com/stevefaulkner">Steve Faulkner</a>.</p>
+<p><a rel="full-article" href="http://www.paciellogroup.com/blog/2015/01/the-browser-accessibility-tree/">Read on The Paciello Group&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Extensibility]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/extensibility/"/>
+				<updated>2015-01-30T09:44:38-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/extensibility</id>
+				<content type="html"><![CDATA[<p>Great post from Jeremy on Web components. I couldn’t agree more:</p>
+
+<blockquote><p>I was looking forward to getting really stuck into Web Components and figuring out ways of creating powerful little extensions that I could start using now. But if Web Components turn out to be an all-or-nothing technology—a “platform”, if you will—then I will not only not be using them, I’ll be actively arguing against their use.</p></blockquote>
+<p><a rel="full-article" href="https://adactio.com/journal/8276">Read on Adactio’s Journal&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	

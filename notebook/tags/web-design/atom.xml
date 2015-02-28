@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2015-02-27T19:52:10-05:00</updated>
+  <updated>2015-02-16T02:59:31-05:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -12,211 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Apple, Business, and Standards]]></title>
-    <link href="http://aaron-gustafson.com/notebook/apple-business-and-standards/"/>
-    <updated>2015-02-26T10:44:40-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/apple-business-and-standards</id>
-    <content type="html"><![CDATA[<p>At <a href="http://www.codeandcreativity.com/events/2015-02-24">Tuesday night’s Code &amp; Creativity</a>, digital governance expert <a href="https://twitter.com/lwelchman">Lisa Welchman</a> equated digital projects to an atom. Content, IA, project management, networking, graphic design, application development, performance, and other concerns are flying this way and that like electrons—a swirling mass of energy and velocity. What holds this chaos together and keeps the electrons from flying off in all directions is the magnetic pull of protons in the nucleus of the atom.</p>
-
-<!-- more -->
-
-
-<p><figure id="fig-2015-02-26-01" class="media-container"></p>
-
-<pre><code>&lt;img src="http://aaron-gustafson.com/i/posts/2015-02-26/atom-sm.jpg"
-     srcset="/i/posts/2015-02-26/atom-lg.jpg 800w, /i/posts/2015-02-26/atom-sm.jpg 320w"
-     alt="A slide from Lisa Welchman’s talk showing Web Standards and KPI at the center of the project “atom”."
-     &gt;
-</code></pre>
-
-<p></figure></p>
-
-<p>In Lisa’s analogy, the protons of a digital project are Web standards and Key Performance Indicators (KPIs). She believes that without these key ingredients, projects will often career out of control. Her reasoning? We all need to know how we should be doing things in order to work together well (Web standards) and we need to know what our expectations are for the project to be successful (KPI).</p>
-
-<p>This really resonated with me. Mainly, it resonated because I am a Web standards guy, but I also believe in the importance of standards across the board. I think projects need copywriting standards, design standards, performance standards, coding standards, and many other kinds of standards as well. Standards hold a project together. For real.</p>
-
-<p>That’s why <em>Web</em> standards are so important.</p>
-
-<p>Without standards, the Web was <a href="http://en.wikipedia.org/wiki/Browser_wars">an unruly mass of spaghetti code</a>.  I started working on the Web in 1996. I know, I lived it.</p>
-
-<p>We used to deliver separate browser-specific JavaScript and CSS files to different User Agents. Our HTML code had to be 3-4 times as hefty to support all of the various ways browsers had decided to implement the same features. It was horrible and made building anything remotely interesting a truly painful endeavor.</p>
-
-<p>Then browser makers got together to codify HTML into a generally agreed-upon set of elements and attributes that would allow authors like me to write pages that would Just Work™. That work extended into CSS, and so on, and so forth. I can’t thank them enough for doing that.</p>
-
-<p>Tuesday also saw the W3C officially make <a href="http://www.w3.org/TR/pointerevents/">Pointer Events</a> a recommendation. I’d always liked the idea of Pointer Events because it abstracts the traditional concept of a click into a generic interaction that could be triggered by a mouse, a finger, a pen, an eye movement, or any other interaction method we come up with in the future. Sure, I work for Microsoft now—they proposed this idea—but that isn’t the reason I like the concept. I like it because it doesn’t tie us down to a single way of interacting with Web content that necessitates the creation of new specs when new interaction methods are invented. It’s future friendly and embraces the &ldquo;continuum of experience&rdquo; I evangelize incessantly.</p>
-
-<p>When Pointer Events were first proposed, there was a lot of support behind them. Obviously Microsoft was on board, but Mozilla was too. And Google was all about Pointer Events for a while and was already using them when <a href="https://code.google.com/p/chromium/issues/detail?id=162757#c64">they did an abrupt  about-face and decided they were ripping them out of Blink in favor of overhauling Touch Events</a> (which Apple supports and which Pointer Events were intended to supersede).</p>
-
-<p>And so now we have a recommendation from the W3C that browsers implement Pointer Events. <a href="http://blog.jquery.com/2015/02/24/getting-on-point/">Developers want them</a> and it seems Apple doesn’t. And because Apple doesn’t want them, Google doesn’t want them now either. To quote Rick Byers (of Google) in <a href="https://lists.w3.org/Archives/Public/public-pointer-events/2014JulSep/0071">a Pointer Events meeting in late 2014</a>:</p>
-
-<blockquote><p>No argument that PE is more elegant. If we had a path to universal input that all supported, we would be great with that, but not all browsers will support PE. If we had Apple on board with PE, we&rsquo;d still be on board too. The equation has shifted for us.</p></blockquote>
-
-<p>So, effectively, Apple is holding the Web back. <a href="https://twitter.com/tkadlec">Tim Kadlec</a> wrote <a href="http://timkadlec.com/2015/02/apples-web/">a great piece discussing the core issue at play here</a>:</p>
-
-<blockquote><p>Let’s set any opinions about Pointer Events aside. Frankly, I need to do a <em>lot</em> more digging here before I have any sort of strong opinion in one direction or another. There is a bigger issue here. We have a recurring situation where all vendors (save for Apple) show interest in standard, but because Apple does not express that same interest, the standard gets waylaid.</p></blockquote>
-
-<p><figure id="fig-2015-02-25-02" class="media-container media-container--right"></p>
-
-<pre><code>&lt;img src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Yin_yang.svg/200px-Yin_yang.svg.png"
-     srcset="http://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Yin_yang.svg/800px-Yin_yang.svg.png 800w, http://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Yin_yang.svg/400px-Yin_yang.svg.png 400w, http://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Yin_yang.svg/200px-Yin_yang.svg.png 200w"
-     alt="Yin and yang."
-     &gt;
-</code></pre>
-
-<p></figure></p>
-
-<p>This whole thing has caused quite a kerfuffle in the Web community. Obviously, some people are demonizing Apple (and, by proxy, Google) for holding us back. Others are quick to excuse Apple because of their history of pushing the Web forward (see CSS transitions, animations, etc.).<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> Personally, I don’t think anything is ever truly black and white. Every company does some good things and some bad things. To channel Lisa Welshman again, it’s like yin and yang: The light has a little bit of the dark in it, and the dark has a little bit of the light in it.</p>
-
-<p>Generally, I’ve found that Apple tends to do what is best for Apple, without considering how it affects designers, developers, or the Open Web. On this issue however, I just haven’t figured out their angle yet.</p>
-
-<p>Some of their past decisions have offered a clear view into their motivations. Take offline for instance. Apple supports the <a href="http://www.w3.org/TR/html5/browsers.html#offline">Application Cache API</a> (as <a href="http://caniuse.com/#feat=offline-apps">most modern browsers do</a>), but there’s a catch: You can’t store audio files in the cache. That makes it nearly impossible to build a decent game in HTML because you won’t get sound effects if you aren’t connected to the Web. But for Apple it makes perfect sense: They sell games in the App Store.</p>
-
-<p>Their motivations behind other decisions are more murky, however. For example, Safari implements the <a href="https://html.spec.whatwg.org/multipage/forms.html#client-side-form-validation">HTML5 Form Validation API</a>, which means it knows if a field is valid or invalid. The catch? It won’t halt the submission of an invalid form. <a href="http://caniuse.com/#search=form%20validation">Every other modern browser acts as you’d expect.</a><sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> I don’t get it. I used to think/hope they just had not figured out how they wanted to handle notifying the user of the error, but it’s been like this for about 5 years.</p>
-
-<p>I’ll let Tim jump in again here:</p>
-
-<blockquote><p>Apple has a very, very strong influence over what standards get adopted and what standards do not. Partly it’s market share, partly it’s developer bias (see, for example, how other vendors eventually felt forced to start supporting the <code>webkit</code> prefix due to vendor prefix abuse).</p>
-
-<p>Apple simply does not play well with other vendors when it comes to standardization. The same sort of things we once criticized Microsoft for doing long ago, we give Apple a pass on today. They’re very content to play in their own little sandbox all too often.</p></blockquote>
-
-<p>He’s channeling <a href="https://adactio.com/journal/5442/#comment438">a bit of Remy Sharp there</a> (circa 2012):</p>
-
-<blockquote><p>When are we, as a web development community, going to stop giving Apple a free fucking pass?</p>
-
-<p>They’re consistently lacking in the open discussion in to improving the gateway to the web: the browser. Sure, they landed an impressive mobile browsing experience back when the iPhone launched and it’s a great device, but there’s some serious questioning about whether they’re purposely cock-blocking web development and purposely hindering our advancement as a web industry.</p>
-
-<p>WebGL is in mobile Safari, yet only available if accessed via a WebView object, not the real Safari (which is a WebView anyway…). It was recently discovered that they moved all web data storage (Web Storage, Appcache, etc) in a temporary data store meaning that it can be wiped at any time without warning.</p>
-
-<p>Even the mighty PPK who tells entire browser vendors “fuck you”, doesn’t call Apple out, allowing them to slither on.</p>
-
-<p>Why is it we continue to allow Apple to get away with it? And can this ever change?</p></blockquote>
-
-<p>As Tim points out, Apple certainly isn’t the only company that plays games when it comes to standards:</p>
-
-<blockquote><p>The other vendors aren’t exactly perfect either. The Microsoft folks, no doubt reeling from all the negativity aimed at them over the years, have more than once been content to let everyone else duke it out over a standard, only getting involved late when a consensus has been reached. The Blink folks, despite being the best positioned to take a stand, have been happy to play the “Apple won’t do it so I guess we won’t either” card on multiple occasions.</p></blockquote>
-
-<p>But he’s also quick to highlight the disappointing reality about Apple with respect to the other browser vendors:</p>
-
-<blockquote><p>It’s easy to reach the Mozilla, Google and Microsoft folks to discuss their thoughts on these emerging standards. That’s a much harder thing to do with the Apple crew.</p></blockquote>
-
-<p>Apple is very much a black box and their processes are incredibly opaque. Now I’m no hater, I use their products daily.<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup>, but I am also not an apologist. I think relationships are improved with honesty and openness. I honestly wish Apple’s processes—at least when it comes to the Web—were more open.<sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup> Heck, they often don’t even show up to meetings at the W3C. If we knew what they were thinking or why they were doing things, we could at least understand where they were coming from rather than having to speculate about their motivations. Whether we agree or not is irrelevant.</p>
-
-<p>Regardless, we are where we are and I can’t help but wonder one thing: <em>If we stop giving Apple a free pass and continue marching forward without them, will they eventually be forced to scramble to catch up like Microsoft did when IE6 sat on the shelf for so long?</em> I don’t know what the answer is, but I sincerely hope they come around and begin to treat the Web with the respect it deserves before that happens.</p>
-
-<p>When browsers refuse to implement Web standards, we all lose. And we take one step closer to the swirling pit of chaos and spaghetti code we thought we’d put behind us.</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>All of which were (in true Apple style) developed in secret and then bestowed upon the world in a grand spectacle.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-<li id="fn:2">
-<p>Ok, Opera Mini doesn’t, but Opera Mini is also a different sort of browser. It is a proxy browser and the proxy handles all of the back and forth between the browser and the website’s origin server(s).<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
-<li id="fn:3">
-<p>I am composing this post on a Mac… provided by Microsoft. Yes, you read that correctly.<a href="#fnref:3" rev="footnote">&#8617;</a></p></li>
-<li id="fn:4">
-<p>I have felt the same way about Microsoft for years because I knew the great work they were doing behind the curtains. Part of the reason <a href="/notebook/ch-ch-ch-changes/">I joined them earlier this month</a> was because they have been opening up and I want to encourage and nurture that.<a href="#fnref:4" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Consider How Your Forms Read]]></title>
-    <link href="http://aaron-gustafson.com/notebook/consider-how-your-forms-read/"/>
-    <updated>2015-02-23T11:21:24-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/consider-how-your-forms-read</id>
-    <content type="html"><![CDATA[<p>While listening to <a href="http://www.radiolab.org/story/trust-engineers/">Radiolab’s &ldquo;The Trust Engineers&rdquo;</a>, I’ll admit I got a little excited when they started talking about web form performance. And no, not &ldquo;performance&rdquo; in the time-to-download sense, but &ldquo;performance&rdquo; in terms of how well the forms performed in attempting to capture meaningful, actionable data.</p>
-
-<!-- more -->
-
-
-<p>I’ll set the scene: It’s the holiday season in 2011 and people are uploading photos to Facebook like crazy. In the span of a few days, Facebook processed more photo uploads than are contained in the entirety of Flickr. Seriously, that’s a lot of photos.</p>
-
-<p>Anyway, one unintended consequence of this deluge of photo uploads was a significant uptick in <a href="https://www.facebook.com/help/189722821075378">photo reports</a>. Facebook received millions of them, but they made no sense: Moms holding babies reported for harassment, pictures of puppies reported for hate speech, and so on. Roughly 97% of these photo reports were miscategorized.</p>
-
-<p>When Facebook engineers reached out to some of the users who had reported these photos for a bit more background behind their decisions, they discovered that many of the reports were because users didn’t want the photo on Facebook reasons other than the options provided. In some cases it was because they didn’t like how they looked in the photo and in others it was because the photo was of an ex or even a beloved pet they shared with an ex.</p>
-
-<p>The existing photo reporting form had not done a good job of accounting for these more personal reasons for wanting a photo removed, so the Facebook engineers went to work. They added a step that asked <em>How does this photo make you feel?</em> The options were simple:</p>
-
-<ul>
-<li>Embarrassing</li>
-<li>Upsetting</li>
-<li>Saddening</li>
-<li>Bad Photo</li>
-<li>Other</li>
-</ul>
-
-
-<p>The &ldquo;other&rdquo; option also provided a free-response field to fill in.</p>
-
-<p>With this system in place, they found that 50% of reporters would choose one of the provided options. That was pretty helpful, but there was still a problem: 34% of the &ldquo;other&rdquo; respondents were writing &ldquo;It’s embarrassing&rdquo; in the blank rather than choosing the &ldquo;embarrassing&rdquo; option already provided.</p>
-
-<p>What they realized was that people were not identifying with the &ldquo;embarrassing&rdquo; text (or may have even thought it was referring to them, rather than assuming the implied &ldquo;It’s&rdquo;). A subtle shift in language was needed, so they changed the label to <em>Please describe the photo</em>. And they updated the options to mirror how people actually talk:</p>
-
-<ul>
-<li>It’s embarrassing</li>
-<li>It’s a bad photo of me</li>
-<li>It makes me sad</li>
-</ul>
-
-
-<p>With this subtle change, they were able to increase the percentage of photo reporters who chose one of the options provided to a whopping 78%.</p>
-
-<p>Sometimes we feel compelled to create forms that are very clinical. In the survey world we’re often taught to limit the &ldquo;personality&rdquo; of our forms in order to avoid influencing the responses.</p>
-
-<p>That said, we need to remember that we are authoring interfaces that will be used by actual people. When we are creating forms that don’t require that kind of scientific rigor, we can (and should) do whatever we can to make the interaction more human.</p>
-
-<p>Ask real questions: <em>What’s your name?</em>, <em>What’s your email?</em>, and <em>How would you prefer we contact you?</em> are far more friendly than <em>Name</em>, <em>Email</em>, and <em>Contact Preference</em>.</p>
-
-<p>A little thoughtful consideration for the people who need to fill in your form goes a long way toward making them feel at ease and also helps to ensure the feedback you receive is accurate, valuable, and actionable.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Who Should Pay?]]></title>
-    <link href="http://aaron-gustafson.com/notebook/who-should-pay/"/>
-    <updated>2015-02-18T23:35:06-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/who-should-pay</id>
-    <content type="html"><![CDATA[<p>In more than a handful of conversations lately, it’s become quite clear that we, the web development community, are prioritizing our own convenience and our own time over that of our users. With our industry’s focus on “user-centered design”, you might find that hard to believe, but it’s true.</p>
-
-<!-- more -->
-
-
-<p>Here’s one example. In reaction to <a href="/notebook/css-variables-are-a-bad-idea/">my post on why I think CSS variables are a bad idea</a>, <a href="http://sass-lang.com">SASS</a> core team member <a href="https://twitter.com/chriseppstein/">Chris Eppstein</a> had this to say:</p>
-
-<p><div class='embed tweet'>Tweet could not be processed</div></p>
-
-<p>Fundamentally, I agree with his sentiment: A preprocessor should <em>not</em> be a requirement for authoring CSS. Thankfully, <em>it never was</em>; you can build amazing things using only hand-authored CSS. And if you find a preprocessor helpful to your process for one reason or another, great. But using a preprocessor never has been (nor should it ever be) a requirement.</p>
-
-<p>But Chris was not railing against preprocessors. Instead, he is echoing a sentiment held by many people in the preprocessor community. He feels CSS is not as powerful as it could/should be and he hopes that one day soon preprocessors won’t need to exist because CSS will have all of the features they offer natively. Like variables.</p>
-
-<p>I used to feel that way. I used to want variables… and mixins… and functions… and loops… and declaration block-level inheritance. But I’ve changed my mind.</p>
-
-<p>Don’t get me wrong, I love these constructs. I use them nearly every day in the SASS I write and I am incredibly thankful for the hard work that has gone into their creation and maintenance.  Chris alone has probably saved me several weeks worth of work over the last four years through his contributions to SASS and <a href="http://compass-style.org/">Compass</a>. I definitely owe him a beer (or three).</p>
-
-<p>Ok, so if my issue is not with the idea of programmatically generating styles, why would I not want these to be part of CSS, the <i>lingua franca</i> for design on the Web? Well, it’s pretty simple: Converting all of these constructs into something that is actionable by the browser takes time and processing power. Someone has to pay that cost and I wouldn’t feel right passing that cost on to my end users if there are better options.</p>
-
-<p>This is a topic I bring up often in my conference talks and workshops: Every decision we make affects the user experience in some way.</p>
-
-<p>When we add another JavaScript library or plugin, it’s no big deal from our perspective. We tend to have fast connections and faster processors. For our users it’s another story: It’s one more thing to request. One more thing to download. One more script to parse. One more thing holding up page rendering. One more reason to leave our site and seek out a competitor who actually values their time.</p>
-
-<p>When we hide an <code>img</code> in the small screen version of our responsive design using <code>display: none</code>, the cost to us is quite minimal. It’s just one little declaration. What’s the harm? But the cost to our end users is quite significant: Longer load times, slower performance, and (in some cases) in real dollars if they are on a <a href="http://blog.kaspersky.com/cost-aware/">metered data connection</a>. And they don’t even get to see the image they paid for!</p>
-
-<p>When we decide to build a site using a front-end JavaScript MVC framework, it can make the development process go so much faster for us and we can reduce our need for a robust back-end infrastructure. I mean everyone has JavaScript these days… <a href="/notebook/a-fundamental-disconnect/">the browser is the new VM</a>. But when we do this, our users suffer because we don’t give their browsers real HTML. Instead we force them to download a hefty framework so we can move all of the processing we would normally handle on a much faster, dedicated server to their questionably-capable machine instead. Oh, and if the browser encounters an error while parsing or executing the JavaScript execution, they don’t get anything at all. Welcome to the Modern Web™!</p>
-
-<hr>
-
-
-<p>When I look around, I see our community spending a lot of time coming up with new tools and techniques to make our jobs easier. To ship faster. And it’s not that I’m against efficiency, but I think we need to consider the implications of our decisions. And if one of those implications is making our users suffer—or potentially suffer—in order to make our lives easier, I think we need to consider their needs above our own.</p>
-
-<p>So yes, I would love a world where preprocessors are unnecessary, but I would much rather spend a few seconds (or even a few minutes) transcompiling my SASS into CSS in order to save my users even a few milliseconds. It’s the same reason I optimize my images, minify my JavaScript, use Gzip, and lazy load design and experience enhancements only in contexts where they provide a real benefit.</p>
-
-<p>Our users should never foot the bill for our convenience. We need to put their needs above our own.</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Three Worthwhile Posts on Progressive Enhancement]]></title>
@@ -351,6 +146,97 @@
 <p>So Monday starts a new chapter in my career. It’s a little scary (I haven’t worked for someone else for over a decade), but it is also exciting. I am comforted by the fact that I am joining an amazing team: As he announced yesterday, <a href="http://christianheilmann.com/2015/01/29/on-towards-my-next-challenge-2/">Christian Heilmann will also join Microsoft on the 2nd</a> and the <a href="https://www.youtube.com/watch?v=YAIPCp_BOGU">charismatic Rey Bango</a> will be leading our merry little conga line.</p>
 
 <p>I’m excited about the future and I’m thrilled to be given the opportunity to focus on making the Web better… for everyone.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The One Weird Trick That Takes the Pain Out of Cross-browser Testing]]></title>
+    <link href="http://aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing/"/>
+    <updated>2015-01-26T11:24:25-05:00</updated>
+    <id>http://aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing</id>
+    <content type="html"><![CDATA[<p>Love this!</p>
+
+<p><div class='embed tweet'>Tweet could not be processed</div></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Sending Birthday Well-wishes to Molly]]></title>
+    <link href="http://aaron-gustafson.com/notebook/sending-birthday-well-wishes-to-molly/"/>
+    <updated>2015-01-25T10:20:25-05:00</updated>
+    <id>http://aaron-gustafson.com/notebook/sending-birthday-well-wishes-to-molly</id>
+    <content type="html"><![CDATA[<p>Today is the birthday of an amazing woman, <a href="http://molly.com">Molly Holzschlag</a>, and she needs our help!</p>
+
+<!-- more -->
+
+
+<p>If you’re relatively new to the Web, you may not recognize her name, but you are benefiting from her legacy. You see, Molly has been a force of nature on the Web for the better part of two decades. She was an <a href="https://web.archive.org/web/20000229205046/http://www.molly.com/molly/news.html">early blogger</a>. She was our fearless leader at the <a href="http://webstandards.org">Web Standards Project</a> for three years. <a href="http://www.amazon.com/gp/search?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;index=books&amp;keywords=molly%20holzschlag&amp;linkCode=ur2&amp;tag=easydesign-20&amp;linkId=BDCVT2YGNT7BNCHR">Molly wrote <em>35 books</em> on Web design, CSS, and other Web standards-related topics</a>. She’s presented at conferences the world over and educated thousands of Web designers and developers during her tenure. And Molly was way ahead of us when it came to understanding the Web:</p>
+
+<blockquote><p>Everyone has something to contribute to the World Wide Web. Why? Because the Web is of us. Whatever we are as humans is now manifest in the Web: Our beauty, hatred, fragility and ferocity; our kindness, cruelty, confusion and clarity. Our wars. Our peace.</p></blockquote>
+
+<p>You might think that with all this acclaim, Molly must be pretty well off. Well, that’s not the case. Molly was far more concerned about the good of the Web than fancy jobs, lofty titles, and hefty paychecks. She did much of her work for free. In fact, she even ran a free &ldquo;train the trainer&rdquo; camp wherein she hosted a group of college-level educators <em>at her home</em> to get them up to speed on what they needed to know and what they should be teaching the next generation of Web designers.</p>
+
+<p>I met Molly in 2003 when I was invited to speak at COMDEX. It was my first conference talk (and professional speaking gig) ever. I gave a talk on XHTML and she same up and complimented me on it. I had been incredibly nervous, so hearing someone so experienced compliment me on my material, it relieved my stress and made me feel better about by performance. And when she asked me to join her on stage for her next talk—her co-presenter Eric Meyer had to cancel last-minute—I was overjoyed. I don’t know that I added much to her CSS discussion, but I was so appreciative when she took me under her wing.</p>
+
+<p>In 2005 we shared the stage again as we went on a five-city tour, giving 3 days of in-depth HTML, CSS, and JavaScript workshops. I learned a ton from Molly about presenting and she became the big sister I never had. My champion. My mentor.</p>
+
+<p>I know I am not the only one with a story like this. Molly has touched so many Web designers’ and developers’ lives—both directly and indirectly—with her knowledge, compassion, and mentorship.</p>
+
+<p>In 2013, Molly fell ill at a Web conference. She’s spent the last two years in recovery from intense chemotherapy and the damage it did to her body. She is incredibly weak, unable to work, and needs our help to pay for her basic living and medical expenses. So I ask you: Please dig deep and contribute to <a href="http://www.gofundme.com/ThanksMols">the GoFundMe campaign</a> Kimmie Blessing has set up on her behalf.</p>
+
+<p>For all that Molly has done for us, let’s <a href="http://www.gofundme.com/ThanksMols">do something for her</a>.</p>
+
+<p>Happy birthday Molly! We love you, miss you, and hope you come back to us soon!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Competing on “Chrome”]]></title>
+    <link href="http://aaron-gustafson.com/notebook/competing-on-chrome/"/>
+    <updated>2015-01-21T15:20:40-05:00</updated>
+    <id>http://aaron-gustafson.com/notebook/competing-on-chrome</id>
+    <content type="html"><![CDATA[<p>Watching the <a href="http://news.microsoft.com/windows10story/">Windows 10 announcement</a> today and the “unveiling” of its new browser, codenamed “Project Spartan”, I was amazed… not by what was said so much as what wasn’t.</p>
+
+<!-- more -->
+
+
+<p>Let me back up a bit here. As many of you know, I’ve been working on the Web for a long time and, like many old codgers, lived through the first browser wars and remember not only the unveiling of Internet Explorer 6—which was pretty amazing for its time—but I also worked on the Web for the entire 5 years that browser sat on the shelf.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+
+<p>By the time Internet Explorer 7 came out in late 2006, there had been a number of advancements on the Web. And there was more competition for user and developer mindshare. Safari popped up shortly after IE6’s launch and was gaining traction on the Mac with its port of Konqueror’s layout engine, KHTML, which they renamed WebKit. Netscape was in it’s death throes, but Firefox arose from the ashes<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> and was capturing an ever-growing share of the market with its improved security, extensibility through browser plug-ins, and tabbed browsing. Not only that, but the Mozilla core of Firefox had also been spun into several other browsers that were similarly taking off: Camino, Flock, SeaMonkey, Galeon, and Epiphany. And then, of course, the Opera browser was still going strong on the desktop and growing rapidly in the mobile space.<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup></p>
+
+<p>When IE7 finally made it out into the world, developers were at peak frustration when it came to dealing with standards-compatibility issues in IE. So it’s no surprise that the messaging focus for IE7 was, at least in terms of the Web designer/developer audience, focused on <a href="http://www.zdnet.com/article/ie7-and-standards-compliance-microsofts-chris-wilson-charts-progress/">apologizing for the past and promising that they cared about (and were supporting) interoperable Web standards</a>.</p>
+
+<p>And this was an earnest sentiment, it wasn’t bullshit. I remember <a href="https://twitter.com/cwilso">Chris Wilson</a>—then Platform Architect of Internet Explorer Platform team—telling me he had personally printed out <a href="http://www.w3.org/TR/CSS2/">the entire CSS 2.1 spec</a> and put it on the desk of each developer working on Trident, the browser’s rendering engine.</p>
+
+<p>And IE7, for all of its faults, was an improvement over IE6. A few years later, IE8 was an improvement over that. And, a little later, IE9 gave us a completely reborn Internet Explorer, largely free of the layout and rendering quirks we had earned so much grey hair fighting. And so on. And so on. But all the while, the drumbeat from the IE team was this: Now with more standards support!</p>
+
+<p>And it wasn’t just IE that was making this claim. Other browsers began to tout their support of one particular standard or another that the others didn’t in hopes of getting developers to pay more attention to them.</p>
+
+<p>Some time before the launch of IE8, I remember having a conversation with Chris Wilson over drinks at a conference. We talked at length about the state of Web standards, browsers, and the like. During the course of our chat, he offered up his dream:</p>
+
+<blockquote><p>I’ll be happy when browsers stop competing on standards support and start competing on chrome.<sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup></p></blockquote>
+
+<p>It stuck with me because what he was saying made a lot of sense: Standards-compliance should be a given; browsers should be competing on the extra stuff they offer.</p>
+
+<p>Which brings me back to today’s announcement. Standards-compliance wasn’t mentioned<sup id="fnref:5"><a href="#fn:5" rel="footnote">5</a></sup> by <a href="https://twitter.com/joebelfiore">Joe Belfiore</a> in his walkthrough of “Project Spartan”. Instead, Joe focused on the value adds in the browser: in-app note taking, a focused reading mode, cross-device synchronization, and Cortana integration.</p>
+
+<p>This is a major milestone for IE in my opinion and it makes me wonder if we’ve finally reached the place that Chris dreamed about all those years ago. I certainly hope so.</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>I was told that, internally, decision-makers felt the browser was “done” and there would be no more advancements on the Web that would require a new browser.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<li id="fn:2">
+<p>An apt metaphor, Firefox was originally Phoenix, then later Firebird, before eventually becoming Firefox. <a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+<li id="fn:3">
+<p>You may not realize it, but Opera Mobile predated even IE6. And it’s Opera Mini variant touts big numbers too: In April 2014, there were over 267 million Opera mobile browser users (244 million of whom used Opera Mini) and Opera Mini users viewed over 177 billion pages in that same month. (<a href="http://www.operasoftware.com/smw/2014-04">Source</a>)<a href="#fnref:3" rev="footnote">&#8617;</a></p></li>
+<li id="fn:4">
+<p>The Chrome browser, from Google, did not exist at this time. By &ldquo;chrome&rdquo; he meant the window around a webpage—it toolbars, buttons, menus, and other browser-based functionality.<a href="#fnref:4" rev="footnote">&#8617;</a></p></li>
+<li id="fn:5">
+<p>The only phrases that even hint at standards compliance were “modern Web” and “a new rendering engine… that is compatible with how the Web is written today” (starting at around 59:05 in <a href="https://ll.ms-studiosmedia.com/events/2015/1501/Windows10CP/live/Windows10CP.html?title=Windows10CP-mscom">the video</a>).<a href="#fnref:5" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
 ]]></content>
   </entry>
   
