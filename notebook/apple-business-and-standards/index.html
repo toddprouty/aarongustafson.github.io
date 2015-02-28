@@ -1,0 +1,513 @@
+
+<!DOCTYPE html>
+<html id="aaron-gustafson_com" lang="en" dir="ltr">
+
+	<head>
+
+	<meta charset="utf-8">
+	
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+		<meta http-equiv="cleartype" content="on">
+	<![endif]-->
+	
+	
+
+
+
+<title>Apple, Business, and Standards, From the Notebook of Aaron Gustafson</title>
+<meta property="og:title" content="Apple, Business, and Standards, From the Notebook of Aaron Gustafson">
+
+<meta property="og:url" content="http://aaron-gustafson.com/notebook/apple-business-and-standards/">
+
+<meta name="author" content="Aaron Gustafson">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Aaron Gustafson">
+<meta property="og:image" content="http://aaron-gustafson.com/i/og-logo.png">
+<meta property="og:locale" content="en_US">
+
+<meta property="og:description" content="With Pointer Events now officially a W3C Recommendation, Apple is playing the role of the Web standards and interoperability party pooper.">
+<meta name="description" content="With Pointer Events now officially a W3C Recommendation, Apple is playing the role of the Web standards and interoperability party pooper.">
+
+<!-- Twitter -->
+<meta name="twitter:card" value="summary"/>
+<meta name="twitter:site" value="@AaronGustafson"/>
+
+
+
+<link href="/atom.xml" rel="alternate" title="Posts and Links From the Notebook of Aaron Gustafson" type="application/atom+xml">
+<link href="/atom-latest-posts.xml" rel="alternate" title="Posts From the Notebook of Aaron Gustafson" type="application/atom+xml">
+<link href="/atom-latest-links.xml" rel="alternate" title="Links From the Notebook of Aaron Gustafson" type="application/atom+xml">
+
+<meta name="revisit-after" content="7 days">
+<meta name="ROBOTS" content="index,follow">
+<meta name="robots" content="NOODP">
+
+<link href="https://plus.google.com/+AaronGustafson?rel=author" rel="publisher">
+<meta property="fb:admins" content="100002880350996">
+
+<link rel="pingback" href="http://webmention.io/aaron-gustafson.com/xmlrpc" />
+<link rel="webmention" href="http://webmention.io/aaron-gustafson.com/webmention" />
+
+
+
+
+	
+	<link href="/favicon.png" rel="icon">
+	
+	
+
+<link rel="stylesheet" href="/c/default.css" media="screen">
+<!--[if gt IE 8]><!-->
+	<link rel="stylesheet" href="/c/advanced.css" media="screen">
+<!--<![endif]-->
+<!--[if (IE 8)&(!IEMobile)]>
+	<link rel="stylesheet" href="/c/old-ie.css" media="screen">
+<![endif]-->
+<link rel="stylesheet" href="/c/print.css" media="print">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+	
+	
+
+<script>
+	(function(d){var config={kitId:'jje3afr',scriptTimeout:3000},h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config);}catch(e){}};s.parentNode.insertBefore(tk,s);})(document);
+</script>
+
+
+
+	
+	<script type="text/javascript">
+		function _kms(e){setTimeout(function(){var t=document,n=t.getElementsByTagName("script")[0],r=t.createElement("script");r.type="text/javascript";r.async=true;r.src=e;n.parentNode.insertBefore(r,n)},1)}var _kmq=_kmq||[];var _kmk=_kmk||"f0d52d1a61f4cb2f69aa62a6c07c049f7ae815b6";_kms("//i.kissmetrics.com/i.js");_kms("//doug1izaerwt3.cloudfront.net/"+_kmk+".1.js")
+	</script>
+
+	
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-176472-5', 'http://aaron-gustafson.com');
+		ga('send', 'pageview');
+	</script>
+
+
+
+
+
+</head>
+
+
+	<body  >
+
+		
+
+		<div class="alert"><strong>This site is <a href="/notebook/a-grand-experiment/">undergoing an open redesign</a>, so if it looks strange, that’s why.</strong></div>
+		
+		<header role="banner" class="banner">
+	<div class="layout-container">
+		<h1><a href="/">Aaron Gustafson</a></h1>
+		
+			<h2>Web Design Author, Evangelist, Practitioner, and Teacher</h2>
+		
+	</div>
+</header>
+		
+		<main role="main">
+			
+			
+
+<div class="layout-container">
+	<article role="article" class="layout-container__primary h-entry">
+		<div class="entry">
+			<header class="entry__header">
+		     	<h1 class="entry__title p-name">Apple, Business, and Standards</h1>
+			
+				
+					<p class="entry__meta">
+		        		This will take 10 minutes to read
+
+						
+							| <a href="#disqus_thread" data-disqus-identifier="http://aaron-gustafson.com/notebook/apple-business-and-standards/">Comments</a>
+							| <a href="#webmentions">Webmentions</a>
+		        		
+		      		</p>
+		    	
+		  	</header>
+	
+			
+
+			<div class="entry__content e-content">
+				<p>At <a href="http://www.codeandcreativity.com/events/2015-02-24">Tuesday night’s Code &amp; Creativity</a>, digital governance expert <a href="https://twitter.com/lwelchman">Lisa Welchman</a> equated digital projects to an atom. Content, IA, project management, networking, graphic design, application development, performance, and other concerns are flying this way and that like electrons—a swirling mass of energy and velocity. What holds this chaos together and keeps the electrons from flying off in all directions is the magnetic pull of protons in the nucleus of the atom.</p>
+
+<!-- more -->
+
+
+
+
+<figure id="fig-2015-02-26-01" class="media-container">
+    <img src="/i/posts/2015-02-26/atom-sm.jpg"
+         srcset="/i/posts/2015-02-26/atom-lg.jpg 800w, /i/posts/2015-02-26/atom-sm.jpg 320w"
+         alt="A slide from Lisa Welchman’s talk showing Web Standards and KPI at the center of the project “atom”."
+         >
+</figure>
+
+
+<p>In Lisa’s analogy, the protons of a digital project are Web standards and Key Performance Indicators (KPIs). She believes that without these key ingredients, projects will often career out of control. Her reasoning? We all need to know how we should be doing things in order to work together well (Web standards) and we need to know what our expectations are for the project to be successful (KPI).</p>
+
+<p>This really resonated with me. Mainly, it resonated because I am a Web standards guy, but I also believe in the importance of standards across the board. I think projects need copywriting standards, design standards, performance standards, coding standards, and many other kinds of standards as well. Standards hold a project together. For real.</p>
+
+<p>That’s why <em>Web</em> standards are so important.</p>
+
+<p>Without standards, the Web was <a href="http://en.wikipedia.org/wiki/Browser_wars">an unruly mass of spaghetti code</a>.  I started working on the Web in 1996. I know, I lived it.</p>
+
+<p>We used to deliver separate browser-specific JavaScript and CSS files to different User Agents. Our HTML code had to be 3-4 times as hefty to support all of the various ways browsers had decided to implement the same features. It was horrible and made building anything remotely interesting a truly painful endeavor.</p>
+
+<p>Then browser makers got together to codify HTML into a generally agreed-upon set of elements and attributes that would allow authors like me to write pages that would Just Work™. That work extended into CSS, and so on, and so forth. I can’t thank them enough for doing that.</p>
+
+<p>Tuesday also saw the W3C officially make <a href="http://www.w3.org/TR/pointerevents/">Pointer Events</a> a recommendation. I’d always liked the idea of Pointer Events because it abstracts the traditional concept of a click into a generic interaction that could be triggered by a mouse, a finger, a pen, an eye movement, or any other interaction method we come up with in the future. Sure, I work for Microsoft now—they proposed this idea—but that isn’t the reason I like the concept. I like it because it doesn’t tie us down to a single way of interacting with Web content that necessitates the creation of new specs when new interaction methods are invented. It’s future friendly and embraces the &ldquo;continuum of experience&rdquo; I evangelize incessantly.</p>
+
+<p>When Pointer Events were first proposed, there was a lot of support behind them. Obviously Microsoft was on board, but Mozilla was too. And Google was all about Pointer Events for a while and was already using them when <a href="https://code.google.com/p/chromium/issues/detail?id=162757#c64">they did an abrupt  about-face and decided they were ripping them out of Blink in favor of overhauling Touch Events</a> (which Apple supports and which Pointer Events were intended to supersede).</p>
+
+<p>And so now we have a recommendation from the W3C that browsers implement Pointer Events. <a href="http://blog.jquery.com/2015/02/24/getting-on-point/">Developers want them</a> and it seems Apple doesn’t. And because Apple doesn’t want them, Google doesn’t want them now either. To quote Rick Byers (of Google) in <a href="https://lists.w3.org/Archives/Public/public-pointer-events/2014JulSep/0071">a Pointer Events meeting in late 2014</a>:</p>
+
+<blockquote><p>No argument that PE is more elegant. If we had a path to universal input that all supported, we would be great with that, but not all browsers will support PE. If we had Apple on board with PE, we&rsquo;d still be on board too. The equation has shifted for us.</p></blockquote>
+
+<p>So, effectively, Apple is holding the Web back. <a href="https://twitter.com/tkadlec">Tim Kadlec</a> wrote <a href="http://timkadlec.com/2015/02/apples-web/">a great piece discussing the core issue at play here</a>:</p>
+
+<blockquote><p>Let’s set any opinions about Pointer Events aside. Frankly, I need to do a <em>lot</em> more digging here before I have any sort of strong opinion in one direction or another. There is a bigger issue here. We have a recurring situation where all vendors (save for Apple) show interest in standard, but because Apple does not express that same interest, the standard gets waylaid.</p></blockquote>
+
+<figure id="fig-2015-02-25-02" class="media-container media-container--right">
+    <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Yin_yang.svg/200px-Yin_yang.svg.png"
+         srcset="http://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Yin_yang.svg/800px-Yin_yang.svg.png 800w, http://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Yin_yang.svg/400px-Yin_yang.svg.png 400w, http://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Yin_yang.svg/200px-Yin_yang.svg.png 200w"
+         alt="Yin and yang."
+         >
+</figure>
+
+
+<p>This whole thing has caused quite a kerfuffle in the Web community. Obviously, some people are demonizing Apple (and, by proxy, Google) for holding us back. Others are quick to excuse Apple because of their history of pushing the Web forward (see CSS transitions, animations, etc.).<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> Personally, I don’t think anything is ever truly black and white. Every company does some good things and some bad things. To channel Lisa Welshman again, it’s like yin and yang: The light has a little bit of the dark in it, and the dark has a little bit of the light in it.</p>
+
+<p>Generally, I’ve found that Apple tends to do what is best for Apple, without considering how it affects designers, developers, or the Open Web. On this issue however, I just haven’t figured out their angle yet.</p>
+
+<p>Some of their past decisions have offered a clear view into their motivations. Take offline for instance. Apple supports the <a href="http://www.w3.org/TR/html5/browsers.html#offline">Application Cache API</a> (as <a href="http://caniuse.com/#feat=offline-apps">most modern browsers do</a>), but there’s a catch: You can’t store audio files in the cache. That makes it nearly impossible to build a decent game in HTML because you won’t get sound effects if you aren’t connected to the Web. But for Apple it makes perfect sense: They sell games in the App Store.</p>
+
+<p>Their motivations behind other decisions are more murky, however. For example, Safari implements the <a href="https://html.spec.whatwg.org/multipage/forms.html#client-side-form-validation">HTML5 Form Validation API</a>, which means it knows if a field is valid or invalid. The catch? It won’t halt the submission of an invalid form. <a href="http://caniuse.com/#search=form%20validation">Every other modern browser acts as you’d expect.</a><sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> I don’t get it. I used to think/hope they just had not figured out how they wanted to handle notifying the user of the error, but it’s been like this for about 5 years.</p>
+
+<p>I’ll let Tim jump in again here:</p>
+
+<blockquote><p>Apple has a very, very strong influence over what standards get adopted and what standards do not. Partly it’s market share, partly it’s developer bias (see, for example, how other vendors eventually felt forced to start supporting the <code>webkit</code> prefix due to vendor prefix abuse).</p>
+
+<p>Apple simply does not play well with other vendors when it comes to standardization. The same sort of things we once criticized Microsoft for doing long ago, we give Apple a pass on today. They’re very content to play in their own little sandbox all too often.</p></blockquote>
+
+<p>He’s channeling <a href="https://adactio.com/journal/5442/#comment438">a bit of Remy Sharp there</a> (circa 2012):</p>
+
+<blockquote><p>When are we, as a web development community, going to stop giving Apple a free fucking pass?</p>
+
+<p>They’re consistently lacking in the open discussion in to improving the gateway to the web: the browser. Sure, they landed an impressive mobile browsing experience back when the iPhone launched and it’s a great device, but there’s some serious questioning about whether they’re purposely cock-blocking web development and purposely hindering our advancement as a web industry.</p>
+
+<p>WebGL is in mobile Safari, yet only available if accessed via a WebView object, not the real Safari (which is a WebView anyway…). It was recently discovered that they moved all web data storage (Web Storage, Appcache, etc) in a temporary data store meaning that it can be wiped at any time without warning.</p>
+
+<p>Even the mighty PPK who tells entire browser vendors “fuck you”, doesn’t call Apple out, allowing them to slither on.</p>
+
+<p>Why is it we continue to allow Apple to get away with it? And can this ever change?</p></blockquote>
+
+<p>As Tim points out, Apple certainly isn’t the only company that plays games when it comes to standards:</p>
+
+<blockquote><p>The other vendors aren’t exactly perfect either. The Microsoft folks, no doubt reeling from all the negativity aimed at them over the years, have more than once been content to let everyone else duke it out over a standard, only getting involved late when a consensus has been reached. The Blink folks, despite being the best positioned to take a stand, have been happy to play the “Apple won’t do it so I guess we won’t either” card on multiple occasions.</p></blockquote>
+
+<p>But he’s also quick to highlight the disappointing reality about Apple with respect to the other browser vendors:</p>
+
+<blockquote><p>It’s easy to reach the Mozilla, Google and Microsoft folks to discuss their thoughts on these emerging standards. That’s a much harder thing to do with the Apple crew.</p></blockquote>
+
+<p>Apple is very much a black box and their processes are incredibly opaque. Now I’m no hater, I use their products daily.<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup>, but I am also not an apologist. I think relationships are improved with honesty and openness. I honestly wish Apple’s processes—at least when it comes to the Web—were more open.<sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup> Heck, they often don’t even show up to meetings at the W3C. If we knew what they were thinking or why they were doing things, we could at least understand where they were coming from rather than having to speculate about their motivations. Whether we agree or not is irrelevant.</p>
+
+<p>Regardless, we are where we are and I can’t help but wonder one thing: <em>If we stop giving Apple a free pass and continue marching forward without them, will they eventually be forced to scramble to catch up like Microsoft did when IE6 sat on the shelf for so long?</em> I don’t know what the answer is, but I sincerely hope they come around and begin to treat the Web with the respect it deserves before that happens.</p>
+
+<p>When browsers refuse to implement Web standards, we all lose. And we take one step closer to the swirling pit of chaos and spaghetti code we thought we’d put behind us.</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>All of which were (in true Apple style) developed in secret and then bestowed upon the world in a grand spectacle.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<li id="fn:2">
+<p>Ok, Opera Mini doesn’t, but Opera Mini is also a different sort of browser. It is a proxy browser and the proxy handles all of the back and forth between the browser and the website’s origin server(s).<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+<li id="fn:3">
+<p>I am composing this post on a Mac… provided by Microsoft. Yes, you read that correctly.<a href="#fnref:3" rev="footnote">&#8617;</a></p></li>
+<li id="fn:4">
+<p>I have felt the same way about Microsoft for years because I knew the great work they were doing behind the curtains. Part of the reason <a href="/notebook/ch-ch-ch-changes/">I joined them earlier this month</a> was because they have been opening up and I want to encourage and nurture that.<a href="#fnref:4" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+
+			</div>
+
+			<footer class="entry__footer">
+				
+					
+
+<p class="entry__sharing">If you liked this, would you mind sharing it?
+	<a class="share_link share_link--twitter" href="https://twitter.com/intent/tweet?original_referer=http://aaron-gustafson.com/notebook/apple-business-and-standards/&amp;source=tweetbutton&amp;text=Apple,+Business,+and+Standards&amp;url=http://aaron-gustafson.com/notebook/apple-business-and-standards/">Share on Twitter</a>
+	<a class="share_link share_link--facebook" href="http://www.facebook.com/sharer.php?u=http://aaron-gustafson.com/notebook/apple-business-and-standards/">Post on Facebook</a>
+	<a class="share_link share_link--linkedin" href="https://www.linkedin.com/cws/share?url=http://aaron-gustafson.com/notebook/apple-business-and-standards/&amp;original_referer=http://aaron-gustafson.com/notebook/apple-business-and-standards/">Share on LinkedIn</a>
+	<a class="share_link share_link--googleplus" href="https://plus.google.com/share?url=http://aaron-gustafson.com/notebook/apple-business-and-standards/">Share on Google+</a>
+</p>
+			    
+
+				<p class="entry__meta">
+					This entry was posted on 
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+		<time class="dt-published" datetime="2015-02-26T10:44:40-05:00">26 February 2015</time> 
+					<b class="hidden">by <a class="p-author h-card" href="/about">Aaron Gustafson</a></b>
+					
+					and was filed under: 
+
+
+	<span class="post__categories">
+		
+			<a class='category p-category' href='/notebook/tags/business/'>business</a>, <a class='category p-category' href='/notebook/tags/interoperability/'>interoperability</a>, <a class='category p-category' href='/notebook/tags/web-design/'>web design</a>, <a class='category p-category' href='/notebook/tags/web-standards/'>web standards</a>
+		
+	</span>
+
+
+					
+				</p>
+			</footer>
+
+			
+				<hr>
+
+				<section id="disqus" class="entry__comments">
+					<h1>Comments</h1>
+					<div id="disqus_thread" aria-live="polite">
+						<noscript>
+	<div class="nojs-fallback">
+		<p>Sadly, I have not had the time to build a JavaScript-less implementation of the Disqus API yet, so you can’t comment. It’s a bummer. I really wanted to hear your thoughts.</p>
+	</div>
+</noscript>
+
+					</div>
+				</section>
+			
+		
+			<hr>
+
+			<section id="webmentions" class="entry__comments">
+				<h1>Webmentions</h1>
+				
+
+
+
+
+	<div class="webmentions"><ol class="webmentions__list"><li id="webmention-16014" class="webmentions__item"><article class="h-cite webmention webmention--author-starts webmention--title-only"><div class="webmention__author p-author h-card"><a class="u-url" href="http://www.raymondcamden.com/"><img class="webmention__author__photo u-photo" src="https://twitter.com/raymondcamden/profile_image?size=original" alt="" title="Raymond Camden"><b class="p-name">Raymond Camden</b></a></div><div class="webmention__title p-name"><a href="https://twitter.com/raymondcamden/status/571032204014284801">Raymond Camden retweeted this.</a></div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2015-02-26T14:41:01-05:00">26 February 2015</time></div></article></li><li id="webmention-16016" class="webmentions__item"><article class="h-cite webmention webmention--author-starts webmention--title-only"><div class="webmention__author p-author h-card"><a class="u-url" href="https://twitter.com/soilysound"><img class="webmention__author__photo u-photo" src="https://twitter.com/soilysound/profile_image?size=original" alt="" title="Soily Sound"><b class="p-name">Soily Sound</b></a></div><div class="webmention__title p-name"><a href="https://twitter.com/AaronGustafson/status/570984380488925184">Soily Sound favorited this.</a></div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2015-02-26T14:48:24-05:00">26 February 2015</time></div></article></li><li id="webmention-16015" class="webmentions__item"><article class="h-cite webmention webmention--author-starts webmention--title-only"><div class="webmention__author p-author h-card"><a class="u-url" href="https://twitter.com/matgutting"><img class="webmention__author__photo u-photo" src="https://twitter.com/matgutting/profile_image?size=original" alt="" title="Matt Gutting"><b class="p-name">Matt Gutting</b></a></div><div class="webmention__title p-name"><a href="https://twitter.com/matgutting/status/571033727729582081">Matt Gutting retweeted this.</a></div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2015-02-26T14:47:04-05:00">26 February 2015</time></div></article></li><li id="webmention-16017" class="webmentions__item"><article class="h-cite webmention webmention--author-starts webmention--title-only"><div class="webmention__author p-author h-card"><a class="u-url" href="http://www.timkadlec.com/"><img class="webmention__author__photo u-photo" src="https://twitter.com/tkadlec/profile_image?size=original" alt="" title="Tim Kadlec"><b class="p-name">Tim Kadlec</b></a></div><div class="webmention__title p-name"><a href="https://twitter.com/tkadlec/status/571030928807604225">Tim Kadlec retweeted this.</a></div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2015-02-26T14:35:57-05:00">26 February 2015</time></div></article></li><li id="webmention-16018" class="webmentions__item"><article class="h-cite webmention webmention--author-starts webmention--title-only"><div class="webmention__author p-author h-card"><a class="u-url" href="http://elliotlewis.co.uk/"><img class="webmention__author__photo u-photo" src="https://twitter.com/elliotlewis/profile_image?size=original" alt="" title="Elliot Lewis"><b class="p-name">Elliot Lewis</b></a></div><div class="webmention__title p-name"><a href="https://twitter.com/elliotlewis/status/571033734197190657">Elliot Lewis retweeted this.</a></div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2015-02-26T14:47:06-05:00">26 February 2015</time></div></article></li><li id="webmention-16019" class="webmentions__item"><article class="h-cite webmention webmention--author-starts webmention--title-only"><div class="webmention__author p-author h-card"><a class="u-url" href="https://twitter.com/Denzyl"><img class="webmention__author__photo u-photo" src="https://twitter.com/Denzyl/profile_image?size=original" alt="" title="Denzyl Balram"><b class="p-name">Denzyl Balram</b></a></div><div class="webmention__title p-name"><a href="https://twitter.com/AaronGustafson/status/570984380488925184">Denzyl Balram favorited this.</a></div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2015-02-26T14:48:48-05:00">26 February 2015</time></div></article></li><li id="webmention-16021" class="webmentions__item"><article class="h-cite webmention webmention--author-starts webmention--title-only"><div class="webmention__author p-author h-card"><a class="u-url" href="https://twitter.com/joncrannage"><img class="webmention__author__photo u-photo" src="https://twitter.com/joncrannage/profile_image?size=original" alt="" title="Jonathan Crannage"><b class="p-name">Jonathan Crannage</b></a></div><div class="webmention__title p-name"><a href="https://twitter.com/AaronGustafson/status/570984380488925184">Jonathan Crannage favorited this.</a></div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2015-02-26T14:57:27-05:00">26 February 2015</time></div></article></li><li id="webmention-16025" class="webmentions__item"><article class="h-cite webmention webmention--author-starts webmention--title-only"><div class="webmention__author p-author h-card"><a class="u-url" href="https://twitter.com/estellevw"><img class="webmention__author__photo u-photo" src="https://twitter.com/estellevw/profile_image?size=original" alt="" title="Estelle Weyl"><b class="p-name">Estelle Weyl</b></a></div><div class="webmention__title p-name"><a href="https://twitter.com/AaronGustafson/status/570984380488925184">Estelle Weyl favorited this.</a></div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2015-02-26T16:04:16-05:00">26 February 2015</time></div></article></li><li id="webmention-16026" class="webmentions__item"><article class="h-cite webmention webmention--author-starts webmention--title-only"><div class="webmention__author p-author h-card"><a class="u-url" href="http://www.computerbase.de/"><img class="webmention__author__photo u-photo" src="https://twitter.com/Steffen185/profile_image?size=original" alt="" title="Steffen Weber"><b class="p-name">Steffen Weber</b></a></div><div class="webmention__title p-name"><a href="https://twitter.com/Steffen185/status/571053979494457344">Steffen Weber retweeted this.</a></div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2015-02-26T16:07:33-05:00">26 February 2015</time></div></article></li><li id="webmention-16027" class="webmentions__item"><article class="h-cite webmention webmention--author-starts webmention--title-only"><div class="webmention__author p-author h-card"><a class="u-url" href="https://twitter.com/MarcDrummond"><img class="webmention__author__photo u-photo" src="https://twitter.com/MarcDrummond/profile_image?size=original" alt="" title="Marc Drummond"><b class="p-name">Marc Drummond</b></a></div><div class="webmention__title p-name"><a href="https://twitter.com/AaronGustafson/status/570984380488925184">Marc Drummond favorited this.</a></div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2015-02-26T17:43:42-05:00">26 February 2015</time></div></article></li><li id="webmention-16028" class="webmentions__item"><article class="h-cite webmention webmention--author-starts webmention--title-only"><div class="webmention__author p-author h-card"><a class="u-url" href="https://twitter.com/pwdst"><img class="webmention__author__photo u-photo" src="https://twitter.com/pwdst/profile_image?size=original" alt="" title="Peter Stone-Thompson"><b class="p-name">Peter Stone-Thompson</b></a></div><div class="webmention__title p-name"><a href="https://twitter.com/AaronGustafson/status/570984380488925184">Peter Stone-Thompson favorited this.</a></div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2015-02-26T17:53:54-05:00">26 February 2015</time></div></article></li><li id="webmention-16029" class="webmentions__item"><article class="h-cite webmention webmention--author-starts webmention--title-only"><div class="webmention__author p-author h-card"><a class="u-url" href="https://twitter.com/k_macquarrie"><img class="webmention__author__photo u-photo" src="https://twitter.com/k_macquarrie/profile_image?size=original" alt="" title="Kÿle Macquarrie"><b class="p-name">Kÿle Macquarrie</b></a></div><div class="webmention__title p-name"><a href="https://twitter.com/AaronGustafson/status/570984380488925184">Kÿle Macquarrie favorited this.</a></div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2015-02-26T17:54:01-05:00">26 February 2015</time></div></article></li><li id="webmention-16030" class="webmentions__item"><article class="h-cite webmention webmention--author-starts webmention--title-only"><div class="webmention__author p-author h-card"><a class="u-url" href="http://www.spellacy.net/"><img class="webmention__author__photo u-photo" src="https://twitter.com/Spellacy/profile_image?size=original" alt="" title="Michael Spellacy"><b class="p-name">Michael Spellacy</b></a></div><div class="webmention__title p-name"><a href="https://twitter.com/Spellacy/status/571079672332730368">Michael Spellacy retweeted this.</a></div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2015-02-26T17:49:38-05:00">26 February 2015</time></div></article></li><li id="webmention-16031" class="webmentions__item"><article class="h-cite webmention webmention--author-starts webmention--title-only"><div class="webmention__author p-author h-card"><a class="u-url" href="https://twitter.com/agarzola"><img class="webmention__author__photo u-photo" src="https://twitter.com/agarzola/profile_image?size=original" alt="" title="Alfonso Gómez-Arzola"><b class="p-name">Alfonso Gómez-Arzola</b></a></div><div class="webmention__title p-name"><a href="https://twitter.com/AaronGustafson/status/570984380488925184">Alfonso Gómez-Arzola favorited this.</a></div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2015-02-26T19:11:36-05:00">26 February 2015</time></div></article></li><li id="webmention-16032" class="webmentions__item"><article class="h-cite webmention webmention--author-starts webmention--title-only"><div class="webmention__author p-author h-card"><a class="u-url" href="http://mrkp.co/"><img class="webmention__author__photo u-photo" src="https://twitter.com/agarzola/profile_image?size=original" alt="" title="Alfonso Gómez-Arzola"><b class="p-name">Alfonso Gómez-Arzola</b></a></div><div class="webmention__title p-name"><a href="https://twitter.com/agarzola/status/571097577720041472">Alfonso Gómez-Arzola retweeted this.</a></div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2015-02-26T19:00:47-05:00">26 February 2015</time></div></article></li><li id="webmention-16033" class="webmentions__item"><article class="h-cite webmention webmention--author-starts webmention--title-only"><div class="webmention__author p-author h-card"><a class="u-url" href="https://twitter.com/joegaffey"><img class="webmention__author__photo u-photo" src="https://twitter.com/joegaffey/profile_image?size=original" alt="" title="Joe Gaffey"><b class="p-name">Joe Gaffey</b></a></div><div class="webmention__title p-name"><a href="https://twitter.com/AaronGustafson/status/570984380488925184">Joe Gaffey favorited this.</a></div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2015-02-26T19:47:11-05:00">26 February 2015</time></div></article></li><li id="webmention-16034" class="webmentions__item"><article class="h-cite webmention webmention--author-starts webmention--title-only"><div class="webmention__author p-author h-card"><a class="u-url" href="https://twitter.com/matthewfabb"><img class="webmention__author__photo u-photo" src="https://twitter.com/matthewfabb/profile_image?size=original" alt="" title="Matthew Fabb"><b class="p-name">Matthew Fabb</b></a></div><div class="webmention__title p-name"><a href="https://twitter.com/AaronGustafson/status/570984380488925184">Matthew Fabb favorited this.</a></div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2015-02-26T20:00:06-05:00">26 February 2015</time></div></article></li><li id="webmention-16044" class="webmentions__item"><article class="h-cite webmention webmention--author-starts webmention--title-only"><div class="webmention__author p-author h-card"><a class="u-url" href="https://twitter.com/schneitj"><img class="webmention__author__photo u-photo" src="https://twitter.com/schneitj/profile_image?size=original" alt="" title="Thomas Schneider"><b class="p-name">Thomas Schneider</b></a></div><div class="webmention__title p-name"><a href="https://twitter.com/AaronGustafson/status/570984380488925184">Thomas Schneider favorited this.</a></div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2015-02-27T00:02:42-05:00">27 February 2015</time></div></article></li><li id="webmention-16045" class="webmentions__item"><article class="h-cite webmention webmention--author-starts webmention--title-only"><div class="webmention__author p-author h-card"><a class="u-url" href="https://twitter.com/schneitj"><img class="webmention__author__photo u-photo" src="https://twitter.com/schneitj/profile_image?size=original" alt="" title="Thomas Schneider"><b class="p-name">Thomas Schneider</b></a></div><div class="webmention__title p-name"><a href="https://twitter.com/schneitj/status/571173252770320384">Thomas Schneider retweeted this.</a></div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2015-02-27T00:01:30-05:00">27 February 2015</time></div></article></li></ol></div>
+
+			</section>
+
+		</div>
+	</article>
+	
+	
+		<hr class="rule rule--optional">
+
+		<aside class="layout-container__secondary">
+			
+	    		
+	<div class="module module--about">
+		<p>Hi there. I’m Aaron and I work on the Web. I’m a <a href="/publications/">prolific writer</a>, <a href="/events/">frequent speaker</a>, and <a href="/appearances/">evangelist for web stewardship</a>. I live &amp; work in Chattanooga, <abbr title="Tennessee">TN</abbr>. Want to know more? <a href="/about/">Read on</a>.</p>
+
+	</div>
+
+	
+
+		
+			<section class="module module--events">
+				<h1 class="module__title">Let’s Meet Up</h1>
+				<p>I travel often for conferences. If I’m coming to your city and you’d like to arrange a private training or consultation while I’m there, feel free to <a href="/contact">reach out</a>.</p>
+
+				<ul class="listing listing--events">
+		
+
+		<li class="listing__item listing__item--1 event event--future">
+			<h2 class="listing__item__title event__title">
+				
+					<a href="http://uxim15.uie.com/">UX Mobile Immersion</a>
+				
+			</h2>
+			<p class="listing__item__meta">
+				<b class="event__date">April 2015</b><br>
+				<b class="event__location">Salt Lake City, UT USA</b>
+			</p>
+		</li>
+	
+		
+	
+	
+
+		
+
+		<li class="listing__item listing__item--2 event event--future">
+			<h2 class="listing__item__title event__title">
+				
+					<a href="http://lanyrd.com/2015/convergese/">Converge SE</a>
+				
+			</h2>
+			<p class="listing__item__meta">
+				<b class="event__date">April 2015</b><br>
+				<b class="event__location">Columbia, SC USA</b>
+			</p>
+		</li>
+	
+		
+	
+	
+
+		
+
+		<li class="listing__item listing__item--3 event event--future">
+			<h2 class="listing__item__title event__title">
+				
+					<a href="http://lanyrd.com/2015/bdconf/">Breaking Development</a>
+				
+			</h2>
+			<p class="listing__item__meta">
+				<b class="event__date">June 2015</b><br>
+				<b class="event__location">Nashville, TN USA</b>
+			</p>
+		</li>
+	
+		
+	
+	
+
+		
+
+		<li class="listing__item listing__item--4 event event--future">
+			<h2 class="listing__item__title event__title">
+				
+					<a href="http://www.webdesignday.com/">Web Design Day</a>
+				
+			</h2>
+			<p class="listing__item__meta">
+				<b class="event__date">June 2015</b><br>
+				<b class="event__location">Pittsburgh, PA USA</b>
+			</p>
+		</li>
+	
+		
+					<li class="more"><a href="/speaking-engagements/#future-events">See More<b class="hidden"> Events</b></a></li>
+				</ul>
+			</section>
+		
+	
+	
+
+			
+		
+			
+	
+
+		</aside>
+	
+
+	<script src="/j/post.min.js" async></script>
+</div>
+			
+	    </main>
+	  	
+		<hr class="rule rule--optional">
+		
+		<nav role="navigation">
+	<div class="layout-container">
+
+		<h1 class="hidden">Here’s what you can find on this site:</h1>
+		<ul class="main-navigation">
+			
+				<li><a href="/about/"><b class="hidden">A Bit </b>About<b class="hidden"> Me</b></a></li>
+			
+				<li><a href="/notebook/"><b class="hidden">Entries in My </b>Notebook</a></li>
+			
+				<li><a href="/speaking-engagements/"><b class="hidden">A List of My </b>Speaking<b class="hidden"> Engagements</b></a></li>
+			
+				<li><a href="/publications/"><b class="hidden">A List of My </b>Publications</a></li>
+			
+				<li><a href="/appearances/"><b class="hidden">Links to </b>Interviews<b class="hidden"> I’ve Given</b></a></li>
+			
+				<li><a href="/contact/"><b class="hidden">The Requisite </b>Contact<b class="hidden"> Form</b></a></li>
+			
+			<li><a href="/atom.xml" title="subscribe via RSS">RSS</a></li>
+		</ul>
+
+		
+			<form action="https://www.google.com/search" method="get" role="search">
+				<ol>
+					<li class="search">
+						<label class="hidden">What are you looking for?</label>
+						<input type="search" name="q">
+					</li>
+					<li><button><b class="hidden">Let’s see if </b>Google <b class="hidden">Finds </b>it</button></li>
+				</ol>
+			</form>
+		
+	</div>
+</nav>
+		
+		<hr class="rule">
+		
+		<footer role="contentinfo" class="footer">
+	<div class="layout-container">
+		
+			<p class="footer__fork-me">Did you spot a typo or error? Eesh. <a href="https://github.com/aarongustafson/aarongustafson.github.io/tree/source/source/2015-02-26-apple-business-and-standards.markdown">Would you mind fixing it for me?</a> You’re so awesome.</p>
+		
+		<p class="footer__copyright"><b id="license">The content of this site is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons</a>.</b> <b>The site itself is powered by <a href="http://octopress.org">Octopress</a> and is <a href="https://github.com/aarongustafson/aarongustafson.github.io/">forkable on Github</a>.</b></p>
+	</div>
+</footer>
+		
+	  	
+
+
+	<script>
+		var disqus_shortname = 'aarongustafson',
+		
+			
+			// disqus_developer = 1,
+			disqus_identifier = 'http://aaron-gustafson.com/notebook/apple-business-and-standards/',
+			disqus_url = 'http://aaron-gustafson.com/notebook/apple-business-and-standards/',
+			disqus_script = 'embed.js';
+		
+		(function () {
+			var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+			dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		}());
+	</script>
+
+
+
+	<script src="/j/main.js"></script>
+
+
+
+
+<noscript>
+	<img src="http://nojsstats.appspot.com/UA-176472-5/http://aaron-gustafson.com/notebook/apple-business-and-standards/" alt=""/>
+</noscript>
+
+	
+	</body>
+
+</html>
