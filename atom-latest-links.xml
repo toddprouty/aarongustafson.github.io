@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-03-02T12:41:30-05:00</updated>
+	<updated>2015-03-02T15:52:40-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -15,9 +15,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Accessibility Resources for Developers]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/accessibility-resources-for-developers-technet-articles-united-states-english-technet-wiki/"/>
+				<link href="http://aaron-gustafson.com/notebook/links/accessibility-resources-for-developers/"/>
 				<updated>2015-03-02T12:31:33-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/accessibility-resources-for-developers-technet-articles-united-states-english-technet-wiki</id>
+				<id>http://aaron-gustafson.com/notebook/links/accessibility-resources-for-developers</id>
 				<content type="html"><![CDATA[<p>This is a treasure trove of software development resources—Web and otherwise—compiled by Jeff Petty.</p>
 <p><a rel="full-article" href="http://social.technet.microsoft.com/wiki/contents/articles/28725.accessibility-resources-for-developers.aspx">Read on TechNet Wiki&nbsp;&rarr;</a></p>]]></content>
 			</entry>
