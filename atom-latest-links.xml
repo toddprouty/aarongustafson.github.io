@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-02-27T19:58:44-05:00</updated>
+	<updated>2015-03-02T12:41:30-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Accessibility Resources for Developers]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/accessibility-resources-for-developers-technet-articles-united-states-english-technet-wiki/"/>
+				<updated>2015-03-02T12:31:33-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/accessibility-resources-for-developers-technet-articles-united-states-english-technet-wiki</id>
+				<content type="html"><![CDATA[<p>This is a treasure trove of software development resources—Web and otherwise—compiled by Jeff Petty.</p>
+<p><a rel="full-article" href="http://social.technet.microsoft.com/wiki/contents/articles/28725.accessibility-resources-for-developers.aspx">Read on TechNet Wiki&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -265,23 +276,6 @@
 
 <p>For similar content on this site, see <a href="http://aaron-gustafson.com/notebook/the-web-is-for-everyone/">my keynote from A11yQC</a> and <a href="http://aaron-gustafson.com/notebook/egalitarianism/">my post on egalitarianism</a>.</p>
 <p><a rel="full-article" href="http://alistapart.com/article/reframing-accessibility-for-the-web">Read on A List Apart&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[You’re Missing the Point of Server-Side Rendered JavaScript Apps]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/youre-missing-the-point-of-server-side-rendered-javascript-apps/"/>
-				<updated>2015-02-05T19:20:05-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/youre-missing-the-point-of-server-side-rendered-javascript-apps</id>
-				<content type="html"><![CDATA[<p>I agree with Tom Dale. Yup, you read that right: I agree with Tom Dale. Well, he finally said something sensible:</p>
-
-<blockquote><p>Say what you will about server-rendered apps, the performance of your server is much more predictable, and more easily upgraded, than the many, many different device configurations of your users. Server-rendering is important to ensure that users who are not on the latest-and-greatest can see your content immediately when they click a link.</p></blockquote>
-
-<p>You might remember Tom as the guy who <a href="http://tomdale.net/2013/09/progressive-enhancement-is-dead/">declared progressive enhancement dead in late 2013</a>. He’s apparently seen the light and has been hard at work to get Ember ready for server side rendering.</p>
-
-<p>I’m shocked, but glad he finally came around. Progressive enhancement FTW!</p>
-<p><a rel="full-article" href="http://tomdale.net/2015/02/youre-missing-the-point-of-server-side-rendered-javascript-apps/">Read on Tom Dale’s Blog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
