@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-03-02T15:52:40-05:00</updated>
+	<updated>2015-03-04T14:56:56-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Ice Cream Sandwich Support Deprecation]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/ice-cream-sandwich-support-deprecation-the-chromium-projects/"/>
+				<updated>2015-03-04T14:50:43-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/ice-cream-sandwich-support-deprecation-the-chromium-projects</id>
+				<content type="html"><![CDATA[<p>So Google will not ship a version of Chrome newer than 42 for Ice Cream Sandwich (Android 4.0). Queue <a href="http://forums.theregister.co.uk/forum/1/2015/03/04/google_chrome_android_4/">the wailing and gnashing of teeth</a> or just adopt progressive enhancement and move on. Browser and device proliferation is not a problem, myopic development practices are.</p>
+<p><a rel="full-article" href="http://www.chromium.org/Home/ice-cream-sandwich-support-deprecation-faq">Read on The Chromium Projects&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -559,27 +570,6 @@
 <pre><code class="javascript">console.log('Google, please make sure your obfuscator does not change class names, so our patch continues working (or stop browser-sniffing as we both use and contribute to Blink!) - love, Opera.');</code></pre>
 
 <p><a rel="full-article" href="https://github.com/operasoftware/browserjs/blob/master/OPRdesktop/browserjs-25.0.js#L252">Read on Github&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Reframing Accessibility for the Web]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/reframing-accessibility-for-the-web/"/>
-				<updated>2015-02-05T21:05:36-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/reframing-accessibility-for-the-web</id>
-				<content type="html"><![CDATA[<p>Lots of great stuff here from Anne Gibson:</p>
-
-<blockquote><p>We need to change the way we talk about accessibility. Most people are taught that “web accessibility means that people with disabilities can use the Web”—the official definition from the W3C. This is wrong. Web accessibility means that people can use the web.</p>
-
-<p>Not “people with disabilities.” Not “blind people and deaf people.” Not “people who have cognitive disabilities” or “men who are color blind” or “people with motor disabilities.” People. People who are using the web. People who are using what you’re building.</p>
-
-<p>We need to stop invoking the internal stereotypes we have about who is disabled.</p></blockquote>
-
-<p>Anne goes on to offer a lot of practical and helpful advice around how to change the way you think about accessibility and how to act upon that change. You should definitely read it.</p>
-
-<p>For similar content on this site, see <a href="http://aaron-gustafson.com/notebook/the-web-is-for-everyone/">my keynote from A11yQC</a> and <a href="http://aaron-gustafson.com/notebook/egalitarianism/">my post on egalitarianism</a>.</p>
-<p><a rel="full-article" href="http://alistapart.com/article/reframing-accessibility-for-the-web">Read on A List Apart&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
