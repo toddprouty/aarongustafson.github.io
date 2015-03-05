@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-03-05T14:25:12-05:00</updated>
+	<updated>2015-03-05T14:27:09-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -20,12 +20,9 @@
 				<id>http://aaron-gustafson.com/notebook/links/sans-bullshit-sans</id>
 				<content type="html"><![CDATA[<p>View content minus the jargon. ’Nuff said.</p>
 
-<p><figure id="fig-2015-03-05-01" class="media-container"></p>
-
-<pre><code>&lt;img src="http://www.sansbullshitsans.com/img/sans-bullshit-sans-in-action.gif" alt=""&gt;
-</code></pre>
-
-<p><figure></p>
+<p><figure id="fig-2015-03-05-01" class="media-container">
+  <img src="http://www.sansbullshitsans.com/img/sans-bullshit-sans-in-action.gif" alt="">
+<figure></p>
 <p><a rel="full-article" href="http://www.sansbullshitsans.com/">Read on Sans Bullshit Sans&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
