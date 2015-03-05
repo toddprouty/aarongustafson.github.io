@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-03-05T14:04:41-05:00</updated>
+	<updated>2015-03-05T14:11:08-05:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,24 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Sans Bullshit Sans]]></title>
+				<link href="http://aaron-gustafson.com/notebook/links/sans-bullshit-sans/"/>
+				<updated>2015-03-05T14:06:53-05:00</updated>
+				<id>http://aaron-gustafson.com/notebook/links/sans-bullshit-sans</id>
+				<content type="html"><![CDATA[<p>View content minus the jargon. ’Nuff said.</p>
+
+<p><figure id="fig-2015-03-05-01" class="media-container"></p>
+
+<pre><code>&lt;img src="http://www.sansbullshitsans.com/img/sans-bullshit-sans-in-action.gif" alt=""&gt;
+</code></pre>
+
+<p><figure></p>
+<p><a rel="full-article" href="http://www.sansbullshitsans.com/">Read on Leveraging the synergy of ligatures&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -556,20 +574,6 @@
 
 <p>It’s pretty exhaustive. You should definitely give it a read.</p>
 <p><a rel="full-article" href="http://www.smashingmagazine.com/2015/02/05/designing-digital-technology-for-the-elderly/">Read on Smashing Magazine&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[When Browsers Don’t Play Nicely in the Open Source Sandbox]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/when-browsers-dont-play-nicely-in-the-open-source-sandbox/"/>
-				<updated>2015-02-06T10:07:36-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/when-browsers-dont-play-nicely-in-the-open-source-sandbox</id>
-				<content type="html"><![CDATA[<p>Passive aggression at its best:</p>
-
-<pre><code class="javascript">console.log('Google, please make sure your obfuscator does not change class names, so our patch continues working (or stop browser-sniffing as we both use and contribute to Blink!) - love, Opera.');</code></pre>
-
-<p><a rel="full-article" href="https://github.com/operasoftware/browserjs/blob/master/OPRdesktop/browserjs-25.0.js#L252">Read on Github&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
