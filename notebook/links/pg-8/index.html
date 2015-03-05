@@ -26,8 +26,8 @@
 <meta property="og:image" content="http://aaron-gustafson.com/i/og-logo.png">
 <meta property="og:locale" content="en_US">
 
-<meta property="og:description" content="Hi there. My name is Aaron Gustafson and I work on the web.">
-<meta name="description" content="Hi there. My name is Aaron Gustafson and I work on the web.">
+<meta property="og:description" content="{% for post in paginator.posts reverse %} {% include entry_teaser.html %} {% endfor %} {% if paginator.total_pages > 1 %} {% if paginator.previous_page %} &larr; Prev {% endif %} page {{ paginator. &hellip;">
+<meta name="description" content="{% for post in paginator.posts reverse %} {% include entry_teaser.html %} {% endfor %} {% if paginator.total_pages > 1 %} {% if paginator.previous_page %} &larr; Prev {% endif %} page {{ paginator. &hellip;">
 
 <!-- Twitter -->
 <meta name="twitter:card" value="summary"/>
