@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Responsive Images | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/responsive-images/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2015-03-09T10:54:53-04:00</updated>
+  <updated>2015-03-09T10:55:16-04:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -31,15 +31,76 @@
 
 <p>The first use case we had was a series of large, focal images. You can find different examples of them on <a href="http://www.nichols.edu">the homepage</a> and landing pages (like <a href="http://www.nichols.edu/admissions/">this one for Admissions</a>). The first pass on making these images adaptive involved the <code>picture</code> element for which <a href="https://html.spec.whatwg.org/multipage/embedded-content.html#adaptive-images">the spec</a> is known. The markup we were generating was based on the pattern outlined for <a href="http://scottjehl.github.io/picturefill/">Picturefill</a>, a JavaScript polyfill that implements adaptive images in browsers that don’t do it natively:</p>
 
-<p>{% gist 96dd157a0206d59ac30a picture-result.html %}</p>
+<p><div><script src='https://gist.github.com/96dd157a0206d59ac30a.js?file=picture-result.html'></script>
+<noscript><pre><code>&lt;picture class=&quot;page__image-header__photo&quot;&gt;
+    &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
+    &lt;source srcset=&quot;about_940_343_int_s_c1_full.jpg&quot; media=&quot;(min-width: 40em)&quot;&gt;
+    &lt;source srcset=&quot;about_800_350_int_c1_medium.jpg&quot; media=&quot;(min-width: 20em)&quot;&gt;
+    &lt;source srcset=&quot;about_480_350_int_c1_small.jpg&quot;&gt;
+    &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
+    &lt;img src=&quot;{made}&quot; alt=&quot;&quot;&gt;
+&lt;/picture&gt;</code></pre></noscript></div>
+</p>
 
 <p>To get to that point, however, we needed to use CE Image to generate (and cache) the specific sizes we needed:</p>
 
-<p>{% gist 96dd157a0206d59ac30a picture-element.html %}</p>
+<p><div><script src='https://gist.github.com/96dd157a0206d59ac30a.js?file=picture-element.html'></script>
+<noscript><pre><code>&lt;picture class=&quot;page__image-header__photo&quot;&gt;
+    &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
+    {exp:ce_img:pair
+        src=&quot;{content_focal_image}&quot;
+        filename_suffix=&quot;_full&quot;
+        width=&quot;940&quot;
+        allow_scale_larger=&quot;yes&quot;
+        crop=&quot;yes&quot;
+        interlace=&quot;yes&quot;
+        cache_dir=&quot;/&quot;
+        }
+        &lt;source srcset=&quot;{made}&quot; media=&quot;(min-width: 40em)&quot;&gt;
+    {/exp:ce_img:pair}
+    {exp:ce_img:pair
+        src=&quot;{content_focal_image}&quot;
+        filename_suffix=&quot;_medium&quot;
+        width=&quot;800&quot;
+        height=&quot;600&quot;
+        crop=&quot;yes&quot;
+        interlace=&quot;yes&quot;
+        cache_dir=&quot;/&quot;
+        }
+        &lt;source srcset=&quot;{made}&quot; media=&quot;(min-width: 20em)&quot;&gt;
+    {/exp:ce_img:pair}
+    {exp:ce_img:pair
+        src=&quot;{content_focal_image}&quot;
+        filename_suffix=&quot;_small&quot;
+        width=&quot;480&quot;
+        height=&quot;360&quot;
+        crop=&quot;yes&quot;
+        interlace=&quot;yes&quot;
+        cache_dir=&quot;/&quot;
+        }
+        &lt;source srcset=&quot;{made}&quot;&gt;
+        &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
+        &lt;img src=&quot;{made}&quot; alt=&quot;&quot;&gt;
+    {/exp:ce_img:pair}
+&lt;/picture&gt;
+</code></pre></noscript></div>
+</p>
 
 <p>Not what’s a lot of code, so let’s just look at one segment of that jumble:</p>
 
-<p>{% gist 96dd157a0206d59ac30a  picture-excerpt.html %}</p>
+<p><div><script src='https://gist.github.com/96dd157a0206d59ac30a.js?file=picture-excerpt.html'></script>
+<noscript><pre><code>{exp:ce_img:pair
+    src=&quot;{content_focal_image}&quot;
+    filename_suffix=&quot;_full&quot;
+    width=&quot;940&quot;
+    allow_scale_larger=&quot;yes&quot;
+    crop=&quot;yes&quot;
+    interlace=&quot;yes&quot;
+    cache_dir=&quot;/&quot;
+    }
+    &lt;source srcset=&quot;{made}&quot; media=&quot;(min-width: 40em)&quot;&gt;
+{/exp:ce_img:pair}</code></pre></noscript></div>
+</p>
 
 <p>This is an example using CE Image’s tag pair option, which lets you control the markup output. In the opening tag, we set several properties:</p>
 
@@ -60,11 +121,54 @@
 
 <p>Now that’s all well and good, but shortly after launch, <a href="http://ericportis.com/">Eric Portis</a> wrote <a href="http://ericportis.com/posts/2014/srcset-sizes/">an amazing post explaining how the <code>srcset</code> and <code>sizes</code> attributes operate</a> and it cleared up a lot of my confusion on the matter. He convinced me that the age-old <code>img</code> element, with these new attributes, would be far more maintainable. With a fire in my belly, I rewrote the markup:</p>
 
-<p>{% gist 96dd157a0206d59ac30a  simple-resize.html %}</p>
+<p><div><script src='https://gist.github.com/96dd157a0206d59ac30a.js?file=simple-resize.html'></script>
+<noscript><pre><code>&lt;img class=&quot;page__image-header__photo&quot; alt=&quot;&quot;
+    {exp:ce_img:pair
+        src=&quot;{embed:image}&quot;
+        filename_suffix=&quot;_small&quot;
+        width=&quot;480&quot;
+        height=&quot;320&quot;
+        crop=&quot;yes&quot;
+        interlace=&quot;yes&quot;
+        cache_dir=&quot;/&quot;
+        } 
+        src=&quot;{made}&quot;
+        srcset=&quot;{made} 480w,
+    {/exp:ce_img:pair}
+    {exp:ce_img:pair
+        src=&quot;{embed:image}&quot;
+        filename_suffix=&quot;_medium&quot;
+        width=&quot;800&quot;
+        height=&quot;600&quot;
+        crop=&quot;yes&quot;
+        interlace=&quot;yes&quot;
+        cache_dir=&quot;/&quot;
+        }
+        {made} 800w,
+    {/exp:ce_img:pair}
+    {exp:ce_img:pair
+        src=&quot;{embed:image}&quot;
+        filename_suffix=&quot;_full&quot;
+        width=&quot;940&quot;
+        allow_scale_larger=&quot;yes&quot;
+        crop=&quot;yes&quot;
+        interlace=&quot;yes&quot;
+        cache_dir=&quot;/&quot;
+        }
+        {made} 940w&quot;
+    {/exp:ce_img:pair}
+    &gt;</code></pre></noscript></div>
+</p>
 
 <p>The CE Image behavior is exactly the same, but the resulting markup is much clearer:</p>
 
-<p>{% gist 96dd157a0206d59ac30a  srcset-result.html %}</p>
+<p><div><script src='https://gist.github.com/96dd157a0206d59ac30a.js?file=srcset-result.html'></script>
+<noscript><pre><code>&lt;img class=&quot;page__image-header__photo&quot; alt=&quot;&quot;
+     src=&quot;about_480_320_int_c1_small.jpg&quot;
+     srcset=&quot;about_480_320_int_c1_small.jpg 480w,
+             about_800_350_int_c1_medium.jpg 800w,
+             about_940_343_int_s_c1_full.jpg 940w&quot;&gt;</code></pre></noscript></div>
+</p>
 
 <p>The added bonus of this approach is that I am not hard-coding any media queries and the browser gets to make the ultimate decision of which image to request. All I am doing is telling the browser the image options and their respective widths within the <code>srcset</code> attribute. As all of the images take up 100% of their containers, I didn’t even need to use the <code>sizes</code> attribute. Easy peasy.</p>
 
@@ -76,21 +180,51 @@
 
 <p>We wrote <a href="https://github.com/easy-designs/easy-lazy-images.js">a lazy-loading image script</a> a few years back and have battle tested it on numerous sites to great success. It’s all based on a simple markup pattern:</p>
 
-<p>{% gist 96dd157a0206d59ac30a lazy-loaded-markup.html %}</p>
+<p><div><script src='https://gist.github.com/96dd157a0206d59ac30a.js?file=lazy-loaded-markup.html'></script>
+<noscript><pre><code>&lt;div class=&quot;module__image image--lazy&quot;
+     data-image-src=&quot;Tim-Smith_220x140_220_140_int_c1.jpg&quot;&gt;&lt;/div&gt;</code></pre></noscript></div>
+</p>
 
 <p>The <code>data-img-src</code> attribute defines the path to the &ldquo;nice to have&rdquo; image and then the JavaScript adds the image element into the page when the appropriate conditions are met:</p>
 
-<p>{% gist 96dd157a0206d59ac30a lazy-loaded-result.html %}</p>
+<p><div><script src='https://gist.github.com/96dd157a0206d59ac30a.js?file=lazy-loaded-result.html'></script>
+<noscript><pre><code>&lt;div class=&quot;module__image image--lazy&quot;
+    data-image-src=&quot;Tim-Smith_220x140_220_140_int_c1.jpg&quot;
+    data-image-loaded=&quot;&quot;
+    &gt;
+    &lt;img alt=&quot;&quot; src=&quot;Tim-Smith_220x140_220_140_int_c1.jpg&quot;&gt;
+&lt;/div&gt;</code></pre></noscript></div>
+</p>
 
 <p>Pretty simple. It even supports <code>srcset</code>:</p>
 
-<p>{% gist 96dd157a0206d59ac30a lazy-loaded-srcset.html %}</p>
+<p><div><script src='https://gist.github.com/96dd157a0206d59ac30a.js?file=lazy-loaded-srcset.html'></script>
+<noscript><pre><code>&lt;div class=&quot;module__image image--lazy&quot;
+     data-image=&quot;about_480_320_int_c1_small.jpg&quot;
+     data-image-srcset=&quot;about_480_320_int_c1_small.jpg 480w,
+                      about_800_350_int_c1_medium.jpg 800w,
+                      about_940_343_int_s_c1_full.jpg 940w&quot;&gt;&lt;/div&gt;</code></pre></noscript></div>
+</p>
 
 <p>The <a href="https://github.com/easy-designs/easy-lazy-images.js#usage">full documentation is up on Github</a>.</p>
 
 <p>Implementing this in the context of CE Image was a breeze and builds on the <code>source</code> pattern I showed earlier:</p>
 
-<p>{% gist 96dd157a0206d59ac30a lazy-loading.html %}</p>
+<p><div><script src='https://gist.github.com/96dd157a0206d59ac30a.js?file=lazy-loading.html'></script>
+<noscript><pre><code>{if testimonial_photo}
+    {exp:ce_img:pair
+        src=&quot;{testimonial_photo}&quot;
+        width=&quot;223&quot;
+        height=&quot;140&quot;
+        allow_scale_larger=&quot;yes&quot;
+        crop=&quot;yes&quot;
+        interlace=&quot;yes&quot;
+        cache_dir=&quot;/&quot;
+        }
+        &lt;div class=&quot;module__image image--lazy&quot; data-image-src=&quot;{made}&quot;&gt;&lt;/div&gt;
+    {/exp:ce_img:pair}
+{/if}</code></pre></noscript></div>
+</p>
 
 <p>We are only just beginning to scratch the surface of what’s possible with adaptive images and I am sure we will come up with newer, better ways to do this stuff. Heck, there may even be an adaptive images add-on in the pipeline for ExpressionEngine. But, in the meantime, if you are trying to implement adaptive images with ExpressionEngine, CE Image is a good way to go.</p>
 ]]></content>
