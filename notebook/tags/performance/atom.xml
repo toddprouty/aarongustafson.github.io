@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Performance | Aaron Gustafson]]></title>
   <link href="http://aaron-gustafson.com/notebook/tags/performance/atom.xml" rel="self"/>
   <link href="http://aaron-gustafson.com/"/>
-  <updated>2015-03-09T10:04:38-04:00</updated>
+  <updated>2015-03-09T10:54:53-04:00</updated>
   <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -55,7 +55,7 @@
 
 <p>Here’s one example. In reaction to <a href="/notebook/css-variables-are-a-bad-idea/">my post on why I think CSS variables are a bad idea</a>, <a href="http://sass-lang.com">SASS</a> core team member <a href="https://twitter.com/chriseppstein/">Chris Eppstein</a> had this to say:</p>
 
-<p><div class='embed tweet'>Tweet could not be processed</div></p>
+<p>{% tweet <a href="https://twitter.com/chriseppstein/status/567756897105620992">https://twitter.com/chriseppstein/status/567756897105620992</a> %}</p>
 
 <p>Fundamentally, I agree with his sentiment: A preprocessor should <em>not</em> be a requirement for authoring CSS. Thankfully, <em>it never was</em>; you can build amazing things using only hand-authored CSS. And if you find a preprocessor helpful to your process for one reason or another, great. But using a preprocessor never has been (nor should it ever be) a requirement.</p>
 
