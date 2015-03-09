@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-03-08T10:33:59-04:00</updated>
+	<updated>2015-03-09T09:59:42-04:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,35 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Bidding Farewell to Shirley the Goat]]></title>
+				<link href="http://aaron-gustafson.com/notebook/bidding-farewell-to-shirley-the-goat/"/>
+				<updated>2015-03-09T09:35:42-04:00</updated>
+				<id>http://aaron-gustafson.com/notebook/bidding-farewell-to-shirley-the-goat</id>
+				<content type="html"><![CDATA[<figure id="fig-2015-03-09-02" class="media-container media-container--right">
+    <img src="http://cdn.webstandardssherpa.com/c/i/logo.png" alt="The Web Standards Sherpa logo, by Dan Cederholm">
+</figure>
+
+
+<p>It is with a heavy heart that I announce that we are closing <a href="http://webstandardssherpa.com/"><em>Web Standards Sherpa</em></a>. As of April 2, we will be archiving the site in order to keep the valuable insights and techniques shared by our authors available in perpetuity.</p>
+
+<p>I am sure I speak for <a href="http://webstandardssherpa.com/about/#staff">our staff and authors</a> when I say this has been a wonderful experience and we are incredibly proud of the work we have done. The <a href="http://webstandardssherpa.com/reviews/">reviews and articles we’ve written</a> and <a href="http://webstandardssherpa.com/ask-the-sherpas/">the questions we’ve answered</a> have provided web designers and developers around the world with relevant, actionable information to help them do their jobs better. And I have no doubt that our readers have helped make the Web better by improving the quality of the products our industry produces.</p>
+
+<p>As one last hurrah—and as a way to raise some funds to pay for the site’s archival &amp; internment—we are collaborating with <a href="http://environmentsforhumans.com/">Environments for Humans</a> to put on <a href="http://environmentsforhumans.com/2015/web-sherpa-summit/">a one-day live virtual conference</a> featuring a handful of our writers and staff giving talks and answering your questions.</p>
+
+<figure id="fig-2015-03-09-02" class="media-container media-container--right">
+    <img src="http://webstandardssherpa.com/i/shirley-large.png" alt="Shirley the Goat, the mascot of Web Standards Sherpa.">
+</figure>
+
+
+<p>I am very thankful to <a href="http://webstandardssherpa.com/about/#staff">all of our staff and authors</a> and to you, our readers, for making <em>Web Standards Sherpa</em> such a fun and rewarding endeavor! It was a great run and I count myself lucky to have had a small hand in the creation of so much great content.</p>
+
+<p>You can find all of the details regarding the conference <a href="http://environmentsforhumans.com/2015/web-sherpa-summit/">over on the Environments for Humans website</a>. I hope you’ll consider attending so we can ensure <em>Web Standards Sherpa</em>’s excellent content will remain available for years to come. Use the discount code SHERPA to save 20% off of the ticket price.</p>
+]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -534,17 +563,6 @@
 				<id>http://aaron-gustafson.com/notebook/links/lets-write-fast-javascript</id>
 				<content type="html"><![CDATA[<p>You may have already seen this piece from <a href="https://medium.com/@mdibaiee">Mahdi Dibaiee</a>, but if you haven’t it’s definitely worth a read. I also highly recommend <a href="https://twitter.com/slicknet">Nicholas Zakas</a>’ <a href="http://www.amazon.com/gp/product/059680279X/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=059680279X&amp;linkCode=as2&amp;tag=easydesign-20&amp;linkId=EIBQXEP7I2PP5RQE">High Performance JavaScript</a> and <a href="https://twitter.com/amyhoy">Amy Hoy</a> &amp; <a href="https://twitter.com/thomasfuchs">Thomas Fuchs</a>’ <a href="http://javascriptrocks.com/">JavaScript Performance Rocks</a>.</p>
 <p><a rel="full-article" href="https://medium.com/the-javascript-collection/lets-write-fast-javascript-2b03c5575d9e">Read on Medium&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[This Uncanny Valley of Voice Recognition]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/this-uncanny-valley-of-voice-recognition/"/>
-				<updated>2015-02-11T10:09:17-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/this-uncanny-valley-of-voice-recognition</id>
-				<content type="html"><![CDATA[<p>I am incredibly excited about the future of voice-based user experiences, but I also fully recognize that we’ve got a long way to go. This post from <a href="https://twitter.com/holman">Zach Holman</a> does a great job illustrating the issues we are currently dealing with. And it’s a fun read to boot!</p>
-<p><a rel="full-article" href="http://zachholman.com/posts/uncanny-valley/">Read on Zach Holman’s Blog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	

@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-03-08T10:33:59-04:00</updated>
+	<updated>2015-03-09T09:59:42-04:00</updated>
 	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,8 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
 	
 		
 			<entry>
@@ -200,17 +202,6 @@
 				<id>http://aaron-gustafson.com/notebook/links/lets-write-fast-javascript</id>
 				<content type="html"><![CDATA[<p>You may have already seen this piece from <a href="https://medium.com/@mdibaiee">Mahdi Dibaiee</a>, but if you haven’t it’s definitely worth a read. I also highly recommend <a href="https://twitter.com/slicknet">Nicholas Zakas</a>’ <a href="http://www.amazon.com/gp/product/059680279X/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=059680279X&amp;linkCode=as2&amp;tag=easydesign-20&amp;linkId=EIBQXEP7I2PP5RQE">High Performance JavaScript</a> and <a href="https://twitter.com/amyhoy">Amy Hoy</a> &amp; <a href="https://twitter.com/thomasfuchs">Thomas Fuchs</a>’ <a href="http://javascriptrocks.com/">JavaScript Performance Rocks</a>.</p>
 <p><a rel="full-article" href="https://medium.com/the-javascript-collection/lets-write-fast-javascript-2b03c5575d9e">Read on Medium&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[This Uncanny Valley of Voice Recognition]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/this-uncanny-valley-of-voice-recognition/"/>
-				<updated>2015-02-11T10:09:17-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/this-uncanny-valley-of-voice-recognition</id>
-				<content type="html"><![CDATA[<p>I am incredibly excited about the future of voice-based user experiences, but I also fully recognize that we’ve got a long way to go. This post from <a href="https://twitter.com/holman">Zach Holman</a> does a great job illustrating the issues we are currently dealing with. And it’s a fun read to boot!</p>
-<p><a rel="full-article" href="http://zachholman.com/posts/uncanny-valley/">Read on Zach Holman’s Blog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
