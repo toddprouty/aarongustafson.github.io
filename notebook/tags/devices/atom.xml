@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Browse by Tag: Devices | Aaron Gustafson]]></title>
-  <link href="http://aaron-gustafson.com/notebook/tags/devices/atom.xml" rel="self"/>
-  <link href="http://aaron-gustafson.com/"/>
-  <updated>2015-03-10T11:37:24-04:00</updated>
-  <id>http://aaron-gustafson.com/</id>
+  <link href="http://www.aaron-gustafson.com/notebook/tags/devices/atom.xml" rel="self"/>
+  <link href="http://www.aaron-gustafson.com/"/>
+  <updated>2015-03-10T11:41:35-04:00</updated>
+  <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[An Onslaught of Low-cost Smartphones]]></title>
-    <link href="http://aaron-gustafson.com/notebook/an-onslaught-of-low-cost-smartphones/"/>
+    <link href="http://www.aaron-gustafson.com/notebook/an-onslaught-of-low-cost-smartphones/"/>
     <updated>2015-01-15T11:58:11-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/an-onslaught-of-low-cost-smartphones</id>
+    <id>http://www.aaron-gustafson.com/notebook/an-onslaught-of-low-cost-smartphones</id>
     <content type="html"><![CDATA[<p>It seems every week we are seeing more and more low-cost devices being launched in an effort to connect the unconnected. For instance, this past week  saw the announcement of <a href="http://www.theverge.com/2015/1/14/7544107/microsoft-lumia-435-532-launch-specs-price-release-date">two new entries in the Microsoft Lumia line, the 435 and the 532</a>, and the announcement of <a href="http://arstechnica.com/gadgets/2015/01/samsung-finally-puts-tizen-on-a-smartphone-launches-the-z1-in-india/">Samsung’s first Tizen phone, the Z1</a>.</p>
 
 <!-- more -->
@@ -29,7 +29,7 @@
 
 <p><figure id="fig-2015-01-15-01" class="media-container"></p>
 
-<pre><code>&lt;img src="http://aaron-gustafson.com/i/posts/2014-11-06/05-sm.jpg"
+<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/05-sm.jpg"
      srcset="/i/posts/2014-11-06/05-lg.jpg 1920w, /i/posts/2014-11-06/05-md.jpg 600w, /i/posts/2014-11-06/05-sm.jpg 320w"
      alt="A bar chart comparing the average monthly incomes of people living in the U.S., Canada, China, and India."
      &gt;
@@ -47,9 +47,9 @@
   
   <entry>
     <title type="html"><![CDATA[webOS Is Back]]></title>
-    <link href="http://aaron-gustafson.com/notebook/webos-is-back/"/>
+    <link href="http://www.aaron-gustafson.com/notebook/webos-is-back/"/>
     <updated>2015-01-08T10:17:09-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/webos-is-back</id>
+    <id>http://www.aaron-gustafson.com/notebook/webos-is-back</id>
     <content type="html"><![CDATA[<p>You may not remember it, but Palm’s groundbreaking—yes, I said groundbreaking—operating system, <a href="https://en.wikipedia.org/wiki/WebOS">webOS</a>, has been resuscitated yet again. This time by LG.</p>
 
 <!-- more -->

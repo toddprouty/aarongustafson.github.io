@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Browse by Tag: Ux | Aaron Gustafson]]></title>
-  <link href="http://aaron-gustafson.com/notebook/tags/ux/atom.xml" rel="self"/>
-  <link href="http://aaron-gustafson.com/"/>
-  <updated>2015-03-10T11:37:24-04:00</updated>
-  <id>http://aaron-gustafson.com/</id>
+  <link href="http://www.aaron-gustafson.com/notebook/tags/ux/atom.xml" rel="self"/>
+  <link href="http://www.aaron-gustafson.com/"/>
+  <updated>2015-03-10T11:41:35-04:00</updated>
+  <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[The Web Is for Everyone]]></title>
-    <link href="http://aaron-gustafson.com/notebook/the-web-is-for-everyone/"/>
+    <link href="http://www.aaron-gustafson.com/notebook/the-web-is-for-everyone/"/>
     <updated>2014-11-06T15:47:54-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/the-web-is-for-everyone</id>
+    <id>http://www.aaron-gustafson.com/notebook/the-web-is-for-everyone</id>
     <content type="html"><![CDATA[<p><em>I gave this speech as the closing keynote at <a href="http://a11yqc.org/">A11yQC</a>, a conference on Web accessibility, on 14 October 2014 in Québec City, Canada. I have published my script here as the slides can’t really convey its message on their own.</em></p>
 
 <p>We, as an industry, tend to have a pretty myopic view of experience. Those of us who work day-to-day in accessibility probably have a broader perspective than most, but I would argue that even we all fall short now and again when it comes to seeing the Web as others do.</p>
@@ -45,7 +45,7 @@
 
 <p><figure id="fig-2014-11-06-01" class="media-container"></p>
 
-<pre><code>&lt;img src="http://aaron-gustafson.com/i/posts/2014-11-06/01-sm.jpg"
+<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/01-sm.jpg"
      srcset="/i/posts/2014-11-06/01-lg.jpg 1920w, /i/posts/2014-11-06/01-md.jpg 600w, /i/posts/2014-11-06/01-sm.jpg 320w"
      alt="Two pie charts comparing Internet usage in the U.S. and Canada."
      &gt;
@@ -57,7 +57,7 @@
 
 <p><figure id="fig-2014-11-06-02" class="media-container"></p>
 
-<pre><code>&lt;img src="http://aaron-gustafson.com/i/posts/2014-11-06/02-sm.jpg"
+<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/02-sm.jpg"
      srcset="/i/posts/2014-11-06/02-lg.jpg 1920w, /i/posts/2014-11-06/02-md.jpg 600w, /i/posts/2014-11-06/02-sm.jpg 320w"
      alt="Two pie charts comparing the number of mobile data connections in the U.S. and Canada."
      &gt;
@@ -69,7 +69,7 @@
 
 <p><figure id="fig-2014-11-06-03" class="media-container"></p>
 
-<pre><code>&lt;img src="http://aaron-gustafson.com/i/posts/2014-11-06/03-sm.jpg"
+<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/03-sm.jpg"
      srcset="/i/posts/2014-11-06/03-lg.jpg 1920w, /i/posts/2014-11-06/03-md.jpg 600w, /i/posts/2014-11-06/03-sm.jpg 320w"
      alt="Two pie charts comparing wired Internet connections in the U.S. and Canada."
      &gt;
@@ -81,7 +81,7 @@
 
 <p><figure id="fig-2014-11-06-04" class="media-container"></p>
 
-<pre><code>&lt;img src="http://aaron-gustafson.com/i/posts/2014-11-06/04-sm.jpg"
+<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/04-sm.jpg"
      srcset="/i/posts/2014-11-06/04-lg.jpg 1920w, /i/posts/2014-11-06/04-md.jpg 600w, /i/posts/2014-11-06/04-sm.jpg 320w"
      alt="A bar chart depicting the cost range, per megabit per month, in the U.S. and Canada."
      &gt;
@@ -97,7 +97,7 @@
 
 <p><figure id="fig-2014-11-06-05" class="media-container"></p>
 
-<pre><code>&lt;img src="http://aaron-gustafson.com/i/posts/2014-11-06/05-sm.jpg"
+<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/05-sm.jpg"
      srcset="/i/posts/2014-11-06/05-lg.jpg 1920w, /i/posts/2014-11-06/05-md.jpg 600w, /i/posts/2014-11-06/05-sm.jpg 320w"
      alt="A bar chart comparing the average monthly incomes of people living in the U.S., Canada, China, and India."
      &gt;
@@ -111,7 +111,7 @@
 
 <p><figure id="fig-2014-11-06-06" class="media-container"></p>
 
-<pre><code>&lt;img src="http://aaron-gustafson.com/i/posts/2014-11-06/06-sm.jpg"
+<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/06-sm.jpg"
      srcset="/i/posts/2014-11-06/06-lg.jpg 1920w, /i/posts/2014-11-06/06-md.jpg 600w, /i/posts/2014-11-06/06-sm.jpg 320w"
      alt="The Samsung Galaxy S5 smartphone with a specification summary (relevant details follow)."
      &gt;
@@ -125,7 +125,7 @@
 
 <p><figure id="fig-2014-11-06-08" class="media-container"></p>
 
-<pre><code>&lt;img src="http://aaron-gustafson.com/i/posts/2014-11-06/08-sm.jpg"
+<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/08-sm.jpg"
      srcset="/i/posts/2014-11-06/08-lg.jpg 1920w, /i/posts/2014-11-06/08-md.jpg 600w, /i/posts/2014-11-06/08-sm.jpg 320w"
      alt="The IBM 5150 personal computer."
      &gt;
@@ -139,7 +139,7 @@
 
 <p><figure id="fig-2014-11-06-09" class="media-container"></p>
 
-<pre><code>&lt;img src="http://aaron-gustafson.com/i/posts/2014-11-06/09-sm.jpg"
+<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/09-sm.jpg"
      srcset="/i/posts/2014-11-06/09-lg.jpg 1920w, /i/posts/2014-11-06/09-md.jpg 600w, /i/posts/2014-11-06/09-sm.jpg 320w"
      alt="The Intex Cloud FX smartphone with specification summary (relevant details follow)."
      &gt;
@@ -153,7 +153,7 @@
 
 <p><figure id="fig-2014-11-06-10" class="media-container"></p>
 
-<pre><code>&lt;img src="http://aaron-gustafson.com/i/posts/2014-11-06/10-sm.jpg"
+<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/10-sm.jpg"
      srcset="/i/posts/2014-11-06/10-lg.jpg 1920w, /i/posts/2014-11-06/10-md.jpg 600w, /i/posts/2014-11-06/10-sm.jpg 320w"
      alt="The BLU Dash Jr K smartphone with specification summary (relevant details follow)."
      &gt;
@@ -175,7 +175,7 @@
 
 <p><figure id="fig-2014-11-06-12" class="media-container"></p>
 
-<pre><code>&lt;img src="http://aaron-gustafson.com/i/posts/2014-11-06/12-sm.jpg"
+<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/12-sm.jpg"
      srcset="/i/posts/2014-11-06/12-lg.jpg 1920w, /i/posts/2014-11-06/12-md.jpg 600w, /i/posts/2014-11-06/12-sm.jpg 320w"
      alt="A pie chart breakdown of the findings by the Pew Research Center on smartphone penetration by household income (relevant details follow)."
      &gt;
@@ -189,7 +189,7 @@
 
 <p><figure id="fig-2014-11-06-13" class="media-container"></p>
 
-<pre><code>&lt;img src="http://aaron-gustafson.com/i/posts/2014-11-06/13-sm.jpg"
+<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/13-sm.jpg"
      srcset="/i/posts/2014-11-06/13-lg.jpg 1920w, /i/posts/2014-11-06/13-md.jpg 600w, /i/posts/2014-11-06/13-sm.jpg 320w"
      alt="The Pew Research Center’s findings when compared to U.S. Census Data (relevant details follow)."
      &gt;
@@ -211,7 +211,7 @@
 
 <p><figure id="fig-2014-11-06-14" class="media-container"></p>
 
-<pre><code>&lt;img src="http://aaron-gustafson.com/i/posts/2014-11-06/14-sm.jpg"
+<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/14-sm.jpg"
      srcset="/i/posts/2014-11-06/14-lg.jpg 1920w, /i/posts/2014-11-06/14-md.jpg 600w, /i/posts/2014-11-06/14-sm.jpg 320w"
      alt="A photo of a Blackberry device experiencing an error loading a webpage because the page was too large. Photo Credit: Brad Frost."
      &gt;
@@ -227,7 +227,7 @@
 
 <p><figure id="fig-2014-11-06-15" class="media-container"></p>
 
-<pre><code>&lt;img src="http://aaron-gustafson.com/i/posts/2014-11-06/15-sm.jpg"
+<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/15-sm.jpg"
      srcset="/i/posts/2014-11-06/15-lg.jpg 1920w, /i/posts/2014-11-06/15-md.jpg 600w, /i/posts/2014-11-06/15-sm.jpg 320w"
      alt="A pie chart comparison of the global population that speaks English versus the percentage of the Web that is in English."
      &gt;
@@ -239,7 +239,7 @@
 
 <p><figure id="fig-2014-11-06-16" class="media-container"></p>
 
-<pre><code>&lt;img src="http://aaron-gustafson.com/i/posts/2014-11-06/16-sm.jpg"
+<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/16-sm.jpg"
      srcset="/i/posts/2014-11-06/16-lg.jpg 1920w, /i/posts/2014-11-16/15-md.jpg 600w, /i/posts/2014-11-06/16-sm.jpg 320w"
      alt="Pie charts detailing the percentage of people in India and China who speak English."
      &gt;
@@ -281,7 +281,7 @@
 
 <p><figure id="fig-2014-11-06-17" class="media-container"></p>
 
-<pre><code>&lt;img src="http://aaron-gustafson.com/i/posts/2014-11-06/17-sm.jpg"
+<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/17-sm.jpg"
      srcset="/i/posts/2014-11-06/17-lg.jpg 1920w, /i/posts/2014-11-06/17-md.jpg 600w, /i/posts/2014-11-06/17-sm.jpg 320w"
      alt="A photo of the philosopher John Rawls."
      &gt;
@@ -333,7 +333,7 @@
 
 <p><figure id="fig-2014-11-06-18" class="media-container"></p>
 
-<pre><code>&lt;img src="http://aaron-gustafson.com/i/posts/2014-11-06/18-sm.jpg"
+<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/18-sm.jpg"
      srcset="/i/posts/2014-11-06/18-lg.jpg 1920w, /i/posts/2014-11-06/18-md.jpg 600w, /i/posts/2014-11-06/18-sm.jpg 320w"
      alt="Headline: “Sky’s internet service mistakenly blocks web-critical plugin” (Source: The Guardian)"
      &gt;
@@ -345,7 +345,7 @@
 
 <p><figure id="fig-2014-11-06-19" class="media-container"></p>
 
-<pre><code>&lt;img src="http://aaron-gustafson.com/i/posts/2014-11-06/19-sm.jpg"
+<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/19-sm.jpg"
      srcset="/i/posts/2014-11-06/19-lg.jpg 1920w, /i/posts/2014-11-06/19-md.jpg 600w, /i/posts/2014-11-06/19-sm.jpg 320w"
      alt="Headline: “FCC to Marriott: No, you can’t force your customers onto terrible hotel WiFi” (Source: The Washington Post)"
      &gt;
@@ -385,7 +385,7 @@
 
 <p><figure id="fig-2014-11-06-20" class="media-container"></p>
 
-<pre><code>&lt;img src="http://aaron-gustafson.com/i/posts/2014-11-06/20-sm.jpg"
+<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/20-sm.jpg"
      srcset="/i/posts/2014-11-06/20-lg.jpg 1920w, /i/posts/2014-11-06/20-md.jpg 600w, /i/posts/2014-11-06/20-sm.jpg 320w"
      alt="A photo of the opening ceremony of the 2012 London Olympic Games when Sir Tim Berners-Lee (creator of the World Wide Web) typed “This is for Everyone” across the stadium."
      &gt;

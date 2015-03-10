@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
-  <link href="http://aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
-  <link href="http://aaron-gustafson.com/"/>
-  <updated>2015-03-10T11:37:24-04:00</updated>
-  <id>http://aaron-gustafson.com/</id>
+  <link href="http://www.aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
+  <link href="http://www.aaron-gustafson.com/"/>
+  <updated>2015-03-10T11:41:35-04:00</updated>
+  <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Bidding Farewell to Shirley the Goat]]></title>
-    <link href="http://aaron-gustafson.com/notebook/bidding-farewell-to-shirley-the-goat/"/>
+    <link href="http://www.aaron-gustafson.com/notebook/bidding-farewell-to-shirley-the-goat/"/>
     <updated>2015-03-09T09:35:42-04:00</updated>
-    <id>http://aaron-gustafson.com/notebook/bidding-farewell-to-shirley-the-goat</id>
+    <id>http://www.aaron-gustafson.com/notebook/bidding-farewell-to-shirley-the-goat</id>
     <content type="html"><![CDATA[<p><figure id="fig-2015-03-09-02" class="media-container media-container--right"></p>
 
 <pre><code>&lt;img src="http://cdn.webstandardssherpa.com/c/i/logo.png" alt="The Web Standards Sherpa logo, by Dan Cederholm"&gt;
@@ -49,9 +49,9 @@
   
   <entry>
     <title type="html"><![CDATA[Who Should Pay 2: The Hosting]]></title>
-    <link href="http://aaron-gustafson.com/notebook/who-should-pay-2-the-hosting/"/>
+    <link href="http://www.aaron-gustafson.com/notebook/who-should-pay-2-the-hosting/"/>
     <updated>2015-03-06T08:39:15-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/who-should-pay-2-the-hosting</id>
+    <id>http://www.aaron-gustafson.com/notebook/who-should-pay-2-the-hosting</id>
     <content type="html"><![CDATA[<p>Two weeks ago, I argued that our <a href="http://aaron-gustafson.com/notebook/who-should-pay/">users should never foot the bill for developer convenience</a> and yesterday I stumbled on a post from EllisLab (the makers of ExpressionEngine) that echoes that sentiment, but from a different angle. The title might make you scratch your head: <a href="https://ellislab.com/blog/entry/save-thousands-of-dollars-by-paying-more-for-hosting">Save Thousands of Dollars by Paying More for Hosting</a>.</p>
 
 <!-- more -->
@@ -79,9 +79,9 @@
   
   <entry>
     <title type="html"><![CDATA[Apple, Business, and Standards]]></title>
-    <link href="http://aaron-gustafson.com/notebook/apple-business-and-standards/"/>
+    <link href="http://www.aaron-gustafson.com/notebook/apple-business-and-standards/"/>
     <updated>2015-02-26T10:44:40-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/apple-business-and-standards</id>
+    <id>http://www.aaron-gustafson.com/notebook/apple-business-and-standards</id>
     <content type="html"><![CDATA[<p>At <a href="http://www.codeandcreativity.com/events/2015-02-24">Tuesday night’s Code &amp; Creativity</a>, digital governance expert <a href="https://twitter.com/lwelchman">Lisa Welchman</a> equated digital projects to an atom. Content, IA, project management, networking, graphic design, application development, performance, and other concerns are flying this way and that like electrons—a swirling mass of energy and velocity. What holds this chaos together and keeps the electrons from flying off in all directions is the magnetic pull of protons in the nucleus of the atom.</p>
 
 <!-- more -->
@@ -89,7 +89,7 @@
 
 <p><figure id="fig-2015-02-26-01" class="media-container"></p>
 
-<pre><code>&lt;img src="http://aaron-gustafson.com/i/posts/2015-02-26/atom-sm.jpg"
+<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2015-02-26/atom-sm.jpg"
      srcset="/i/posts/2015-02-26/atom-lg.jpg 800w, /i/posts/2015-02-26/atom-sm.jpg 320w"
      alt="A slide from Lisa Welchman’s talk showing Web Standards and KPI at the center of the project “atom”."
      &gt;
@@ -189,9 +189,9 @@
   
   <entry>
     <title type="html"><![CDATA[Consider How Your Forms Read]]></title>
-    <link href="http://aaron-gustafson.com/notebook/consider-how-your-forms-read/"/>
+    <link href="http://www.aaron-gustafson.com/notebook/consider-how-your-forms-read/"/>
     <updated>2015-02-23T11:21:24-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/consider-how-your-forms-read</id>
+    <id>http://www.aaron-gustafson.com/notebook/consider-how-your-forms-read</id>
     <content type="html"><![CDATA[<p>While listening to <a href="http://www.radiolab.org/story/trust-engineers/">Radiolab’s &ldquo;The Trust Engineers&rdquo;</a>, I’ll admit I got a little excited when they started talking about web form performance. And no, not &ldquo;performance&rdquo; in the time-to-download sense, but &ldquo;performance&rdquo; in terms of how well the forms performed in attempting to capture meaningful, actionable data.</p>
 
 <!-- more -->
@@ -241,9 +241,9 @@
   
   <entry>
     <title type="html"><![CDATA[Who Should Pay?]]></title>
-    <link href="http://aaron-gustafson.com/notebook/who-should-pay/"/>
+    <link href="http://www.aaron-gustafson.com/notebook/who-should-pay/"/>
     <updated>2015-02-18T23:35:06-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/who-should-pay</id>
+    <id>http://www.aaron-gustafson.com/notebook/who-should-pay</id>
     <content type="html"><![CDATA[<p>In more than a handful of conversations lately, it’s become quite clear that we, the web development community, are prioritizing our own convenience and our own time over that of our users. With our industry’s focus on “user-centered design”, you might find that hard to believe, but it’s true.</p>
 
 <!-- more -->

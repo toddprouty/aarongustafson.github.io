@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
-	<link href="http://aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
-	<link href="http://aaron-gustafson.com/"/>
-	<updated>2015-03-10T11:37:24-04:00</updated>
-	<id>http://aaron-gustafson.com/</id>
+	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
+	<link href="http://www.aaron-gustafson.com/"/>
+	<updated>2015-03-10T11:41:35-04:00</updated>
+	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
 		
@@ -15,9 +15,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Advancing JavaScript Without Breaking the Web]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/advancing-javascript-without-breaking-the-web/"/>
+				<link href="http://www.aaron-gustafson.com/notebook/links/advancing-javascript-without-breaking-the-web/"/>
 				<updated>2015-03-09T11:27:51-04:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/advancing-javascript-without-breaking-the-web</id>
+				<id>http://www.aaron-gustafson.com/notebook/links/advancing-javascript-without-breaking-the-web</id>
 				<content type="html"><![CDATA[<p>This megapost contains notes, slides, and a screencast version of <a href="http://twitter.com/codepo8">Christian Heilmann</a>’s MunichJS talk. There are lots of great bits in here. This section particularly resonated with me:</p>
 
 <blockquote><p>The fundamental truth of the web is that the user controls the experience. That’s what makes the web work: you write your code for the Silicon Valley dweller on a 8 core state-of-the-art mobile device with an evergreen and very capable browser on a fast wireless connection and much money to spend. The same code, however, should work for the person who saved up their money to have a half hour in an internet cafe in an emerging country on a Windows XP machine with an old Firefox connected with a very slow and flaky connection. Or the person whose physical condition makes them incapable to see, speak, hear or use a mouse.</p>
@@ -34,9 +34,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[RLSB Youth Forum Set a New Direction for Tube Travel]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/rlsb-youth-forum-set-a-new-direction-for-tube-travel/"/>
+				<link href="http://www.aaron-gustafson.com/notebook/links/rlsb-youth-forum-set-a-new-direction-for-tube-travel/"/>
 				<updated>2015-03-08T09:51:36-04:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/rlsb-youth-forum-set-a-new-direction-for-tube-travel</id>
+				<id>http://www.aaron-gustafson.com/notebook/links/rlsb-youth-forum-set-a-new-direction-for-tube-travel</id>
 				<content type="html"><![CDATA[<p>This could be useful for anyone really, as as accessibility tech, it&rsquo;s pretty amazing.</p>
 
 <blockquote><p>Signals transmitted by Bluetooth beacons are picked up by a smartphone, and in conjunction with ustwo’s indoor positioning technology, the Wayfindr app is able to locate itself and give the user audible instructions.</p></blockquote>
@@ -49,9 +49,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[We Can Marry You Off, Wholesale]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/we-can-marry-you-off-wholesale/"/>
+				<link href="http://www.aaron-gustafson.com/notebook/links/we-can-marry-you-off-wholesale/"/>
 				<updated>2015-03-05T17:29:18-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/we-can-marry-you-off-wholesale</id>
+				<id>http://www.aaron-gustafson.com/notebook/links/we-can-marry-you-off-wholesale</id>
 				<content type="html"><![CDATA[<p>A scary fiction:</p>
 
 <blockquote><p>With perfect algorithmic efficiency, Facebook found you a beautiful wife who was practically guaranteed to produce a sickly child. Nothing too bad, mind you, but just ill enough to make you spend a little bit more than you would otherwise.</p>
@@ -66,9 +66,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Sans Bullshit Sans]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/sans-bullshit-sans/"/>
+				<link href="http://www.aaron-gustafson.com/notebook/links/sans-bullshit-sans/"/>
 				<updated>2015-03-05T14:06:53-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/sans-bullshit-sans</id>
+				<id>http://www.aaron-gustafson.com/notebook/links/sans-bullshit-sans</id>
 				<content type="html"><![CDATA[<p>View content minus the jargon. ’Nuff said.</p>
 
 <figure id="fig-2015-03-05-01" class="media-container">
@@ -82,9 +82,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Ice Cream Sandwich Support Deprecation]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/ice-cream-sandwich-support-deprecation-the-chromium-projects/"/>
+				<link href="http://www.aaron-gustafson.com/notebook/links/ice-cream-sandwich-support-deprecation-the-chromium-projects/"/>
 				<updated>2015-03-04T14:50:43-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/ice-cream-sandwich-support-deprecation-the-chromium-projects</id>
+				<id>http://www.aaron-gustafson.com/notebook/links/ice-cream-sandwich-support-deprecation-the-chromium-projects</id>
 				<content type="html"><![CDATA[<p>So Google will not ship a version of Chrome newer than 42 for Ice Cream Sandwich (Android 4.0). Queue <a href="http://forums.theregister.co.uk/forum/1/2015/03/04/google_chrome_android_4/">the wailing and gnashing of teeth</a> or just adopt progressive enhancement and move on. Browser and device proliferation is not a problem, myopic development practices are.</p>
 <p><a rel="full-article" href="http://www.chromium.org/Home/ice-cream-sandwich-support-deprecation-faq">Read on The Chromium Projects&nbsp;&rarr;</a></p>]]></content>
 			</entry>
@@ -93,9 +93,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Accessibility Resources for Developers]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/accessibility-resources-for-developers/"/>
+				<link href="http://www.aaron-gustafson.com/notebook/links/accessibility-resources-for-developers/"/>
 				<updated>2015-03-02T12:31:33-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/accessibility-resources-for-developers</id>
+				<id>http://www.aaron-gustafson.com/notebook/links/accessibility-resources-for-developers</id>
 				<content type="html"><![CDATA[<p>This is a treasure trove of software development resources—Web and otherwise—compiled by Jeff Petty.</p>
 <p><a rel="full-article" href="http://social.technet.microsoft.com/wiki/contents/articles/28725.accessibility-resources-for-developers.aspx">Read on TechNet Wiki&nbsp;&rarr;</a></p>]]></content>
 			</entry>
@@ -104,9 +104,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Dropdown Menus With More Forgiving Mouse Movement Paths]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/dropdown-menus-with-more-forgiving-mouse-movement-paths/"/>
+				<link href="http://www.aaron-gustafson.com/notebook/links/dropdown-menus-with-more-forgiving-mouse-movement-paths/"/>
 				<updated>2015-02-27T15:10:09-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/dropdown-menus-with-more-forgiving-mouse-movement-paths</id>
+				<id>http://www.aaron-gustafson.com/notebook/links/dropdown-menus-with-more-forgiving-mouse-movement-paths</id>
 				<content type="html"><![CDATA[<p>Chris Coyier put together a nice overview of ways to reduce user frustration when dealing with dropdown and flyout menus because, you know, some people still use a mouse.</p>
 <p><a rel="full-article" href="https://css-tricks.com/dropdown-menus-with-more-forgiving-mouse-movement-paths/">Read on CSS Tricks&nbsp;&rarr;</a></p>]]></content>
 			</entry>
@@ -115,9 +115,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Keeping `srcset` and `sizes` Under Control]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/keeping-srcset-and-sizes-under-control/"/>
+				<link href="http://www.aaron-gustafson.com/notebook/links/keeping-srcset-and-sizes-under-control/"/>
 				<updated>2015-02-27T14:54:19-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/keeping-srcset-and-sizes-under-control</id>
+				<id>http://www.aaron-gustafson.com/notebook/links/keeping-srcset-and-sizes-under-control</id>
 				<content type="html"><![CDATA[<p>Matt Wilcox walks through his methodical process for managing <code>srcset</code> and <code>sizes</code>. It’s a good read an will be helpful for keeping you from being unnecessarily verbose (or getting to granular).</p>
 <p><a rel="full-article" href="https://mattwilcox.net/web-development/keeping-srcset-and-sizes-under-control">Read on Matt Wilcox’s Blog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
@@ -126,9 +126,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Can We Please Stop Fighting the Native vs. Web App Wars?]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/native-vs-web-apps-ceasefire/"/>
+				<link href="http://www.aaron-gustafson.com/notebook/links/native-vs-web-apps-ceasefire/"/>
 				<updated>2015-02-27T12:27:14-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/native-vs-web-apps-ceasefire</id>
+				<id>http://www.aaron-gustafson.com/notebook/links/native-vs-web-apps-ceasefire</id>
 				<content type="html"><![CDATA[<p>Matt Asay does a great job dispelling some of the myths frequently spouted in the Web vs. native debate. It’s definitely worth a read.</p>
 <p><a rel="full-article" href="http://readwrite.com/2015/02/27/native-vs-web-apps-ceasefire">Read on ReadWrite&nbsp;&rarr;</a></p>]]></content>
 			</entry>
@@ -137,9 +137,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[A Break From the Past: The Birth of Microsoft’s New Web Rendering Engine]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/a-break-from-the-past-the-birth-of-microsoft/"/>
+				<link href="http://www.aaron-gustafson.com/notebook/links/a-break-from-the-past-the-birth-of-microsoft/"/>
 				<updated>2015-02-26T20:08:16-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/a-break-from-the-past-the-birth-of-microsoft</id>
+				<id>http://www.aaron-gustafson.com/notebook/links/a-break-from-the-past-the-birth-of-microsoft</id>
 				<content type="html"><![CDATA[<p><a href="https://twitter.com/morris_charles">Charles Morris</a> wrote a lengthy post about the germination of Microsoft’s new browser rendering engine. If you ever wondered where <del>babies</del> <ins>browsers</ins> come from, this is full of insights.</p>
 
 <p>On a side note, this is one of the most exciting aspects of the new browser (and new Microsoft) for me:</p>
@@ -162,9 +162,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Five Easy Ways to Be a Better Web Professional]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/five-easy-ways-to-be-a-better-web-professional/"/>
+				<link href="http://www.aaron-gustafson.com/notebook/links/five-easy-ways-to-be-a-better-web-professional/"/>
 				<updated>2015-02-12T21:05:36-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/five-easy-ways-to-be-a-better-web-professional</id>
+				<id>http://www.aaron-gustafson.com/notebook/links/five-easy-ways-to-be-a-better-web-professional</id>
 				<content type="html"><![CDATA[<p>My old friend Jason Garber—who I, sadly, haven’t seen in probably a decade—came up with a great list of &ldquo;professional self-improvement tips for anyone working on the Web today&rdquo;. I’ll give you the synopses, but you should do yourself a favor and read the full post for the background:</p>
 
 <ol>
@@ -184,9 +184,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Client-side MVC's Major Bug]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/client-side-templatings-major-bug/"/>
+				<link href="http://www.aaron-gustafson.com/notebook/links/client-side-templatings-major-bug/"/>
 				<updated>2015-02-12T21:05:36-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/client-side-templatings-major-bug</id>
+				<id>http://www.aaron-gustafson.com/notebook/links/client-side-templatings-major-bug</id>
 				<content type="html"><![CDATA[<p>Astute observations (as always) from <a href="http://twitter.com/tkadlec">Tim Kadlec</a>. I’ll let Tim set the scene:</p>
 
 <blockquote><p>Over the past year I conducted performance audits on a handful of sites that all used client-side MVC’s, typically Angular but not always. Each site had their own optimizations that needed to take place to improve performance. Yet a pattern emerged: client-side MVC’s were the major bottleneck for each. It slowed down the initial rendering of the page (particularly on mobile) and it limited our ability to optimize the critical path.</p></blockquote>
@@ -203,9 +203,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Accessible Toggle-style Checkbox]]></title>
-				<link href="http://aaron-gustafson.com/notebook/links/accessible-toggle-style-checkbox/"/>
+				<link href="http://www.aaron-gustafson.com/notebook/links/accessible-toggle-style-checkbox/"/>
 				<updated>2015-02-12T08:41:36-05:00</updated>
-				<id>http://aaron-gustafson.com/notebook/links/accessible-toggle-style-checkbox</id>
+				<id>http://www.aaron-gustafson.com/notebook/links/accessible-toggle-style-checkbox</id>
 				<content type="html"><![CDATA[<p>This is, by far, the best implementation of a toggle slider checkbox replacement I&rsquo;ve seen.</p>
 <p><a rel="full-article" href="http://codepen.io/personable/pen/stpwD">Read on Codepen&nbsp;&rarr;</a></p>]]></content>
 			</entry>

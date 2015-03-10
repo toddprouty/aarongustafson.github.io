@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Browse by Tag: Web Development | Aaron Gustafson]]></title>
-  <link href="http://aaron-gustafson.com/notebook/tags/web-development/atom.xml" rel="self"/>
-  <link href="http://aaron-gustafson.com/"/>
-  <updated>2015-03-10T11:37:24-04:00</updated>
-  <id>http://aaron-gustafson.com/</id>
+  <link href="http://www.aaron-gustafson.com/notebook/tags/web-development/atom.xml" rel="self"/>
+  <link href="http://www.aaron-gustafson.com/"/>
+  <updated>2015-03-10T11:41:35-04:00</updated>
+  <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[The One Weird Trick That Takes the Pain Out of Cross-browser Testing]]></title>
-    <link href="http://aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing/"/>
+    <link href="http://www.aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing/"/>
     <updated>2015-01-26T11:24:25-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing</id>
+    <id>http://www.aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing</id>
     <content type="html"><![CDATA[<p>Love this!</p>
 
 <p><div class='embed tweet'>Tweet could not be processed</div></p>
@@ -26,9 +26,9 @@
   
   <entry>
     <title type="html"><![CDATA[We Need More Empathy]]></title>
-    <link href="http://aaron-gustafson.com/notebook/we-need-more-empathy/"/>
+    <link href="http://www.aaron-gustafson.com/notebook/we-need-more-empathy/"/>
     <updated>2014-12-28T11:17:21-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/we-need-more-empathy</id>
+    <id>http://www.aaron-gustafson.com/notebook/we-need-more-empathy</id>
     <content type="html"><![CDATA[<p>For a while now I’ve been <a href="http://www.slideshare.net/AaronGustafson/designing-with-empathy-breaking-development-nashville-2013">beating the “empathy” drum</a> (<a href="http://www.lukew.com/ff/entry.asp?1810">notes</a>), trying to get folks in our industry to understand the importance of creating connections with the people for whom we build software, websites, etc. After all, we design and build tools to solve the needs of actual people, not some generic “user”.<!-- more --><sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
 
 <p>It’s tough to connect with other people and we often fall into the trap of designing products for us and people like us. Jeffrey Zeldman characterizes the problem perfectly in <a href="http://www.zeldman.com/2014/12/28/unexamined-privilege-is-the-real-source-of-cruelty-in-facebooks-your-year-in-review/">his recent post</a>:</p>
@@ -57,9 +57,9 @@
   
   <entry>
     <title type="html"><![CDATA[Autoplay, Don’t Do It]]></title>
-    <link href="http://aaron-gustafson.com/notebook/autoplay-dont-do-it/"/>
+    <link href="http://www.aaron-gustafson.com/notebook/autoplay-dont-do-it/"/>
     <updated>2014-12-21T15:12:50-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/autoplay-dont-do-it</id>
+    <id>http://www.aaron-gustafson.com/notebook/autoplay-dont-do-it</id>
     <content type="html"><![CDATA[<p>A while back <a href="https://gigaom.com/2014/09/04/facebooks-autoplay-has-led-to-a-60-boost-in-traffic-on-mobile-networks/">GogOm reported on how Facebook’s decision to autoplay videos led to a 60% increase in mobile data usage</a>. It was a business decision with the intent of increasing engagement, but it was a bad decision from a user experience. It’s a tax on users and they weren’t to happy about it.</p>
 
 <p>You may be wondering <em>Why is this a bad thing for users? They want to see videos, so we’re just giving them what they want.</em> Well, let me share a little story.</p>
@@ -91,9 +91,9 @@
   
   <entry>
     <title type="html"><![CDATA[CSS Variables Are a Bad Idea]]></title>
-    <link href="http://aaron-gustafson.com/notebook/css-variables-are-a-bad-idea/"/>
+    <link href="http://www.aaron-gustafson.com/notebook/css-variables-are-a-bad-idea/"/>
     <updated>2014-11-04T14:58:01-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/css-variables-are-a-bad-idea</id>
+    <id>http://www.aaron-gustafson.com/notebook/css-variables-are-a-bad-idea</id>
     <content type="html"><![CDATA[<p>I’ll level with you: I used to think I wanted variables in CSS.</p>
 
 <p>As a programmer, I love the idea of being able to abstract reusable bits like colors, border widths, font sizes, and the like to obviously named variables. It’s a far more <a href="https://en.wikipedia.org/wiki/Don't_repeat_yourself">DRY</a> approach and makes maintenance far easier.</p>
@@ -180,9 +180,9 @@ body {
   
   <entry>
     <title type="html"><![CDATA[Google Embraces Progressive Enhancement]]></title>
-    <link href="http://aaron-gustafson.com/notebook/google-embraces-progressive-enhancement/"/>
+    <link href="http://www.aaron-gustafson.com/notebook/google-embraces-progressive-enhancement/"/>
     <updated>2014-10-28T21:07:35-04:00</updated>
-    <id>http://aaron-gustafson.com/notebook/google-embraces-progressive-enhancement</id>
+    <id>http://www.aaron-gustafson.com/notebook/google-embraces-progressive-enhancement</id>
     <content type="html"><![CDATA[<p>In case you missed it, <a href="http://googlewebmastercentral.blogspot.com/2014/10/updating-our-technical-webmaster.html">yesterday Pierre Far updated Google’s Webmaster Guidelines</a>. In his post, Pierre lays out their case for <a href="https://en.wikipedia.org/wiki/Progressive_enhancement">progressive enhancement</a>:</p>
 
 <blockquote><p>Just like modern browsers, our rendering engine might not support all of the technologies a page uses. Make sure your web design adheres to the principles of progressive enhancement as this helps our systems (and a wider range of browsers) see usable content and basic functionality when certain web design features are not yet supported.</p></blockquote>

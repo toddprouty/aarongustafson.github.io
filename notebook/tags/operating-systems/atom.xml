@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Browse by Tag: Operating Systems | Aaron Gustafson]]></title>
-  <link href="http://aaron-gustafson.com/notebook/tags/operating-systems/atom.xml" rel="self"/>
-  <link href="http://aaron-gustafson.com/"/>
-  <updated>2015-03-10T11:37:24-04:00</updated>
-  <id>http://aaron-gustafson.com/</id>
+  <link href="http://www.aaron-gustafson.com/notebook/tags/operating-systems/atom.xml" rel="self"/>
+  <link href="http://www.aaron-gustafson.com/"/>
+  <updated>2015-03-10T11:41:35-04:00</updated>
+  <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[webOS Is Back]]></title>
-    <link href="http://aaron-gustafson.com/notebook/webos-is-back/"/>
+    <link href="http://www.aaron-gustafson.com/notebook/webos-is-back/"/>
     <updated>2015-01-08T10:17:09-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/webos-is-back</id>
+    <id>http://www.aaron-gustafson.com/notebook/webos-is-back</id>
     <content type="html"><![CDATA[<p>You may not remember it, but Palm’s groundbreaking—yes, I said groundbreaking—operating system, <a href="https://en.wikipedia.org/wiki/WebOS">webOS</a>, has been resuscitated yet again. This time by LG.</p>
 
 <!-- more -->

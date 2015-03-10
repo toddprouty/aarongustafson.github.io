@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Browse by Tag: Culture | Aaron Gustafson]]></title>
-  <link href="http://aaron-gustafson.com/notebook/tags/culture/atom.xml" rel="self"/>
-  <link href="http://aaron-gustafson.com/"/>
-  <updated>2015-03-10T11:37:24-04:00</updated>
-  <id>http://aaron-gustafson.com/</id>
+  <link href="http://www.aaron-gustafson.com/notebook/tags/culture/atom.xml" rel="self"/>
+  <link href="http://www.aaron-gustafson.com/"/>
+  <updated>2015-03-10T11:41:35-04:00</updated>
+  <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[I Don’t Want to Teach the World to Code… I Want to Teach the World to Problem Solve]]></title>
-    <link href="http://aaron-gustafson.com/notebook/i-dont-want-to-teach-the-world-to-code/"/>
+    <link href="http://www.aaron-gustafson.com/notebook/i-dont-want-to-teach-the-world-to-code/"/>
     <updated>2015-02-15T17:51:36-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/i-dont-want-to-teach-the-world-to-code</id>
+    <id>http://www.aaron-gustafson.com/notebook/i-dont-want-to-teach-the-world-to-code</id>
     <content type="html"><![CDATA[<p>It seems that every other day a new code school opens it doors. In my mid-sized city, Chattanooga, there are no fewer than three businesses centered around teaching “coding” classes<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> that I am aware of. And there are at least a half-dozen free or community driven programs and camps on top of that. Most are aimed at youth, but some offer adult education as well. And that, of course, is over and above what&rsquo;s available in our public and private schools (which is considerable) and a plethora of online options.</p>
 
 <!-- more -->

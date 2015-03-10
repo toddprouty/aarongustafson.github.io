@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Browse by Tag: Web Standards | Aaron Gustafson]]></title>
-  <link href="http://aaron-gustafson.com/notebook/tags/web-standards/atom.xml" rel="self"/>
-  <link href="http://aaron-gustafson.com/"/>
-  <updated>2015-03-10T11:37:24-04:00</updated>
-  <id>http://aaron-gustafson.com/</id>
+  <link href="http://www.aaron-gustafson.com/notebook/tags/web-standards/atom.xml" rel="self"/>
+  <link href="http://www.aaron-gustafson.com/"/>
+  <updated>2015-03-10T11:41:35-04:00</updated>
+  <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Apple, Business, and Standards]]></title>
-    <link href="http://aaron-gustafson.com/notebook/apple-business-and-standards/"/>
+    <link href="http://www.aaron-gustafson.com/notebook/apple-business-and-standards/"/>
     <updated>2015-02-26T10:44:40-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/apple-business-and-standards</id>
+    <id>http://www.aaron-gustafson.com/notebook/apple-business-and-standards</id>
     <content type="html"><![CDATA[<p>At <a href="http://www.codeandcreativity.com/events/2015-02-24">Tuesday night’s Code &amp; Creativity</a>, digital governance expert <a href="https://twitter.com/lwelchman">Lisa Welchman</a> equated digital projects to an atom. Content, IA, project management, networking, graphic design, application development, performance, and other concerns are flying this way and that like electrons—a swirling mass of energy and velocity. What holds this chaos together and keeps the electrons from flying off in all directions is the magnetic pull of protons in the nucleus of the atom.</p>
 
 <!-- more -->
@@ -25,7 +25,7 @@
 
 <p><figure id="fig-2015-02-26-01" class="media-container"></p>
 
-<pre><code>&lt;img src="http://aaron-gustafson.com/i/posts/2015-02-26/atom-sm.jpg"
+<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2015-02-26/atom-sm.jpg"
      srcset="/i/posts/2015-02-26/atom-lg.jpg 800w, /i/posts/2015-02-26/atom-sm.jpg 320w"
      alt="A slide from Lisa Welchman’s talk showing Web Standards and KPI at the center of the project “atom”."
      &gt;
@@ -125,9 +125,9 @@
   
   <entry>
     <title type="html"><![CDATA[Competing on “Chrome”]]></title>
-    <link href="http://aaron-gustafson.com/notebook/competing-on-chrome/"/>
+    <link href="http://www.aaron-gustafson.com/notebook/competing-on-chrome/"/>
     <updated>2015-01-21T15:20:40-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/competing-on-chrome</id>
+    <id>http://www.aaron-gustafson.com/notebook/competing-on-chrome</id>
     <content type="html"><![CDATA[<p>Watching the <a href="http://news.microsoft.com/windows10story/">Windows 10 announcement</a> today and the “unveiling” of its new browser, codenamed “Project Spartan”, I was amazed… not by what was said so much as what wasn’t.</p>
 
 <!-- more -->
@@ -175,9 +175,9 @@
   
   <entry>
     <title type="html"><![CDATA[Spelling Errors, Exclusions, and Packages, Oh My—Working Drafts at the W3C]]></title>
-    <link href="http://aaron-gustafson.com/notebook/spelling-errors-exclusions-and-packages-oh-my/"/>
+    <link href="http://www.aaron-gustafson.com/notebook/spelling-errors-exclusions-and-packages-oh-my/"/>
     <updated>2015-01-16T07:15:12-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/spelling-errors-exclusions-and-packages-oh-my</id>
+    <id>http://www.aaron-gustafson.com/notebook/spelling-errors-exclusions-and-packages-oh-my</id>
     <content type="html"><![CDATA[<p>This week the W3C published a couple of really cool new Working Drafts I wanted to bring to your attention (just in case you missed them).</p>
 
 <!-- more -->
@@ -225,9 +225,9 @@
   
   <entry>
     <title type="html"><![CDATA[Visualizing CSS3 Transformations]]></title>
-    <link href="http://aaron-gustafson.com/notebook/visualizing-css3-transformations/"/>
+    <link href="http://www.aaron-gustafson.com/notebook/visualizing-css3-transformations/"/>
     <updated>2014-12-18T16:53:18-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/visualizing-css3-transformations</id>
+    <id>http://www.aaron-gustafson.com/notebook/visualizing-css3-transformations</id>
     <content type="html"><![CDATA[<p>It’s pretty amazing what you can do with <a href="http://dev.w3.org/csswg/css-transforms">CSS3 transforms</a> these days, but I often struggle with explaining the importance of function order when I am training people on how to use them. Transformation functions are a visual thing, so they require a visual tool to fully understand them and the implications of your function order decisions.</p>
 
 <!-- more -->
@@ -249,9 +249,9 @@
   
   <entry>
     <title type="html"><![CDATA[CSS Variables Are a Bad Idea]]></title>
-    <link href="http://aaron-gustafson.com/notebook/css-variables-are-a-bad-idea/"/>
+    <link href="http://www.aaron-gustafson.com/notebook/css-variables-are-a-bad-idea/"/>
     <updated>2014-11-04T14:58:01-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/css-variables-are-a-bad-idea</id>
+    <id>http://www.aaron-gustafson.com/notebook/css-variables-are-a-bad-idea</id>
     <content type="html"><![CDATA[<p>I’ll level with you: I used to think I wanted variables in CSS.</p>
 
 <p>As a programmer, I love the idea of being able to abstract reusable bits like colors, border widths, font sizes, and the like to obviously named variables. It’s a far more <a href="https://en.wikipedia.org/wiki/Don't_repeat_yourself">DRY</a> approach and makes maintenance far easier.</p>
