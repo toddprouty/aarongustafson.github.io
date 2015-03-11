@@ -15,10 +15,10 @@
 
 
 
-<title>The One Weird Trick That Takes the Pain Out of Cross-browser Testing, From the Notebook of Aaron Gustafson</title>
-<meta property="og:title" content="The One Weird Trick That Takes the Pain Out of Cross-browser Testing, From the Notebook of Aaron Gustafson">
+<title>Lines in the Sand, From the Notebook of Aaron Gustafson</title>
+<meta property="og:title" content="Lines in the Sand, From the Notebook of Aaron Gustafson">
 
-<meta property="og:url" content="http://aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing/">
+<meta property="og:url" content="http://aaron-gustafson.com/notebook/lines-in-the-sand/">
 
 <meta name="author" content="Aaron Gustafson">
 <meta property="og:type" content="website">
@@ -26,8 +26,8 @@
 <meta property="og:image" content="http://aaron-gustafson.com/i/og-logo.png">
 <meta property="og:locale" content="en_US">
 
-<meta property="og:description" content="Orde Saunders nails it!">
-<meta name="description" content="Orde Saunders nails it!">
+<meta property="og:description" content="I don’t think we need to break up with IE8, we just need to define our relationship a bit better.">
+<meta name="description" content="I don’t think we need to break up with IE8, we just need to define our relationship a bit better.">
 
 <!-- Twitter -->
 <meta name="twitter:card" value="summary"/>
@@ -124,14 +124,14 @@
 	<article role="article" class="layout-container__primary h-entry">
 		<div class="entry">
 			<header class="entry__header">
-		     	<h1 class="entry__title p-name">The One Weird Trick That Takes the Pain Out of Cross-browser Testing</h1>
+		     	<h1 class="entry__title p-name">Lines in the Sand</h1>
 			
 				
 					<p class="entry__meta">
-		        		This will take less than 1 minute to read
+		        		This will take 3 minutes to read
 
 						
-							| <a href="#disqus_thread" data-disqus-identifier="http://aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing/">Comments</a>
+							| <a href="#disqus_thread" data-disqus-identifier="http://aaron-gustafson.com/notebook/lines-in-the-sand/">Comments</a>
 							| <a href="#webmentions">Webmentions</a>
 		        		
 		      		</p>
@@ -141,11 +141,45 @@
 			
 
 			<div class="entry__content e-content">
-				<p>Love this!</p>
+				<p>A new site, <a href="http://breakupwithie8.com/">Break Up with Internet Explorer 8</a> by <a href="http://www.humaan.com/">Humaan</a>, has been making the rounds on the Interwebs of late. It’s cleverly done and an attractive site, but I don’t really agree with the premise:</p>
 
-<div class='embed tweet'><blockquote class="twitter-tweet"><p>You&#39;ll never believe this one weird trick that takes the pain out of cross browser testing: Progressive enhancement.</p>&mdash; Orde Saunders (@decadecity) <a href="https://twitter.com/decadecity/status/559693419808034816">January 26, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+<blockquote><p>Join the intervention and stop supporting IE8. It&rsquo;s time for an upgrade.</p></blockquote>
 
+<!-- more -->
+
+
+<p>The reality is that some users don’t have control over the browsers installed on their computers and <a href="http://www.networkworld.com/article/2224510/microsoft-subnet/some-windows-xp-users-just-can-t-afford-to-upgrade.html">IE8 may be the best they can muster</a>. Most of us have had the luxury of moving on, but they haven’t. Does that mean we should banish those users from our sites by treating IE8 like that ex who just won’t take a hint? I don’t think so.</p>
+
+<p>Instead, we should approach this problem rationally. Be the bigger person. Call it <a href="http://bradfrost.com/blog/mobile/support-vs-optimization/">support vs. optimization</a>, call it <a href="http://responsivenews.co.uk/post/18948466399/cutting-the-mustard">cutting the mustard</a>, call it what you will, but by understanding how browsers work, we can reduce our own development headaches and serve more users in the process. Yes, even when they use aging browsers like IE8 or IE7 or (gasp) IE6.</p>
+
+<p>When it comes to HTML and CSS, browsers ignore what they don’t understand. It’s why you can use the <code>section</code> element and the content will still be exposed in Lynx. It’s also why you can use RGBa without IE6 collapsing. <a href="http://adaptivewebdesign.info/1st-edition/chapter-1.html#the-rise-of-tolerance">Fault tolerance is a really powerful tool</a> and is the foundation of progressive enhancement in HTML and CSS. (In JavaScript things are a little more complicated… we have to use <a href="http://learn.jquery.com/code-organization/feature-browser-detection/">feature detection</a>.)</p>
+
+<p>A simple way to rid yourself of IE8 related headaches is to embrace the idea that <a href="http://dowebsitesneedtolookexactlythesameineverybrowser.com/">web pages don’t need to look (or behave) the same in every browser</a> and look for ways to achieve this while still providing access to your content and tools for less-capable browsers and devices. For example:</p>
+
+<div><script src='https://gist.github.com/b9bca995a67ba298225d.js?file=css-filter.html'></script>
+<noscript><pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;simple.css&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;complex.css&quot; media=&quot;only screen&quot;&gt;</code></pre></noscript></div>
+
+
+<p>This simple stylesheet setup will deliver only the <code>simple.css</code> file to browsers that are incapable of understanding media queries. Browsers that do understand them will get both stylesheets. Media queries support is an easy line in the sand we can draw because <a href="http://www.slideshare.net/bryanrieger/rethinking-the-mobile-web-by-yiibu/79">lack of media query support is in fact the first media query</a>.</p>
+
+<p>Once you’ve done that, it’s as simple as putting all of your advanced styles in the <code>complex.css</code> file. No drama.</p>
+
+<p>On the JavaScript end, you can draw a line in the sand too. Let’s say you don’t want to spend your time debugging JavaScript in IE8. You can just skip it using <a href="http://www.quirksmode.org/css/condcom.html">Conditional Comments</a>:</p>
+
+<div><script src='https://gist.github.com/b9bca995a67ba298225d.js?file=js-filter.html'></script>
+<noscript><pre><code>&lt;!--[if gte IE 9]&gt;&lt;!--&gt;
+  &lt;script src=&quot;not-for-ie8.js&quot;&gt;&lt;/script&gt;
+&lt;!--&lt;![endif]--&gt;</code></pre></noscript></div>
+
+
+<p>Using an approach like this avoids delivering the contained JavaScript files to IE8 at all, but all other browsers will see them.</p>
+
+<p>If that’s too drastic, use <a href="http://learn.jquery.com/code-organization/feature-browser-detection/">feature detection</a> in your JavaScript files to determine if it is safe to rely on a particular method or capability. Program defensively.</p>
+
+<p>Honestly, I’ve found that approaches like these lead to fewer grey hairs and a lower overall stress level. They make me a happier developer and let me concentrate on building for the future rather than worrying about the past.</p>
+
+<p>But it’s not about breaking up with IE8, it’s about having a realistic and honest relationship with it.</p>
 
 			</div>
 
@@ -155,10 +189,10 @@
 
 
 <p class="entry__sharing">If you liked this, would you mind sharing it?
-	<a class="share_link share_link--twitter" href="https://twitter.com/intent/tweet?original_referer=http://aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing/&amp;source=tweetbutton&amp;text=The+One+Weird+Trick+That+Takes+the+Pain+Out+of+Cross-browser+Testing&amp;url=http://aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing/">Share on Twitter</a>
-	<a class="share_link share_link--facebook" href="http://www.facebook.com/sharer.php?u=http://aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing/">Post on Facebook</a>
-	<a class="share_link share_link--linkedin" href="https://www.linkedin.com/cws/share?url=http://aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing/&amp;original_referer=http://aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing/">Share on LinkedIn</a>
-	<a class="share_link share_link--googleplus" href="https://plus.google.com/share?url=http://aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing/">Share on Google+</a>
+	<a class="share_link share_link--twitter" href="https://twitter.com/intent/tweet?original_referer=http://aaron-gustafson.com/notebook/lines-in-the-sand/&amp;source=tweetbutton&amp;text=Lines+in+the+Sand&amp;url=http://aaron-gustafson.com/notebook/lines-in-the-sand/">Share on Twitter</a>
+	<a class="share_link share_link--facebook" href="http://www.facebook.com/sharer.php?u=http://aaron-gustafson.com/notebook/lines-in-the-sand/">Post on Facebook</a>
+	<a class="share_link share_link--linkedin" href="https://www.linkedin.com/cws/share?url=http://aaron-gustafson.com/notebook/lines-in-the-sand/&amp;original_referer=http://aaron-gustafson.com/notebook/lines-in-the-sand/">Share on LinkedIn</a>
+	<a class="share_link share_link--googleplus" href="https://plus.google.com/share?url=http://aaron-gustafson.com/notebook/lines-in-the-sand/">Share on Google+</a>
 </p>
 			    
 
@@ -178,7 +212,7 @@
 
 
 
-		<time class="dt-published" datetime="2015-01-26T11:24:25-05:00">26 January 2015</time> 
+		<time class="dt-published" datetime="2015-03-11T09:21:29-04:00">11 March 2015</time> 
 					<b class="hidden">by <a class="p-author h-card" href="/about">Aaron Gustafson</a></b>
 					
 					and was filed under: 
@@ -186,7 +220,7 @@
 
 	<span class="post__categories">
 		
-			<a class='category p-category' href='/notebook/tags/browsers/'>browsers</a>, <a class='category p-category' href='/notebook/tags/progressive-enhancement/'>progressive enhancement</a>, <a class='category p-category' href='/notebook/tags/web-design/'>web design</a>, <a class='category p-category' href='/notebook/tags/web-development/'>web development</a>
+			<a class='category p-category' href='/notebook/tags/browsers/'>browsers</a>, <a class='category p-category' href='/notebook/tags/progressive-enhancement/'>progressive enhancement</a>, <a class='category p-category' href='/notebook/tags/web-design/'>web design</a>
 		
 	</span>
 
@@ -220,7 +254,7 @@
 
 
 
-	<div class="webmentions"><ol class="webmentions__list"><li id="webmention-14573" class="webmentions__item"><article class="h-cite webmention webmention--author-starts webmention--title-only"><div class="webmention__author p-author h-card"><a class="u-url" href="https://profiles.google.com/114207754492667012043"><img class="webmention__author__photo u-photo" src="https://lh5.googleusercontent.com/-nI4WHmZRrvQ/AAAAAAAAAAI/AAAAAAAAAAA/d1-goHvNP9I/photo.jpg?sz=50" alt="" title="Derek Pennycuff"><b class="p-name">Derek Pennycuff</b></a></div><div class="webmention__title p-name"><a href="https://plus.google.com/108150195728870260258/posts/BGy3hNj5CHd">Derek Pennycuff +1ed this.</a></div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2015-01-27T08:58:05-08:00">27 January 2015</time></div></article></li><li id="webmention-14574" class="webmentions__item"><article class="h-cite webmention webmention--title-only"><div class="webmention__author p-author h-card"><a class="u-url" href="https://plus.google.com/114207754492667012043"><img class="webmention__author__photo u-photo" src="https://lh5.googleusercontent.com/-nI4WHmZRrvQ/AAAAAAAAAAI/AAAAAAAABiE/IqaSFrUg4qA/photo.jpg?sz=50" alt="" title="Derek Pennycuff"><b class="p-name">Derek Pennycuff</b></a></div><div class="webmention__title p-name"><a href="https://plus.google.com/108150195728870260258/posts/BGy3hNj5CHd">you made me click a "one weird trick" link. i need a shower now.</a></div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2015-01-27T08:43:31-08:00">27 January 2015</time></div></article></li><li id="webmention-14586" class="webmentions__item"><article class="h-cite webmention webmention--author-starts webmention--title-only"><div class="webmention__author p-author h-card"><a class="u-url" href="https://profiles.google.com/104021862569045310694"><img class="webmention__author__photo u-photo" src="https://lh6.googleusercontent.com/-k8FRYFYU2uA/AAAAAAAAAAI/AAAAAAAAAAA/CRyzeR1BDi8/photo.jpg?sz=50" alt="" title="Jan Skovgaard"><b class="p-name">Jan Skovgaard</b></a></div><div class="webmention__title p-name"><a href="https://plus.google.com/108150195728870260258/posts/BGy3hNj5CHd">Jan Skovgaard +1ed this.</a></div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2015-01-27T20:52:01-08:00">27 January 2015</time></div></article></li></ol></div>
+	<div class="webmentions"><p class="webmentions__not-found">No webmentions were found</p></div>
 
 			</section>
 
@@ -377,7 +411,7 @@
 		<footer role="contentinfo" class="footer">
 	<div class="layout-container">
 		
-			<p class="footer__fork-me">Did you spot a typo or error? Eesh. <a href="https://github.com/aarongustafson/aarongustafson.github.io/tree/source/source/2015-01-26-the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing.markdown">Would you mind fixing it for me?</a> You’re so awesome.</p>
+			<p class="footer__fork-me">Did you spot a typo or error? Eesh. <a href="https://github.com/aarongustafson/aarongustafson.github.io/tree/source/source/2015-03-11-lines-in-the-sand.markdown">Would you mind fixing it for me?</a> You’re so awesome.</p>
 		
 		<p class="footer__copyright"><b id="license">The content of this site is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons</a>.</b> <b>The site itself is powered by <a href="http://octopress.org">Octopress</a> and is <a href="https://github.com/aarongustafson/aarongustafson.github.io/">forkable on Github</a>.</b></p>
 	</div>
@@ -391,8 +425,8 @@
 		
 			
 			// disqus_developer = 1,
-			disqus_identifier = 'http://aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing/',
-			disqus_url = 'http://aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing/',
+			disqus_identifier = 'http://aaron-gustafson.com/notebook/lines-in-the-sand/',
+			disqus_url = 'http://aaron-gustafson.com/notebook/lines-in-the-sand/',
 			disqus_script = 'embed.js';
 		
 		(function () {
@@ -410,7 +444,7 @@
 
 
 <noscript>
-	<img src="http://nojsstats.appspot.com/UA-176472-5/http://aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing/" alt=""/>
+	<img src="http://nojsstats.appspot.com/UA-176472-5/http://aaron-gustafson.com/notebook/lines-in-the-sand/" alt=""/>
 </noscript>
 
 	

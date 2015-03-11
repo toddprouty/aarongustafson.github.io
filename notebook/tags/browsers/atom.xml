@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Browse by Tag: Browsers | Aaron Gustafson]]></title>
-  <link href="http://www.aaron-gustafson.com/notebook/tags/browsers/atom.xml" rel="self"/>
-  <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-03-10T11:41:35-04:00</updated>
-  <id>http://www.aaron-gustafson.com/</id>
+  <link href="http://aaron-gustafson.com/notebook/tags/browsers/atom.xml" rel="self"/>
+  <link href="http://aaron-gustafson.com/"/>
+  <updated>2015-03-11T10:02:17-04:00</updated>
+  <id>http://aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
     
@@ -14,10 +14,57 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Lines in the Sand]]></title>
+    <link href="http://aaron-gustafson.com/notebook/lines-in-the-sand/"/>
+    <updated>2015-03-11T09:21:29-04:00</updated>
+    <id>http://aaron-gustafson.com/notebook/lines-in-the-sand</id>
+    <content type="html"><![CDATA[<p>A new site, <a href="http://breakupwithie8.com/">Break Up with Internet Explorer 8</a> by <a href="http://www.humaan.com/">Humaan</a>, has been making the rounds on the Interwebs of late. It’s cleverly done and an attractive site, but I don’t really agree with the premise:</p>
+
+<blockquote><p>Join the intervention and stop supporting IE8. It&rsquo;s time for an upgrade.</p></blockquote>
+
+<!-- more -->
+
+
+<p>The reality is that some users don’t have control over the browsers installed on their computers and <a href="http://www.networkworld.com/article/2224510/microsoft-subnet/some-windows-xp-users-just-can-t-afford-to-upgrade.html">IE8 may be the best they can muster</a>. Most of us have had the luxury of moving on, but they haven’t. Does that mean we should banish those users from our sites by treating IE8 like that ex who just won’t take a hint? I don’t think so.</p>
+
+<p>Instead, we should approach this problem rationally. Be the bigger person. Call it <a href="http://bradfrost.com/blog/mobile/support-vs-optimization/">support vs. optimization</a>, call it <a href="http://responsivenews.co.uk/post/18948466399/cutting-the-mustard">cutting the mustard</a>, call it what you will, but by understanding how browsers work, we can reduce our own development headaches and serve more users in the process. Yes, even when they use aging browsers like IE8 or IE7 or (gasp) IE6.</p>
+
+<p>When it comes to HTML and CSS, browsers ignore what they don’t understand. It’s why you can use the <code>section</code> element and the content will still be exposed in Lynx. It’s also why you can use RGBa without IE6 collapsing. <a href="http://adaptivewebdesign.info/1st-edition/chapter-1.html#the-rise-of-tolerance">Fault tolerance is a really powerful tool</a> and is the foundation of progressive enhancement in HTML and CSS. (In JavaScript things are a little more complicated… we have to use <a href="http://learn.jquery.com/code-organization/feature-browser-detection/">feature detection</a>.)</p>
+
+<p>A simple way to rid yourself of IE8 related headaches is to embrace the idea that <a href="http://dowebsitesneedtolookexactlythesameineverybrowser.com/">web pages don’t need to look (or behave) the same in every browser</a> and look for ways to achieve this while still providing access to your content and tools for less-capable browsers and devices. For example:</p>
+
+<p><div><script src='https://gist.github.com/b9bca995a67ba298225d.js?file=css-filter.html'></script>
+<noscript><pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;simple.css&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;complex.css&quot; media=&quot;only screen&quot;&gt;</code></pre></noscript></div>
+</p>
+
+<p>This simple stylesheet setup will deliver only the <code>simple.css</code> file to browsers that are incapable of understanding media queries. Browsers that do understand them will get both stylesheets. Media queries support is an easy line in the sand we can draw because <a href="http://www.slideshare.net/bryanrieger/rethinking-the-mobile-web-by-yiibu/79">lack of media query support is in fact the first media query</a>.</p>
+
+<p>Once you’ve done that, it’s as simple as putting all of your advanced styles in the <code>complex.css</code> file. No drama.</p>
+
+<p>On the JavaScript end, you can draw a line in the sand too. Let’s say you don’t want to spend your time debugging JavaScript in IE8. You can just skip it using <a href="http://www.quirksmode.org/css/condcom.html">Conditional Comments</a>:</p>
+
+<p><div><script src='https://gist.github.com/b9bca995a67ba298225d.js?file=js-filter.html'></script>
+<noscript><pre><code>&lt;!--[if gte IE 9]&gt;&lt;!--&gt;
+  &lt;script src=&quot;not-for-ie8.js&quot;&gt;&lt;/script&gt;
+&lt;!--&lt;![endif]--&gt;</code></pre></noscript></div>
+</p>
+
+<p>Using an approach like this avoids delivering the contained JavaScript files to IE8 at all, but all other browsers will see them.</p>
+
+<p>If that’s too drastic, use <a href="http://learn.jquery.com/code-organization/feature-browser-detection/">feature detection</a> in your JavaScript files to determine if it is safe to rely on a particular method or capability. Program defensively.</p>
+
+<p>Honestly, I’ve found that approaches like these lead to fewer grey hairs and a lower overall stress level. They make me a happier developer and let me concentrate on building for the future rather than worrying about the past.</p>
+
+<p>But it’s not about breaking up with IE8, it’s about having a realistic and honest relationship with it.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[The One Weird Trick That Takes the Pain Out of Cross-browser Testing]]></title>
-    <link href="http://www.aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing/"/>
+    <link href="http://aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing/"/>
     <updated>2015-01-26T11:24:25-05:00</updated>
-    <id>http://www.aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing</id>
+    <id>http://aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing</id>
     <content type="html"><![CDATA[<p>Love this!</p>
 
 <p><div class='embed tweet'>Tweet could not be processed</div></p>
@@ -26,9 +73,9 @@
   
   <entry>
     <title type="html"><![CDATA[Competing on “Chrome”]]></title>
-    <link href="http://www.aaron-gustafson.com/notebook/competing-on-chrome/"/>
+    <link href="http://aaron-gustafson.com/notebook/competing-on-chrome/"/>
     <updated>2015-01-21T15:20:40-05:00</updated>
-    <id>http://www.aaron-gustafson.com/notebook/competing-on-chrome</id>
+    <id>http://aaron-gustafson.com/notebook/competing-on-chrome</id>
     <content type="html"><![CDATA[<p>Watching the <a href="http://news.microsoft.com/windows10story/">Windows 10 announcement</a> today and the “unveiling” of its new browser, codenamed “Project Spartan”, I was amazed… not by what was said so much as what wasn’t.</p>
 
 <!-- more -->
@@ -76,9 +123,9 @@
   
   <entry>
     <title type="html"><![CDATA[The “Native” vs. “Stylable” Tug of War]]></title>
-    <link href="http://www.aaron-gustafson.com/notebook/native-vs-stylable-tug-of-war/"/>
+    <link href="http://aaron-gustafson.com/notebook/native-vs-stylable-tug-of-war/"/>
     <updated>2014-07-17T08:21:47-04:00</updated>
-    <id>http://www.aaron-gustafson.com/notebook/native-vs-stylable-tug-of-war</id>
+    <id>http://aaron-gustafson.com/notebook/native-vs-stylable-tug-of-war</id>
     <content type="html"><![CDATA[<p>In his astute post <a href="//www.brucelawson.co.uk/2014/native-experience-vs-styling-select-boxes/">“‘Native experience’ vs styling select boxes”</a>, Bruce Lawson correctly identified a common tension in the web world:</p>
 
 <blockquote><p>But why this urge to re-style page elements that end-users are familiar with? … Or is it that we love native look and feel, except when we don’t?</p></blockquote>

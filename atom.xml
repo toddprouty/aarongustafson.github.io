@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
-	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
-	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-03-10T11:41:35-04:00</updated>
-	<id>http://www.aaron-gustafson.com/</id>
+	<link href="http://aaron-gustafson.com/atom.xml" rel="self"/>
+	<link href="http://aaron-gustafson.com/"/>
+	<updated>2015-03-11T10:02:17-04:00</updated>
+	<id>http://aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
 		
@@ -14,10 +14,59 @@
 	
 		
 			<entry>
+				<title type="html"><![CDATA[Lines in the Sand]]></title>
+				<link href="http://aaron-gustafson.com/notebook/lines-in-the-sand/"/>
+				<updated>2015-03-11T09:21:29-04:00</updated>
+				<id>http://aaron-gustafson.com/notebook/lines-in-the-sand</id>
+				<content type="html"><![CDATA[<p>A new site, <a href="http://breakupwithie8.com/">Break Up with Internet Explorer 8</a> by <a href="http://www.humaan.com/">Humaan</a>, has been making the rounds on the Interwebs of late. It’s cleverly done and an attractive site, but I don’t really agree with the premise:</p>
+
+<blockquote><p>Join the intervention and stop supporting IE8. It&rsquo;s time for an upgrade.</p></blockquote>
+
+<!-- more -->
+
+
+<p>The reality is that some users don’t have control over the browsers installed on their computers and <a href="http://www.networkworld.com/article/2224510/microsoft-subnet/some-windows-xp-users-just-can-t-afford-to-upgrade.html">IE8 may be the best they can muster</a>. Most of us have had the luxury of moving on, but they haven’t. Does that mean we should banish those users from our sites by treating IE8 like that ex who just won’t take a hint? I don’t think so.</p>
+
+<p>Instead, we should approach this problem rationally. Be the bigger person. Call it <a href="http://bradfrost.com/blog/mobile/support-vs-optimization/">support vs. optimization</a>, call it <a href="http://responsivenews.co.uk/post/18948466399/cutting-the-mustard">cutting the mustard</a>, call it what you will, but by understanding how browsers work, we can reduce our own development headaches and serve more users in the process. Yes, even when they use aging browsers like IE8 or IE7 or (gasp) IE6.</p>
+
+<p>When it comes to HTML and CSS, browsers ignore what they don’t understand. It’s why you can use the <code>section</code> element and the content will still be exposed in Lynx. It’s also why you can use RGBa without IE6 collapsing. <a href="http://adaptivewebdesign.info/1st-edition/chapter-1.html#the-rise-of-tolerance">Fault tolerance is a really powerful tool</a> and is the foundation of progressive enhancement in HTML and CSS. (In JavaScript things are a little more complicated… we have to use <a href="http://learn.jquery.com/code-organization/feature-browser-detection/">feature detection</a>.)</p>
+
+<p>A simple way to rid yourself of IE8 related headaches is to embrace the idea that <a href="http://dowebsitesneedtolookexactlythesameineverybrowser.com/">web pages don’t need to look (or behave) the same in every browser</a> and look for ways to achieve this while still providing access to your content and tools for less-capable browsers and devices. For example:</p>
+
+<div><script src='https://gist.github.com/b9bca995a67ba298225d.js?file=css-filter.html'></script>
+<noscript><pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;simple.css&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;complex.css&quot; media=&quot;only screen&quot;&gt;</code></pre></noscript></div>
+
+
+<p>This simple stylesheet setup will deliver only the <code>simple.css</code> file to browsers that are incapable of understanding media queries. Browsers that do understand them will get both stylesheets. Media queries support is an easy line in the sand we can draw because <a href="http://www.slideshare.net/bryanrieger/rethinking-the-mobile-web-by-yiibu/79">lack of media query support is in fact the first media query</a>.</p>
+
+<p>Once you’ve done that, it’s as simple as putting all of your advanced styles in the <code>complex.css</code> file. No drama.</p>
+
+<p>On the JavaScript end, you can draw a line in the sand too. Let’s say you don’t want to spend your time debugging JavaScript in IE8. You can just skip it using <a href="http://www.quirksmode.org/css/condcom.html">Conditional Comments</a>:</p>
+
+<div><script src='https://gist.github.com/b9bca995a67ba298225d.js?file=js-filter.html'></script>
+<noscript><pre><code>&lt;!--[if gte IE 9]&gt;&lt;!--&gt;
+  &lt;script src=&quot;not-for-ie8.js&quot;&gt;&lt;/script&gt;
+&lt;!--&lt;![endif]--&gt;</code></pre></noscript></div>
+
+
+<p>Using an approach like this avoids delivering the contained JavaScript files to IE8 at all, but all other browsers will see them.</p>
+
+<p>If that’s too drastic, use <a href="http://learn.jquery.com/code-organization/feature-browser-detection/">feature detection</a> in your JavaScript files to determine if it is safe to rely on a particular method or capability. Program defensively.</p>
+
+<p>Honestly, I’ve found that approaches like these lead to fewer grey hairs and a lower overall stress level. They make me a happier developer and let me concentrate on building for the future rather than worrying about the past.</p>
+
+<p>But it’s not about breaking up with IE8, it’s about having a realistic and honest relationship with it.</p>
+]]></content>
+			</entry>
+		
+	
+		
+			<entry>
 				<title type="html"><![CDATA[Advancing JavaScript Without Breaking the Web]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/advancing-javascript-without-breaking-the-web/"/>
+				<link href="http://aaron-gustafson.com/notebook/links/advancing-javascript-without-breaking-the-web/"/>
 				<updated>2015-03-09T11:27:51-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/advancing-javascript-without-breaking-the-web</id>
+				<id>http://aaron-gustafson.com/notebook/links/advancing-javascript-without-breaking-the-web</id>
 				<content type="html"><![CDATA[<p>This megapost contains notes, slides, and a screencast version of <a href="http://twitter.com/codepo8">Christian Heilmann</a>’s MunichJS talk. There are lots of great bits in here. This section particularly resonated with me:</p>
 
 <blockquote><p>The fundamental truth of the web is that the user controls the experience. That’s what makes the web work: you write your code for the Silicon Valley dweller on a 8 core state-of-the-art mobile device with an evergreen and very capable browser on a fast wireless connection and much money to spend. The same code, however, should work for the person who saved up their money to have a half hour in an internet cafe in an emerging country on a Windows XP machine with an old Firefox connected with a very slow and flaky connection. Or the person whose physical condition makes them incapable to see, speak, hear or use a mouse.</p>
@@ -32,9 +81,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Bidding Farewell to Shirley the Goat]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/bidding-farewell-to-shirley-the-goat/"/>
+				<link href="http://aaron-gustafson.com/notebook/bidding-farewell-to-shirley-the-goat/"/>
 				<updated>2015-03-09T09:35:42-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/bidding-farewell-to-shirley-the-goat</id>
+				<id>http://aaron-gustafson.com/notebook/bidding-farewell-to-shirley-the-goat</id>
 				<content type="html"><![CDATA[<figure id="fig-2015-03-09-02" class="media-container media-container--right">
     <img src="http://cdn.webstandardssherpa.com/c/i/logo.png" alt="The Web Standards Sherpa logo, by Dan Cederholm">
 </figure>
@@ -64,9 +113,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[RLSB Youth Forum Set a New Direction for Tube Travel]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/rlsb-youth-forum-set-a-new-direction-for-tube-travel/"/>
+				<link href="http://aaron-gustafson.com/notebook/links/rlsb-youth-forum-set-a-new-direction-for-tube-travel/"/>
 				<updated>2015-03-08T09:51:36-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/rlsb-youth-forum-set-a-new-direction-for-tube-travel</id>
+				<id>http://aaron-gustafson.com/notebook/links/rlsb-youth-forum-set-a-new-direction-for-tube-travel</id>
 				<content type="html"><![CDATA[<p>This could be useful for anyone really, as as accessibility tech, it&rsquo;s pretty amazing.</p>
 
 <blockquote><p>Signals transmitted by Bluetooth beacons are picked up by a smartphone, and in conjunction with ustwo’s indoor positioning technology, the Wayfindr app is able to locate itself and give the user audible instructions.</p></blockquote>
@@ -77,9 +126,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Who Should Pay 2: The Hosting]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/who-should-pay-2-the-hosting/"/>
+				<link href="http://aaron-gustafson.com/notebook/who-should-pay-2-the-hosting/"/>
 				<updated>2015-03-06T08:39:15-05:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/who-should-pay-2-the-hosting</id>
+				<id>http://aaron-gustafson.com/notebook/who-should-pay-2-the-hosting</id>
 				<content type="html"><![CDATA[<p>Two weeks ago, I argued that our <a href="http://aaron-gustafson.com/notebook/who-should-pay/">users should never foot the bill for developer convenience</a> and yesterday I stumbled on a post from EllisLab (the makers of ExpressionEngine) that echoes that sentiment, but from a different angle. The title might make you scratch your head: <a href="https://ellislab.com/blog/entry/save-thousands-of-dollars-by-paying-more-for-hosting">Save Thousands of Dollars by Paying More for Hosting</a>.</p>
 
 <!-- more -->
@@ -109,9 +158,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[We Can Marry You Off, Wholesale]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/we-can-marry-you-off-wholesale/"/>
+				<link href="http://aaron-gustafson.com/notebook/links/we-can-marry-you-off-wholesale/"/>
 				<updated>2015-03-05T17:29:18-05:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/we-can-marry-you-off-wholesale</id>
+				<id>http://aaron-gustafson.com/notebook/links/we-can-marry-you-off-wholesale</id>
 				<content type="html"><![CDATA[<p>A scary fiction:</p>
 
 <blockquote><p>With perfect algorithmic efficiency, Facebook found you a beautiful wife who was practically guaranteed to produce a sickly child. Nothing too bad, mind you, but just ill enough to make you spend a little bit more than you would otherwise.</p>
@@ -126,9 +175,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Sans Bullshit Sans]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/sans-bullshit-sans/"/>
+				<link href="http://aaron-gustafson.com/notebook/links/sans-bullshit-sans/"/>
 				<updated>2015-03-05T14:06:53-05:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/sans-bullshit-sans</id>
+				<id>http://aaron-gustafson.com/notebook/links/sans-bullshit-sans</id>
 				<content type="html"><![CDATA[<p>View content minus the jargon. ’Nuff said.</p>
 
 <figure id="fig-2015-03-05-01" class="media-container">
@@ -142,9 +191,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Ice Cream Sandwich Support Deprecation]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/ice-cream-sandwich-support-deprecation-the-chromium-projects/"/>
+				<link href="http://aaron-gustafson.com/notebook/links/ice-cream-sandwich-support-deprecation-the-chromium-projects/"/>
 				<updated>2015-03-04T14:50:43-05:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/ice-cream-sandwich-support-deprecation-the-chromium-projects</id>
+				<id>http://aaron-gustafson.com/notebook/links/ice-cream-sandwich-support-deprecation-the-chromium-projects</id>
 				<content type="html"><![CDATA[<p>So Google will not ship a version of Chrome newer than 42 for Ice Cream Sandwich (Android 4.0). Queue <a href="http://forums.theregister.co.uk/forum/1/2015/03/04/google_chrome_android_4/">the wailing and gnashing of teeth</a> or just adopt progressive enhancement and move on. Browser and device proliferation is not a problem, myopic development practices are.</p>
 <p><a rel="full-article" href="http://www.chromium.org/Home/ice-cream-sandwich-support-deprecation-faq">Read on The Chromium Projects&nbsp;&rarr;</a></p>]]></content>
 			</entry>
@@ -153,9 +202,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Accessibility Resources for Developers]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/accessibility-resources-for-developers/"/>
+				<link href="http://aaron-gustafson.com/notebook/links/accessibility-resources-for-developers/"/>
 				<updated>2015-03-02T12:31:33-05:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/accessibility-resources-for-developers</id>
+				<id>http://aaron-gustafson.com/notebook/links/accessibility-resources-for-developers</id>
 				<content type="html"><![CDATA[<p>This is a treasure trove of software development resources—Web and otherwise—compiled by Jeff Petty.</p>
 <p><a rel="full-article" href="http://social.technet.microsoft.com/wiki/contents/articles/28725.accessibility-resources-for-developers.aspx">Read on TechNet Wiki&nbsp;&rarr;</a></p>]]></content>
 			</entry>
@@ -164,9 +213,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Dropdown Menus With More Forgiving Mouse Movement Paths]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/dropdown-menus-with-more-forgiving-mouse-movement-paths/"/>
+				<link href="http://aaron-gustafson.com/notebook/links/dropdown-menus-with-more-forgiving-mouse-movement-paths/"/>
 				<updated>2015-02-27T15:10:09-05:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/dropdown-menus-with-more-forgiving-mouse-movement-paths</id>
+				<id>http://aaron-gustafson.com/notebook/links/dropdown-menus-with-more-forgiving-mouse-movement-paths</id>
 				<content type="html"><![CDATA[<p>Chris Coyier put together a nice overview of ways to reduce user frustration when dealing with dropdown and flyout menus because, you know, some people still use a mouse.</p>
 <p><a rel="full-article" href="https://css-tricks.com/dropdown-menus-with-more-forgiving-mouse-movement-paths/">Read on CSS Tricks&nbsp;&rarr;</a></p>]]></content>
 			</entry>
@@ -175,9 +224,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Keeping `srcset` and `sizes` Under Control]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/keeping-srcset-and-sizes-under-control/"/>
+				<link href="http://aaron-gustafson.com/notebook/links/keeping-srcset-and-sizes-under-control/"/>
 				<updated>2015-02-27T14:54:19-05:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/keeping-srcset-and-sizes-under-control</id>
+				<id>http://aaron-gustafson.com/notebook/links/keeping-srcset-and-sizes-under-control</id>
 				<content type="html"><![CDATA[<p>Matt Wilcox walks through his methodical process for managing <code>srcset</code> and <code>sizes</code>. It’s a good read an will be helpful for keeping you from being unnecessarily verbose (or getting to granular).</p>
 <p><a rel="full-article" href="https://mattwilcox.net/web-development/keeping-srcset-and-sizes-under-control">Read on Matt Wilcox’s Blog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
@@ -186,9 +235,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Can We Please Stop Fighting the Native vs. Web App Wars?]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/native-vs-web-apps-ceasefire/"/>
+				<link href="http://aaron-gustafson.com/notebook/links/native-vs-web-apps-ceasefire/"/>
 				<updated>2015-02-27T12:27:14-05:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/native-vs-web-apps-ceasefire</id>
+				<id>http://aaron-gustafson.com/notebook/links/native-vs-web-apps-ceasefire</id>
 				<content type="html"><![CDATA[<p>Matt Asay does a great job dispelling some of the myths frequently spouted in the Web vs. native debate. It’s definitely worth a read.</p>
 <p><a rel="full-article" href="http://readwrite.com/2015/02/27/native-vs-web-apps-ceasefire">Read on ReadWrite&nbsp;&rarr;</a></p>]]></content>
 			</entry>
@@ -197,9 +246,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[A Break From the Past: The Birth of Microsoft’s New Web Rendering Engine]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/a-break-from-the-past-the-birth-of-microsoft/"/>
+				<link href="http://aaron-gustafson.com/notebook/links/a-break-from-the-past-the-birth-of-microsoft/"/>
 				<updated>2015-02-26T20:08:16-05:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/a-break-from-the-past-the-birth-of-microsoft</id>
+				<id>http://aaron-gustafson.com/notebook/links/a-break-from-the-past-the-birth-of-microsoft</id>
 				<content type="html"><![CDATA[<p><a href="https://twitter.com/morris_charles">Charles Morris</a> wrote a lengthy post about the germination of Microsoft’s new browser rendering engine. If you ever wondered where <del>babies</del> <ins>browsers</ins> come from, this is full of insights.</p>
 
 <p>On a side note, this is one of the most exciting aspects of the new browser (and new Microsoft) for me:</p>
@@ -212,9 +261,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Apple, Business, and Standards]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/apple-business-and-standards/"/>
+				<link href="http://aaron-gustafson.com/notebook/apple-business-and-standards/"/>
 				<updated>2015-02-26T10:44:40-05:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/apple-business-and-standards</id>
+				<id>http://aaron-gustafson.com/notebook/apple-business-and-standards</id>
 				<content type="html"><![CDATA[<p>At <a href="http://www.codeandcreativity.com/events/2015-02-24">Tuesday night’s Code &amp; Creativity</a>, digital governance expert <a href="https://twitter.com/lwelchman">Lisa Welchman</a> equated digital projects to an atom. Content, IA, project management, networking, graphic design, application development, performance, and other concerns are flying this way and that like electrons—a swirling mass of energy and velocity. What holds this chaos together and keeps the electrons from flying off in all directions is the magnetic pull of protons in the nucleus of the atom.</p>
 
 <!-- more -->
@@ -223,7 +272,7 @@
 
 
 <figure id="fig-2015-02-26-01" class="media-container">
-    <img src="http://www.aaron-gustafson.com/i/posts/2015-02-26/atom-sm.jpg"
+    <img src="http://aaron-gustafson.com/i/posts/2015-02-26/atom-sm.jpg"
          srcset="/i/posts/2015-02-26/atom-lg.jpg 800w, /i/posts/2015-02-26/atom-sm.jpg 320w"
          alt="A slide from Lisa Welchman’s talk showing Web Standards and KPI at the center of the project “atom”."
          >
@@ -311,7 +360,7 @@
 <li id="fn:3">
 <p>I am composing this post on a Mac… provided by Microsoft. Yes, you read that correctly.<a href="#fnref:3" rev="footnote">&#8617;</a></p></li>
 <li id="fn:4">
-<p>I have felt the same way about Microsoft for years because I knew the great work they were doing behind the curtains. Part of the reason <a href="http://www.aaron-gustafson.com/notebook/ch-ch-ch-changes/">I joined them earlier this month</a> was because they have been opening up and I want to encourage and nurture that.<a href="#fnref:4" rev="footnote">&#8617;</a></p></li>
+<p>I have felt the same way about Microsoft for years because I knew the great work they were doing behind the curtains. Part of the reason <a href="http://aaron-gustafson.com/notebook/ch-ch-ch-changes/">I joined them earlier this month</a> was because they have been opening up and I want to encourage and nurture that.<a href="#fnref:4" rev="footnote">&#8617;</a></p></li>
 </ol>
 </div>
 
@@ -322,9 +371,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Consider How Your Forms Read]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/consider-how-your-forms-read/"/>
+				<link href="http://aaron-gustafson.com/notebook/consider-how-your-forms-read/"/>
 				<updated>2015-02-23T11:21:24-05:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/consider-how-your-forms-read</id>
+				<id>http://aaron-gustafson.com/notebook/consider-how-your-forms-read</id>
 				<content type="html"><![CDATA[<p>While listening to <a href="http://www.radiolab.org/story/trust-engineers/">Radiolab’s &ldquo;The Trust Engineers&rdquo;</a>, I’ll admit I got a little excited when they started talking about web form performance. And no, not &ldquo;performance&rdquo; in the time-to-download sense, but &ldquo;performance&rdquo; in terms of how well the forms performed in attempting to capture meaningful, actionable data.</p>
 
 <!-- more -->
@@ -376,15 +425,15 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Who Should Pay?]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/who-should-pay/"/>
+				<link href="http://aaron-gustafson.com/notebook/who-should-pay/"/>
 				<updated>2015-02-18T23:35:06-05:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/who-should-pay</id>
+				<id>http://aaron-gustafson.com/notebook/who-should-pay</id>
 				<content type="html"><![CDATA[<p>In more than a handful of conversations lately, it’s become quite clear that we, the web development community, are prioritizing our own convenience and our own time over that of our users. With our industry’s focus on “user-centered design”, you might find that hard to believe, but it’s true.</p>
 
 <!-- more -->
 
 
-<p>Here’s one example. In reaction to <a href="http://www.aaron-gustafson.com/notebook/css-variables-are-a-bad-idea/">my post on why I think CSS variables are a bad idea</a>, <a href="http://sass-lang.com">SASS</a> core team member <a href="https://twitter.com/chriseppstein/">Chris Eppstein</a> had this to say:</p>
+<p>Here’s one example. In reaction to <a href="http://aaron-gustafson.com/notebook/css-variables-are-a-bad-idea/">my post on why I think CSS variables are a bad idea</a>, <a href="http://sass-lang.com">SASS</a> core team member <a href="https://twitter.com/chriseppstein/">Chris Eppstein</a> had this to say:</p>
 
 <div class='embed tweet'><blockquote class="twitter-tweet"><p><a href="https://twitter.com/AaronGustafson">@AaronGustafson</a> Authoring CSS shouldn’t be so onerous as to require the use of a preprocessor.</p>&mdash; Chris Eppstein (@chriseppstein) <a href="https://twitter.com/chriseppstein/status/567756897105620992">February 17, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
@@ -406,7 +455,7 @@
 
 <p>When we hide an <code>img</code> in the small screen version of our responsive design using <code>display: none</code>, the cost to us is quite minimal. It’s just one little declaration. What’s the harm? But the cost to our end users is quite significant: Longer load times, slower performance, and (in some cases) in real dollars if they are on a <a href="http://blog.kaspersky.com/cost-aware/">metered data connection</a>. And they don’t even get to see the image they paid for!</p>
 
-<p>When we decide to build a site using a front-end JavaScript MVC framework, it can make the development process go so much faster for us and we can reduce our need for a robust back-end infrastructure. I mean everyone has JavaScript these days… <a href="http://www.aaron-gustafson.com/notebook/a-fundamental-disconnect/">the browser is the new VM</a>. But when we do this, our users suffer because we don’t give their browsers real HTML. Instead we force them to download a hefty framework so we can move all of the processing we would normally handle on a much faster, dedicated server to their questionably-capable machine instead. Oh, and if the browser encounters an error while parsing or executing the JavaScript execution, they don’t get anything at all. Welcome to the Modern Web™!</p>
+<p>When we decide to build a site using a front-end JavaScript MVC framework, it can make the development process go so much faster for us and we can reduce our need for a robust back-end infrastructure. I mean everyone has JavaScript these days… <a href="http://aaron-gustafson.com/notebook/a-fundamental-disconnect/">the browser is the new VM</a>. But when we do this, our users suffer because we don’t give their browsers real HTML. Instead we force them to download a hefty framework so we can move all of the processing we would normally handle on a much faster, dedicated server to their questionably-capable machine instead. Oh, and if the browser encounters an error while parsing or executing the JavaScript execution, they don’t get anything at all. Welcome to the Modern Web™!</p>
 
 <hr>
 
@@ -423,9 +472,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[I Don’t Want to Teach the World to Code… I Want to Teach the World to Problem Solve]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/i-dont-want-to-teach-the-world-to-code/"/>
+				<link href="http://aaron-gustafson.com/notebook/i-dont-want-to-teach-the-world-to-code/"/>
 				<updated>2015-02-15T17:51:36-05:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/i-dont-want-to-teach-the-world-to-code</id>
+				<id>http://aaron-gustafson.com/notebook/i-dont-want-to-teach-the-world-to-code</id>
 				<content type="html"><![CDATA[<p>It seems that every other day a new code school opens it doors. In my mid-sized city, Chattanooga, there are no fewer than three businesses centered around teaching “coding” classes<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> that I am aware of. And there are at least a half-dozen free or community driven programs and camps on top of that. Most are aimed at youth, but some offer adult education as well. And that, of course, is over and above what&rsquo;s available in our public and private schools (which is considerable) and a plethora of online options.</p>
 
 <!-- more -->
@@ -467,9 +516,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Three Worthwhile Posts on Progressive Enhancement]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/three-worthwhile-posts-on-progressive-enhancement/"/>
+				<link href="http://aaron-gustafson.com/notebook/three-worthwhile-posts-on-progressive-enhancement/"/>
 				<updated>2015-02-13T10:14:40-05:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/three-worthwhile-posts-on-progressive-enhancement</id>
+				<id>http://aaron-gustafson.com/notebook/three-worthwhile-posts-on-progressive-enhancement</id>
 				<content type="html"><![CDATA[<p>Jason Garber has penned a series of posts on progressive enhancement. Here’s a quick rundown on what they cover and why you should read them.</p>
 
 <!-- more -->
@@ -526,9 +575,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Five Easy Ways to Be a Better Web Professional]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/five-easy-ways-to-be-a-better-web-professional/"/>
+				<link href="http://aaron-gustafson.com/notebook/links/five-easy-ways-to-be-a-better-web-professional/"/>
 				<updated>2015-02-12T21:05:36-05:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/five-easy-ways-to-be-a-better-web-professional</id>
+				<id>http://aaron-gustafson.com/notebook/links/five-easy-ways-to-be-a-better-web-professional</id>
 				<content type="html"><![CDATA[<p>My old friend Jason Garber—who I, sadly, haven’t seen in probably a decade—came up with a great list of &ldquo;professional self-improvement tips for anyone working on the Web today&rdquo;. I’ll give you the synopses, but you should do yourself a favor and read the full post for the background:</p>
 
 <ol>
@@ -548,9 +597,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Client-side MVC's Major Bug]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/client-side-templatings-major-bug/"/>
+				<link href="http://aaron-gustafson.com/notebook/links/client-side-templatings-major-bug/"/>
 				<updated>2015-02-12T21:05:36-05:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/client-side-templatings-major-bug</id>
+				<id>http://aaron-gustafson.com/notebook/links/client-side-templatings-major-bug</id>
 				<content type="html"><![CDATA[<p>Astute observations (as always) from <a href="http://twitter.com/tkadlec">Tim Kadlec</a>. I’ll let Tim set the scene:</p>
 
 <blockquote><p>Over the past year I conducted performance audits on a handful of sites that all used client-side MVC’s, typically Angular but not always. Each site had their own optimizations that needed to take place to improve performance. Yet a pattern emerged: client-side MVC’s were the major bottleneck for each. It slowed down the initial rendering of the page (particularly on mobile) and it limited our ability to optimize the critical path.</p></blockquote>
@@ -561,17 +610,6 @@
 
 <p>His post is great, you should read it. Frankly, I wish I’d written it.</p>
 <p><a rel="full-article" href="http://timkadlec.com/2015/02/client-side-templatings-major-bug/">Read on Time Kadlec’s Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Accessible Toggle-style Checkbox]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/accessible-toggle-style-checkbox/"/>
-				<updated>2015-02-12T08:41:36-05:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/accessible-toggle-style-checkbox</id>
-				<content type="html"><![CDATA[<p>This is, by far, the best implementation of a toggle slider checkbox replacement I&rsquo;ve seen.</p>
-<p><a rel="full-article" href="http://codepen.io/personable/pen/stpwD">Read on Codepen&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
