@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Browse by Tag: Progressive Enhancement | Aaron Gustafson]]></title>
-  <link href="http://aaron-gustafson.com/notebook/tags/progressive-enhancement/atom.xml" rel="self"/>
-  <link href="http://aaron-gustafson.com/"/>
-  <updated>2015-03-11T14:14:18-04:00</updated>
-  <id>http://aaron-gustafson.com/</id>
+  <link href="http://www.aaron-gustafson.com/notebook/tags/progressive-enhancement/atom.xml" rel="self"/>
+  <link href="http://www.aaron-gustafson.com/"/>
+  <updated>2015-03-11T22:31:17-07:00</updated>
+  <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Lines in the Sand]]></title>
-    <link href="http://aaron-gustafson.com/notebook/lines-in-the-sand/"/>
-    <updated>2015-03-11T09:21:29-04:00</updated>
-    <id>http://aaron-gustafson.com/notebook/lines-in-the-sand</id>
+    <link href="http://www.aaron-gustafson.com/notebook/lines-in-the-sand/"/>
+    <updated>2015-03-11T06:21:29-07:00</updated>
+    <id>http://www.aaron-gustafson.com/notebook/lines-in-the-sand</id>
     <content type="html"><![CDATA[<p>A new site, <a href="http://breakupwithie8.com/">Break Up with Internet Explorer 8</a> by <a href="http://www.humaan.com/">Humaan</a>, has been making the rounds on the Interwebs of late. It’s cleverly done and an attractive site, but I don’t really agree with the premise:</p>
 
 <blockquote><p>Join the intervention and stop supporting IE8. It&rsquo;s time for an upgrade.</p></blockquote>
@@ -62,9 +62,9 @@
   
   <entry>
     <title type="html"><![CDATA[Who Should Pay?]]></title>
-    <link href="http://aaron-gustafson.com/notebook/who-should-pay/"/>
-    <updated>2015-02-18T23:35:06-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/who-should-pay</id>
+    <link href="http://www.aaron-gustafson.com/notebook/who-should-pay/"/>
+    <updated>2015-02-18T20:35:06-08:00</updated>
+    <id>http://www.aaron-gustafson.com/notebook/who-should-pay</id>
     <content type="html"><![CDATA[<p>In more than a handful of conversations lately, it’s become quite clear that we, the web development community, are prioritizing our own convenience and our own time over that of our users. With our industry’s focus on “user-centered design”, you might find that hard to believe, but it’s true.</p>
 
 <!-- more -->
@@ -105,9 +105,9 @@
   
   <entry>
     <title type="html"><![CDATA[Three Worthwhile Posts on Progressive Enhancement]]></title>
-    <link href="http://aaron-gustafson.com/notebook/three-worthwhile-posts-on-progressive-enhancement/"/>
-    <updated>2015-02-13T10:14:40-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/three-worthwhile-posts-on-progressive-enhancement</id>
+    <link href="http://www.aaron-gustafson.com/notebook/three-worthwhile-posts-on-progressive-enhancement/"/>
+    <updated>2015-02-13T07:14:40-08:00</updated>
+    <id>http://www.aaron-gustafson.com/notebook/three-worthwhile-posts-on-progressive-enhancement</id>
     <content type="html"><![CDATA[<p>Jason Garber has penned a series of posts on progressive enhancement. Here’s a quick rundown on what they cover and why you should read them.</p>
 
 <!-- more -->
@@ -162,9 +162,9 @@
   
   <entry>
     <title type="html"><![CDATA[The One Weird Trick That Takes the Pain Out of Cross-browser Testing]]></title>
-    <link href="http://aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing/"/>
-    <updated>2015-01-26T11:24:25-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing</id>
+    <link href="http://www.aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing/"/>
+    <updated>2015-01-26T08:24:25-08:00</updated>
+    <id>http://www.aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing</id>
     <content type="html"><![CDATA[<p>Love this!</p>
 
 <p><div class='embed tweet'>Tweet could not be processed</div></p>
@@ -173,9 +173,9 @@
   
   <entry>
     <title type="html"><![CDATA[Adaptive Images in ExpressionEngine With CE Image]]></title>
-    <link href="http://aaron-gustafson.com/notebook/adaptive-images-in-expressionengine-with-ce-image/"/>
-    <updated>2014-11-21T18:18:23-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/adaptive-images-in-expressionengine-with-ce-image</id>
+    <link href="http://www.aaron-gustafson.com/notebook/adaptive-images-in-expressionengine-with-ce-image/"/>
+    <updated>2014-11-21T15:18:23-08:00</updated>
+    <id>http://www.aaron-gustafson.com/notebook/adaptive-images-in-expressionengine-with-ce-image</id>
     <content type="html"><![CDATA[<p>One of the biggest headaches of responsive design has been dealing with images. Thankfully our work on the <a href="http://ricg.io">Responsive <del>Images</del> <ins>Issues</ins> Community Group</a> has resulted in a rock-solid set of elements and attributes to address all of your adaptive image needs. My company, <a href="http://easy-designs.net">Easy Designs</a>, recently redesigned <a href="http://www.nichols.edu">Nichols College’s website</a> and that project just happened to coincide adaptive images landing in <a href="http://www.chromium.org/blink">Blink</a> (the rendering engine that powers Chrome and Opera). Naturally, we jumped at the opportunity to use them.</p>
 
 <!-- more -->

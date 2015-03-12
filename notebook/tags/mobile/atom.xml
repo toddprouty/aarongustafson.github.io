@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Browse by Tag: Mobile | Aaron Gustafson]]></title>
-  <link href="http://aaron-gustafson.com/notebook/tags/mobile/atom.xml" rel="self"/>
-  <link href="http://aaron-gustafson.com/"/>
-  <updated>2015-03-11T14:14:18-04:00</updated>
-  <id>http://aaron-gustafson.com/</id>
+  <link href="http://www.aaron-gustafson.com/notebook/tags/mobile/atom.xml" rel="self"/>
+  <link href="http://www.aaron-gustafson.com/"/>
+  <updated>2015-03-11T22:31:17-07:00</updated>
+  <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[An Onslaught of Low-cost Smartphones]]></title>
-    <link href="http://aaron-gustafson.com/notebook/an-onslaught-of-low-cost-smartphones/"/>
-    <updated>2015-01-15T11:58:11-05:00</updated>
-    <id>http://aaron-gustafson.com/notebook/an-onslaught-of-low-cost-smartphones</id>
+    <link href="http://www.aaron-gustafson.com/notebook/an-onslaught-of-low-cost-smartphones/"/>
+    <updated>2015-01-15T08:58:11-08:00</updated>
+    <id>http://www.aaron-gustafson.com/notebook/an-onslaught-of-low-cost-smartphones</id>
     <content type="html"><![CDATA[<p>It seems every week we are seeing more and more low-cost devices being launched in an effort to connect the unconnected. For instance, this past week  saw the announcement of <a href="http://www.theverge.com/2015/1/14/7544107/microsoft-lumia-435-532-launch-specs-price-release-date">two new entries in the Microsoft Lumia line, the 435 and the 532</a>, and the announcement of <a href="http://arstechnica.com/gadgets/2015/01/samsung-finally-puts-tizen-on-a-smartphone-launches-the-z1-in-india/">Samsung’s first Tizen phone, the Z1</a>.</p>
 
 <!-- more -->
@@ -29,7 +29,7 @@
 
 <p><figure id="fig-2015-01-15-01" class="media-container"></p>
 
-<pre><code>&lt;img src="http://aaron-gustafson.com/i/posts/2014-11-06/05-sm.jpg"
+<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/05-sm.jpg"
      srcset="/i/posts/2014-11-06/05-lg.jpg 1920w, /i/posts/2014-11-06/05-md.jpg 600w, /i/posts/2014-11-06/05-sm.jpg 320w"
      alt="A bar chart comparing the average monthly incomes of people living in the U.S., Canada, China, and India."
      &gt;
@@ -47,9 +47,9 @@
   
   <entry>
     <title type="html"><![CDATA[The “Native” vs. “Stylable” Tug of War]]></title>
-    <link href="http://aaron-gustafson.com/notebook/native-vs-stylable-tug-of-war/"/>
-    <updated>2014-07-17T08:21:47-04:00</updated>
-    <id>http://aaron-gustafson.com/notebook/native-vs-stylable-tug-of-war</id>
+    <link href="http://www.aaron-gustafson.com/notebook/native-vs-stylable-tug-of-war/"/>
+    <updated>2014-07-17T05:21:47-07:00</updated>
+    <id>http://www.aaron-gustafson.com/notebook/native-vs-stylable-tug-of-war</id>
     <content type="html"><![CDATA[<p>In his astute post <a href="//www.brucelawson.co.uk/2014/native-experience-vs-styling-select-boxes/">“‘Native experience’ vs styling select boxes”</a>, Bruce Lawson correctly identified a common tension in the web world:</p>
 
 <blockquote><p>But why this urge to re-style page elements that end-users are familiar with? … Or is it that we love native look and feel, except when we don’t?</p></blockquote>
@@ -113,9 +113,9 @@
   
   <entry>
     <title type="html"><![CDATA[Searching for the “Right Size”]]></title>
-    <link href="http://aaron-gustafson.com/notebook/searching-for-the-right-size/"/>
-    <updated>2014-07-10T20:38:16-04:00</updated>
-    <id>http://aaron-gustafson.com/notebook/searching-for-the-right-size</id>
+    <link href="http://www.aaron-gustafson.com/notebook/searching-for-the-right-size/"/>
+    <updated>2014-07-10T17:38:16-07:00</updated>
+    <id>http://www.aaron-gustafson.com/notebook/searching-for-the-right-size</id>
     <content type="html"><![CDATA[<p>This <a href="http://www.wired.com/2014/07/what-a-stalling-tablet-market-says-about-our-search-for-the-perfect-screen/">recent piece from <cite>Wired</cite></a> attributes dwindling tablet sales to cannibalization from larger mobile phones (<abbr title="also known as">aka</abbr> “phablets”) which are nearly as big as 7-8˝ tablets:</p>
 
 <blockquote><p>Aside from the ability to make a phone call, the difference between a phone and a tablet comes down to 1.5 inches or less. … But the real issue is device makers are running out of good arguments for why these ever more subtle size gradations matter. After a point, the differences come down to personal preference rather than any meaningful new use case. As phones and tablets converge into this tight window, slightly bigger phones could accelerate the decline in tablet demand.</p></blockquote>
