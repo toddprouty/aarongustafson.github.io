@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-03-11T22:31:17-07:00</updated>
+	<updated>2015-03-12T07:31:25-07:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[What Does My Site Cost?]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/what-does-my-site-cost/"/>
+				<updated>2015-03-12T07:28:49-07:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/what-does-my-site-cost</id>
+				<content type="html"><![CDATA[<p>This is a fantastic tool from the one and only Tim Kadlec. It helps you get a better understanding of how much it costs users to view a web page in different countries around the world.</p>
+<p><a rel="full-article" href="http://whatdoesmysitecost.com/">Read on Tim Kadlec&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -588,28 +599,6 @@
 
 <p>In all, this was a nice little series. Great work Jason! If you want to dig into this progressive enhancement stuff a bit more, you can read the entirety of my award-winning book <a href="http://adaptivewebdesign.info/1st-edition/"><cite>Adaptive Web Design: Crafting Rich Experiences with Progressive Enhancement</cite> online, for free</a>.</p>
 ]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Five Easy Ways to Be a Better Web Professional]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/five-easy-ways-to-be-a-better-web-professional/"/>
-				<updated>2015-02-12T18:05:36-08:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/five-easy-ways-to-be-a-better-web-professional</id>
-				<content type="html"><![CDATA[<p>My old friend Jason Garber—who I, sadly, haven’t seen in probably a decade—came up with a great list of &ldquo;professional self-improvement tips for anyone working on the Web today&rdquo;. I’ll give you the synopses, but you should do yourself a favor and read the full post for the background:</p>
-
-<ol>
-<li>Know Your History</li>
-<li>Know Your Medium</li>
-<li>Respect Those Who Came Before You</li>
-<li>Respect Your Audience</li>
-<li>Get Involved</li>
-</ol>
-
-
-<p>I would absolutely echo these to anyone looking to become (or improve as) a web professional.</p>
-<p><a rel="full-article" href="http://sixtwothree.org/posts/five-easy-ways-to-be-a-better-web-professional">Read on Jason Garber’s Blog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
