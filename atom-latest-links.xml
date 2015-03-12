@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-03-12T07:31:25-07:00</updated>
+	<updated>2015-03-12T07:36:32-07:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -19,6 +19,8 @@
 				<updated>2015-03-12T07:28:49-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/what-does-my-site-cost</id>
 				<content type="html"><![CDATA[<p>This is a fantastic tool from the one and only Tim Kadlec. It helps you get a better understanding of how much it costs users to view a web page in different countries around the world.</p>
+
+<p>This page, for instance, costs nothing in the UK and India and only 2¢ in the U.S.</p>
 <p><a rel="full-article" href="http://whatdoesmysitecost.com/">Read on Tim Kadlec&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
