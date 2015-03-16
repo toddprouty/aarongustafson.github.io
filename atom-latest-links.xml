@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-03-12T09:21:57-07:00</updated>
+	<updated>2015-03-16T17:30:27-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -14,9 +14,33 @@
 	
 		
 			<entry>
+				<title type="html"><![CDATA[When IE Gave Us Beautiful, Fast Touch Interactions, and Nobody Cared]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/name-equals-google-site-verification-content-equals-a8oysshcb8gk867218fvmjzou9k8f4bhqqvjteqqv4o-slash-%3Ethe-sea-of-ideas-when-ie-gave-us-beautiful-fast-touch-interactions-and-nobody-cared-dot-%3Cscript-type-equals/"/>
+				<updated>2015-03-16T17:26:36-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/name-equals-google-site-verification-content-equals-a8oysshcb8gk867218fvmjzou9k8f4bhqqvjteqqv4o-slash->the-sea-of-ideas-when-ie-gave-us-beautiful-fast-touch-interactions-and-nobody-cared-dot-<script-type-equals</id>
+				<content type="html"><![CDATA[<p>I never even saw this proposal, but how cool would it be to set snap points for scrolling content in  CSS?!</p>
+
+<div><script src='https://gist.github.com/bdc0efc31cbc7c1308c7.js?file=scroll-snap-points.css'></script>
+<noscript><pre><code>.container {
+  width: 500px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  /* Set up points to which scrolling will snap */
+  -ms-scroll-snap-points-x: snapInterval(0px, 100%);
+  /* Require that scrolling always end at a snap point */ 
+  -ms-scroll-snap-type: mandatory; 
+}</code></pre></noscript></div>
+
+<p><a rel="full-article" href="https://paulbakaus.com/2015/03/13/when-ie-gave-us-beautiful-fast-touch-interactions-and-nobody-cared/">Read on The Sea of Ideas&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
 				<title type="html"><![CDATA[What Does My Site Cost?]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/what-does-my-site-cost/"/>
-				<updated>2015-03-12T07:28:49-07:00</updated>
+				<updated>2015-03-12T10:28:49-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/what-does-my-site-cost</id>
 				<content type="html"><![CDATA[<p>This is a fantastic tool from the one and only Tim Kadlec. It helps you get a better understanding of how much it costs users to view a web page in different countries around the world.</p>
 
@@ -29,7 +53,7 @@
 			<entry>
 				<title type="html"><![CDATA[Js;dr = JavaScript Required; Didn’t Read.]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/js-dr-javascript-required-dead/"/>
-				<updated>2015-03-11T11:11:51-07:00</updated>
+				<updated>2015-03-11T14:11:51-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/js-dr-javascript-required-dead</id>
 				<content type="html"><![CDATA[<p>It’s a tough pill to swallow, but it’s true:</p>
 
@@ -50,7 +74,7 @@
 			<entry>
 				<title type="html"><![CDATA[Advancing JavaScript Without Breaking the Web]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/advancing-javascript-without-breaking-the-web/"/>
-				<updated>2015-03-09T08:27:51-07:00</updated>
+				<updated>2015-03-09T11:27:51-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/advancing-javascript-without-breaking-the-web</id>
 				<content type="html"><![CDATA[<p>This megapost contains notes, slides, and a screencast version of <a href="http://twitter.com/codepo8">Christian Heilmann</a>’s MunichJS talk. There are lots of great bits in here. This section particularly resonated with me:</p>
 
@@ -69,7 +93,7 @@
 			<entry>
 				<title type="html"><![CDATA[RLSB Youth Forum Set a New Direction for Tube Travel]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/rlsb-youth-forum-set-a-new-direction-for-tube-travel/"/>
-				<updated>2015-03-08T06:51:36-07:00</updated>
+				<updated>2015-03-08T09:51:36-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/rlsb-youth-forum-set-a-new-direction-for-tube-travel</id>
 				<content type="html"><![CDATA[<p>This could be useful for anyone really, as as accessibility tech, it&rsquo;s pretty amazing.</p>
 
@@ -84,7 +108,7 @@
 			<entry>
 				<title type="html"><![CDATA[We Can Marry You Off, Wholesale]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/we-can-marry-you-off-wholesale/"/>
-				<updated>2015-03-05T14:29:18-08:00</updated>
+				<updated>2015-03-05T17:29:18-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/we-can-marry-you-off-wholesale</id>
 				<content type="html"><![CDATA[<p>A scary fiction:</p>
 
@@ -101,7 +125,7 @@
 			<entry>
 				<title type="html"><![CDATA[Sans Bullshit Sans]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/sans-bullshit-sans/"/>
-				<updated>2015-03-05T11:06:53-08:00</updated>
+				<updated>2015-03-05T14:06:53-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/sans-bullshit-sans</id>
 				<content type="html"><![CDATA[<p>View content minus the jargon. ’Nuff said.</p>
 
@@ -117,7 +141,7 @@
 			<entry>
 				<title type="html"><![CDATA[Ice Cream Sandwich Support Deprecation]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/ice-cream-sandwich-support-deprecation-the-chromium-projects/"/>
-				<updated>2015-03-04T11:50:43-08:00</updated>
+				<updated>2015-03-04T14:50:43-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/ice-cream-sandwich-support-deprecation-the-chromium-projects</id>
 				<content type="html"><![CDATA[<p>So Google will not ship a version of Chrome newer than 42 for Ice Cream Sandwich (Android 4.0). Queue <a href="http://forums.theregister.co.uk/forum/1/2015/03/04/google_chrome_android_4/">the wailing and gnashing of teeth</a> or just adopt progressive enhancement and move on. Browser and device proliferation is not a problem, myopic development practices are.</p>
 <p><a rel="full-article" href="http://www.chromium.org/Home/ice-cream-sandwich-support-deprecation-faq">Read on The Chromium Projects&nbsp;&rarr;</a></p>]]></content>
@@ -128,7 +152,7 @@
 			<entry>
 				<title type="html"><![CDATA[Accessibility Resources for Developers]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/accessibility-resources-for-developers/"/>
-				<updated>2015-03-02T09:31:33-08:00</updated>
+				<updated>2015-03-02T12:31:33-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/accessibility-resources-for-developers</id>
 				<content type="html"><![CDATA[<p>This is a treasure trove of software development resources—Web and otherwise—compiled by Jeff Petty.</p>
 <p><a rel="full-article" href="http://social.technet.microsoft.com/wiki/contents/articles/28725.accessibility-resources-for-developers.aspx">Read on TechNet Wiki&nbsp;&rarr;</a></p>]]></content>
@@ -139,7 +163,7 @@
 			<entry>
 				<title type="html"><![CDATA[Dropdown Menus With More Forgiving Mouse Movement Paths]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/dropdown-menus-with-more-forgiving-mouse-movement-paths/"/>
-				<updated>2015-02-27T12:10:09-08:00</updated>
+				<updated>2015-02-27T15:10:09-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/dropdown-menus-with-more-forgiving-mouse-movement-paths</id>
 				<content type="html"><![CDATA[<p>Chris Coyier put together a nice overview of ways to reduce user frustration when dealing with dropdown and flyout menus because, you know, some people still use a mouse.</p>
 <p><a rel="full-article" href="https://css-tricks.com/dropdown-menus-with-more-forgiving-mouse-movement-paths/">Read on CSS Tricks&nbsp;&rarr;</a></p>]]></content>
@@ -150,7 +174,7 @@
 			<entry>
 				<title type="html"><![CDATA[Keeping `srcset` and `sizes` Under Control]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/keeping-srcset-and-sizes-under-control/"/>
-				<updated>2015-02-27T11:54:19-08:00</updated>
+				<updated>2015-02-27T14:54:19-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/keeping-srcset-and-sizes-under-control</id>
 				<content type="html"><![CDATA[<p>Matt Wilcox walks through his methodical process for managing <code>srcset</code> and <code>sizes</code>. It’s a good read an will be helpful for keeping you from being unnecessarily verbose (or getting to granular).</p>
 <p><a rel="full-article" href="https://mattwilcox.net/web-development/keeping-srcset-and-sizes-under-control">Read on Matt Wilcox’s Blog&nbsp;&rarr;</a></p>]]></content>
@@ -161,7 +185,7 @@
 			<entry>
 				<title type="html"><![CDATA[Can We Please Stop Fighting the Native vs. Web App Wars?]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/native-vs-web-apps-ceasefire/"/>
-				<updated>2015-02-27T09:27:14-08:00</updated>
+				<updated>2015-02-27T12:27:14-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/native-vs-web-apps-ceasefire</id>
 				<content type="html"><![CDATA[<p>Matt Asay does a great job dispelling some of the myths frequently spouted in the Web vs. native debate. It’s definitely worth a read.</p>
 <p><a rel="full-article" href="http://readwrite.com/2015/02/27/native-vs-web-apps-ceasefire">Read on ReadWrite&nbsp;&rarr;</a></p>]]></content>
@@ -172,7 +196,7 @@
 			<entry>
 				<title type="html"><![CDATA[A Break From the Past: The Birth of Microsoft’s New Web Rendering Engine]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/a-break-from-the-past-the-birth-of-microsoft/"/>
-				<updated>2015-02-26T17:08:16-08:00</updated>
+				<updated>2015-02-26T20:08:16-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/a-break-from-the-past-the-birth-of-microsoft</id>
 				<content type="html"><![CDATA[<p><a href="https://twitter.com/morris_charles">Charles Morris</a> wrote a lengthy post about the germination of Microsoft’s new browser rendering engine. If you ever wondered where <del>babies</del> <ins>browsers</ins> come from, this is full of insights.</p>
 
@@ -181,8 +205,6 @@
 <blockquote><p>Our mission to create a Web that “just works” won’t be successful without your help.</p></blockquote>
 <p><a rel="full-article" href="http://blogs.msdn.com/b/ie/archive/2015/02/26/a-break-from-the-past-the-birth-of-microsoft-s-new-web-rendering-engine.aspx">Read on IEBlog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
-		
-	
 		
 	
 		

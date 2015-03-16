@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-03-12T09:21:57-07:00</updated>
+	<updated>2015-03-16T17:30:27-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -14,9 +14,33 @@
 	
 		
 			<entry>
+				<title type="html"><![CDATA[When IE Gave Us Beautiful, Fast Touch Interactions, and Nobody Cared]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/name-equals-google-site-verification-content-equals-a8oysshcb8gk867218fvmjzou9k8f4bhqqvjteqqv4o-slash-%3Ethe-sea-of-ideas-when-ie-gave-us-beautiful-fast-touch-interactions-and-nobody-cared-dot-%3Cscript-type-equals/"/>
+				<updated>2015-03-16T17:26:36-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/name-equals-google-site-verification-content-equals-a8oysshcb8gk867218fvmjzou9k8f4bhqqvjteqqv4o-slash->the-sea-of-ideas-when-ie-gave-us-beautiful-fast-touch-interactions-and-nobody-cared-dot-<script-type-equals</id>
+				<content type="html"><![CDATA[<p>I never even saw this proposal, but how cool would it be to set snap points for scrolling content in  CSS?!</p>
+
+<div><script src='https://gist.github.com/bdc0efc31cbc7c1308c7.js?file=scroll-snap-points.css'></script>
+<noscript><pre><code>.container {
+  width: 500px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  /* Set up points to which scrolling will snap */
+  -ms-scroll-snap-points-x: snapInterval(0px, 100%);
+  /* Require that scrolling always end at a snap point */ 
+  -ms-scroll-snap-type: mandatory; 
+}</code></pre></noscript></div>
+
+<p><a rel="full-article" href="https://paulbakaus.com/2015/03/13/when-ie-gave-us-beautiful-fast-touch-interactions-and-nobody-cared/">Read on The Sea of Ideas&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
 				<title type="html"><![CDATA[What Does My Site Cost?]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/what-does-my-site-cost/"/>
-				<updated>2015-03-12T07:28:49-07:00</updated>
+				<updated>2015-03-12T10:28:49-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/what-does-my-site-cost</id>
 				<content type="html"><![CDATA[<p>This is a fantastic tool from the one and only Tim Kadlec. It helps you get a better understanding of how much it costs users to view a web page in different countries around the world.</p>
 
@@ -29,7 +53,7 @@
 			<entry>
 				<title type="html"><![CDATA[Js;dr = JavaScript Required; Didn’t Read.]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/js-dr-javascript-required-dead/"/>
-				<updated>2015-03-11T11:11:51-07:00</updated>
+				<updated>2015-03-11T14:11:51-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/js-dr-javascript-required-dead</id>
 				<content type="html"><![CDATA[<p>It’s a tough pill to swallow, but it’s true:</p>
 
@@ -48,7 +72,7 @@
 			<entry>
 				<title type="html"><![CDATA[Lines in the Sand]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/lines-in-the-sand/"/>
-				<updated>2015-03-11T06:21:29-07:00</updated>
+				<updated>2015-03-11T09:21:29-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/lines-in-the-sand</id>
 				<content type="html"><![CDATA[<p>A new site, <a href="http://breakupwithie8.com/">Break Up with Internet Explorer 8</a> by <a href="http://www.humaan.com/">Humaan</a>, has been making the rounds on the Interwebs of late. It’s cleverly done and an attractive site, but I don’t really agree with the premise:</p>
 
@@ -97,7 +121,7 @@
 			<entry>
 				<title type="html"><![CDATA[Advancing JavaScript Without Breaking the Web]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/advancing-javascript-without-breaking-the-web/"/>
-				<updated>2015-03-09T08:27:51-07:00</updated>
+				<updated>2015-03-09T11:27:51-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/advancing-javascript-without-breaking-the-web</id>
 				<content type="html"><![CDATA[<p>This megapost contains notes, slides, and a screencast version of <a href="http://twitter.com/codepo8">Christian Heilmann</a>’s MunichJS talk. There are lots of great bits in here. This section particularly resonated with me:</p>
 
@@ -114,7 +138,7 @@
 			<entry>
 				<title type="html"><![CDATA[Bidding Farewell to Shirley the Goat]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/bidding-farewell-to-shirley-the-goat/"/>
-				<updated>2015-03-09T06:35:42-07:00</updated>
+				<updated>2015-03-09T09:35:42-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/bidding-farewell-to-shirley-the-goat</id>
 				<content type="html"><![CDATA[<figure id="fig-2015-03-09-02" class="media-container media-container--right">
     <img src="http://cdn.webstandardssherpa.com/c/i/logo.png" alt="The Web Standards Sherpa logo, by Dan Cederholm">
@@ -146,7 +170,7 @@
 			<entry>
 				<title type="html"><![CDATA[RLSB Youth Forum Set a New Direction for Tube Travel]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/rlsb-youth-forum-set-a-new-direction-for-tube-travel/"/>
-				<updated>2015-03-08T06:51:36-07:00</updated>
+				<updated>2015-03-08T09:51:36-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/rlsb-youth-forum-set-a-new-direction-for-tube-travel</id>
 				<content type="html"><![CDATA[<p>This could be useful for anyone really, as as accessibility tech, it&rsquo;s pretty amazing.</p>
 
@@ -159,7 +183,7 @@
 			<entry>
 				<title type="html"><![CDATA[Who Should Pay 2: The Hosting]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/who-should-pay-2-the-hosting/"/>
-				<updated>2015-03-06T05:39:15-08:00</updated>
+				<updated>2015-03-06T08:39:15-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/who-should-pay-2-the-hosting</id>
 				<content type="html"><![CDATA[<p>Two weeks ago, I argued that our <a href="http://aaron-gustafson.com/notebook/who-should-pay/">users should never foot the bill for developer convenience</a> and yesterday I stumbled on a post from EllisLab (the makers of ExpressionEngine) that echoes that sentiment, but from a different angle. The title might make you scratch your head: <a href="https://ellislab.com/blog/entry/save-thousands-of-dollars-by-paying-more-for-hosting">Save Thousands of Dollars by Paying More for Hosting</a>.</p>
 
@@ -191,7 +215,7 @@
 			<entry>
 				<title type="html"><![CDATA[We Can Marry You Off, Wholesale]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/we-can-marry-you-off-wholesale/"/>
-				<updated>2015-03-05T14:29:18-08:00</updated>
+				<updated>2015-03-05T17:29:18-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/we-can-marry-you-off-wholesale</id>
 				<content type="html"><![CDATA[<p>A scary fiction:</p>
 
@@ -208,7 +232,7 @@
 			<entry>
 				<title type="html"><![CDATA[Sans Bullshit Sans]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/sans-bullshit-sans/"/>
-				<updated>2015-03-05T11:06:53-08:00</updated>
+				<updated>2015-03-05T14:06:53-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/sans-bullshit-sans</id>
 				<content type="html"><![CDATA[<p>View content minus the jargon. ’Nuff said.</p>
 
@@ -224,7 +248,7 @@
 			<entry>
 				<title type="html"><![CDATA[Ice Cream Sandwich Support Deprecation]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/ice-cream-sandwich-support-deprecation-the-chromium-projects/"/>
-				<updated>2015-03-04T11:50:43-08:00</updated>
+				<updated>2015-03-04T14:50:43-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/ice-cream-sandwich-support-deprecation-the-chromium-projects</id>
 				<content type="html"><![CDATA[<p>So Google will not ship a version of Chrome newer than 42 for Ice Cream Sandwich (Android 4.0). Queue <a href="http://forums.theregister.co.uk/forum/1/2015/03/04/google_chrome_android_4/">the wailing and gnashing of teeth</a> or just adopt progressive enhancement and move on. Browser and device proliferation is not a problem, myopic development practices are.</p>
 <p><a rel="full-article" href="http://www.chromium.org/Home/ice-cream-sandwich-support-deprecation-faq">Read on The Chromium Projects&nbsp;&rarr;</a></p>]]></content>
@@ -235,7 +259,7 @@
 			<entry>
 				<title type="html"><![CDATA[Accessibility Resources for Developers]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/accessibility-resources-for-developers/"/>
-				<updated>2015-03-02T09:31:33-08:00</updated>
+				<updated>2015-03-02T12:31:33-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/accessibility-resources-for-developers</id>
 				<content type="html"><![CDATA[<p>This is a treasure trove of software development resources—Web and otherwise—compiled by Jeff Petty.</p>
 <p><a rel="full-article" href="http://social.technet.microsoft.com/wiki/contents/articles/28725.accessibility-resources-for-developers.aspx">Read on TechNet Wiki&nbsp;&rarr;</a></p>]]></content>
@@ -246,7 +270,7 @@
 			<entry>
 				<title type="html"><![CDATA[Dropdown Menus With More Forgiving Mouse Movement Paths]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/dropdown-menus-with-more-forgiving-mouse-movement-paths/"/>
-				<updated>2015-02-27T12:10:09-08:00</updated>
+				<updated>2015-02-27T15:10:09-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/dropdown-menus-with-more-forgiving-mouse-movement-paths</id>
 				<content type="html"><![CDATA[<p>Chris Coyier put together a nice overview of ways to reduce user frustration when dealing with dropdown and flyout menus because, you know, some people still use a mouse.</p>
 <p><a rel="full-article" href="https://css-tricks.com/dropdown-menus-with-more-forgiving-mouse-movement-paths/">Read on CSS Tricks&nbsp;&rarr;</a></p>]]></content>
@@ -257,7 +281,7 @@
 			<entry>
 				<title type="html"><![CDATA[Keeping `srcset` and `sizes` Under Control]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/keeping-srcset-and-sizes-under-control/"/>
-				<updated>2015-02-27T11:54:19-08:00</updated>
+				<updated>2015-02-27T14:54:19-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/keeping-srcset-and-sizes-under-control</id>
 				<content type="html"><![CDATA[<p>Matt Wilcox walks through his methodical process for managing <code>srcset</code> and <code>sizes</code>. It’s a good read an will be helpful for keeping you from being unnecessarily verbose (or getting to granular).</p>
 <p><a rel="full-article" href="https://mattwilcox.net/web-development/keeping-srcset-and-sizes-under-control">Read on Matt Wilcox’s Blog&nbsp;&rarr;</a></p>]]></content>
@@ -268,7 +292,7 @@
 			<entry>
 				<title type="html"><![CDATA[Can We Please Stop Fighting the Native vs. Web App Wars?]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/native-vs-web-apps-ceasefire/"/>
-				<updated>2015-02-27T09:27:14-08:00</updated>
+				<updated>2015-02-27T12:27:14-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/native-vs-web-apps-ceasefire</id>
 				<content type="html"><![CDATA[<p>Matt Asay does a great job dispelling some of the myths frequently spouted in the Web vs. native debate. It’s definitely worth a read.</p>
 <p><a rel="full-article" href="http://readwrite.com/2015/02/27/native-vs-web-apps-ceasefire">Read on ReadWrite&nbsp;&rarr;</a></p>]]></content>
@@ -279,7 +303,7 @@
 			<entry>
 				<title type="html"><![CDATA[A Break From the Past: The Birth of Microsoft’s New Web Rendering Engine]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/a-break-from-the-past-the-birth-of-microsoft/"/>
-				<updated>2015-02-26T17:08:16-08:00</updated>
+				<updated>2015-02-26T20:08:16-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/a-break-from-the-past-the-birth-of-microsoft</id>
 				<content type="html"><![CDATA[<p><a href="https://twitter.com/morris_charles">Charles Morris</a> wrote a lengthy post about the germination of Microsoft’s new browser rendering engine. If you ever wondered where <del>babies</del> <ins>browsers</ins> come from, this is full of insights.</p>
 
@@ -294,7 +318,7 @@
 			<entry>
 				<title type="html"><![CDATA[Apple, Business, and Standards]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/apple-business-and-standards/"/>
-				<updated>2015-02-26T07:44:40-08:00</updated>
+				<updated>2015-02-26T10:44:40-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/apple-business-and-standards</id>
 				<content type="html"><![CDATA[<p>At <a href="http://www.codeandcreativity.com/events/2015-02-24">Tuesday night’s Code &amp; Creativity</a>, digital governance expert <a href="https://twitter.com/lwelchman">Lisa Welchman</a> equated digital projects to an atom. Content, IA, project management, networking, graphic design, application development, performance, and other concerns are flying this way and that like electrons—a swirling mass of energy and velocity. What holds this chaos together and keeps the electrons from flying off in all directions is the magnetic pull of protons in the nucleus of the atom.</p>
 
@@ -404,7 +428,7 @@
 			<entry>
 				<title type="html"><![CDATA[Consider How Your Forms Read]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/consider-how-your-forms-read/"/>
-				<updated>2015-02-23T08:21:24-08:00</updated>
+				<updated>2015-02-23T11:21:24-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/consider-how-your-forms-read</id>
 				<content type="html"><![CDATA[<p>While listening to <a href="http://www.radiolab.org/story/trust-engineers/">Radiolab’s &ldquo;The Trust Engineers&rdquo;</a>, I’ll admit I got a little excited when they started talking about web form performance. And no, not &ldquo;performance&rdquo; in the time-to-download sense, but &ldquo;performance&rdquo; in terms of how well the forms performed in attempting to capture meaningful, actionable data.</p>
 
@@ -458,7 +482,7 @@
 			<entry>
 				<title type="html"><![CDATA[Who Should Pay?]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/who-should-pay/"/>
-				<updated>2015-02-18T20:35:06-08:00</updated>
+				<updated>2015-02-18T23:35:06-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/who-should-pay</id>
 				<content type="html"><![CDATA[<p>In more than a handful of conversations lately, it’s become quite clear that we, the web development community, are prioritizing our own convenience and our own time over that of our users. With our industry’s focus on “user-centered design”, you might find that hard to believe, but it’s true.</p>
 
@@ -505,7 +529,7 @@
 			<entry>
 				<title type="html"><![CDATA[I Don’t Want to Teach the World to Code… I Want to Teach the World to Problem Solve]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/i-dont-want-to-teach-the-world-to-code/"/>
-				<updated>2015-02-15T14:51:36-08:00</updated>
+				<updated>2015-02-15T17:51:36-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/i-dont-want-to-teach-the-world-to-code</id>
 				<content type="html"><![CDATA[<p>It seems that every other day a new code school opens it doors. In my mid-sized city, Chattanooga, there are no fewer than three businesses centered around teaching “coding” classes<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> that I am aware of. And there are at least a half-dozen free or community driven programs and camps on top of that. Most are aimed at youth, but some offer adult education as well. And that, of course, is over and above what&rsquo;s available in our public and private schools (which is considerable) and a plethora of online options.</p>
 
@@ -541,65 +565,6 @@
 </ol>
 </div>
 
-]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Three Worthwhile Posts on Progressive Enhancement]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/three-worthwhile-posts-on-progressive-enhancement/"/>
-				<updated>2015-02-13T07:14:40-08:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/three-worthwhile-posts-on-progressive-enhancement</id>
-				<content type="html"><![CDATA[<p>Jason Garber has penned a series of posts on progressive enhancement. Here’s a quick rundown on what they cover and why you should read them.</p>
-
-<!-- more -->
-
-
-<h2><a href="http://sixtwothree.org/posts/designing-experience-layers">Designing Experience Layers</a></h2>
-
-<p>In his first post, Jason picks up on a drumbeat I’ve been hammering on for years: we need to consider experience a continuum, not a monolithic thing.</p>
-
-<blockquote><p>Today’s Web makes no guarantees. Every bit of code—HTML, CSS, and JavaScript—shipped from a server across the wire acts as a suggestion as to how the browser should interpret and display content. More often than not, everything works planned, but for any number of reasons, a browser could fail to request or render a particular asset.</p></blockquote>
-
-<p>In other words, get to know <a href="http://adaptivewebdesign.info/1st-edition/chapter-1.html#adapt-or-die">fault tolerance as it applies to web design</a> and <a href="http://aaron-gustafson.com/notebook/a-fundamental-disconnect/">don’t make any assumptions about how your content will be rendered/experienced</a>.</p>
-
-<p>His conclusion is an important one:</p>
-
-<blockquote><p>Approaching design through the lens of experience layers is the design strategy for the Web; one that’s better for users and designers alike.</p></blockquote>
-
-<p>Amen!</p>
-
-<h2><a href="http://sixtwothree.org/posts/in-defense-of-progressive-enhancement">In Defense of Progressive Enhancement</a></h2>
-
-<p>In his follow-up, Jason defends his position against <a href="http://viget.com/inspire/designing-experience-layers#comment-1847156038">a lengthy comment from his supervisor at Viget</a>. Jason’s responses are dead on:</p>
-
-<ol>
-<li>JavaScript is not a baseline (or a given) and</li>
-<li>When large sites put their eggs in the JS basket, they set a bad example for other developers.</li>
-</ol>
-
-
-<p>His summation is perfect:</p>
-
-<blockquote><p>I remain unconvinced that abandoning progressive enhancement in favor of JavaScript-first development is better for users or is the direction the Web is inevitably heading. It’s our responsibility to do right by the billions already online and the next billion preparing to come online. We can achieve this by designing robust, resilient, layered experiences using techniques like progressive enhancement.</p></blockquote>
-
-<p>Again, fantastic.</p>
-
-<h2><a href="http://sixtwothree.org/posts/the-practical-case-for-progressive-enhancement">The Practical Case for Progressive Enhancement</a></h2>
-
-<p>Continuing the thread, Jason assembles more reasons to adopt the progressive enhancement philosophy.</p>
-
-<ol>
-<li><strong>The “Moral” Argument for Progressive Enhancement</strong> &ndash; Personally, I think Jason gives in too easily on this. Access to content is <a href="http://www.pewinternet.org/topics/digital-divide/">a social justice issue</a> and that is nothing to gloss over. In some cases it is also a <a href="http://www.section508.gov/">legal requirement</a>.</li>
-<li><strong>The “Cost” of Progressive Enhancement</strong> &ndash; Jason does a good job addressing the costs (monetarily and temporally) associated with adopting progressive enhancement in terms of building, testing, and supporting websites. As he says, it is more costly to &ldquo;bolt on&rdquo; accessibility and progressive enhancement at the end of a project. He is also correct in his assertion that progressively-enhanced websites actually require less testing. And when you <a href="http://bradfrost.com/blog/mobile/support-vs-optimization/">draw a stark line between support and optimization</a>, support for additional browsers and devices also becomes far less costly. What Jason was missing was numbers to back all this up. <a href="http://blog.easy-designs.net/archives/the-true-cost-of-progressive-enhancement/">I have those numbers</a>. Enjoy.</li>
-<li><strong>Practicality</strong> &ndash; Finally, Jason calls out games and their ilk as edge cases. He correctly asserts that the vast majority of properties on the Web could easily be built following progressive enhancement. Sure, you might not build a Photoshop clone using progressive enhancement, but how many of you are building an image editor for the Web? I didn’t think so.</li>
-</ol>
-
-
-<h2>Conclusion</h2>
-
-<p>In all, this was a nice little series. Great work Jason! If you want to dig into this progressive enhancement stuff a bit more, you can read the entirety of my award-winning book <a href="http://adaptivewebdesign.info/1st-edition/"><cite>Adaptive Web Design: Crafting Rich Experiences with Progressive Enhancement</cite> online, for free</a>.</p>
 ]]></content>
 			</entry>
 		

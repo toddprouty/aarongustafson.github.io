@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Development | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/web-development/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-03-12T09:21:57-07:00</updated>
+  <updated>2015-03-16T17:30:27-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[The One Weird Trick That Takes the Pain Out of Cross-browser Testing]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing/"/>
-    <updated>2015-01-26T08:24:25-08:00</updated>
+    <updated>2015-01-26T11:24:25-05:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing</id>
     <content type="html"><![CDATA[<p>Love this!</p>
 
@@ -27,7 +27,7 @@
   <entry>
     <title type="html"><![CDATA[We Need More Empathy]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/we-need-more-empathy/"/>
-    <updated>2014-12-28T08:17:21-08:00</updated>
+    <updated>2014-12-28T11:17:21-05:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/we-need-more-empathy</id>
     <content type="html"><![CDATA[<p>For a while now I’ve been <a href="http://www.slideshare.net/AaronGustafson/designing-with-empathy-breaking-development-nashville-2013">beating the “empathy” drum</a> (<a href="http://www.lukew.com/ff/entry.asp?1810">notes</a>), trying to get folks in our industry to understand the importance of creating connections with the people for whom we build software, websites, etc. After all, we design and build tools to solve the needs of actual people, not some generic “user”.<!-- more --><sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
 
@@ -58,7 +58,7 @@
   <entry>
     <title type="html"><![CDATA[Autoplay, Don’t Do It]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/autoplay-dont-do-it/"/>
-    <updated>2014-12-21T12:12:50-08:00</updated>
+    <updated>2014-12-21T15:12:50-05:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/autoplay-dont-do-it</id>
     <content type="html"><![CDATA[<p>A while back <a href="https://gigaom.com/2014/09/04/facebooks-autoplay-has-led-to-a-60-boost-in-traffic-on-mobile-networks/">GogOm reported on how Facebook’s decision to autoplay videos led to a 60% increase in mobile data usage</a>. It was a business decision with the intent of increasing engagement, but it was a bad decision from a user experience. It’s a tax on users and they weren’t to happy about it.</p>
 
@@ -92,7 +92,7 @@
   <entry>
     <title type="html"><![CDATA[CSS Variables Are a Bad Idea]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/css-variables-are-a-bad-idea/"/>
-    <updated>2014-11-04T11:58:01-08:00</updated>
+    <updated>2014-11-04T14:58:01-05:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/css-variables-are-a-bad-idea</id>
     <content type="html"><![CDATA[<p>I’ll level with you: I used to think I wanted variables in CSS.</p>
 
@@ -181,7 +181,7 @@ body {
   <entry>
     <title type="html"><![CDATA[Google Embraces Progressive Enhancement]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/google-embraces-progressive-enhancement/"/>
-    <updated>2014-10-28T18:07:35-07:00</updated>
+    <updated>2014-10-28T21:07:35-04:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/google-embraces-progressive-enhancement</id>
     <content type="html"><![CDATA[<p>In case you missed it, <a href="http://googlewebmastercentral.blogspot.com/2014/10/updating-our-technical-webmaster.html">yesterday Pierre Far updated Google’s Webmaster Guidelines</a>. In his post, Pierre lays out their case for <a href="https://en.wikipedia.org/wiki/Progressive_enhancement">progressive enhancement</a>:</p>
 
