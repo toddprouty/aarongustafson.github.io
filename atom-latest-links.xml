@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-03-18T15:36:09-04:00</updated>
+	<updated>2015-03-18T16:04:32-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -85,9 +85,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[When IE Gave Us Beautiful, Fast Touch Interactions, and Nobody Cared]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/name-equals-google-site-verification-content-equals-a8oysshcb8gk867218fvmjzou9k8f4bhqqvjteqqv4o-slash-%3Ethe-sea-of-ideas-when-ie-gave-us-beautiful-fast-touch-interactions-and-nobody-cared-dot-%3Cscript-type-equals/"/>
+				<link href="http://www.aaron-gustafson.com/notebook/links/when-ie-gave-us-beautiful-fast-touch-interactions-and-nobody-cared/"/>
 				<updated>2015-03-16T17:26:36-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/name-equals-google-site-verification-content-equals-a8oysshcb8gk867218fvmjzou9k8f4bhqqvjteqqv4o-slash->the-sea-of-ideas-when-ie-gave-us-beautiful-fast-touch-interactions-and-nobody-cared-dot-<script-type-equals</id>
+				<id>http://www.aaron-gustafson.com/notebook/links/when-ie-gave-us-beautiful-fast-touch-interactions-and-nobody-cared</id>
 				<content type="html"><![CDATA[<p>I never even saw this proposal, but how cool would it be to set snap points for scrolling content in  CSS?!</p>
 
 <div><script src='https://gist.github.com/bdc0efc31cbc7c1308c7.js?file=scroll-snap-points.css'></script>
