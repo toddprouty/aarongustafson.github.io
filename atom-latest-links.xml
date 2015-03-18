@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-03-18T15:07:54-04:00</updated>
+	<updated>2015-03-18T15:11:36-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[An Analytics Primer for Developers]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/an-analytics-primer-for-developers/"/>
+				<updated>2015-03-18T15:09:15-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/an-analytics-primer-for-developers</id>
+				<content type="html"><![CDATA[<p>This is a fantastic overview of the various analytics reporting options available for developers along with a list of pros and cons for each. Highly recommended reading!</p>
+<p><a rel="full-article" href="https://hacks.mozilla.org/2015/03/an-analytics-primer-for-developers/">Read on Mozilla Hacks&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -218,8 +229,6 @@
 <blockquote><p>Our mission to create a Web that “just works” won’t be successful without your help.</p></blockquote>
 <p><a rel="full-article" href="http://blogs.msdn.com/b/ie/archive/2015/02/26/a-break-from-the-past-the-birth-of-microsoft-s-new-web-rendering-engine.aspx">Read on IEBlog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
-		
-	
 		
 	
 		
