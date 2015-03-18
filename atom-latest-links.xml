@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-03-18T15:19:31-04:00</updated>
+	<updated>2015-03-18T15:36:09-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,32 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Rendering Engine Updates in March for the Windows 10 Technical Preview]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/rendering-engine-updates-in-march-for-the-windows-10-technical-preview/"/>
+				<updated>2015-03-18T15:20:46-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/rendering-engine-updates-in-march-for-the-windows-10-technical-preview</id>
+				<content type="html"><![CDATA[<p>The new browser codenamed “Project Spartan” won’t be in it, but the March build of the public Windows 10 preview has a bunch of new features. Among my favorites:</p>
+
+<ul>
+<li><a href="https://status.modern.ie/arialandmarkroles">ARIA Landmark Roles</a>,</li>
+<li><a href="https://status.modern.ie/webaudioapi">Web Audio API</a>,</li>
+<li><a href="https://status.modern.ie/conditionalrules"><code>@supports</code></a>,</li>
+<li><a href="https://status.modern.ie/cssgradientmidpoints">CSS Gradient Midpoints</a>,</li>
+<li>unprefixed <a href="https://status.modern.ie/fullscreenapi">Fullscreen API</a>,</li>
+<li><a href="https://status.modern.ie/touchevents">Touch Events API</a>,</li>
+<li><a href="https://status.modern.ie/daterelatedinputtypes">HTML5 date inputs</a> (behind a flag),</li>
+<li><a href="https://status.modern.ie/csstransitionsanimationsforsvgelements">CSS transitions &amp; animations for SVG</a> (behind a flag), and</li>
+<li><a href="https://status.modern.ie/filters">CSS filters</a> (behind a flag).</li>
+</ul>
+
+
+<p><a href="https://remote.modern.ie/">RemoteIE</a> should be updated soon too.</p>
+<p><a rel="full-article" href="http://blogs.msdn.com/b/ie/archive/2015/03/18/rendering-engine-updates-in-march-for-the-windows-10-technical-preview.aspx">Read on IEBlog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -249,8 +275,6 @@
 <blockquote><p>Our mission to create a Web that “just works” won’t be successful without your help.</p></blockquote>
 <p><a rel="full-article" href="http://blogs.msdn.com/b/ie/archive/2015/02/26/a-break-from-the-past-the-birth-of-microsoft-s-new-web-rendering-engine.aspx">Read on IEBlog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
-		
-	
 		
 	
 </feed>
