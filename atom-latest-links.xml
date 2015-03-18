@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-03-16T17:37:49-04:00</updated>
+	<updated>2015-03-18T15:07:54-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,19 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Now the Internet Explorer Is Dead. Let’s Stop the Hate]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/now-the-internet-explorer-is-dead-lets-stop-the-hate/"/>
+				<updated>2015-03-18T15:02:03-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/now-the-internet-explorer-is-dead-lets-stop-the-hate</id>
+				<content type="html"><![CDATA[<p>A great post from <a href="https://twitter.com/teylorfeliz">Taylor Feliz</a> on why outdated browsers, in general, are more of a problem than Internet Explorer, specifically. He also ends with a great call to action:</p>
+
+<blockquote><p>[L]et’s develop websites that are cross browser and supported by all major browsers as our job as web developers require it.  It is not our job to decide what browser is cool or not; we have to provide an accessible and working website to all users because cross browser development is as or more important that even a responsive design.</p></blockquote>
+<p><a rel="full-article" href="http://admixweb.com/now-the-internet-explorer-is-dead-let-stop-the-hate/">Read on Admix Web Magazine&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -205,8 +218,6 @@
 <blockquote><p>Our mission to create a Web that “just works” won’t be successful without your help.</p></blockquote>
 <p><a rel="full-article" href="http://blogs.msdn.com/b/ie/archive/2015/02/26/a-break-from-the-past-the-birth-of-microsoft-s-new-web-rendering-engine.aspx">Read on IEBlog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
-		
-	
 		
 	
 		
