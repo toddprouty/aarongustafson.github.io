@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-03-18T15:11:36-04:00</updated>
+	<updated>2015-03-18T15:19:31-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,26 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Opera Mini Server Upgrade]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/opera-mini-server-upgrade/"/>
+				<updated>2015-03-18T15:12:32-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/opera-mini-server-upgrade</id>
+				<content type="html"><![CDATA[<p>The server-side Presto rendering engine that drives Opera Mini has gotten a major upgrade, introducing some great new features including</p>
+
+<ul>
+<li><a href="http://www.w3.org/TR/css3-flexbox/">flexbox</a></li>
+<li><a href="http://www.w3.org/TR/css3-values/#rem-unit">rem units</a>, and</li>
+<li><a href="https://dev.opera.com/blog/opera-mini-server-upgrade/#ecmascript-5">a bit of ECMAScript 5</a>.</li>
+</ul>
+
+
+<p>HTML5 input types are on the docket. They won’t be displayed properly in clients until they get an upgrade, but the parse is aware of them now and they will fall back to &ldquo;text&rdquo; inputs until the client roll-out happens.</p>
+<p><a rel="full-article" href="https://dev.opera.com/blog/opera-mini-server-upgrade/">Read on Dev.Opera&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -229,8 +249,6 @@
 <blockquote><p>Our mission to create a Web that “just works” won’t be successful without your help.</p></blockquote>
 <p><a rel="full-article" href="http://blogs.msdn.com/b/ie/archive/2015/02/26/a-break-from-the-past-the-birth-of-microsoft-s-new-web-rendering-engine.aspx">Read on IEBlog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
-		
-	
 		
 	
 		
