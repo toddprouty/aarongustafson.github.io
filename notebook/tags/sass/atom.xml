@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Browse by Tag: Css | Aaron Gustafson]]></title>
-  <link href="http://www.aaron-gustafson.com/notebook/tags/css/atom.xml" rel="self"/>
+  <title><![CDATA[Browse by Tag: Sass | Aaron Gustafson]]></title>
+  <link href="http://www.aaron-gustafson.com/notebook/tags/sass/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
   <updated>2015-03-20T15:16:12-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
@@ -96,95 +96,6 @@ li:nth-last-child(-n+6):first-child ~ li {
 
 
 <p>Happy counting!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[CSS Variables Are a Bad Idea]]></title>
-    <link href="http://www.aaron-gustafson.com/notebook/css-variables-are-a-bad-idea/"/>
-    <updated>2014-11-04T14:58:01-05:00</updated>
-    <id>http://www.aaron-gustafson.com/notebook/css-variables-are-a-bad-idea</id>
-    <content type="html"><![CDATA[<p>I’ll level with you: I used to think I wanted variables in CSS.</p>
-
-<p>As a programmer, I love the idea of being able to abstract reusable bits like colors, border widths, font sizes, and the like to obviously named variables. It’s a far more <a href="https://en.wikipedia.org/wiki/Don't_repeat_yourself">DRY</a> approach and makes maintenance far easier.</p>
-
-<!-- more -->
-
-
-<p>Before I made the leap to using a CSS preprocessor, I was convinced we needed CSS variables, but I always wondered how we might make it possible without breaking one of the fundamental <a href="http://www.w3.org/TR/CSS21/intro.html#design-principles">design principles of CSS</a>: Forward and backward compatibility. Take a look at this example (which is based on <a href="http://www.w3.org/TR/css-variables/">the working draft spec</a>) and I think you’ll spot the problem:</p>
-
-<p><div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=css-vairables.css'></script>
-<noscript><pre><code>:root {
-  --foreground-color: #333;
-  --background-color: #fff;
-}
-
-body {
-  background: var(--background-color);
-  color: var(--foreground-color);
-}</code></pre></noscript></div>
-</p>
-
-<p>For a browser that understands CSS variables, the interpreted stylesheet would look like this:</p>
-
-<p><div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=desired-result.css'></script>
-<noscript><pre><code>body {
-  background: #fff;
-  color: #333;
-}</code></pre></noscript></div>
-</p>
-
-<p>But any browser that doesn’t understand the variables would never get the color values because browsers follow <a href="http://www.w3.org/TR/CSS21/syndata.html#parsing-errors">the rules of fault tolerance in CSS</a> and ignore anything they don’t understand. The introduction of variables to CSS would effectively build a wall between older browsers and new ones. (For the record, as of this writing, <a href="http://caniuse.com/#feat=css-variables">only Firefox has implemented CSS variables</a>).</p>
-
-<p>In order to serve the broadest spectrum of devices, we’d have to provide a fallback like this:</p>
-
-<p><div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=css-variables-fallback.css'></script>
-<noscript><pre><code>:root {
-  --foreground-color: #333;
-  --background-color: #fff;
-}
-
-body {
-  background: #fff;
-  background: var(--background-color);
-  color: #333;
-  color: var(--foreground-color);
-}</code></pre></noscript></div>
-</p>
-
-<p>But that kinda defeats the whole purpose, right?</p>
-
-<p>Preprocessors already give us this access to variables today (along with nesting, mixins, and programmatic structures like conditionals, loops, etc.). Here’s a SASS example:</p>
-
-<p><div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=sass-variables.scss'></script>
-<noscript><pre><code>$foreground-color: #333;
-$background-color: #fff;
- 
- 
-body {
-  background: $background-color;
-  color: $foreground-color;
-}</code></pre></noscript></div>
-</p>
-
-<p>The big difference here is that this document is a source file, it is not what is sent to the browser. This file is compiled by the preprocessor into actual CSS, which is what we send to the browser and is exactly what we wanted in the first place:</p>
-
-<p><div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=desired-result.css'></script>
-<noscript><pre><code>body {
-  background: #fff;
-  color: #333;
-}</code></pre></noscript></div>
-</p>
-
-<p>And it works on every browser that supports CSS, all the way back to <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#Difficulty_with_adoption">IE 3</a>.</p>
-
-<p>With a preprocessor like SASS, Less, or Stylus, I get all of the maintainability benefits without sacrificing browser support. It’s a no-brainer. But even if that were not true, there’s another issue to consider: If I push CSS variables to browsers, they have to parse the CSS and substitute the variables before they can apply the styles.</p>
-
-<p>Now I’m sure browser makers can find ways to optimize this process, but it’s bound to affect the rendering time. And not in a positive way. I don’t even want to think about how bad it would be on a mobile chipset, especially on a low-end device.</p>
-
-<p>Honestly, I love using variables… in the source files I use with a preprocessor. Given the potential loss of browser support, the pointless fallbacks I’d have to use if I wanted to continue supporting older browsers, the existence of numerous preprocessor options that solve the abstraction problem in a backward- and forward-compatible way, and the fact that CSS variables would make browsers have to work even harder to achieve the desired result, I’m not convinced we need them.</p>
-
-<p>CSS variables are a bad idea.</p>
 ]]></content>
   </entry>
   
