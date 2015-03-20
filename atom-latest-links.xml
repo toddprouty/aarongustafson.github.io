@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-03-18T16:04:32-04:00</updated>
+	<updated>2015-03-20T10:58:09-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[The Big Web Show #130: Progressive Enhancement FTW With Aaron Gustafson]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/bigwebshow-130/"/>
+				<updated>2015-03-20T10:53:58-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/bigwebshow-130</id>
+				<content type="html"><![CDATA[<p>Jeffrey Zeldman and I discuss web design then and now; why Flipboard’s 60fps web launch is anti-web and anti-user; <a href="https://www.youtube.com/watch?v=1pkVLqSaahk">Genesis’ “Land of Confusion” video</a>, and other bad ideas from the 1980s; design versus art; the demise and sendoff of <a href="http://webstandardssherpa.com">Web Standards Sherpa</a>; how the web community differs from other creative communities; and the 2nd Edition of <a href="http://adaptivewebdesign.info"><cite>Adaptive Web Design</cite></a>, coming from New Riders later this year.</p>
+<p><a rel="full-article" href="http://5by5.tv/bigwebshow/130">Read on 5 by 5&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -259,21 +270,6 @@
 				<id>http://www.aaron-gustafson.com/notebook/links/native-vs-web-apps-ceasefire</id>
 				<content type="html"><![CDATA[<p>Matt Asay does a great job dispelling some of the myths frequently spouted in the Web vs. native debate. It’s definitely worth a read.</p>
 <p><a rel="full-article" href="http://readwrite.com/2015/02/27/native-vs-web-apps-ceasefire">Read on ReadWrite&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[A Break From the Past: The Birth of Microsoft’s New Web Rendering Engine]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/a-break-from-the-past-the-birth-of-microsoft/"/>
-				<updated>2015-02-26T20:08:16-05:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/a-break-from-the-past-the-birth-of-microsoft</id>
-				<content type="html"><![CDATA[<p><a href="https://twitter.com/morris_charles">Charles Morris</a> wrote a lengthy post about the germination of Microsoft’s new browser rendering engine. If you ever wondered where <del>babies</del> <ins>browsers</ins> come from, this is full of insights.</p>
-
-<p>On a side note, this is one of the most exciting aspects of the new browser (and new Microsoft) for me:</p>
-
-<blockquote><p>Our mission to create a Web that “just works” won’t be successful without your help.</p></blockquote>
-<p><a rel="full-article" href="http://blogs.msdn.com/b/ie/archive/2015/02/26/a-break-from-the-past-the-birth-of-microsoft-s-new-web-rendering-engine.aspx">Read on IEBlog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
