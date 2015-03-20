@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-03-20T10:58:09-04:00</updated>
+	<updated>2015-03-20T12:23:00-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,20 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Doug Kerney Freaks Over Internet Explorer’s Phaseout]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/doug-kerney-freaks-over-internet-explorers-phaseout/"/>
+				<updated>2015-03-20T12:10:47-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/doug-kerney-freaks-over-internet-explorers-phaseout</id>
+				<content type="html"><![CDATA[<p>Hilarious!</p>
+
+<figure id="fig-2015-03-20-01" class="figure figure--video"><div class="video-embed video-embed--vimeo video-embed--16x9"><iframe class="video-embed__video" frameborder="0" allowfullscreen="" src="//player.theplatform.com/p/NnzsPC/widget/select/media/Rq9eJUYppzJM"></iframe></div></figure>
+
+<p><a rel="full-article" href="http://www.nbc.com/fallon-tonight/segments/115651">Read on The Tonight Show&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -259,17 +273,6 @@
 				<id>http://www.aaron-gustafson.com/notebook/links/keeping-srcset-and-sizes-under-control</id>
 				<content type="html"><![CDATA[<p>Matt Wilcox walks through his methodical process for managing <code>srcset</code> and <code>sizes</code>. It’s a good read an will be helpful for keeping you from being unnecessarily verbose (or getting to granular).</p>
 <p><a rel="full-article" href="https://mattwilcox.net/web-development/keeping-srcset-and-sizes-under-control">Read on Matt Wilcox’s Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Can We Please Stop Fighting the Native vs. Web App Wars?]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/native-vs-web-apps-ceasefire/"/>
-				<updated>2015-02-27T12:27:14-05:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/native-vs-web-apps-ceasefire</id>
-				<content type="html"><![CDATA[<p>Matt Asay does a great job dispelling some of the myths frequently spouted in the Web vs. native debate. It’s definitely worth a read.</p>
-<p><a rel="full-article" href="http://readwrite.com/2015/02/27/native-vs-web-apps-ceasefire">Read on ReadWrite&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
