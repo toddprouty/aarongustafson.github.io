@@ -29,7 +29,12 @@
 
 <p>Here’s Heydon’s first quantity query example:</p>
 
-<p>{% gist eddda1f32ed102cedd86 equal.css %}</p>
+<p><div><script src='https://gist.github.com/eddda1f32ed102cedd86.js?file=equal.css'></script>
+<noscript><pre><code>li:nth-last-child(6):first-child, 
+li:nth-last-child(6):first-child ~ li {
+  color: green;
+}</code></pre></noscript></div>
+</p>
 
 <p>With these selectors, the rule set would only apply if the total count of list items was exactly 6. Here’s what he is selecting:</p>
 
@@ -44,7 +49,12 @@
 <p>But Heydon doesn’t stop there. He also gives us ways to test for  more than or equal to and fewer than or equal to a certain number. We’ll start with the <br/>
 &ldquo;more than&rdquo; variant (because everyone always wants more):</p>
 
-<p>{% gist eddda1f32ed102cedd86 more-than-or-equal.css %}</p>
+<p><div><script src='https://gist.github.com/eddda1f32ed102cedd86.js?file=more-than-or-equal.css'></script>
+<noscript><pre><code>li:nth-last-child(n+6),
+li:nth-last-child(n+6) ~ li {
+  /* properties here */
+}</code></pre></noscript></div>
+</p>
 
 <p>This one is slightly more complex, using the <code>nth-*</code> formula to manage the calculation. In English, this selects:</p>
 
@@ -64,7 +74,12 @@
 
 <p>The final example he gives is for fewer than or equal to a particular number:</p>
 
-<p>{% gist eddda1f32ed102cedd86 fewer-than-or-equal.css %}</p>
+<p><div><script src='https://gist.github.com/eddda1f32ed102cedd86.js?file=fewer-than-or-equal.css'></script>
+<noscript><pre><code>li:nth-last-child(-n+6):first-child,
+li:nth-last-child(-n+6):first-child ~ li {
+  /* properties here */
+}</code></pre></noscript></div>
+</p>
 
 <p>This one is largely the same as the &ldquo;more than&rdquo; example, but the multiplier is reversed (with the minus sign) which means the count runs backward: 0+6 (6), -1+5 (5), -2+6 (4), and so on.</p>
 
@@ -104,7 +119,10 @@
 
 <p>A simple way to rid yourself of IE8 related headaches is to embrace the idea that <a href="http://dowebsitesneedtolookexactlythesameineverybrowser.com/">web pages don’t need to look (or behave) the same in every browser</a> and look for ways to achieve this while still providing access to your content and tools for less-capable browsers and devices. For example:</p>
 
-<p>{% gist b9bca995a67ba298225d css-filter.html %}</p>
+<p><div><script src='https://gist.github.com/b9bca995a67ba298225d.js?file=css-filter.html'></script>
+<noscript><pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;simple.css&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;complex.css&quot; media=&quot;only screen&quot;&gt;</code></pre></noscript></div>
+</p>
 
 <p>This simple stylesheet setup will deliver only the <code>simple.css</code> file to browsers that are incapable of understanding media queries. Browsers that do understand them will get both stylesheets. Media queries support is an easy line in the sand we can draw because <a href="http://www.slideshare.net/bryanrieger/rethinking-the-mobile-web-by-yiibu/79">lack of media query support is in fact the first media query</a>.</p>
 
@@ -112,7 +130,11 @@
 
 <p>On the JavaScript end, you can draw a line in the sand too. Let’s say you don’t want to spend your time debugging JavaScript in IE8. You can just skip it using <a href="http://www.quirksmode.org/css/condcom.html">Conditional Comments</a>:</p>
 
-<p>{% gist b9bca995a67ba298225d js-filter.html %}</p>
+<p><div><script src='https://gist.github.com/b9bca995a67ba298225d.js?file=js-filter.html'></script>
+<noscript><pre><code>&lt;!--[if gte IE 9]&gt;&lt;!--&gt;
+  &lt;script src=&quot;not-for-ie8.js&quot;&gt;&lt;/script&gt;
+&lt;!--&lt;![endif]--&gt;</code></pre></noscript></div>
+</p>
 
 <p>Using an approach like this avoids delivering the contained JavaScript files to IE8 at all, but all other browsers will see them.</p>
 
