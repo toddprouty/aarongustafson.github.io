@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-03-21T21:20:26-04:00</updated>
+	<updated>2015-03-22T22:58:14-07:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -14,9 +14,46 @@
 	
 		
 			<entry>
+				<title type="html"><![CDATA[Austin Landlords Demolish Piñata Store for SXSW, Call Mexican Tenants ‘Roaches’]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/austin-landlords-demolish-pinata-store-jumpolin-sxsw-party/"/>
+				<updated>2015-03-23T15:51:36-07:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/austin-landlords-demolish-pinata-store-jumpolin-sxsw-party</id>
+				<content type="html"><![CDATA[<p>This is despicable. If you are the mother of either Jordan French or Darius Fisher, please slap some sense into your little fuckwits. Lejarazu family: I am so sorry.</p>
+
+<p>I miss the old Austin.</p>
+<p><a rel="full-article" href="http://www.latina.com/lifestyle/our-issues/austin-landlords-demolish-pinata-store-jumpolin-sxsw-party">Read on Latina&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Once Upon a Time, There Was One Internet and It Was Open to Everyone…]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/once-upon-a-time-there-was-one-internet-and-it-was-open-to-everyone/"/>
+				<updated>2015-03-22T20:51:36-07:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/once-upon-a-time-there-was-one-internet-and-it-was-open-to-everyone</id>
+				<content type="html"><![CDATA[<p>A  great discussion of the implications of Internet censorship on businesses and the economy. Choice quote:</p>
+
+<blockquote><p>When governments begin developing complex and counterintuitive online rules for their various jurisdictions, any semblance of global development is broken down. The resulting risk is that we will be left with multiple internets, each with their own rules, laws and jguidelines.</p></blockquote>
+<p><a rel="full-article" href="http://www.wired.com/2015/03/once-upon-a-time-there-was-one-internet-and-it-was-open-to-everyone/">Read on Wired&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[YourBrowser.is]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/yourbrowseris/"/>
+				<updated>2015-03-22T15:51:36-07:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/yourbrowseris</id>
+				<content type="html"><![CDATA[<p>One of the hardest things about debugging websites is parsing bug reports provided by non-tech folks. And one of the most common issues with them is confirmation of what browser &amp; version, OS &amp; version, and possibly what device they are running it on. Do yourself a favor and have them hit <a href="http://yourbrowser.is">yourbrowser.is</a> to copy &amp; paste the results for you before posting the bug.</p>
+<p><a rel="full-article" href="http://yourbrowser.is/">Read on YourBrowser.is&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
 				<title type="html"><![CDATA[Doug Kerney Freaks Over Internet Explorer’s Phaseout]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/doug-kerney-freaks-over-internet-explorers-phaseout/"/>
-				<updated>2015-03-20T12:10:47-04:00</updated>
+				<updated>2015-03-20T09:10:47-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/doug-kerney-freaks-over-internet-explorers-phaseout</id>
 				<content type="html"><![CDATA[<p>Hilarious!</p>
 
@@ -30,7 +67,7 @@
 			<entry>
 				<title type="html"><![CDATA[Quantity Queries… Where Have You Been All My Life?]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/quantity-queries-where-have-you-been-all-my-life/"/>
-				<updated>2015-03-20T11:00:03-04:00</updated>
+				<updated>2015-03-20T08:00:03-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/quantity-queries-where-have-you-been-all-my-life</id>
 				<content type="html"><![CDATA[<p><a href="http://twitter.com/heydonworks">Heydon Pickering</a>’s <a href="http://alistapart.com/article/quantity-queries-for-css">Quantity Queries for CSS</a> is sheer brilliance and it’s so simple I’m surprised we hadn’t landed on the idea sooner.</p>
 
@@ -118,7 +155,7 @@ li:nth-last-child(-n+6):first-child ~ li {
 			<entry>
 				<title type="html"><![CDATA[The Big Web Show #130: Progressive Enhancement FTW With Aaron Gustafson]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/bigwebshow-130/"/>
-				<updated>2015-03-20T10:53:58-04:00</updated>
+				<updated>2015-03-20T07:53:58-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/bigwebshow-130</id>
 				<content type="html"><![CDATA[<p>Jeffrey Zeldman and I discuss web design then and now; why Flipboard’s 60fps web launch is anti-web and anti-user; <a href="https://www.youtube.com/watch?v=1pkVLqSaahk">Genesis’ “Land of Confusion” video</a>, and other bad ideas from the 1980s; design versus art; the demise and sendoff of <a href="http://webstandardssherpa.com">Web Standards Sherpa</a>; how the web community differs from other creative communities; and the 2nd Edition of <a href="http://adaptivewebdesign.info"><cite>Adaptive Web Design</cite></a>, coming from New Riders later this year.</p>
 <p><a rel="full-article" href="http://5by5.tv/bigwebshow/130">Read on 5 by 5&nbsp;&rarr;</a></p>]]></content>
@@ -129,7 +166,7 @@ li:nth-last-child(-n+6):first-child ~ li {
 			<entry>
 				<title type="html"><![CDATA[Rendering Engine Updates in March for the Windows 10 Technical Preview]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/rendering-engine-updates-in-march-for-the-windows-10-technical-preview/"/>
-				<updated>2015-03-18T15:20:46-04:00</updated>
+				<updated>2015-03-18T12:20:46-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/rendering-engine-updates-in-march-for-the-windows-10-technical-preview</id>
 				<content type="html"><![CDATA[<p>The new browser codenamed “Project Spartan” won’t be in it, but the March build of the public Windows 10 preview has a bunch of new features. Among my favorites:</p>
 
@@ -155,7 +192,7 @@ li:nth-last-child(-n+6):first-child ~ li {
 			<entry>
 				<title type="html"><![CDATA[Opera Mini Server Upgrade]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/opera-mini-server-upgrade/"/>
-				<updated>2015-03-18T15:12:32-04:00</updated>
+				<updated>2015-03-18T12:12:32-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/opera-mini-server-upgrade</id>
 				<content type="html"><![CDATA[<p>The server-side Presto rendering engine that drives Opera Mini has gotten a major upgrade, introducing some great new features including</p>
 
@@ -175,7 +212,7 @@ li:nth-last-child(-n+6):first-child ~ li {
 			<entry>
 				<title type="html"><![CDATA[An Analytics Primer for Developers]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/an-analytics-primer-for-developers/"/>
-				<updated>2015-03-18T15:09:15-04:00</updated>
+				<updated>2015-03-18T12:09:15-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/an-analytics-primer-for-developers</id>
 				<content type="html"><![CDATA[<p>This is a fantastic overview of the various analytics reporting options available for developers along with a list of pros and cons for each. Highly recommended reading!</p>
 <p><a rel="full-article" href="https://hacks.mozilla.org/2015/03/an-analytics-primer-for-developers/">Read on Mozilla Hacks&nbsp;&rarr;</a></p>]]></content>
@@ -186,7 +223,7 @@ li:nth-last-child(-n+6):first-child ~ li {
 			<entry>
 				<title type="html"><![CDATA[Now the Internet Explorer Is Dead. Let’s Stop the Hate]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/now-the-internet-explorer-is-dead-lets-stop-the-hate/"/>
-				<updated>2015-03-18T15:02:03-04:00</updated>
+				<updated>2015-03-18T12:02:03-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/now-the-internet-explorer-is-dead-lets-stop-the-hate</id>
 				<content type="html"><![CDATA[<p>A great post from <a href="https://twitter.com/teylorfeliz">Taylor Feliz</a> on why outdated browsers, in general, are more of a problem than Internet Explorer, specifically. He also ends with a great call to action:</p>
 
@@ -199,7 +236,7 @@ li:nth-last-child(-n+6):first-child ~ li {
 			<entry>
 				<title type="html"><![CDATA[When IE Gave Us Beautiful, Fast Touch Interactions, and Nobody Cared]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/when-ie-gave-us-beautiful-fast-touch-interactions-and-nobody-cared/"/>
-				<updated>2015-03-16T17:26:36-04:00</updated>
+				<updated>2015-03-16T14:26:36-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/when-ie-gave-us-beautiful-fast-touch-interactions-and-nobody-cared</id>
 				<content type="html"><![CDATA[<p>I never even saw this proposal, but how cool would it be to set snap points for scrolling content in  CSS?!</p>
 
@@ -223,7 +260,7 @@ li:nth-last-child(-n+6):first-child ~ li {
 			<entry>
 				<title type="html"><![CDATA[What Does My Site Cost?]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/what-does-my-site-cost/"/>
-				<updated>2015-03-12T10:28:49-04:00</updated>
+				<updated>2015-03-12T07:28:49-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/what-does-my-site-cost</id>
 				<content type="html"><![CDATA[<p>This is a fantastic tool from the one and only Tim Kadlec. It helps you get a better understanding of how much it costs users to view a web page in different countries around the world.</p>
 
@@ -236,7 +273,7 @@ li:nth-last-child(-n+6):first-child ~ li {
 			<entry>
 				<title type="html"><![CDATA[Js;dr = JavaScript Required; Didn’t Read.]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/js-dr-javascript-required-dead/"/>
-				<updated>2015-03-11T14:11:51-04:00</updated>
+				<updated>2015-03-11T11:11:51-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/js-dr-javascript-required-dead</id>
 				<content type="html"><![CDATA[<p>It’s a tough pill to swallow, but it’s true:</p>
 
@@ -255,7 +292,7 @@ li:nth-last-child(-n+6):first-child ~ li {
 			<entry>
 				<title type="html"><![CDATA[Lines in the Sand]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/lines-in-the-sand/"/>
-				<updated>2015-03-11T09:21:29-04:00</updated>
+				<updated>2015-03-11T06:21:29-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/lines-in-the-sand</id>
 				<content type="html"><![CDATA[<p>A new site, <a href="http://breakupwithie8.com/">Break Up with Internet Explorer 8</a> by <a href="http://www.humaan.com/">Humaan</a>, has been making the rounds on the Interwebs of late. It’s cleverly done and an attractive site, but I don’t really agree with the premise:</p>
 
@@ -304,7 +341,7 @@ li:nth-last-child(-n+6):first-child ~ li {
 			<entry>
 				<title type="html"><![CDATA[Advancing JavaScript Without Breaking the Web]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/advancing-javascript-without-breaking-the-web/"/>
-				<updated>2015-03-09T11:27:51-04:00</updated>
+				<updated>2015-03-09T08:27:51-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/advancing-javascript-without-breaking-the-web</id>
 				<content type="html"><![CDATA[<p>This megapost contains notes, slides, and a screencast version of <a href="http://twitter.com/codepo8">Christian Heilmann</a>’s MunichJS talk. There are lots of great bits in here. This section particularly resonated with me:</p>
 
@@ -321,7 +358,7 @@ li:nth-last-child(-n+6):first-child ~ li {
 			<entry>
 				<title type="html"><![CDATA[Bidding Farewell to Shirley the Goat]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/bidding-farewell-to-shirley-the-goat/"/>
-				<updated>2015-03-09T09:35:42-04:00</updated>
+				<updated>2015-03-09T06:35:42-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/bidding-farewell-to-shirley-the-goat</id>
 				<content type="html"><![CDATA[<figure id="fig-2015-03-09-02" class="media-container media-container--right">
     <img src="http://cdn.webstandardssherpa.com/c/i/logo.png" alt="The Web Standards Sherpa logo, by Dan Cederholm">
@@ -353,7 +390,7 @@ li:nth-last-child(-n+6):first-child ~ li {
 			<entry>
 				<title type="html"><![CDATA[RLSB Youth Forum Set a New Direction for Tube Travel]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/rlsb-youth-forum-set-a-new-direction-for-tube-travel/"/>
-				<updated>2015-03-08T09:51:36-04:00</updated>
+				<updated>2015-03-08T06:51:36-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/rlsb-youth-forum-set-a-new-direction-for-tube-travel</id>
 				<content type="html"><![CDATA[<p>This could be useful for anyone really, as as accessibility tech, it&rsquo;s pretty amazing.</p>
 
@@ -366,7 +403,7 @@ li:nth-last-child(-n+6):first-child ~ li {
 			<entry>
 				<title type="html"><![CDATA[Who Should Pay 2: The Hosting]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/who-should-pay-2-the-hosting/"/>
-				<updated>2015-03-06T08:39:15-05:00</updated>
+				<updated>2015-03-06T05:39:15-08:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/who-should-pay-2-the-hosting</id>
 				<content type="html"><![CDATA[<p>Two weeks ago, I argued that our <a href="http://aaron-gustafson.com/notebook/who-should-pay/">users should never foot the bill for developer convenience</a> and yesterday I stumbled on a post from EllisLab (the makers of ExpressionEngine) that echoes that sentiment, but from a different angle. The title might make you scratch your head: <a href="https://ellislab.com/blog/entry/save-thousands-of-dollars-by-paying-more-for-hosting">Save Thousands of Dollars by Paying More for Hosting</a>.</p>
 
@@ -398,7 +435,7 @@ li:nth-last-child(-n+6):first-child ~ li {
 			<entry>
 				<title type="html"><![CDATA[We Can Marry You Off, Wholesale]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/we-can-marry-you-off-wholesale/"/>
-				<updated>2015-03-05T17:29:18-05:00</updated>
+				<updated>2015-03-05T14:29:18-08:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/we-can-marry-you-off-wholesale</id>
 				<content type="html"><![CDATA[<p>A scary fiction:</p>
 
@@ -415,7 +452,7 @@ li:nth-last-child(-n+6):first-child ~ li {
 			<entry>
 				<title type="html"><![CDATA[Sans Bullshit Sans]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/sans-bullshit-sans/"/>
-				<updated>2015-03-05T14:06:53-05:00</updated>
+				<updated>2015-03-05T11:06:53-08:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/sans-bullshit-sans</id>
 				<content type="html"><![CDATA[<p>View content minus the jargon. ’Nuff said.</p>
 
@@ -424,39 +461,6 @@ li:nth-last-child(-n+6):first-child ~ li {
 </figure>
 
 <p><a rel="full-article" href="http://www.sansbullshitsans.com/">Read on Sans Bullshit Sans&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Ice Cream Sandwich Support Deprecation]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/ice-cream-sandwich-support-deprecation-the-chromium-projects/"/>
-				<updated>2015-03-04T14:50:43-05:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/ice-cream-sandwich-support-deprecation-the-chromium-projects</id>
-				<content type="html"><![CDATA[<p>So Google will not ship a version of Chrome newer than 42 for Ice Cream Sandwich (Android 4.0). Queue <a href="http://forums.theregister.co.uk/forum/1/2015/03/04/google_chrome_android_4/">the wailing and gnashing of teeth</a> or just adopt progressive enhancement and move on. Browser and device proliferation is not a problem, myopic development practices are.</p>
-<p><a rel="full-article" href="http://www.chromium.org/Home/ice-cream-sandwich-support-deprecation-faq">Read on The Chromium Projects&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Accessibility Resources for Developers]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/accessibility-resources-for-developers/"/>
-				<updated>2015-03-02T12:31:33-05:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/accessibility-resources-for-developers</id>
-				<content type="html"><![CDATA[<p>This is a treasure trove of software development resources—Web and otherwise—compiled by Jeff Petty.</p>
-<p><a rel="full-article" href="http://social.technet.microsoft.com/wiki/contents/articles/28725.accessibility-resources-for-developers.aspx">Read on TechNet Wiki&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Dropdown Menus With More Forgiving Mouse Movement Paths]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/dropdown-menus-with-more-forgiving-mouse-movement-paths/"/>
-				<updated>2015-02-27T15:10:09-05:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/dropdown-menus-with-more-forgiving-mouse-movement-paths</id>
-				<content type="html"><![CDATA[<p>Chris Coyier put together a nice overview of ways to reduce user frustration when dealing with dropdown and flyout menus because, you know, some people still use a mouse.</p>
-<p><a rel="full-article" href="https://css-tricks.com/dropdown-menus-with-more-forgiving-mouse-movement-paths/">Read on CSS Tricks&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	

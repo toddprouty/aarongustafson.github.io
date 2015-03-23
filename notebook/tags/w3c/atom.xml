@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: W3c | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/w3c/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-03-21T21:20:26-04:00</updated>
+  <updated>2015-03-22T22:58:14-07:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[CSS Variables Are a Bad Idea]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/css-variables-are-a-bad-idea/"/>
-    <updated>2014-11-04T14:58:01-05:00</updated>
+    <updated>2014-11-04T11:58:01-08:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/css-variables-are-a-bad-idea</id>
     <content type="html"><![CDATA[<p>I’ll level with you: I used to think I wanted variables in CSS.</p>
 
