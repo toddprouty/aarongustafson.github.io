@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-03-22T23:04:28-07:00</updated>
+	<updated>2015-03-23T07:06:34-07:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,35 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[I Can Text You a Pile of Poo, but I Can’t Write My Name]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/i-can-text-you-a-pile-of-poo-but-i-cant-write-my-name/"/>
+				<updated>2015-03-23T15:51:36-07:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/i-can-text-you-a-pile-of-poo-but-i-cant-write-my-name</id>
+				<content type="html"><![CDATA[<p>A heartbreaking and damning assessment of the current state of Unicode by Aditya Mukerjee.</p>
+
+<blockquote><p>My name is not only a common Indian name, but one of the top 1,000 names in the United States as well. But the final letter has still not been given its own Unicode character, so I have to use a substitute.</p></blockquote>
+
+<p>Wow. Just, wow.</p>
+
+<p>Worried about Unicode getting too big?</p>
+
+<blockquote><p>[O]ne might appeal to the limited space in the Unicode character set. Even if we take for granted the somewhat arbitrary maximum of 1,114,112 codepoints, the other alphabets included speak for themselves. The most recent update to the Unicode standard included the entire alphabet of Linear B, an ancient Mycenaean script that was not deciphered in the modern era until the 1950s. Nor does alleged scarcity explain the inclusion of Linear A, a Minoan script so arcane, scholars disagree on what language it even represented, let alone how to read the script.</p></blockquote>
+
+<p>His frustration is completely understandable:</p>
+
+<blockquote><p>We have an unambiguous, cross-platform way to represent “PILE OF POO” (💩), while we’re still debating which of the 1.2 billion native Chinese speakers deserve to spell their own names correctly.</p></blockquote>
+
+<p>And since the subject of <a href="http://money.cnn.com/2015/02/23/technology/apple-diverse-emoji/">diversity in emoji</a> has been a hot button issue of late, here&rsquo;s a bit on that:</p>
+
+<blockquote><p>Perhaps I wouldn’t mind that the emoji world now literally has “colored” people, if it weren’t for the timing. Instead, what could have been a meaningless, empty gesture becomes an outright insult. <em>You can’t write your name in your native language, but at least you can tweet your frustration with an emoji face that’s the same shade of brown as yours!</em></p></blockquote>
+
+<p>This post is eye-opening on so many levels. You should definitely add it to your reading list because, as Aditya reminds us, “it’s imperative that the writing system of the 21st century be driven by the needs of the people using it.”</p>
+<p><a rel="full-article" href="https://modelviewculture.com/pieces/i-can-text-you-a-pile-of-poo-but-i-cant-write-my-name">Read on Model View Culture&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -445,22 +474,6 @@ li:nth-last-child(-n+6):first-child ~ li {
 
 <p>There&rsquo;s no malice here. No human ever decided to profit from your misery. The constant A/B testing with billions of reactions just so happened to engineer a situation to help you breed a better human. More profitable human.</p></blockquote>
 <p><a rel="full-article" href="https://shkspr.mobi/blog/2015/03/we-can-marry-you-off-wholesale/">Read on Terence Eden’s Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Sans Bullshit Sans]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/sans-bullshit-sans/"/>
-				<updated>2015-03-05T11:06:53-08:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/sans-bullshit-sans</id>
-				<content type="html"><![CDATA[<p>View content minus the jargon. ’Nuff said.</p>
-
-<figure id="fig-2015-03-05-01" class="media-container">
-  <img src="http://www.sansbullshitsans.com/img/sans-bullshit-sans-in-action.gif" alt="">
-</figure>
-
-<p><a rel="full-article" href="http://www.sansbullshitsans.com/">Read on Sans Bullshit Sans&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	

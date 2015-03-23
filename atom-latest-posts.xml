@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Posts]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-posts.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-03-22T23:04:28-07:00</updated>
+	<updated>2015-03-23T07:06:34-07:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,8 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
 	
 		
 	
@@ -239,8 +241,6 @@ li:nth-last-child(-n+6):first-child ~ li {
 <p>Long story short: Shop around for a good price on a speedy server. Your developers, content creators, and (most importantly) your customers will thank you for it.</p>
 ]]></content>
 			</entry>
-		
-	
 		
 	
 		
