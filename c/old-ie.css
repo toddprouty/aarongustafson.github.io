@@ -149,23 +149,27 @@ textarea {
   margin-left: auto;
   margin-right: auto;
   padding: 0;
+  max-width: 600px;
+  max-width: 37.5rem;
+}
+.layout-container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.layout-container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.layout-container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.layout-container--blog {
   max-width: 920px;
   max-width: 57.5rem;
-}
-.layout-container:after {
-  content: " ";
-  display: block;
-  clear: both;
-}
-.layout-container:after {
-  content: " ";
-  display: block;
-  clear: both;
-}
-.layout-container:after {
-  content: " ";
-  display: block;
-  clear: both;
 }
 .layout-container__primary {
   width: 61.53846%;
@@ -307,4 +311,7 @@ textarea {
 \*------------------------------------*/
 /*------------------------------------*\
     Hero Shot
+\*------------------------------------*/
+/*------------------------------------*\
+    Subsections
 \*------------------------------------*/

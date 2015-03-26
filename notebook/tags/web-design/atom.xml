@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-03-24T12:54:11-07:00</updated>
+  <updated>2015-03-26T14:43:02-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Quantity Queries… Where Have You Been All My Life?]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/quantity-queries-where-have-you-been-all-my-life/"/>
-    <updated>2015-03-20T08:00:03-07:00</updated>
+    <updated>2015-03-20T11:00:03-04:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/quantity-queries-where-have-you-been-all-my-life</id>
     <content type="html"><![CDATA[<p><a href="http://twitter.com/heydonworks">Heydon Pickering</a>’s <a href="http://alistapart.com/article/quantity-queries-for-css">Quantity Queries for CSS</a> is sheer brilliance and it’s so simple I’m surprised we hadn’t landed on the idea sooner.</p>
 
@@ -102,7 +102,7 @@ li:nth-last-child(-n+6):first-child ~ li {
   <entry>
     <title type="html"><![CDATA[Lines in the Sand]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/lines-in-the-sand/"/>
-    <updated>2015-03-11T06:21:29-07:00</updated>
+    <updated>2015-03-11T09:21:29-04:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/lines-in-the-sand</id>
     <content type="html"><![CDATA[<p>A new site, <a href="http://breakupwithie8.com/">Break Up with Internet Explorer 8</a> by <a href="http://www.humaan.com/">Humaan</a>, has been making the rounds on the Interwebs of late. It’s cleverly done and an attractive site, but I don’t really agree with the premise:</p>
 
@@ -149,7 +149,7 @@ li:nth-last-child(-n+6):first-child ~ li {
   <entry>
     <title type="html"><![CDATA[Bidding Farewell to Shirley the Goat]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/bidding-farewell-to-shirley-the-goat/"/>
-    <updated>2015-03-09T06:35:42-07:00</updated>
+    <updated>2015-03-09T09:35:42-04:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/bidding-farewell-to-shirley-the-goat</id>
     <content type="html"><![CDATA[<p><figure id="fig-2015-03-09-02" class="media-container media-container--right"></p>
 
@@ -183,7 +183,7 @@ li:nth-last-child(-n+6):first-child ~ li {
   <entry>
     <title type="html"><![CDATA[Who Should Pay 2: The Hosting]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/who-should-pay-2-the-hosting/"/>
-    <updated>2015-03-06T05:39:15-08:00</updated>
+    <updated>2015-03-06T08:39:15-05:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/who-should-pay-2-the-hosting</id>
     <content type="html"><![CDATA[<p>Two weeks ago, I argued that our <a href="http://aaron-gustafson.com/notebook/who-should-pay/">users should never foot the bill for developer convenience</a> and yesterday I stumbled on a post from EllisLab (the makers of ExpressionEngine) that echoes that sentiment, but from a different angle. The title might make you scratch your head: <a href="https://ellislab.com/blog/entry/save-thousands-of-dollars-by-paying-more-for-hosting">Save Thousands of Dollars by Paying More for Hosting</a>.</p>
 
@@ -213,7 +213,7 @@ li:nth-last-child(-n+6):first-child ~ li {
   <entry>
     <title type="html"><![CDATA[Apple, Business, and Standards]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/apple-business-and-standards/"/>
-    <updated>2015-02-26T07:44:40-08:00</updated>
+    <updated>2015-02-26T10:44:40-05:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/apple-business-and-standards</id>
     <content type="html"><![CDATA[<p>At <a href="http://www.codeandcreativity.com/events/2015-02-24">Tuesday night’s Code &amp; Creativity</a>, digital governance expert <a href="https://twitter.com/lwelchman">Lisa Welchman</a> equated digital projects to an atom. Content, IA, project management, networking, graphic design, application development, performance, and other concerns are flying this way and that like electrons—a swirling mass of energy and velocity. What holds this chaos together and keeps the electrons from flying off in all directions is the magnetic pull of protons in the nucleus of the atom.</p>
 

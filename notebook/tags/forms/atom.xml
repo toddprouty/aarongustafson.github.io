@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Forms | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/forms/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-03-24T12:54:11-07:00</updated>
+  <updated>2015-03-26T14:43:02-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Consider How Your Forms Read]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/consider-how-your-forms-read/"/>
-    <updated>2015-02-23T08:21:24-08:00</updated>
+    <updated>2015-02-23T11:21:24-05:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/consider-how-your-forms-read</id>
     <content type="html"><![CDATA[<p>While listening to <a href="http://www.radiolab.org/story/trust-engineers/">Radiolab’s &ldquo;The Trust Engineers&rdquo;</a>, I’ll admit I got a little excited when they started talking about web form performance. And no, not &ldquo;performance&rdquo; in the time-to-download sense, but &ldquo;performance&rdquo; in terms of how well the forms performed in attempting to capture meaningful, actionable data.</p>
 

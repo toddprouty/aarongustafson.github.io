@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Accessibility | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/accessibility/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-03-24T12:54:11-07:00</updated>
+  <updated>2015-03-26T14:43:02-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Consider How Your Forms Read]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/consider-how-your-forms-read/"/>
-    <updated>2015-02-23T08:21:24-08:00</updated>
+    <updated>2015-02-23T11:21:24-05:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/consider-how-your-forms-read</id>
     <content type="html"><![CDATA[<p>While listening to <a href="http://www.radiolab.org/story/trust-engineers/">Radiolab’s &ldquo;The Trust Engineers&rdquo;</a>, I’ll admit I got a little excited when they started talking about web form performance. And no, not &ldquo;performance&rdquo; in the time-to-download sense, but &ldquo;performance&rdquo; in terms of how well the forms performed in attempting to capture meaningful, actionable data.</p>
 
@@ -68,7 +68,7 @@
   <entry>
     <title type="html"><![CDATA[Egalitarianism]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/egalitarianism/"/>
-    <updated>2015-01-19T07:32:20-08:00</updated>
+    <updated>2015-01-19T10:32:20-05:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/egalitarianism</id>
     <content type="html"><![CDATA[<p>Today is Martin Luther King Day in the United States, so I thought I’d take a moment to reflect on one aspect of equality I think is incredibly important: egalitarianism.</p>
 
@@ -159,7 +159,7 @@
   <entry>
     <title type="html"><![CDATA[The Web Is for Everyone]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/the-web-is-for-everyone/"/>
-    <updated>2014-11-06T12:47:54-08:00</updated>
+    <updated>2014-11-06T15:47:54-05:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/the-web-is-for-everyone</id>
     <content type="html"><![CDATA[<p><em>I gave this speech as the closing keynote at <a href="http://a11yqc.org/">A11yQC</a>, a conference on Web accessibility, on 14 October 2014 in Québec City, Canada. I have published my script here as the slides can’t really convey its message on their own.</em></p>
 
@@ -543,7 +543,7 @@
   <entry>
     <title type="html"><![CDATA[ARIA Quicktip: Labelledby vs. Describedby]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/aria-quicktip-labelledby-vs-describedby/"/>
-    <updated>2014-11-05T07:45:22-08:00</updated>
+    <updated>2014-11-05T10:45:22-05:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/aria-quicktip-labelledby-vs-describedby</id>
     <content type="html"><![CDATA[<p>Last night, while we were enjoying a cool evening and a few drinks outside after day 1 of <a href="http://bdconf.com">BDConf</a>, <a href="http://adactio.com">Jeremy</a> asked me for some clarification on the ARIA attributes I had demoed as part of <a href="http://www.slideshare.net/AaronGustafson/falling-in-love-with-forms-bdconf-2014">my forms presentation</a> earlier in the afternoon. In particular, he was confused by how <code>aria-labelledby</code> and <code>aria-describedby</code> differ.</p>
 

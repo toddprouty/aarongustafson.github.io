@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Css | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/css/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-03-24T12:54:11-07:00</updated>
+  <updated>2015-03-26T14:43:02-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Quantity Queries… Where Have You Been All My Life?]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/quantity-queries-where-have-you-been-all-my-life/"/>
-    <updated>2015-03-20T08:00:03-07:00</updated>
+    <updated>2015-03-20T11:00:03-04:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/quantity-queries-where-have-you-been-all-my-life</id>
     <content type="html"><![CDATA[<p><a href="http://twitter.com/heydonworks">Heydon Pickering</a>’s <a href="http://alistapart.com/article/quantity-queries-for-css">Quantity Queries for CSS</a> is sheer brilliance and it’s so simple I’m surprised we hadn’t landed on the idea sooner.</p>
 
@@ -102,7 +102,7 @@ li:nth-last-child(-n+6):first-child ~ li {
   <entry>
     <title type="html"><![CDATA[CSS Variables Are a Bad Idea]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/css-variables-are-a-bad-idea/"/>
-    <updated>2014-11-04T11:58:01-08:00</updated>
+    <updated>2014-11-04T14:58:01-05:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/css-variables-are-a-bad-idea</id>
     <content type="html"><![CDATA[<p>I’ll level with you: I used to think I wanted variables in CSS.</p>
 
