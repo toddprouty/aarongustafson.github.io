@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-03-27T12:08:26-04:00</updated>
+  <updated>2015-03-27T12:12:28-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -263,9 +263,7 @@
 
 <p>And there you have it. In about 80 lines of very generously spaced and commented CSS, we’ve got a flexible grid-based Flexbox layout with visual enhancements injected via quantity queries. I’m sure I’ll continue to tinker, but I’m pretty happy with the results so far.</p>
 
-<p><figure id="fig-V20wuGM2tzU" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--4x3"><a class="video-embed__lazy-link" style="background-image:url(http://i2.ytimg.com/vi/V20wuGM2tzU/0.jpg)" href="//www.youtube.com/watch?v=V20wuGM2tzU" data-lazy-video-src="http://www.youtube.com/embed/V20wuGM2tzU?autoplay=1"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Quantity Queries and Flexbox</div></a></div></figure></p>
-
-<p>You can view <a href="/speaking-engagements/">the final page of course</a>, but I also created a <a href="http://codepen.io/aarongustafson/pen/VYRZBP">distilled demo on Codepen for you to play with</a>.</p>
+<p>You can view <a href="/speaking-engagements/">the final page of course</a> (or <a href="https://www.youtube.com/watch?v=V20wuGM2tzU">watch a video of the interaction</a>), but I also created a <a href="http://codepen.io/aarongustafson/pen/VYRZBP">distilled demo on Codepen for you to play with</a>.</p>
 <div class="footnotes">
 <hr/>
 <ol>
