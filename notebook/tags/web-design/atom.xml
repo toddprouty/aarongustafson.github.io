@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-03-26T14:43:02-04:00</updated>
+  <updated>2015-03-27T12:00:37-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -12,6 +12,272 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Playing With Flexbox and Quantity Queries]]></title>
+    <link href="http://www.aaron-gustafson.com/notebook/playing-with-flexbox-and-quantity-queries/"/>
+    <updated>2015-03-26T14:44:24-04:00</updated>
+    <id>http://www.aaron-gustafson.com/notebook/playing-with-flexbox-and-quantity-queries</id>
+    <content type="html"><![CDATA[<p>Ever since reading <a href="http://twitter.com/heydonworks">Haydon Pickering</a>’s <a href="http://alistapart.com/article/quantity-queries-for-css">piece on quantity queries</a>, I’ve been musing over the possibilities for layout. I decided I to play around with them a bit on this site as it’s been a while since I’ve tweaked the design. Being that I wanted to experiment, I thought this would be a fun time to tuck into <a href="http://www.w3.org/TR/css-flexbox-1/">Flexbox</a> a bit more as well.</p>
+
+<!-- more -->
+
+
+<p>Here’s a brief overview of the project:</p>
+
+<p><strong>The Candidate</strong>: My <a href="/speaking-engagements/">speaking engagements</a> page.<br>
+<strong>The Challenge</strong>: The &ldquo;Future&rdquo; list will grow and shrink as I book things, so I never know how many will be there. The &ldquo;Past&rdquo; list will also grow, but I am less interested in getting crazy with that.<br>
+<strong>The Idea</strong>: A grid layout that flexes to visually highlight 1-2 upcoming future events and allows the others to flow in at the default grid size. It should be set up to handle everything from a single future event to a dozen or more.</p>
+
+<p><figure id="2015-03-26-1" class="media-container"></p>
+
+<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2015-03-26/the-idea-sm.jpg"
+     srcset="/i/posts/2015-03-26/the-idea-lg.jpg 1024w, /i/posts/2015-03-26/the-idea-md.jpg 600w, /i/posts/2015-03-26/the-idea-sm.jpg 320w"
+     alt=""&gt;
+&lt;figcaption&gt;
+    &lt;p&gt;My sketch of the idea.&lt;/p&gt;
+&lt;/figcaption&gt;
+</code></pre>
+
+<p></figure></p>
+
+<p>The markup pattern was pretty simple. It’s just a list of events:</p>
+
+<p><div><script src='https://gist.github.com/597284affc88b9084cf3.js?file=markup.html'></script>
+<noscript><pre><code>&lt;ul class=&quot;listing listing--events&quot;&gt;
+  &lt;li class=&quot;listing__item listing__item--1 event event--future&quot;&gt;
+    &lt;!-- content --&gt;
+  &lt;/li&gt;
+  &lt;!-- lis continue --&gt;
+&lt;/ul&gt;</code></pre></noscript></div>
+</p>
+
+<p>With that in place, I got to work.</p>
+
+<h2>Single File</h2>
+
+<p>To set the stage, I started with some basic Flexbox syntax<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> by handling the container and the basic full-width small screen view:</p>
+
+<p><div><script src='https://gist.github.com/597284affc88b9084cf3.js?file=first-pass.css'></script>
+<noscript><pre><code>.listing--events {
+  display: flex;
+}
+
+.event {
+  box-sizing: border-box;
+  padding: 1.25rem; /* 20px padding */
+  margin: 0 0 1.25rem 0; /* 20px bottom margin */
+  flex: 0 0 100%;
+}</code></pre></noscript></div>
+</p>
+
+<p>You may be wondering where all of the experimental style rules are. I use <a href="https://github.com/postcss/autoprefixer">Autoprefixer</a> to handle the experimental property inclusion/trans-compilation so I can keep my CSS clean and standards-based.</p>
+
+<p>This simple CSS gives you exactly what you’d expect: a vertical list of events, separated by 20px worth of space.</p>
+
+<p><figure id="2015-03-26-2" class="media-container"></p>
+
+<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2015-03-26/first-pass.jpg"
+     srcset="/i/posts/2015-03-26/first-pass-lg.jpg 1024w, /i/posts/2015-03-26/first-pass-md.jpg 600w, /i/posts/2015-03-26/first-pass-sm.jpg 320w"
+     alt=""&gt;
+</code></pre>
+
+<p></figure></p>
+
+<h2>Two by Two</h2>
+
+<p>Next up, I tackled the first breakpoint at 28.75em:</p>
+
+<p><div><script src='https://gist.github.com/597284affc88b9084cf3.js?file=second-pass.css'></script>
+<noscript><pre><code>.listing--events {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.event {
+  box-sizing: border-box;
+  padding: 1.25rem; /* 20px */
+  margin: 0 0 1.25rem 0; /* 20px v */
+  flex: 0 0 100%;
+}
+
+@media only screen and (min-width: 28.75em) {
+  
+  /* 20px gap divided by 2 events per row */
+  .event {
+    flex: 0 0 calc( 50% - 1.25rem / 2 );
+    margin-left: 1.25rem; /* 20px &lt; */
+  }
+  
+  /* Remove left margin for row starters */
+  .event:nth-child(odd) {
+    margin-left: 0;
+  }
+  
+  /* Reset margins on &quot;future&quot; events
+     &amp; remove the correct one */
+  .event--future:nth-child(odd) {
+    margin-left: 1.25rem;
+  }
+  .event--future:nth-child(even) {
+    margin-left: 0;
+  }
+  
+  /* Quantity Query - when more than 1,
+     make the first span both columns  */
+  .event--future:nth-last-child(n+1):first-child {
+    flex: 0 0 100%;
+    font-size: 1.5em;
+    margin-left: 0;
+  }
+  
+}</code></pre></noscript></div>
+</p>
+
+<p>In this pass, I set up the event blocks to fill 50% of the parent container (well, 50% minus the 1.25rem gutter between them, using <a href="http://www.w3.org/TR/css3-values/#calc"><code>calc()</code></a>).<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> In order to make the children wrap to form rows, I set <code>flex-wrap: wrap</code> on the list (<code>.listing--events</code>). Then, to make the children all equal heights across each row, I set <code>align-items: stretch</code>. The gutter space was achieved via left margins on all events save the row starters (<code>.event:nth-child(odd)</code>).</p>
+
+<p>It’s worth noting that in the full page I have two sets of event listings: one past and one future. The &ldquo;event&rdquo; <code>class</code> is used in all instances. The modified &ldquo;future&rdquo; <code>class</code> is added to events that have not happened yet.</p>
+
+<p>Then I used a quantity query to select the first future event when there is more than one in the list (line 38) and set it span 100% of the parent width. To keep the gutters accurate, I also swapped where the margins were applied, adding the margin back to <code>.event--future:nth-child(odd)</code> and removing it from <code>.event--future:nth-child(even)</code>.</p>
+
+<p><figure id="2015-03-26-3" class="media-container"></p>
+
+<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2015-03-26/second-pass-sm.jpg"
+     srcset="/i/posts/2015-03-26/second-pass-lg.jpg 1024w, /i/posts/2015-03-26/second-pass-md.jpg 600w, /i/posts/2015-03-26/second-pass-sm.jpg 320w"
+     alt=""&gt;
+</code></pre>
+
+<p></figure></p>
+
+<h2>Three’s a Crowd</h2>
+
+<p>Finally, I could tackle the third and most complicated layout. Things seemed to get a little wide around 690px, so I set the breakpoint to 43.125em.</p>
+
+<p><div><script src='https://gist.github.com/597284affc88b9084cf3.js?file=third-pass.css'></script>
+<noscript><pre><code>.listing--events {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.event {
+  box-sizing: border-box;
+  padding: 1.25rem; /* 20px */
+  margin: 0 0 1.25rem 0; /* 20px v */
+  flex: 0 0 100%;
+}
+
+@media only screen and (min-width: 28.75em) {
+  
+  /* 20px gap divided by 2 events per row */
+  .event {
+    flex: 0 0 calc( 50% - 1.25rem / 2 );
+    margin-left: 1.25rem; /* 20px &lt; */
+  }
+  
+  /* Remove left margin for row starters */
+  .event:nth-child(odd) {
+    margin-left: 0;
+  }
+  
+  /* Reset margins on &quot;future&quot; events
+     &amp; remove the correct one */
+  .event--future:nth-child(odd) {
+    margin-left: 1.25rem;
+  }
+  .event--future:nth-child(even) {
+    margin-left: 0;
+  }
+  
+  /* Quantity Query - when more than 1,
+     make the first span both columns  */
+  .event--future:nth-last-child(n+1):first-child {
+    flex: 0 0 100%;
+    font-size: 1.5em;
+    margin-left: 0;
+  }
+  
+}
+
+@media only screen and (min-width: 43.125em) {
+
+  /* 1/3 width with 20px gutter */
+  .event {
+    flex: 0 0 calc( 100% / 3 - .875rem );
+  }
+
+  /* Reset margins */
+  .event:nth-child(even),
+  .event:nth-child(odd) {
+    margin-left: 1.25rem;
+  }
+  /* Normal Grid margin removal */
+  .event:nth-child(3n+1) {
+    margin-left: 0;
+  }
+  
+  /* Correct margins for the future events */
+  .event--future:nth-child(3n+1) {
+    margin-left: 1.25rem;
+  }
+  
+  /* Quantity Query - when more than 2,
+     make the first 2 go 50%  */
+  .event--future:nth-last-child(n+2):first-child, 
+  .event--future:nth-last-child(n+2):first-child + .event--future {
+    flex: 0 0 calc( 50% - 1.25rem / 2 );
+    font-size: 1.5em;
+  }
+  
+  /* Quantity + nth for margin removal */
+  .event--future:nth-last-child(n+2):first-child ~ .event--future:nth-child(3n) {
+    margin-left: 0;
+  }
+  
+}</code></pre></noscript></div>
+</p>
+
+<p>In this final pass, I used a slightly more complicated calculation to set the width of each child to 1/3 of the parent minus the gutters between them (100% / 3 &ndash; 0.875rem).</p>
+
+<p>If you’re paying close attention, you might wonder why the gutter being used in the calculation is 0.875rem rather than the full 1.25rem. Well, the reason is (as best I can surmise) rounding. In order to get the flex width to fill the parent without causing a wrap, 14px (0.875rem) seemed to be the magic number.</p>
+
+<p>It’s worth noting that if I allowed the event to grow (using <code>flex-grow: 1</code> or its equivalent in the shorthand), the column would fill in perfectly, but the last row would always be filled completely too. You could end up with two events in the last row being 50% wide each or a single event being 100% wide, which I didn’t want. I wanted them all to be equal width with the exception of the first 2. Setting <code>flex</code> as I did allowed that to happen.</p>
+
+<p>I went ahead and reset the standard margins for events as well (on both <code>.event:nth-child(even)</code> and <code>.event:nth-child(odd)</code>). And then I turned off the margins on the first of every group of three events using <code>.event:nth-child(3n+1)</code>.</p>
+
+<p>With that in place, I went to work on the future events, resetting the margins there as well. Then I used a quantity query (lines 70-71) to select the first two members when the list is more than 2 and set them to be 50% of the parent width minus the gutter.</p>
+
+<p>To handle the margins in the quantity query instance, I added all the margins back (line 64) and then removed the left margins from the new row starters (line 77).</p>
+
+<p><figure id="2015-03-26-4" class="media-container"></p>
+
+<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2015-03-26/third-pass-sm.jpg"
+     srcset="/i/posts/2015-03-26/third-pass-lg.jpg 1024w, /i/posts/2015-03-26/third-pass-md.jpg 600w, /i/posts/2015-03-26/third-pass-sm.jpg 320w"
+     alt=""&gt;
+</code></pre>
+
+<p></figure></p>
+
+<h2>Ta-da!</h2>
+
+<p>And there you have it. In about 80 lines of very generously spaced and commented CSS, we’ve got a flexible grid-based Flexbox layout with visual enhancements injected via quantity queries. I’m sure I’ll continue to tinker, but I’m pretty happy with the results so far.</p>
+
+<p><figure id="fig-V20wuGM2tzU" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(http://i2.ytimg.com/vi/V20wuGM2tzU/0.jpg)" href="//www.youtube.com/watch?v=V20wuGM2tzU" data-lazy-video-src="http://www.youtube.com/embed/V20wuGM2tzU?autoplay=1"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Quantity Queries and Flexbox</div></a></div></figure></p>
+
+<p>You can view <a href="/speaking-engagements/">the final page of course</a>, but I also created a <a href="http://codepen.io/aarongustafson/pen/VYRZBP">distilled demo on Codepen for you to play with</a>.</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>If you aren’t familiar with Flexbox, <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS Tricks has a great cheatsheet</a>.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<li id="fn:2">
+<p>Interestingly, the support matrices for <a href="http://caniuse.com/#feat=calc"><code>calc()</code></a> and <a href="http://caniuse.com/#feat=flexbox">Flexbox</a> are pretty well aligned.<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Quantity Queries… Where Have You Been All My Life?]]></title>
@@ -207,116 +473,6 @@ li:nth-last-child(-n+6):first-child ~ li {
 <p>Slow servers are also incredibly frustrating for users and are inconsiderate of their time. This is one of the points I was harping on in my post: we should not value our time above our customers’ time. When we put our customers’ needs above our own, we make better products and (ultimately) better decisions for our businesses.</p>
 
 <p>Long story short: Shop around for a good price on a speedy server. Your developers, content creators, and (most importantly) your customers will thank you for it.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Apple, Business, and Standards]]></title>
-    <link href="http://www.aaron-gustafson.com/notebook/apple-business-and-standards/"/>
-    <updated>2015-02-26T10:44:40-05:00</updated>
-    <id>http://www.aaron-gustafson.com/notebook/apple-business-and-standards</id>
-    <content type="html"><![CDATA[<p>At <a href="http://www.codeandcreativity.com/events/2015-02-24">Tuesday night’s Code &amp; Creativity</a>, digital governance expert <a href="https://twitter.com/lwelchman">Lisa Welchman</a> equated digital projects to an atom. Content, IA, project management, networking, graphic design, application development, performance, and other concerns are flying this way and that like electrons—a swirling mass of energy and velocity. What holds this chaos together and keeps the electrons from flying off in all directions is the magnetic pull of protons in the nucleus of the atom.</p>
-
-<!-- more -->
-
-
-<p><figure id="fig-2015-02-26-01" class="media-container"></p>
-
-<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2015-02-26/atom-sm.jpg"
-     srcset="/i/posts/2015-02-26/atom-lg.jpg 800w, /i/posts/2015-02-26/atom-sm.jpg 320w"
-     alt="A slide from Lisa Welchman’s talk showing Web Standards and KPI at the center of the project “atom”."
-     &gt;
-</code></pre>
-
-<p></figure></p>
-
-<p>In Lisa’s analogy, the protons of a digital project are Web standards and Key Performance Indicators (KPIs). She believes that without these key ingredients, projects will often career out of control. Her reasoning? We all need to know how we should be doing things in order to work together well (Web standards) and we need to know what our expectations are for the project to be successful (KPI).</p>
-
-<p>This really resonated with me. Mainly, it resonated because I am a Web standards guy, but I also believe in the importance of standards across the board. I think projects need copywriting standards, design standards, performance standards, coding standards, and many other kinds of standards as well. Standards hold a project together. For real.</p>
-
-<p>That’s why <em>Web</em> standards are so important.</p>
-
-<p>Without standards, the Web was <a href="http://en.wikipedia.org/wiki/Browser_wars">an unruly mass of spaghetti code</a>.  I started working on the Web in 1996. I know, I lived it.</p>
-
-<p>We used to deliver separate browser-specific JavaScript and CSS files to different User Agents. Our HTML code had to be 3-4 times as hefty to support all of the various ways browsers had decided to implement the same features. It was horrible and made building anything remotely interesting a truly painful endeavor.</p>
-
-<p>Then browser makers got together to codify HTML into a generally agreed-upon set of elements and attributes that would allow authors like me to write pages that would Just Work™. That work extended into CSS, and so on, and so forth. I can’t thank them enough for doing that.</p>
-
-<p>Tuesday also saw the W3C officially make <a href="http://www.w3.org/TR/pointerevents/">Pointer Events</a> a recommendation. I’d always liked the idea of Pointer Events because it abstracts the traditional concept of a click into a generic interaction that could be triggered by a mouse, a finger, a pen, an eye movement, or any other interaction method we come up with in the future. Sure, I work for Microsoft now—they proposed this idea—but that isn’t the reason I like the concept. I like it because it doesn’t tie us down to a single way of interacting with Web content that necessitates the creation of new specs when new interaction methods are invented. It’s future friendly and embraces the &ldquo;continuum of experience&rdquo; I evangelize incessantly.</p>
-
-<p>When Pointer Events were first proposed, there was a lot of support behind them. Obviously Microsoft was on board, but Mozilla was too. And Google was all about Pointer Events for a while and was already using them when <a href="https://code.google.com/p/chromium/issues/detail?id=162757#c64">they did an abrupt  about-face and decided they were ripping them out of Blink in favor of overhauling Touch Events</a> (which Apple supports and which Pointer Events were intended to supersede).</p>
-
-<p>And so now we have a recommendation from the W3C that browsers implement Pointer Events. <a href="http://blog.jquery.com/2015/02/24/getting-on-point/">Developers want them</a> and it seems Apple doesn’t. And because Apple doesn’t want them, Google doesn’t want them now either. To quote Rick Byers (of Google) in <a href="https://lists.w3.org/Archives/Public/public-pointer-events/2014JulSep/0071">a Pointer Events meeting in late 2014</a>:</p>
-
-<blockquote><p>No argument that PE is more elegant. If we had a path to universal input that all supported, we would be great with that, but not all browsers will support PE. If we had Apple on board with PE, we&rsquo;d still be on board too. The equation has shifted for us.</p></blockquote>
-
-<p>So, effectively, Apple is holding the Web back. <a href="https://twitter.com/tkadlec">Tim Kadlec</a> wrote <a href="http://timkadlec.com/2015/02/apples-web/">a great piece discussing the core issue at play here</a>:</p>
-
-<blockquote><p>Let’s set any opinions about Pointer Events aside. Frankly, I need to do a <em>lot</em> more digging here before I have any sort of strong opinion in one direction or another. There is a bigger issue here. We have a recurring situation where all vendors (save for Apple) show interest in standard, but because Apple does not express that same interest, the standard gets waylaid.</p></blockquote>
-
-<p><figure id="fig-2015-02-25-02" class="media-container media-container--right"></p>
-
-<pre><code>&lt;img src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Yin_yang.svg/200px-Yin_yang.svg.png"
-     srcset="http://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Yin_yang.svg/800px-Yin_yang.svg.png 800w, http://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Yin_yang.svg/400px-Yin_yang.svg.png 400w, http://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Yin_yang.svg/200px-Yin_yang.svg.png 200w"
-     alt="Yin and yang."
-     &gt;
-</code></pre>
-
-<p></figure></p>
-
-<p>This whole thing has caused quite a kerfuffle in the Web community. Obviously, some people are demonizing Apple (and, by proxy, Google) for holding us back. Others are quick to excuse Apple because of their history of pushing the Web forward (see CSS transitions, animations, etc.).<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> Personally, I don’t think anything is ever truly black and white. Every company does some good things and some bad things. To channel Lisa Welshman again, it’s like yin and yang: The light has a little bit of the dark in it, and the dark has a little bit of the light in it.</p>
-
-<p>Generally, I’ve found that Apple tends to do what is best for Apple, without considering how it affects designers, developers, or the Open Web. On this issue however, I just haven’t figured out their angle yet.</p>
-
-<p>Some of their past decisions have offered a clear view into their motivations. Take offline for instance. Apple supports the <a href="http://www.w3.org/TR/html5/browsers.html#offline">Application Cache API</a> (as <a href="http://caniuse.com/#feat=offline-apps">most modern browsers do</a>), but there’s a catch: You can’t store audio files in the cache. That makes it nearly impossible to build a decent game in HTML because you won’t get sound effects if you aren’t connected to the Web. But for Apple it makes perfect sense: They sell games in the App Store.</p>
-
-<p>Their motivations behind other decisions are more murky, however. For example, Safari implements the <a href="https://html.spec.whatwg.org/multipage/forms.html#client-side-form-validation">HTML5 Form Validation API</a>, which means it knows if a field is valid or invalid. The catch? It won’t halt the submission of an invalid form. <a href="http://caniuse.com/#search=form%20validation">Every other modern browser acts as you’d expect.</a><sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> I don’t get it. I used to think/hope they just had not figured out how they wanted to handle notifying the user of the error, but it’s been like this for about 5 years.</p>
-
-<p>I’ll let Tim jump in again here:</p>
-
-<blockquote><p>Apple has a very, very strong influence over what standards get adopted and what standards do not. Partly it’s market share, partly it’s developer bias (see, for example, how other vendors eventually felt forced to start supporting the <code>webkit</code> prefix due to vendor prefix abuse).</p>
-
-<p>Apple simply does not play well with other vendors when it comes to standardization. The same sort of things we once criticized Microsoft for doing long ago, we give Apple a pass on today. They’re very content to play in their own little sandbox all too often.</p></blockquote>
-
-<p>He’s channeling <a href="https://adactio.com/journal/5442/#comment438">a bit of Remy Sharp there</a> (circa 2012):</p>
-
-<blockquote><p>When are we, as a web development community, going to stop giving Apple a free fucking pass?</p>
-
-<p>They’re consistently lacking in the open discussion in to improving the gateway to the web: the browser. Sure, they landed an impressive mobile browsing experience back when the iPhone launched and it’s a great device, but there’s some serious questioning about whether they’re purposely cock-blocking web development and purposely hindering our advancement as a web industry.</p>
-
-<p>WebGL is in mobile Safari, yet only available if accessed via a WebView object, not the real Safari (which is a WebView anyway…). It was recently discovered that they moved all web data storage (Web Storage, Appcache, etc) in a temporary data store meaning that it can be wiped at any time without warning.</p>
-
-<p>Even the mighty PPK who tells entire browser vendors “fuck you”, doesn’t call Apple out, allowing them to slither on.</p>
-
-<p>Why is it we continue to allow Apple to get away with it? And can this ever change?</p></blockquote>
-
-<p>As Tim points out, Apple certainly isn’t the only company that plays games when it comes to standards:</p>
-
-<blockquote><p>The other vendors aren’t exactly perfect either. The Microsoft folks, no doubt reeling from all the negativity aimed at them over the years, have more than once been content to let everyone else duke it out over a standard, only getting involved late when a consensus has been reached. The Blink folks, despite being the best positioned to take a stand, have been happy to play the “Apple won’t do it so I guess we won’t either” card on multiple occasions.</p></blockquote>
-
-<p>But he’s also quick to highlight the disappointing reality about Apple with respect to the other browser vendors:</p>
-
-<blockquote><p>It’s easy to reach the Mozilla, Google and Microsoft folks to discuss their thoughts on these emerging standards. That’s a much harder thing to do with the Apple crew.</p></blockquote>
-
-<p>Apple is very much a black box and their processes are incredibly opaque. Now I’m no hater, I use their products daily.<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup>, but I am also not an apologist. I think relationships are improved with honesty and openness. I honestly wish Apple’s processes—at least when it comes to the Web—were more open.<sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup> Heck, they often don’t even show up to meetings at the W3C. If we knew what they were thinking or why they were doing things, we could at least understand where they were coming from rather than having to speculate about their motivations. Whether we agree or not is irrelevant.</p>
-
-<p>Regardless, we are where we are and I can’t help but wonder one thing: <em>If we stop giving Apple a free pass and continue marching forward without them, will they eventually be forced to scramble to catch up like Microsoft did when IE6 sat on the shelf for so long?</em> I don’t know what the answer is, but I sincerely hope they come around and begin to treat the Web with the respect it deserves before that happens.</p>
-
-<p>When browsers refuse to implement Web standards, we all lose. And we take one step closer to the swirling pit of chaos and spaghetti code we thought we’d put behind us.</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>All of which were (in true Apple style) developed in secret and then bestowed upon the world in a grand spectacle.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-<li id="fn:2">
-<p>Ok, Opera Mini doesn’t, but Opera Mini is also a different sort of browser. It is a proxy browser and the proxy handles all of the back and forth between the browser and the website’s origin server(s).<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
-<li id="fn:3">
-<p>I am composing this post on a Mac… provided by Microsoft. Yes, you read that correctly.<a href="#fnref:3" rev="footnote">&#8617;</a></p></li>
-<li id="fn:4">
-<p>I have felt the same way about Microsoft for years because I knew the great work they were doing behind the curtains. Part of the reason <a href="/notebook/ch-ch-ch-changes/">I joined them earlier this month</a> was because they have been opening up and I want to encourage and nurture that.<a href="#fnref:4" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
-
 ]]></content>
   </entry>
   

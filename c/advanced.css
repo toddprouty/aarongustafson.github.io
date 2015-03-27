@@ -424,50 +424,70 @@
 }
 @media only screen and (min-width: 28.75em) {
   .speaking-engagements .event {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 1 46%;
-    -ms-flex: 1 1 46%;
-    flex: 1 1 46%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 -webkit-calc( 50% - 1.25rem / 2 );
+    -ms-flex: 0 0 calc( 50% - 1.25rem / 2 );
+    flex: 0 0 calc( 50% - 1.25rem / 2 );
+    margin-left: 1.25rem;
+    /* Remove left margin for row starters */
+  }
+  .speaking-engagements .event:nth-child(odd) {
+    margin-left: 0;
+  }
+  .speaking-engagements .event--future:nth-child(odd) {
+    margin-left: 1.25rem;
+  }
+  .speaking-engagements .event--future:nth-child(even) {
+    margin-left: 0;
   }
   .speaking-engagements .event--future:nth-last-child(n+1):first-child {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 1 92%;
-    -ms-flex: 1 1 92%;
-    flex: 1 1 92%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    margin-left: 0;
   }
   .speaking-engagements .event--future:nth-last-child(n+1):first-child .listing__item__title {
     font-size: 36px;
     font-size: 2.25rem;
   }
 }
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 43.125em) {
   .speaking-engagements .event {
+    /* 1/3 width with a 20px gap (fudged) */
     -webkit-box-flex: 0;
-    -webkit-flex: 0 0 31%;
-    -ms-flex: 0 0 31%;
-    flex: 0 0 31%;
+    -webkit-flex: 0 0 -webkit-calc( 100% / 3 - 0.875rem );
+    -ms-flex: 0 0 calc( 100% / 3 - 0.875rem );
+    flex: 0 0 calc( 100% / 3 - 0.875rem );
+  }
+  .speaking-engagements .event:nth-child(even), .speaking-engagements .event:nth-child(odd) {
+    margin-left: 1.25rem;
+  }
+  .speaking-engagements .event:nth-child(3n+1) {
+    margin-left: 0;
   }
   .speaking-engagements .event--future:nth-last-child(1):first-child, .speaking-engagements .event--future:nth-last-child(1):first-child ~ .event--future {
     -webkit-box-flex: 0;
-    -webkit-flex: 0 0 99%;
-    -ms-flex: 0 0 99%;
-    flex: 0 0 99%;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    margin-left: 0;
   }
   .speaking-engagements .event--future:nth-last-child(1):first-child .listing__item__title, .speaking-engagements .event--future:nth-last-child(1):first-child ~ .event--future .listing__item__title {
     font-size: 36px;
     font-size: 2.25rem;
   }
-  .speaking-engagements .event--future:nth-last-child(n+1):first-child {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 31%;
-    -ms-flex: 0 0 31%;
-    flex: 0 0 31%;
+  .speaking-engagements .event--future:nth-child(3n+1) {
+    margin-left: 1.25rem;
+  }
+  .speaking-engagements .event--future:nth-last-child(n+2):first-child ~ .event--future:nth-child(3n) {
+    margin-left: 0;
   }
   .speaking-engagements .event--future:nth-last-child(n+2):first-child, .speaking-engagements .event--future:nth-last-child(n+2):first-child + .event--future {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 0 46%;
-    -ms-flex: 1 0 46%;
-    flex: 1 0 46%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 -webkit-calc( 50% - 1.25rem / 2 );
+    -ms-flex: 0 0 calc( 50% - 1.25rem / 2 );
+    flex: 0 0 calc( 50% - 1.25rem / 2 );
   }
   .speaking-engagements .event--future:nth-last-child(n+2):first-child .listing__item__title, .speaking-engagements .event--future:nth-last-child(n+2):first-child + .event--future .listing__item__title {
     font-size: 24px;

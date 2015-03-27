@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-03-26T14:43:02-04:00</updated>
+	<updated>2015-03-27T12:00:37-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,266 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Playing With Flexbox and Quantity Queries]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/playing-with-flexbox-and-quantity-queries/"/>
+				<updated>2015-03-26T14:44:24-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/playing-with-flexbox-and-quantity-queries</id>
+				<content type="html"><![CDATA[<p>Ever since reading <a href="http://twitter.com/heydonworks">Haydon Pickering</a>’s <a href="http://alistapart.com/article/quantity-queries-for-css">piece on quantity queries</a>, I’ve been musing over the possibilities for layout. I decided I to play around with them a bit on this site as it’s been a while since I’ve tweaked the design. Being that I wanted to experiment, I thought this would be a fun time to tuck into <a href="http://www.w3.org/TR/css-flexbox-1/">Flexbox</a> a bit more as well.</p>
+
+<!-- more -->
+
+
+<p>Here’s a brief overview of the project:</p>
+
+<p><strong>The Candidate</strong>: My <a href="http://www.aaron-gustafson.com/speaking-engagements/">speaking engagements</a> page.<br>
+<strong>The Challenge</strong>: The &ldquo;Future&rdquo; list will grow and shrink as I book things, so I never know how many will be there. The &ldquo;Past&rdquo; list will also grow, but I am less interested in getting crazy with that.<br>
+<strong>The Idea</strong>: A grid layout that flexes to visually highlight 1-2 upcoming future events and allows the others to flow in at the default grid size. It should be set up to handle everything from a single future event to a dozen or more.</p>
+
+<figure id="2015-03-26-1" class="media-container">
+    <img src="http://www.aaron-gustafson.com/i/posts/2015-03-26/the-idea-sm.jpg"
+         srcset="/i/posts/2015-03-26/the-idea-lg.jpg 1024w, /i/posts/2015-03-26/the-idea-md.jpg 600w, /i/posts/2015-03-26/the-idea-sm.jpg 320w"
+         alt="">
+    <figcaption>
+        <p>My sketch of the idea.</p>
+    </figcaption>
+</figure>
+
+
+<p>The markup pattern was pretty simple. It’s just a list of events:</p>
+
+<div><script src='https://gist.github.com/597284affc88b9084cf3.js?file=markup.html'></script>
+<noscript><pre><code>&lt;ul class=&quot;listing listing--events&quot;&gt;
+  &lt;li class=&quot;listing__item listing__item--1 event event--future&quot;&gt;
+    &lt;!-- content --&gt;
+  &lt;/li&gt;
+  &lt;!-- lis continue --&gt;
+&lt;/ul&gt;</code></pre></noscript></div>
+
+
+<p>With that in place, I got to work.</p>
+
+<h2>Single File</h2>
+
+<p>To set the stage, I started with some basic Flexbox syntax<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> by handling the container and the basic full-width small screen view:</p>
+
+<div><script src='https://gist.github.com/597284affc88b9084cf3.js?file=first-pass.css'></script>
+<noscript><pre><code>.listing--events {
+  display: flex;
+}
+
+.event {
+  box-sizing: border-box;
+  padding: 1.25rem; /* 20px padding */
+  margin: 0 0 1.25rem 0; /* 20px bottom margin */
+  flex: 0 0 100%;
+}</code></pre></noscript></div>
+
+
+<p>You may be wondering where all of the experimental style rules are. I use <a href="https://github.com/postcss/autoprefixer">Autoprefixer</a> to handle the experimental property inclusion/trans-compilation so I can keep my CSS clean and standards-based.</p>
+
+<p>This simple CSS gives you exactly what you’d expect: a vertical list of events, separated by 20px worth of space.</p>
+
+<figure id="2015-03-26-2" class="media-container">
+    <img src="http://www.aaron-gustafson.com/i/posts/2015-03-26/first-pass.jpg"
+         srcset="/i/posts/2015-03-26/first-pass-lg.jpg 1024w, /i/posts/2015-03-26/first-pass-md.jpg 600w, /i/posts/2015-03-26/first-pass-sm.jpg 320w"
+         alt="">
+</figure>
+
+
+<h2>Two by Two</h2>
+
+<p>Next up, I tackled the first breakpoint at 28.75em:</p>
+
+<div><script src='https://gist.github.com/597284affc88b9084cf3.js?file=second-pass.css'></script>
+<noscript><pre><code>.listing--events {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.event {
+  box-sizing: border-box;
+  padding: 1.25rem; /* 20px */
+  margin: 0 0 1.25rem 0; /* 20px v */
+  flex: 0 0 100%;
+}
+
+@media only screen and (min-width: 28.75em) {
+  
+  /* 20px gap divided by 2 events per row */
+  .event {
+    flex: 0 0 calc( 50% - 1.25rem / 2 );
+    margin-left: 1.25rem; /* 20px &lt; */
+  }
+  
+  /* Remove left margin for row starters */
+  .event:nth-child(odd) {
+    margin-left: 0;
+  }
+  
+  /* Reset margins on &quot;future&quot; events
+     &amp; remove the correct one */
+  .event--future:nth-child(odd) {
+    margin-left: 1.25rem;
+  }
+  .event--future:nth-child(even) {
+    margin-left: 0;
+  }
+  
+  /* Quantity Query - when more than 1,
+     make the first span both columns  */
+  .event--future:nth-last-child(n+1):first-child {
+    flex: 0 0 100%;
+    font-size: 1.5em;
+    margin-left: 0;
+  }
+  
+}</code></pre></noscript></div>
+
+
+<p>In this pass, I set up the event blocks to fill 50% of the parent container (well, 50% minus the 1.25rem gutter between them, using <a href="http://www.w3.org/TR/css3-values/#calc"><code>calc()</code></a>).<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> In order to make the children wrap to form rows, I set <code>flex-wrap: wrap</code> on the list (<code>.listing--events</code>). Then, to make the children all equal heights across each row, I set <code>align-items: stretch</code>. The gutter space was achieved via left margins on all events save the row starters (<code>.event:nth-child(odd)</code>).</p>
+
+<p>It’s worth noting that in the full page I have two sets of event listings: one past and one future. The &ldquo;event&rdquo; <code>class</code> is used in all instances. The modified &ldquo;future&rdquo; <code>class</code> is added to events that have not happened yet.</p>
+
+<p>Then I used a quantity query to select the first future event when there is more than one in the list (line 38) and set it span 100% of the parent width. To keep the gutters accurate, I also swapped where the margins were applied, adding the margin back to <code>.event--future:nth-child(odd)</code> and removing it from <code>.event--future:nth-child(even)</code>.</p>
+
+<figure id="2015-03-26-3" class="media-container">
+    <img src="http://www.aaron-gustafson.com/i/posts/2015-03-26/second-pass-sm.jpg"
+         srcset="/i/posts/2015-03-26/second-pass-lg.jpg 1024w, /i/posts/2015-03-26/second-pass-md.jpg 600w, /i/posts/2015-03-26/second-pass-sm.jpg 320w"
+         alt="">
+</figure>
+
+
+<h2>Three’s a Crowd</h2>
+
+<p>Finally, I could tackle the third and most complicated layout. Things seemed to get a little wide around 690px, so I set the breakpoint to 43.125em.</p>
+
+<div><script src='https://gist.github.com/597284affc88b9084cf3.js?file=third-pass.css'></script>
+<noscript><pre><code>.listing--events {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.event {
+  box-sizing: border-box;
+  padding: 1.25rem; /* 20px */
+  margin: 0 0 1.25rem 0; /* 20px v */
+  flex: 0 0 100%;
+}
+
+@media only screen and (min-width: 28.75em) {
+  
+  /* 20px gap divided by 2 events per row */
+  .event {
+    flex: 0 0 calc( 50% - 1.25rem / 2 );
+    margin-left: 1.25rem; /* 20px &lt; */
+  }
+  
+  /* Remove left margin for row starters */
+  .event:nth-child(odd) {
+    margin-left: 0;
+  }
+  
+  /* Reset margins on &quot;future&quot; events
+     &amp; remove the correct one */
+  .event--future:nth-child(odd) {
+    margin-left: 1.25rem;
+  }
+  .event--future:nth-child(even) {
+    margin-left: 0;
+  }
+  
+  /* Quantity Query - when more than 1,
+     make the first span both columns  */
+  .event--future:nth-last-child(n+1):first-child {
+    flex: 0 0 100%;
+    font-size: 1.5em;
+    margin-left: 0;
+  }
+  
+}
+
+@media only screen and (min-width: 43.125em) {
+
+  /* 1/3 width with 20px gutter */
+  .event {
+    flex: 0 0 calc( 100% / 3 - .875rem );
+  }
+
+  /* Reset margins */
+  .event:nth-child(even),
+  .event:nth-child(odd) {
+    margin-left: 1.25rem;
+  }
+  /* Normal Grid margin removal */
+  .event:nth-child(3n+1) {
+    margin-left: 0;
+  }
+  
+  /* Correct margins for the future events */
+  .event--future:nth-child(3n+1) {
+    margin-left: 1.25rem;
+  }
+  
+  /* Quantity Query - when more than 2,
+     make the first 2 go 50%  */
+  .event--future:nth-last-child(n+2):first-child, 
+  .event--future:nth-last-child(n+2):first-child + .event--future {
+    flex: 0 0 calc( 50% - 1.25rem / 2 );
+    font-size: 1.5em;
+  }
+  
+  /* Quantity + nth for margin removal */
+  .event--future:nth-last-child(n+2):first-child ~ .event--future:nth-child(3n) {
+    margin-left: 0;
+  }
+  
+}</code></pre></noscript></div>
+
+
+<p>In this final pass, I used a slightly more complicated calculation to set the width of each child to 1/3 of the parent minus the gutters between them (100% / 3 &ndash; 0.875rem).</p>
+
+<p>If you’re paying close attention, you might wonder why the gutter being used in the calculation is 0.875rem rather than the full 1.25rem. Well, the reason is (as best I can surmise) rounding. In order to get the flex width to fill the parent without causing a wrap, 14px (0.875rem) seemed to be the magic number.</p>
+
+<p>It’s worth noting that if I allowed the event to grow (using <code>flex-grow: 1</code> or its equivalent in the shorthand), the column would fill in perfectly, but the last row would always be filled completely too. You could end up with two events in the last row being 50% wide each or a single event being 100% wide, which I didn’t want. I wanted them all to be equal width with the exception of the first 2. Setting <code>flex</code> as I did allowed that to happen.</p>
+
+<p>I went ahead and reset the standard margins for events as well (on both <code>.event:nth-child(even)</code> and <code>.event:nth-child(odd)</code>). And then I turned off the margins on the first of every group of three events using <code>.event:nth-child(3n+1)</code>.</p>
+
+<p>With that in place, I went to work on the future events, resetting the margins there as well. Then I used a quantity query (lines 70-71) to select the first two members when the list is more than 2 and set them to be 50% of the parent width minus the gutter.</p>
+
+<p>To handle the margins in the quantity query instance, I added all the margins back (line 64) and then removed the left margins from the new row starters (line 77).</p>
+
+<figure id="2015-03-26-4" class="media-container">
+    <img src="http://www.aaron-gustafson.com/i/posts/2015-03-26/third-pass-sm.jpg"
+         srcset="/i/posts/2015-03-26/third-pass-lg.jpg 1024w, /i/posts/2015-03-26/third-pass-md.jpg 600w, /i/posts/2015-03-26/third-pass-sm.jpg 320w"
+         alt="">
+</figure>
+
+
+<h2>Ta-da!</h2>
+
+<p>And there you have it. In about 80 lines of very generously spaced and commented CSS, we’ve got a flexible grid-based Flexbox layout with visual enhancements injected via quantity queries. I’m sure I’ll continue to tinker, but I’m pretty happy with the results so far.</p>
+
+<p><figure id="fig-V20wuGM2tzU" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(http://i2.ytimg.com/vi/V20wuGM2tzU/0.jpg)" href="//www.youtube.com/watch?v=V20wuGM2tzU" data-lazy-video-src="http://www.youtube.com/embed/V20wuGM2tzU?autoplay=1"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Quantity Queries and Flexbox</div></a></div></figure></p>
+
+<p>You can view <a href="http://www.aaron-gustafson.com/speaking-engagements/">the final page of course</a>, but I also created a <a href="http://codepen.io/aarongustafson/pen/VYRZBP">distilled demo on Codepen for you to play with</a>.</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>If you aren’t familiar with Flexbox, <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS Tricks has a great cheatsheet</a>.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<li id="fn:2">
+<p>Interestingly, the support matrices for <a href="http://caniuse.com/#feat=calc"><code>calc()</code></a> and <a href="http://caniuse.com/#feat=flexbox">Flexbox</a> are pretty well aligned.<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -438,38 +698,6 @@ li:nth-last-child(-n+6):first-child ~ li {
 
 <blockquote><p>Signals transmitted by Bluetooth beacons are picked up by a smartphone, and in conjunction with ustwo’s indoor positioning technology, the Wayfindr app is able to locate itself and give the user audible instructions.</p></blockquote>
 <p><a rel="full-article" href="http://www.rlsb.org.uk/blogs/rlsb-youth-forum-set-a-new-direction-for-tube-travel">Read on Royal London Society for Blind People&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Who Should Pay 2: The Hosting]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/who-should-pay-2-the-hosting/"/>
-				<updated>2015-03-06T08:39:15-05:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/who-should-pay-2-the-hosting</id>
-				<content type="html"><![CDATA[<p>Two weeks ago, I argued that our <a href="http://aaron-gustafson.com/notebook/who-should-pay/">users should never foot the bill for developer convenience</a> and yesterday I stumbled on a post from EllisLab (the makers of ExpressionEngine) that echoes that sentiment, but from a different angle. The title might make you scratch your head: <a href="https://ellislab.com/blog/entry/save-thousands-of-dollars-by-paying-more-for-hosting">Save Thousands of Dollars by Paying More for Hosting</a>.</p>
-
-<!-- more -->
-
-
-<p>While it sounds counterintuitive, EllisLab’s statement makes sense. It’s all about shifting your perspective from agonizing over every hard cost on the balance sheet to thinking “big picture” about how you are spending your money overall.</p>
-
-<p>Their post makes the case that a low-cost hosting may be cheaper on the surface, but its slow performance will end up costing you more in terms of productivity loss and/or actual billable hours. The comparison they use is modest, but with a big impact: GoDaddy at $59.88/year vs. Nexcess at $8.95/month (still inexpensive, but roughly 2x the cost).</p>
-
-<blockquote><p>Normally, the ExpressionEngine control panel is fast. Zippy even. There aren’t many pages in the control panel that should have an execution time of more than a second. Most pages take a fraction of a second, no fancy caching needed. It’s common to see this in the footer: &ldquo;Script executed in 0.0706 seconds.&rdquo; Sure, add-ons that are bad citizens can slow down the control panel, but typically not to the degree a bad host can.</p>
-
-<p>How about ten seconds per page? No joke, on a recent site we logged in to on GoDaddy, one of the faster pages in the Admin area took ten seconds. The Template Manager took fifteen seconds, the publish page twenty-plus. I felt terrible for the developer and client who were using this site daily. Not only were they having a terrible experience with our software, they were <em>losing money</em> and didn’t even know it.</p></blockquote>
-
-<p>The post then proceeds to work through some estimations of normal workload in the CMS to determine how much money is quietly being drained from a project’s kitty because of a poor hosting decision. I won’t lie, it’s substantial.</p>
-
-<p>Now the EllisLab post is focused more on agency and project costs, but the implications of a slow host extend to our end users too.</p>
-
-<p>Sure, a slow host will delay the delivery of our content and <a href="http://www.nytimes.com/2012/03/01/technology/impatient-web-users-flee-slow-loading-sites.html?pagewanted=all&amp;_r=0">increase the likelihood they will go to a competitor</a>. That’s a given. But a slow host can also drain a mobile device’s battery (because the radio must be kept on longer), which reduces the usefulness of their device.</p>
-
-<p>Slow servers are also incredibly frustrating for users and are inconsiderate of their time. This is one of the points I was harping on in my post: we should not value our time above our customers’ time. When we put our customers’ needs above our own, we make better products and (ultimately) better decisions for our businesses.</p>
-
-<p>Long story short: Shop around for a good price on a speedy server. Your developers, content creators, and (most importantly) your customers will thank you for it.</p>
-]]></content>
 			</entry>
 		
 	
