@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-04-02T15:09:53-04:00</updated>
+	<updated>2015-04-02T15:19:05-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -15,9 +15,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Why America’s Obsession With STEM Education Is Dangerous]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/why-stem-wont-make-us-successfu/"/>
+				<link href="http://www.aaron-gustafson.com/notebook/links/why-stem-wont-make-us-successful/"/>
 				<updated>2015-04-02T18:51:36-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/why-stem-wont-make-us-successfu</id>
+				<id>http://www.aaron-gustafson.com/notebook/links/why-stem-wont-make-us-successful</id>
 				<content type="html"><![CDATA[<p>A fantastic op-ed by Fareed Zakaria on why a well-rounded populace is a good thing:</p>
 
 <blockquote><p>A broad general education helps foster critical thinking and creativity. Exposure to a variety of fields produces synergy and cross fertilization. Yes, science and technology are crucial components of this education, but so are English and philosophy.</p></blockquote>
@@ -36,6 +36,17 @@
 
 <blockquote><p>Americans should be careful before they try to mimic Asian educational systems, which are oriented around memorization and test-taking. I went through that kind of system. It has its strengths, but it’s not conducive to thinking, problem solving or creativity. That’s why most Asian countries, from Singapore to South Korea to India, are trying to add features of a liberal education to their systems.</p></blockquote>
 <p><a rel="full-article" href="http://www.washingtonpost.com/opinions/why-stem-wont-make-us-successful/2015/03/26/5f4604f2-d2a5-11e4-ab77-9646eea6a4c7_story.html">Read on The Washington Post&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Introducing the IE Diagnostics Adapter for Third Party Developer Tools]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/introducing-the-ie-diagnostics-adapter-for-third-party-developer-tools-ieblog-site-home-msdn-blogs/"/>
+				<updated>2015-04-02T15:10:48-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/introducing-the-ie-diagnostics-adapter-for-third-party-developer-tools-ieblog-site-home-msdn-blogs</id>
+				<content type="html"><![CDATA[<p>Connect to Internet Explorer via Chrome Developer Tools. How friggin’ cool is that?!</p>
+<p><a rel="full-article" href="http://blogs.msdn.com/b/ie/archive/2015/04/02/introducing-the-ie-diagnostics-adapter-for-third-party-developer-tools.aspx">Read on IEBlog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
@@ -275,23 +286,6 @@
 			</entry>
 		
 	
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Advancing JavaScript Without Breaking the Web]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/advancing-javascript-without-breaking-the-web/"/>
-				<updated>2015-03-09T11:27:51-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/advancing-javascript-without-breaking-the-web</id>
-				<content type="html"><![CDATA[<p>This megapost contains notes, slides, and a screencast version of <a href="http://twitter.com/codepo8">Christian Heilmann</a>’s MunichJS talk. There are lots of great bits in here. This section particularly resonated with me:</p>
-
-<blockquote><p>The fundamental truth of the web is that the user controls the experience. That’s what makes the web work: you write your code for the Silicon Valley dweller on a 8 core state-of-the-art mobile device with an evergreen and very capable browser on a fast wireless connection and much money to spend. The same code, however, should work for the person who saved up their money to have a half hour in an internet cafe in an emerging country on a Windows XP machine with an old Firefox connected with a very slow and flaky connection. Or the person whose physical condition makes them incapable to see, speak, hear or use a mouse.</p>
-
-<p>Our job is not to tell that person off to keep up with the times and upgrade their hardware. Our job is to use our smarts to write intelligent solutions. Intelligent solutions that test which of their parts can execute and only give those to that person. Web technologies are designed to be flexible and adaptive, and if we don’t understand that, we shouldn’t pretend that we are web developers.</p></blockquote>
-
-<p>Amen!</p>
-<p><a rel="full-article" href="http://christianheilmann.com/2015/03/09/advancing-javascript-without-breaking-the-web/">Read on Christian Heilmann&nbsp;&rarr;</a></p>]]></content>
-			</entry>
 		
 	
 </feed>
