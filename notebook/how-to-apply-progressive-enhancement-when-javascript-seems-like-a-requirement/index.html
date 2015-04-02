@@ -15,10 +15,10 @@
 
 
 
-<title>The Network Effect, From the Notebook of Aaron Gustafson</title>
-<meta property="og:title" content="The Network Effect, From the Notebook of Aaron Gustafson">
+<title>How to Apply Progressive Enhancement When JavaScript Seems Like a Requirement, From the Notebook of Aaron Gustafson</title>
+<meta property="og:title" content="How to Apply Progressive Enhancement When JavaScript Seems Like a Requirement, From the Notebook of Aaron Gustafson">
 
-<meta property="og:url" content="http://www.aaron-gustafson.com/notebook/the-network-effect/">
+<meta property="og:url" content="http://www.aaron-gustafson.com/notebook/how-to-apply-progressive-enhancement-when-javascript-seems-like-a-requirement/">
 
 <meta name="author" content="Aaron Gustafson">
 <meta property="og:type" content="website">
@@ -26,8 +26,8 @@
 <meta property="og:image" content="http://www.aaron-gustafson.com/i/og-logo.png">
 <meta property="og:locale" content="en_US">
 
-<meta property="og:description" content="Comcast’s move to inject JavaScript into other people’s web pages via their XFinity routers only serves to remind us—yet again—that we don’t control how our sites are delivered or what our users see.">
-<meta name="description" content="Comcast’s move to inject JavaScript into other people’s web pages via their XFinity routers only serves to remind us—yet again—that we don’t control how our sites are delivered or what our users see.">
+<meta property="og:description" content="On Stack Overflow last week, JamHam asked how to apply progressive enhancement in interfaces that seem to require JavaScript. Unfortunately he deleted the question before I could post my response, so &hellip;">
+<meta name="description" content="On Stack Overflow last week, JamHam asked how to apply progressive enhancement in interfaces that seem to require JavaScript. Unfortunately he deleted the question before I could post my response, so &hellip;">
 
 <!-- Twitter -->
 <meta name="twitter:card" value="summary"/>
@@ -51,8 +51,6 @@
 
 
 
-
-	<meta property="webmention:redirected_from" content="/notebook/2014/the-network-effect/">
 
 	
 	<link href="/favicon.png" rel="icon">
@@ -126,14 +124,14 @@
 	<article role="article" class="layout-container__primary h-entry">
 		<div class="entry">
 			<header class="entry__header">
-		     	<h1 class="entry__title p-name">The Network Effect</h1>
+		     	<h1 class="entry__title p-name">How to Apply Progressive Enhancement When JavaScript Seems Like a Requirement</h1>
 			
 				
 					<p class="entry__meta">
-		        		This will take 2 minutes to read
+		        		This will take 4 minutes to read
 
 						
-							| <a href="#disqus_thread" data-disqus-identifier="http://www.aaron-gustafson.com/notebook/the-network-effect/">Comments</a>
+							| <a href="#disqus_thread" data-disqus-identifier="http://www.aaron-gustafson.com/notebook/how-to-apply-progressive-enhancement-when-javascript-seems-like-a-requirement/">Comments</a>
 							| <a href="#webmentions">Webmentions</a>
 		        		
 		      		</p>
@@ -143,34 +141,50 @@
 			
 
 			<div class="entry__content e-content">
-				<p><cite>Ars Technica</cite> revealed today that <a href="http://arstechnica.com/tech-policy/2014/09/why-comcasts-javascript-ad-injections-threaten-security-net-neutrality/">Comcast is injecting self-promotional advertising into web pages delivered via it’s Wi-Fi hotspots</a>:</p>
-
-<blockquote cite="http://arstechnica.com/tech-policy/2014/09/why-comcasts-javascript-ad-injections-threaten-security-net-neutrality/">
-    <p>A Comcast spokesman told Ars the program began months ago. One facet of it is designed to alert consumers that they are connected to Comcast&#8217;s Xfinity service. Other ads remind Web surfers to download Xfinity apps, Comcast spokesman Charlie Douglas told Ars in telephone interviews.</p>
-</blockquote>
-
-
-<p>I wish I could say this is surprising, but it’s not: Any service that routes your content has the opportunity to modify the response being returned. Comcast is exploiting that opportunity and injecting JavaScript that, in turn, injects the ads.</p>
+				<p>On Stack Overflow last week, <a href="http://stackoverflow.com/users/4719194/jamham">JamHam</a> asked how to apply progressive enhancement in interfaces that seem to require JavaScript. Unfortunately he deleted the question before I could post my response, so I thought I would post it all here for posterity.</p>
 
 <!-- more -->
 
 
-<p>The fact that middlemen can manipulate server responses is one reason <a href="https://www.youtube.com/watch?v=cBhZ6S0PFCY">Google is pushing for all sites to be served under HTTPS</a>. With traffic running to and from your server in an encrypted fashion, <a href="http://en.wikipedia.org/wiki/Man-in-the-middle_attack">man-in-the-middle attacks</a>—which, if we’re honest, is what this amounts to—become much more difficult.</p>
+<blockquote><p>I&rsquo;ve been trying to make my site (a content publishing &ldquo;web app&rdquo;) work fully without JavaScript, however, I&rsquo;ve found myself in situations where I can&rsquo;t honestly think how I would do some features without it.</p>
 
-<p>Assuming you can’t run under HTTPS for one reason or another, how do you harden your <a href="https://adactio.com/journal/6246">web thang</a> against 3rd party manipulation you can’t control? What if Comcast’s JavaScript interferes with your own? Remember when <a href="http://www.theguardian.com/technology/2014/jan/28/sky-broadband-blocks-jquery-web-critical-plugin">Sky blocked jQuery for all of their customers</a>? That was a bad couple of hours for most UK-based internet users.</p>
+<p>For instance:</p>
 
-<p>Comcast’s move only serves to remind us—yet again—that we don’t control how our sites are delivered or what our users see. Or rather we do, but only up to a point. So rather than focus on some ideal experience we expect everyone to have, we must focus on building great experiences that work in a variety of contexts and situations.</p>
-
-<p>We need to develop <a href="http://en.wikipedia.org/wiki/Demolition_derby#Vehicles">the 1964 Chrysler Imperial</a> of websites: Sites that soldier on even when they are getting pummeled from all sides. After all, browsers, plug-ins, users, networks, and, yes, even the very routers that deliver our connections all have a say in how (and what) content gets to our users.</p>
-
-<p>I’ll leave you with this scary quote from the <cite>Ars</cite> piece:</p>
-
-<blockquote cite="http://arstechnica.com/tech-policy/2014/09/why-comcasts-javascript-ad-injections-threaten-security-net-neutrality/">
-    <p>Security expert Dan Kaminsky said in an e-mail that JavaScript injection has the potential to break “all sorts of stuff, in that you no longer know as a website developer precisely what code is running in browsers out there. You didn&#8217;t send it, but your customers received it.”</p>
-</blockquote>
+<ul>
+<li>I have a form submission page where you change certain settings, and the form changes accordingly.This is alright, I can apply query strings in the url and have some logic in my layout so that certain fields are shown/hidden according to the query string. The thing is, I also need to update a &ldquo;price&rdquo; dynamically, according to what fields are filled in, how they are filled in, and some other factors, and I don&rsquo;t honestly see how I could do that without JavaScript.</li>
+<li>I have a messaging section where I&rsquo;m using WebSockets (with the help of Socket.io). The UI of the messaging (and of course, the
+WebSockets) stuff pretty much depends on JavaScript, with &lsquo;messages&rsquo; being created as they arrive and appended into DOM and also a form that allows you to quickly look up an user via AJAX so you can send a message easily, among many other things.</li>
+</ul>
 
 
-<p>Hooray!</p>
+<p>I mean, I could probably come up with very complicated solutions for each situation, and obviously the functionality wouldn&rsquo;t be the same. I&rsquo;m thinking I might as well just require JavaScript for the whole thing</p>
+
+<p>But it kinda sucks, since I&rsquo;ve been making everything work without JavaScript, up until this point. And I would like some consistency across the whole site. In these kind of situations, is it acceptable to not support non-js clients? What would you suggest in this case?</p></blockquote>
+
+<p>My response (which I was drafting when he deleted the question):</p>
+
+<blockquote><p>First off, I applaud your interest in using progressive enhancement. It will ensure the most users possible have access to your content and will also result in a more robust application overall. As a general guiding principle, look to the past. How did we solve these issues before widespread JavaScript availability? Those &ldquo;Web 1.0&rdquo; solutions will still work and can be overtaken by supplanted by your JavaScript solution whenever it is possible to do so.</p>
+
+<p>Every situation is different, but it is even possible to reuse a lot of code in both scenarios.</p>
+
+<p>Now to address your interfaces…</p>
+
+<p><strong>Your Submission Page</strong> &ndash; I could be wrong, but this sounds like a shopping cart to me (at least in essence). You are on the right track with query parameters, but you could also store info about the cart (and the user’s capabilities) in a session or cookie.</p>
+
+<p>In terms of updating the &ldquo;cart&rdquo;, a simple &ldquo;update&rdquo; submit button that posts the form and triggers a redirection back to this page with the updated info would be sufficient. And if you need to show or hide fields based on choices made, you simply apply that logic on the server side. You could even have the server generate that same markup into the page, but hidden for situations where JavaScript is available.</p>
+
+<p><strong>Your Messaging App</strong> &ndash; This can seem like a daunting challenge, but before we had web sockets and even Ajax, we relied on a small form which posts messages to the back end and a running feed of messages being sent from the back-end. One of the most common way to handle this involved frames and a &ldquo;meta refresh&rdquo; like this one:</p>
+
+<pre><code>&lt;meta http-equiv="refresh" content="30"&gt;
+</code></pre>
+
+<p>That simple <code>meta</code> tag will make any browser refresh the page every 30 seconds. Now if you put that in an <code>iframe</code> to keep it from causing a refresh of the entire interface, any new messages would be picked up and displayed automatically at that interval (which you should tune to be appropriate for your app).</p>
+
+<p>Once that is in place the page itself could even post to that frame by using the non-standard but well-supported <code>_target</code> attribute on the <code>form</code>.</p>
+
+<p>Obviously with JavaScript enabled, you’d probably throw away that <code>iframe</code>, but the rest of the setup (including the templates for displaying the messages) could certainly be reused with WebSockets.</p></blockquote>
+
+<p>I hope this helps. Progressive enhancement may seem like a huge challenge, but when you take a few moments to think about how we handled these challenges in the past, the way forward becomes clear.</p>
 
 			</div>
 
@@ -180,10 +194,10 @@
 
 
 <p class="entry__sharing">If you liked this, would you mind sharing it?
-	<a class="share_link share_link--twitter" href="https://twitter.com/intent/tweet?original_referer=http://www.aaron-gustafson.com/notebook/the-network-effect/&amp;source=tweetbutton&amp;text=The+Network+Effect&amp;url=http://www.aaron-gustafson.com/notebook/the-network-effect/">Share on Twitter</a>
-	<a class="share_link share_link--facebook" href="http://www.facebook.com/sharer.php?u=http://www.aaron-gustafson.com/notebook/the-network-effect/">Post on Facebook</a>
-	<a class="share_link share_link--linkedin" href="https://www.linkedin.com/cws/share?url=http://www.aaron-gustafson.com/notebook/the-network-effect/&amp;original_referer=http://www.aaron-gustafson.com/notebook/the-network-effect/">Share on LinkedIn</a>
-	<a class="share_link share_link--googleplus" href="https://plus.google.com/share?url=http://www.aaron-gustafson.com/notebook/the-network-effect/">Share on Google+</a>
+	<a class="share_link share_link--twitter" href="https://twitter.com/intent/tweet?original_referer=http://www.aaron-gustafson.com/notebook/how-to-apply-progressive-enhancement-when-javascript-seems-like-a-requirement/&amp;source=tweetbutton&amp;text=How+to+Apply+Progressive+Enhancement+When+JavaScript+Seems+Like+a+Requirement&amp;url=http://www.aaron-gustafson.com/notebook/how-to-apply-progressive-enhancement-when-javascript-seems-like-a-requirement/">Share on Twitter</a>
+	<a class="share_link share_link--facebook" href="http://www.facebook.com/sharer.php?u=http://www.aaron-gustafson.com/notebook/how-to-apply-progressive-enhancement-when-javascript-seems-like-a-requirement/">Post on Facebook</a>
+	<a class="share_link share_link--linkedin" href="https://www.linkedin.com/cws/share?url=http://www.aaron-gustafson.com/notebook/how-to-apply-progressive-enhancement-when-javascript-seems-like-a-requirement/&amp;original_referer=http://www.aaron-gustafson.com/notebook/how-to-apply-progressive-enhancement-when-javascript-seems-like-a-requirement/">Share on LinkedIn</a>
+	<a class="share_link share_link--googleplus" href="https://plus.google.com/share?url=http://www.aaron-gustafson.com/notebook/how-to-apply-progressive-enhancement-when-javascript-seems-like-a-requirement/">Share on Google+</a>
 </p>
 			    
 
@@ -203,7 +217,7 @@
 
 
 
-		<time class="dt-published" datetime="2014-09-08T16:40:44-04:00">08 September 2014</time> 
+		<time class="dt-published" datetime="2015-04-02T10:14:40-04:00">02 April 2015</time> 
 					<b class="hidden">by <a class="p-author h-card" href="/about">Aaron Gustafson</a></b>
 					
 					and was filed under: 
@@ -211,7 +225,7 @@
 
 	<span class="post__categories">
 		
-			<a class='category p-category' href='/notebook/tags/javascript/'>javascript</a>, <a class='category p-category' href='/notebook/tags/web-design/'>web design</a>
+			<a class='category p-category' href='/notebook/tags/javascript/'>javascript</a>, <a class='category p-category' href='/notebook/tags/progressive-enhancement/'>progressive enhancement</a>, <a class='category p-category' href='/notebook/tags/web-design/'>web design</a>
 		
 	</span>
 
@@ -245,7 +259,7 @@
 
 
 
-	<div class="webmentions"><ol class="webmentions__list"><li id="webmention-12134" class="webmentions__item"><article class="h-cite webmention webmention--title-only"><div class="webmention__author p-author h-card"><a class="u-url" href="http://aaron-gustafson.com/about"><b class="p-name">Aaron Gustafson</b></a></div> <div class="webmention__title p-name"><a href="http://aaron-gustafson.com/notebook/2014/missed-connections/">Missed Connections</a></div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2014-09-19T16:12:50-04:00">19 September 2014</time></div></article></li></ol></div>
+	<div class="webmentions"><p class="webmentions__not-found">No webmentions were found</p></div>
 
 			</section>
 
@@ -402,7 +416,7 @@
 		<footer role="contentinfo" class="footer">
 	<div class="layout-container">
 		
-			<p class="footer__fork-me">Did you spot a typo or error? Eesh. <a href="https://github.com/aarongustafson/aarongustafson.github.io/tree/source/source/2014-09-08-the-network-effect.markdown">Would you mind fixing it for me?</a> You’re so awesome.</p>
+			<p class="footer__fork-me">Did you spot a typo or error? Eesh. <a href="https://github.com/aarongustafson/aarongustafson.github.io/tree/source/source/2015-04-02-how-to-apply-progressive-enhancement-when-javascript-seems-like-a-requirement.markdown">Would you mind fixing it for me?</a> You’re so awesome.</p>
 		
 		<p class="footer__copyright"><b id="license">The content of this site is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons</a>.</b> <b>The site itself is powered by <a href="http://octopress.org">Octopress</a> and is <a href="https://github.com/aarongustafson/aarongustafson.github.io/">forkable on Github</a>.</b></p>
 	</div>
@@ -416,8 +430,8 @@
 		
 			
 			// disqus_developer = 1,
-			disqus_identifier = 'http://www.aaron-gustafson.com/notebook/the-network-effect/',
-			disqus_url = 'http://www.aaron-gustafson.com/notebook/the-network-effect/',
+			disqus_identifier = 'http://www.aaron-gustafson.com/notebook/how-to-apply-progressive-enhancement-when-javascript-seems-like-a-requirement/',
+			disqus_url = 'http://www.aaron-gustafson.com/notebook/how-to-apply-progressive-enhancement-when-javascript-seems-like-a-requirement/',
 			disqus_script = 'embed.js';
 		
 		(function () {
@@ -435,7 +449,7 @@
 
 
 <noscript>
-	<img src="http://nojsstats.appspot.com/UA-176472-5/http://www.aaron-gustafson.com/notebook/the-network-effect/" alt=""/>
+	<img src="http://nojsstats.appspot.com/UA-176472-5/http://www.aaron-gustafson.com/notebook/how-to-apply-progressive-enhancement-when-javascript-seems-like-a-requirement/" alt=""/>
 </noscript>
 
 	

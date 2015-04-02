@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-04-01T08:39:52-04:00</updated>
+  <updated>2015-04-02T12:55:58-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -12,6 +12,58 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[How to Apply Progressive Enhancement When JavaScript Seems Like a Requirement]]></title>
+    <link href="http://www.aaron-gustafson.com/notebook/how-to-apply-progressive-enhancement-when-javascript-seems-like-a-requirement/"/>
+    <updated>2015-04-02T10:14:40-04:00</updated>
+    <id>http://www.aaron-gustafson.com/notebook/how-to-apply-progressive-enhancement-when-javascript-seems-like-a-requirement</id>
+    <content type="html"><![CDATA[<p>On Stack Overflow last week, <a href="http://stackoverflow.com/users/4719194/jamham">JamHam</a> asked how to apply progressive enhancement in interfaces that seem to require JavaScript. Unfortunately he deleted the question before I could post my response, so I thought I would post it all here for posterity.</p>
+
+<!-- more -->
+
+
+<blockquote><p>I&rsquo;ve been trying to make my site (a content publishing &ldquo;web app&rdquo;) work fully without JavaScript, however, I&rsquo;ve found myself in situations where I can&rsquo;t honestly think how I would do some features without it.</p>
+
+<p>For instance:</p>
+
+<ul>
+<li>I have a form submission page where you change certain settings, and the form changes accordingly.This is alright, I can apply query strings in the url and have some logic in my layout so that certain fields are shown/hidden according to the query string. The thing is, I also need to update a &ldquo;price&rdquo; dynamically, according to what fields are filled in, how they are filled in, and some other factors, and I don&rsquo;t honestly see how I could do that without JavaScript.</li>
+<li>I have a messaging section where I&rsquo;m using WebSockets (with the help of Socket.io). The UI of the messaging (and of course, the
+WebSockets) stuff pretty much depends on JavaScript, with &lsquo;messages&rsquo; being created as they arrive and appended into DOM and also a form that allows you to quickly look up an user via AJAX so you can send a message easily, among many other things.</li>
+</ul>
+
+
+<p>I mean, I could probably come up with very complicated solutions for each situation, and obviously the functionality wouldn&rsquo;t be the same. I&rsquo;m thinking I might as well just require JavaScript for the whole thing</p>
+
+<p>But it kinda sucks, since I&rsquo;ve been making everything work without JavaScript, up until this point. And I would like some consistency across the whole site. In these kind of situations, is it acceptable to not support non-js clients? What would you suggest in this case?</p></blockquote>
+
+<p>My response (which I was drafting when he deleted the question):</p>
+
+<blockquote><p>First off, I applaud your interest in using progressive enhancement. It will ensure the most users possible have access to your content and will also result in a more robust application overall. As a general guiding principle, look to the past. How did we solve these issues before widespread JavaScript availability? Those &ldquo;Web 1.0&rdquo; solutions will still work and can be overtaken by supplanted by your JavaScript solution whenever it is possible to do so.</p>
+
+<p>Every situation is different, but it is even possible to reuse a lot of code in both scenarios.</p>
+
+<p>Now to address your interfaces…</p>
+
+<p><strong>Your Submission Page</strong> &ndash; I could be wrong, but this sounds like a shopping cart to me (at least in essence). You are on the right track with query parameters, but you could also store info about the cart (and the user’s capabilities) in a session or cookie.</p>
+
+<p>In terms of updating the &ldquo;cart&rdquo;, a simple &ldquo;update&rdquo; submit button that posts the form and triggers a redirection back to this page with the updated info would be sufficient. And if you need to show or hide fields based on choices made, you simply apply that logic on the server side. You could even have the server generate that same markup into the page, but hidden for situations where JavaScript is available.</p>
+
+<p><strong>Your Messaging App</strong> &ndash; This can seem like a daunting challenge, but before we had web sockets and even Ajax, we relied on a small form which posts messages to the back end and a running feed of messages being sent from the back-end. One of the most common way to handle this involved frames and a &ldquo;meta refresh&rdquo; like this one:</p>
+
+<pre><code>&lt;meta http-equiv="refresh" content="30"&gt;
+</code></pre>
+
+<p>That simple <code>meta</code> tag will make any browser refresh the page every 30 seconds. Now if you put that in an <code>iframe</code> to keep it from causing a refresh of the entire interface, any new messages would be picked up and displayed automatically at that interval (which you should tune to be appropriate for your app).</p>
+
+<p>Once that is in place the page itself could even post to that frame by using the non-standard but well-supported <code>_target</code> attribute on the <code>form</code>.</p>
+
+<p>Obviously with JavaScript enabled, you’d probably throw away that <code>iframe</code>, but the rest of the setup (including the templates for displaying the messages) could certainly be reused with WebSockets.</p></blockquote>
+
+<p>I hope this helps. Progressive enhancement may seem like a huge challenge, but when you take a few moments to think about how we handled these challenges in the past, the way forward becomes clear.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Playing With Flexbox and Quantity Queries]]></title>
@@ -441,36 +493,6 @@ li:nth-last-child(-n+6):first-child ~ li {
 <p>I am very thankful to <a href="http://webstandardssherpa.com/about/#staff">all of our staff and authors</a> and to you, our readers, for making <em>Web Standards Sherpa</em> such a fun and rewarding endeavor! It was a great run and I count myself lucky to have had a small hand in the creation of so much great content.</p>
 
 <p>You can find all of the details regarding the conference <a href="http://environmentsforhumans.com/2015/web-sherpa-summit/">over on the Environments for Humans website</a>. I hope you’ll consider attending so we can ensure <em>Web Standards Sherpa</em>’s excellent content will remain available for years to come. Use the discount code SHERPA to save 20% off of the ticket price.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Who Should Pay 2: The Hosting]]></title>
-    <link href="http://www.aaron-gustafson.com/notebook/who-should-pay-2-the-hosting/"/>
-    <updated>2015-03-06T08:39:15-05:00</updated>
-    <id>http://www.aaron-gustafson.com/notebook/who-should-pay-2-the-hosting</id>
-    <content type="html"><![CDATA[<p>Two weeks ago, I argued that our <a href="http://aaron-gustafson.com/notebook/who-should-pay/">users should never foot the bill for developer convenience</a> and yesterday I stumbled on a post from EllisLab (the makers of ExpressionEngine) that echoes that sentiment, but from a different angle. The title might make you scratch your head: <a href="https://ellislab.com/blog/entry/save-thousands-of-dollars-by-paying-more-for-hosting">Save Thousands of Dollars by Paying More for Hosting</a>.</p>
-
-<!-- more -->
-
-
-<p>While it sounds counterintuitive, EllisLab’s statement makes sense. It’s all about shifting your perspective from agonizing over every hard cost on the balance sheet to thinking “big picture” about how you are spending your money overall.</p>
-
-<p>Their post makes the case that a low-cost hosting may be cheaper on the surface, but its slow performance will end up costing you more in terms of productivity loss and/or actual billable hours. The comparison they use is modest, but with a big impact: GoDaddy at $59.88/year vs. Nexcess at $8.95/month (still inexpensive, but roughly 2x the cost).</p>
-
-<blockquote><p>Normally, the ExpressionEngine control panel is fast. Zippy even. There aren’t many pages in the control panel that should have an execution time of more than a second. Most pages take a fraction of a second, no fancy caching needed. It’s common to see this in the footer: &ldquo;Script executed in 0.0706 seconds.&rdquo; Sure, add-ons that are bad citizens can slow down the control panel, but typically not to the degree a bad host can.</p>
-
-<p>How about ten seconds per page? No joke, on a recent site we logged in to on GoDaddy, one of the faster pages in the Admin area took ten seconds. The Template Manager took fifteen seconds, the publish page twenty-plus. I felt terrible for the developer and client who were using this site daily. Not only were they having a terrible experience with our software, they were <em>losing money</em> and didn’t even know it.</p></blockquote>
-
-<p>The post then proceeds to work through some estimations of normal workload in the CMS to determine how much money is quietly being drained from a project’s kitty because of a poor hosting decision. I won’t lie, it’s substantial.</p>
-
-<p>Now the EllisLab post is focused more on agency and project costs, but the implications of a slow host extend to our end users too.</p>
-
-<p>Sure, a slow host will delay the delivery of our content and <a href="http://www.nytimes.com/2012/03/01/technology/impatient-web-users-flee-slow-loading-sites.html?pagewanted=all&amp;_r=0">increase the likelihood they will go to a competitor</a>. That’s a given. But a slow host can also drain a mobile device’s battery (because the radio must be kept on longer), which reduces the usefulness of their device.</p>
-
-<p>Slow servers are also incredibly frustrating for users and are inconsiderate of their time. This is one of the points I was harping on in my post: we should not value our time above our customers’ time. When we put our customers’ needs above our own, we make better products and (ultimately) better decisions for our businesses.</p>
-
-<p>Long story short: Shop around for a good price on a speedy server. Your developers, content creators, and (most importantly) your customers will thank you for it.</p>
 ]]></content>
   </entry>
   
