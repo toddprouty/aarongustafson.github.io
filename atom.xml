@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-04-02T15:19:05-04:00</updated>
+	<updated>2015-04-03T10:46:58-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,21 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[9th Circuit Rules Netflix Isn’t Subject to Disability Law]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/9th-circuit-rules-netflix-isnt-subject-to-disability-law/"/>
+				<updated>2015-04-03T11:41:36-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/9th-circuit-rules-netflix-isnt-subject-to-disability-law</id>
+				<content type="html"><![CDATA[<p>So the 9th Circuit Court threw out an ADA suit against Netflix for a lack of captions. To <a href="http://arstechnica.com/author/joe-mullin/">Joe Mullin</a> of <cite>Ars</cite> it seemed like a question of whether a website constitutes a “public accommodation”, but I don&rsquo;t know that it does in this instance. I did agree with <a href="http://en.wikipedia.org/wiki/National_Federation_of_the_Blind_v._Target_Corp"><cite>NFB v. Target</cite></a>, but this seems different.</p>
+
+<p>I don&rsquo;t think Netflix should have to provide captions for all content on its service. The onus for captioning should be on the content creator and not the delivery service. In other words, if Netflix has an accessible site and captions their own original content, that should be the most anyone could ask of them. They don&rsquo;t own the majority of their content and could even be legally precluded from captioning it depending on the contract.</p>
+
+<p>As much as I want to see more captioned content made available, I think the ruling makes sense. The case doesn&rsquo;t seem to be appropriately grounded nor does the ask seem reasonable.</p>
+<p><a rel="full-article" href="http://arstechnica.com/tech-policy/2015/04/9th-circuit-rules-netflix-isnt-subject-to-disability-law/">Read on Ars Technica&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -677,55 +692,6 @@ li:nth-last-child(-n+6):first-child ~ li {
 
 <p>All your fancy front-end-JS-required frameworks are dead to history, a mere evolutionary blip in web app development practices. Perhaps they provided interesting ephemeral prototypes, nothing more.</p></blockquote>
 <p><a rel="full-article" href="http://tantek.com/2015/069/t1/js-dr-javascript-required-dead">Read on Tantek Çelik&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Lines in the Sand]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/lines-in-the-sand/"/>
-				<updated>2015-03-11T09:21:29-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/lines-in-the-sand</id>
-				<content type="html"><![CDATA[<p>A new site, <a href="http://breakupwithie8.com/">Break Up with Internet Explorer 8</a> by <a href="http://www.humaan.com/">Humaan</a>, has been making the rounds on the Interwebs of late. It’s cleverly done and an attractive site, but I don’t really agree with the premise:</p>
-
-<blockquote><p>Join the intervention and stop supporting IE8. It&rsquo;s time for an upgrade.</p></blockquote>
-
-<!-- more -->
-
-
-<p>The reality is that some users don’t have control over the browsers installed on their computers and <a href="http://www.networkworld.com/article/2224510/microsoft-subnet/some-windows-xp-users-just-can-t-afford-to-upgrade.html">IE8 may be the best they can muster</a>. Most of us have had the luxury of moving on, but they haven’t. Does that mean we should banish those users from our sites by treating IE8 like that ex who just won’t take a hint? I don’t think so.</p>
-
-<p>Instead, we should approach this problem rationally. Be the bigger person. Call it <a href="http://bradfrost.com/blog/mobile/support-vs-optimization/">support vs. optimization</a>, call it <a href="http://responsivenews.co.uk/post/18948466399/cutting-the-mustard">cutting the mustard</a>, call it what you will, but by understanding how browsers work, we can reduce our own development headaches and serve more users in the process. Yes, even when they use aging browsers like IE8 or IE7 or (gasp) IE6.</p>
-
-<p>When it comes to HTML and CSS, browsers ignore what they don’t understand. It’s why you can use the <code>section</code> element and the content will still be exposed in Lynx. It’s also why you can use RGBa without IE6 collapsing. <a href="http://adaptivewebdesign.info/1st-edition/chapter-1.html#the-rise-of-tolerance">Fault tolerance is a really powerful tool</a> and is the foundation of progressive enhancement in HTML and CSS. (In JavaScript things are a little more complicated… we have to use <a href="http://learn.jquery.com/code-organization/feature-browser-detection/">feature detection</a>.)</p>
-
-<p>A simple way to rid yourself of IE8 related headaches is to embrace the idea that <a href="http://dowebsitesneedtolookexactlythesameineverybrowser.com/">web pages don’t need to look (or behave) the same in every browser</a> and look for ways to achieve this while still providing access to your content and tools for less-capable browsers and devices. For example:</p>
-
-<div><script src='https://gist.github.com/b9bca995a67ba298225d.js?file=css-filter.html'></script>
-<noscript><pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;simple.css&quot;&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;complex.css&quot; media=&quot;only screen&quot;&gt;</code></pre></noscript></div>
-
-
-<p>This simple stylesheet setup will deliver only the <code>simple.css</code> file to browsers that are incapable of understanding media queries. Browsers that do understand them will get both stylesheets. Media queries support is an easy line in the sand we can draw because <a href="http://www.slideshare.net/bryanrieger/rethinking-the-mobile-web-by-yiibu/79">lack of media query support is in fact the first media query</a>.</p>
-
-<p>Once you’ve done that, it’s as simple as putting all of your advanced styles in the <code>complex.css</code> file. No drama.</p>
-
-<p>On the JavaScript end, you can draw a line in the sand too. Let’s say you don’t want to spend your time debugging JavaScript in IE8. You can just skip it using <a href="http://www.quirksmode.org/css/condcom.html">Conditional Comments</a>:</p>
-
-<div><script src='https://gist.github.com/b9bca995a67ba298225d.js?file=js-filter.html'></script>
-<noscript><pre><code>&lt;!--[if gte IE 9]&gt;&lt;!--&gt;
-  &lt;script src=&quot;not-for-ie8.js&quot;&gt;&lt;/script&gt;
-&lt;!--&lt;![endif]--&gt;</code></pre></noscript></div>
-
-
-<p>Using an approach like this avoids delivering the contained JavaScript files to IE8 at all, but all other browsers will see them.</p>
-
-<p>If that’s too drastic, use <a href="http://learn.jquery.com/code-organization/feature-browser-detection/">feature detection</a> in your JavaScript files to determine if it is safe to rely on a particular method or capability. Program defensively.</p>
-
-<p>Honestly, I’ve found that approaches like these lead to fewer grey hairs and a lower overall stress level. They make me a happier developer and let me concentrate on building for the future rather than worrying about the past.</p>
-
-<p>But it’s not about breaking up with IE8, it’s about having a realistic and honest relationship with it.</p>
-]]></content>
 			</entry>
 		
 	
