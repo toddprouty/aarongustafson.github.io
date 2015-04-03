@@ -162,7 +162,7 @@
             url = data.url,
             type = data.activity ? data.activity.type : false,
             activity = ( type == "like" || type == "repost" ),
-            sentence = data.activity.sentence_html,
+            sentence = data.activity ? data.activity.sentence_html : null,
             author = data.author.name,
             author_photo = data.author.photo,
             pubdate,
