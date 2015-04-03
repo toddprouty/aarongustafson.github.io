@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-04-03T10:46:58-04:00</updated>
+	<updated>2015-04-03T10:52:35-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -57,9 +57,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Introducing the IE Diagnostics Adapter for Third Party Developer Tools]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/introducing-the-ie-diagnostics-adapter-for-third-party-developer-tools-ieblog-site-home-msdn-blogs/"/>
+				<link href="http://www.aaron-gustafson.com/notebook/links/introducing-the-ie-diagnostics-adapter-for-third-party-developer-tools/"/>
 				<updated>2015-04-02T15:10:48-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/introducing-the-ie-diagnostics-adapter-for-third-party-developer-tools-ieblog-site-home-msdn-blogs</id>
+				<id>http://www.aaron-gustafson.com/notebook/links/introducing-the-ie-diagnostics-adapter-for-third-party-developer-tools</id>
 				<content type="html"><![CDATA[<p>Connect to Internet Explorer via Chrome Developer Tools. How friggin’ cool is that?!</p>
 <p><a rel="full-article" href="http://blogs.msdn.com/b/ie/archive/2015/04/02/introducing-the-ie-diagnostics-adapter-for-third-party-developer-tools.aspx">Read on IEBlog&nbsp;&rarr;</a></p>]]></content>
 			</entry>

@@ -160,7 +160,7 @@
             title = data.name,
             content = data.content,
             url = data.url,
-            type = data.activity.type,
+            type = data.activity ? data.activity.type : false,
             activity = ( type == "like" || type == "repost" ),
             sentence = data.activity.sentence_html,
             author = data.author.name,
