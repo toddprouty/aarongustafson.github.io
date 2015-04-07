@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-04-07T08:47:09-04:00</updated>
+	<updated>2015-04-07T10:41:30-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,19 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[15 Years of Dao]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/15-years-of-dao/"/>
+				<updated>2015-04-07T10:36:35-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/15-years-of-dao</id>
+				<content type="html"><![CDATA[<p>So many nice words about such an important piece about the Web. My humble contribution:</p>
+
+<blockquote><p>John’s piece came three years before Steve Champeon coined the term “progressive enhancement,” but it clearly and succinctly outlined its philosophy: “Make pages which are accessible, regardless of the browser, platform or screen that your reader chooses or must use to access your pages.” His insights—published a mere decade after the invention of the medium—still influence the work I do to this day.</p></blockquote>
+<p><a rel="full-article" href="http://alistapart.com/blog/post/15-years-of-dao">Read on A List Apart&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -660,30 +673,6 @@ li:nth-last-child(-n+6):first-child ~ li {
 
 <blockquote><p>[L]et’s develop websites that are cross browser and supported by all major browsers as our job as web developers require it.  It is not our job to decide what browser is cool or not; we have to provide an accessible and working website to all users because cross browser development is as or more important that even a responsive design.</p></blockquote>
 <p><a rel="full-article" href="http://admixweb.com/now-the-internet-explorer-is-dead-let-stop-the-hate/">Read on Admix Web Magazine&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[When IE Gave Us Beautiful, Fast Touch Interactions, and Nobody Cared]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/when-ie-gave-us-beautiful-fast-touch-interactions-and-nobody-cared/"/>
-				<updated>2015-03-16T17:26:36-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/when-ie-gave-us-beautiful-fast-touch-interactions-and-nobody-cared</id>
-				<content type="html"><![CDATA[<p>I never even saw this proposal, but how cool would it be to set snap points for scrolling content in  CSS?!</p>
-
-<div><script src='https://gist.github.com/bdc0efc31cbc7c1308c7.js?file=scroll-snap-points.css'></script>
-<noscript><pre><code>.container {
-  width: 500px;
-  overflow-x: auto;
-  overflow-y: hidden;
-  white-space: nowrap;
-  /* Set up points to which scrolling will snap */
-  -ms-scroll-snap-points-x: snapInterval(0px, 100%);
-  /* Require that scrolling always end at a snap point */ 
-  -ms-scroll-snap-type: mandatory; 
-}</code></pre></noscript></div>
-
-<p><a rel="full-article" href="https://paulbakaus.com/2015/03/13/when-ie-gave-us-beautiful-fast-touch-interactions-and-nobody-cared/">Read on The Sea of Ideas&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
