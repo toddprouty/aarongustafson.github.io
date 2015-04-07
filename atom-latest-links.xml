@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-04-03T11:46:48-04:00</updated>
+	<updated>2015-04-07T08:40:02-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,19 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[A Dao of Web Design at 15]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/a-dao-of-web-design-at-15/"/>
+				<updated>2015-04-07T08:51:36-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/a-dao-of-web-design-at-15</id>
+				<content type="html"><![CDATA[<p>John nails it:</p>
+
+<blockquote><p>I continue to believe, just as the Web is not print, though it emerged in many ways from the medium of print, it is not just another application platform. It has its own genius, which we could call as I did all those years ago, adaptability.</p></blockquote>
+<p><a rel="full-article" href="http://www.webdirections.org/blog/a-dao-of-web-design-at-15/">Read on The Web Directions Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -279,25 +292,6 @@
 
 <p>This page, for instance, costs nothing in the UK and India and only 2¢ in the U.S.</p>
 <p><a rel="full-article" href="http://whatdoesmysitecost.com/">Read on Tim Kadlec&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Js;dr = JavaScript Required; Didn’t Read.]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/js-dr-javascript-required-dead/"/>
-				<updated>2015-03-11T14:11:51-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/js-dr-javascript-required-dead</id>
-				<content type="html"><![CDATA[<p>It’s a tough pill to swallow, but it’s true:</p>
-
-<blockquote><p>Pages that are empty without JS: dead to history (archive-org), unreliable for search results (despite any search engine claims of JS support, check it yourself), and thus ignorable. No need to waste time reading or responding.</p>
-
-<p>…</p>
-
-<p>Because in 10 years nothing you built today that depends on JS for the content will be available, visible, or archived anywhere on the web.</p>
-
-<p>All your fancy front-end-JS-required frameworks are dead to history, a mere evolutionary blip in web app development practices. Perhaps they provided interesting ephemeral prototypes, nothing more.</p></blockquote>
-<p><a rel="full-article" href="http://tantek.com/2015/069/t1/js-dr-javascript-required-dead">Read on Tantek Çelik&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
