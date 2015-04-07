@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-04-07T08:40:02-04:00</updated>
+	<updated>2015-04-07T08:47:09-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -22,6 +22,17 @@
 
 <blockquote><p>I continue to believe, just as the Web is not print, though it emerged in many ways from the medium of print, it is not just another application platform. It has its own genius, which we could call as I did all those years ago, adaptability.</p></blockquote>
 <p><a rel="full-article" href="http://www.webdirections.org/blog/a-dao-of-web-design-at-15/">Read on The Web Directions Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[How to Create the Right Emotions With Color in Web Design]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/how-to-create-the-right-emotions-with-color-in-web-design/"/>
+				<updated>2015-04-07T08:41:30-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/how-to-create-the-right-emotions-with-color-in-web-design</id>
+				<content type="html"><![CDATA[<p>A nice overview of color and its emotional impact. Of course, this is a Western perspective. See also <a href="http://www.empower-yourself-with-color-psychology.com/cultural-color.html">Cultural Meanings of Color and Color Symbolism</a>.</p>
+<p><a rel="full-article" href="http://thenextweb.com/dd/2015/04/07/how-to-create-the-right-emotions-with-color-in-web-design/">Read on The Next Web&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
@@ -279,19 +290,6 @@
 }</code></pre></noscript></div>
 
 <p><a rel="full-article" href="https://paulbakaus.com/2015/03/13/when-ie-gave-us-beautiful-fast-touch-interactions-and-nobody-cared/">Read on The Sea of Ideas&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[What Does My Site Cost?]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/what-does-my-site-cost/"/>
-				<updated>2015-03-12T10:28:49-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/what-does-my-site-cost</id>
-				<content type="html"><![CDATA[<p>This is a fantastic tool from the one and only Tim Kadlec. It helps you get a better understanding of how much it costs users to view a web page in different countries around the world.</p>
-
-<p>This page, for instance, costs nothing in the UK and India and only 2¢ in the U.S.</p>
-<p><a rel="full-article" href="http://whatdoesmysitecost.com/">Read on Tim Kadlec&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
