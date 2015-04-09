@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-04-09T17:43:23-04:00</updated>
+	<updated>2015-04-09T17:59:46-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,19 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[The Failed Promise of Deep Links]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/the-failed-promise-of-deep-links/"/>
+				<updated>2015-04-09T17:58:21-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/the-failed-promise-of-deep-links</id>
+				<content type="html"><![CDATA[<p>A beautiful piece on what it means to be a link and what they mean to us.</p>
+
+<blockquote><p>In the ‘90s, we got tired of systems like Compuserve, AOL and Prodigy that wouldn’t play together nicely and only let us play in pre-approved ways. We might similarly grow disenchanted with apps that don’t connect easily, or only connect in ways that we can’t shape.</p></blockquote>
+<p><a rel="full-article" href="https://medium.com/backchannel/the-failed-promise-of-deep-links-aa307b3abaa5">Read on Medium&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -749,17 +762,6 @@ li:nth-last-child(-n+6):first-child ~ li {
 
 <p>HTML5 input types are on the docket. They won’t be displayed properly in clients until they get an upgrade, but the parse is aware of them now and they will fall back to &ldquo;text&rdquo; inputs until the client roll-out happens.</p>
 <p><a rel="full-article" href="https://dev.opera.com/blog/opera-mini-server-upgrade/">Read on Dev.Opera&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[An Analytics Primer for Developers]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/an-analytics-primer-for-developers/"/>
-				<updated>2015-03-18T15:09:15-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/an-analytics-primer-for-developers</id>
-				<content type="html"><![CDATA[<p>This is a fantastic overview of the various analytics reporting options available for developers along with a list of pros and cons for each. Highly recommended reading!</p>
-<p><a rel="full-article" href="https://hacks.mozilla.org/2015/03/an-analytics-primer-for-developers/">Read on Mozilla Hacks&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
