@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-04-09T17:59:46-04:00</updated>
+	<updated>2015-04-10T15:05:58-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,28 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[How to Write Cleaner CSS and Smarter SASS]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/how-to-write-cleaner-css-and-smarter-sass/"/>
+				<updated>2015-04-10T14:57:29-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/how-to-write-cleaner-css-and-smarter-sass</id>
+				<content type="html"><![CDATA[<p>A few thoughts on cleaner Sass output from <a href="http://twitter.com/@adispezio">Anthony Dispezio</a>. He secret? Using generic mixins in concert with <code>@extend</code>.</p>
+<p><a rel="full-article" href="http://www.creativebloq.com/web-design/how-write-cleaner-css-and-smarter-sass-41514637">Read on Creative Bloq&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Locking the Web Open: Rethinking the World Wide Web]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/locking-the-web-open-rethinking-the-world-wide-web/"/>
+				<updated>2015-04-10T14:51:46-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/locking-the-web-open-rethinking-the-world-wide-web</id>
+				<content type="html"><![CDATA[<p>Hmm… distribute the Web for endurance and longevity and make it private through <a href="https://en.bitcoin.it/wiki/Block_chain">blockchain</a>-esque encryption. It’s an interesting idea, but I don’t know that Marketing will go for it.</p>
+<p><a rel="full-article" href="http://thenextweb.com/insider/2015/04/10/locking-the-web-open-why-we-need-to-rethink-the-world-wide-web/">Read on The Next Web&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -716,52 +738,6 @@ li:nth-last-child(-n+6):first-child ~ li {
 				<id>http://www.aaron-gustafson.com/notebook/links/bigwebshow-130</id>
 				<content type="html"><![CDATA[<p>Jeffrey Zeldman and I discuss web design then and now; why Flipboard’s 60fps web launch is anti-web and anti-user; <a href="https://www.youtube.com/watch?v=1pkVLqSaahk">Genesis’ “Land of Confusion” video</a>, and other bad ideas from the 1980s; design versus art; the demise and sendoff of <a href="http://webstandardssherpa.com">Web Standards Sherpa</a>; how the web community differs from other creative communities; and the 2nd Edition of <a href="http://adaptivewebdesign.info"><cite>Adaptive Web Design</cite></a>, coming from New Riders later this year.</p>
 <p><a rel="full-article" href="http://5by5.tv/bigwebshow/130">Read on 5 by 5&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Rendering Engine Updates in March for the Windows 10 Technical Preview]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/rendering-engine-updates-in-march-for-the-windows-10-technical-preview/"/>
-				<updated>2015-03-18T15:20:46-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/rendering-engine-updates-in-march-for-the-windows-10-technical-preview</id>
-				<content type="html"><![CDATA[<p>The new browser codenamed “Project Spartan” won’t be in it, but the March build of the public Windows 10 preview has a bunch of new features. Among my favorites:</p>
-
-<ul>
-<li><a href="https://status.modern.ie/arialandmarkroles">ARIA Landmark Roles</a>,</li>
-<li><a href="https://status.modern.ie/webaudioapi">Web Audio API</a>,</li>
-<li><a href="https://status.modern.ie/conditionalrules"><code>@supports</code></a>,</li>
-<li><a href="https://status.modern.ie/cssgradientmidpoints">CSS Gradient Midpoints</a>,</li>
-<li>unprefixed <a href="https://status.modern.ie/fullscreenapi">Fullscreen API</a>,</li>
-<li><a href="https://status.modern.ie/touchevents">Touch Events API</a>,</li>
-<li><a href="https://status.modern.ie/daterelatedinputtypes">HTML5 date inputs</a> (behind a flag),</li>
-<li><a href="https://status.modern.ie/csstransitionsanimationsforsvgelements">CSS transitions &amp; animations for SVG</a> (behind a flag), and</li>
-<li><a href="https://status.modern.ie/filters">CSS filters</a> (behind a flag).</li>
-</ul>
-
-
-<p><a href="https://remote.modern.ie/">RemoteIE</a> should be updated soon too.</p>
-<p><a rel="full-article" href="http://blogs.msdn.com/b/ie/archive/2015/03/18/rendering-engine-updates-in-march-for-the-windows-10-technical-preview.aspx">Read on IEBlog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Opera Mini Server Upgrade]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/opera-mini-server-upgrade/"/>
-				<updated>2015-03-18T15:12:32-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/opera-mini-server-upgrade</id>
-				<content type="html"><![CDATA[<p>The server-side Presto rendering engine that drives Opera Mini has gotten a major upgrade, introducing some great new features including</p>
-
-<ul>
-<li><a href="http://www.w3.org/TR/css3-flexbox/">flexbox</a></li>
-<li><a href="http://www.w3.org/TR/css3-values/#rem-unit">rem units</a>, and</li>
-<li><a href="https://dev.opera.com/blog/opera-mini-server-upgrade/#ecmascript-5">a bit of ECMAScript 5</a>.</li>
-</ul>
-
-
-<p>HTML5 input types are on the docket. They won’t be displayed properly in clients until they get an upgrade, but the parse is aware of them now and they will fall back to &ldquo;text&rdquo; inputs until the client roll-out happens.</p>
-<p><a rel="full-article" href="https://dev.opera.com/blog/opera-mini-server-upgrade/">Read on Dev.Opera&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	

@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Posts]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-posts.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-04-09T17:59:46-04:00</updated>
+	<updated>2015-04-10T15:05:58-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,10 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+	
+		
 	
 		
 	
@@ -536,10 +540,6 @@ li:nth-last-child(-n+6):first-child ~ li {
 <p>Happy counting!</p>
 ]]></content>
 			</entry>
-		
-	
-		
-	
 		
 	
 		
