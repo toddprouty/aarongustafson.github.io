@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Progressive Enhancement | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/progressive-enhancement/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-04-10T15:05:58-04:00</updated>
+  <updated>2015-04-13T10:27:38-06:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[How to Apply Progressive Enhancement When JavaScript Seems Like a Requirement]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/how-to-apply-progressive-enhancement-when-javascript-seems-like-a-requirement/"/>
-    <updated>2015-04-02T10:14:40-04:00</updated>
+    <updated>2015-04-02T08:14:40-06:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/how-to-apply-progressive-enhancement-when-javascript-seems-like-a-requirement</id>
     <content type="html"><![CDATA[<p>On Stack Overflow last week, <a href="http://stackoverflow.com/users/4719194/jamham">JamHam</a> asked how to apply progressive enhancement in interfaces that seem to require JavaScript. Unfortunately he deleted the question before I could post my response, so I thought I would post it all here for posterity.</p>
 
@@ -68,7 +68,7 @@ WebSockets) stuff pretty much depends on JavaScript, with &lsquo;messages&rsquo;
   <entry>
     <title type="html"><![CDATA[Lines in the Sand]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/lines-in-the-sand/"/>
-    <updated>2015-03-11T09:21:29-04:00</updated>
+    <updated>2015-03-11T07:21:29-06:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/lines-in-the-sand</id>
     <content type="html"><![CDATA[<p>A new site, <a href="http://breakupwithie8.com/">Break Up with Internet Explorer 8</a> by <a href="http://www.humaan.com/">Humaan</a>, has been making the rounds on the Interwebs of late. It’s cleverly done and an attractive site, but I don’t really agree with the premise:</p>
 
@@ -115,7 +115,7 @@ WebSockets) stuff pretty much depends on JavaScript, with &lsquo;messages&rsquo;
   <entry>
     <title type="html"><![CDATA[Who Should Pay?]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/who-should-pay/"/>
-    <updated>2015-02-18T23:35:06-05:00</updated>
+    <updated>2015-02-18T21:35:06-07:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/who-should-pay</id>
     <content type="html"><![CDATA[<p>In more than a handful of conversations lately, it’s become quite clear that we, the web development community, are prioritizing our own convenience and our own time over that of our users. With our industry’s focus on “user-centered design”, you might find that hard to believe, but it’s true.</p>
 
@@ -158,7 +158,7 @@ WebSockets) stuff pretty much depends on JavaScript, with &lsquo;messages&rsquo;
   <entry>
     <title type="html"><![CDATA[Three Worthwhile Posts on Progressive Enhancement]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/three-worthwhile-posts-on-progressive-enhancement/"/>
-    <updated>2015-02-13T10:14:40-05:00</updated>
+    <updated>2015-02-13T08:14:40-07:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/three-worthwhile-posts-on-progressive-enhancement</id>
     <content type="html"><![CDATA[<p>Jason Garber has penned a series of posts on progressive enhancement. Here’s a quick rundown on what they cover and why you should read them.</p>
 
@@ -215,7 +215,7 @@ WebSockets) stuff pretty much depends on JavaScript, with &lsquo;messages&rsquo;
   <entry>
     <title type="html"><![CDATA[The One Weird Trick That Takes the Pain Out of Cross-browser Testing]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing/"/>
-    <updated>2015-01-26T11:24:25-05:00</updated>
+    <updated>2015-01-26T09:24:25-07:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing</id>
     <content type="html"><![CDATA[<p>Love this!</p>
 
