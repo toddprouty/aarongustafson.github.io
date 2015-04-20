@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Performance | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/performance/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-04-16T11:03:39-06:00</updated>
+  <updated>2015-04-20T15:20:03-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Who Should Pay 2: The Hosting]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/who-should-pay-2-the-hosting/"/>
-    <updated>2015-03-06T06:39:15-07:00</updated>
+    <updated>2015-03-06T08:39:15-05:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/who-should-pay-2-the-hosting</id>
     <content type="html"><![CDATA[<p>Two weeks ago, I argued that our <a href="http://aaron-gustafson.com/notebook/who-should-pay/">users should never foot the bill for developer convenience</a> and yesterday I stumbled on a post from EllisLab (the makers of ExpressionEngine) that echoes that sentiment, but from a different angle. The title might make you scratch your head: <a href="https://ellislab.com/blog/entry/save-thousands-of-dollars-by-paying-more-for-hosting">Save Thousands of Dollars by Paying More for Hosting</a>.</p>
 
@@ -46,7 +46,7 @@
   <entry>
     <title type="html"><![CDATA[Who Should Pay?]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/who-should-pay/"/>
-    <updated>2015-02-18T21:35:06-07:00</updated>
+    <updated>2015-02-18T23:35:06-05:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/who-should-pay</id>
     <content type="html"><![CDATA[<p>In more than a handful of conversations lately, it’s become quite clear that we, the web development community, are prioritizing our own convenience and our own time over that of our users. With our industry’s focus on “user-centered design”, you might find that hard to believe, but it’s true.</p>
 

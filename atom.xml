@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-04-16T11:03:39-06:00</updated>
+	<updated>2015-04-20T15:20:03-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
 			<entry>
 				<title type="html"><![CDATA[What Nobody Tells You About Will-change]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/what-nobody-tells-you-about-will-change/"/>
-				<updated>2015-04-13T10:22:36-06:00</updated>
+				<updated>2015-04-13T12:22:36-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/what-nobody-tells-you-about-will-change</id>
 				<content type="html"><![CDATA[<p>Interesting insights from <a href="https://twitter.com/thierrykoblentz">Thierry Koblentz</a> on the unintended consequences of using <code>will-change</code> to identify elements likely to change in the interface.</p>
 <p><a rel="full-article" href="http://cssmojo.com/the-dark-side-of-the-will-change-property/">Read on CSS Mojo&nbsp;&rarr;</a></p>]]></content>
@@ -27,7 +27,7 @@
 			<entry>
 				<title type="html"><![CDATA[Becoming Design-Infused: 2 Necessary Mutations to Organizational DNA]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/becoming-design-infused-2-necessary-mutations-to-organizational-dna/"/>
-				<updated>2015-04-10T13:22:56-06:00</updated>
+				<updated>2015-04-10T15:22:56-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/becoming-design-infused-2-necessary-mutations-to-organizational-dna</id>
 				<content type="html"><![CDATA[<p>A beautifully insightful piece from Jared Spool. Lots of gold in here.</p>
 
@@ -40,7 +40,7 @@
 			<entry>
 				<title type="html"><![CDATA[How to Write Cleaner CSS and Smarter SASS]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/how-to-write-cleaner-css-and-smarter-sass/"/>
-				<updated>2015-04-10T12:57:29-06:00</updated>
+				<updated>2015-04-10T14:57:29-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/how-to-write-cleaner-css-and-smarter-sass</id>
 				<content type="html"><![CDATA[<p>A few thoughts on cleaner Sass output from <a href="http://twitter.com/@adispezio">Anthony Dispezio</a>. He secret? Using generic mixins in concert with <code>@extend</code>.</p>
 <p><a rel="full-article" href="http://www.creativebloq.com/web-design/how-write-cleaner-css-and-smarter-sass-41514637">Read on Creative Bloq&nbsp;&rarr;</a></p>]]></content>
@@ -51,7 +51,7 @@
 			<entry>
 				<title type="html"><![CDATA[Locking the Web Open: Rethinking the World Wide Web]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/locking-the-web-open-rethinking-the-world-wide-web/"/>
-				<updated>2015-04-10T12:51:46-06:00</updated>
+				<updated>2015-04-10T14:51:46-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/locking-the-web-open-rethinking-the-world-wide-web</id>
 				<content type="html"><![CDATA[<p>Hmm… distribute the Web for endurance and longevity and make it private through <a href="https://en.bitcoin.it/wiki/Block_chain">blockchain</a>-esque encryption. It’s an interesting idea, but I don’t know that Marketing will go for it.</p>
 <p><a rel="full-article" href="http://thenextweb.com/insider/2015/04/10/locking-the-web-open-why-we-need-to-rethink-the-world-wide-web/">Read on The Next Web&nbsp;&rarr;</a></p>]]></content>
@@ -62,7 +62,7 @@
 			<entry>
 				<title type="html"><![CDATA[The Failed Promise of Deep Links]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/the-failed-promise-of-deep-links/"/>
-				<updated>2015-04-09T15:58:21-06:00</updated>
+				<updated>2015-04-09T17:58:21-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/the-failed-promise-of-deep-links</id>
 				<content type="html"><![CDATA[<p>A beautiful piece on what it means to be a link and what they mean to us.</p>
 
@@ -75,7 +75,7 @@
 			<entry>
 				<title type="html"><![CDATA[#HonoringWebFolk]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/honoringwebfolk/"/>
-				<updated>2015-04-09T13:05:21-06:00</updated>
+				<updated>2015-04-09T15:05:21-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/honoringwebfolk</id>
 				<content type="html"><![CDATA[<p>A lot of folks have helped me on the way to becoming the web professional that I am. When <a href="https://twitter.com/mollydotcom/status/586187780113309697">Molly declared today &ldquo;Unsung Leaders of the Web Day&rdquo;</a>, I had to join in.</p>
 
@@ -175,7 +175,7 @@
 			<entry>
 				<title type="html"><![CDATA[15 Years of Dao]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/15-years-of-dao/"/>
-				<updated>2015-04-07T08:36:35-06:00</updated>
+				<updated>2015-04-07T10:36:35-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/15-years-of-dao</id>
 				<content type="html"><![CDATA[<p>So many nice words about such an important piece about the Web. My humble contribution:</p>
 
@@ -188,7 +188,7 @@
 			<entry>
 				<title type="html"><![CDATA[A Dao of Web Design at 15]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/a-dao-of-web-design-at-15/"/>
-				<updated>2015-04-07T06:51:36-06:00</updated>
+				<updated>2015-04-07T08:51:36-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/a-dao-of-web-design-at-15</id>
 				<content type="html"><![CDATA[<p>John nails it:</p>
 
@@ -201,7 +201,7 @@
 			<entry>
 				<title type="html"><![CDATA[How to Create the Right Emotions With Color in Web Design]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/how-to-create-the-right-emotions-with-color-in-web-design/"/>
-				<updated>2015-04-07T06:41:30-06:00</updated>
+				<updated>2015-04-07T08:41:30-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/how-to-create-the-right-emotions-with-color-in-web-design</id>
 				<content type="html"><![CDATA[<p>A nice overview of color and its emotional impact. Of course, this is a Western perspective. See also <a href="http://www.empower-yourself-with-color-psychology.com/cultural-color.html">Cultural Meanings of Color and Color Symbolism</a>.</p>
 <p><a rel="full-article" href="http://thenextweb.com/dd/2015/04/07/how-to-create-the-right-emotions-with-color-in-web-design/">Read on The Next Web&nbsp;&rarr;</a></p>]]></content>
@@ -212,7 +212,7 @@
 			<entry>
 				<title type="html"><![CDATA[9th Circuit Rules Netflix Isn’t Subject to Disability Law]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/9th-circuit-rules-netflix-isnt-subject-to-disability-law/"/>
-				<updated>2015-04-03T09:41:36-06:00</updated>
+				<updated>2015-04-03T11:41:36-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/9th-circuit-rules-netflix-isnt-subject-to-disability-law</id>
 				<content type="html"><![CDATA[<p>So the 9th Circuit Court threw out an ADA suit against Netflix for a lack of captions. To <a href="http://arstechnica.com/author/joe-mullin/">Joe Mullin</a> of <cite>Ars</cite> it seemed like a question of whether a website constitutes a “public accommodation”, but I don&rsquo;t know that it does in this instance. I did agree with <a href="http://en.wikipedia.org/wiki/National_Federation_of_the_Blind_v._Target_Corp"><cite>NFB v. Target</cite></a>, but this seems different.</p>
 
@@ -227,7 +227,7 @@
 			<entry>
 				<title type="html"><![CDATA[Why America’s Obsession With STEM Education Is Dangerous]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/why-stem-wont-make-us-successful/"/>
-				<updated>2015-04-02T16:51:36-06:00</updated>
+				<updated>2015-04-02T18:51:36-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/why-stem-wont-make-us-successful</id>
 				<content type="html"><![CDATA[<p>A fantastic op-ed by Fareed Zakaria on why a well-rounded populace is a good thing:</p>
 
@@ -254,7 +254,7 @@
 			<entry>
 				<title type="html"><![CDATA[Introducing the IE Diagnostics Adapter for Third Party Developer Tools]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/introducing-the-ie-diagnostics-adapter-for-third-party-developer-tools/"/>
-				<updated>2015-04-02T13:10:48-06:00</updated>
+				<updated>2015-04-02T15:10:48-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/introducing-the-ie-diagnostics-adapter-for-third-party-developer-tools</id>
 				<content type="html"><![CDATA[<p>Connect to Internet Explorer via Chrome Developer Tools. How friggin’ cool is that?!</p>
 <p><a rel="full-article" href="http://blogs.msdn.com/b/ie/archive/2015/04/02/introducing-the-ie-diagnostics-adapter-for-third-party-developer-tools.aspx">Read on IEBlog&nbsp;&rarr;</a></p>]]></content>
@@ -265,7 +265,7 @@
 			<entry>
 				<title type="html"><![CDATA[How to Apply Progressive Enhancement When JavaScript Seems Like a Requirement]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/how-to-apply-progressive-enhancement-when-javascript-seems-like-a-requirement/"/>
-				<updated>2015-04-02T08:14:40-06:00</updated>
+				<updated>2015-04-02T10:14:40-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/how-to-apply-progressive-enhancement-when-javascript-seems-like-a-requirement</id>
 				<content type="html"><![CDATA[<p>On Stack Overflow last week, <a href="http://stackoverflow.com/users/4719194/jamham">JamHam</a> asked how to apply progressive enhancement in interfaces that seem to require JavaScript. Unfortunately he deleted the question before I could post my response, so I thought I would post it all here for posterity.</p>
 
@@ -319,7 +319,7 @@ WebSockets) stuff pretty much depends on JavaScript, with &lsquo;messages&rsquo;
 			<entry>
 				<title type="html"><![CDATA[Playing With Flexbox and Quantity Queries]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/playing-with-flexbox-and-quantity-queries/"/>
-				<updated>2015-03-26T12:44:24-06:00</updated>
+				<updated>2015-03-26T14:44:24-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/playing-with-flexbox-and-quantity-queries</id>
 				<content type="html"><![CDATA[<p>Ever since reading <a href="http://twitter.com/heydonworks">Haydon Pickering</a>’s <a href="http://alistapart.com/article/quantity-queries-for-css">piece on quantity queries</a>, I’ve been musing over the possibilities for layout. I decided I to play around with them a bit on this site as it’s been a while since I’ve tweaked the design. Being that I wanted to experiment, I thought this would be a fun time to tuck into <a href="http://www.w3.org/TR/css-flexbox-1/">Flexbox</a> a bit more as well.</p>
 
@@ -577,7 +577,7 @@ WebSockets) stuff pretty much depends on JavaScript, with &lsquo;messages&rsquo;
 			<entry>
 				<title type="html"><![CDATA[Downgrading the District: Why We're Lowering D.C.'s Legislative Data Score]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/downgrading-the-district-why-were-lowering-dcs-legislative-data-score/"/>
-				<updated>2015-03-24T16:51:36-06:00</updated>
+				<updated>2015-03-24T18:51:36-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/downgrading-the-district-why-were-lowering-dcs-legislative-data-score</id>
 				<content type="html"><![CDATA[<p>D.C. gets a downgrade for its myopic, “modern”, JavaScript-only focus:</p>
 
@@ -590,7 +590,7 @@ WebSockets) stuff pretty much depends on JavaScript, with &lsquo;messages&rsquo;
 			<entry>
 				<title type="html"><![CDATA[I Can Text You a Pile of Poo, but I Can’t Write My Name]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/i-can-text-you-a-pile-of-poo-but-i-cant-write-my-name/"/>
-				<updated>2015-03-23T16:51:36-06:00</updated>
+				<updated>2015-03-23T18:51:36-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/i-can-text-you-a-pile-of-poo-but-i-cant-write-my-name</id>
 				<content type="html"><![CDATA[<p>A heartbreaking and damning assessment of the current state of Unicode by Aditya Mukerjee.</p>
 
@@ -619,7 +619,7 @@ WebSockets) stuff pretty much depends on JavaScript, with &lsquo;messages&rsquo;
 			<entry>
 				<title type="html"><![CDATA[Austin Landlords Demolish Piñata Store for SXSW, Call Mexican Tenants ‘Roaches’]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/austin-landlords-demolish-pinata-store-jumpolin-sxsw-party/"/>
-				<updated>2015-03-23T16:51:36-06:00</updated>
+				<updated>2015-03-23T18:51:36-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/austin-landlords-demolish-pinata-store-jumpolin-sxsw-party</id>
 				<content type="html"><![CDATA[<p>This is despicable. If you are the mother of either Jordan French or Darius Fisher, please slap some sense into your little fuckwits. Lejarazu family: I am so sorry.</p>
 
@@ -632,7 +632,7 @@ WebSockets) stuff pretty much depends on JavaScript, with &lsquo;messages&rsquo;
 			<entry>
 				<title type="html"><![CDATA[Once Upon a Time, There Was One Internet and It Was Open to Everyone…]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/once-upon-a-time-there-was-one-internet-and-it-was-open-to-everyone/"/>
-				<updated>2015-03-22T21:51:36-06:00</updated>
+				<updated>2015-03-22T23:51:36-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/once-upon-a-time-there-was-one-internet-and-it-was-open-to-everyone</id>
 				<content type="html"><![CDATA[<p>A  great discussion of the implications of Internet censorship on businesses and the economy. Choice quote:</p>
 
@@ -645,7 +645,7 @@ WebSockets) stuff pretty much depends on JavaScript, with &lsquo;messages&rsquo;
 			<entry>
 				<title type="html"><![CDATA[YourBrowser.is]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/yourbrowseris/"/>
-				<updated>2015-03-22T16:51:36-06:00</updated>
+				<updated>2015-03-22T18:51:36-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/yourbrowseris</id>
 				<content type="html"><![CDATA[<p>One of the hardest things about debugging websites is parsing bug reports provided by non-tech folks. And one of the most common issues with them is confirmation of what browser &amp; version, OS &amp; version, and possibly what device they are running it on. Do yourself a favor and have them hit <a href="http://yourbrowser.is">yourbrowser.is</a> to copy &amp; paste the results for you before posting the bug.</p>
 <p><a rel="full-article" href="http://yourbrowser.is/">Read on YourBrowser.is&nbsp;&rarr;</a></p>]]></content>
@@ -656,7 +656,7 @@ WebSockets) stuff pretty much depends on JavaScript, with &lsquo;messages&rsquo;
 			<entry>
 				<title type="html"><![CDATA[Doug Kerney Freaks Over Internet Explorer’s Phaseout]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/doug-kerney-freaks-over-internet-explorers-phaseout/"/>
-				<updated>2015-03-20T10:10:47-06:00</updated>
+				<updated>2015-03-20T12:10:47-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/doug-kerney-freaks-over-internet-explorers-phaseout</id>
 				<content type="html"><![CDATA[<p>Hilarious!</p>
 

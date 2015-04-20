@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-04-16T11:03:39-06:00</updated>
+  <updated>2015-04-20T15:20:03-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[#HonoringWebFolk]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/honoringwebfolk/"/>
-    <updated>2015-04-09T13:05:21-06:00</updated>
+    <updated>2015-04-09T15:05:21-04:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/honoringwebfolk</id>
     <content type="html"><![CDATA[<p>A lot of folks have helped me on the way to becoming the web professional that I am. When <a href="https://twitter.com/mollydotcom/status/586187780113309697">Molly declared today &ldquo;Unsung Leaders of the Web Day&rdquo;</a>, I had to join in.</p>
 
@@ -58,7 +58,7 @@
   <entry>
     <title type="html"><![CDATA[How to Apply Progressive Enhancement When JavaScript Seems Like a Requirement]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/how-to-apply-progressive-enhancement-when-javascript-seems-like-a-requirement/"/>
-    <updated>2015-04-02T08:14:40-06:00</updated>
+    <updated>2015-04-02T10:14:40-04:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/how-to-apply-progressive-enhancement-when-javascript-seems-like-a-requirement</id>
     <content type="html"><![CDATA[<p>On Stack Overflow last week, <a href="http://stackoverflow.com/users/4719194/jamham">JamHam</a> asked how to apply progressive enhancement in interfaces that seem to require JavaScript. Unfortunately he deleted the question before I could post my response, so I thought I would post it all here for posterity.</p>
 
@@ -110,7 +110,7 @@ WebSockets) stuff pretty much depends on JavaScript, with &lsquo;messages&rsquo;
   <entry>
     <title type="html"><![CDATA[Playing With Flexbox and Quantity Queries]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/playing-with-flexbox-and-quantity-queries/"/>
-    <updated>2015-03-26T12:44:24-06:00</updated>
+    <updated>2015-03-26T14:44:24-04:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/playing-with-flexbox-and-quantity-queries</id>
     <content type="html"><![CDATA[<p>Ever since reading <a href="http://twitter.com/heydonworks">Haydon Pickering</a>’s <a href="http://alistapart.com/article/quantity-queries-for-css">piece on quantity queries</a>, I’ve been musing over the possibilities for layout. I decided I to play around with them a bit on this site as it’s been a while since I’ve tweaked the design. Being that I wanted to experiment, I thought this would be a fun time to tuck into <a href="http://www.w3.org/TR/css-flexbox-1/">Flexbox</a> a bit more as well.</p>
 
@@ -374,7 +374,7 @@ WebSockets) stuff pretty much depends on JavaScript, with &lsquo;messages&rsquo;
   <entry>
     <title type="html"><![CDATA[Quantity Queries… Where Have You Been All My Life?]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/quantity-queries-where-have-you-been-all-my-life/"/>
-    <updated>2015-03-20T09:00:03-06:00</updated>
+    <updated>2015-03-20T11:00:03-04:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/quantity-queries-where-have-you-been-all-my-life</id>
     <content type="html"><![CDATA[<p><a href="http://twitter.com/heydonworks">Heydon Pickering</a>’s <a href="http://alistapart.com/article/quantity-queries-for-css">Quantity Queries for CSS</a> is sheer brilliance and it’s so simple I’m surprised we hadn’t landed on the idea sooner.</p>
 
@@ -460,7 +460,7 @@ li:nth-last-child(-n+6):first-child ~ li {
   <entry>
     <title type="html"><![CDATA[Lines in the Sand]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/lines-in-the-sand/"/>
-    <updated>2015-03-11T07:21:29-06:00</updated>
+    <updated>2015-03-11T09:21:29-04:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/lines-in-the-sand</id>
     <content type="html"><![CDATA[<p>A new site, <a href="http://breakupwithie8.com/">Break Up with Internet Explorer 8</a> by <a href="http://www.humaan.com/">Humaan</a>, has been making the rounds on the Interwebs of late. It’s cleverly done and an attractive site, but I don’t really agree with the premise:</p>
 
