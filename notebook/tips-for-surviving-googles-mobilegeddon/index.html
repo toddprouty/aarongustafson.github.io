@@ -15,10 +15,10 @@
 
 
 
-<title>The Network Effect, From the Notebook of Aaron Gustafson</title>
-<meta property="og:title" content="The Network Effect, From the Notebook of Aaron Gustafson">
+<title>Tips for Surviving Google’s “Mobilegeddon”, From the Notebook of Aaron Gustafson</title>
+<meta property="og:title" content="Tips for Surviving Google’s “Mobilegeddon”, From the Notebook of Aaron Gustafson">
 
-<meta property="og:url" content="http://www.aaron-gustafson.com/notebook/the-network-effect/">
+<meta property="og:url" content="http://www.aaron-gustafson.com/notebook/tips-for-surviving-googles-mobilegeddon/">
 
 <meta name="author" content="Aaron Gustafson">
 <meta property="og:type" content="website">
@@ -26,8 +26,8 @@
 <meta property="og:image" content="http://www.aaron-gustafson.com/i/og-logo.png">
 <meta property="og:locale" content="en_US">
 
-<meta property="og:description" content="Comcast’s move to inject JavaScript into other people’s web pages via their XFinity routers only serves to remind us—yet again—that we don’t control how our sites are delivered or what our users see.">
-<meta name="description" content="Comcast’s move to inject JavaScript into other people’s web pages via their XFinity routers only serves to remind us—yet again—that we don’t control how our sites are delivered or what our users see.">
+<meta property="og:description" content="Today is the day Google updates it algorithm to take into account mobile-friendliness. Here are a few tips that will help you embrace mobile without tearing your hair out.">
+<meta name="description" content="Today is the day Google updates it algorithm to take into account mobile-friendliness. Here are a few tips that will help you embrace mobile without tearing your hair out.">
 
 <!-- Twitter -->
 <meta name="twitter:card" value="summary"/>
@@ -51,8 +51,6 @@
 
 
 
-
-	<meta property="webmention:redirected_from" content="/notebook/2014/the-network-effect/">
 
 	
 	<link href="/favicon.png" rel="icon">
@@ -125,14 +123,14 @@
 	<article role="article" class="layout-container__primary h-entry">
 		<div class="entry">
 			<header class="entry__header">
-		     	<h1 class="entry__title p-name">The Network Effect</h1>
+		     	<h1 class="entry__title p-name">Tips for Surviving Google’s “Mobilegeddon”</h1>
 			
 				
 					<p class="entry__meta">
-		        		This will take 2 minutes to read
+		        		This will take 3 minutes to read
 
 						
-							| <a href="#disqus_thread" data-disqus-identifier="http://www.aaron-gustafson.com/notebook/the-network-effect/">Comments</a>
+							| <a href="#disqus_thread" data-disqus-identifier="http://www.aaron-gustafson.com/notebook/tips-for-surviving-googles-mobilegeddon/">Comments</a>
 							| <a href="#webmentions">Webmentions</a>
 		        		
 		      		</p>
@@ -142,34 +140,48 @@
 			
 
 			<div class="entry__content e-content">
-				<p><cite>Ars Technica</cite> revealed today that <a href="http://arstechnica.com/tech-policy/2014/09/why-comcasts-javascript-ad-injections-threaten-security-net-neutrality/">Comcast is injecting self-promotional advertising into web pages delivered via it’s Wi-Fi hotspots</a>:</p>
-
-<blockquote cite="http://arstechnica.com/tech-policy/2014/09/why-comcasts-javascript-ad-injections-threaten-security-net-neutrality/">
-    <p>A Comcast spokesman told Ars the program began months ago. One facet of it is designed to alert consumers that they are connected to Comcast&#8217;s Xfinity service. Other ads remind Web surfers to download Xfinity apps, Comcast spokesman Charlie Douglas told Ars in telephone interviews.</p>
-</blockquote>
-
-
-<p>I wish I could say this is surprising, but it’s not: Any service that routes your content has the opportunity to modify the response being returned. Comcast is exploiting that opportunity and injecting JavaScript that, in turn, injects the ads.</p>
+				<p>Today is the day <a href="http://www.economist.com/news/business-and-finance/21648947-worlds-biggest-search-engine-shakes-up-its-algorithms-mobilegeddon">Google updates it algorithm to take into account mobile-friendliness</a>. Here are a few tips that will help you embrace mobile without tearing your hair out.</p>
 
 <!-- more -->
 
 
-<p>The fact that middlemen can manipulate server responses is one reason <a href="https://www.youtube.com/watch?v=cBhZ6S0PFCY">Google is pushing for all sites to be served under HTTPS</a>. With traffic running to and from your server in an encrypted fashion, <a href="http://en.wikipedia.org/wiki/Man-in-the-middle_attack">man-in-the-middle attacks</a>—which, if we’re honest, is what this amounts to—become much more difficult.</p>
+<h2>1. Embrace mobile-first CSS</h2>
 
-<p>Assuming you can’t run under HTTPS for one reason or another, how do you harden your <a href="https://adactio.com/journal/6246">web thang</a> against 3rd party manipulation you can’t control? What if Comcast’s JavaScript interferes with your own? Remember when <a href="http://www.theguardian.com/technology/2014/jan/28/sky-broadband-blocks-jquery-web-critical-plugin">Sky blocked jQuery for all of their customers</a>? That was a bad couple of hours for most UK-based internet users.</p>
+<p>This is a quick win. I’ve done the mobile-first overhaul on a number of existing sites over the last few years and the best strategy I’ve found is this:</p>
 
-<p>Comcast’s move only serves to remind us—yet again—that we don’t control how our sites are delivered or what our users see. Or rather we do, but only up to a point. So rather than focus on some ideal experience we expect everyone to have, we must focus on building great experiences that work in a variety of contexts and situations.</p>
+<ol>
+<li>Create two CSS files. Name the first something like &ldquo;basic.css&rdquo; and link to it with <code>media="all"</code>. Name the second something like &ldquo;advanced.css&rdquo; and link to it with <code>media="only screen"</code>.</li>
+<li>Move all of your existing desktop-only CSS into advanced.css and wrap the rules in a media query corresponding to your design width (e.g. <code>@media (min-width:60em)</code> for a 960px max width).</li>
+<li>Open a page from your site in a new browser window and make it as small as possible. Move any basic typographic and color styles from advanced.css to default.css and refresh the page. How does it look? Make the browser wider. Still acceptable? Awesome! This is the CSS you’ll serve to older browsers that don’t understand media queries and it forms the basis of your larger screen styles.</li>
+<li>Shrink the browser back down to the smallest it can go and create a breakpoint for that size in advanced.css (e.g. <code>@media (min-width:10.5em)</code> if you want to small target devices like the <a href="https://getpebble.com/">Pebble</a>). Move any styles you want applied in this scenario from your &ldquo;full screen&rdquo; breakpoint and add any new rules you need to make things look good.</li>
+<li>Increase the browser with until the layout looks odd, then make a new breakpoint and move in or add the necessary styles.</li>
+<li>Rinse &amp; repeat until you get up to the &ldquo;full screen&rdquo; layout.</li>
+<li>Move your print styles—you do have print styles, right?—into default.css and wrap them in a print <code>@media</code> block.</li>
+</ol>
 
-<p>We need to develop <a href="http://en.wikipedia.org/wiki/Demolition_derby#Vehicles">the 1964 Chrysler Imperial</a> of websites: Sites that soldier on even when they are getting pummeled from all sides. After all, browsers, plug-ins, users, networks, and, yes, even the very routers that deliver our connections all have a say in how (and what) content gets to our users.</p>
 
-<p>I’ll leave you with this scary quote from the <cite>Ars</cite> piece:</p>
+<p>For another approach to responsive retrofitting, check out <a href="http://webstandardssherpa.com/reviews/responsive-retrofitting/">this piece from Ben Callahan</a>.</p>
 
-<blockquote cite="http://arstechnica.com/tech-policy/2014/09/why-comcasts-javascript-ad-injections-threaten-security-net-neutrality/">
-    <p>Security expert Dan Kaminsky said in an e-mail that JavaScript injection has the potential to break “all sorts of stuff, in that you no longer know as a website developer precisely what code is running in browsers out there. You didn&#8217;t send it, but your customers received it.”</p>
-</blockquote>
+<h2>2. Focus on key tasks</h2>
+
+<p>Every page has a purpose. If it doesn’t, you don’t need it. Find the page’s purpose and make that the focus. Eliminate distractions and reduce the amount of friction a user encounters when trying to accomplish the task.</p>
+
+<p>If company or client politics preclude you from getting rid of all distractions on a page, consider <a href="http://www.filamentgroup.com/lab/ajax-includes-modular-content.html">a lazy-loading strategy</a> to bring them in with JavaScript only when there is more screen real estate.</p>
+
+<h2>3. Get smarter about images</h2>
+
+<p>Images are great, but they often comprise the majority of a web page’s bulk. To slim things down, first consider whether a given image is actually needed. If it isn’t, get rid of it. If it offers an enhancement, but isn’t crucial, consider lazy-loading it after page load. If the image is really important, <a href="https://ericportis.com/posts/2014/srcset-sizes/">use <code>srcset</code> and <code>sizes</code></a> (or the <code>picture</code> element) to deliver the smallest and yet most appropriate image to your users, based on their device.</p>
+
+<h2>4. Embrace the continuum</h2>
+
+<p>As designers and developers, we often try to control everything. But we have to realize that we can’t control everything on the Web. People on different devices have different capabilities and considerations. They will need your website to be flexible enough to allow them to accomplish their goals no matter what.</p>
+
+<p>Understanding that is key to building experiences that move seamlessly across devices. You know, <a href="http://alistapart.com/article/understandingprogressiveenhancement">progressive enhancement</a>. It’s key to embracing the Web for all of its inherent web-iness.</p>
+
+<hr>
 
 
-<p>Hooray!</p>
+<p>And there you have it: 4 simple, but effective guidelines for creating awesome websites that will fair well under Google’s new algorithm. And guess what: Your users will benefit too.</p>
 
 			</div>
 
@@ -179,10 +191,10 @@
 
 
 <p class="entry__sharing">If you liked this, would you mind sharing it?
-	<a class="share_link share_link--twitter" href="https://twitter.com/intent/tweet?original_referer=http://www.aaron-gustafson.com/notebook/the-network-effect/&amp;source=tweetbutton&amp;text=The+Network+Effect&amp;url=http://www.aaron-gustafson.com/notebook/the-network-effect/">Share on Twitter</a>
-	<a class="share_link share_link--facebook" href="http://www.facebook.com/sharer.php?u=http://www.aaron-gustafson.com/notebook/the-network-effect/">Post on Facebook</a>
-	<a class="share_link share_link--linkedin" href="https://www.linkedin.com/cws/share?url=http://www.aaron-gustafson.com/notebook/the-network-effect/&amp;original_referer=http://www.aaron-gustafson.com/notebook/the-network-effect/">Share on LinkedIn</a>
-	<a class="share_link share_link--googleplus" href="https://plus.google.com/share?url=http://www.aaron-gustafson.com/notebook/the-network-effect/">Share on Google+</a>
+	<a class="share_link share_link--twitter" href="https://twitter.com/intent/tweet?original_referer=http://www.aaron-gustafson.com/notebook/tips-for-surviving-googles-mobilegeddon/&amp;source=tweetbutton&amp;text=Tips+for+Surviving+Google’s+“Mobilegeddon”&amp;url=http://www.aaron-gustafson.com/notebook/tips-for-surviving-googles-mobilegeddon/">Share on Twitter</a>
+	<a class="share_link share_link--facebook" href="http://www.facebook.com/sharer.php?u=http://www.aaron-gustafson.com/notebook/tips-for-surviving-googles-mobilegeddon/">Post on Facebook</a>
+	<a class="share_link share_link--linkedin" href="https://www.linkedin.com/cws/share?url=http://www.aaron-gustafson.com/notebook/tips-for-surviving-googles-mobilegeddon/&amp;original_referer=http://www.aaron-gustafson.com/notebook/tips-for-surviving-googles-mobilegeddon/">Share on LinkedIn</a>
+	<a class="share_link share_link--googleplus" href="https://plus.google.com/share?url=http://www.aaron-gustafson.com/notebook/tips-for-surviving-googles-mobilegeddon/">Share on Google+</a>
 </p>
 			    
 
@@ -202,7 +214,7 @@
 
 
 
-		<time class="dt-published" datetime="2014-09-08T16:40:44-04:00">08 September 2014</time> 
+		<time class="dt-published" datetime="2015-04-21T09:10:12-04:00">21 April 2015</time> 
 					<b class="hidden">by <a class="p-author h-card" href="/about">Aaron Gustafson</a></b>
 					
 					and was filed under: 
@@ -210,7 +222,7 @@
 
 	<span class="post__categories">
 		
-			<a class='category p-category' href='/notebook/tags/javascript/'>javascript</a>, <a class='category p-category' href='/notebook/tags/web-design/'>web design</a>
+			<a class='category p-category' href='/notebook/tags/mobile/'>mobile</a>, <a class='category p-category' href='/notebook/tags/progressive-enhancement/'>progressive enhancement</a>, <a class='category p-category' href='/notebook/tags/web-design/'>web design</a>
 		
 	</span>
 
@@ -244,7 +256,7 @@
 
 
 
-	<div class="webmentions"><ol class="webmentions__list"><li id="webmention-12134" class="webmentions__item"><article class="h-cite webmention webmention--title-only"><div class="webmention__author p-author h-card"><a class="u-url" href="http://aaron-gustafson.com/about"><b class="p-name">Aaron Gustafson</b></a></div> <div class="webmention__title p-name"><a href="http://aaron-gustafson.com/notebook/2014/missed-connections/">Missed Connections</a></div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2014-09-19T14:12:50-06:00">19 September 2014</time></div></article></li></ol></div>
+	<div class="webmentions"><p class="webmentions__not-found">No webmentions were found</p></div>
 
 			</section>
 
@@ -401,7 +413,7 @@
 		<footer role="contentinfo" class="footer">
 	<div class="layout-container">
 		
-			<p class="footer__fork-me">Did you spot a typo or error? Eesh. <a href="https://github.com/aarongustafson/aarongustafson.github.io/tree/source/source/2014-09-08-the-network-effect.markdown">Would you mind fixing it for me?</a> You’re so awesome.</p>
+			<p class="footer__fork-me">Did you spot a typo or error? Eesh. <a href="https://github.com/aarongustafson/aarongustafson.github.io/tree/source/source/2015-04-21-tips-for-surviving-googles-mobilegeddon.markdown">Would you mind fixing it for me?</a> You’re so awesome.</p>
 		
 		<p class="footer__copyright"><b id="license">The content of this site is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons</a>.</b> Details of how this site was made are in <a href="/colophon/">the colophon</a>.</b></p>
 	</div>
@@ -415,8 +427,8 @@
 		
 			
 			// disqus_developer = 1,
-			disqus_identifier = 'http://www.aaron-gustafson.com/notebook/the-network-effect/',
-			disqus_url = 'http://www.aaron-gustafson.com/notebook/the-network-effect/',
+			disqus_identifier = 'http://www.aaron-gustafson.com/notebook/tips-for-surviving-googles-mobilegeddon/',
+			disqus_url = 'http://www.aaron-gustafson.com/notebook/tips-for-surviving-googles-mobilegeddon/',
 			disqus_script = 'embed.js';
 		
 		(function () {
@@ -434,7 +446,7 @@
 
 
 <noscript>
-	<img src="http://nojsstats.appspot.com/UA-176472-5/http://www.aaron-gustafson.com/notebook/the-network-effect/" alt=""/>
+	<img src="http://nojsstats.appspot.com/UA-176472-5/http://www.aaron-gustafson.com/notebook/tips-for-surviving-googles-mobilegeddon/" alt=""/>
 </noscript>
 
 	

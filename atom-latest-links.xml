@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-04-20T15:26:08-04:00</updated>
+	<updated>2015-04-21T14:51:58-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,8 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
 	
 		
 			<entry>
@@ -243,20 +245,6 @@
 				<id>http://www.aaron-gustafson.com/notebook/links/yourbrowseris</id>
 				<content type="html"><![CDATA[<p>One of the hardest things about debugging websites is parsing bug reports provided by non-tech folks. And one of the most common issues with them is confirmation of what browser &amp; version, OS &amp; version, and possibly what device they are running it on. Do yourself a favor and have them hit <a href="http://yourbrowser.is">yourbrowser.is</a> to copy &amp; paste the results for you before posting the bug.</p>
 <p><a rel="full-article" href="http://yourbrowser.is/">Read on YourBrowser.is&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Doug Kerney Freaks Over Internet Explorer’s Phaseout]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/doug-kerney-freaks-over-internet-explorers-phaseout/"/>
-				<updated>2015-03-20T12:10:47-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/doug-kerney-freaks-over-internet-explorers-phaseout</id>
-				<content type="html"><![CDATA[<p>Hilarious!</p>
-
-<figure id="fig-2015-03-20-01" class="figure figure--video"><div class="video-embed video-embed--vimeo video-embed--16x9"><iframe class="video-embed__video" frameborder="0" allowfullscreen="" src="//player.theplatform.com/p/NnzsPC/widget/select/media/Rq9eJUYppzJM"></iframe></div></figure>
-
-<p><a rel="full-article" href="http://www.nbc.com/fallon-tonight/segments/115651">Read on The Tonight Show&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	

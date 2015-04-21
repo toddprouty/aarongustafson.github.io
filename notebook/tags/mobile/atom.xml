@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Mobile | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/mobile/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-04-20T15:26:08-04:00</updated>
+  <updated>2015-04-21T14:51:58-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -12,6 +12,56 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Tips for Surviving Google’s “Mobilegeddon”]]></title>
+    <link href="http://www.aaron-gustafson.com/notebook/tips-for-surviving-googles-mobilegeddon/"/>
+    <updated>2015-04-21T09:10:12-04:00</updated>
+    <id>http://www.aaron-gustafson.com/notebook/tips-for-surviving-googles-mobilegeddon</id>
+    <content type="html"><![CDATA[<p>Today is the day <a href="http://www.economist.com/news/business-and-finance/21648947-worlds-biggest-search-engine-shakes-up-its-algorithms-mobilegeddon">Google updates it algorithm to take into account mobile-friendliness</a>. Here are a few tips that will help you embrace mobile without tearing your hair out.</p>
+
+<!-- more -->
+
+
+<h2>1. Embrace mobile-first CSS</h2>
+
+<p>This is a quick win. I’ve done the mobile-first overhaul on a number of existing sites over the last few years and the best strategy I’ve found is this:</p>
+
+<ol>
+<li>Create two CSS files. Name the first something like &ldquo;basic.css&rdquo; and link to it with <code>media="all"</code>. Name the second something like &ldquo;advanced.css&rdquo; and link to it with <code>media="only screen"</code>.</li>
+<li>Move all of your existing desktop-only CSS into advanced.css and wrap the rules in a media query corresponding to your design width (e.g. <code>@media (min-width:60em)</code> for a 960px max width).</li>
+<li>Open a page from your site in a new browser window and make it as small as possible. Move any basic typographic and color styles from advanced.css to default.css and refresh the page. How does it look? Make the browser wider. Still acceptable? Awesome! This is the CSS you’ll serve to older browsers that don’t understand media queries and it forms the basis of your larger screen styles.</li>
+<li>Shrink the browser back down to the smallest it can go and create a breakpoint for that size in advanced.css (e.g. <code>@media (min-width:10.5em)</code> if you want to small target devices like the <a href="https://getpebble.com/">Pebble</a>). Move any styles you want applied in this scenario from your &ldquo;full screen&rdquo; breakpoint and add any new rules you need to make things look good.</li>
+<li>Increase the browser with until the layout looks odd, then make a new breakpoint and move in or add the necessary styles.</li>
+<li>Rinse &amp; repeat until you get up to the &ldquo;full screen&rdquo; layout.</li>
+<li>Move your print styles—you do have print styles, right?—into default.css and wrap them in a print <code>@media</code> block.</li>
+</ol>
+
+
+<p>For another approach to responsive retrofitting, check out <a href="http://webstandardssherpa.com/reviews/responsive-retrofitting/">this piece from Ben Callahan</a>.</p>
+
+<h2>2. Focus on key tasks</h2>
+
+<p>Every page has a purpose. If it doesn’t, you don’t need it. Find the page’s purpose and make that the focus. Eliminate distractions and reduce the amount of friction a user encounters when trying to accomplish the task.</p>
+
+<p>If company or client politics preclude you from getting rid of all distractions on a page, consider <a href="http://www.filamentgroup.com/lab/ajax-includes-modular-content.html">a lazy-loading strategy</a> to bring them in with JavaScript only when there is more screen real estate.</p>
+
+<h2>3. Get smarter about images</h2>
+
+<p>Images are great, but they often comprise the majority of a web page’s bulk. To slim things down, first consider whether a given image is actually needed. If it isn’t, get rid of it. If it offers an enhancement, but isn’t crucial, consider lazy-loading it after page load. If the image is really important, <a href="https://ericportis.com/posts/2014/srcset-sizes/">use <code>srcset</code> and <code>sizes</code></a> (or the <code>picture</code> element) to deliver the smallest and yet most appropriate image to your users, based on their device.</p>
+
+<h2>4. Embrace the continuum</h2>
+
+<p>As designers and developers, we often try to control everything. But we have to realize that we can’t control everything on the Web. People on different devices have different capabilities and considerations. They will need your website to be flexible enough to allow them to accomplish their goals no matter what.</p>
+
+<p>Understanding that is key to building experiences that move seamlessly across devices. You know, <a href="http://alistapart.com/article/understandingprogressiveenhancement">progressive enhancement</a>. It’s key to embracing the Web for all of its inherent web-iness.</p>
+
+<hr>
+
+
+<p>And there you have it: 4 simple, but effective guidelines for creating awesome websites that will fair well under Google’s new algorithm. And guess what: Your users will benefit too.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[An Onslaught of Low-cost Smartphones]]></title>
