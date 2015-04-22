@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-04-21T14:51:58-04:00</updated>
+	<updated>2015-04-22T09:42:50-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,21 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[The DOM Is NOT Slow, Your Abstraction Is]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/the-dom-is-not-slow-your-abstraction-is/"/>
+				<updated>2015-04-22T09:36:28-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/the-dom-is-not-slow-your-abstraction-is</id>
+				<content type="html"><![CDATA[<p>Abstraction can be helpful, but it also complicates things and leads to slower performance. <a href="https://twitter.com/WebReflection">Andrea Giammarchi</a> provides lots of details here in examining a complex app scenario with the good old fashioned DOM vs. a handful of frameworks. Bonus points for the fact that most of the video evidence tests are being run on non-iOS devices!</p>
+
+<blockquote><p>No, the DOM is not your problem, the fact you brought an over-engineered abstraction on top of a deadly simple task, like a table that needs some quick update, is the real problem you don&rsquo;t want to see.</p></blockquote>
+
+<p>If you dig Andrea’s post, you should also check out <a href="http://www.filamentgroup.com/lab/mv-initial-load-times.html">this post from the Filament Group</a>.</p>
+<p><a rel="full-article" href="http://webreflection.blogspot.se/2015/04/the-dom-is-not-slow-your-abstraction-is.html">Read on WebReflection&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -32,7 +47,7 @@
 <li>Move all of your existing desktop-only CSS into advanced.css and wrap the rules in a media query corresponding to your design width (e.g. <code>@media (min-width:60em)</code> for a 960px max width).</li>
 <li>Open a page from your site in a new browser window and make it as small as possible. Move any basic typographic and color styles from advanced.css to default.css and refresh the page. How does it look? Make the browser wider. Still acceptable? Awesome! This is the CSS you’ll serve to older browsers that don’t understand media queries and it forms the basis of your larger screen styles.</li>
 <li>Shrink the browser back down to the smallest it can go and create a breakpoint for that size in advanced.css (e.g. <code>@media (min-width:10.5em)</code> if you want to small target devices like the <a href="https://getpebble.com/">Pebble</a>). Move any styles you want applied in this scenario from your &ldquo;full screen&rdquo; breakpoint and add any new rules you need to make things look good.</li>
-<li>Increase the browser with until the layout looks odd, then make a new breakpoint and move in or add the necessary styles.</li>
+<li>Increase the browser width until the layout looks odd, then make a new breakpoint and move in or add the necessary styles.</li>
 <li>Rinse &amp; repeat until you get up to the &ldquo;full screen&rdquo; layout.</li>
 <li>Move your print styles—you do have print styles, right?—into default.css and wrap them in a print <code>@media</code> block.</li>
 </ol>
@@ -690,17 +705,6 @@ WebSockets) stuff pretty much depends on JavaScript, with &lsquo;messages&rsquo;
 
 <blockquote><p>When governments begin developing complex and counterintuitive online rules for their various jurisdictions, any semblance of global development is broken down. The resulting risk is that we will be left with multiple internets, each with their own rules, laws and guidelines.</p></blockquote>
 <p><a rel="full-article" href="http://www.wired.com/2015/03/once-upon-a-time-there-was-one-internet-and-it-was-open-to-everyone/">Read on Wired&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[YourBrowser.is]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/yourbrowseris/"/>
-				<updated>2015-03-22T18:51:36-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/yourbrowseris</id>
-				<content type="html"><![CDATA[<p>One of the hardest things about debugging websites is parsing bug reports provided by non-tech folks. And one of the most common issues with them is confirmation of what browser &amp; version, OS &amp; version, and possibly what device they are running it on. Do yourself a favor and have them hit <a href="http://yourbrowser.is">yourbrowser.is</a> to copy &amp; paste the results for you before posting the bug.</p>
-<p><a rel="full-article" href="http://yourbrowser.is/">Read on YourBrowser.is&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	

@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Mobile | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/mobile/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-04-21T14:51:58-04:00</updated>
+  <updated>2015-04-22T09:42:50-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -32,7 +32,7 @@
 <li>Move all of your existing desktop-only CSS into advanced.css and wrap the rules in a media query corresponding to your design width (e.g. <code>@media (min-width:60em)</code> for a 960px max width).</li>
 <li>Open a page from your site in a new browser window and make it as small as possible. Move any basic typographic and color styles from advanced.css to default.css and refresh the page. How does it look? Make the browser wider. Still acceptable? Awesome! This is the CSS you’ll serve to older browsers that don’t understand media queries and it forms the basis of your larger screen styles.</li>
 <li>Shrink the browser back down to the smallest it can go and create a breakpoint for that size in advanced.css (e.g. <code>@media (min-width:10.5em)</code> if you want to small target devices like the <a href="https://getpebble.com/">Pebble</a>). Move any styles you want applied in this scenario from your &ldquo;full screen&rdquo; breakpoint and add any new rules you need to make things look good.</li>
-<li>Increase the browser with until the layout looks odd, then make a new breakpoint and move in or add the necessary styles.</li>
+<li>Increase the browser width until the layout looks odd, then make a new breakpoint and move in or add the necessary styles.</li>
 <li>Rinse &amp; repeat until you get up to the &ldquo;full screen&rdquo; layout.</li>
 <li>Move your print styles—you do have print styles, right?—into default.css and wrap them in a print <code>@media</code> block.</li>
 </ol>
