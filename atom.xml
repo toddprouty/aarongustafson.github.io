@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-04-22T09:42:50-04:00</updated>
+	<updated>2015-04-22T09:57:39-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[More Weight Doesn’t Mean More Wait]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/weight-wait/"/>
+				<updated>2015-04-22T09:52:08-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/weight-wait</id>
+				<content type="html"><![CDATA[<p>This is a brilliant post from <a href="https://twitter.com/scottjehl">Scott Jehl</a> about optimizing page render by getting particular about how (and when) certain assets load. He uses the real-world site Wired as a test bed for putting the ideas into practice, cutting perceived load time by a full 8.5 seconds!</p>
+<p><a rel="full-article" href="http://www.filamentgroup.com/lab/weight-wait.html">Read on Filament Group&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -692,19 +703,6 @@ WebSockets) stuff pretty much depends on JavaScript, with &lsquo;messages&rsquo;
 
 <p>I miss the old Austin.</p>
 <p><a rel="full-article" href="http://www.latina.com/lifestyle/our-issues/austin-landlords-demolish-pinata-store-jumpolin-sxsw-party">Read on Latina&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Once Upon a Time, There Was One Internet and It Was Open to Everyone…]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/once-upon-a-time-there-was-one-internet-and-it-was-open-to-everyone/"/>
-				<updated>2015-03-22T23:51:36-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/once-upon-a-time-there-was-one-internet-and-it-was-open-to-everyone</id>
-				<content type="html"><![CDATA[<p>A  great discussion of the implications of Internet censorship on businesses and the economy. Choice quote:</p>
-
-<blockquote><p>When governments begin developing complex and counterintuitive online rules for their various jurisdictions, any semblance of global development is broken down. The resulting risk is that we will be left with multiple internets, each with their own rules, laws and guidelines.</p></blockquote>
-<p><a rel="full-article" href="http://www.wired.com/2015/03/once-upon-a-time-there-was-one-internet-and-it-was-open-to-everyone/">Read on Wired&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	

@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Posts]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-posts.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-04-22T09:42:50-04:00</updated>
+	<updated>2015-04-22T09:57:39-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,8 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
 	
 		
 	
@@ -498,8 +500,6 @@ WebSockets) stuff pretty much depends on JavaScript, with &lsquo;messages&rsquo;
 
 ]]></content>
 			</entry>
-		
-	
 		
 	
 		
