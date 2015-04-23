@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Css | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/css/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-04-23T17:29:48-04:00</updated>
+  <updated>2015-04-23T17:56:16-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -43,7 +43,14 @@
 
 <p>The markup pattern was pretty simple. It’s just a list of events:</p>
 
-<p>{% gist 597284affc88b9084cf3 markup.html %}</p>
+<p><div><script src='https://gist.github.com/597284affc88b9084cf3.js?file=markup.html'></script>
+<noscript><pre><code>&lt;ul class=&quot;listing listing--events&quot;&gt;
+  &lt;li class=&quot;listing__item listing__item--1 event event--future&quot;&gt;
+    &lt;!-- content --&gt;
+  &lt;/li&gt;
+  &lt;!-- lis continue --&gt;
+&lt;/ul&gt;</code></pre></noscript></div>
+</p>
 
 <p>With that in place, I got to work.</p>
 
@@ -51,7 +58,18 @@
 
 <p>To set the stage, I started with some basic Flexbox syntax<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> by handling the container and the basic full-width small screen view:</p>
 
-<p>{% gist 597284affc88b9084cf3 first-pass.css %}</p>
+<p><div><script src='https://gist.github.com/597284affc88b9084cf3.js?file=first-pass.css'></script>
+<noscript><pre><code>.listing--events {
+  display: flex;
+}
+
+.event {
+  box-sizing: border-box;
+  padding: 1.25rem; /* 20px padding */
+  margin: 0 0 1.25rem 0; /* 20px bottom margin */
+  flex: 0 0 100%;
+}</code></pre></noscript></div>
+</p>
 
 <p>You may be wondering where all of the experimental style rules are. I use <a href="https://github.com/postcss/autoprefixer">Autoprefixer</a> to handle the experimental property inclusion/trans-compilation so I can keep my CSS clean and standards-based.</p>
 
@@ -70,7 +88,52 @@
 
 <p>Next up, I tackled the first breakpoint at 28.75em:</p>
 
-<p>{% gist 597284affc88b9084cf3 second-pass.css %}</p>
+<p><div><script src='https://gist.github.com/597284affc88b9084cf3.js?file=second-pass.css'></script>
+<noscript><pre><code>.listing--events {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.event {
+  box-sizing: border-box;
+  padding: 1.25rem; /* 20px */
+  margin: 0 0 1.25rem 0; /* 20px v */
+  flex: 0 0 100%;
+}
+
+@media only screen and (min-width: 28.75em) {
+  
+  /* 20px gap divided by 2 events per row */
+  .event {
+    flex: 0 0 calc( 50% - 1.25rem / 2 );
+    margin-left: 1.25rem; /* 20px &lt; */
+  }
+  
+  /* Remove left margin for row starters */
+  .event:nth-child(odd) {
+    margin-left: 0;
+  }
+  
+  /* Reset margins on &quot;future&quot; events
+     &amp; remove the correct one */
+  .event--future:nth-child(odd) {
+    margin-left: 1.25rem;
+  }
+  .event--future:nth-child(even) {
+    margin-left: 0;
+  }
+  
+  /* Quantity Query - when more than 1,
+     make the first span both columns  */
+  .event--future:nth-last-child(n+1):first-child {
+    flex: 0 0 100%;
+    font-size: 1.5em;
+    margin-left: 0;
+  }
+  
+}</code></pre></noscript></div>
+</p>
 
 <p>In this pass, I set up the event blocks to fill 50% of the parent container (well, 50% minus the 1.25rem gutter between them, using <a href="http://www.w3.org/TR/css3-values/#calc"><code>calc()</code></a>).<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> In order to make the children wrap to form rows, I set <code>flex-wrap: wrap</code> on the list (<code>.listing--events</code>). Then, to make the children all equal heights across each row, I set <code>align-items: stretch</code>. The gutter space was achieved via left margins on all events save the row starters (<code>.event:nth-child(odd)</code>).</p>
 
@@ -91,7 +154,89 @@
 
 <p>Finally, I could tackle the third and most complicated layout. Things seemed to get a little wide around 690px, so I set the breakpoint to 43.125em.</p>
 
-<p>{% gist 597284affc88b9084cf3 third-pass.css %}</p>
+<p><div><script src='https://gist.github.com/597284affc88b9084cf3.js?file=third-pass.css'></script>
+<noscript><pre><code>.listing--events {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.event {
+  box-sizing: border-box;
+  padding: 1.25rem; /* 20px */
+  margin: 0 0 1.25rem 0; /* 20px v */
+  flex: 0 0 100%;
+}
+
+@media only screen and (min-width: 28.75em) {
+  
+  /* 20px gap divided by 2 events per row */
+  .event {
+    flex: 0 0 calc( 50% - 1.25rem / 2 );
+    margin-left: 1.25rem; /* 20px &lt; */
+  }
+  
+  /* Remove left margin for row starters */
+  .event:nth-child(odd) {
+    margin-left: 0;
+  }
+  
+  /* Reset margins on &quot;future&quot; events
+     &amp; remove the correct one */
+  .event--future:nth-child(odd) {
+    margin-left: 1.25rem;
+  }
+  .event--future:nth-child(even) {
+    margin-left: 0;
+  }
+  
+  /* Quantity Query - when more than 1,
+     make the first span both columns  */
+  .event--future:nth-last-child(n+1):first-child {
+    flex: 0 0 100%;
+    font-size: 1.5em;
+    margin-left: 0;
+  }
+  
+}
+
+@media only screen and (min-width: 43.125em) {
+
+  /* 1/3 width with 20px gutter */
+  .event {
+    flex: 0 0 calc( 100% / 3 - .875rem );
+  }
+
+  /* Reset margins */
+  .event:nth-child(even),
+  .event:nth-child(odd) {
+    margin-left: 1.25rem;
+  }
+  /* Normal Grid margin removal */
+  .event:nth-child(3n+1) {
+    margin-left: 0;
+  }
+  
+  /* Correct margins for the future events */
+  .event--future:nth-child(3n+1) {
+    margin-left: 1.25rem;
+  }
+  
+  /* Quantity Query - when more than 2,
+     make the first 2 go 50%  */
+  .event--future:nth-last-child(n+2):first-child, 
+  .event--future:nth-last-child(n+2):first-child + .event--future {
+    flex: 0 0 calc( 50% - 1.25rem / 2 );
+    font-size: 1.5em;
+  }
+  
+  /* Quantity + nth for margin removal */
+  .event--future:nth-last-child(n+2):first-child ~ .event--future:nth-child(3n) {
+    margin-left: 0;
+  }
+  
+}</code></pre></noscript></div>
+</p>
 
 <p>In this final pass, I used a slightly more complicated calculation to set the width of each child to 1/3 of the parent minus the gutters between them (100% / 3 &ndash; 0.875rem).</p>
 
@@ -148,7 +293,12 @@
 
 <p>Here’s Heydon’s first quantity query example:</p>
 
-<p>{% gist eddda1f32ed102cedd86 equal.css %}</p>
+<p><div><script src='https://gist.github.com/eddda1f32ed102cedd86.js?file=equal.css'></script>
+<noscript><pre><code>li:nth-last-child(6):first-child, 
+li:nth-last-child(6):first-child ~ li {
+  color: green;
+}</code></pre></noscript></div>
+</p>
 
 <p>With these selectors, the rule set would only apply if the total count of list items was exactly 6. Here’s what he is selecting:</p>
 
@@ -163,7 +313,12 @@
 <p>But Heydon doesn’t stop there. He also gives us ways to test for  more than or equal to and fewer than or equal to a certain number. We’ll start with the <br/>
 &ldquo;more than&rdquo; variant (because everyone always wants more):</p>
 
-<p>{% gist eddda1f32ed102cedd86 more-than-or-equal.css %}</p>
+<p><div><script src='https://gist.github.com/eddda1f32ed102cedd86.js?file=more-than-or-equal.css'></script>
+<noscript><pre><code>li:nth-last-child(n+6),
+li:nth-last-child(n+6) ~ li {
+  /* properties here */
+}</code></pre></noscript></div>
+</p>
 
 <p>This one is slightly more complex, using the <code>nth-*</code> formula to manage the calculation. In English, this selects:</p>
 
@@ -183,7 +338,12 @@
 
 <p>The final example he gives is for fewer than or equal to a particular number:</p>
 
-<p>{% gist eddda1f32ed102cedd86 fewer-than-or-equal.css %}</p>
+<p><div><script src='https://gist.github.com/eddda1f32ed102cedd86.js?file=fewer-than-or-equal.css'></script>
+<noscript><pre><code>li:nth-last-child(-n+6):first-child,
+li:nth-last-child(-n+6):first-child ~ li {
+  /* properties here */
+}</code></pre></noscript></div>
+</p>
 
 <p>This one is largely the same as the &ldquo;more than&rdquo; example, but the multiplier is reversed (with the minus sign) which means the count runs backward: 0+6 (6), -1+5 (5), -2+6 (4), and so on.</p>
 
@@ -217,27 +377,68 @@
 
 <p>Before I made the leap to using a CSS preprocessor, I was convinced we needed CSS variables, but I always wondered how we might make it possible without breaking one of the fundamental <a href="http://www.w3.org/TR/CSS21/intro.html#design-principles">design principles of CSS</a>: Forward and backward compatibility. Take a look at this example (which is based on <a href="http://www.w3.org/TR/css-variables/">the working draft spec</a>) and I think you’ll spot the problem:</p>
 
-<p>{% gist c3ddcb792eb69e0703e1 css-vairables.css %}</p>
+<p><div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=css-vairables.css'></script>
+<noscript><pre><code>:root {
+  --foreground-color: #333;
+  --background-color: #fff;
+}
+
+body {
+  background: var(--background-color);
+  color: var(--foreground-color);
+}</code></pre></noscript></div>
+</p>
 
 <p>For a browser that understands CSS variables, the interpreted stylesheet would look like this:</p>
 
-<p>{% gist c3ddcb792eb69e0703e1 desired-result.css %}</p>
+<p><div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=desired-result.css'></script>
+<noscript><pre><code>body {
+  background: #fff;
+  color: #333;
+}</code></pre></noscript></div>
+</p>
 
 <p>But any browser that doesn’t understand the variables would never get the color values because browsers follow <a href="http://www.w3.org/TR/CSS21/syndata.html#parsing-errors">the rules of fault tolerance in CSS</a> and ignore anything they don’t understand. The introduction of variables to CSS would effectively build a wall between older browsers and new ones. (For the record, as of this writing, <a href="http://caniuse.com/#feat=css-variables">only Firefox has implemented CSS variables</a>).</p>
 
 <p>In order to serve the broadest spectrum of devices, we’d have to provide a fallback like this:</p>
 
-<p>{% gist c3ddcb792eb69e0703e1 css-variables-fallback.css %}</p>
+<p><div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=css-variables-fallback.css'></script>
+<noscript><pre><code>:root {
+  --foreground-color: #333;
+  --background-color: #fff;
+}
+
+body {
+  background: #fff;
+  background: var(--background-color);
+  color: #333;
+  color: var(--foreground-color);
+}</code></pre></noscript></div>
+</p>
 
 <p>But that kinda defeats the whole purpose, right?</p>
 
 <p>Preprocessors already give us this access to variables today (along with nesting, mixins, and programmatic structures like conditionals, loops, etc.). Here’s a SASS example:</p>
 
-<p>{% gist c3ddcb792eb69e0703e1 sass-variables.scss %}</p>
+<p><div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=sass-variables.scss'></script>
+<noscript><pre><code>$foreground-color: #333;
+$background-color: #fff;
+ 
+ 
+body {
+  background: $background-color;
+  color: $foreground-color;
+}</code></pre></noscript></div>
+</p>
 
 <p>The big difference here is that this document is a source file, it is not what is sent to the browser. This file is compiled by the preprocessor into actual CSS, which is what we send to the browser and is exactly what we wanted in the first place:</p>
 
-<p>{% gist c3ddcb792eb69e0703e1 desired-result.css %}</p>
+<p><div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=desired-result.css'></script>
+<noscript><pre><code>body {
+  background: #fff;
+  color: #333;
+}</code></pre></noscript></div>
+</p>
 
 <p>And it works on every browser that supports CSS, all the way back to <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#Difficulty_with_adoption">IE 3</a>.</p>
 

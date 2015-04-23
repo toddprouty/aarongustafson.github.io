@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-04-22T14:11:38-04:00</updated>
+	<updated>2015-04-23T17:56:16-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,23 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Web Components, Accessibility and the Priority of Constituencies]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/web-components-accessibility-and-the-priority-of-constituencies/"/>
+				<updated>2015-04-23T17:25:10-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/web-components-accessibility-and-the-priority-of-constituencies</id>
+				<content type="html"><![CDATA[<p>Bruce Lawson is dead-on with his critique of <a href="https://lists.w3.org/Archives/Public/public-webapps/2015AprJun/0225.html">Apple’s feedback on Web Components</a>:</p>
+
+<blockquote><p>Implementation is hard. Too hard for the developers at Apple, it appears. So Web developers must faff around adding ARIA and tab index and keyboard listeners (so most won’t) and the inevitable consequence of making accessibility hard is that assistive technology users will suffer.</p></blockquote>
+
+<p>We (browser makers and web developers) need to be willing to put in the effort to make things better for everyone else. <a href="http://www.aaron-gustafson.com/notebook/who-should-pay/">Sadly, few seem interested</a>.</p>
+
+<p>Thanks for calling this out Bruce!</p>
+<p><a rel="full-article" href="http://www.brucelawson.co.uk/2015/web-components-accessibility-and-the-priority-of-constituencies/">Read on Bruce Lawson’s Personal Site&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -690,19 +707,6 @@ WebSockets) stuff pretty much depends on JavaScript, with &lsquo;messages&rsquo;
 
 <p>This post is eye-opening on so many levels. You should definitely add it to your reading list because, as Aditya reminds us, “it’s imperative that the writing system of the 21st century be driven by the needs of the people using it.”</p>
 <p><a rel="full-article" href="https://modelviewculture.com/pieces/i-can-text-you-a-pile-of-poo-but-i-cant-write-my-name">Read on Model View Culture&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Austin Landlords Demolish Piñata Store for SXSW, Call Mexican Tenants ‘Roaches’]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/austin-landlords-demolish-pinata-store-jumpolin-sxsw-party/"/>
-				<updated>2015-03-23T18:51:36-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/austin-landlords-demolish-pinata-store-jumpolin-sxsw-party</id>
-				<content type="html"><![CDATA[<p>This is despicable. If you are the mother of either Jordan French or Darius Fisher, please slap some sense into your little fuckwits. Lejarazu family: I am so sorry.</p>
-
-<p>I miss the old Austin.</p>
-<p><a rel="full-article" href="http://www.latina.com/lifestyle/our-issues/austin-landlords-demolish-pinata-store-jumpolin-sxsw-party">Read on Latina&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
