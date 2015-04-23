@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Progressive Enhancement | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/progressive-enhancement/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-04-22T14:11:38-04:00</updated>
+  <updated>2015-04-23T17:29:48-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -135,10 +135,7 @@ WebSockets) stuff pretty much depends on JavaScript, with &lsquo;messages&rsquo;
 
 <p>A simple way to rid yourself of IE8 related headaches is to embrace the idea that <a href="http://dowebsitesneedtolookexactlythesameineverybrowser.com/">web pages don’t need to look (or behave) the same in every browser</a> and look for ways to achieve this while still providing access to your content and tools for less-capable browsers and devices. For example:</p>
 
-<p><div><script src='https://gist.github.com/b9bca995a67ba298225d.js?file=css-filter.html'></script>
-<noscript><pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;simple.css&quot;&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;complex.css&quot; media=&quot;only screen&quot;&gt;</code></pre></noscript></div>
-</p>
+<p>{% gist b9bca995a67ba298225d css-filter.html %}</p>
 
 <p>This simple stylesheet setup will deliver only the <code>simple.css</code> file to browsers that are incapable of understanding media queries. Browsers that do understand them will get both stylesheets. Media queries support is an easy line in the sand we can draw because <a href="http://www.slideshare.net/bryanrieger/rethinking-the-mobile-web-by-yiibu/79">lack of media query support is in fact the first media query</a>.</p>
 
@@ -146,11 +143,7 @@ WebSockets) stuff pretty much depends on JavaScript, with &lsquo;messages&rsquo;
 
 <p>On the JavaScript end, you can draw a line in the sand too. Let’s say you don’t want to spend your time debugging JavaScript in IE8. You can just skip it using <a href="http://www.quirksmode.org/css/condcom.html">Conditional Comments</a>:</p>
 
-<p><div><script src='https://gist.github.com/b9bca995a67ba298225d.js?file=js-filter.html'></script>
-<noscript><pre><code>&lt;!--[if gte IE 9]&gt;&lt;!--&gt;
-  &lt;script src=&quot;not-for-ie8.js&quot;&gt;&lt;/script&gt;
-&lt;!--&lt;![endif]--&gt;</code></pre></noscript></div>
-</p>
+<p>{% gist b9bca995a67ba298225d js-filter.html %}</p>
 
 <p>Using an approach like this avoids delivering the contained JavaScript files to IE8 at all, but all other browsers will see them.</p>
 
@@ -174,7 +167,7 @@ WebSockets) stuff pretty much depends on JavaScript, with &lsquo;messages&rsquo;
 
 <p>Here’s one example. In reaction to <a href="/notebook/css-variables-are-a-bad-idea/">my post on why I think CSS variables are a bad idea</a>, <a href="http://sass-lang.com">SASS</a> core team member <a href="https://twitter.com/chriseppstein/">Chris Eppstein</a> had this to say:</p>
 
-<p><div class='embed tweet'>Tweet could not be processed</div></p>
+<p>{% tweet <a href="https://twitter.com/chriseppstein/status/567756897105620992">https://twitter.com/chriseppstein/status/567756897105620992</a> %}</p>
 
 <p>Fundamentally, I agree with his sentiment: A preprocessor should <em>not</em> be a requirement for authoring CSS. Thankfully, <em>it never was</em>; you can build amazing things using only hand-authored CSS. And if you find a preprocessor helpful to your process for one reason or another, great. But using a preprocessor never has been (nor should it ever be) a requirement.</p>
 
