@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-04-24T11:29:40-04:00</updated>
+	<updated>2015-04-24T12:02:32-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -29,12 +29,12 @@
 	
 		
 			<entry>
-				<title type="html"><![CDATA[Everyonehasjs]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/everyonehasjs/"/>
-				<updated>2015-04-24T00:00:00-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/everyonehasjs</id>
+				<title type="html"><![CDATA[Everyone Has JavaScript, Right?]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/everyonehasjs/"/>
+				<updated>2015-04-24T11:20:03-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/everyonehasjs</id>
 				<content type="html"><![CDATA[<p><a href="http://www.kryogenix.org/">Stuart Langridge</a> beautifully illustrates all of the possible scenarios within which JavaScript availability is not guaranteed. Plan accordingly.</p>
-]]></content>
+<p><a rel="full-article" href="http://kryogenix.org/code/browser/everyonehasjs.html">Read on Kryogenix&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
