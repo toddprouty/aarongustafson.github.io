@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Posts]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-posts.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-04-23T18:58:11-04:00</updated>
+	<updated>2015-04-24T11:29:40-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,19 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Everyonehasjs]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/everyonehasjs/"/>
+				<updated>2015-04-24T00:00:00-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/everyonehasjs</id>
+				<content type="html"><![CDATA[<p><a href="http://www.kryogenix.org/">Stuart Langridge</a> beautifully illustrates all of the possible scenarios within which JavaScript availability is not guaranteed. Plan accordingly.</p>
+]]></content>
+			</entry>
+		
 	
 		
 	
@@ -502,10 +515,6 @@ WebSockets) stuff pretty much depends on JavaScript, with &lsquo;messages&rsquo;
 
 ]]></content>
 			</entry>
-		
-	
-		
-	
 		
 	
 </feed>
