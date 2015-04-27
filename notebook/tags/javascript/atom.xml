@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Javascript | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/javascript/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-04-25T09:20:11-04:00</updated>
+  <updated>2015-04-27T15:47:08-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Lies, Damn Lies, and JavaScript]]></title>
+    <link href="http://www.aaron-gustafson.com/notebook/lies-damn-lies-and-javascript/"/>
+    <updated>2015-04-27T15:10:11-04:00</updated>
+    <id>http://www.aaron-gustafson.com/notebook/lies-damn-lies-and-javascript</id>
+    <content type="html"><![CDATA[<p>Late last week I stumbled on a video from <a href="https://twitter.com/graemepyle">Graeme Pyle</a> that exposed a UX lie in the <a href="https://www.fnb.co.za/">First National Bank of South Africa</a>.</p>
+
+<!-- more -->
+
+
+<p><figure id="fig-gpBWwl-Ngak" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--4x3"><a class="video-embed__lazy-link" style="background-image:url(http://i2.ytimg.com/vi/gpBWwl-Ngak/0.jpg)" href="//www.youtube.com/watch?v=gpBWwl-Ngak" data-lazy-video-src="http://www.youtube.com/embed/gpBWwl-Ngak?autoplay=1"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Shocking discovery: fnb.co.za progress bar a placebo!</div></a></div></figure></p>
+
+<p>On the off chance you don’t want to watch the video, I’ll recap: When accessing certain screens on the FNB site, a progress meter is shown to indicate new content is being flowed into the browser. But it’s not.</p>
+
+<p>As Graeme uncovered, the site uses JavaScript to create the progress bar, but the progress is not tied to anything except some basic JavaScript logic. The progress bar has no grounding in reality. It uses timeouts and follows a steady incrementation for a bit, then jumps up randomly for a bit before finishing.</p>
+
+<p>Taking the easy way out like this may seem like a non-issue, but what happens when your user loses network connectivity? You guessed it: The progress meter still runs. <em>Doh!</em></p>
+
+<p>Tracking true activity progress (like time to upload a file) involves constant communication between the server and the client. It used to be pretty difficult to do (and <a href="http://search.cpan.org/~lgoddard/CGI-ProgressBar-0.05/lib/CGI/ProgressBar.pm">required Perl</a>), but nowadays we have <a href="http://www.w3.org/TR/websockets/">WebSockets</a> and it’s much easier to keep the lines of communication between client and server open.</p>
+
+<p>There is no reason to fake a progress bar. It’s pointless. Especially when you don’t even check to see if the user’s connection is still online.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[How to Apply Progressive Enhancement When JavaScript Seems Like a Requirement]]></title>
@@ -206,42 +230,6 @@ WebSockets) stuff pretty much depends on JavaScript, with &lsquo;messages&rsquo;
 <p>The fact is that we can’t absolutely rely on the availability of any specific technology when it comes to delivering a Web experience. Instead, we must look at <em>how</em> we construct that experience and make smarter decisions about how we use specific technologies in order to take advantage of their benefits while simultaneously understanding that their availability is not guaranteed. This is why progressive enhancement is such a useful philosophy.</p>
 
 <p>The history of the Web is littered with JavaScript disaster stories. That doesn’t mean we shouldn’t use JavaScript or that it’s inherently bad. It simply means we need to be smarter about our approach to JavaScript and build robust experiences that allow users to do what they need to do quickly and easily even if our carefully-crafted, incredibly well-designed JavaScript-driven interface won’t run.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[The Network Effect]]></title>
-    <link href="http://www.aaron-gustafson.com/notebook/the-network-effect/"/>
-    <updated>2014-09-08T16:40:44-04:00</updated>
-    <id>http://www.aaron-gustafson.com/notebook/the-network-effect</id>
-    <content type="html"><![CDATA[<p><cite>Ars Technica</cite> revealed today that <a href="http://arstechnica.com/tech-policy/2014/09/why-comcasts-javascript-ad-injections-threaten-security-net-neutrality/">Comcast is injecting self-promotional advertising into web pages delivered via it’s Wi-Fi hotspots</a>:</p>
-
-<blockquote cite="http://arstechnica.com/tech-policy/2014/09/why-comcasts-javascript-ad-injections-threaten-security-net-neutrality/">
-    <p>A Comcast spokesman told Ars the program began months ago. One facet of it is designed to alert consumers that they are connected to Comcast's Xfinity service. Other ads remind Web surfers to download Xfinity apps, Comcast spokesman Charlie Douglas told Ars in telephone interviews.</p>
-</blockquote>
-
-
-<p>I wish I could say this is surprising, but it’s not: Any service that routes your content has the opportunity to modify the response being returned. Comcast is exploiting that opportunity and injecting JavaScript that, in turn, injects the ads.</p>
-
-<!-- more -->
-
-
-<p>The fact that middlemen can manipulate server responses is one reason <a href="https://www.youtube.com/watch?v=cBhZ6S0PFCY">Google is pushing for all sites to be served under HTTPS</a>. With traffic running to and from your server in an encrypted fashion, <a href="http://en.wikipedia.org/wiki/Man-in-the-middle_attack">man-in-the-middle attacks</a>—which, if we’re honest, is what this amounts to—become much more difficult.</p>
-
-<p>Assuming you can’t run under HTTPS for one reason or another, how do you harden your <a href="https://adactio.com/journal/6246">web thang</a> against 3rd party manipulation you can’t control? What if Comcast’s JavaScript interferes with your own? Remember when <a href="http://www.theguardian.com/technology/2014/jan/28/sky-broadband-blocks-jquery-web-critical-plugin">Sky blocked jQuery for all of their customers</a>? That was a bad couple of hours for most UK-based internet users.</p>
-
-<p>Comcast’s move only serves to remind us—yet again—that we don’t control how our sites are delivered or what our users see. Or rather we do, but only up to a point. So rather than focus on some ideal experience we expect everyone to have, we must focus on building great experiences that work in a variety of contexts and situations.</p>
-
-<p>We need to develop <a href="http://en.wikipedia.org/wiki/Demolition_derby#Vehicles">the 1964 Chrysler Imperial</a> of websites: Sites that soldier on even when they are getting pummeled from all sides. After all, browsers, plug-ins, users, networks, and, yes, even the very routers that deliver our connections all have a say in how (and what) content gets to our users.</p>
-
-<p>I’ll leave you with this scary quote from the <cite>Ars</cite> piece:</p>
-
-<blockquote cite="http://arstechnica.com/tech-policy/2014/09/why-comcasts-javascript-ad-injections-threaten-security-net-neutrality/">
-    <p>Security expert Dan Kaminsky said in an e-mail that JavaScript injection has the potential to break “all sorts of stuff, in that you no longer know as a website developer precisely what code is running in browsers out there. You didn't send it, but your customers received it.”</p>
-</blockquote>
-
-
-<p>Hooray!</p>
 ]]></content>
   </entry>
   

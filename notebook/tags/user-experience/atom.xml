@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Browse by Tag: User Experience | Aaron Gustafson]]></title>
+  <link href="http://www.aaron-gustafson.com/notebook/tags/user-experience/atom.xml" rel="self"/>
+  <link href="http://www.aaron-gustafson.com/"/>
+  <updated>2015-04-27T15:47:08-04:00</updated>
+  <id>http://www.aaron-gustafson.com/</id>
+  <author>
+    <name><![CDATA[Aaron Gustafson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Lies, Damn Lies, and JavaScript]]></title>
+    <link href="http://www.aaron-gustafson.com/notebook/lies-damn-lies-and-javascript/"/>
+    <updated>2015-04-27T15:10:11-04:00</updated>
+    <id>http://www.aaron-gustafson.com/notebook/lies-damn-lies-and-javascript</id>
+    <content type="html"><![CDATA[<p>Late last week I stumbled on a video from <a href="https://twitter.com/graemepyle">Graeme Pyle</a> that exposed a UX lie in the <a href="https://www.fnb.co.za/">First National Bank of South Africa</a>.</p>
+
+<!-- more -->
+
+
+<p><figure id="fig-gpBWwl-Ngak" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--4x3"><a class="video-embed__lazy-link" style="background-image:url(http://i2.ytimg.com/vi/gpBWwl-Ngak/0.jpg)" href="//www.youtube.com/watch?v=gpBWwl-Ngak" data-lazy-video-src="http://www.youtube.com/embed/gpBWwl-Ngak?autoplay=1"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Shocking discovery: fnb.co.za progress bar a placebo!</div></a></div></figure></p>
+
+<p>On the off chance you don’t want to watch the video, I’ll recap: When accessing certain screens on the FNB site, a progress meter is shown to indicate new content is being flowed into the browser. But it’s not.</p>
+
+<p>As Graeme uncovered, the site uses JavaScript to create the progress bar, but the progress is not tied to anything except some basic JavaScript logic. The progress bar has no grounding in reality. It uses timeouts and follows a steady incrementation for a bit, then jumps up randomly for a bit before finishing.</p>
+
+<p>Taking the easy way out like this may seem like a non-issue, but what happens when your user loses network connectivity? You guessed it: The progress meter still runs. <em>Doh!</em></p>
+
+<p>Tracking true activity progress (like time to upload a file) involves constant communication between the server and the client. It used to be pretty difficult to do (and <a href="http://search.cpan.org/~lgoddard/CGI-ProgressBar-0.05/lib/CGI/ProgressBar.pm">required Perl</a>), but nowadays we have <a href="http://www.w3.org/TR/websockets/">WebSockets</a> and it’s much easier to keep the lines of communication between client and server open.</p>
+
+<p>There is no reason to fake a progress bar. It’s pointless. Especially when you don’t even check to see if the user’s connection is still online.</p>
+]]></content>
+  </entry>
+  
+</feed>
