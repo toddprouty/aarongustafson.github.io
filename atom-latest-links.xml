@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-04-27T15:47:08-04:00</updated>
+	<updated>2015-04-29T15:25:44-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,25 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Modern.IE and the IEBlog]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/microsoft-edge-is-the-browser-for-windows-10/"/>
+				<updated>2015-04-29T15:13:19-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/microsoft-edge-is-the-browser-for-windows-10</id>
+				<content type="html"><![CDATA[<p>And then it was revealed:</p>
+
+<pre><code>Windows["Microsoft Edge"] = new Browser();
+</code></pre>
+
+<p>I gotta believe the origins of the name go back to <a href="http://alistapart.com/article/beyondDOCTYPE#section7">IE8’s &ldquo;version targeting&rdquo; scheme</a>. Remember this?</p>
+
+<pre><code>&lt;meta http-equiv="X-UA-Compatible" content="IE=edge" /&gt;
+</code></pre>
+<p><a rel="full-article" href="http://blogs.msdn.com/b/ie/archive/2015/04/29/microsoft-edge-is-the-browser-for-windows-10.aspx">Read on IE Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 	
@@ -235,17 +254,6 @@
 
 <blockquote><p>Americans should be careful before they try to mimic Asian educational systems, which are oriented around memorization and test-taking. I went through that kind of system. It has its strengths, but it’s not conducive to thinking, problem solving or creativity. That’s why most Asian countries, from Singapore to South Korea to India, are trying to add features of a liberal education to their systems.</p></blockquote>
 <p><a rel="full-article" href="http://www.washingtonpost.com/opinions/why-stem-wont-make-us-successful/2015/03/26/5f4604f2-d2a5-11e4-ab77-9646eea6a4c7_story.html">Read on The Washington Post&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Introducing the IE Diagnostics Adapter for Third Party Developer Tools]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/introducing-the-ie-diagnostics-adapter-for-third-party-developer-tools/"/>
-				<updated>2015-04-02T15:10:48-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/introducing-the-ie-diagnostics-adapter-for-third-party-developer-tools</id>
-				<content type="html"><![CDATA[<p>Connect to Internet Explorer via Chrome Developer Tools. How friggin’ cool is that?!</p>
-<p><a rel="full-article" href="http://blogs.msdn.com/b/ie/archive/2015/04/02/introducing-the-ie-diagnostics-adapter-for-third-party-developer-tools.aspx">Read on IEBlog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
