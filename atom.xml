@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-04-30T18:04:48-04:00</updated>
+	<updated>2015-04-30T18:41:14-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -54,10 +54,27 @@ A good overview of the possibilities of HoloLens with a recap of what was shown.
 The Microsoft App Store is a little scant on first-rate programs right now, so in a play to make it stupid-simple for iOS and Android developers to run on Windows 10, the folks at Microsoft have built a conversion tool that ports the app for you. It’s worth noting that you can also port a website into a native Windows app. Smart move on Microsoft’s part if you ask me.</li>
 <li><a href="http://thenextweb.com/microsoft/2015/04/30/hands-on-with-the-new-minimalist-microsoft-edge-browser/">Hands-on: The new Microsoft Edge browser is a picture of minimalism</a> — <cite>The Next Web</cite>
 Obviously the web is where I live and work. I’ve been playing with early builds of the new Microsoft browser for a few months now and have been pretty happy with its speed and capabilities, but it is nice to read an outside perspective on it.</li>
+<li><a href="http://gizmodo.com/microsoft-just-nonchalantly-showed-us-the-single-device-1701020050">Microsoft Just Nonchalantly Showed Us the Single-Device UI of the Future</a>
+I don’t know about &ldquo;nonchalantly&rdquo;, but the whole Continuum feature is pretty amazing. The potential for being able to use the computer in your pocket with other peripherals is pretty intriguing. Imagine using your phone, a set of holographic or <a href="http://www.amazon.com/Cinemizer-1909-127-Multimedia-Video-Glasses/dp/B0091OI530/">virtual screen glasses</a>, and a bluetooth keyboard &amp; mouse to get work done on a plane. No need to worry about someone leaning back and breaking your laptop!</li>
 </ul>
 
 
 <p><em>I will continue adding to this list as new &amp; interesting pieces come out</em>.</p>
+]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Espn Launches a Big Redesign for Its Web Versions]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/espn-launches-a-big-redesign-for-its-web-versions/"/>
+				<updated>2015-04-30T00:00:00-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/espn-launches-a-big-redesign-for-its-web-versions</id>
+				<content type="html"><![CDATA[<p>ESPN launched its responsive site. I still need to tuck into it, but here’s a little background as to why:</p>
+
+<blockquote><p>In January, 61 percent of ESPN’s roughly 94 million users in the United States were viewing content exclusively on mobile devices, with a good chunk of that viewing content on its mobile web version. For a massive company like Disney trying to make a shift to mobile like any other content-driven company, a test of a new mobile web strategy for a large property like ESPN is critical.</p></blockquote>
+
+<p>Testing &ldquo;new&rdquo; tech isn’t really a new thing for ESPN. Those of you who have been on the web a while might remember it being <a href="http://www.mikeindustries.com/blog/archive/2003/06/espn-interview">one of the first really big sites to embrace CSS and web standards</a>, back in 2003.</p>
 ]]></content>
 			</entry>
 		
@@ -423,17 +440,6 @@ Obviously the web is where I live and work. I’ve been playing with early build
 
 <blockquote><p>I continue to believe, just as the Web is not print, though it emerged in many ways from the medium of print, it is not just another application platform. It has its own genius, which we could call as I did all those years ago, adaptability.</p></blockquote>
 <p><a rel="full-article" href="http://www.webdirections.org/blog/a-dao-of-web-design-at-15/">Read on The Web Directions Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[How to Create the Right Emotions With Color in Web Design]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/how-to-create-the-right-emotions-with-color-in-web-design/"/>
-				<updated>2015-04-07T08:41:30-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/how-to-create-the-right-emotions-with-color-in-web-design</id>
-				<content type="html"><![CDATA[<p>A nice overview of color and its emotional impact. Of course, this is a Western perspective. See also <a href="http://www.empower-yourself-with-color-psychology.com/cultural-color.html">Cultural Meanings of Color and Color Symbolism</a>.</p>
-<p><a rel="full-article" href="http://thenextweb.com/dd/2015/04/07/how-to-create-the-right-emotions-with-color-in-web-design/">Read on The Next Web&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
