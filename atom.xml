@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-04-30T17:13:44-04:00</updated>
+	<updated>2015-04-30T18:04:48-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,19 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Why You Should Care About Email Design]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/email-design/"/>
+				<updated>2015-04-30T18:01:53-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/email-design</id>
+				<content type="html"><![CDATA[<p>Coding HTML emails is one of those necessary evils, but <a href="http://www.twitter.com/tedgoas">Ted Goas</a> offers some helpful advice and links in this post.</p>
+
+<blockquote><p>This is an open letter to designers and developers who’d rather not work on email.</p></blockquote>
+<p><a rel="full-article" href="http://www.tedgoas.com/blog/email-design/">Read on Ted Goas&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -421,21 +434,6 @@ Obviously the web is where I live and work. I’ve been playing with early build
 				<id>http://www.aaron-gustafson.com/notebook/links/how-to-create-the-right-emotions-with-color-in-web-design</id>
 				<content type="html"><![CDATA[<p>A nice overview of color and its emotional impact. Of course, this is a Western perspective. See also <a href="http://www.empower-yourself-with-color-psychology.com/cultural-color.html">Cultural Meanings of Color and Color Symbolism</a>.</p>
 <p><a rel="full-article" href="http://thenextweb.com/dd/2015/04/07/how-to-create-the-right-emotions-with-color-in-web-design/">Read on The Next Web&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[9th Circuit Rules Netflix Isn’t Subject to Disability Law]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/9th-circuit-rules-netflix-isnt-subject-to-disability-law/"/>
-				<updated>2015-04-03T11:41:36-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/9th-circuit-rules-netflix-isnt-subject-to-disability-law</id>
-				<content type="html"><![CDATA[<p>So the 9th Circuit Court threw out an ADA suit against Netflix for a lack of captions. To <a href="http://arstechnica.com/author/joe-mullin/">Joe Mullin</a> of <cite>Ars</cite> it seemed like a question of whether a website constitutes a “public accommodation”, but I don&rsquo;t know that it does in this instance. I did agree with <a href="http://en.wikipedia.org/wiki/National_Federation_of_the_Blind_v._Target_Corp"><cite>NFB v. Target</cite></a>, but this seems different.</p>
-
-<p>I don&rsquo;t think Netflix should have to provide captions for all content on its service. The onus for captioning should be on the content creator and not the delivery service. In other words, if Netflix has an accessible site and captions their own original content, that should be the most anyone could ask of them. They don&rsquo;t own the majority of their content and could even be legally precluded from captioning it depending on the contract.</p>
-
-<p>As much as I want to see more captioned content made available, I think the ruling makes sense. The case doesn&rsquo;t seem to be appropriately grounded nor does the ask seem reasonable.</p>
-<p><a rel="full-article" href="http://arstechnica.com/tech-policy/2015/04/9th-circuit-rules-netflix-isnt-subject-to-disability-law/">Read on Ars Technica&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
