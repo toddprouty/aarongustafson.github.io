@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Apps | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/apps/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-04-30T18:41:14-04:00</updated>
+  <updated>2015-05-01T13:37:29-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -42,6 +42,10 @@ The Microsoft App Store is a little scant on first-rate programs right now, so i
 Obviously the web is where I live and work. I’ve been playing with early builds of the new Microsoft browser for a few months now and have been pretty happy with its speed and capabilities, but it is nice to read an outside perspective on it.</li>
 <li><a href="http://gizmodo.com/microsoft-just-nonchalantly-showed-us-the-single-device-1701020050">Microsoft Just Nonchalantly Showed Us the Single-Device UI of the Future</a>
 I don’t know about &ldquo;nonchalantly&rdquo;, but the whole Continuum feature is pretty amazing. The potential for being able to use the computer in your pocket with other peripherals is pretty intriguing. Imagine using your phone, a set of holographic or <a href="http://www.amazon.com/Cinemizer-1909-127-Multimedia-Video-Glasses/dp/B0091OI530/">virtual screen glasses</a>, and a bluetooth keyboard &amp; mouse to get work done on a plane. No need to worry about someone leaning back and breaking your laptop!</li>
+<li><a href="http://techcrunch.com/2015/04/30/hololens-is-real/">HoloLens Hands-On: How We Built An App For Microsoft’s Augmented Reality Headset</a><br/>
+One reporter’s experience developing for and playing with HoloLens. Sounds like it was pretty cool. I wonder if it can be tweaked to work for people with poor vision like me or if it fits nicely over glasses.</li>
+<li><a href="http://www.wired.com/2015/05/microsofts-one-billion-device-vision-genius-next-impossible/">Microsoft’s Windows 10 Vision Isn’t As Simple as It Seems</a><br/>
+A deeper analysis of Microsoft’s play for more developer (and consumer) mindshare.</li>
 </ul>
 
 
