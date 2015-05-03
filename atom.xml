@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-05-01T13:40:25-04:00</updated>
+	<updated>2015-05-03T16:27:32-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,20 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Design Consistency for the Responsive Web]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/edit/"/>
+				<updated>2015-05-03T16:22:49-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/edit</id>
+				<content type="html"><![CDATA[<p>This is a fantastic presentation from <a href="https://twitter.com/pattytoland">Patty Toland</a> (of <a href="http://www.filamentgroup.com/">Filament Group</a>), given at the Smashing Conference in Santa Monica.</p>
+
+<iframe src="https://docs.google.com/presentation/embed?id=1Fh7bZne2lEffUxI2cL6gaqdayNm3tv6_6d_mmSdOkiE&amp;start=false&amp;loop=false&amp;" frameborder="0"></iframe>
+
+<p><a rel="full-article" href="https://docs.google.com/presentation/d/1Fh7bZne2lEffUxI2cL6gaqdayNm3tv6_6d_mmSdOkiE/edit">Read on Patty Toland&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -431,19 +445,6 @@ A deeper analysis of Microsoft’s play for more developer (and consumer) mindsh
 
 <blockquote><p>John’s piece came three years before Steve Champeon coined the term “progressive enhancement,” but it clearly and succinctly outlined its philosophy: “Make pages which are accessible, regardless of the browser, platform or screen that your reader chooses or must use to access your pages.” His insights—published a mere decade after the invention of the medium—still influence the work I do to this day.</p></blockquote>
 <p><a rel="full-article" href="http://alistapart.com/blog/post/15-years-of-dao">Read on A List Apart&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[A Dao of Web Design at 15]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/a-dao-of-web-design-at-15/"/>
-				<updated>2015-04-07T08:51:36-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/a-dao-of-web-design-at-15</id>
-				<content type="html"><![CDATA[<p>John nails it:</p>
-
-<blockquote><p>I continue to believe, just as the Web is not print, though it emerged in many ways from the medium of print, it is not just another application platform. It has its own genius, which we could call as I did all those years ago, adaptability.</p></blockquote>
-<p><a rel="full-article" href="http://www.webdirections.org/blog/a-dao-of-web-design-at-15/">Read on The Web Directions Blog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
