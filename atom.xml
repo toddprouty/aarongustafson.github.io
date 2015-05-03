@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-05-03T16:27:32-04:00</updated>
+	<updated>2015-05-03T16:29:26-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -15,9 +15,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Design Consistency for the Responsive Web]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/edit/"/>
+				<link href="http://www.aaron-gustafson.com/notebook/links/design-consistency-for-the-responsive-web/"/>
 				<updated>2015-05-03T16:22:49-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/edit</id>
+				<id>http://www.aaron-gustafson.com/notebook/links/design-consistency-for-the-responsive-web</id>
 				<content type="html"><![CDATA[<p>This is a fantastic presentation from <a href="https://twitter.com/pattytoland">Patty Toland</a> (of <a href="http://www.filamentgroup.com/">Filament Group</a>), given at the Smashing Conference in Santa Monica.</p>
 
 <iframe src="https://docs.google.com/presentation/embed?id=1Fh7bZne2lEffUxI2cL6gaqdayNm3tv6_6d_mmSdOkiE&amp;start=false&amp;loop=false&amp;" frameborder="0"></iframe>
