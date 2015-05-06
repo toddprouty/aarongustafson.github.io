@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Posts]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-posts.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-05-05T17:08:50-07:00</updated>
+	<updated>2015-05-05T17:12:04-07:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -19,6 +19,9 @@
 				<updated>2015-05-05T15:05:40-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/lessons-learned from-atari</id>
 				<content type="html"><![CDATA[<p>In watching <a href="http://www.slashfilm.com/watch-atari-game-over/"><cite>Atari: Game Over</cite></a>, I couldn&rsquo;t help but see all of the parallels between the early video game industry and the web design industry. The boys’ club… Engineers as rockstars… It&rsquo;s a tale of a meteoric commercial rise followed by a swift and dismal collapse.</p>
+
+<!-- more -->
+
 
 <p>The film centers around the urban legend of millions of <cite>E.T. The Videogame</cite> cartridges being buried in a landfill in New Mexico as Atari burying it&rsquo;s shame over producing such a bad video game. Many cite <cite>E.T. The Videogame</cite> as the reason for the collapse of the industry in 1983, but it wasn&rsquo;t the case.</p>
 
