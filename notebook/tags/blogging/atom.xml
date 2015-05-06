@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Blogging | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/blogging/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-05-03T16:40:59-04:00</updated>
+  <updated>2015-05-05T17:08:50-07:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[The Linkblog]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/the-linkblog/"/>
-    <updated>2015-01-14T09:34:34-05:00</updated>
+    <updated>2015-01-14T06:34:34-08:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/the-linkblog</id>
     <content type="html"><![CDATA[<p>Since re-starting my blog I’ve been continuing to tinker with Octopress and Jekyll in an effort to customize things a bit more to my liking.</p>
 
@@ -29,7 +29,7 @@
   <entry>
     <title type="html"><![CDATA[Enabling Webmentions in Jekyll]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/enabling-webmentions-in-jekyll/"/>
-    <updated>2014-11-18T17:01:08-05:00</updated>
+    <updated>2014-11-18T14:01:08-08:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/enabling-webmentions-in-jekyll</id>
     <content type="html"><![CDATA[<p>While I am really happy with my choice to move away from a dynamic website/blog to a static one—powered by <a href="http://octopress.org/">Octopress</a>, hosted for free on <a href="https://github.com">Github</a>—it’s been pretty limiting when it comes to integrating comments and other more necessarily dynamic components.</p>
 
@@ -88,7 +88,7 @@
   <entry>
     <title type="html"><![CDATA[A Grand Experiment]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/a-grand-experiment/"/>
-    <updated>2014-07-07T20:46:48-04:00</updated>
+    <updated>2014-07-07T17:46:48-07:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/a-grand-experiment</id>
     <content type="html"><![CDATA[<p>So, a mere three years after my old “life blog” stopped working, I decided to scrap it and start fresh.</p>
 

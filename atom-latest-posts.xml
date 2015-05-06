@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Posts]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-posts.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-05-03T16:40:59-04:00</updated>
+	<updated>2015-05-05T17:08:50-07:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,27 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Lessons Learned From Atari]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/lessons-learned%20from-atari/"/>
+				<updated>2015-05-05T15:05:40-07:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/lessons-learned from-atari</id>
+				<content type="html"><![CDATA[<p>In watching <a href="http://www.slashfilm.com/watch-atari-game-over/"><cite>Atari: Game Over</cite></a>, I couldn&rsquo;t help but see all of the parallels between the early video game industry and the web design industry. The boys’ club… Engineers as rockstars… It&rsquo;s a tale of a meteoric commercial rise followed by a swift and dismal collapse.</p>
+
+<p>The film centers around the urban legend of millions of <cite>E.T. The Videogame</cite> cartridges being buried in a landfill in New Mexico as Atari burying it&rsquo;s shame over producing such a bad video game. Many cite <cite>E.T. The Videogame</cite> as the reason for the collapse of the industry in 1983, but it wasn&rsquo;t the case.</p>
+
+<p>Xbox co-creator <a href="https://twitter.com/seamusblackley">Seamus Blackley</a> offered this:</p>
+
+<blockquote><p>The behavior patterns that created the conditions for the E.T. failure is what destroyed the video game industry.</p></blockquote>
+
+<p>The behavior patterns in question: greed; ridiculous timelines (E.T. was conceived and programmed in 5 weeks by one man: <a href="http://en.wikipedia.org/wiki/Howard_Scott_Warshaw">Howard Scott Warshaw</a>); and hubris.</p>
+
+<p>There are a lot of parallels with the Silicon Valley of today. Food for thought.</p>
+]]></content>
+			</entry>
+		
 	
 		
 	
@@ -22,7 +43,7 @@
 			<entry>
 				<title type="html"><![CDATA[Collected Reactions to //build/]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/collected-reactions-to-build/"/>
-				<updated>2015-04-30T10:53:11-04:00</updated>
+				<updated>2015-04-30T07:53:11-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/collected-reactions-to-build</id>
 				<content type="html"><![CDATA[<p>I may work for Microsoft, but I don’t know everything that’s going on across the company. It’s big and I don’t have that kind of time.</p>
 
@@ -67,7 +88,7 @@ A deeper analysis of Microsoft’s play for more developer (and consumer) mindsh
 			<entry>
 				<title type="html"><![CDATA[Lies, Damn Lies, and JavaScript]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/lies-damn-lies-and-javascript/"/>
-				<updated>2015-04-27T15:10:11-04:00</updated>
+				<updated>2015-04-27T12:10:11-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/lies-damn-lies-and-javascript</id>
 				<content type="html"><![CDATA[<p>Late last week I stumbled on a video from <a href="https://twitter.com/graemepyle">Graeme Pyle</a> that exposed a UX lie in the <a href="https://www.fnb.co.za/">First National Bank of South Africa</a>.</p>
 
@@ -105,7 +126,7 @@ A deeper analysis of Microsoft’s play for more developer (and consumer) mindsh
 			<entry>
 				<title type="html"><![CDATA[Tips for Surviving Google’s “Mobilegeddon”]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/tips-for-surviving-googles-mobilegeddon/"/>
-				<updated>2015-04-21T09:10:12-04:00</updated>
+				<updated>2015-04-21T06:10:12-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/tips-for-surviving-googles-mobilegeddon</id>
 				<content type="html"><![CDATA[<p>Today is the day <a href="http://www.economist.com/news/business-and-finance/21648947-worlds-biggest-search-engine-shakes-up-its-algorithms-mobilegeddon">Google updates it algorithm to take into account mobile-friendliness</a>. Here are a few tips that will help you embrace mobile without tearing your hair out.</p>
 
@@ -167,7 +188,7 @@ A deeper analysis of Microsoft’s play for more developer (and consumer) mindsh
 			<entry>
 				<title type="html"><![CDATA[#HonoringWebFolk]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/honoringwebfolk/"/>
-				<updated>2015-04-09T15:05:21-04:00</updated>
+				<updated>2015-04-09T12:05:21-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/honoringwebfolk</id>
 				<content type="html"><![CDATA[<p>A lot of folks have helped me on the way to becoming the web professional that I am. When <a href="https://twitter.com/mollydotcom/status/586187780113309697">Molly declared today &ldquo;Unsung Leaders of the Web Day&rdquo;</a>, I had to join in.</p>
 
@@ -261,8 +282,6 @@ A deeper analysis of Microsoft’s play for more developer (and consumer) mindsh
 <p>For more honorees, be sure to check out <a href="https://twitter.com/hashtag/HonoringWebFolk?src=hash">the other responses in the thread</a>.</p>
 ]]></content>
 			</entry>
-		
-	
 		
 	
 </feed>

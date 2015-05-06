@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-05-03T16:40:59-04:00</updated>
+	<updated>2015-05-05T17:08:50-07:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -13,10 +13,12 @@
 
 	
 		
+	
+		
 			<entry>
 				<title type="html"><![CDATA[Design Consistency for the Responsive Web]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/design-consistency-for-the-responsive-web/"/>
-				<updated>2015-05-03T16:22:49-04:00</updated>
+				<updated>2015-05-03T13:22:49-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/design-consistency-for-the-responsive-web</id>
 				<content type="html"><![CDATA[<p>This is a fantastic presentation from <a href="https://twitter.com/pattytoland">Patty Toland</a> (of <a href="http://www.filamentgroup.com/">Filament Group</a>), given at the Smashing Conference in Santa Monica.</p>
 
@@ -32,7 +34,7 @@
 			<entry>
 				<title type="html"><![CDATA[ESPN Launches a Big Redesign for Its Web Versions]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/espn-launches-a-big-redesign-for-its-web-versions/"/>
-				<updated>2015-04-30T18:30:08-04:00</updated>
+				<updated>2015-04-30T15:30:08-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/espn-launches-a-big-redesign-for-its-web-versions</id>
 				<content type="html"><![CDATA[<p>ESPN launched its responsive site. I still need to tuck into it, but here’s a little background as to why:</p>
 
@@ -47,7 +49,7 @@
 			<entry>
 				<title type="html"><![CDATA[Why You Should Care About Email Design]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/email-design/"/>
-				<updated>2015-04-30T18:01:53-04:00</updated>
+				<updated>2015-04-30T15:01:53-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/email-design</id>
 				<content type="html"><![CDATA[<p>Coding HTML emails is one of those necessary evils, but <a href="http://www.twitter.com/tedgoas">Ted Goas</a> offers some helpful advice and links in this post.</p>
 
@@ -62,7 +64,7 @@
 			<entry>
 				<title type="html"><![CDATA[Microsoft Edge Is the Browser for Windows 10]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/microsoft-edge-is-the-browser-for-windows-10/"/>
-				<updated>2015-04-29T15:13:19-04:00</updated>
+				<updated>2015-04-29T12:13:19-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/microsoft-edge-is-the-browser-for-windows-10</id>
 				<content type="html"><![CDATA[<p>And then it was revealed:</p>
 
@@ -83,7 +85,7 @@
 			<entry>
 				<title type="html"><![CDATA[Shaper_pmp Comments on Everyone Has JavaScript, Right?]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/cqn8vpn/"/>
-				<updated>2015-04-25T09:15:09-04:00</updated>
+				<updated>2015-04-25T06:15:09-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/cqn8vpn</id>
 				<content type="html"><![CDATA[<p>A snarky, clever backhanded rant against the JavaScript-only crowd. Good for a chuckle:</p>
 
@@ -96,7 +98,7 @@
 			<entry>
 				<title type="html"><![CDATA[Does Responsive Web Design Make You More Money?]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/does-responsive-web-design-make-you-more-money/"/>
-				<updated>2015-04-24T11:24:44-04:00</updated>
+				<updated>2015-04-24T08:24:44-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/does-responsive-web-design-make-you-more-money</id>
 				<content type="html"><![CDATA[<p>Yes. Yes it does. Some great stats in here including this gem:</p>
 
@@ -111,7 +113,7 @@
 			<entry>
 				<title type="html"><![CDATA[Everyone Has JavaScript, Right?]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/everyonehasjs/"/>
-				<updated>2015-04-24T11:20:03-04:00</updated>
+				<updated>2015-04-24T08:20:03-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/everyonehasjs</id>
 				<content type="html"><![CDATA[<p><a href="http://www.kryogenix.org/">Stuart Langridge</a> beautifully illustrates all of the possible scenarios within which JavaScript availability is not guaranteed. Plan accordingly.</p>
 <p><a rel="full-article" href="http://kryogenix.org/code/browser/everyonehasjs.html">Read on Kryogenix&nbsp;&rarr;</a></p>]]></content>
@@ -122,7 +124,7 @@
 			<entry>
 				<title type="html"><![CDATA[Web Components, Accessibility and the Priority of Constituencies]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/web-components-accessibility-and-the-priority-of-constituencies/"/>
-				<updated>2015-04-23T17:25:10-04:00</updated>
+				<updated>2015-04-23T14:25:10-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/web-components-accessibility-and-the-priority-of-constituencies</id>
 				<content type="html"><![CDATA[<p>Bruce Lawson is dead-on with his critique of <a href="https://lists.w3.org/Archives/Public/public-webapps/2015AprJun/0225.html">Apple’s feedback on Web Components</a>:</p>
 
@@ -139,7 +141,7 @@
 			<entry>
 				<title type="html"><![CDATA[More Weight Doesn’t Mean More Wait]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/weight-wait/"/>
-				<updated>2015-04-22T09:52:08-04:00</updated>
+				<updated>2015-04-22T06:52:08-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/weight-wait</id>
 				<content type="html"><![CDATA[<p>This is a brilliant post from <a href="https://twitter.com/scottjehl">Scott Jehl</a> about optimizing page render by getting particular about how (and when) certain assets load. He uses the real-world site Wired as a test bed for putting the ideas into practice, cutting perceived load time by a full 8.5 seconds!</p>
 <p><a rel="full-article" href="http://www.filamentgroup.com/lab/weight-wait.html">Read on Filament Group&nbsp;&rarr;</a></p>]]></content>
@@ -150,7 +152,7 @@
 			<entry>
 				<title type="html"><![CDATA[The DOM Is NOT Slow, Your Abstraction Is]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/the-dom-is-not-slow-your-abstraction-is/"/>
-				<updated>2015-04-22T09:36:28-04:00</updated>
+				<updated>2015-04-22T06:36:28-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/the-dom-is-not-slow-your-abstraction-is</id>
 				<content type="html"><![CDATA[<p>Abstraction can be helpful, but it also complicates things and leads to slower performance. <a href="https://twitter.com/WebReflection">Andrea Giammarchi</a> provides lots of details here in examining a complex app scenario with the good old fashioned DOM vs. a handful of frameworks. Bonus points for the fact that most of the video evidence tests are being run on non-iOS devices!</p>
 
@@ -167,7 +169,7 @@
 			<entry>
 				<title type="html"><![CDATA[What Nobody Tells You About Will-change]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/what-nobody-tells-you-about-will-change/"/>
-				<updated>2015-04-13T12:22:36-04:00</updated>
+				<updated>2015-04-13T09:22:36-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/what-nobody-tells-you-about-will-change</id>
 				<content type="html"><![CDATA[<p>Interesting insights from <a href="https://twitter.com/thierrykoblentz">Thierry Koblentz</a> on the unintended consequences of using <code>will-change</code> to identify elements likely to change in the interface.</p>
 <p><a rel="full-article" href="http://cssmojo.com/the-dark-side-of-the-will-change-property/">Read on CSS Mojo&nbsp;&rarr;</a></p>]]></content>
@@ -178,7 +180,7 @@
 			<entry>
 				<title type="html"><![CDATA[Becoming Design-Infused: 2 Necessary Mutations to Organizational DNA]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/becoming-design-infused-2-necessary-mutations-to-organizational-dna/"/>
-				<updated>2015-04-10T15:22:56-04:00</updated>
+				<updated>2015-04-10T12:22:56-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/becoming-design-infused-2-necessary-mutations-to-organizational-dna</id>
 				<content type="html"><![CDATA[<p>A beautifully insightful piece from Jared Spool. Lots of gold in here.</p>
 
@@ -191,7 +193,7 @@
 			<entry>
 				<title type="html"><![CDATA[How to Write Cleaner CSS and Smarter SASS]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/how-to-write-cleaner-css-and-smarter-sass/"/>
-				<updated>2015-04-10T14:57:29-04:00</updated>
+				<updated>2015-04-10T11:57:29-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/how-to-write-cleaner-css-and-smarter-sass</id>
 				<content type="html"><![CDATA[<p>A few thoughts on cleaner Sass output from <a href="http://twitter.com/@adispezio">Anthony Dispezio</a>. He secret? Using generic mixins in concert with <code>@extend</code>.</p>
 <p><a rel="full-article" href="http://www.creativebloq.com/web-design/how-write-cleaner-css-and-smarter-sass-41514637">Read on Creative Bloq&nbsp;&rarr;</a></p>]]></content>
@@ -202,7 +204,7 @@
 			<entry>
 				<title type="html"><![CDATA[Locking the Web Open: Rethinking the World Wide Web]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/locking-the-web-open-rethinking-the-world-wide-web/"/>
-				<updated>2015-04-10T14:51:46-04:00</updated>
+				<updated>2015-04-10T11:51:46-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/locking-the-web-open-rethinking-the-world-wide-web</id>
 				<content type="html"><![CDATA[<p>Hmm… distribute the Web for endurance and longevity and make it private through <a href="https://en.bitcoin.it/wiki/Block_chain">blockchain</a>-esque encryption. It’s an interesting idea, but I don’t know that Marketing will go for it.</p>
 <p><a rel="full-article" href="http://thenextweb.com/insider/2015/04/10/locking-the-web-open-why-we-need-to-rethink-the-world-wide-web/">Read on The Next Web&nbsp;&rarr;</a></p>]]></content>
@@ -213,7 +215,7 @@
 			<entry>
 				<title type="html"><![CDATA[The Failed Promise of Deep Links]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/the-failed-promise-of-deep-links/"/>
-				<updated>2015-04-09T17:58:21-04:00</updated>
+				<updated>2015-04-09T14:58:21-07:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/the-failed-promise-of-deep-links</id>
 				<content type="html"><![CDATA[<p>A beautiful piece on what it means to be a link and what they mean to us.</p>
 
@@ -222,19 +224,6 @@
 			</entry>
 		
 	
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[15 Years of Dao]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/15-years-of-dao/"/>
-				<updated>2015-04-07T10:36:35-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/15-years-of-dao</id>
-				<content type="html"><![CDATA[<p>So many nice words about such an important piece about the Web. My humble contribution:</p>
-
-<blockquote><p>John’s piece came three years before Steve Champeon coined the term “progressive enhancement,” but it clearly and succinctly outlined its philosophy: “Make pages which are accessible, regardless of the browser, platform or screen that your reader chooses or must use to access your pages.” His insights—published a mere decade after the invention of the medium—still influence the work I do to this day.</p></blockquote>
-<p><a rel="full-article" href="http://alistapart.com/blog/post/15-years-of-dao">Read on A List Apart&nbsp;&rarr;</a></p>]]></content>
-			</entry>
 		
 	
 </feed>

@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-05-03T16:40:59-04:00</updated>
+  <updated>2015-05-05T17:08:50-07:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -14,9 +14,28 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Lessons Learned From Atari]]></title>
+    <link href="http://www.aaron-gustafson.com/notebook/lessons-learned%20from-atari/"/>
+    <updated>2015-05-05T15:05:40-07:00</updated>
+    <id>http://www.aaron-gustafson.com/notebook/lessons-learned from-atari</id>
+    <content type="html"><![CDATA[<p>In watching <a href="http://www.slashfilm.com/watch-atari-game-over/"><cite>Atari: Game Over</cite></a>, I couldn&rsquo;t help but see all of the parallels between the early video game industry and the web design industry. The boys’ club… Engineers as rockstars… It&rsquo;s a tale of a meteoric commercial rise followed by a swift and dismal collapse.</p>
+
+<p>The film centers around the urban legend of millions of <cite>E.T. The Videogame</cite> cartridges being buried in a landfill in New Mexico as Atari burying it&rsquo;s shame over producing such a bad video game. Many cite <cite>E.T. The Videogame</cite> as the reason for the collapse of the industry in 1983, but it wasn&rsquo;t the case.</p>
+
+<p>Xbox co-creator <a href="https://twitter.com/seamusblackley">Seamus Blackley</a> offered this:</p>
+
+<blockquote><p>The behavior patterns that created the conditions for the E.T. failure is what destroyed the video game industry.</p></blockquote>
+
+<p>The behavior patterns in question: greed; ridiculous timelines (E.T. was conceived and programmed in 5 weeks by one man: <a href="http://en.wikipedia.org/wiki/Howard_Scott_Warshaw">Howard Scott Warshaw</a>); and hubris.</p>
+
+<p>There are a lot of parallels with the Silicon Valley of today. Food for thought.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Collected Reactions to //build/]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/collected-reactions-to-build/"/>
-    <updated>2015-04-30T10:53:11-04:00</updated>
+    <updated>2015-04-30T07:53:11-07:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/collected-reactions-to-build</id>
     <content type="html"><![CDATA[<p>I may work for Microsoft, but I don’t know everything that’s going on across the company. It’s big and I don’t have that kind of time.</p>
 
@@ -56,7 +75,7 @@ A deeper analysis of Microsoft’s play for more developer (and consumer) mindsh
   <entry>
     <title type="html"><![CDATA[Tips for Surviving Google’s “Mobilegeddon”]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/tips-for-surviving-googles-mobilegeddon/"/>
-    <updated>2015-04-21T09:10:12-04:00</updated>
+    <updated>2015-04-21T06:10:12-07:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/tips-for-surviving-googles-mobilegeddon</id>
     <content type="html"><![CDATA[<p>Today is the day <a href="http://www.economist.com/news/business-and-finance/21648947-worlds-biggest-search-engine-shakes-up-its-algorithms-mobilegeddon">Google updates it algorithm to take into account mobile-friendliness</a>. Here are a few tips that will help you embrace mobile without tearing your hair out.</p>
 
@@ -106,7 +125,7 @@ A deeper analysis of Microsoft’s play for more developer (and consumer) mindsh
   <entry>
     <title type="html"><![CDATA[#HonoringWebFolk]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/honoringwebfolk/"/>
-    <updated>2015-04-09T15:05:21-04:00</updated>
+    <updated>2015-04-09T12:05:21-07:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/honoringwebfolk</id>
     <content type="html"><![CDATA[<p>A lot of folks have helped me on the way to becoming the web professional that I am. When <a href="https://twitter.com/mollydotcom/status/586187780113309697">Molly declared today &ldquo;Unsung Leaders of the Web Day&rdquo;</a>, I had to join in.</p>
 
@@ -148,7 +167,7 @@ A deeper analysis of Microsoft’s play for more developer (and consumer) mindsh
   <entry>
     <title type="html"><![CDATA[How to Apply Progressive Enhancement When JavaScript Seems Like a Requirement]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/how-to-apply-progressive-enhancement-when-javascript-seems-like-a-requirement/"/>
-    <updated>2015-04-02T10:14:40-04:00</updated>
+    <updated>2015-04-02T07:14:40-07:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/how-to-apply-progressive-enhancement-when-javascript-seems-like-a-requirement</id>
     <content type="html"><![CDATA[<p>On Stack Overflow last week, <a href="http://stackoverflow.com/users/4719194/jamham">JamHam</a> asked how to apply progressive enhancement in interfaces that seem to require JavaScript. Unfortunately he deleted the question before I could post my response, so I thought I would post it all here for posterity.</p>
 
@@ -194,270 +213,6 @@ WebSockets) stuff pretty much depends on JavaScript, with &lsquo;messages&rsquo;
 <p>Obviously with JavaScript enabled, you’d probably throw away that <code>iframe</code>, but the rest of the setup (including the templates for displaying the messages) could certainly be reused with WebSockets.</p></blockquote>
 
 <p>I hope this helps. Progressive enhancement may seem like a huge challenge, but when you take a few moments to think about how we handled these challenges in the past, the way forward becomes clear.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Playing With Flexbox and Quantity Queries]]></title>
-    <link href="http://www.aaron-gustafson.com/notebook/playing-with-flexbox-and-quantity-queries/"/>
-    <updated>2015-03-26T14:44:24-04:00</updated>
-    <id>http://www.aaron-gustafson.com/notebook/playing-with-flexbox-and-quantity-queries</id>
-    <content type="html"><![CDATA[<p>Ever since reading <a href="http://twitter.com/heydonworks">Haydon Pickering</a>’s <a href="http://alistapart.com/article/quantity-queries-for-css">piece on quantity queries</a>, I’ve been musing over the possibilities for layout. I decided I to play around with them a bit on this site as it’s been a while since I’ve tweaked the design. Being that I wanted to experiment, I thought this would be a fun time to tuck into <a href="http://www.w3.org/TR/css-flexbox-1/">Flexbox</a> a bit more as well.</p>
-
-<!-- more -->
-
-
-<p>Here’s a brief overview of the project:</p>
-
-<p><strong>The Candidate</strong>: My <a href="/speaking-engagements/">speaking engagements</a> page.<br>
-<strong>The Challenge</strong>: The &ldquo;Future&rdquo; list will grow and shrink as I book things, so I never know how many will be there. The &ldquo;Past&rdquo; list will also grow, but I am less interested in getting crazy with that.<br>
-<strong>The Idea</strong>: A grid layout that flexes to visually highlight 1-2 upcoming future events and allows the others to flow in at the default grid size. It should be set up to handle everything from a single future event to a dozen or more.</p>
-
-<p><figure id="2015-03-26-1" class="media-container"></p>
-
-<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2015-03-26/the-idea-sm.jpg"
-     srcset="/i/posts/2015-03-26/the-idea-lg.jpg 1024w, /i/posts/2015-03-26/the-idea-md.jpg 600w, /i/posts/2015-03-26/the-idea-sm.jpg 320w"
-     alt=""&gt;
-&lt;figcaption&gt;
-    &lt;p&gt;My sketch of the idea.&lt;/p&gt;
-&lt;/figcaption&gt;
-</code></pre>
-
-<p></figure></p>
-
-<p>The markup pattern was pretty simple. It’s just a list of events:</p>
-
-<p><div><script src='https://gist.github.com/597284affc88b9084cf3.js?file=markup.html'></script>
-<noscript><pre><code>&lt;ul class=&quot;listing listing--events&quot;&gt;
-  &lt;li class=&quot;listing__item listing__item--1 event event--future&quot;&gt;
-    &lt;!-- content --&gt;
-  &lt;/li&gt;
-  &lt;!-- lis continue --&gt;
-&lt;/ul&gt;</code></pre></noscript></div>
-</p>
-
-<p>With that in place, I got to work.</p>
-
-<h2>Single File</h2>
-
-<p>To set the stage, I started with some basic Flexbox syntax<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> by handling the container and the basic full-width small screen view:</p>
-
-<p><div><script src='https://gist.github.com/597284affc88b9084cf3.js?file=first-pass.css'></script>
-<noscript><pre><code>.listing--events {
-  display: flex;
-}
-
-.event {
-  box-sizing: border-box;
-  padding: 1.25rem; /* 20px padding */
-  margin: 0 0 1.25rem 0; /* 20px bottom margin */
-  flex: 0 0 100%;
-}</code></pre></noscript></div>
-</p>
-
-<p>You may be wondering where all of the experimental style rules are. I use <a href="https://github.com/postcss/autoprefixer">Autoprefixer</a> to handle the experimental property inclusion/trans-compilation so I can keep my CSS clean and standards-based.</p>
-
-<p>This simple CSS gives you exactly what you’d expect: a vertical list of events, separated by 20px worth of space.</p>
-
-<p><figure id="2015-03-26-2" class="media-container"></p>
-
-<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2015-03-26/first-pass.jpg"
-     srcset="/i/posts/2015-03-26/first-pass-lg.jpg 1024w, /i/posts/2015-03-26/first-pass-md.jpg 600w, /i/posts/2015-03-26/first-pass-sm.jpg 320w"
-     alt=""&gt;
-</code></pre>
-
-<p></figure></p>
-
-<h2>Two by Two</h2>
-
-<p>Next up, I tackled the first breakpoint at 28.75em:</p>
-
-<p><div><script src='https://gist.github.com/597284affc88b9084cf3.js?file=second-pass.css'></script>
-<noscript><pre><code>.listing--events {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: stretch;
-}
-
-.event {
-  box-sizing: border-box;
-  padding: 1.25rem; /* 20px */
-  margin: 0 0 1.25rem 0; /* 20px v */
-  flex: 0 0 100%;
-}
-
-@media only screen and (min-width: 28.75em) {
-  
-  /* 20px gap divided by 2 events per row */
-  .event {
-    flex: 0 0 calc( 50% - 1.25rem / 2 );
-    margin-left: 1.25rem; /* 20px &lt; */
-  }
-  
-  /* Remove left margin for row starters */
-  .event:nth-child(odd) {
-    margin-left: 0;
-  }
-  
-  /* Reset margins on &quot;future&quot; events
-     &amp; remove the correct one */
-  .event--future:nth-child(odd) {
-    margin-left: 1.25rem;
-  }
-  .event--future:nth-child(even) {
-    margin-left: 0;
-  }
-  
-  /* Quantity Query - when more than 1,
-     make the first span both columns  */
-  .event--future:nth-last-child(n+1):first-child {
-    flex: 0 0 100%;
-    font-size: 1.5em;
-    margin-left: 0;
-  }
-  
-}</code></pre></noscript></div>
-</p>
-
-<p>In this pass, I set up the event blocks to fill 50% of the parent container (well, 50% minus the 1.25rem gutter between them, using <a href="http://www.w3.org/TR/css3-values/#calc"><code>calc()</code></a>).<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> In order to make the children wrap to form rows, I set <code>flex-wrap: wrap</code> on the list (<code>.listing--events</code>). Then, to make the children all equal heights across each row, I set <code>align-items: stretch</code>. The gutter space was achieved via left margins on all events save the row starters (<code>.event:nth-child(odd)</code>).</p>
-
-<p>It’s worth noting that in the full page I have two sets of event listings: one past and one future. The &ldquo;event&rdquo; <code>class</code> is used in all instances. The modified &ldquo;future&rdquo; <code>class</code> is added to events that have not happened yet.</p>
-
-<p>Then I used a quantity query to select the first future event when there is more than one in the list (line 38) and set it span 100% of the parent width. To keep the gutters accurate, I also swapped where the margins were applied, adding the margin back to <code>.event--future:nth-child(odd)</code> and removing it from <code>.event--future:nth-child(even)</code>.</p>
-
-<p><figure id="2015-03-26-3" class="media-container"></p>
-
-<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2015-03-26/second-pass-sm.jpg"
-     srcset="/i/posts/2015-03-26/second-pass-lg.jpg 1024w, /i/posts/2015-03-26/second-pass-md.jpg 600w, /i/posts/2015-03-26/second-pass-sm.jpg 320w"
-     alt=""&gt;
-</code></pre>
-
-<p></figure></p>
-
-<h2>Three’s a Crowd</h2>
-
-<p>Finally, I could tackle the third and most complicated layout. Things seemed to get a little wide around 690px, so I set the breakpoint to 43.125em.</p>
-
-<p><div><script src='https://gist.github.com/597284affc88b9084cf3.js?file=third-pass.css'></script>
-<noscript><pre><code>.listing--events {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: stretch;
-}
-
-.event {
-  box-sizing: border-box;
-  padding: 1.25rem; /* 20px */
-  margin: 0 0 1.25rem 0; /* 20px v */
-  flex: 0 0 100%;
-}
-
-@media only screen and (min-width: 28.75em) {
-  
-  /* 20px gap divided by 2 events per row */
-  .event {
-    flex: 0 0 calc( 50% - 1.25rem / 2 );
-    margin-left: 1.25rem; /* 20px &lt; */
-  }
-  
-  /* Remove left margin for row starters */
-  .event:nth-child(odd) {
-    margin-left: 0;
-  }
-  
-  /* Reset margins on &quot;future&quot; events
-     &amp; remove the correct one */
-  .event--future:nth-child(odd) {
-    margin-left: 1.25rem;
-  }
-  .event--future:nth-child(even) {
-    margin-left: 0;
-  }
-  
-  /* Quantity Query - when more than 1,
-     make the first span both columns  */
-  .event--future:nth-last-child(n+1):first-child {
-    flex: 0 0 100%;
-    font-size: 1.5em;
-    margin-left: 0;
-  }
-  
-}
-
-@media only screen and (min-width: 43.125em) {
-
-  /* 1/3 width with 20px gutter */
-  .event {
-    flex: 0 0 calc( 100% / 3 - .875rem );
-  }
-
-  /* Reset margins */
-  .event:nth-child(even),
-  .event:nth-child(odd) {
-    margin-left: 1.25rem;
-  }
-  /* Normal Grid margin removal */
-  .event:nth-child(3n+1) {
-    margin-left: 0;
-  }
-  
-  /* Correct margins for the future events */
-  .event--future:nth-child(3n+1) {
-    margin-left: 1.25rem;
-  }
-  
-  /* Quantity Query - when more than 2,
-     make the first 2 go 50%  */
-  .event--future:nth-last-child(n+2):first-child, 
-  .event--future:nth-last-child(n+2):first-child + .event--future {
-    flex: 0 0 calc( 50% - 1.25rem / 2 );
-    font-size: 1.5em;
-  }
-  
-  /* Quantity + nth for margin removal */
-  .event--future:nth-last-child(n+2):first-child ~ .event--future:nth-child(3n) {
-    margin-left: 0;
-  }
-  
-}</code></pre></noscript></div>
-</p>
-
-<p>In this final pass, I used a slightly more complicated calculation to set the width of each child to 1/3 of the parent minus the gutters between them (100% / 3 &ndash; 0.875rem).</p>
-
-<p>If you’re paying close attention, you might wonder why the gutter being used in the calculation is 0.875rem rather than the full 1.25rem. Well, the reason is (as best I can surmise) rounding. In order to get the flex width to fill the parent without causing a wrap, 14px (0.875rem) seemed to be the magic number.</p>
-
-<p>It’s worth noting that if I allowed the event to grow (using <code>flex-grow: 1</code> or its equivalent in the shorthand), the column would fill in perfectly, but the last row would always be filled completely too. You could end up with two events in the last row being 50% wide each or a single event being 100% wide, which I didn’t want. I wanted them all to be equal width with the exception of the first 2. Setting <code>flex</code> as I did allowed that to happen.</p>
-
-<p>I went ahead and reset the standard margins for events as well (on both <code>.event:nth-child(even)</code> and <code>.event:nth-child(odd)</code>). And then I turned off the margins on the first of every group of three events using <code>.event:nth-child(3n+1)</code>.</p>
-
-<p>With that in place, I went to work on the future events, resetting the margins there as well. Then I used a quantity query (lines 70-71) to select the first two members when the list is more than 2 and set them to be 50% of the parent width minus the gutter.</p>
-
-<p>To handle the margins in the quantity query instance, I added all the margins back (line 64) and then removed the left margins from the new row starters (line 77).</p>
-
-<p><figure id="2015-03-26-4" class="media-container"></p>
-
-<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2015-03-26/third-pass-sm.jpg"
-     srcset="/i/posts/2015-03-26/third-pass-lg.jpg 1024w, /i/posts/2015-03-26/third-pass-md.jpg 600w, /i/posts/2015-03-26/third-pass-sm.jpg 320w"
-     alt=""&gt;
-</code></pre>
-
-<p></figure></p>
-
-<h2>Ta-da!</h2>
-
-<p>And there you have it. In about 80 lines of very generously spaced and commented CSS, we’ve got a flexible grid-based Flexbox layout with visual enhancements injected via quantity queries. I’m sure I’ll continue to tinker, but I’m pretty happy with the results so far.</p>
-
-<p>You can view <a href="/speaking-engagements/">the final page of course</a> (or <a href="https://www.youtube.com/watch?v=V20wuGM2tzU">watch a video of the interaction</a>), but I also created a <a href="http://codepen.io/aarongustafson/pen/VYRZBP">distilled demo on Codepen for you to play with</a>.</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>If you aren’t familiar with Flexbox, <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS Tricks has a great cheatsheet</a>.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-<li id="fn:2">
-<p>Interestingly, the support matrices for <a href="http://caniuse.com/#feat=calc"><code>calc()</code></a> and <a href="http://caniuse.com/#feat=flexbox">Flexbox</a> are pretty well aligned.<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
-
 ]]></content>
   </entry>
   
