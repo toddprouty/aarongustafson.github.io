@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-05-05T17:12:04-07:00</updated>
+	<updated>2015-05-05T17:18:00-07:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,8 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
 	
 		
 	
@@ -23,7 +25,7 @@
 				<content type="html"><![CDATA[<p>This is a fantastic presentation from <a href="https://twitter.com/pattytoland">Patty Toland</a> (of <a href="http://www.filamentgroup.com/">Filament Group</a>), given at the Smashing Conference in Santa Monica.</p>
 
 <figure class="video-embed video-embed--16x9">  
-<iframe class="video-embed__video" src="https://docs.google.com/presentation/embed?id=1Fh7bZne2lEffUxI2cL6gaqdayNm3tv6_6d_mmSdOkiE&amp;start=false&amp;loop=false&amp;" frameborder="0"></iframe>  
+<iframe class="video-embed__video" src="//www.slideshare.net/slideshow/embed_code/key/H1xKkpN0KIoXq3"></iframe>  
 </figure>
 
 <p><a rel="full-article" href="https://docs.google.com/presentation/d/1Fh7bZne2lEffUxI2cL6gaqdayNm3tv6_6d_mmSdOkiE/edit">Read on Google Slides&nbsp;&rarr;</a></p>]]></content>
@@ -222,8 +224,6 @@
 <blockquote><p>In the ‘90s, we got tired of systems like Compuserve, AOL and Prodigy that wouldn’t play together nicely and only let us play in pre-approved ways. We might similarly grow disenchanted with apps that don’t connect easily, or only connect in ways that we can’t shape.</p></blockquote>
 <p><a rel="full-article" href="https://medium.com/backchannel/the-failed-promise-of-deep-links-aa307b3abaa5">Read on Medium&nbsp;&rarr;</a></p>]]></content>
 			</entry>
-		
-	
 		
 	
 </feed>

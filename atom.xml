@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-05-05T17:12:04-07:00</updated>
+	<updated>2015-05-05T17:18:00-07:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,27 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Slides From My Talk at #msEdgeSummit]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/slides-from-my-talk-at-number-msedgesummit/"/>
+				<updated>2015-05-05T17:14:00-07:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/slides-from-my-talk-at-number-msedgesummit</id>
+				<content type="html"><![CDATA[<p>I just came off stage from my talk at the <a href="http://devchannel.modern.ie/websummit2015">Microsoft Edge Web Summit</a> and I wanted to share the deck with you. The talk was live-streamed, but I will post a video link as soon as it is up.</p>
+
+<!-- more -->
+
+
+
+
+<figure class="video-embed video-embed--16x9">  
+<iframe class="video-embed__video" src="//www.slideshare.net/slideshow/embed_code/key/H1xKkpN0KIoXq3"></iframe>  
+</figure>
+
+]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -45,7 +66,7 @@
 				<content type="html"><![CDATA[<p>This is a fantastic presentation from <a href="https://twitter.com/pattytoland">Patty Toland</a> (of <a href="http://www.filamentgroup.com/">Filament Group</a>), given at the Smashing Conference in Santa Monica.</p>
 
 <figure class="video-embed video-embed--16x9">  
-<iframe class="video-embed__video" src="https://docs.google.com/presentation/embed?id=1Fh7bZne2lEffUxI2cL6gaqdayNm3tv6_6d_mmSdOkiE&amp;start=false&amp;loop=false&amp;" frameborder="0"></iframe>  
+<iframe class="video-embed__video" src="//www.slideshare.net/slideshow/embed_code/key/H1xKkpN0KIoXq3"></iframe>  
 </figure>
 
 <p><a rel="full-article" href="https://docs.google.com/presentation/d/1Fh7bZne2lEffUxI2cL6gaqdayNm3tv6_6d_mmSdOkiE/edit">Read on Google Slides&nbsp;&rarr;</a></p>]]></content>
@@ -358,106 +379,6 @@ A deeper analysis of Microsoft’s play for more developer (and consumer) mindsh
 
 <blockquote><p>In the ‘90s, we got tired of systems like Compuserve, AOL and Prodigy that wouldn’t play together nicely and only let us play in pre-approved ways. We might similarly grow disenchanted with apps that don’t connect easily, or only connect in ways that we can’t shape.</p></blockquote>
 <p><a rel="full-article" href="https://medium.com/backchannel/the-failed-promise-of-deep-links-aa307b3abaa5">Read on Medium&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[#HonoringWebFolk]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/honoringwebfolk/"/>
-				<updated>2015-04-09T12:05:21-07:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/honoringwebfolk</id>
-				<content type="html"><![CDATA[<p>A lot of folks have helped me on the way to becoming the web professional that I am. When <a href="https://twitter.com/mollydotcom/status/586187780113309697">Molly declared today &ldquo;Unsung Leaders of the Web Day&rdquo;</a>, I had to join in.</p>
-
-<!-- more -->
-
-
-
-
-<div class='embed tweet'><blockquote class="twitter-tweet"><p><a href="https://twitter.com/hashtag/HonoringWebFolk?src=hash">#HonoringWebFolk</a>: <a href="https://twitter.com/mollydotcom">@mollydotcom</a> inspired me to be a better speaker</p>&mdash; Aaron Gustafson (@AaronGustafson) <a href="https://twitter.com/AaronGustafson/status/586230733070589952">April 9, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-
-
-
-
-<div class='embed tweet'><blockquote class="twitter-tweet"><p><a href="https://twitter.com/hashtag/HonoringWebFolk?src=hash">#HonoringWebFolk</a>: <a href="https://twitter.com/zeldman">@zeldman</a> inspired me to be a better writer.</p>&mdash; Aaron Gustafson (@AaronGustafson) <a href="https://twitter.com/AaronGustafson/status/586230809260118016">April 9, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-
-
-
-
-<div class='embed tweet'><blockquote class="twitter-tweet"><p><a href="https://twitter.com/hashtag/HonoringWebFolk?src=hash">#HonoringWebFolk</a>: <a href="https://twitter.com/meyerweb">@meyerweb</a> inspired me to learn everything I could about CSS.</p>&mdash; Aaron Gustafson (@AaronGustafson) <a href="https://twitter.com/AaronGustafson/status/586230934002868224">April 9, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-
-
-
-
-<div class='embed tweet'><blockquote class="twitter-tweet"><p><a href="https://twitter.com/hashtag/HonoringWebFolk?src=hash">#HonoringWebFolk</a>: <a href="https://twitter.com/t">@t</a> and <a href="https://twitter.com/toddfahrner">@toddfahrner</a> inspired me to learn more about fault tolerance and to explore how browsers work.</p>&mdash; Aaron Gustafson (@AaronGustafson) <a href="https://twitter.com/AaronGustafson/status/586231311112732673">April 9, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-
-
-
-
-<div class='embed tweet'><blockquote class="twitter-tweet"><p><a href="https://twitter.com/hashtag/HonoringWebFolk?src=hash">#HonoringWebFolk</a>: <a href="https://twitter.com/adactio">@adactio</a>, <a href="https://twitter.com/sil">@sil</a>, <a href="https://twitter.com/codepo8">@codepo8</a>, <a href="https://twitter.com/slicknet">@slicknet</a>, <a href="https://twitter.com/themaninblue">@themaninblue</a> and <a href="https://twitter.com/ded">@ded</a> inspired me to push my JavaScript skills further.</p>&mdash; Aaron Gustafson (@AaronGustafson) <a href="https://twitter.com/AaronGustafson/status/586232004758401024">April 9, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-
-
-
-
-<div class='embed tweet'><blockquote class="twitter-tweet"><p><a href="https://twitter.com/hashtag/HonoringWebFolk?src=hash">#HonoringWebFolk</a>: <a href="https://twitter.com/timberners_lee">@timberners_lee</a> Gave us the World Wide Web!</p>&mdash; Aaron Gustafson (@AaronGustafson) <a href="https://twitter.com/AaronGustafson/status/586232210962964480">April 9, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-
-
-
-
-<div class='embed tweet'><blockquote class="twitter-tweet"><p><a href="https://twitter.com/hashtag/HonoringWebFolk?src=hash">#HonoringWebFolk</a>: <a href="https://twitter.com/wasp">@WaSP</a> (RIP) helped me see <a href="https://twitter.com/hashtag/webstandards?src=hash">#webstandards</a> were the way forward.</p>&mdash; Aaron Gustafson (@AaronGustafson) <a href="https://twitter.com/AaronGustafson/status/586233092664328192">April 9, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-
-
-
-
-<div class='embed tweet'><blockquote class="twitter-tweet"><p><a href="https://twitter.com/hashtag/HonoringWebFolk?src=hash">#HonoringWebFolk</a>: <a href="https://twitter.com/bobulate">@bobulate</a>, <a href="https://twitter.com/go2girl">@go2girl</a>, <a href="https://twitter.com/sniffles">@sniffles</a>, and <a href="https://twitter.com/sarahbeee">@sarahbeee</a> heavily influenced my approach to UX.</p>&mdash; Aaron Gustafson (@AaronGustafson) <a href="https://twitter.com/AaronGustafson/status/586245380368691200">April 9, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-
-
-
-
-<div class='embed tweet'><blockquote class="twitter-tweet"><p><a href="https://twitter.com/hashtag/HonoringWebFolk?src=hash">#HonoringWebFolk</a>: <a href="https://twitter.com/mezzoblue">@mezzoblue</a> (and the CSS Zen Garden contributors) inspired me with the power of CSS and showed me that anything is possible</p>&mdash; Aaron Gustafson (@AaronGustafson) <a href="https://twitter.com/AaronGustafson/status/586245773089734659">April 9, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-
-
-
-
-<div class='embed tweet'><blockquote class="twitter-tweet"><p><a href="https://twitter.com/hashtag/HonoringWebFolk?src=hash">#HonoringWebFolk</a>: <a href="https://twitter.com/cameronmoll">@cameronmoll</a> for getting me to take this whole “mobile” thing seriously, way back in ’07. <a href="http://t.co/SvYL98kZzn">pic.twitter.com/SvYL98kZzn</a></p>&mdash; Aaron Gustafson (@AaronGustafson) <a href="https://twitter.com/AaronGustafson/status/586282730805194752">April 9, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-
-
-
-
-<div class='embed tweet'><blockquote class="twitter-tweet"><p><a href="https://twitter.com/hashtag/HonoringWebFolk?src=hash">#HonoringWebFolk</a>: And <a href="https://twitter.com/cameronmoll">@cameronmoll</a> again for the inspiration to make a beautiful self-published book.</p>&mdash; Aaron Gustafson (@AaronGustafson) <a href="https://twitter.com/AaronGustafson/status/586282944572055553">April 9, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-
-
-
-
-<div class='embed tweet'><blockquote class="twitter-tweet"><p><a href="https://twitter.com/hashtag/HonoringWebFolk?src=hash">#HonoringWebFolk</a>: <a href="https://twitter.com/obiwankimberly">@obiwankimberly</a> inspired me to be a better leader.</p>&mdash; Aaron Gustafson (@AaronGustafson) <a href="https://twitter.com/AaronGustafson/status/586233397791629314">April 9, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-
-
-
-
-<div class='embed tweet'><blockquote class="twitter-tweet"><p><a href="https://twitter.com/hashtag/HonoringWebFolk?src=hash">#HonoringWebFolk</a>: <a href="https://twitter.com/goodwitch">@goodwitch</a> inspired me to be a better person.</p>&mdash; Aaron Gustafson (@AaronGustafson) <a href="https://twitter.com/AaronGustafson/status/586233486081662976">April 9, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-
-
-
-
-<div class='embed tweet'><blockquote class="twitter-tweet"><p><a href="https://twitter.com/hashtag/HonoringWebFolk?src=hash">#HonoringWebFolk</a>: And you, the Web community, inspire me every day to make the Web more inclusive, accessible, and open to all people.</p>&mdash; Aaron Gustafson (@AaronGustafson) <a href="https://twitter.com/AaronGustafson/status/586233939708276737">April 9, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-
-
-<p>For more honorees, be sure to check out <a href="https://twitter.com/hashtag/HonoringWebFolk?src=hash">the other responses in the thread</a>.</p>
-]]></content>
 			</entry>
 		
 	

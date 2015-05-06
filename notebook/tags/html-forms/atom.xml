@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Browse by Tag: Html Forms | Aaron Gustafson]]></title>
+  <link href="http://www.aaron-gustafson.com/notebook/tags/html-forms/atom.xml" rel="self"/>
+  <link href="http://www.aaron-gustafson.com/"/>
+  <updated>2015-05-05T17:18:00-07:00</updated>
+  <id>http://www.aaron-gustafson.com/</id>
+  <author>
+    <name><![CDATA[Aaron Gustafson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Slides From My Talk at #msEdgeSummit]]></title>
+    <link href="http://www.aaron-gustafson.com/notebook/slides-from-my-talk-at-number-msedgesummit/"/>
+    <updated>2015-05-05T17:14:00-07:00</updated>
+    <id>http://www.aaron-gustafson.com/notebook/slides-from-my-talk-at-number-msedgesummit</id>
+    <content type="html"><![CDATA[<p>I just came off stage from my talk at the <a href="http://devchannel.modern.ie/websummit2015">Microsoft Edge Web Summit</a> and I wanted to share the deck with you. The talk was live-streamed, but I will post a video link as soon as it is up.</p>
+
+<!-- more -->
+
+
+<p><figure class="video-embed video-embed--16x9"></p>
+
+<iframe class="video-embed__video" src="//www.slideshare.net/slideshow/embed_code/key/H1xKkpN0KIoXq3"></iframe>
+
+
+<p>
+</figure></p>
+]]></content>
+  </entry>
+  
+</feed>
