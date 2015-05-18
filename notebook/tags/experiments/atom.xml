@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Experiments | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/experiments/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-05-06T10:43:24-07:00</updated>
+  <updated>2015-05-18T14:56:56-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Playing With Flexbox and Quantity Queries]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/playing-with-flexbox-and-quantity-queries/"/>
-    <updated>2015-03-26T11:44:24-07:00</updated>
+    <updated>2015-03-26T14:44:24-04:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/playing-with-flexbox-and-quantity-queries</id>
     <content type="html"><![CDATA[<p>Ever since reading <a href="http://twitter.com/heydonworks">Haydon Pickering</a>’s <a href="http://alistapart.com/article/quantity-queries-for-css">piece on quantity queries</a>, I’ve been musing over the possibilities for layout. I decided I to play around with them a bit on this site as it’s been a while since I’ve tweaked the design. Being that I wanted to experiment, I thought this would be a fun time to tuck into <a href="http://www.w3.org/TR/css-flexbox-1/">Flexbox</a> a bit more as well.</p>
 

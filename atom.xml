@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-05-06T10:43:24-07:00</updated>
+	<updated>2015-05-18T14:56:56-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -14,9 +14,119 @@
 	
 		
 			<entry>
+				<title type="html"><![CDATA[URL Inception]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/url-inception/"/>
+				<updated>2015-05-18T14:38:29-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/url-inception</id>
+				<content type="html"><![CDATA[<p>It’s like a snake eating its own tail:</p>
+
+<pre><code>https://m.facebook.com/ClydesOnMain?refsrc=https%3A%2F%2Fwww.facebook.com%2FClydesOnMain#!/ClydesOnMain?refsrc=https%3A%2F%2Fwww.facebook.com%2FClydesOnMain
+</code></pre>
+
+<p>Wonder what’s going on? Well, Facebook’s mobile site (<code>m.facebook.com/ClydesOnMain</code>) is tracking the URL (using the <code>refsrc</code> GET parameter) I came from (<code>www.facebook.com/ClydesOnMain#!/ClydesOnMain</code>)—a single page &ldquo;web app&rdquo;, hence the hash-bang: <code>#!</code>—that was tracking the original referral page (<code>www.facebook.com/ClydesOnMain</code>).</p>
+
+<p>I hope they got all that.</p>
+]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Testing the 12-inch MacBook’s Performance With Windows 10]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/12_inch_macbook_and_windows_10/"/>
+				<updated>2015-05-18T00:01:53-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/12_inch_macbook_and_windows_10</id>
+				<content type="html"><![CDATA[<p>This was in interesting read from <a href="https://twitter.com/Alex_V_King">Alex King</a>. My favorite quote?</p>
+
+<blockquote><p>[I]t&rsquo;s ironic that in some regards, the new MacBook runs Windows 10 (a prerelease version, at that) better than it runs OS X. But it&rsquo;s a testament to two things: Apple&rsquo;s fantastic MacBook hardware, which is forward-thinking yet surprisingly agile; and Microsoft&rsquo;s excellent Windows software, which entices and excites with its beautiful interface, useful new features, and rock-solid UI transitions.</p></blockquote>
+
+<p>I have Windows 10 running in a VM. I haven’t tried it as a Bootcamp partition yet, but Alex’s finding are intriguing.</p>
+<p><a rel="full-article" href="http://www.alexvking.com/12_inch_macbook_and_windows_10.html">Read on Alex King’s Personal Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Cortana for All: Microsoft’s Plan to Put Voice Recognition Behind Anything]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/cortana-for-all-microsofts-plan-to-put-voice-recognition-behind-anything/"/>
+				<updated>2015-05-15T17:05:21-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/cortana-for-all-microsofts-plan-to-put-voice-recognition-behind-anything</id>
+				<content type="html"><![CDATA[<p>Cortana has an API! I can’t wait to start playing with this.</p>
+<p><a rel="full-article" href="http://arstechnica.com/information-technology/2015/05/cortana-for-all-microsofts-plan-to-put-voice-recognition-behind-anything/">Read on Ars Technica&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[The Walled Gardens of the Web Are Growing]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/walled-gardens-of-the-web/"/>
+				<updated>2015-05-14T14:16:06-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/walled-gardens-of-the-web</id>
+				<content type="html"><![CDATA[<p>All of this has happened before: Remember the AOL keyword?</p>
+<p><a rel="full-article" href="http://readwrite.com/2015/05/13/walled-gardens-of-the-web">Read on ReadWrite&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Exploring How Customer Success Creates Successful Products]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/productandsupport/"/>
+				<updated>2015-05-14T00:01:09-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/productandsupport</id>
+				<content type="html"><![CDATA[<p>A new web series &ldquo;exploring how customer success creates successful products&rdquo;. Keeping an eye on this one.</p>
+<p><a rel="full-article" href="http://productandsupport.com/">Read on Product + Support&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Announcing Media Capture Functionality in Microsoft Edge]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/announcing-media-capture-functionality-in-microsoft-edge/"/>
+				<updated>2015-05-13T17:05:11-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/announcing-media-capture-functionality-in-microsoft-edge</id>
+				<content type="html"><![CDATA[<p><code>getUserMedia()</code> is now in Microsoft Edge!</p>
+<p><a rel="full-article" href="http://blogs.windows.com/msedgedev/2015/05/13/announcing-media-capture-functionality-in-microsoft-edge/">Read on Microsoft Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Practicing Empathy With Teams]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/practicing-empathy-with-teams/"/>
+				<updated>2015-05-13T10:50:47-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/practicing-empathy-with-teams</id>
+				<content type="html"><![CDATA[<p>I’ve touched on this a bit in my <a href="http://www.slideshare.net/AaronGustafson/designing-with-empathy-reasons-to-be-creative-2013">Designing with Empathy</a> presentation: “Empathy is just as important for us to practice as we interact with our team members”. <a href="https://twitter.com/susanjrobertson">Susan Robertson</a> goes into the topic of empathy building for teams in this great post for <cite>A List Apart</cite>.</p>
+<p><a rel="full-article" href="http://alistapart.com/blog/post/practicing-empathy-with-teams">Read on A List Apart&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Trainspotting: Firefox 38]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/trainspotting-firefox-38/"/>
+				<updated>2015-05-12T13:16:59-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/trainspotting-firefox-38</id>
+				<content type="html"><![CDATA[<p>Adaptive images &amp; more land in Firefox 38!</p>
+<p><a rel="full-article" href="https://hacks.mozilla.org/2015/05/trainspotting-firefox-38/">Read on Mozilla Hacks&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Turndown Information for PageSpeed Service]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/Deprecation/"/>
+				<updated>2015-05-08T13:16:03-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/Deprecation</id>
+				<content type="html"><![CDATA[<p>This is getting to be a habit: Google is shuttering its PageSpeed service</p>
+<p><a rel="full-article" href="https://developers.google.com/speed/pagespeed/service/Deprecation">Read on Google Developers&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
 				<title type="html"><![CDATA[Slides From My Talk at #msEdgeSummit]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/slides-from-my-talk-at-number-msedgesummit/"/>
-				<updated>2015-05-05T17:14:00-07:00</updated>
+				<updated>2015-05-05T20:14:00-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/slides-from-my-talk-at-number-msedgesummit</id>
 				<content type="html"><![CDATA[<p>I just came off stage from my talk at the <a href="http://devchannel.modern.ie/websummit2015">Microsoft Edge Web Summit</a> and I wanted to share the deck with you. The talk was live-streamed, but I will post a video link as soon as it is up.</p>
 
@@ -37,7 +147,7 @@
 			<entry>
 				<title type="html"><![CDATA[Lessons Learned From Atari]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/lessons-learned%20from-atari/"/>
-				<updated>2015-05-05T15:05:40-07:00</updated>
+				<updated>2015-05-05T18:05:40-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/lessons-learned from-atari</id>
 				<content type="html"><![CDATA[<p>In watching <a href="http://www.slashfilm.com/watch-atari-game-over/"><cite>Atari: Game Over</cite></a>, I couldn&rsquo;t help but see all of the parallels between the early video game industry and the web design industry. The boys’ club… Engineers as rockstars… It&rsquo;s a tale of a meteoric commercial rise followed by a swift and dismal collapse.</p>
 
@@ -61,7 +171,7 @@
 			<entry>
 				<title type="html"><![CDATA[Design Consistency for the Responsive Web]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/design-consistency-for-the-responsive-web/"/>
-				<updated>2015-05-03T13:22:49-07:00</updated>
+				<updated>2015-05-03T16:22:49-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/design-consistency-for-the-responsive-web</id>
 				<content type="html"><![CDATA[<p>This is a fantastic presentation from <a href="https://twitter.com/pattytoland">Patty Toland</a> (of <a href="http://www.filamentgroup.com/">Filament Group</a>), given at the Smashing Conference in Santa Monica.</p>
 
@@ -77,7 +187,7 @@
 			<entry>
 				<title type="html"><![CDATA[ESPN Launches a Big Redesign for Its Web Versions]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/espn-launches-a-big-redesign-for-its-web-versions/"/>
-				<updated>2015-04-30T15:30:08-07:00</updated>
+				<updated>2015-04-30T18:30:08-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/espn-launches-a-big-redesign-for-its-web-versions</id>
 				<content type="html"><![CDATA[<p>ESPN launched its responsive site. I still need to tuck into it, but here’s a little background as to why:</p>
 
@@ -92,7 +202,7 @@
 			<entry>
 				<title type="html"><![CDATA[Why You Should Care About Email Design]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/email-design/"/>
-				<updated>2015-04-30T15:01:53-07:00</updated>
+				<updated>2015-04-30T18:01:53-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/email-design</id>
 				<content type="html"><![CDATA[<p>Coding HTML emails is one of those necessary evils, but <a href="http://www.twitter.com/tedgoas">Ted Goas</a> offers some helpful advice and links in this post.</p>
 
@@ -105,7 +215,7 @@
 			<entry>
 				<title type="html"><![CDATA[Collected Reactions to //build/]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/collected-reactions-to-build/"/>
-				<updated>2015-04-30T07:53:11-07:00</updated>
+				<updated>2015-04-30T10:53:11-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/collected-reactions-to-build</id>
 				<content type="html"><![CDATA[<p>I may work for Microsoft, but I don’t know everything that’s going on across the company. It’s big and I don’t have that kind of time.</p>
 
@@ -148,7 +258,7 @@ A deeper analysis of Microsoft’s play for more developer (and consumer) mindsh
 			<entry>
 				<title type="html"><![CDATA[Microsoft Edge Is the Browser for Windows 10]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/microsoft-edge-is-the-browser-for-windows-10/"/>
-				<updated>2015-04-29T12:13:19-07:00</updated>
+				<updated>2015-04-29T15:13:19-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/microsoft-edge-is-the-browser-for-windows-10</id>
 				<content type="html"><![CDATA[<p>And then it was revealed:</p>
 
@@ -167,7 +277,7 @@ A deeper analysis of Microsoft’s play for more developer (and consumer) mindsh
 			<entry>
 				<title type="html"><![CDATA[Lies, Damn Lies, and JavaScript]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/lies-damn-lies-and-javascript/"/>
-				<updated>2015-04-27T12:10:11-07:00</updated>
+				<updated>2015-04-27T15:10:11-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/lies-damn-lies-and-javascript</id>
 				<content type="html"><![CDATA[<p>Late last week I stumbled on a video from <a href="https://twitter.com/graemepyle">Graeme Pyle</a> that exposed a UX lie in the <a href="https://www.fnb.co.za/">First National Bank of South Africa</a>.</p>
 
@@ -193,7 +303,7 @@ A deeper analysis of Microsoft’s play for more developer (and consumer) mindsh
 			<entry>
 				<title type="html"><![CDATA[Shaper_pmp Comments on Everyone Has JavaScript, Right?]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/cqn8vpn/"/>
-				<updated>2015-04-25T06:15:09-07:00</updated>
+				<updated>2015-04-25T09:15:09-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/cqn8vpn</id>
 				<content type="html"><![CDATA[<p>A snarky, clever backhanded rant against the JavaScript-only crowd. Good for a chuckle:</p>
 
@@ -206,7 +316,7 @@ A deeper analysis of Microsoft’s play for more developer (and consumer) mindsh
 			<entry>
 				<title type="html"><![CDATA[Does Responsive Web Design Make You More Money?]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/does-responsive-web-design-make-you-more-money/"/>
-				<updated>2015-04-24T08:24:44-07:00</updated>
+				<updated>2015-04-24T11:24:44-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/does-responsive-web-design-make-you-more-money</id>
 				<content type="html"><![CDATA[<p>Yes. Yes it does. Some great stats in here including this gem:</p>
 
@@ -221,164 +331,10 @@ A deeper analysis of Microsoft’s play for more developer (and consumer) mindsh
 			<entry>
 				<title type="html"><![CDATA[Everyone Has JavaScript, Right?]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/everyonehasjs/"/>
-				<updated>2015-04-24T08:20:03-07:00</updated>
+				<updated>2015-04-24T11:20:03-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/everyonehasjs</id>
 				<content type="html"><![CDATA[<p><a href="http://www.kryogenix.org/">Stuart Langridge</a> beautifully illustrates all of the possible scenarios within which JavaScript availability is not guaranteed. Plan accordingly.</p>
 <p><a rel="full-article" href="http://kryogenix.org/code/browser/everyonehasjs.html">Read on Kryogenix&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Web Components, Accessibility and the Priority of Constituencies]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/web-components-accessibility-and-the-priority-of-constituencies/"/>
-				<updated>2015-04-23T14:25:10-07:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/web-components-accessibility-and-the-priority-of-constituencies</id>
-				<content type="html"><![CDATA[<p>Bruce Lawson is dead-on with his critique of <a href="https://lists.w3.org/Archives/Public/public-webapps/2015AprJun/0225.html">Apple’s feedback on Web Components</a>:</p>
-
-<blockquote><p>Implementation is hard. Too hard for the developers at Apple, it appears. So Web developers must faff around adding ARIA and tab index and keyboard listeners (so most won’t) and the inevitable consequence of making accessibility hard is that assistive technology users will suffer.</p></blockquote>
-
-<p>We (browser makers and web developers) need to be willing to put in the effort to make things better for everyone else. <a href="http://www.aaron-gustafson.com/notebook/who-should-pay/">Sadly, few seem interested</a>.</p>
-
-<p>Thanks for calling this out Bruce!</p>
-<p><a rel="full-article" href="http://www.brucelawson.co.uk/2015/web-components-accessibility-and-the-priority-of-constituencies/">Read on Bruce Lawson’s Personal Site&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[More Weight Doesn’t Mean More Wait]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/weight-wait/"/>
-				<updated>2015-04-22T06:52:08-07:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/weight-wait</id>
-				<content type="html"><![CDATA[<p>This is a brilliant post from <a href="https://twitter.com/scottjehl">Scott Jehl</a> about optimizing page render by getting particular about how (and when) certain assets load. He uses the real-world site Wired as a test bed for putting the ideas into practice, cutting perceived load time by a full 8.5 seconds!</p>
-<p><a rel="full-article" href="http://www.filamentgroup.com/lab/weight-wait.html">Read on Filament Group&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[The DOM Is NOT Slow, Your Abstraction Is]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/the-dom-is-not-slow-your-abstraction-is/"/>
-				<updated>2015-04-22T06:36:28-07:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/the-dom-is-not-slow-your-abstraction-is</id>
-				<content type="html"><![CDATA[<p>Abstraction can be helpful, but it also complicates things and leads to slower performance. <a href="https://twitter.com/WebReflection">Andrea Giammarchi</a> provides lots of details here in examining a complex app scenario with the good old fashioned DOM vs. a handful of frameworks. Bonus points for the fact that most of the video evidence tests are being run on non-iOS devices!</p>
-
-<blockquote><p>No, the DOM is not your problem, the fact you brought an over-engineered abstraction on top of a deadly simple task, like a table that needs some quick update, is the real problem you don&rsquo;t want to see.</p></blockquote>
-
-<p>If you dig Andrea’s post, you should also check out <a href="http://www.filamentgroup.com/lab/mv-initial-load-times.html">this post from the Filament Group</a>.</p>
-<p><a rel="full-article" href="http://webreflection.blogspot.se/2015/04/the-dom-is-not-slow-your-abstraction-is.html">Read on WebReflection&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Tips for Surviving Google’s “Mobilegeddon”]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/tips-for-surviving-googles-mobilegeddon/"/>
-				<updated>2015-04-21T06:10:12-07:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/tips-for-surviving-googles-mobilegeddon</id>
-				<content type="html"><![CDATA[<p>Today is the day <a href="http://www.economist.com/news/business-and-finance/21648947-worlds-biggest-search-engine-shakes-up-its-algorithms-mobilegeddon">Google updates it algorithm to take into account mobile-friendliness</a>. Here are a few tips that will help you embrace mobile without tearing your hair out.</p>
-
-<!-- more -->
-
-
-<h2>1. Embrace mobile-first CSS</h2>
-
-<p>This is a quick win. I’ve done the mobile-first overhaul on a number of existing sites over the last few years and the best strategy I’ve found is this:</p>
-
-<ol>
-<li>Create two CSS files. Name the first something like &ldquo;basic.css&rdquo; and link to it with <code>media="all"</code>. Name the second something like &ldquo;advanced.css&rdquo; and link to it with <code>media="only screen"</code>.</li>
-<li>Move all of your existing desktop-only CSS into advanced.css and wrap the rules in a media query corresponding to your design width (e.g. <code>@media (min-width:60em)</code> for a 960px max width).</li>
-<li>Open a page from your site in a new browser window and make it as small as possible. Move any basic typographic and color styles from advanced.css to default.css and refresh the page. How does it look? Make the browser wider. Still acceptable? Awesome! This is the CSS you’ll serve to older browsers that don’t understand media queries and it forms the basis of your larger screen styles.</li>
-<li>Shrink the browser back down to the smallest it can go and create a breakpoint for that size in advanced.css (e.g. <code>@media (min-width:10.5em)</code> if you want to small target devices like the <a href="https://getpebble.com/">Pebble</a>). Move any styles you want applied in this scenario from your &ldquo;full screen&rdquo; breakpoint and add any new rules you need to make things look good.</li>
-<li>Increase the browser width until the layout looks odd, then make a new breakpoint and move in or add the necessary styles.</li>
-<li>Rinse &amp; repeat until you get up to the &ldquo;full screen&rdquo; layout.</li>
-<li>Move your print styles—you do have print styles, right?—into default.css and wrap them in a print <code>@media</code> block.</li>
-</ol>
-
-
-<p>For another approach to responsive retrofitting, check out <a href="http://webstandardssherpa.com/reviews/responsive-retrofitting/">this piece from Ben Callahan</a>.</p>
-
-<h2>2. Focus on key tasks</h2>
-
-<p>Every page has a purpose. If it doesn’t, you don’t need it. Find the page’s purpose and make that the focus. Eliminate distractions and reduce the amount of friction a user encounters when trying to accomplish the task.</p>
-
-<p>If company or client politics preclude you from getting rid of all distractions on a page, consider <a href="http://www.filamentgroup.com/lab/ajax-includes-modular-content.html">a lazy-loading strategy</a> to bring them in with JavaScript only when there is more screen real estate.</p>
-
-<h2>3. Get smarter about images</h2>
-
-<p>Images are great, but they often comprise the majority of a web page’s bulk. To slim things down, first consider whether a given image is actually needed. If it isn’t, get rid of it. If it offers an enhancement, but isn’t crucial, consider lazy-loading it after page load. If the image is really important, <a href="https://ericportis.com/posts/2014/srcset-sizes/">use <code>srcset</code> and <code>sizes</code></a> (or the <code>picture</code> element) to deliver the smallest and yet most appropriate image to your users, based on their device.</p>
-
-<h2>4. Embrace the continuum</h2>
-
-<p>As designers and developers, we often try to control everything. But we have to realize that we can’t control everything on the Web. People on different devices have different capabilities and considerations. They will need your website to be flexible enough to allow them to accomplish their goals no matter what.</p>
-
-<p>Understanding that is key to building experiences that move seamlessly across devices. You know, <a href="http://alistapart.com/article/understandingprogressiveenhancement">progressive enhancement</a>. It’s key to embracing the Web for all of its inherent web-iness.</p>
-
-<hr>
-
-
-<p>And there you have it: 4 simple, but effective guidelines for creating awesome websites that will fair well under Google’s new algorithm. And guess what: Your users will benefit too.</p>
-]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[What Nobody Tells You About Will-change]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/what-nobody-tells-you-about-will-change/"/>
-				<updated>2015-04-13T09:22:36-07:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/what-nobody-tells-you-about-will-change</id>
-				<content type="html"><![CDATA[<p>Interesting insights from <a href="https://twitter.com/thierrykoblentz">Thierry Koblentz</a> on the unintended consequences of using <code>will-change</code> to identify elements likely to change in the interface.</p>
-<p><a rel="full-article" href="http://cssmojo.com/the-dark-side-of-the-will-change-property/">Read on CSS Mojo&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Becoming Design-Infused: 2 Necessary Mutations to Organizational DNA]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/becoming-design-infused-2-necessary-mutations-to-organizational-dna/"/>
-				<updated>2015-04-10T12:22:56-07:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/becoming-design-infused-2-necessary-mutations-to-organizational-dna</id>
-				<content type="html"><![CDATA[<p>A beautifully insightful piece from Jared Spool. Lots of gold in here.</p>
-
-<blockquote><p>It’s one thing to say design is important and to put phrases like “delivering best-of-class customer experiences” into the corporate mission statement. It’s another thing to change a corporation to truly make design a competitive advantage.</p></blockquote>
-<p><a rel="full-article" href="https://www.uie.com/articles/becoming_design_infused">Read on UIE&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[How to Write Cleaner CSS and Smarter SASS]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/how-to-write-cleaner-css-and-smarter-sass/"/>
-				<updated>2015-04-10T11:57:29-07:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/how-to-write-cleaner-css-and-smarter-sass</id>
-				<content type="html"><![CDATA[<p>A few thoughts on cleaner Sass output from <a href="http://twitter.com/@adispezio">Anthony Dispezio</a>. He secret? Using generic mixins in concert with <code>@extend</code>.</p>
-<p><a rel="full-article" href="http://www.creativebloq.com/web-design/how-write-cleaner-css-and-smarter-sass-41514637">Read on Creative Bloq&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Locking the Web Open: Rethinking the World Wide Web]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/locking-the-web-open-rethinking-the-world-wide-web/"/>
-				<updated>2015-04-10T11:51:46-07:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/locking-the-web-open-rethinking-the-world-wide-web</id>
-				<content type="html"><![CDATA[<p>Hmm… distribute the Web for endurance and longevity and make it private through <a href="https://en.bitcoin.it/wiki/Block_chain">blockchain</a>-esque encryption. It’s an interesting idea, but I don’t know that Marketing will go for it.</p>
-<p><a rel="full-article" href="http://thenextweb.com/insider/2015/04/10/locking-the-web-open-why-we-need-to-rethink-the-world-wide-web/">Read on The Next Web&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[The Failed Promise of Deep Links]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/the-failed-promise-of-deep-links/"/>
-				<updated>2015-04-09T14:58:21-07:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/the-failed-promise-of-deep-links</id>
-				<content type="html"><![CDATA[<p>A beautiful piece on what it means to be a link and what they mean to us.</p>
-
-<blockquote><p>In the ‘90s, we got tired of systems like Compuserve, AOL and Prodigy that wouldn’t play together nicely and only let us play in pre-approved ways. We might similarly grow disenchanted with apps that don’t connect easily, or only connect in ways that we can’t shape.</p></blockquote>
-<p><a rel="full-article" href="https://medium.com/backchannel/the-failed-promise-of-deep-links-aa307b3abaa5">Read on Medium&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	

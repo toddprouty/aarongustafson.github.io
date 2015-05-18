@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Video | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/video/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-05-06T10:43:24-07:00</updated>
+  <updated>2015-05-18T14:56:56-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Autoplay, Don’t Do It]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/autoplay-dont-do-it/"/>
-    <updated>2014-12-21T12:12:50-08:00</updated>
+    <updated>2014-12-21T15:12:50-05:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/autoplay-dont-do-it</id>
     <content type="html"><![CDATA[<p>A while back <a href="https://gigaom.com/2014/09/04/facebooks-autoplay-has-led-to-a-60-boost-in-traffic-on-mobile-networks/">GogOm reported on how Facebook’s decision to autoplay videos led to a 60% increase in mobile data usage</a>. It was a business decision with the intent of increasing engagement, but it was a bad decision from a user experience. It’s a tax on users and they weren’t to happy about it.</p>
 

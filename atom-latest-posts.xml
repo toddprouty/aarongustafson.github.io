@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Posts]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-posts.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-05-06T10:43:24-07:00</updated>
+	<updated>2015-05-18T14:56:56-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -14,9 +14,43 @@
 	
 		
 			<entry>
+				<title type="html"><![CDATA[URL Inception]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/url-inception/"/>
+				<updated>2015-05-18T14:38:29-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/url-inception</id>
+				<content type="html"><![CDATA[<p>It’s like a snake eating its own tail:</p>
+
+<pre><code>https://m.facebook.com/ClydesOnMain?refsrc=https%3A%2F%2Fwww.facebook.com%2FClydesOnMain#!/ClydesOnMain?refsrc=https%3A%2F%2Fwww.facebook.com%2FClydesOnMain
+</code></pre>
+
+<p>Wonder what’s going on? Well, Facebook’s mobile site (<code>m.facebook.com/ClydesOnMain</code>) is tracking the URL (using the <code>refsrc</code> GET parameter) I came from (<code>www.facebook.com/ClydesOnMain#!/ClydesOnMain</code>)—a single page &ldquo;web app&rdquo;, hence the hash-bang: <code>#!</code>—that was tracking the original referral page (<code>www.facebook.com/ClydesOnMain</code>).</p>
+
+<p>I hope they got all that.</p>
+]]></content>
+			</entry>
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			<entry>
 				<title type="html"><![CDATA[Slides From My Talk at #msEdgeSummit]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/slides-from-my-talk-at-number-msedgesummit/"/>
-				<updated>2015-05-05T17:14:00-07:00</updated>
+				<updated>2015-05-05T20:14:00-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/slides-from-my-talk-at-number-msedgesummit</id>
 				<content type="html"><![CDATA[<p>I just came off stage from my talk at the <a href="http://devchannel.modern.ie/websummit2015">Microsoft Edge Web Summit</a> and I wanted to share the deck with you. The talk was live-streamed, but I will post a video link as soon as it is up.</p>
 
@@ -37,7 +71,7 @@
 			<entry>
 				<title type="html"><![CDATA[Lessons Learned From Atari]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/lessons-learned%20from-atari/"/>
-				<updated>2015-05-05T15:05:40-07:00</updated>
+				<updated>2015-05-05T18:05:40-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/lessons-learned from-atari</id>
 				<content type="html"><![CDATA[<p>In watching <a href="http://www.slashfilm.com/watch-atari-game-over/"><cite>Atari: Game Over</cite></a>, I couldn&rsquo;t help but see all of the parallels between the early video game industry and the web design industry. The boys’ club… Engineers as rockstars… It&rsquo;s a tale of a meteoric commercial rise followed by a swift and dismal collapse.</p>
 
@@ -67,7 +101,7 @@
 			<entry>
 				<title type="html"><![CDATA[Collected Reactions to //build/]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/collected-reactions-to-build/"/>
-				<updated>2015-04-30T07:53:11-07:00</updated>
+				<updated>2015-04-30T10:53:11-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/collected-reactions-to-build</id>
 				<content type="html"><![CDATA[<p>I may work for Microsoft, but I don’t know everything that’s going on across the company. It’s big and I don’t have that kind of time.</p>
 
@@ -112,7 +146,7 @@ A deeper analysis of Microsoft’s play for more developer (and consumer) mindsh
 			<entry>
 				<title type="html"><![CDATA[Lies, Damn Lies, and JavaScript]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/lies-damn-lies-and-javascript/"/>
-				<updated>2015-04-27T12:10:11-07:00</updated>
+				<updated>2015-04-27T15:10:11-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/lies-damn-lies-and-javascript</id>
 				<content type="html"><![CDATA[<p>Late last week I stumbled on a video from <a href="https://twitter.com/graemepyle">Graeme Pyle</a> that exposed a UX lie in the <a href="https://www.fnb.co.za/">First National Bank of South Africa</a>.</p>
 
@@ -132,74 +166,6 @@ A deeper analysis of Microsoft’s play for more developer (and consumer) mindsh
 <p>There is no reason to fake a progress bar. It’s pointless. Especially when you don’t even check to see if the user’s connection is still online.</p>
 ]]></content>
 			</entry>
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Tips for Surviving Google’s “Mobilegeddon”]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/tips-for-surviving-googles-mobilegeddon/"/>
-				<updated>2015-04-21T06:10:12-07:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/tips-for-surviving-googles-mobilegeddon</id>
-				<content type="html"><![CDATA[<p>Today is the day <a href="http://www.economist.com/news/business-and-finance/21648947-worlds-biggest-search-engine-shakes-up-its-algorithms-mobilegeddon">Google updates it algorithm to take into account mobile-friendliness</a>. Here are a few tips that will help you embrace mobile without tearing your hair out.</p>
-
-<!-- more -->
-
-
-<h2>1. Embrace mobile-first CSS</h2>
-
-<p>This is a quick win. I’ve done the mobile-first overhaul on a number of existing sites over the last few years and the best strategy I’ve found is this:</p>
-
-<ol>
-<li>Create two CSS files. Name the first something like &ldquo;basic.css&rdquo; and link to it with <code>media="all"</code>. Name the second something like &ldquo;advanced.css&rdquo; and link to it with <code>media="only screen"</code>.</li>
-<li>Move all of your existing desktop-only CSS into advanced.css and wrap the rules in a media query corresponding to your design width (e.g. <code>@media (min-width:60em)</code> for a 960px max width).</li>
-<li>Open a page from your site in a new browser window and make it as small as possible. Move any basic typographic and color styles from advanced.css to default.css and refresh the page. How does it look? Make the browser wider. Still acceptable? Awesome! This is the CSS you’ll serve to older browsers that don’t understand media queries and it forms the basis of your larger screen styles.</li>
-<li>Shrink the browser back down to the smallest it can go and create a breakpoint for that size in advanced.css (e.g. <code>@media (min-width:10.5em)</code> if you want to small target devices like the <a href="https://getpebble.com/">Pebble</a>). Move any styles you want applied in this scenario from your &ldquo;full screen&rdquo; breakpoint and add any new rules you need to make things look good.</li>
-<li>Increase the browser width until the layout looks odd, then make a new breakpoint and move in or add the necessary styles.</li>
-<li>Rinse &amp; repeat until you get up to the &ldquo;full screen&rdquo; layout.</li>
-<li>Move your print styles—you do have print styles, right?—into default.css and wrap them in a print <code>@media</code> block.</li>
-</ol>
-
-
-<p>For another approach to responsive retrofitting, check out <a href="http://webstandardssherpa.com/reviews/responsive-retrofitting/">this piece from Ben Callahan</a>.</p>
-
-<h2>2. Focus on key tasks</h2>
-
-<p>Every page has a purpose. If it doesn’t, you don’t need it. Find the page’s purpose and make that the focus. Eliminate distractions and reduce the amount of friction a user encounters when trying to accomplish the task.</p>
-
-<p>If company or client politics preclude you from getting rid of all distractions on a page, consider <a href="http://www.filamentgroup.com/lab/ajax-includes-modular-content.html">a lazy-loading strategy</a> to bring them in with JavaScript only when there is more screen real estate.</p>
-
-<h2>3. Get smarter about images</h2>
-
-<p>Images are great, but they often comprise the majority of a web page’s bulk. To slim things down, first consider whether a given image is actually needed. If it isn’t, get rid of it. If it offers an enhancement, but isn’t crucial, consider lazy-loading it after page load. If the image is really important, <a href="https://ericportis.com/posts/2014/srcset-sizes/">use <code>srcset</code> and <code>sizes</code></a> (or the <code>picture</code> element) to deliver the smallest and yet most appropriate image to your users, based on their device.</p>
-
-<h2>4. Embrace the continuum</h2>
-
-<p>As designers and developers, we often try to control everything. But we have to realize that we can’t control everything on the Web. People on different devices have different capabilities and considerations. They will need your website to be flexible enough to allow them to accomplish their goals no matter what.</p>
-
-<p>Understanding that is key to building experiences that move seamlessly across devices. You know, <a href="http://alistapart.com/article/understandingprogressiveenhancement">progressive enhancement</a>. It’s key to embracing the Web for all of its inherent web-iness.</p>
-
-<hr>
-
-
-<p>And there you have it: 4 simple, but effective guidelines for creating awesome websites that will fair well under Google’s new algorithm. And guess what: Your users will benefit too.</p>
-]]></content>
-			</entry>
-		
-	
-		
-	
 		
 	
 		
