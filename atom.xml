@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-05-19T18:50:56-04:00</updated>
+	<updated>2015-05-19T19:04:44-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -163,15 +163,27 @@
 				<link href="http://www.aaron-gustafson.com/notebook/slides-from-my-talk-at-number-msedgesummit/"/>
 				<updated>2015-05-05T20:14:00-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/slides-from-my-talk-at-number-msedgesummit</id>
-				<content type="html"><![CDATA[<p>I just came off stage from my talk at the <a href="http://devchannel.modern.ie/websummit2015">Microsoft Edge Web Summit</a> and I wanted to share the deck with you. The talk was live-streamed, but I will post a video link as soon as it is up.</p>
+				<content type="html"><![CDATA[<p>I just came off stage from my talk at the <a href="https://channel9.msdn.com/Events/WebPlatformSummit/2015">Microsoft Edge Web Summit</a> and I wanted to share <a href="#figure-2015-05-05-01">the deck</a> with you. The talk was live-streamed, but I will post a video link as soon as it is up.</p>
+
+<p><strong>Update:</strong> <a href="https://channel9.msdn.com/Events/WebPlatformSummit/2015/Falling-in-love-with-forms">The video is now online</a>. You can also <a href="#figure-2015-05-05-02">view it below</a>.</p>
 
 <!-- more -->
 
 
+<h2>Slides</h2>
 
-
-<figure class="video-embed video-embed--16x9">  
+<figure class="video-embed video-embed--16x9" id="figure-2015-05-05-01">  
 <iframe class="video-embed__video" src="//www.slideshare.net/slideshow/embed_code/key/H1xKkpN0KIoXq3" frameborder="0"></iframe>  
+</figure>
+
+
+<h2>Video</h2>
+
+<figure class="video-embed video-embed--16x9" id="figure-2015-05-05-02">  
+<video poster="//sec.ch9.ms/sessions/websummit/2015/GA05-LG.jpg">
+<source src="//video.ch9.ms/sessions/websummit/2015/GA05.mp4">
+<p>Download it: <a href="//video.ch9.ms/sessions/websummit/2015/GA05.mp4">High Quality MP4</a> or <a href="//video.ch9.ms/sessions/websummit/2015/GA05-mobile.mp4">Low Quality MP4</a></p>
+</video>
 </figure>
 
 ]]></content>
