@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Posts]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-posts.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-05-18T14:56:56-04:00</updated>
+	<updated>2015-05-19T11:39:53-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,12 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+	
+		
+	
+		
 	
 		
 			<entry>
@@ -166,12 +172,6 @@ A deeper analysis of Microsoft’s play for more developer (and consumer) mindsh
 <p>There is no reason to fake a progress bar. It’s pointless. Especially when you don’t even check to see if the user’s connection is still online.</p>
 ]]></content>
 			</entry>
-		
-	
-		
-	
-		
-	
 		
 	
 </feed>

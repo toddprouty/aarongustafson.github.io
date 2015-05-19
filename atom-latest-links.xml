@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-05-18T14:56:56-04:00</updated>
+	<updated>2015-05-19T11:39:53-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,41 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[The JavaScript Framework Bandwagonism]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/the-javascript-framework-bangwagonism/"/>
+				<updated>2015-05-18T16:29:06-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/the-javascript-framework-bangwagonism</id>
+				<content type="html"><![CDATA[<p>Gold from <a href="https://twitter.com/teylorfeliz">Teylor Feliz</a>:</p>
+
+<blockquote><p>A lot of front-end developers don’t have a very strong resistance to change like website users, which is a good thing. But, some developers just need a Todo list demo to get excited and crazy to built an app with the new framework or tool. Some don’t wait for a framework to get out of beta or reach version 1.0 in order to build something with it. We need to learn to wait and let the tools mature so we can take full advantage or have a better idea of the path they are going to take.</p></blockquote>
+<p><a rel="full-article" href="http://admixweb.com/the-javascript-framework-bangwagonism/">Read on admixweb&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Automatic Text Contrast With CSS Blend Modes]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/automatic-text-contrast-with-css-blend-modes/"/>
+				<updated>2015-05-18T16:24:45-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/automatic-text-contrast-with-css-blend-modes</id>
+				<content type="html"><![CDATA[<p>Brilliant work by <a href="http://twitter.com/dudleystorey">Dudley Storey</a> on how to ensure text is always legible even when the background is unknown. Check out <a href="http://codepen.io/dudleystorey/pen/Xbdmjv">the accompanying CodePen</a> as well.</p>
+<p><a rel="full-article" href="http://demosthenes.info/blog/1029/Automatic-Text-Contrast-with-CSS-Blend-Modes">Read on demosthenes.info&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Financial Times Rolls Out ‘cost Per Hour’ Advertising Metric]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/financial-times-rolls-out-cost-per-hour-advertising-metric/"/>
+				<updated>2015-05-18T16:21:02-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/financial-times-rolls-out-cost-per-hour-advertising-metric</id>
+				<content type="html"><![CDATA[<p>This could change the way we design pages by allowing us to move away from the NASCAR-esque badged web design employed by most major media outlets.</p>
+<p><a rel="full-article" href="http://aboutus.ft.com/2015/05/18/financial-times-rolls-out-cost-per-hour-advertising-metric/">Read on FT.com&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 	
@@ -175,45 +210,6 @@
 			</entry>
 		
 	
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Shaper_pmp Comments on Everyone Has JavaScript, Right?]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/cqn8vpn/"/>
-				<updated>2015-04-25T09:15:09-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/cqn8vpn</id>
-				<content type="html"><![CDATA[<p>A snarky, clever backhanded rant against the JavaScript-only crowd. Good for a chuckle:</p>
-
-<blockquote><p>They aren&rsquo;t really on your site to read your article or check what time their train leaves &ndash; they&rsquo;re really there to marvel at your buttery-smooth, hardware-accelerated 60fps animations and 1337 client-side javascript skillz that mean you can browse the entire site without ever once touching the server after the first page-load&hellip; just as long as you don&rsquo;t mind that first page-load being 3MB in size, crapping out on unreliable mobile connections and taking whole seconds between DOM-ready and the UI actually appearing.</p></blockquote>
-<p><a rel="full-article" href="http://www.reddit.com/r/javascript/comments/33p3yg/everyone_has_javascript_right/cqn8vpn">Read on Reddit&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Does Responsive Web Design Make You More Money?]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/does-responsive-web-design-make-you-more-money/"/>
-				<updated>2015-04-24T11:24:44-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/does-responsive-web-design-make-you-more-money</id>
-				<content type="html"><![CDATA[<p>Yes. Yes it does. Some great stats in here including this gem:</p>
-
-<blockquote><p>O’Neill Clothing saw perhaps the most impressive increases after their conversion to mobile-ready. Transactions went up 112.50% on iPhones and 333.33% on Android. Conversions rang in at 65.71% on the iPhone and 407.32% on Android. Total revenue cleared 101.25% on iPhone and 591.42% on Android.</p></blockquote>
-
-<p>Wow.</p>
-<p><a rel="full-article" href="http://www.webdesignerdepot.com/2015/04/does-responsive-web-design-make-you-more-money/">Read on Webdesigner Depot&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Everyone Has JavaScript, Right?]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/everyonehasjs/"/>
-				<updated>2015-04-24T11:20:03-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/everyonehasjs</id>
-				<content type="html"><![CDATA[<p><a href="http://www.kryogenix.org/">Stuart Langridge</a> beautifully illustrates all of the possible scenarios within which JavaScript availability is not guaranteed. Plan accordingly.</p>
-<p><a rel="full-article" href="http://kryogenix.org/code/browser/everyonehasjs.html">Read on Kryogenix&nbsp;&rarr;</a></p>]]></content>
-			</entry>
 		
 	
 </feed>
