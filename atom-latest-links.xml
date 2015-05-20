@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-05-20T14:17:51-04:00</updated>
+	<updated>2015-05-20T15:16:08-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,55 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Microsoft Wants to Keep Your Online Data Secure While You’re Using It]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/microsoft-vc3/"/>
+				<updated>2015-05-20T15:11:08-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/microsoft-vc3</id>
+				<content type="html"><![CDATA[<p>When I joined Microsoft, I had to go through &ldquo;privacy training&rdquo;. I was all <em>meh</em> about it, but then I took the course and realized just how much Microsoft cares about privacy. The training was thorough and insightful; it’s not an overstatement to say it truly blew my mind a little. I wish more companies cared as much. In fact, I wish every startup had to go through similar training before they could collect any user data.</p>
+
+<p>Anyway, this new initiative seems pretty cool and I am proud to see Microsoft leading the charge in securing your files online, all the time.</p>
+<p><a rel="full-article" href="http://www.engadget.com/2015/05/18/microsoft-vc3/">Read on Engadget&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Facebook and the Media: United, They Attack the Web]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/media-websites-vs-facebook/"/>
+				<updated>2015-05-20T14:59:35-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/media-websites-vs-facebook</id>
+				<content type="html"><![CDATA[<p>This post from <a href="https://twitter.com/fakebaldur">Baldur Bjarnason</a> hits the nail on the head when it comes to the web vs. native. If you work on the web (as I suspect you do since you’re reading this blog), convert &ldquo;you&rdquo; and &ldquo;your&rdquo; to &ldquo;we&rdquo; and &ldquo;our&rdquo;:</p>
+
+<blockquote><p>The web doesn’t suck. Your websites suck.</p>
+
+<p><em>All of your websites suck</em>.</p>
+
+<p>You destroy basic usability by hijacking the scrollbar. You take native functionality (scrolling, selection, links, loading) that is fast and efficient and you rewrite it with ‘cutting edge’ javascript toolkits and frameworks so that it is slow and buggy and broken. You balloon your websites with megabytes of cruft. You ignore best practices. You take something that works and is complementary to your business and turn it into a liability.</p>
+
+<p>The lousy performance of your websites becomes a defensive moat around Facebook.</p>
+
+<p>Of course, Facebook might still win even if you all had awesome websites, but you can’t even begin to compete with it until you fix the foundation of your business.</p></blockquote>
+
+<p>This article is long and full of choice quotes and embodied wisdom. You should read it. Twice.</p>
+<p><a rel="full-article" href="https://www.baldurbjarnason.com/notes/media-websites-vs-facebook/">Read on Baldur Bjarnason’s Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[The Desktop Conundrum]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/desktop-conundrum/"/>
+				<updated>2015-05-20T14:52:10-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/desktop-conundrum</id>
+				<content type="html"><![CDATA[<p>In this brief post, Dave Rupert muses about the future of &ldquo;desktop&rdquo;.</p>
+
+<blockquote><p>I think there’s still value in knowing the upper limit of a website, but am filled with growing concern that the time and effort spent on that upper limit might prove to be all in vain.</p></blockquote>
+<p><a rel="full-article" href="http://daverupert.com/2015/05/desktop-conundrum/">Read on daverupert.com&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -180,50 +229,6 @@
 	
 		
 	
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Design Consistency for the Responsive Web]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/design-consistency-for-the-responsive-web/"/>
-				<updated>2015-05-03T16:22:49-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/design-consistency-for-the-responsive-web</id>
-				<content type="html"><![CDATA[<p>This is a fantastic presentation from <a href="https://twitter.com/pattytoland">Patty Toland</a> (of <a href="http://www.filamentgroup.com/">Filament Group</a>), given at the Smashing Conference in Santa Monica.</p>
-
-<figure class="video-embed video-embed--16x9">  
-<iframe class="video-embed__video" src="https://docs.google.com/presentation/embed?id=1Fh7bZne2lEffUxI2cL6gaqdayNm3tv6_6d_mmSdOkiE&amp;start=false&amp;loop=false&amp;" frameborder="0"></iframe>  
-</figure>
-
-<p><a rel="full-article" href="https://docs.google.com/presentation/d/1Fh7bZne2lEffUxI2cL6gaqdayNm3tv6_6d_mmSdOkiE/edit">Read on Google Slides&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[ESPN Launches a Big Redesign for Its Web Versions]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/espn-launches-a-big-redesign-for-its-web-versions/"/>
-				<updated>2015-04-30T18:30:08-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/espn-launches-a-big-redesign-for-its-web-versions</id>
-				<content type="html"><![CDATA[<p>ESPN launched its responsive site. I still need to tuck into it, but here’s a little background as to why:</p>
-
-<blockquote><p>In January, 61 percent of ESPN’s roughly 94 million users in the United States were viewing content exclusively on mobile devices, with a good chunk of that viewing content on its mobile web version. For a massive company like Disney trying to make a shift to mobile like any other content-driven company, a test of a new mobile web strategy for a large property like ESPN is critical.</p></blockquote>
-
-<p>Testing &ldquo;new&rdquo; tech isn’t really a new thing for ESPN. Those of you who have been on the web a while might remember it being <a href="http://www.mikeindustries.com/blog/archive/2003/06/espn-interview">one of the first really big sites to embrace CSS and web standards</a>, back in 2003.</p>
-<p><a rel="full-article" href="http://techcrunch.com/2015/03/31/espn-launches-a-big-redesign-for-its-web-versions/">Read on TechCrunch&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Why You Should Care About Email Design]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/email-design/"/>
-				<updated>2015-04-30T18:01:53-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/email-design</id>
-				<content type="html"><![CDATA[<p>Coding HTML emails is one of those necessary evils, but <a href="http://www.twitter.com/tedgoas">Ted Goas</a> offers some helpful advice and links in this post.</p>
-
-<blockquote><p>This is an open letter to designers and developers who’d rather not work on email.</p></blockquote>
-<p><a rel="full-article" href="http://www.tedgoas.com/blog/email-design/">Read on Ted Goas&nbsp;&rarr;</a></p>]]></content>
-			</entry>
 		
 	
 </feed>
