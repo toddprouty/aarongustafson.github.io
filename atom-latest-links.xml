@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-05-20T09:21:32-04:00</updated>
+	<updated>2015-05-20T14:17:51-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,43 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Our Approach to Mobile-friendly Search]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/our-approach-to-mobile-friendly-search/"/>
+				<updated>2015-05-20T14:09:40-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/our-approach-to-mobile-friendly-search</id>
+				<content type="html"><![CDATA[<p>Bing cares about mobile-friendliness now too:</p>
+
+<blockquote><p>Our approach to mobile friendliness as a ranking signal balances the need to improve the ranking for mobile-friendly pages, with the continued focus on delivering the most relevant results for a given query. This means that for mobile searches on Bing, you can always expect to see the most relevant results for a search query ranked higher, even if some of them are not mobile-friendly. While the changes will improve ranking for mobile-friendly pages, webpages that are highly relevant to the given query that are not yet mobile-friendly will not get penalized.</p></blockquote>
+<p><a rel="full-article" href="http://blogs.bing.com/webmaster/2015/05/14/our-approach-to-mobile-friendly-search/">Read on Bing Webmaster Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Choosing Performance]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/choosing-performance/"/>
+				<updated>2015-05-20T14:06:14-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/choosing-performance</id>
+				<content type="html"><![CDATA[<p>Tim Kadlec nails it again in this piece on performance in light of Facebook’s &ldquo;Instant Articles&rdquo; announcement:</p>
+
+<blockquote><p>Is the web just inherently slow and destined to never be able to compete with the performance offered by a native platform? (Spoiler: No. No it is not.)</p></blockquote>
+<p><a rel="full-article" href="http://timkadlec.com/2015/05/choosing-performance/">Read on Tim Kadlec’s Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Woah, I Can Test Edge & IE on a Mac & Linux!]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/woah-i-can-test-edge-ie-on-a-mac-linux/"/>
+				<updated>2015-05-20T13:52:56-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/woah-i-can-test-edge-ie-on-a-mac-linux</id>
+				<content type="html"><![CDATA[<p>My colleague Rey Bango’s talk from <a href="http://devchannel.modern.ie/websummit2015">#msEdgeSummit</a> on how to test Microsoft Edge when you don’t work on Windows.</p>
+<p><a rel="full-article" href="http://blog.reybango.com/2015/05/15/woah-i-can-test-edge-ie-on-a-mac-linux/">Read on Rey Bango’s Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -187,29 +224,6 @@
 <blockquote><p>This is an open letter to designers and developers who’d rather not work on email.</p></blockquote>
 <p><a rel="full-article" href="http://www.tedgoas.com/blog/email-design/">Read on Ted Goas&nbsp;&rarr;</a></p>]]></content>
 			</entry>
-		
-	
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Microsoft Edge Is the Browser for Windows 10]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/microsoft-edge-is-the-browser-for-windows-10/"/>
-				<updated>2015-04-29T15:13:19-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/microsoft-edge-is-the-browser-for-windows-10</id>
-				<content type="html"><![CDATA[<p>And then it was revealed:</p>
-
-<pre><code>Windows["Microsoft Edge"] = new Browser();
-</code></pre>
-
-<p>I gotta believe the origins of the name go back to <a href="http://alistapart.com/article/beyondDOCTYPE#section7">IE8’s &ldquo;version targeting&rdquo; scheme</a>. Remember this?</p>
-
-<pre><code>&lt;meta http-equiv="X-UA-Compatible" content="IE=edge" /&gt;
-</code></pre>
-<p><a rel="full-article" href="http://blogs.msdn.com/b/ie/archive/2015/04/29/microsoft-edge-is-the-browser-for-windows-10.aspx">Read on IE Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
 		
 	
 </feed>
