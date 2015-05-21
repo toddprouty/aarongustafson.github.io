@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-05-20T15:16:08-04:00</updated>
+	<updated>2015-05-21T15:15:51-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,31 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Manifold JS]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/manifoldjs/"/>
+				<updated>2015-05-21T15:12:48-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/manifoldjs</id>
+				<content type="html"><![CDATA[<p>Write a web app once, deploy it as a hosted app to Android, iOS, Chrome OS, Firefox OS, and Windows. And it follows the W3C standard for web apps. It’s almost too easy.</p>
+<p><a rel="full-article" href="http://manifoldjs.com/">Read on &nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[15 Years Ago in ALA: Much Ado About 5]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/fifteen-years-ago-in-ala-much-ado-about-5k/"/>
+				<updated>2015-05-21T14:56:10-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/fifteen-years-ago-in-ala-much-ado-about-5k</id>
+				<content type="html"><![CDATA[<p>In this brief post, <a href="https://twitter.com/zeldman">Jeffrey Zeldman</a> reminds us of the importance of simplicity by deftly showing us where we’ve gotten ourselves:</p>
+
+<blockquote><p>[D]riven by fear that apps would make the web irrelevant, we began relying on frameworks that made even the simplest website act and feel like a mind-blowing application. Serving reams of code we didn’t need because, hell, it came with the frameworks, and abandoning principles like progressive enhancement because, hell, everybody uses JavaScript, we soon fell in love with high-resolution, full-screen background images, then fell even harder when those images quadrupled in weight thanks to Retina.
+And still the little article memorializing the little 5K contest sat online, its lessons forgotten in an arms race wherein the average home page now weighs over 2MB. Put that in your Edge network and smoke it.</p></blockquote>
+<p><a rel="full-article" href="http://alistapart.com/blog/post/fifteen-years-ago-in-ala-much-ado-about-5k">Read on A List Apart&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -225,10 +250,6 @@
 				<content type="html"><![CDATA[<p>This is getting to be a habit: Google is shuttering its PageSpeed service</p>
 <p><a rel="full-article" href="https://developers.google.com/speed/pagespeed/service/Deprecation">Read on Google Developers&nbsp;&rarr;</a></p>]]></content>
 			</entry>
-		
-	
-		
-	
 		
 	
 </feed>
