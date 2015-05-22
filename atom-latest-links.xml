@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-05-21T15:15:51-04:00</updated>
+	<updated>2015-05-22T11:09:29-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,28 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Testing for and With Windows Phone]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/testing-for-windows-phone/"/>
+				<updated>2015-05-22T10:23:50-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/testing-for-windows-phone</id>
+				<content type="html"><![CDATA[<p>Testing on Windows phones can be tough. Tools like Adobe’s Edge Inspect don’t support it (yet… I hope that changes at some point) and if you aren’t a Visual Studio user, emulating a Windows phone can also be a challenge. Thankfully, <a href="http://www.twitter.com/BrowseEmAll">Daniel Herken</a> has put together this no-nonsense guide for testing Windows devices.</p>
+<p><a rel="full-article" href="http://www.smashingmagazine.com/2015/05/19/testing-for-windows-phone/">Read on Smashing Magazine&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Show Password: Lessons From a Failed Experiment in JavaScript Accessibility]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/show-password-javascript-accessibility/"/>
+				<updated>2015-05-22T10:16:39-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/show-password-javascript-accessibility</id>
+				<content type="html"><![CDATA[<p>The brilliant James Edwards recounts the trials and tribulations of trying to make an accessible version of &ldquo;Show Password&rdquo; functionality.</p>
+<p><a rel="full-article" href="http://www.sitepoint.com/show-password-javascript-accessibility/">Read on SitePoint&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -227,28 +249,6 @@ And still the little article memorializing the little 5K contest sat online, its
 				<id>http://www.aaron-gustafson.com/notebook/links/practicing-empathy-with-teams</id>
 				<content type="html"><![CDATA[<p>I’ve touched on this a bit in my <a href="http://www.slideshare.net/AaronGustafson/designing-with-empathy-reasons-to-be-creative-2013">Designing with Empathy</a> presentation: “Empathy is just as important for us to practice as we interact with our team members”. <a href="https://twitter.com/susanjrobertson">Susan Robertson</a> goes into the topic of empathy building for teams in this great post for <cite>A List Apart</cite>.</p>
 <p><a rel="full-article" href="http://alistapart.com/blog/post/practicing-empathy-with-teams">Read on A List Apart&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Trainspotting: Firefox 38]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/trainspotting-firefox-38/"/>
-				<updated>2015-05-12T13:16:59-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/trainspotting-firefox-38</id>
-				<content type="html"><![CDATA[<p>Adaptive images &amp; more land in Firefox 38!</p>
-<p><a rel="full-article" href="https://hacks.mozilla.org/2015/05/trainspotting-firefox-38/">Read on Mozilla Hacks&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Turndown Information for PageSpeed Service]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/Deprecation/"/>
-				<updated>2015-05-08T13:16:03-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/Deprecation</id>
-				<content type="html"><![CDATA[<p>This is getting to be a habit: Google is shuttering its PageSpeed service</p>
-<p><a rel="full-article" href="https://developers.google.com/speed/pagespeed/service/Deprecation">Read on Google Developers&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
