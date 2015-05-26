@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-05-26T13:26:54-04:00</updated>
+	<updated>2015-05-26T15:21:27-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,34 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Web vs. Native: Let’s Concede Defeat]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/web_vs_native_l/"/>
+				<updated>2015-05-26T13:38:20-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/web_vs_native_l</id>
+				<content type="html"><![CDATA[<p>I could not agree more with PPK on this: Native apps and websites shouldn’t be in competition. Each has its pros and cons.</p>
+
+<blockquote><p> If the user doesn’t want your icon on his home screen, if the user wants a just-in-time interaction, it’s the web they want — not because of any inherent technological superiority, but because it’s hassle-free. Go there, read, forget. No junk left on your phone.</p>
+
+<p>Most businesses don’t stand a chance of ending up on the users’ home screens. So they need the web — but not a web that emulates native to no particular purpose.</p></blockquote>
+<p><a rel="full-article" href="http://www.quirksmode.org/blog/archives/2015/05/web_vs_native_l.html">Read on QuirksBlog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Even Tiny Updates to Tech Can Be Obstacles for the Disabled]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/even-tiny-updates-tech-can-obstacles-disabled/"/>
+				<updated>2015-05-26T13:33:43-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/even-tiny-updates-tech-can-obstacles-disabled</id>
+				<content type="html"><![CDATA[<p><a href="https://twitter.com/pdkotler">Paul Kotler</a> shares some of his struggles as a technology user with both autism and apraxia, including those you may not have considered:</p>
+
+<blockquote><p>For me, every step forward in making things lighter and smaller is a new obstacle. Often, the buttons I need to hit are too small, the screen too sensitive, or the glare off the screen too distracting to allow me to make use of my device. Updates to operating systems or apps that create slight changes to the size and position of buttons throw me off for days. While these changes might go unnoticed by a typical user, I endure a relearning process that slows me down and makes it more difficult to communicate.</p></blockquote>
+<p><a rel="full-article" href="http://www.wired.com/2015/05/even-tiny-updates-tech-can-obstacles-disabled/">Read on Wired&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -231,28 +259,6 @@ And still the little article memorializing the little 5K contest sat online, its
 
 <p>I have Windows 10 running in a VM. I haven’t tried it as a Bootcamp partition yet, but Alex’s finding are intriguing.</p>
 <p><a rel="full-article" href="http://www.alexvking.com/12_inch_macbook_and_windows_10.html">Read on Alex King’s Personal Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Cortana for All: Microsoft’s Plan to Put Voice Recognition Behind Anything]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/cortana-for-all-microsofts-plan-to-put-voice-recognition-behind-anything/"/>
-				<updated>2015-05-15T17:05:21-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/cortana-for-all-microsofts-plan-to-put-voice-recognition-behind-anything</id>
-				<content type="html"><![CDATA[<p>Cortana has an API! I can’t wait to start playing with this.</p>
-<p><a rel="full-article" href="http://arstechnica.com/information-technology/2015/05/cortana-for-all-microsofts-plan-to-put-voice-recognition-behind-anything/">Read on Ars Technica&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[The Walled Gardens of the Web Are Growing]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/walled-gardens-of-the-web/"/>
-				<updated>2015-05-14T14:16:06-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/walled-gardens-of-the-web</id>
-				<content type="html"><![CDATA[<p>All of this has happened before: Remember the AOL keyword?</p>
-<p><a rel="full-article" href="http://readwrite.com/2015/05/13/walled-gardens-of-the-web">Read on ReadWrite&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
