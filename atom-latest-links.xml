@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-05-26T15:21:27-04:00</updated>
+	<updated>2015-05-28T13:11:49-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,8 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
 	
 		
 			<entry>
@@ -245,21 +247,6 @@ And still the little article memorializing the little 5K contest sat online, its
 			</entry>
 		
 	
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Testing the 12-inch MacBook’s Performance With Windows 10]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/12_inch_macbook_and_windows_10/"/>
-				<updated>2015-05-18T00:01:53-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/12_inch_macbook_and_windows_10</id>
-				<content type="html"><![CDATA[<p>This was in interesting read from <a href="https://twitter.com/Alex_V_King">Alex King</a>. My favorite quote?</p>
-
-<blockquote><p>[I]t&rsquo;s ironic that in some regards, the new MacBook runs Windows 10 (a prerelease version, at that) better than it runs OS X. But it&rsquo;s a testament to two things: Apple&rsquo;s fantastic MacBook hardware, which is forward-thinking yet surprisingly agile; and Microsoft&rsquo;s excellent Windows software, which entices and excites with its beautiful interface, useful new features, and rock-solid UI transitions.</p></blockquote>
-
-<p>I have Windows 10 running in a VM. I haven’t tried it as a Bootcamp partition yet, but Alex’s finding are intriguing.</p>
-<p><a rel="full-article" href="http://www.alexvking.com/12_inch_macbook_and_windows_10.html">Read on Alex King’s Personal Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
 		
 	
 </feed>
