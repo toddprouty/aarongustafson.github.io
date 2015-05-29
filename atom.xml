@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-05-29T12:28:43-04:00</updated>
+	<updated>2015-05-29T12:49:06-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,54 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Please Update Picturefill]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/please-update-picturefill/"/>
+				<updated>2015-05-29T12:47:42-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/please-update-picturefill</id>
+				<content type="html"><![CDATA[<p><a href="https://twitter.com/wilto">Mat Marquis</a> on why you really need to upgrade <a href="http://scottjehl.github.io/picturefill/">Picturefill</a> if you’re using it. Really. Like now.</p>
+<p><a rel="full-article" href="https://css-tricks.com/please-update-picturefill">Read on CSS Tricks&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Web! What Is It Good For?]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/9016/"/>
+				<updated>2015-05-29T12:45:09-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/9016</id>
+				<content type="html"><![CDATA[<p><a href="https://adactio.com/">Jeremy Keith</a>’s love letter to the web. Gush!</p>
+
+<blockquote><p>The web has no gatekeepers. The web has no quality control. The web is a mess. The web is for everyone.</p></blockquote>
+<p><a rel="full-article" href="https://adactio.com/journal/9016">Read on Adactio’s Journal&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Lenovo’s Projector Phone Puts Apps on the Table, Literally]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/lenovos-projector-phone-puts-apps-on-the-table-literally/"/>
+				<updated>2015-05-29T12:43:15-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/lenovos-projector-phone-puts-apps-on-the-table-literally</id>
+				<content type="html"><![CDATA[<p>The future of interface is getting pretty interesting.</p>
+
+<p><figure id="fig-JwBem1Ul8dk" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--4x3"><a class="video-embed__lazy-link" style="background-image:url(http://i2.ytimg.com/vi/JwBem1Ul8dk/0.jpg)" href="//www.youtube.com/watch?v=JwBem1Ul8dk" data-lazy-video-src="http://www.youtube.com/embed/JwBem1Ul8dk?autoplay=1"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info"><a href="https://youtube.com/devicesupport">https://youtube.com/devicesupport</a></div></a></div></figure></p>
+<p><a rel="full-article" href="http://thenextweb.com/gadgets/2015/05/28/lenovos-projector-phone-puts-apps-on-the-table-literally/">Read on The Next Web&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Rocket Packs on Escalators]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/rocket-packs-on-escalators-stop-messing-with-progressive-enhancement/"/>
+				<updated>2015-05-29T12:37:45-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/rocket-packs-on-escalators-stop-messing-with-progressive-enhancement</id>
+				<content type="html"><![CDATA[<p>This is a fantastic presentation on progressive enhancement from the one and only <a href="http://twitter.com/codepo8">Christian Heilmann</a>. See also: His <a href="http://christianheilmann.com/2015/05/24/the-ryanair-approach-to-progressive-enhancement/">insightful post comparing progressive enhancement to checking in for a flight</a>.</p>
+<p><a rel="full-article" href="http://www.slideshare.net/cheilmann/rocket-packs-on-escalators-stop-messing-with-progressive-enhancement">Read on &nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -285,59 +333,6 @@ And still the little article memorializing the little 5K contest sat online, its
 				<id>http://www.aaron-gustafson.com/notebook/links/woah-i-can-test-edge-ie-on-a-mac-linux</id>
 				<content type="html"><![CDATA[<p>My colleague Rey Bango’s talk from <a href="http://devchannel.modern.ie/websummit2015">#msEdgeSummit</a> on how to test Microsoft Edge when you don’t work on Windows.</p>
 <p><a rel="full-article" href="http://blog.reybango.com/2015/05/15/woah-i-can-test-edge-ie-on-a-mac-linux/">Read on Rey Bango’s Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[The JavaScript Framework Bandwagonism]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/the-javascript-framework-bangwagonism/"/>
-				<updated>2015-05-18T16:29:06-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/the-javascript-framework-bangwagonism</id>
-				<content type="html"><![CDATA[<p>Gold from <a href="https://twitter.com/teylorfeliz">Teylor Feliz</a>:</p>
-
-<blockquote><p>A lot of front-end developers don’t have a very strong resistance to change like website users, which is a good thing. But, some developers just need a Todo list demo to get excited and crazy to built an app with the new framework or tool. Some don’t wait for a framework to get out of beta or reach version 1.0 in order to build something with it. We need to learn to wait and let the tools mature so we can take full advantage or have a better idea of the path they are going to take.</p></blockquote>
-<p><a rel="full-article" href="http://admixweb.com/the-javascript-framework-bangwagonism/">Read on admixweb&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Automatic Text Contrast With CSS Blend Modes]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/automatic-text-contrast-with-css-blend-modes/"/>
-				<updated>2015-05-18T16:24:45-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/automatic-text-contrast-with-css-blend-modes</id>
-				<content type="html"><![CDATA[<p>Brilliant work by <a href="http://twitter.com/dudleystorey">Dudley Storey</a> on how to ensure text is always legible even when the background is unknown. Check out <a href="http://codepen.io/dudleystorey/pen/Xbdmjv">the accompanying CodePen</a> as well.</p>
-<p><a rel="full-article" href="http://demosthenes.info/blog/1029/Automatic-Text-Contrast-with-CSS-Blend-Modes">Read on demosthenes.info&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Financial Times Rolls Out ‘cost Per Hour’ Advertising Metric]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/financial-times-rolls-out-cost-per-hour-advertising-metric/"/>
-				<updated>2015-05-18T16:21:02-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/financial-times-rolls-out-cost-per-hour-advertising-metric</id>
-				<content type="html"><![CDATA[<p>This could change the way we design pages by allowing us to move away from the NASCAR-esque badged web design employed by most major media outlets.</p>
-<p><a rel="full-article" href="http://aboutus.ft.com/2015/05/18/financial-times-rolls-out-cost-per-hour-advertising-metric/">Read on FT.com&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[URL Inception]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/url-inception/"/>
-				<updated>2015-05-18T14:38:29-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/url-inception</id>
-				<content type="html"><![CDATA[<p>It’s like a snake eating its own tail:</p>
-
-<pre><code>https://m.facebook.com/ClydesOnMain?refsrc=https%3A%2F%2Fwww.facebook.com%2FClydesOnMain#!/ClydesOnMain?refsrc=https%3A%2F%2Fwww.facebook.com%2FClydesOnMain
-</code></pre>
-
-<p>Wonder what’s going on? Well, Facebook’s mobile site (<code>m.facebook.com/ClydesOnMain</code>) is tracking the URL (using the <code>refsrc</code> GET parameter) I came from (<code>www.facebook.com/ClydesOnMain#!/ClydesOnMain</code>)—a single page &ldquo;web app&rdquo;, hence the hash-bang: <code>#!</code>—that was tracking the original referral page (<code>www.facebook.com/ClydesOnMain</code>).</p>
-
-<p>I hope they got all that.</p>
-]]></content>
 			</entry>
 		
 	
