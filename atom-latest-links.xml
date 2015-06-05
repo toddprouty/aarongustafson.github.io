@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-06-05T10:08:13-04:00</updated>
+	<updated>2015-06-05T10:34:24-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,34 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Making Accessible Futures]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/making-accessible-futures/"/>
+				<updated>2015-06-05T10:29:52-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/making-accessible-futures</id>
+				<content type="html"><![CDATA[<p>Sounds like this was an awesome workshop!</p>
+
+<blockquote><p>George Williams, one of the workshop organizers and author of the chapter “<a href="http://dhdebates.gc.cuny.edu/debates/text/44">Disability, Universal Design, and the Digital Humanities” in Debates in the Digital Humanities</a> (2012), offered the example of the curb cut, which, as he says in his chapter, was designed to facilitate wheelchair users crossing the street, but “became recognized as useful also to other people such as someone making a delivery with a dolly, a traveler pulling luggage on wheels, a parent pushing a child in a stroller, or a person walking beside their bicycle.” Williams urged us to recognize the broad benefits of accessible design, while also raising questions about the “universal” in universal design.</p></blockquote>
+
+<p>I’ve said it before and I’ll say it again: Everyone has special needs and not all of them revolve around disabilities.</p>
+
+<p>There will be another <a href="http://www.accessiblefuture.org/">Accessible Futures</a> workshop this Fall. If you have the opportunity, you should go.</p>
+<p><a rel="full-article" href="http://jitp.commons.gc.cuny.edu/making-accessible-futures/">Read on The Journal of Interactive Technology and Pedagogy&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[It Also Checks its JavaScript]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/it-also-checks-its-javascript/"/>
+				<updated>2015-06-05T10:26:25-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/it-also-checks-its-javascript</id>
+				<content type="html"><![CDATA[<p>Stuart Langridge has been writing smart JavaScript for the last 18 years. We should all be that pragmatic.</p>
+<p><a rel="full-article" href="http://www.kryogenix.org/days/2015/06/01/it-also-checks-its-javascript/">Read on As Days Pass By&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 	
@@ -222,32 +250,6 @@ And still the little article memorializing the little 5K contest sat online, its
 
 <blockquote><p>I think there’s still value in knowing the upper limit of a website, but am filled with growing concern that the time and effort spent on that upper limit might prove to be all in vain.</p></blockquote>
 <p><a rel="full-article" href="http://daverupert.com/2015/05/desktop-conundrum/">Read on daverupert.com&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Our Approach to Mobile-friendly Search]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/our-approach-to-mobile-friendly-search/"/>
-				<updated>2015-05-20T14:09:40-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/our-approach-to-mobile-friendly-search</id>
-				<content type="html"><![CDATA[<p>Bing cares about mobile-friendliness now too:</p>
-
-<blockquote><p>Our approach to mobile friendliness as a ranking signal balances the need to improve the ranking for mobile-friendly pages, with the continued focus on delivering the most relevant results for a given query. This means that for mobile searches on Bing, you can always expect to see the most relevant results for a search query ranked higher, even if some of them are not mobile-friendly. While the changes will improve ranking for mobile-friendly pages, webpages that are highly relevant to the given query that are not yet mobile-friendly will not get penalized.</p></blockquote>
-<p><a rel="full-article" href="http://blogs.bing.com/webmaster/2015/05/14/our-approach-to-mobile-friendly-search/">Read on Bing Webmaster Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Choosing Performance]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/choosing-performance/"/>
-				<updated>2015-05-20T14:06:14-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/choosing-performance</id>
-				<content type="html"><![CDATA[<p>Tim Kadlec nails it again in this piece on performance in light of Facebook’s &ldquo;Instant Articles&rdquo; announcement:</p>
-
-<blockquote><p>Is the web just inherently slow and destined to never be able to compete with the performance offered by a native platform? (Spoiler: No. No it is not.)</p></blockquote>
-<p><a rel="full-article" href="http://timkadlec.com/2015/05/choosing-performance/">Read on Tim Kadlec’s Blog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	

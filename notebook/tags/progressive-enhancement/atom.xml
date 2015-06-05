@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Progressive Enhancement | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/progressive-enhancement/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-06-05T10:08:13-04:00</updated>
+  <updated>2015-06-05T10:34:24-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -72,7 +72,7 @@
 
 <p>In order to ensure we don’t accidentally deliver advanced features to less capable browsers like these, we just need to be smart about how we load stuff like CSS and JavaScript.</p>
 
-<p>Some basic CSS—think typography, color, etc.—will be usable by just about anyone, so we can put all that stuff in one CSS file (e.g. <code>basic.css</code>) and include it with a standard <code>link</code>. Then we can tuck all of our layout rules and other advanced CSS into a separate CSS file (e.g. <code>advanced.css</code>) that we link to with an associated media query.</p>
+<p>Some basic CSS—think typography, color, etc.—will be usable by just about anyone, so we can put all that stuff in one CSS file (e.g., <code>basic.css</code>) and include it with a standard <code>link</code>. Then we can tuck all of our layout rules and other advanced CSS into a separate CSS file (e.g., <code>advanced.css</code>) that we link to with an associated media query.</p>
 
 <p><div><script src='https://gist.github.com/166b285a4fe3d854b97b.js?file=css-linking.html'></script>
 <noscript><pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;default.css&quot; media=&quot;all&quot;&gt;
@@ -142,7 +142,7 @@
 
 <p>If we really want to make things easy on ourselves (and our team), we should consider building a <a href="http://alistapart.com/blog/post/getting-started-with-pattern-libraries">pattern library</a> before we build a single page of our website.</p>
 
-<p>Breaking our interfaces down into discrete, repeatable patterns (e.g. a label and form control, a tabbed interface, etc.) lets us look at each in isolation and test it that way too. Testing in isolation is far easier than trying to debug a page with a lot of moving parts.</p>
+<p>Breaking our interfaces down into discrete, repeatable patterns (e.g., a label and form control, a tabbed interface, etc.) lets us look at each in isolation and test it that way too. Testing in isolation is far easier than trying to debug a page with a lot of moving parts.</p>
 
 <p>Gathering our patterns into a live, web-based pattern library  allows anyone on our team to collect the patterns they need to build a given interface as easily as they’d assemble a plate at a smörgåsbord. And if we really want to streamline the building and testing process, we can even <a href="http://ianfeather.co.uk/a-maintainable-style-guide/">make the patterns importable into the live site</a> so everything stays in sync.</p>
 
