@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-06-05T10:34:24-04:00</updated>
+	<updated>2015-06-05T13:20:36-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,19 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[The Web Is Not Poor Man’s Native]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/the-web-is-not-poor-mans-native/"/>
+				<updated>2015-06-05T13:17:22-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/the-web-is-not-poor-mans-native</id>
+				<content type="html"><![CDATA[<p><a href="http://cwilso.com/">Chris Wilson</a> is dead-on with this post. The web isn’t native, but it can do native-like things really well and with less friction for our users.</p>
+
+<blockquote><p>The web… excels at just-in-time interaction, as it IS hassle-free. But it’s a natural progression to enable users to move that onto their home screen, and let them get notifications and other engagement features if they so desire. This is still the web, though – I don’t need to have the NYT app open just to read the article at a link I followed. There are also app-like behaviors you may want occasionally too, e.g. a “what’s near me?” app. There’s an assumption that app-like behaviors demand native, and that the web is for documents.</p></blockquote>
+<p><a rel="full-article" href="http://cwilso.com/2015/05/29/the-web-is-not-poor-mans-native/">Read on In Progress&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -458,19 +471,6 @@ And still the little article memorializing the little 5K contest sat online, its
 
 <p>This article is long and full of choice quotes and embodied wisdom. You should read it. Twice.</p>
 <p><a rel="full-article" href="https://www.baldurbjarnason.com/notes/media-websites-vs-facebook/">Read on Baldur Bjarnason’s Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[The Desktop Conundrum]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/desktop-conundrum/"/>
-				<updated>2015-05-20T14:52:10-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/desktop-conundrum</id>
-				<content type="html"><![CDATA[<p>In this brief post, Dave Rupert muses about the future of &ldquo;desktop&rdquo;.</p>
-
-<blockquote><p>I think there’s still value in knowing the upper limit of a website, but am filled with growing concern that the time and effort spent on that upper limit might prove to be all in vain.</p></blockquote>
-<p><a rel="full-article" href="http://daverupert.com/2015/05/desktop-conundrum/">Read on daverupert.com&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
