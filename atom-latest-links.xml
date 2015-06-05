@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-05-29T12:49:06-04:00</updated>
+	<updated>2015-06-05T09:58:14-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,8 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
 	
 		
 			<entry>
@@ -246,17 +248,6 @@ And still the little article memorializing the little 5K contest sat online, its
 
 <blockquote><p>Is the web just inherently slow and destined to never be able to compete with the performance offered by a native platform? (Spoiler: No. No it is not.)</p></blockquote>
 <p><a rel="full-article" href="http://timkadlec.com/2015/05/choosing-performance/">Read on Tim Kadlec’s Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Woah, I Can Test Edge & IE on a Mac & Linux!]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/woah-i-can-test-edge-ie-on-a-mac-linux/"/>
-				<updated>2015-05-20T13:52:56-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/woah-i-can-test-edge-ie-on-a-mac-linux</id>
-				<content type="html"><![CDATA[<p>My colleague Rey Bango’s talk from <a href="http://devchannel.modern.ie/websummit2015">#msEdgeSummit</a> on how to test Microsoft Edge when you don’t work on Windows.</p>
-<p><a rel="full-article" href="http://blog.reybango.com/2015/05/15/woah-i-can-test-edge-ie-on-a-mac-linux/">Read on Rey Bango’s Blog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
