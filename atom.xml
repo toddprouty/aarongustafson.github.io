@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-06-09T10:47:06-05:00</updated>
+	<updated>2015-06-09T11:05:32-05:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -18,7 +18,7 @@
 				<link href="http://www.aaron-gustafson.com/notebook/links/introducing-srcset-responsive-images-in-microsoft-edge/"/>
 				<updated>2015-06-09T10:37:29-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/introducing-srcset-responsive-images-in-microsoft-edge</id>
-				<content type="html"><![CDATA[<p>Greg Whitworth shares the status of secretes in Microsoft Edge along with what’s coming (and a request that you update Picturefill if you’re using it).</p>
+				<content type="html"><![CDATA[<p>Greg Whitworth shares the status of <code>srcset</code> in Microsoft Edge along with what’s coming (and a request that you update Picturefill if you’re using it).</p>
 <p><a rel="full-article" href="http://blogs.windows.com/msedgedev/2015/06/08/introducing-srcset-responsive-images-in-microsoft-edge/">Read on Microsoft Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
