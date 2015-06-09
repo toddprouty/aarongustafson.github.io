@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Javascript | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/javascript/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-06-05T13:29:55-04:00</updated>
+  <updated>2015-06-09T10:47:06-05:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Lies, Damn Lies, and JavaScript]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/lies-damn-lies-and-javascript/"/>
-    <updated>2015-04-27T15:10:11-04:00</updated>
+    <updated>2015-04-27T14:10:11-05:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/lies-damn-lies-and-javascript</id>
     <content type="html"><![CDATA[<p>Late last week I stumbled on a video from <a href="https://twitter.com/graemepyle">Graeme Pyle</a> that exposed a UX lie in the <a href="https://www.fnb.co.za/">First National Bank of South Africa</a>.</p>
 
@@ -40,7 +40,7 @@
   <entry>
     <title type="html"><![CDATA[How to Apply Progressive Enhancement When JavaScript Seems Like a Requirement]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/how-to-apply-progressive-enhancement-when-javascript-seems-like-a-requirement/"/>
-    <updated>2015-04-02T10:14:40-04:00</updated>
+    <updated>2015-04-02T09:14:40-05:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/how-to-apply-progressive-enhancement-when-javascript-seems-like-a-requirement</id>
     <content type="html"><![CDATA[<p>On Stack Overflow last week, <a href="http://stackoverflow.com/users/4719194/jamham">JamHam</a> asked how to apply progressive enhancement in interfaces that seem to require JavaScript. Unfortunately he deleted the question before I could post my response, so I thought I would post it all here for posterity.</p>
 
@@ -92,7 +92,7 @@ WebSockets) stuff pretty much depends on JavaScript, with &lsquo;messages&rsquo;
   <entry>
     <title type="html"><![CDATA[Google Embraces Progressive Enhancement]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/google-embraces-progressive-enhancement/"/>
-    <updated>2014-10-28T21:07:35-04:00</updated>
+    <updated>2014-10-28T20:07:35-05:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/google-embraces-progressive-enhancement</id>
     <content type="html"><![CDATA[<p>In case you missed it, <a href="http://googlewebmastercentral.blogspot.com/2014/10/updating-our-technical-webmaster.html">yesterday Pierre Far updated Google’s Webmaster Guidelines</a>. In his post, Pierre lays out their case for <a href="https://en.wikipedia.org/wiki/Progressive_enhancement">progressive enhancement</a>:</p>
 
@@ -124,7 +124,7 @@ WebSockets) stuff pretty much depends on JavaScript, with &lsquo;messages&rsquo;
   <entry>
     <title type="html"><![CDATA[Missed Connections]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/missed-connections/"/>
-    <updated>2014-09-19T16:12:50-04:00</updated>
+    <updated>2014-09-19T15:12:50-05:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/missed-connections</id>
     <content type="html"><![CDATA[<p>Earlier today, <a href="http://www.kryogenix.org">Stuart Langridge</a>—who I worked with on WaSP’s DOM Scripting Task Force and have the utmost respect for—<a href="http://www.kryogenix.org/days/2014/09/19/fundamentally-connected/">published a blog response</a> to <a href="http://aaron-gustafson.com/notebook/2014/a-fundamental-disconnect/">my last post</a>. In it, he made some good points I wanted to highlight, but he also misunderstood one thing I said and managed to avoid addressing the core of my argument. As comments aren’t enabled on his site, I thought I’d respond here.</p>
 
@@ -192,7 +192,7 @@ WebSockets) stuff pretty much depends on JavaScript, with &lsquo;messages&rsquo;
   <entry>
     <title type="html"><![CDATA[A Fundamental Disconnect]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/a-fundamental-disconnect/"/>
-    <updated>2014-09-13T15:01:58-04:00</updated>
+    <updated>2014-09-13T14:01:58-05:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/a-fundamental-disconnect</id>
     <content type="html"><![CDATA[<p>Yesterday at <a href="//2014.blendconf.com/">BlendConf</a>, <a href="//www.hanselman.com/">Scott Hanselman</a> gave a fantastically-entertaining keynote entitled “JavaScript, The Cloud, and the rise of the New Virtual Machine.” In it, he chronicled all of the ways Web development and deployment has changed—for the better—over the years. He also boldly declared that JavaScript is now, effectively, a virtual machine in the browser.</p>
 

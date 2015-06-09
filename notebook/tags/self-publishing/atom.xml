@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Self-publishing | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/self-publishing/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-06-05T13:29:55-04:00</updated>
+  <updated>2015-06-09T10:47:06-05:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Enabling Webmentions in Jekyll]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/enabling-webmentions-in-jekyll/"/>
-    <updated>2014-11-18T17:01:08-05:00</updated>
+    <updated>2014-11-18T16:01:08-06:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/enabling-webmentions-in-jekyll</id>
     <content type="html"><![CDATA[<p>While I am really happy with my choice to move away from a dynamic website/blog to a static one—powered by <a href="http://octopress.org/">Octopress</a>, hosted for free on <a href="https://github.com">Github</a>—it’s been pretty limiting when it comes to integrating comments and other more necessarily dynamic components.</p>
 
@@ -75,7 +75,7 @@
   <entry>
     <title type="html"><![CDATA[What Do We Own?]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/what-do-we-own/"/>
-    <updated>2014-11-17T09:43:54-05:00</updated>
+    <updated>2014-11-17T08:43:54-06:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/what-do-we-own</id>
     <content type="html"><![CDATA[<p>My good friend <a href="http://adactio.com">Jeremy</a> is <a href="https://adactio.com/journal/6801">incredibly excited</a> about the <a href="http://indiewebcamp.com/">Indie Web movement</a> and I am right there with him. I love the idea of owning your content and then syndicating it out to social networks, photo sites, and the like. It makes complete sense… <a href="http://www.gyford.com/phil/writing/2009/04/28/geocities.php">Web-based services have a habit of disappearing</a>, so we shouldn’t rely on them. The only Web that is permanent is the one we control.</p>
 
