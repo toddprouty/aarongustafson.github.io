@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-06-09T11:05:32-05:00</updated>
+	<updated>2015-06-13T17:51:05-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -14,9 +14,44 @@
 	
 		
 			<entry>
+				<title type="html"><![CDATA[With iOS 9, Apple Lets Developers Cutoff Support for Older iOS Devices Without 64-bit CPUs]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/ios-9-older-devices-lose-support-apps/"/>
+				<updated>2015-06-13T17:44:53-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/ios-9-older-devices-lose-support-apps</id>
+				<content type="html"><![CDATA[<p>I wonder how many app developers will needlessly flip this switch and cut off every iOS device that doesn’t have a 64 bit processor. Given that with every new phone release, sales of the old ones spike, the folks that buy the older models may be a little miffed to find out the apps they want to use have decided it’s inconvenient to support them.</p>
+<p><a rel="full-article" href="http://9to5mac.com/2015/06/10/ios-9-older-devices-lose-support-apps/">Read on 9to5Mac&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[The New York Times Wisely Blocks Staff From Viewing Its Desktop Homepage]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/the-new-york-times-wisely-blocks-staff-from-viewing-its-desktop-homepage/"/>
+				<updated>2015-06-13T17:43:30-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/the-new-york-times-wisely-blocks-staff-from-viewing-its-desktop-homepage</id>
+				<content type="html"><![CDATA[<p>The <cite>New York Times</cite> is training every employee that mobile matters. I wish more companies would do this!</p>
+<p><a rel="full-article" href="http://thenextweb.com/opinion/2015/06/12/the-new-york-times-wisely-blocks-staff-from-viewing-its-desktop-homepage/">Read on The Next Web&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Opera Mini Is Here for Your Windows Phone!]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/opera-mini-for-windows-phone/"/>
+				<updated>2015-06-13T17:32:59-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/opera-mini-for-windows-phone</id>
+				<content type="html"><![CDATA[<p>I love that Opera is building its browser for as many platforms as possible. OS X and Windows of course, but they are also on iOS, Android, Blackberry, Symbian, Java ME, Bada, Windows Mobile, Zeebo, and now Windows Phone.</p>
+
+<p>Go Opera go!</p>
+<p><a rel="full-article" href="http://blogs.opera.com/mobile/2015/06/opera-mini-for-windows-phone/">Read on Opera Blogs&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
 				<title type="html"><![CDATA[Introducing Srcset, Our First Step Towards Fully Responsive Images in Microsoft Edge]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/introducing-srcset-responsive-images-in-microsoft-edge/"/>
-				<updated>2015-06-09T10:37:29-05:00</updated>
+				<updated>2015-06-09T11:37:29-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/introducing-srcset-responsive-images-in-microsoft-edge</id>
 				<content type="html"><![CDATA[<p>Greg Whitworth shares the status of <code>srcset</code> in Microsoft Edge along with what’s coming (and a request that you update Picturefill if you’re using it).</p>
 <p><a rel="full-article" href="http://blogs.windows.com/msedgedev/2015/06/08/introducing-srcset-responsive-images-in-microsoft-edge/">Read on Microsoft Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
@@ -27,7 +62,7 @@
 			<entry>
 				<title type="html"><![CDATA[The Web Is Fast by Default, Let’s Keep It Fast]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/2015-05-18-the-web-is-fast-by-default-lets-keep-it-fast/"/>
-				<updated>2015-06-05T12:28:43-05:00</updated>
+				<updated>2015-06-05T13:28:43-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/2015-05-18-the-web-is-fast-by-default-lets-keep-it-fast</id>
 				<content type="html"><![CDATA[<p>Brilliant post on progressive enhancement for performance. Well worth a read.</p>
 <p><a rel="full-article" href="https://hiddedevries.nl/en/blog/2015-05-18-the-web-is-fast-by-default-lets-keep-it-fast">Read on Hidde de Vries’ Blog&nbsp;&rarr;</a></p>]]></content>
@@ -38,7 +73,7 @@
 			<entry>
 				<title type="html"><![CDATA[The Web Is Not Poor Man’s Native]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/the-web-is-not-poor-mans-native/"/>
-				<updated>2015-06-05T12:17:22-05:00</updated>
+				<updated>2015-06-05T13:17:22-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/the-web-is-not-poor-mans-native</id>
 				<content type="html"><![CDATA[<p><a href="http://cwilso.com/">Chris Wilson</a> is dead-on with this post. The web isn’t native, but it can do native-like things really well and with less friction for our users.</p>
 
@@ -51,7 +86,7 @@
 			<entry>
 				<title type="html"><![CDATA[Making Accessible Futures]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/making-accessible-futures/"/>
-				<updated>2015-06-05T09:29:52-05:00</updated>
+				<updated>2015-06-05T10:29:52-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/making-accessible-futures</id>
 				<content type="html"><![CDATA[<p>Sounds like this was an awesome workshop!</p>
 
@@ -68,7 +103,7 @@
 			<entry>
 				<title type="html"><![CDATA[It Also Checks its JavaScript]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/it-also-checks-its-javascript/"/>
-				<updated>2015-06-05T09:26:25-05:00</updated>
+				<updated>2015-06-05T10:26:25-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/it-also-checks-its-javascript</id>
 				<content type="html"><![CDATA[<p>Stuart Langridge has been writing smart JavaScript for the last 18 years. We should all be that pragmatic.</p>
 <p><a rel="full-article" href="http://www.kryogenix.org/days/2015/06/01/it-also-checks-its-javascript/">Read on As Days Pass By&nbsp;&rarr;</a></p>]]></content>
@@ -79,7 +114,7 @@
 			<entry>
 				<title type="html"><![CDATA[Bringing Sanity and Order to Device Testing]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/bringing-sanity-and-order-to-device-testing/"/>
-				<updated>2015-06-05T08:56:03-05:00</updated>
+				<updated>2015-06-05T09:56:03-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/bringing-sanity-and-order-to-device-testing</id>
 				<content type="html"><![CDATA[<p>It seems like every other day the public is granted some new means of accessing the web. Some days it’s <a href="http://www.engadget.com/2015/04/29/microsoft-edge/">a new browser</a>. Others it’s <a href="http://www.pcadvisor.co.uk/reviews/mobile-phone/3504276/yotaphone-2-review-uk-dual-screen-smartphone/">a new smartphone</a>. Or <a href="http://www.engadget.com/products/microsoft/surface/3/">a tablet</a>. Or <a href="http://the-digital-reader.com/2014/10/22/voyage-vs-paperwhite-comparison-review-web-browser/">an e-reader</a>. Or <a href="https://www.nintendo.com/3ds/internetbrowser/specs/">a video game console</a>. Or <a href="http://www.phonearena.com/news/Surf-the-Internet-from-your-Android-Wear-smartwatch-Now-possible-via-this-new-app_id58580">a smartwatch</a>. Or <a href="https://html5test.com/compare/browser/samsungsmarttv-2013.html">a TV</a>. Or <a href="http://www.techradar.com/us/reviews/wearables/microsoft-hololens-1281834/review">a heads-up display</a>. Or <a href="http://www.popularmechanics.com/cars/a13191/the-future-of-car-connectivity-is-a-real-web-browser-in-the-dash-17416796/">a car</a>. Or <a href="http://www.lgblog.lt/2009/10/28/zvilgsnis-atgal-pirmasis-pasaulyje-saldytuvas-su-internetu-lg-internet-digital-dios/">a refrigerator</a>.</p>
 
@@ -226,7 +261,7 @@
 			<entry>
 				<title type="html"><![CDATA[Please Update Picturefill]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/please-update-picturefill/"/>
-				<updated>2015-05-29T11:47:42-05:00</updated>
+				<updated>2015-05-29T12:47:42-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/please-update-picturefill</id>
 				<content type="html"><![CDATA[<p><a href="https://twitter.com/wilto">Mat Marquis</a> on why you really need to upgrade <a href="http://scottjehl.github.io/picturefill/">Picturefill</a> if you’re using it. Really. Like now.</p>
 <p><a rel="full-article" href="https://css-tricks.com/please-update-picturefill">Read on CSS Tricks&nbsp;&rarr;</a></p>]]></content>
@@ -237,7 +272,7 @@
 			<entry>
 				<title type="html"><![CDATA[Web! What Is It Good For?]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/9016/"/>
-				<updated>2015-05-29T11:45:09-05:00</updated>
+				<updated>2015-05-29T12:45:09-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/9016</id>
 				<content type="html"><![CDATA[<p><a href="https://adactio.com/">Jeremy Keith</a>’s love letter to the web. Gush!</p>
 
@@ -250,7 +285,7 @@
 			<entry>
 				<title type="html"><![CDATA[Lenovo’s Projector Phone Puts Apps on the Table, Literally]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/lenovos-projector-phone-puts-apps-on-the-table-literally/"/>
-				<updated>2015-05-29T11:43:15-05:00</updated>
+				<updated>2015-05-29T12:43:15-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/lenovos-projector-phone-puts-apps-on-the-table-literally</id>
 				<content type="html"><![CDATA[<p>The future of interface is getting pretty interesting.</p>
 
@@ -263,7 +298,7 @@
 			<entry>
 				<title type="html"><![CDATA[Rocket Packs on Escalators]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/rocket-packs-on-escalators-stop-messing-with-progressive-enhancement/"/>
-				<updated>2015-05-29T11:37:45-05:00</updated>
+				<updated>2015-05-29T12:37:45-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/rocket-packs-on-escalators-stop-messing-with-progressive-enhancement</id>
 				<content type="html"><![CDATA[<p>This is a fantastic presentation on progressive enhancement from the one and only <a href="http://twitter.com/codepo8">Christian Heilmann</a>. See also: His <a href="http://christianheilmann.com/2015/05/24/the-ryanair-approach-to-progressive-enhancement/">insightful post comparing progressive enhancement to checking in for a flight</a>.</p>
 <p><a rel="full-article" href="http://www.slideshare.net/cheilmann/rocket-packs-on-escalators-stop-messing-with-progressive-enhancement">Read on &nbsp;&rarr;</a></p>]]></content>
@@ -274,7 +309,7 @@
 			<entry>
 				<title type="html"><![CDATA[Interface Experience Maps]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/interface-experience-maps/"/>
-				<updated>2015-05-28T07:43:20-05:00</updated>
+				<updated>2015-05-28T08:43:20-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/interface-experience-maps</id>
 				<content type="html"><![CDATA[<p>One of the greatest challenges of progressive enhancement lies not with the coding, but with the planning. It can be incredibly challenging to articulate how a single interface might adapt to a wide variety of situations. Interface Experience Maps (Ix Maps) can help.</p>
 
@@ -352,7 +387,7 @@
 			<entry>
 				<title type="html"><![CDATA[Web vs. Native: Let’s Concede Defeat]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/web_vs_native_l/"/>
-				<updated>2015-05-26T12:38:20-05:00</updated>
+				<updated>2015-05-26T13:38:20-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/web_vs_native_l</id>
 				<content type="html"><![CDATA[<p>I could not agree more with PPK on this: Native apps and websites shouldn’t be in competition. Each has its pros and cons.</p>
 
@@ -367,7 +402,7 @@
 			<entry>
 				<title type="html"><![CDATA[Even Tiny Updates to Tech Can Be Obstacles for the Disabled]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/even-tiny-updates-tech-can-obstacles-disabled/"/>
-				<updated>2015-05-26T12:33:43-05:00</updated>
+				<updated>2015-05-26T13:33:43-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/even-tiny-updates-tech-can-obstacles-disabled</id>
 				<content type="html"><![CDATA[<p><a href="https://twitter.com/pdkotler">Paul Kotler</a> shares some of his struggles as a technology user with both autism and apraxia, including those you may not have considered:</p>
 
@@ -380,7 +415,7 @@
 			<entry>
 				<title type="html"><![CDATA[Want to Become an Expert? Study (Web) History]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/want-to-become-an-expert-study-web-history/"/>
-				<updated>2015-05-26T12:07:31-05:00</updated>
+				<updated>2015-05-26T13:07:31-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/want-to-become-an-expert-study-web-history</id>
 				<content type="html"><![CDATA[<p>I could not agree more:</p>
 
@@ -393,7 +428,7 @@
 			<entry>
 				<title type="html"><![CDATA[World White Web]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/worldwhiteweb/"/>
-				<updated>2015-05-26T11:36:38-05:00</updated>
+				<updated>2015-05-26T12:36:38-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/worldwhiteweb</id>
 				<content type="html"><![CDATA[<p>This project—from a Swedish student—seeks to address the issue of the dominance of &ldquo;whiteness&rdquo; online by asking you to share pictures of non-white hands in order to make them more visible in Google Image Search. Admittedly, it’s a drop in the bucket when it comes to increasing the visibility of colored people online, but as Ovid famously said: “Dripping water hollows out stone, not through force but through persistence” (<i lang="la">Gutta cavat lapidem, non vi, sed saepe cadendo</i>).</p>
 <p><a rel="full-article" href="http://worldwhiteweb.net">Read on World White Web - Take part in changing the search results for hand on Google.&nbsp;&rarr;</a></p>]]></content>
@@ -404,7 +439,7 @@
 			<entry>
 				<title type="html"><![CDATA[Tracking Protection in Firefox for Privacy and Performance (PDF)]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/tracking-protection-in-firefox-for-privacy-and-performance/"/>
-				<updated>2015-05-26T11:24:11-05:00</updated>
+				<updated>2015-05-26T12:24:11-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/tracking-protection-in-firefox-for-privacy-and-performance</id>
 				<content type="html"><![CDATA[<p>New research from Columbia University and Mozilla reveals that Firefox’s &ldquo;Tracking Protection&rdquo; privacy tech has an added benefit of speeding up the web:</p>
 
@@ -417,46 +452,10 @@
 			<entry>
 				<title type="html"><![CDATA[Testing for and With Windows Phone]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/testing-for-windows-phone/"/>
-				<updated>2015-05-22T09:23:50-05:00</updated>
+				<updated>2015-05-22T10:23:50-04:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/testing-for-windows-phone</id>
 				<content type="html"><![CDATA[<p>Testing on Windows phones can be tough. Tools like Adobe’s Edge Inspect don’t support it (yet… I hope that changes at some point) and if you aren’t a Visual Studio user, emulating a Windows phone can also be a challenge. Thankfully, <a href="http://www.twitter.com/BrowseEmAll">Daniel Herken</a> has put together this no-nonsense guide for testing Windows devices.</p>
 <p><a rel="full-article" href="http://www.smashingmagazine.com/2015/05/19/testing-for-windows-phone/">Read on Smashing Magazine&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Show Password: Lessons From a Failed Experiment in JavaScript Accessibility]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/show-password-javascript-accessibility/"/>
-				<updated>2015-05-22T09:16:39-05:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/show-password-javascript-accessibility</id>
-				<content type="html"><![CDATA[<p>The brilliant James Edwards recounts the trials and tribulations of trying to make an accessible version of &ldquo;Show Password&rdquo; functionality.</p>
-<p><a rel="full-article" href="http://www.sitepoint.com/show-password-javascript-accessibility/">Read on SitePoint&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Manifold JS]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/manifoldjs/"/>
-				<updated>2015-05-21T14:12:48-05:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/manifoldjs</id>
-				<content type="html"><![CDATA[<p>Write a web app once, deploy it as a hosted app to Android, iOS, Chrome OS, Firefox OS, and Windows. And it follows the W3C standard for web apps. It’s almost too easy.</p>
-<p><a rel="full-article" href="http://manifoldjs.com/">Read on &nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[15 Years Ago in ALA: Much Ado About 5]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/fifteen-years-ago-in-ala-much-ado-about-5k/"/>
-				<updated>2015-05-21T13:56:10-05:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/fifteen-years-ago-in-ala-much-ado-about-5k</id>
-				<content type="html"><![CDATA[<p>In this brief post, <a href="https://twitter.com/zeldman">Jeffrey Zeldman</a> reminds us of the importance of simplicity by deftly showing us where we’ve gotten ourselves:</p>
-
-<blockquote><p>[D]riven by fear that apps would make the web irrelevant, we began relying on frameworks that made even the simplest website act and feel like a mind-blowing application. Serving reams of code we didn’t need because, hell, it came with the frameworks, and abandoning principles like progressive enhancement because, hell, everybody uses JavaScript, we soon fell in love with high-resolution, full-screen background images, then fell even harder when those images quadrupled in weight thanks to Retina.
-And still the little article memorializing the little 5K contest sat online, its lessons forgotten in an arms race wherein the average home page now weighs over 2MB. Put that in your Edge network and smoke it.</p></blockquote>
-<p><a rel="full-article" href="http://alistapart.com/blog/post/fifteen-years-ago-in-ala-much-ado-about-5k">Read on A List Apart&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
