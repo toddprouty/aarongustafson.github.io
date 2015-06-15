@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-06-13T17:51:05-04:00</updated>
+	<updated>2015-06-15T15:14:25-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[How Can I Debug Localhost With MS Edge?]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/how-can-i-debug-localhost/"/>
+				<updated>2015-06-15T15:11:38-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/how-can-i-debug-localhost</id>
+				<content type="html"><![CDATA[<p>As a security precaution, Microsoft Edge uses network isolation by default. You can override it via the command line right now, but it will be in <code>about:flags</code> in the future.</p>
+<p><a rel="full-article" href="http://dev.modern.ie/platform/faq/how-can-i-debug-localhost/">Read on Microsoft Edge | Dev&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -445,17 +456,6 @@
 
 <blockquote><p>Since Firefox does not download and render content from tracking domains, Tracking Protection also enjoys performance benefits of a 44% median reduction in page load time and 39% reduction in data usage in the Alexa top 200 news sites.</p></blockquote>
 <p><a rel="full-article" href="http://ieee-security.org/TC/SPW2015/W2SP/papers/W2SP_2015_submission_32.pdf">Read on IEEE Security&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Testing for and With Windows Phone]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/testing-for-windows-phone/"/>
-				<updated>2015-05-22T10:23:50-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/testing-for-windows-phone</id>
-				<content type="html"><![CDATA[<p>Testing on Windows phones can be tough. Tools like Adobe’s Edge Inspect don’t support it (yet… I hope that changes at some point) and if you aren’t a Visual Studio user, emulating a Windows phone can also be a challenge. Thankfully, <a href="http://www.twitter.com/BrowseEmAll">Daniel Herken</a> has put together this no-nonsense guide for testing Windows devices.</p>
-<p><a rel="full-article" href="http://www.smashingmagazine.com/2015/05/19/testing-for-windows-phone/">Read on Smashing Magazine&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
