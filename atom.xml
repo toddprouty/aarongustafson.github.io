@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-06-17T11:00:03-04:00</updated>
+	<updated>2015-06-17T13:53:53-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Building a More Interoperable Web With Microsoft Edge]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/building-a-more-interoperable-web-with-microsoft-edge/"/>
+				<updated>2015-06-17T13:49:30-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/building-a-more-interoperable-web-with-microsoft-edge</id>
+				<content type="html"><![CDATA[<p>Microsoft’s Frank Oliver has a nice write-up on the importance of browser interoperability and what the browser team has done with Microsoft Edge.</p>
+<p><a rel="full-article" href="http://blogs.windows.com/msedgedev/2015/06/17/building-a-more-interoperable-web-with-microsoft-edge/">Read on Microsoft Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -462,19 +473,6 @@
 
 <blockquote><p>For me, every step forward in making things lighter and smaller is a new obstacle. Often, the buttons I need to hit are too small, the screen too sensitive, or the glare off the screen too distracting to allow me to make use of my device. Updates to operating systems or apps that create slight changes to the size and position of buttons throw me off for days. While these changes might go unnoticed by a typical user, I endure a relearning process that slows me down and makes it more difficult to communicate.</p></blockquote>
 <p><a rel="full-article" href="http://www.wired.com/2015/05/even-tiny-updates-tech-can-obstacles-disabled/">Read on Wired&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Want to Become an Expert? Study (Web) History]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/want-to-become-an-expert-study-web-history/"/>
-				<updated>2015-05-26T13:07:31-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/want-to-become-an-expert-study-web-history</id>
-				<content type="html"><![CDATA[<p>I could not agree more:</p>
-
-<blockquote><p>This is about getting other web professionals to better understand our field. To be correct in what they say about the past, when trying to educate others. To not make false statements, based on lack of knowledge or direct experience, which lead to wrong assumptions and misinformed decisions about code and architectures.</p></blockquote>
-<p><a rel="full-article" href="http://www.obiwankimberly.com/2013/09/17/want-to-become-an-expert-study-web-history/">Read on Obi-Wan Kimberly Blessing&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
