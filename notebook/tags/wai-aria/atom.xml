@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Wai-aria | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/wai-aria/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-06-17T13:53:53-04:00</updated>
+  <updated>2015-06-22T16:15:36-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -29,7 +29,7 @@
 
 <p>To demonstrate how all of this plays out, I threw together <a href="http://codepen.io/aarongustafson/pen/dmuoe/">a quick CodePen demo</a> that takes you through numerous ways you can use and combine these attributes. I also did a <a href="http://youtu.be/U8_VjI-Z1LA">screen recording to demonstrate how ChromeVox exposes these attributes</a>:</p>
 
-<p><figure id="fig-U8_VjI-Z1LA" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--4x3"><a class="video-embed__lazy-link" style="background-image:url(http://i2.ytimg.com/vi/U8_VjI-Z1LA/0.jpg)" href="//www.youtube.com/watch?v=U8_VjI-Z1LA" data-lazy-video-src="http://www.youtube.com/embed/U8_VjI-Z1LA?autoplay=1"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">aria-labelledby vs. aria-describedby</div></a></div></figure></p>
+<p>{% youtube U8_VjI-Z1LA %}</p>
 
 <p><strong>Update:</strong> <a href="https://twitter.com/stevefaulkner">Steve Faulkner</a> shared a doc that discusses <a href="http://rawgit.com/w3c/aria/master/html-aam/html-aam.html#accessible-name-and-description-calculation">how accessible names and descriptions are calculated</a>. Thanks Steve!</p>
 

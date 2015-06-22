@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Tools | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/tools/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-06-17T13:53:53-04:00</updated>
+  <updated>2015-06-22T16:15:36-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -31,7 +31,7 @@
 
 <p>Here’s a video of me playing around with the default <code>transform</code> stack:</p>
 
-<p><figure id="fig-114921831" class="figure figure--video"><div class="video-embed video-embed--vimeo video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(http://i.vimeocdn.com/video/500772734_1280.jpg)" href="//vimeo.com/114921831" data-lazy-video-src="//player.vimeo.com/video/114921831?autoplay=1"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Dissecting CSS3 Transforms</div></a></div></figure></p>
+<p>{% vimeo 114921831 %}</p>
 
 <p>Have a play and let me know your thoughts. I hope you find this tool as helpful as I (and my students) have.</p>
 ]]></content>

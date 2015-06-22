@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Apps | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/apps/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-06-17T13:53:53-04:00</updated>
+  <updated>2015-06-22T16:15:36-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -27,7 +27,7 @@
 
 <p>One graphic that cropped up that blew my mind was this one talking about where Windows 10 is going:</p>
 
-<p><figure id="fig-2015-04-30-01" class="media-container"></figure></p>
+<p><figure id="fig-2015-04-30-01" class="media-container">{% adaptive_image <a href="http://news.microsoft.com/build2015/assets/photos/build720150428_web.png">http://news.microsoft.com/build2015/assets/photos/build720150428_web.png</a> alt=&ldquo;The Windows 10 continuum from an Internet of Things board up to a SurfaceHub and HoloLens&rdquo; %}</figure></p>
 
 <p>You’ve often heard me discuss <a href="http://adaptivewebdesign.info/1st-edition/chapter-1.html">experience as a continuum</a>. Microsoft is living it.</p>
 
