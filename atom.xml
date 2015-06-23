@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-06-22T17:37:37-04:00</updated>
+	<updated>2015-06-23T10:26:48-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Google’s Guide to Designing With Empathy]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/googles-guide-to-designing-with-empathy/"/>
+				<updated>2015-06-23T10:23:21-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/googles-guide-to-designing-with-empathy</id>
+				<content type="html"><![CDATA[<p>This piece echoes much of what was said at Responsive Day Out: Step outside your bubble. Learn about how others experience the web. Design for a continuum and you will support more users with fewer headaches.</p>
+<p><a rel="full-article" href="http://www.fastcodesign.com/3047545/googles-guide-to-designing-with-empathy">Read on FastCompany&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -807,21 +818,6 @@
 
 <p>Ix Maps have been incredibly useful to me and the dozens of teams I’ve worked with. They’ve helped us explore innovative ways to solve design challenges and have been an amazing touchstone to organize our work around. Give them a shot an I’m sure you’ll discover lots of ways to put them to use in your own projects.</p>
 ]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Web vs. Native: Let’s Concede Defeat]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/web_vs_native_l/"/>
-				<updated>2015-05-26T13:38:20-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/web_vs_native_l</id>
-				<content type="html"><![CDATA[<p>I could not agree more with PPK on this: Native apps and websites shouldn’t be in competition. Each has its pros and cons.</p>
-
-<blockquote><p> If the user doesn’t want your icon on his home screen, if the user wants a just-in-time interaction, it’s the web they want — not because of any inherent technological superiority, but because it’s hassle-free. Go there, read, forget. No junk left on your phone.</p>
-
-<p>Most businesses don’t stand a chance of ending up on the users’ home screens. So they need the web — but not a web that emulates native to no particular purpose.</p></blockquote>
-<p><a rel="full-article" href="http://www.quirksmode.org/blog/archives/2015/05/web_vs_native_l.html">Read on QuirksBlog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
