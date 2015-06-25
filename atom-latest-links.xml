@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-06-24T20:07:00-04:00</updated>
+	<updated>2015-06-25T17:53:07-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,51 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Flexbox Gotchas for Android 2.1–4.3 (Stock Browser)]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/flexbox-gotchas-for-android-2-1-4-3-stock-browser/"/>
+				<updated>2015-06-25T17:46:09-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/flexbox-gotchas-for-android-2-1-4-3-stock-browser</id>
+				<content type="html"><![CDATA[<p>Many thanks to <a href="http://benfrain.com">Ben Frain</a> for surfacing these issues.</p>
+
+<blockquote><p>The stock Android browser that shipped with Android 2.1–4.3  used the old version of the Flexible Box Layout Module. … Those are the principal devices you are likely to encounter these issues on.</p></blockquote>
+<p><a rel="full-article" href="http://benfrain.com/flexbox-gotchas-for-android-2-1-4-3-stock-browser/">Read on Ben Frain&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Hamburger Icon: How These Three Lines Mystify Most People]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/magazine-31602745/"/>
+				<updated>2015-06-25T17:42:27-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/magazine-31602745</id>
+				<content type="html"><![CDATA[<p>A good overview of why the “hamburger” can’t stand alone.</p>
+
+<blockquote><p>&ldquo;I did multiple tests,&rdquo; says James Foster, a web developer based in New Zealand, who has surveyed users&#8217; interactions with the button over the course of many months. &ldquo;The results all came out the same—the icon is not as clear to some users as developers and designers think it is.&rdquo;</p>
+
+<p>Adding the word &ldquo;menu&rdquo; underneath the three lines increases the button&rsquo;s use by 7.2%, according to Foster&rsquo;s tests.</p>
+
+<p>Putting the hamburger inside a box, so it looks like a button, increases use by 22.4%.</p>
+
+<p>Switching the lines for the word &ldquo;menu&rdquo; makes 20% more people click, Foster found.</p></blockquote>
+<p><a rel="full-article" href="http://www.bbc.com/news/magazine-31602745">Read on BBC News&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Designing for (and With) Color Blindness]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/designing-for-and-with-color-blindness-48392aab3d87/"/>
+				<updated>2015-06-25T17:37:38-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/designing-for-and-with-color-blindness-48392aab3d87</id>
+				<content type="html"><![CDATA[<p>An interesting look at color blindness from <a href="http://www.aarontenbuuren.com/">Aaron Tenbuuren</a>, a designer living with it. He offers some great examples of good design for color blind users from Trello, Google, and more.</p>
+
+<blockquote><p>[W]hen designing apps, we should not look at individual colors and ask if they are ‘visible’, but rather look at groupings of colors, and see if they are distinguishable. Even then, we may require more visual aids to make sure that users will not mistake one color for another.</p></blockquote>
+<p><a rel="full-article" href="https://medium.com/@aaron10buuren/designing-for-and-with-color-blindness-48392aab3d87">Read on Medium&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -213,43 +258,6 @@
 				<id>http://www.aaron-gustafson.com/notebook/links/please-update-picturefill</id>
 				<content type="html"><![CDATA[<p><a href="https://twitter.com/wilto">Mat Marquis</a> on why you really need to upgrade <a href="http://scottjehl.github.io/picturefill/">Picturefill</a> if you’re using it. Really. Like now.</p>
 <p><a rel="full-article" href="https://css-tricks.com/please-update-picturefill">Read on CSS Tricks&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Web! What Is It Good For?]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/9016/"/>
-				<updated>2015-05-29T12:45:09-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/9016</id>
-				<content type="html"><![CDATA[<p><a href="https://adactio.com/">Jeremy Keith</a>’s love letter to the web. Gush!</p>
-
-<blockquote><p>The web has no gatekeepers. The web has no quality control. The web is a mess. The web is for everyone.</p></blockquote>
-<p><a rel="full-article" href="https://adactio.com/journal/9016">Read on Adactio’s Journal&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Lenovo’s Projector Phone Puts Apps on the Table, Literally]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/lenovos-projector-phone-puts-apps-on-the-table-literally/"/>
-				<updated>2015-05-29T12:43:15-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/lenovos-projector-phone-puts-apps-on-the-table-literally</id>
-				<content type="html"><![CDATA[<p>The future of interface is getting pretty interesting.</p>
-
-<p><figure id="fig-JwBem1Ul8dk" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(http://i2.ytimg.com/vi/JwBem1Ul8dk/0.jpg);" href="//www.youtube.com/watch?v=JwBem1Ul8dk" data-lazy-video-src="http://www.youtube.com/embed/JwBem1Ul8dk?autoplay=1&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Lenovo Tech World &ndash; Smart Cast</div></a></div></figure></p>
-<p><a rel="full-article" href="http://thenextweb.com/gadgets/2015/05/28/lenovos-projector-phone-puts-apps-on-the-table-literally/">Read on The Next Web&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Rocket Packs on Escalators]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/rocket-packs-on-escalators-stop-messing-with-progressive-enhancement/"/>
-				<updated>2015-05-29T12:37:45-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/rocket-packs-on-escalators-stop-messing-with-progressive-enhancement</id>
-				<content type="html"><![CDATA[<p>This is a fantastic presentation on progressive enhancement from the one and only <a href="http://twitter.com/codepo8">Christian Heilmann</a>. See also: His <a href="http://christianheilmann.com/2015/05/24/the-ryanair-approach-to-progressive-enhancement/">insightful post comparing progressive enhancement to checking in for a flight</a>.</p>
-<p><a rel="full-article" href="http://www.slideshare.net/cheilmann/rocket-packs-on-escalators-stop-messing-with-progressive-enhancement">Read on &nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
