@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-06-24T14:42:56-04:00</updated>
+	<updated>2015-06-24T20:07:00-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,21 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Why Don’t You Code for Netscape?]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/netscape/"/>
+				<updated>2015-06-24T19:58:46-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/netscape</id>
+				<content type="html"><![CDATA[<p>Still one of my favorite examples of reduced support improving usability (emphasis mine):</p>
+
+<blockquote><p>By contrast, the method used here at A List Apart (XHTML for structure, CSS for layout and design) ensures that every reader has access to the site’s text, but allows the design to “disappear” if the browser can’t handle it. No 4.0 browser can handle it.</p>
+
+<p>We assume that those who choose to keep using 4.0 browsers have reasons for doing so; we also assume that most of those folks don’t really care about “design issues.” They just want information, and with this approach they can still get the information they seek. <strong>In fact, since we began hiding the design from non–compliant browsers in February 2001, ALA’s Netscape 4 readership has increased, from about 6% to about 11%.</strong></p></blockquote>
+<p><a rel="full-article" href="http://alistapart.com/article/netscape">Read on A List Apart&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -236,8 +251,6 @@
 				<content type="html"><![CDATA[<p>This is a fantastic presentation on progressive enhancement from the one and only <a href="http://twitter.com/codepo8">Christian Heilmann</a>. See also: His <a href="http://christianheilmann.com/2015/05/24/the-ryanair-approach-to-progressive-enhancement/">insightful post comparing progressive enhancement to checking in for a flight</a>.</p>
 <p><a rel="full-article" href="http://www.slideshare.net/cheilmann/rocket-packs-on-escalators-stop-messing-with-progressive-enhancement">Read on &nbsp;&rarr;</a></p>]]></content>
 			</entry>
-		
-	
 		
 	
 </feed>

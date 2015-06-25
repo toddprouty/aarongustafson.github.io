@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-06-24T14:42:56-04:00</updated>
+	<updated>2015-06-24T20:07:00-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,21 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Why Don’t You Code for Netscape?]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/netscape/"/>
+				<updated>2015-06-24T19:58:46-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/netscape</id>
+				<content type="html"><![CDATA[<p>Still one of my favorite examples of reduced support improving usability (emphasis mine):</p>
+
+<blockquote><p>By contrast, the method used here at A List Apart (XHTML for structure, CSS for layout and design) ensures that every reader has access to the site’s text, but allows the design to “disappear” if the browser can’t handle it. No 4.0 browser can handle it.</p>
+
+<p>We assume that those who choose to keep using 4.0 browsers have reasons for doing so; we also assume that most of those folks don’t really care about “design issues.” They just want information, and with this approach they can still get the information they seek. <strong>In fact, since we began hiding the design from non–compliant browsers in February 2001, ALA’s Netscape 4 readership has increased, from about 6% to about 11%.</strong></p></blockquote>
+<p><a rel="full-article" href="http://alistapart.com/article/netscape">Read on A List Apart&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -722,84 +737,6 @@
 				<id>http://www.aaron-gustafson.com/notebook/links/rocket-packs-on-escalators-stop-messing-with-progressive-enhancement</id>
 				<content type="html"><![CDATA[<p>This is a fantastic presentation on progressive enhancement from the one and only <a href="http://twitter.com/codepo8">Christian Heilmann</a>. See also: His <a href="http://christianheilmann.com/2015/05/24/the-ryanair-approach-to-progressive-enhancement/">insightful post comparing progressive enhancement to checking in for a flight</a>.</p>
 <p><a rel="full-article" href="http://www.slideshare.net/cheilmann/rocket-packs-on-escalators-stop-messing-with-progressive-enhancement">Read on &nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Interface Experience Maps]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/interface-experience-maps/"/>
-				<updated>2015-05-28T08:43:20-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/interface-experience-maps</id>
-				<content type="html"><![CDATA[<p>One of the greatest challenges of progressive enhancement lies not with the coding, but with the planning. It can be incredibly challenging to articulate how a single interface might adapt to a wide variety of situations. Interface Experience Maps (Ix Maps) can help.</p>
-
-<!-- more -->
-
-
-
-
-<hr>
-
-
-<p>Back in 2007, I was presented with this challenge while putting together a talk called <a href="https://web.archive.org/web/20070515221318/http://2007.sxsw.com/interactive/programming/panels/?action=show&amp;id=IAP060214">Ruining the User Experience</a> (which I co-presented for the first time with at SXSW with <a href="https://twitter.com/sarahbeee">Sarah B. Nelson</a>). In the talk, Sarah and I discussed how to treat JavaScript as an enhancement and what happens when you don’t—in 2007, I know!</p>
-
-<p>Anyway, in the talk I was struggling to convey the various decision points and interface adjustments that would happen as a result of those decisions. I don’t remember which of us came up with the idea—it was probably Sarah—but we opted to use a flowchart to visually describe what we were talking about on stage. Here was the first one we did:</p>
-
-<figure id="fig-2015-05-28-01" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/01.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/01.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>An early flowchart used to describe progressive enhancement with JavaScript</figcaption></figure>
-
-
-<p>It was pretty rudimentary, but it got the point across.</p>
-
-<p>In future iterations of the talk, I expounded upon the idea of a flowchart for describing how an interface might adapt to different circumstances and browser capabilities. Here’s a particularly complex one I used to describe how a FAQ might function:</p>
-
-<figure id="fig-2015-05-28-02" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/02.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/02.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>A flowchart describing the progressive enhancement and interaction options for an FAQ.</figcaption></figure>
-
-
-<p>Over the years I found more and more ways to put these artifacts to use. And at a certain point, &ldquo;flowchart&rdquo; didn’t seem to cut it, so I began calling them &ldquo;UI construction flows&#8221;—which, admittedly, was a mouthful—and then finally settled on the name &#8220;Interaction Experience Maps&rdquo; with the help of a client.</p>
-
-<h2>The Benefits of Ix Maps</h2>
-
-<p>Ix Maps have become an invaluable tool to me and the teams I’ve worked with. They excel at articulating the different ways in which a given interface might adapt and what the end results of each adaptation might be.</p>
-
-<p>This sort of documentation is invaluable to just about everyone on the team:</p>
-
-<ul>
-<li>Copywriters get a clear picture of the different experience possibilities so they can craft the copy accordingly;</li>
-<li>Designers can see the different experience possibilities and can create wireframes and visual designs that account for each;</li>
-<li>Developers get a clear outline of what functionality is expected and know exactly what features and capability detection to employ in generating each experience; and</li>
-<li>The quality assurance team has a clear picture of what they should be looking for in each component of an interface.</li>
-</ul>
-
-
-<p>In short, Ix Maps ensure everyone on the team has a clear picture of what’s expected so they can work toward the common goal. One company I worked with found Ix Maps so useful that they created one for each and every pattern in their pattern library. Then they included the drawings as part of each pattern’s documentation.</p>
-
-<h2>Ix Maps Facilitate Collaboration and Iteration</h2>
-
-<p>An Ix Map is a pretty simple concept for anyone to come to grips with, making it a fantastic tool for enabling mixed teams—designers, developers, content folks, business strategists, etc.—to brainstorm ideas and build a strategy around progressive enhancement.</p>
-
-<p>Time and time again, I have seen these simple diagrams bring a diverse team together and help them quickly and easily come up with very creative ways to address complex interface problems. That’s why I frequently use them as a tool in the workshops I lead.</p>
-
-<p>Because they are so basic, Ix Maps can be sketched out quickly on paper, a whiteboard, or in software like OmniGraffle. And their simplicity also makes it quite easy to explore different ideas of how to adapt things and you don’t have to worry about throwing away an idea that doesn’t play out because it’s only a few boxes and arrows… you haven’t invested any time in design or production.</p>
-
-<p>Here’s an example from <a href="https://www.facebook.com/events/804756366246427/">my Beyond Responsive workshop</a> that illustrates the evolution of a tabbed interface Ix Map from basic into something that is far more appropriate for differently-sized screens:</p>
-
-<figure id="fig-2015-05-28-03" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/03.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/03.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>Pass 1: If JavaScript’s available, make a tabbed interface out of linear content. If not, leave it as it was.</figcaption></figure>
-
-
-
-
-<figure id="fig-2015-05-28-04" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/04.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/04.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/04.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/04.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>Pass 2: Add a live width test into the mix to see if there’s enough room for the tabs and make it an accordion if the screen is too narrow.</figcaption></figure>
-
-
-
-
-<figure id="fig-2015-05-28-05" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/05.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/05.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/05.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/05.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>Pass 3: Test for native <code>details</code>/<code>summary</code> support and use the native functionality if available.</figcaption></figure>
-
-
-<h2>Simple, Powerful</h2>
-
-<p>Ix Maps have been incredibly useful to me and the dozens of teams I’ve worked with. They’ve helped us explore innovative ways to solve design challenges and have been an amazing touchstone to organize our work around. Give them a shot an I’m sure you’ll discover lots of ways to put them to use in your own projects.</p>
-]]></content>
 			</entry>
 		
 	
