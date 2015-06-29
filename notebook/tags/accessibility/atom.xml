@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Accessibility | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/accessibility/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-06-29T14:16:20-04:00</updated>
+  <updated>2015-06-29T14:54:49-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -12,6 +12,36 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Harvard, MIT, and Captioning]]></title>
+    <link href="http://www.aaron-gustafson.com/notebook/harvard-and-mit-and-captioning/"/>
+    <updated>2015-06-29T14:23:28-04:00</updated>
+    <id>http://www.aaron-gustafson.com/notebook/harvard-and-mit-and-captioning</id>
+    <content type="html"><![CDATA[<p>The U.S. Department of Justice (DOJ) has published Statements of Interest in two cases brought by the National Association of the Deaf (NAD) against <a href="http://www.ada.gov/briefs/harvard_soi.pdf">Harvard (PDF)</a> and <a href="http://www.ada.gov/briefs/mit_soi.pdf">MIT (PDF)</a>, respectively. The NAD is suing the two universities for violations of Title III of the Americans with Disabilities Act (ADA) and Section 504 of the Rehabilitation Act because the video and audio materials they are making available as part of their online learning offerings are not captioned.</p>
+
+<!-- more -->
+
+
+<p>The DOJ Statements make it quite clear that</p>
+
+<blockquote><p>Both the ADA and Section 504 currently obligate Harvard to provide effective communication to ensure equal access to its online programming services, and resolution of Plaintiffs’ claim involves a straightforward application of longstanding statutory and regulatory requirements. For more than two decades, federal courts have resolved effective communication claims brought under the ADA and Section 504 in a wide range of contexts, including claims alleging unequal access to goods, benefits and services provided through websites or other electronic media. And the Departments of Justice and Education have routinely required covered entities to ensure equal access to goods, benefits and services, electronic or otherwise, through the provision of captioning or other auxiliary aids or services.</p></blockquote>
+
+<p>Also…</p>
+
+<blockquote><p>[T]he Department issued an Advanced Notice of Proposed Rulemaking (“ANPRM”) on Accessibility of Web Information and Services of State and Local Government Entities and Public Accommodations, announcing the Department’s interest in developing more specific requirements or technical standards for  website accessibility. … In the ANPRM, the Department reaffirmed its longstanding position that the ADA applies to websites of public accommodations, and reiterated, consistent with the preamble to the 1991 regulations, that the ADA regulations should be interpreted to keep pace with developing technologies.</p></blockquote>
+
+<p>Neither case has been settled yet, but the fact that the DOJ is siding with the NAD will lend more credence to their complaints and will likely result in one or both institutions settling out of court and, eventually, captioning their videos.</p>
+
+<p>Captions are critical for the deaf and hard of hearing as they let them know what’s being said, who is saying it, how it’s being said, and inform them of any other sounds that are germane to the content. Reading captions is the equivalent of hearing with your eyes.</p>
+
+<p>Are your videos captioned? If your content is aimed at a broad audience, it might be worth your time (and even your money) to get them captioned.</p>
+
+<p>No doubt, accurate captioning is time-consuming. There are some ways of automating it (<a href="https://support.google.com/youtube/answer/3038280">YouTube does this</a>, for instance), but there are also services like <a href="https://castingwords.com/">Casting Words</a> and <a href="https://www.rev.com/caption">Rev</a> that will do it for a nominal fee.</p>
+
+<p>It’s worth noting that the HTML <code>video</code> element supports subtitles and captions via <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track">the <code>track</code> element</a>. YouTube also allows you to <a href="https://support.google.com/youtube/answer/2734796">add captions and subtitles to your videos manually</a>. But keep in mind that <a href="http://screenfont.ca/learn/">captions and subtitles are not the same thing</a>; captions need to capture more than just the words that are said.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Where Do We Go From Here?]]></title>
@@ -871,30 +901,6 @@
 <p></figure></p>
 
 <p>Thank you.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[ARIA Quicktip: Labelledby vs. Describedby]]></title>
-    <link href="http://www.aaron-gustafson.com/notebook/aria-quicktip-labelledby-vs-describedby/"/>
-    <updated>2014-11-05T10:45:22-05:00</updated>
-    <id>http://www.aaron-gustafson.com/notebook/aria-quicktip-labelledby-vs-describedby</id>
-    <content type="html"><![CDATA[<p>Last night, while we were enjoying a cool evening and a few drinks outside after day 1 of <a href="http://bdconf.com">BDConf</a>, <a href="http://adactio.com">Jeremy</a> asked me for some clarification on the ARIA attributes I had demoed as part of <a href="http://www.slideshare.net/AaronGustafson/falling-in-love-with-forms-bdconf-2014">my forms presentation</a> earlier in the afternoon. In particular, he was confused by how <code>aria-labelledby</code> and <code>aria-describedby</code> differ.</p>
-
-<!-- more -->
-
-
-<p>I hadn’t really thought about it before, but it’s a good question. They seem pretty similar in function, right? And both support a space separated list of one or more <code>id</code> references. It’s downright confusing.</p>
-
-<p>My simple explanation was that, at least in terms of form fields, they differ in when they are read. The <code>aria-labelledby</code> attribute replaces the associated <code>label</code> element (which is, of course, associated with the field via the <code>label</code>’s <code>for</code> attribute). The <code>aria-describedby</code> attribute, on the other hand, is read after the field type is stated.</p>
-
-<p>To demonstrate how all of this plays out, I threw together <a href="http://codepen.io/aarongustafson/pen/dmuoe/">a quick CodePen demo</a> that takes you through numerous ways you can use and combine these attributes. I also did a <a href="http://youtu.be/U8_VjI-Z1LA">screen recording to demonstrate how ChromeVox exposes these attributes</a>:</p>
-
-<p><figure id="fig-U8_VjI-Z1LA" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(http://i2.ytimg.com/vi/U8_VjI-Z1LA/0.jpg);" href="//www.youtube.com/watch?v=U8_VjI-Z1LA" data-lazy-video-src="http://www.youtube.com/embed/U8_VjI-Z1LA?autoplay=1&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">aria-labelledby vs. aria-describedby</div></a></div></figure></p>
-
-<p><strong>Update:</strong> <a href="https://twitter.com/stevefaulkner">Steve Faulkner</a> shared a doc that discusses <a href="http://rawgit.com/w3c/aria/master/html-aam/html-aam.html#accessible-name-and-description-calculation">how accessible names and descriptions are calculated</a>. Thanks Steve!</p>
-
-<p><em>Note: I did discover a bug in ChromeVox wherein the content of the elements referenced in <code>aria-describedby</code> are not read when the field receives focus via the keyboard (using the <kbd>tab</kbd> key), but it does when it receives focus via the mouse. I’ve submitted <a href="https://code.google.com/p/google-axs-chrome/issues/detail?id=158&amp;thanks=158&amp;ts=1415202123">a bug report</a> to to the powers that be.</em></p>
 ]]></content>
   </entry>
   

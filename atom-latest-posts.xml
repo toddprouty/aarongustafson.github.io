@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Posts]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-posts.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-06-29T14:16:20-04:00</updated>
+	<updated>2015-06-29T14:54:49-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,38 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Harvard, MIT, and Captioning]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/harvard-and-mit-and-captioning/"/>
+				<updated>2015-06-29T14:23:28-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/harvard-and-mit-and-captioning</id>
+				<content type="html"><![CDATA[<p>The U.S. Department of Justice (DOJ) has published Statements of Interest in two cases brought by the National Association of the Deaf (NAD) against <a href="http://www.ada.gov/briefs/harvard_soi.pdf">Harvard (PDF)</a> and <a href="http://www.ada.gov/briefs/mit_soi.pdf">MIT (PDF)</a>, respectively. The NAD is suing the two universities for violations of Title III of the Americans with Disabilities Act (ADA) and Section 504 of the Rehabilitation Act because the video and audio materials they are making available as part of their online learning offerings are not captioned.</p>
+
+<!-- more -->
+
+
+<p>The DOJ Statements make it quite clear that</p>
+
+<blockquote><p>Both the ADA and Section 504 currently obligate Harvard to provide effective communication to ensure equal access to its online programming services, and resolution of Plaintiffs’ claim involves a straightforward application of longstanding statutory and regulatory requirements. For more than two decades, federal courts have resolved effective communication claims brought under the ADA and Section 504 in a wide range of contexts, including claims alleging unequal access to goods, benefits and services provided through websites or other electronic media. And the Departments of Justice and Education have routinely required covered entities to ensure equal access to goods, benefits and services, electronic or otherwise, through the provision of captioning or other auxiliary aids or services.</p></blockquote>
+
+<p>Also…</p>
+
+<blockquote><p>[T]he Department issued an Advanced Notice of Proposed Rulemaking (“ANPRM”) on Accessibility of Web Information and Services of State and Local Government Entities and Public Accommodations, announcing the Department’s interest in developing more specific requirements or technical standards for  website accessibility. … In the ANPRM, the Department reaffirmed its longstanding position that the ADA applies to websites of public accommodations, and reiterated, consistent with the preamble to the 1991 regulations, that the ADA regulations should be interpreted to keep pace with developing technologies.</p></blockquote>
+
+<p>Neither case has been settled yet, but the fact that the DOJ is siding with the NAD will lend more credence to their complaints and will likely result in one or both institutions settling out of court and, eventually, captioning their videos.</p>
+
+<p>Captions are critical for the deaf and hard of hearing as they let them know what’s being said, who is saying it, how it’s being said, and inform them of any other sounds that are germane to the content. Reading captions is the equivalent of hearing with your eyes.</p>
+
+<p>Are your videos captioned? If your content is aimed at a broad audience, it might be worth your time (and even your money) to get them captioned.</p>
+
+<p>No doubt, accurate captioning is time-consuming. There are some ways of automating it (<a href="https://support.google.com/youtube/answer/3038280">YouTube does this</a>, for instance), but there are also services like <a href="https://castingwords.com/">Casting Words</a> and <a href="https://www.rev.com/caption">Rev</a> that will do it for a nominal fee.</p>
+
+<p>It’s worth noting that the HTML <code>video</code> element supports subtitles and captions via <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track">the <code>track</code> element</a>. YouTube also allows you to <a href="https://support.google.com/youtube/answer/2734796">add captions and subtitles to your videos manually</a>. But keep in mind that <a href="http://screenfont.ca/learn/">captions and subtitles are not the same thing</a>; captions need to capture more than just the words that are said.</p>
+]]></content>
+			</entry>
+		
 	
 		
 	
@@ -372,8 +404,6 @@
 
 ]]></content>
 			</entry>
-		
-	
 		
 	
 		

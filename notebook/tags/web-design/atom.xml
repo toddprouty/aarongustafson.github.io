@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-06-29T14:16:20-04:00</updated>
+  <updated>2015-06-29T14:54:49-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -12,6 +12,36 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Harvard, MIT, and Captioning]]></title>
+    <link href="http://www.aaron-gustafson.com/notebook/harvard-and-mit-and-captioning/"/>
+    <updated>2015-06-29T14:23:28-04:00</updated>
+    <id>http://www.aaron-gustafson.com/notebook/harvard-and-mit-and-captioning</id>
+    <content type="html"><![CDATA[<p>The U.S. Department of Justice (DOJ) has published Statements of Interest in two cases brought by the National Association of the Deaf (NAD) against <a href="http://www.ada.gov/briefs/harvard_soi.pdf">Harvard (PDF)</a> and <a href="http://www.ada.gov/briefs/mit_soi.pdf">MIT (PDF)</a>, respectively. The NAD is suing the two universities for violations of Title III of the Americans with Disabilities Act (ADA) and Section 504 of the Rehabilitation Act because the video and audio materials they are making available as part of their online learning offerings are not captioned.</p>
+
+<!-- more -->
+
+
+<p>The DOJ Statements make it quite clear that</p>
+
+<blockquote><p>Both the ADA and Section 504 currently obligate Harvard to provide effective communication to ensure equal access to its online programming services, and resolution of Plaintiffs’ claim involves a straightforward application of longstanding statutory and regulatory requirements. For more than two decades, federal courts have resolved effective communication claims brought under the ADA and Section 504 in a wide range of contexts, including claims alleging unequal access to goods, benefits and services provided through websites or other electronic media. And the Departments of Justice and Education have routinely required covered entities to ensure equal access to goods, benefits and services, electronic or otherwise, through the provision of captioning or other auxiliary aids or services.</p></blockquote>
+
+<p>Also…</p>
+
+<blockquote><p>[T]he Department issued an Advanced Notice of Proposed Rulemaking (“ANPRM”) on Accessibility of Web Information and Services of State and Local Government Entities and Public Accommodations, announcing the Department’s interest in developing more specific requirements or technical standards for  website accessibility. … In the ANPRM, the Department reaffirmed its longstanding position that the ADA applies to websites of public accommodations, and reiterated, consistent with the preamble to the 1991 regulations, that the ADA regulations should be interpreted to keep pace with developing technologies.</p></blockquote>
+
+<p>Neither case has been settled yet, but the fact that the DOJ is siding with the NAD will lend more credence to their complaints and will likely result in one or both institutions settling out of court and, eventually, captioning their videos.</p>
+
+<p>Captions are critical for the deaf and hard of hearing as they let them know what’s being said, who is saying it, how it’s being said, and inform them of any other sounds that are germane to the content. Reading captions is the equivalent of hearing with your eyes.</p>
+
+<p>Are your videos captioned? If your content is aimed at a broad audience, it might be worth your time (and even your money) to get them captioned.</p>
+
+<p>No doubt, accurate captioning is time-consuming. There are some ways of automating it (<a href="https://support.google.com/youtube/answer/3038280">YouTube does this</a>, for instance), but there are also services like <a href="https://castingwords.com/">Casting Words</a> and <a href="https://www.rev.com/caption">Rev</a> that will do it for a nominal fee.</p>
+
+<p>It’s worth noting that the HTML <code>video</code> element supports subtitles and captions via <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track">the <code>track</code> element</a>. YouTube also allows you to <a href="https://support.google.com/youtube/answer/2734796">add captions and subtitles to your videos manually</a>. But keep in mind that <a href="http://screenfont.ca/learn/">captions and subtitles are not the same thing</a>; captions need to capture more than just the words that are said.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Bringing Sanity and Order to Device Testing]]></title>
@@ -260,46 +290,6 @@
 <p>The behavior patterns in question: greed; ridiculous timelines (E.T. was conceived and programmed in 5 weeks by one man: <a href="http://en.wikipedia.org/wiki/Howard_Scott_Warshaw">Howard Scott Warshaw</a>); and hubris.</p>
 
 <p>There are a lot of parallels with the Silicon Valley of today. Food for thought.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Collected Reactions to //build/]]></title>
-    <link href="http://www.aaron-gustafson.com/notebook/collected-reactions-to-build/"/>
-    <updated>2015-04-30T10:53:11-04:00</updated>
-    <id>http://www.aaron-gustafson.com/notebook/collected-reactions-to-build</id>
-    <content type="html"><![CDATA[<p>I may work for Microsoft, but I don’t know everything that’s going on across the company. It’s big and I don’t have that kind of time.</p>
-
-<!-- more -->
-
-
-<p>Anyway <a href="http://aka.ms/ktlsyd">//build/</a>, the Microsoft conference, is going on right now and as you’d expect, there are a ton of new announcements. I’ve watched a few of the talks virtualy and am particularly excited about the new browser (whose name has finally been revealed): <a href="https://www.microsoft.com/en-us/windows/browser-for-doing">Microsoft Edge</a>. I’m also very interested to see where things go with <a href="https://www.microsoft.com/microsoft-hololens/en-us">HoloLens</a>.</p>
-
-<p>One graphic that cropped up that blew my mind was this one talking about where Windows 10 is going:</p>
-
-<p><figure id="fig-2015-04-30-01" class="media-container"></figure></p>
-
-<p>You’ve often heard me discuss <a href="http://adaptivewebdesign.info/1st-edition/chapter-1.html">experience as a continuum</a>. Microsoft is living it.</p>
-
-<p>If you didn’t watch the streaming talks and want to hear about what was announced from some independent sources, I’d recommend reading these:</p>
-
-<ul>
-<li><a href="http://www.wired.com/2015/04/microsoft-build-hololens/">Microsoft Shows HoloLens’ Augmented Reality Is No Gimmick</a> — <cite>Wired</cite>
-A good overview of the possibilities of HoloLens with a recap of what was shown. I caught this demo on the lifestream. It was pretty impressive. I can’t wait to try a HoloLens myself.</li>
-<li><a href="http://thenextweb.com/microsoft/2015/04/30/microsoft-opens-up-applications-for-developers-to-test-ios-and-android-app-conversion-tools/">Microsoft opens up applications for developers to test iOS and Android app conversion tools</a> — <cite>The Next Web</cite>
-The Microsoft App Store is a little scant on first-rate programs right now, so in a play to make it stupid-simple for iOS and Android developers to run on Windows 10, the folks at Microsoft have built a conversion tool that ports the app for you. It’s worth noting that you can also port a website into a native Windows app. Smart move on Microsoft’s part if you ask me.</li>
-<li><a href="http://thenextweb.com/microsoft/2015/04/30/hands-on-with-the-new-minimalist-microsoft-edge-browser/">Hands-on: The new Microsoft Edge browser is a picture of minimalism</a> — <cite>The Next Web</cite>
-Obviously the web is where I live and work. I’ve been playing with early builds of the new Microsoft browser for a few months now and have been pretty happy with its speed and capabilities, but it is nice to read an outside perspective on it.</li>
-<li><a href="http://gizmodo.com/microsoft-just-nonchalantly-showed-us-the-single-device-1701020050">Microsoft Just Nonchalantly Showed Us the Single-Device UI of the Future</a>
-I don’t know about &ldquo;nonchalantly&rdquo;, but the whole Continuum feature is pretty amazing. The potential for being able to use the computer in your pocket with other peripherals is pretty intriguing. Imagine using your phone, a set of holographic or <a href="http://www.amazon.com/Cinemizer-1909-127-Multimedia-Video-Glasses/dp/B0091OI530/">virtual screen glasses</a>, and a bluetooth keyboard &amp; mouse to get work done on a plane. No need to worry about someone leaning back and breaking your laptop!</li>
-<li><a href="http://techcrunch.com/2015/04/30/hololens-is-real/">HoloLens Hands-On: How We Built An App For Microsoft’s Augmented Reality Headset</a><br/>
-One reporter’s experience developing for and playing with HoloLens. Sounds like it was pretty cool. I wonder if it can be tweaked to work for people with poor vision like me or if it fits nicely over glasses.</li>
-<li><a href="http://www.wired.com/2015/05/microsofts-one-billion-device-vision-genius-next-impossible/">Microsoft’s Windows 10 Vision Isn’t As Simple as It Seems</a><br/>
-A deeper analysis of Microsoft’s play for more developer (and consumer) mindshare.</li>
-</ul>
-
-
-<p><em>I will continue adding to this list as new &amp; interesting pieces come out</em>.</p>
 ]]></content>
   </entry>
   
