@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-06-29T14:54:49-04:00</updated>
+	<updated>2015-06-29T15:57:46-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,29 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Thriving in Unpredictability]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/thriving-in-unpredictability/"/>
+				<updated>2015-06-29T15:53:39-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/thriving-in-unpredictability</id>
+				<content type="html"><![CDATA[<p>Another great post from Tim. The sooner we recognize how little we actually control when it comes to our websites, the better we’ll be able to serve our users.</p>
+
+<blockquote><p>Getting a website successfully delivered to a visitor depends on a series of actions. My server must spit something out. That something must be passed over some network. That something must then be consumed by another something: some client (often a browser) on some device. Finally, the visitor views that something in whatever context they happen to be in.</p>
+
+<p>There are a lot of unpredictable layers here.</p></blockquote>
+
+<p>See also (from this site):</p>
+
+<ul>
+<li><a href="http://www.aaron-gustafson.com/notebook/a-fundamental-disconnect/">A Fundamental Disconnect</a></li>
+<li><a href="http://www.aaron-gustafson.com/notebook/the-network-effect/">The Network Effect</a></li>
+</ul>
+
+<p><a rel="full-article" href="http://timkadlec.com/2015/06/thriving-in-unpredictability/">Read on Tim Kadlec&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 	
@@ -243,17 +266,6 @@
 				<id>http://www.aaron-gustafson.com/notebook/links/introducing-srcset-responsive-images-in-microsoft-edge</id>
 				<content type="html"><![CDATA[<p>Greg Whitworth shares the status of <code>srcset</code> in Microsoft Edge along with what’s coming (and a request that you update Picturefill if you’re using it).</p>
 <p><a rel="full-article" href="http://blogs.windows.com/msedgedev/2015/06/08/introducing-srcset-responsive-images-in-microsoft-edge/">Read on Microsoft Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[The Web Is Fast by Default, Let’s Keep It Fast]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/2015-05-18-the-web-is-fast-by-default-lets-keep-it-fast/"/>
-				<updated>2015-06-05T13:28:43-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/2015-05-18-the-web-is-fast-by-default-lets-keep-it-fast</id>
-				<content type="html"><![CDATA[<p>Brilliant post on progressive enhancement for performance. Well worth a read.</p>
-<p><a rel="full-article" href="https://hiddedevries.nl/en/blog/2015-05-18-the-web-is-fast-by-default-lets-keep-it-fast">Read on Hidde de Vries’ Blog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
