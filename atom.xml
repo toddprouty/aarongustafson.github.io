@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-07-02T12:10:54-04:00</updated>
+	<updated>2015-07-02T14:58:51-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[An Introduction to Browser Rendering]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/an-introduction-to-browser-rendering/"/>
+				<updated>2015-07-02T14:26:56-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/an-introduction-to-browser-rendering</id>
+				<content type="html"><![CDATA[<p><a href="https://umaar.com/">Umar Hansa</a>’s fantastic video overview of how a browser renders HTML and CSS including the render tree and paint events. Thanks for putting this together Umar!</p>
+<p><a rel="full-article" href="https://www.youtube.com/watch?v=n1cKlKM3jYI">Read on YouTube&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -630,17 +641,6 @@ It would take too long to type out the code first and then start rearranging. So
 				<id>http://www.aaron-gustafson.com/notebook/links/ios-9-older-devices-lose-support-apps</id>
 				<content type="html"><![CDATA[<p>I wonder how many app developers will needlessly flip this switch and cut off every iOS device that doesn’t have a 64 bit processor. Given that with every new phone release, sales of the old ones spike, the folks that buy the older models may be a little miffed to find out the apps they want to use have decided it’s inconvenient to support them.</p>
 <p><a rel="full-article" href="http://9to5mac.com/2015/06/10/ios-9-older-devices-lose-support-apps/">Read on 9to5Mac&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[The New York Times Wisely Blocks Staff From Viewing Its Desktop Homepage]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/the-new-york-times-wisely-blocks-staff-from-viewing-its-desktop-homepage/"/>
-				<updated>2015-06-13T17:43:30-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/the-new-york-times-wisely-blocks-staff-from-viewing-its-desktop-homepage</id>
-				<content type="html"><![CDATA[<p>The <cite>New York Times</cite> is training every employee that mobile matters. I wish more companies would do this!</p>
-<p><a rel="full-article" href="http://thenextweb.com/opinion/2015/06/12/the-new-york-times-wisely-blocks-staff-from-viewing-its-desktop-homepage/">Read on The Next Web&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
