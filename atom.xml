@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-07-02T14:58:51-04:00</updated>
+	<updated>2015-07-02T18:16:10-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Added Extended `srcset` and Flipped the State to in Development]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/241/"/>
+				<updated>2015-07-02T18:14:17-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/241</id>
+				<content type="html"><![CDATA[<p>No ETA, but <code>srcset</code> and <code>sizes</code> are coming in Microsoft Edge. So excited about this!</p>
+<p><a rel="full-article" href="https://github.com/MicrosoftEdge/Status/pull/241">Read on Microsoft Edge on Github&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -630,17 +641,6 @@ It would take too long to type out the code first and then start rearranging. So
 				<id>http://www.aaron-gustafson.com/notebook/links/how-can-i-debug-localhost</id>
 				<content type="html"><![CDATA[<p>As a security precaution, Microsoft Edge uses network isolation by default. You can override it via the command line right now, but it will be in <code>about:flags</code> in the future.</p>
 <p><a rel="full-article" href="http://dev.modern.ie/platform/faq/how-can-i-debug-localhost/">Read on Microsoft Edge | Dev&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[With iOS 9, Apple Lets Developers Cutoff Support for Older iOS Devices Without 64-bit CPUs]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/ios-9-older-devices-lose-support-apps/"/>
-				<updated>2015-06-13T17:44:53-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/ios-9-older-devices-lose-support-apps</id>
-				<content type="html"><![CDATA[<p>I wonder how many app developers will needlessly flip this switch and cut off every iOS device that doesn’t have a 64 bit processor. Given that with every new phone release, sales of the old ones spike, the folks that buy the older models may be a little miffed to find out the apps they want to use have decided it’s inconvenient to support them.</p>
-<p><a rel="full-article" href="http://9to5mac.com/2015/06/10/ios-9-older-devices-lose-support-apps/">Read on 9to5Mac&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
