@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-06-30T15:38:57-04:00</updated>
+	<updated>2015-07-02T12:10:54-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,33 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Screen Reader User Survey #6]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/screenreadersurvey6/"/>
+				<updated>2015-07-02T12:08:23-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/screenreadersurvey6</id>
+				<content type="html"><![CDATA[<p>Do you use a screen reader? Please take this survey. Know someone who does? Pass it on. The survey will be open through 24 July 2015.</p>
+<p><a rel="full-article" href="http://webaim.org/projects/screenreadersurvey6/">Read on WebAIM&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[One Letter at a Time: Quadriplegic Coder Looks Back at 21-year Career at Microsoft]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/one-letter-at-a-time-quadriplegic-coder-looks-back/"/>
+				<updated>2015-07-02T12:03:16-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/one-letter-at-a-time-quadriplegic-coder-looks-back</id>
+				<content type="html"><![CDATA[<p>A brief but inspiring profile of <a href="http://research.microsoft.com/en-us/people/gregsmi/">Greg Smith</a>, a quadriplegic programmer and principal software engineer in Microsoft Research.</p>
+
+<p>This bit was pretty incredible:</p>
+
+<blockquote><p>He puts together the skeleton of whatever section of code he’s working on that day in his mind. Then, using a camera that responds to his head movements and a mouth-controlled mouse and a metal clicker that he&rsquo;s been using for 20 years, he&rsquo;s able to key in the code—letter by letter.
+It would take too long to type out the code first and then start rearranging. So that part he does by memory.</p></blockquote>
+<p><a rel="full-article" href="http://www.bizjournals.com/seattle/blog/techflash/2015/06/one-letter-at-a-time-quadriplegic-coder-looks-back.html">Read on Puget Sound Business Journal&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -242,30 +269,6 @@
 				<id>http://www.aaron-gustafson.com/notebook/links/the-new-york-times-wisely-blocks-staff-from-viewing-its-desktop-homepage</id>
 				<content type="html"><![CDATA[<p>The <cite>New York Times</cite> is training every employee that mobile matters. I wish more companies would do this!</p>
 <p><a rel="full-article" href="http://thenextweb.com/opinion/2015/06/12/the-new-york-times-wisely-blocks-staff-from-viewing-its-desktop-homepage/">Read on The Next Web&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Opera Mini Is Here for Your Windows Phone!]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/opera-mini-for-windows-phone/"/>
-				<updated>2015-06-13T17:32:59-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/opera-mini-for-windows-phone</id>
-				<content type="html"><![CDATA[<p>I love that Opera is building its browser for as many platforms as possible. OS X and Windows of course, but they are also on iOS, Android, Blackberry, Symbian, Java ME, Bada, Windows Mobile, Zeebo, and now Windows Phone.</p>
-
-<p>Go Opera go!</p>
-<p><a rel="full-article" href="http://blogs.opera.com/mobile/2015/06/opera-mini-for-windows-phone/">Read on Opera Blogs&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Introducing Srcset, Our First Step Towards Fully Responsive Images in Microsoft Edge]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/introducing-srcset-responsive-images-in-microsoft-edge/"/>
-				<updated>2015-06-09T11:37:29-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/introducing-srcset-responsive-images-in-microsoft-edge</id>
-				<content type="html"><![CDATA[<p>Greg Whitworth shares the status of <code>srcset</code> in Microsoft Edge along with what’s coming (and a request that you update Picturefill if you’re using it).</p>
-<p><a rel="full-article" href="http://blogs.windows.com/msedgedev/2015/06/08/introducing-srcset-responsive-images-in-microsoft-edge/">Read on Microsoft Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
