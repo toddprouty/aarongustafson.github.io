@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-07-02T18:16:10-04:00</updated>
+	<updated>2015-07-07T14:05:20-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,31 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[UI Fail: How Our User Interfaces Help to Ruin Lives]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/ui-fail-how-our-user-interfaces-help-to-ruin-lives/"/>
+				<updated>2015-07-07T13:58:14-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/ui-fail-how-our-user-interfaces-help-to-ruin-lives</id>
+				<content type="html"><![CDATA[<p>This post is full of gold! Here’s a peek:</p>
+
+<blockquote><p>While some of the users had indeed never had much computer experience, a vast number of responses involved highly skilled, technologically-savvy individuals—often engineers themselves—who had helped build the information age but now felt themselves being left behind by Web designers who simply don&rsquo;t seem to care about them at all.</p>
+
+<p>While issues of privacy and security were frequently mentioned in responses, as were matters relating to fundamental service capabilities, issues and problems relating to user interfaces themselves were by far the dominant theme.</p>
+
+<p>Some of these were obvious.</p>
+
+<p>There is enormous, widespread frustration with the trend toward low-contrast interfaces and fonts, gray fonts on gray backgrounds and all the rest. Pretty, but unreadable to many with aging eyes (and keep in mind, visual acuity usually begins to drop by the time we&rsquo;ve started our 20s).</p>
+
+<p>Many respondents noted that screen magnifiers can&rsquo;t help in such situations—they just end up with a big low-contrast blob rather than a small low-contrast blob.</p>
+
+<p>But then we really get into the deeper nitty-gritty of UI concerns. It&rsquo;s a long and painful list.</p>
+
+<p>Hidden menus. Obscure interface elements (e.g., tiny upside-down arrows). Interface and menu elements that only appear if you&rsquo;ve moused over a particular location on the display. Interface elements that are so small or ephemeral that they can be a challenge to click even if you still have the motor skills of youth. The list goes on and on.</p></blockquote>
+<p><a rel="full-article" href="http://lauren.vortex.com/archive/001112.html">Read on Lauren Weinstein’s Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -630,17 +655,6 @@ It would take too long to type out the code first and then start rearranging. So
 
 <p>Overall I’m kind of <i>meh</i> on the updates. I was hoping for more.</p>
 <p><a rel="full-article" href="http://www.webdesignerdepot.com/2015/06/safari-9-everything-web-designers-need-to-know-now/">Read on Webdesigner Depot&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[How Can I Debug Localhost With MS Edge?]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/how-can-i-debug-localhost/"/>
-				<updated>2015-06-15T15:11:38-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/how-can-i-debug-localhost</id>
-				<content type="html"><![CDATA[<p>As a security precaution, Microsoft Edge uses network isolation by default. You can override it via the command line right now, but it will be in <code>about:flags</code> in the future.</p>
-<p><a rel="full-article" href="http://dev.modern.ie/platform/faq/how-can-i-debug-localhost/">Read on Microsoft Edge | Dev&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
