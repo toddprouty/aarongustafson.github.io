@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-07-07T14:05:20-04:00</updated>
+	<updated>2015-07-08T14:28:21-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[ARIA and DPUB Published a First Public Working Draft]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/aria-and-dpub-publish-fpwd/"/>
+				<updated>2015-07-08T14:25:54-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/aria-and-dpub-publish-fpwd</id>
+				<content type="html"><![CDATA[<p>DAISY and ARIA, sitting in a tree… I’ve been thinking a bit about eBook accessibility in light of the forthcoming second edition of <cite>Adaptive Web Design</cite>. It’s good to see progress being made. I’d love to see some of this come back into web-based (as opposed to ePub-based) HTML as well.</p>
+<p><a rel="full-article" href="http://www.w3.org/blog/2015/07/aria-and-dpub-publish-fpwd/">Read on W3C Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -625,36 +636,6 @@ It would take too long to type out the code first and then start rearranging. So
 
 <blockquote><p>Images are also the single biggest resource type on a page, making up 63% of overall page weight. If we removed all images from the top 1,000 websites, these sites would load 30% faster on average over 3G.</p></blockquote>
 <p><a rel="full-article" href="https://medium.com/@guypod/high-performance-images-beautiful-shouldn-t-mean-slow-22ffc4e31663">Read on Medium&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Safari 9: Everything Web Designers Need to Know Now]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/safari-9-everything-web-designers-need-to-know-now/"/>
-				<updated>2015-06-17T10:48:51-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/safari-9-everything-web-designers-need-to-know-now</id>
-				<content type="html"><![CDATA[<p>The highlights:</p>
-
-<ul>
-<li>Scroll snapping (see also <a href="http://generatedcontent.org/post/66817675443/setting-native-like-scrolling-offsets-in-css-with">David Storey’s write-up</a> on this)</li>
-<li>Some ECMAScript 6</li>
-<li>CSS Filters</li>
-<li>Removing some vendor prefixes</li>
-</ul>
-
-
-<p>The yawners:</p>
-
-<ul>
-<li>Pinned sites</li>
-<li>Force touch</li>
-<li>HTML Video picture in picture</li>
-</ul>
-
-
-<p>Overall I’m kind of <i>meh</i> on the updates. I was hoping for more.</p>
-<p><a rel="full-article" href="http://www.webdesignerdepot.com/2015/06/safari-9-everything-web-designers-need-to-know-now/">Read on Webdesigner Depot&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
