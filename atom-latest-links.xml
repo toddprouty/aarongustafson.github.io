@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-07-08T14:28:21-04:00</updated>
+	<updated>2015-07-10T16:32:31-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[EyeControl]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/eyecontrol-communicate-anytime-anywhere/"/>
+				<updated>2015-07-10T16:26:47-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/eyecontrol-communicate-anytime-anywhere</id>
+				<content type="html"><![CDATA[<p>Very interesting eye-tracking interaction device for folks with amyotrophic lateral sclerosis (ALS) or who are otherwise &ldquo;locked in&rdquo; by a lack of speech or upper body motor control. As I post this, they’ve already raised 50% of their goal (in a mere three days no less).</p>
+<p><a rel="full-article" href="https://www.indiegogo.com/projects/eyecontrol-communicate-anytime-anywhere">Read on Indiegogo&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -251,19 +262,6 @@ It would take too long to type out the code first and then start rearranging. So
 				<id>http://www.aaron-gustafson.com/notebook/links/building-a-more-interoperable-web-with-microsoft-edge</id>
 				<content type="html"><![CDATA[<p>Microsoft’s Frank Oliver has a nice write-up on the importance of browser interoperability and what the browser team has done with Microsoft Edge.</p>
 <p><a rel="full-article" href="http://blogs.windows.com/msedgedev/2015/06/17/building-a-more-interoperable-web-with-microsoft-edge/">Read on Microsoft Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[High Performance Images: Beautiful Shouldn’t Mean Slow]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/high-performance-images-beautiful-shouldn-t-mean-slow-22ffc4e31663/"/>
-				<updated>2015-06-17T10:53:32-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/high-performance-images-beautiful-shouldn-t-mean-slow-22ffc4e31663</id>
-				<content type="html"><![CDATA[<p>A bit from Akamai’s <a href="https://twitter.com/guypod">Guy Podjarny</a> on the high cost of images and what you can (and should) do about it.</p>
-
-<blockquote><p>Images are also the single biggest resource type on a page, making up 63% of overall page weight. If we removed all images from the top 1,000 websites, these sites would load 30% faster on average over 3G.</p></blockquote>
-<p><a rel="full-article" href="https://medium.com/@guypod/high-performance-images-beautiful-shouldn-t-mean-slow-22ffc4e31663">Read on Medium&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
