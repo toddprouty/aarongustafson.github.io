@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-07-10T17:38:22-04:00</updated>
+	<updated>2015-07-13T15:03:22-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,54 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Braille Tablet Can Convert Text for Blind Users and Let Them Read, Write and Chat]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/braille-tablet-convert-text-blind-users-read-write-chat/"/>
+				<updated>2015-07-13T15:01:44-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/braille-tablet-convert-text-blind-users-read-write-chat</id>
+				<content type="html"><![CDATA[<p>This looks so cool!</p>
+
+<p><figure id="fig-AN2QfdvdQiA" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(http://i2.ytimg.com/vi/AN2QfdvdQiA/0.jpg);" href="//www.youtube.com/watch?v=AN2QfdvdQiA" data-lazy-video-src="http://www.youtube.com/embed/AN2QfdvdQiA?autoplay=1&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">BLITAB First Tactile Tablet for Blind People</div></a></div></figure></p>
+<p><a rel="full-article" href="http://www.springwise.com/braille-tablet-convert-text-blind-users-read-write-chat/">Read on Springwise&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Introduction to Mobile Accessibility, 2015]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/introduction-to-mobile-accessibility-2015/"/>
+				<updated>2015-07-13T14:57:26-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/introduction-to-mobile-accessibility-2015</id>
+				<content type="html"><![CDATA[<p>Slides from <a href="http://www.iheni.com/">Henny Swan</a>’s AccessU 2015 workshop. Fantastic material in here—definitely worth a look.</p>
+
+<p>And if work like this is your cup of tea, <a href="https://www.linkedin.com/jobs2/view/62303230?trk=jserp_job_details_text">Twitter is hiring a mobile accessibility engineer</a>.</p>
+<p><a rel="full-article" href="http://www.slideshare.net/iheni/introduction-to-mobile-accessibility-2015">Read on SlideShare&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[The National Federation of the Blind Announces Partnership With Expedia, Inc. To Optimize Accessibility of Expedia.com and Travelocity.com Sites]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/SF53936/"/>
+				<updated>2015-07-13T14:54:28-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/SF53936</id>
+				<content type="html"><![CDATA[<p>Proof that not all accessibility issues require a lawsuit to effect change.</p>
+<p><a rel="full-article" href="http://www.prnewswire.com/news-releases/the-national-federation-of-the-blind-announces-partnership-with-expedia-inc-to-optimize-accessibility-of-expediacom-and-travelocitycom-sites-300111583.html">Read on Expedia (via PR Newswire)&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Using the Web Speech API to Simulate CSS Speech Support]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/using-the-web-speech-api-to-simulate-css-speech-support/"/>
+				<updated>2015-07-13T14:51:20-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/using-the-web-speech-api-to-simulate-css-speech-support</id>
+				<content type="html"><![CDATA[<p>A nice overview of the promise of CSS Speech—which is not implemented anywhere, yet—and how it can be (roughly) simulated using JavaScript’s Web Speech API.</p>
+<p><a rel="full-article" href="http://tink.uk/using-the-web-speech-api-to-simulate-css-speech-support/">Read on Tink&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -223,45 +271,6 @@ It would take too long to type out the code first and then start rearranging. So
 
 <blockquote><p>[W]hen designing apps, we should not look at individual colors and ask if they are ‘visible’, but rather look at groupings of colors, and see if they are distinguishable. Even then, we may require more visual aids to make sure that users will not mistake one color for another.</p></blockquote>
 <p><a rel="full-article" href="https://medium.com/@aaron10buuren/designing-for-and-with-color-blindness-48392aab3d87">Read on Medium&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Why Don’t You Code for Netscape?]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/netscape/"/>
-				<updated>2015-06-24T19:58:46-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/netscape</id>
-				<content type="html"><![CDATA[<p>Still one of my favorite examples of reduced support improving usability (emphasis mine):</p>
-
-<blockquote><p>By contrast, the method used here at A List Apart (XHTML for structure, CSS for layout and design) ensures that every reader has access to the site’s text, but allows the design to “disappear” if the browser can’t handle it. No 4.0 browser can handle it.</p>
-
-<p>We assume that those who choose to keep using 4.0 browsers have reasons for doing so; we also assume that most of those folks don’t really care about “design issues.” They just want information, and with this approach they can still get the information they seek. <strong>In fact, since we began hiding the design from non–compliant browsers in February 2001, ALA’s Netscape 4 readership has increased, from about 6% to about 11%.</strong></p></blockquote>
-<p><a rel="full-article" href="http://alistapart.com/article/netscape">Read on A List Apart&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Google’s Guide to Designing With Empathy]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/googles-guide-to-designing-with-empathy/"/>
-				<updated>2015-06-23T10:23:21-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/googles-guide-to-designing-with-empathy</id>
-				<content type="html"><![CDATA[<p>This piece echoes much of what was said at Responsive Day Out: Step outside your bubble. Learn about how others experience the web. Design for a continuum and you will support more users with fewer headaches.</p>
-<p><a rel="full-article" href="http://www.fastcodesign.com/3047545/googles-guide-to-designing-with-empathy">Read on FastCompany&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Building a More Interoperable Web With Microsoft Edge]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/building-a-more-interoperable-web-with-microsoft-edge/"/>
-				<updated>2015-06-17T13:49:30-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/building-a-more-interoperable-web-with-microsoft-edge</id>
-				<content type="html"><![CDATA[<p>Microsoft’s Frank Oliver has a nice write-up on the importance of browser interoperability and what the browser team has done with Microsoft Edge.</p>
-<p><a rel="full-article" href="http://blogs.windows.com/msedgedev/2015/06/17/building-a-more-interoperable-web-with-microsoft-edge/">Read on Microsoft Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
