@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-07-13T15:03:22-04:00</updated>
+	<updated>2015-07-14T14:24:53-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Bringing Componentization to the Web: An Overview of Web Components]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/bringing-componentization-to-the-web-an-overview-of-web-components/"/>
+				<updated>2015-07-14T14:21:42-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/bringing-componentization-to-the-web-an-overview-of-web-components</id>
+				<content type="html"><![CDATA[<p><a href="http://twitter.com/@TravisLeithead">Travis Leithead</a> and <a href="http://twitter.com/@mrcss">Arron Eicholz</a> offer some insight into the state of Web Components and what it means with regard to Microsoft’s Edge browser.</p>
+<p><a rel="full-article" href="http://blogs.windows.com/msedgedev/2015/07/14/bringing-componentization-to-the-web-an-overview-of-web-components/">Read on Microsoft Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -258,19 +269,6 @@ It would take too long to type out the code first and then start rearranging. So
 
 <p>Switching the lines for the word &ldquo;menu&rdquo; makes 20% more people click, Foster found.</p></blockquote>
 <p><a rel="full-article" href="http://www.bbc.com/news/magazine-31602745">Read on BBC News&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Designing for (and With) Color Blindness]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/designing-for-and-with-color-blindness-48392aab3d87/"/>
-				<updated>2015-06-25T17:37:38-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/designing-for-and-with-color-blindness-48392aab3d87</id>
-				<content type="html"><![CDATA[<p>An interesting look at color blindness from <a href="http://www.aarontenbuuren.com/">Aaron Tenbuuren</a>, a designer living with it. He offers some great examples of good design for color blind users from Trello, Google, and more.</p>
-
-<blockquote><p>[W]hen designing apps, we should not look at individual colors and ask if they are ‘visible’, but rather look at groupings of colors, and see if they are distinguishable. Even then, we may require more visual aids to make sure that users will not mistake one color for another.</p></blockquote>
-<p><a rel="full-article" href="https://medium.com/@aaron10buuren/designing-for-and-with-color-blindness-48392aab3d87">Read on Medium&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	

@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Posts]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-posts.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-07-13T15:03:22-04:00</updated>
+	<updated>2015-07-14T14:24:53-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,8 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
 	
 		
 	
@@ -66,8 +68,6 @@
 <p>It’s worth noting that the HTML <code>video</code> element supports subtitles and captions via <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track">the <code>track</code> element</a> (<a href="http://www.iandevlin.com/blog/2015/04/html5/html5-video-captions-current-browser-status">browser support</a>, <a href="http://caniuse.com/#search=track">Can I Use data</a>). YouTube also allows you to <a href="https://support.google.com/youtube/answer/2734796">add captions and subtitles to your videos manually</a>. But keep in mind that <a href="http://screenfont.ca/learn/">captions and subtitles are not the same thing</a>; captions need to capture more than just the words that are said.</p>
 ]]></content>
 			</entry>
-		
-	
 		
 	
 		
