@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-07-15T11:13:03-04:00</updated>
+	<updated>2015-07-15T13:14:07-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Microsoft Edge and Web Components]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/microsoft-edge-and-web-components/"/>
+				<updated>2015-07-15T13:06:37-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/microsoft-edge-and-web-components</id>
+				<content type="html"><![CDATA[<p>A follow-up to yesterday’s post, answering many of your questions about Web Component support in Edge.</p>
+<p><a rel="full-article" href="http://blogs.windows.com/msedgedev/2015/07/15/microsoft-edge-and-web-components/">Read on Microsoft Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -280,19 +291,6 @@ It would take too long to type out the code first and then start rearranging. So
 
 <blockquote><p>Progressive enhancement is not about adding more work to your product. It is about protecting the main use case of your product and then enhance it with new functionality as it becomes available. Google is a great example of that. Turn off JavaScript and you still get a form to enter information in and you get a search result page with ads on it. This is how you find things and Google makes money. Anything else they added over time makes it more convenient for you but is not needed. It also offers them more opportunities to show you more ads and point at other services.</p></blockquote>
 <p><a rel="full-article" href="http://christianheilmann.com/2015/05/24/the-ryanair-approach-to-progressive-enhancement/">Read on Christian Heilmann&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Flexbox Gotchas for Android 2.1–4.3 (Stock Browser)]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/flexbox-gotchas-for-android-2-1-4-3-stock-browser/"/>
-				<updated>2015-06-25T17:46:09-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/flexbox-gotchas-for-android-2-1-4-3-stock-browser</id>
-				<content type="html"><![CDATA[<p>Many thanks to <a href="http://benfrain.com">Ben Frain</a> for surfacing these issues.</p>
-
-<blockquote><p>The stock Android browser that shipped with Android 2.1–4.3  used the old version of the Flexible Box Layout Module. … Those are the principal devices you are likely to encounter these issues on.</p></blockquote>
-<p><a rel="full-article" href="http://benfrain.com/flexbox-gotchas-for-android-2-1-4-3-stock-browser/">Read on Ben Frain&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
