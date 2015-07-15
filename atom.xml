@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-07-14T14:24:53-04:00</updated>
+	<updated>2015-07-15T11:13:03-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,19 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Thinking About Web Accessibility Differently]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/thinking-about-web-accessibility-differently/"/>
+				<updated>2015-07-15T11:11:10-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/thinking-about-web-accessibility-differently</id>
+				<content type="html"><![CDATA[<p>This is a fantastic piece and perfectly echoes what many of us have been saying:</p>
+
+<blockquote><p>Accessibility isn’t just a legal mandate or list of requirements. It’s really about people. You.</p></blockquote>
+<p><a rel="full-article" href="http://davidakennedy.com/2015/07/13/thinking-about-web-accessibility-differently/">Read on David A. Kennedy&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -280,25 +293,6 @@ It would take too long to type out the code first and then start rearranging. So
 
 <blockquote><p>The stock Android browser that shipped with Android 2.1–4.3  used the old version of the Flexible Box Layout Module. … Those are the principal devices you are likely to encounter these issues on.</p></blockquote>
 <p><a rel="full-article" href="http://benfrain.com/flexbox-gotchas-for-android-2-1-4-3-stock-browser/">Read on Ben Frain&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Hamburger Icon: How These Three Lines Mystify Most People]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/magazine-31602745/"/>
-				<updated>2015-06-25T17:42:27-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/magazine-31602745</id>
-				<content type="html"><![CDATA[<p>A good overview of why the “hamburger” can’t stand alone.</p>
-
-<blockquote><p>&ldquo;I did multiple tests,&rdquo; says James Foster, a web developer based in New Zealand, who has surveyed users&#8217; interactions with the button over the course of many months. &ldquo;The results all came out the same—the icon is not as clear to some users as developers and designers think it is.&rdquo;</p>
-
-<p>Adding the word &ldquo;menu&rdquo; underneath the three lines increases the button&rsquo;s use by 7.2%, according to Foster&rsquo;s tests.</p>
-
-<p>Putting the hamburger inside a box, so it looks like a button, increases use by 22.4%.</p>
-
-<p>Switching the lines for the word &ldquo;menu&rdquo; makes 20% more people click, Foster found.</p></blockquote>
-<p><a rel="full-article" href="http://www.bbc.com/news/magazine-31602745">Read on BBC News&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
