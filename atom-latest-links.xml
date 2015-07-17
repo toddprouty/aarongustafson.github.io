@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-07-15T14:26:31-04:00</updated>
+	<updated>2015-07-17T10:44:02-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[The Full StackOverflow Developer]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/the-full-stackoverflow-developer/"/>
+				<updated>2015-07-17T10:43:09-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/the-full-stackoverflow-developer</id>
+				<content type="html"><![CDATA[<p>Fantastic piece on the StackOverflow-ification of our industry and the importance of craft.</p>
+<p><a rel="full-article" href="http://christianheilmann.com/2015/07/17/the-full-stackoverflow-developer/">Read on Christian Heilmann&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -250,17 +261,6 @@ It would take too long to type out the code first and then start rearranging. So
 				<id>http://www.aaron-gustafson.com/notebook/links/availability</id>
 				<content type="html"><![CDATA[<p>I’m with Stuart Langridge, &ldquo;progressive enhancement&rdquo; (as a word) turns a lot of people off. I guess that’s partly why I named my book Adaptive Web Design. It seemed more broadly appealing to build a web that adapts to any browser (and is thereby available to everyone).</p>
 <p><a rel="full-article" href="http://www.kryogenix.org/days/2015/06/28/availability/">Read on As Days Pass By&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Vorlon.JS]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/vorlonjs/"/>
-				<updated>2015-06-26T10:34:34-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/vorlonjs</id>
-				<content type="html"><![CDATA[<p>Extensible remote browser debugging via node.js. ’Nuff said.</p>
-<p><a rel="full-article" href="http://vorlonjs.com">Read on &nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
