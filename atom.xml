@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-07-17T10:44:02-04:00</updated>
+	<updated>2015-07-17T11:23:41-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Building Accessible Windows Universal Apps]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/building-accessible-windows-universal-apps-introduction/"/>
+				<updated>2015-07-17T11:22:15-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/building-accessible-windows-universal-apps-introduction</id>
+				<content type="html"><![CDATA[<p>If you happen to be building a Windows Universal app (or know someone who is), I just stumbled on this awesome series of posts with invaluable advice for making it more accessible.</p>
+<p><a rel="full-article" href="http://blogs.msdn.com/b/winuiautomation/archive/2015/07/14/building-accessible-windows-universal-apps-introduction.aspx">Read on Microsoft Windows UI Automation Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -280,17 +291,6 @@ It would take too long to type out the code first and then start rearranging. So
 
 <p>A note to Bruce: This could make for an interesting proof of concept browser extension. Interested in playing around with it?</p>
 <p><a rel="full-article" href="http://www.brucelawson.co.uk/2015/edge-conf-notes-on-user-queries/">Read on Bruce Lawson’s Personal Site&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Availability]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/availability/"/>
-				<updated>2015-06-29T14:05:13-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/availability</id>
-				<content type="html"><![CDATA[<p>I’m with Stuart Langridge, &ldquo;progressive enhancement&rdquo; (as a word) turns a lot of people off. I guess that’s partly why I named my book Adaptive Web Design. It seemed more broadly appealing to build a web that adapts to any browser (and is thereby available to everyone).</p>
-<p><a rel="full-article" href="http://www.kryogenix.org/days/2015/06/28/availability/">Read on As Days Pass By&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
