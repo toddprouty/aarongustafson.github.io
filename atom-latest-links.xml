@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-07-17T11:23:41-04:00</updated>
+	<updated>2015-07-26T14:34:46-05:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -14,9 +14,31 @@
 	
 		
 			<entry>
+				<title type="html"><![CDATA[ADA Anniversary Tool Kit]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/www/"/>
+				<updated>2015-07-26T14:32:51-05:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/www</id>
+				<content type="html"><![CDATA[<p>Happy 25th birthday to the Americans with Disabilities Act!</p>
+<p><a rel="full-article" href="http://www.adaanniversary.org/">Read on Syracuse University&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[ARIA Live - the Good, the Bad, and the Ugly]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/arialive-the-good-the-bad-and-the-ugly/"/>
+				<updated>2015-07-26T14:30:12-05:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/arialive-the-good-the-bad-and-the-ugly</id>
+				<content type="html"><![CDATA[<p>Fantastic presentation on <code>aria-live</code> by <a href="http://maxdesign.com.au/about/russweakley/">Russ Weakley</a> &amp; <a href="http://www.brothercake.com/">James Edwards</a>. So much great research here!</p>
+<p><a rel="full-article" href="http://www.slideshare.net/maxdesign/arialive-the-good-the-bad-and-the-ugly">Read on SlideShare&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
 				<title type="html"><![CDATA[Building Accessible Windows Universal Apps]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/building-accessible-windows-universal-apps-introduction/"/>
-				<updated>2015-07-17T11:22:15-04:00</updated>
+				<updated>2015-07-17T10:22:15-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/building-accessible-windows-universal-apps-introduction</id>
 				<content type="html"><![CDATA[<p>If you happen to be building a Windows Universal app (or know someone who is), I just stumbled on this awesome series of posts with invaluable advice for making it more accessible.</p>
 <p><a rel="full-article" href="http://blogs.msdn.com/b/winuiautomation/archive/2015/07/14/building-accessible-windows-universal-apps-introduction.aspx">Read on Microsoft Windows UI Automation Blog&nbsp;&rarr;</a></p>]]></content>
@@ -27,7 +49,7 @@
 			<entry>
 				<title type="html"><![CDATA[The Full StackOverflow Developer]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/the-full-stackoverflow-developer/"/>
-				<updated>2015-07-17T10:43:09-04:00</updated>
+				<updated>2015-07-17T09:43:09-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/the-full-stackoverflow-developer</id>
 				<content type="html"><![CDATA[<p>Fantastic piece on the StackOverflow-ification of our industry and the importance of craft.</p>
 <p><a rel="full-article" href="http://christianheilmann.com/2015/07/17/the-full-stackoverflow-developer/">Read on Christian Heilmann&nbsp;&rarr;</a></p>]]></content>
@@ -38,7 +60,7 @@
 			<entry>
 				<title type="html"><![CDATA[Winning Technology With a Social Purpose]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/winning-technology-social-purpose-bionic-arm/"/>
-				<updated>2015-07-15T14:24:06-04:00</updated>
+				<updated>2015-07-15T13:24:06-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/winning-technology-social-purpose-bionic-arm</id>
 				<content type="html"><![CDATA[<p>This is about tech for social good, which is awesome, but one of the most interesting bits is buried near the bottom and concerns us as web designers:</p>
 
@@ -51,7 +73,7 @@
 			<entry>
 				<title type="html"><![CDATA[Microsoft Edge and Web Components]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/microsoft-edge-and-web-components/"/>
-				<updated>2015-07-15T13:06:37-04:00</updated>
+				<updated>2015-07-15T12:06:37-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/microsoft-edge-and-web-components</id>
 				<content type="html"><![CDATA[<p>A follow-up to yesterday’s post, answering many of your questions about Web Component support in Edge.</p>
 <p><a rel="full-article" href="http://blogs.windows.com/msedgedev/2015/07/15/microsoft-edge-and-web-components/">Read on Microsoft Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
@@ -62,7 +84,7 @@
 			<entry>
 				<title type="html"><![CDATA[Thinking About Web Accessibility Differently]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/thinking-about-web-accessibility-differently/"/>
-				<updated>2015-07-15T11:11:10-04:00</updated>
+				<updated>2015-07-15T10:11:10-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/thinking-about-web-accessibility-differently</id>
 				<content type="html"><![CDATA[<p>This is a fantastic piece and perfectly echoes what many of us have been saying:</p>
 
@@ -75,7 +97,7 @@
 			<entry>
 				<title type="html"><![CDATA[Bringing Componentization to the Web: An Overview of Web Components]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/bringing-componentization-to-the-web-an-overview-of-web-components/"/>
-				<updated>2015-07-14T14:21:42-04:00</updated>
+				<updated>2015-07-14T13:21:42-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/bringing-componentization-to-the-web-an-overview-of-web-components</id>
 				<content type="html"><![CDATA[<p><a href="http://twitter.com/@TravisLeithead">Travis Leithead</a> and <a href="http://twitter.com/@mrcss">Arron Eicholz</a> offer some insight into the state of Web Components and what it means with regard to Microsoft’s Edge browser.</p>
 <p><a rel="full-article" href="http://blogs.windows.com/msedgedev/2015/07/14/bringing-componentization-to-the-web-an-overview-of-web-components/">Read on Microsoft Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
@@ -86,7 +108,7 @@
 			<entry>
 				<title type="html"><![CDATA[Braille Tablet Can Convert Text for Blind Users and Let Them Read, Write and Chat]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/braille-tablet-convert-text-blind-users-read-write-chat/"/>
-				<updated>2015-07-13T15:01:44-04:00</updated>
+				<updated>2015-07-13T14:01:44-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/braille-tablet-convert-text-blind-users-read-write-chat</id>
 				<content type="html"><![CDATA[<p>This looks so cool!</p>
 
@@ -99,7 +121,7 @@
 			<entry>
 				<title type="html"><![CDATA[Introduction to Mobile Accessibility, 2015]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/introduction-to-mobile-accessibility-2015/"/>
-				<updated>2015-07-13T14:57:26-04:00</updated>
+				<updated>2015-07-13T13:57:26-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/introduction-to-mobile-accessibility-2015</id>
 				<content type="html"><![CDATA[<p>Slides from <a href="http://www.iheni.com/">Henny Swan</a>’s AccessU 2015 workshop. Fantastic material in here—definitely worth a look.</p>
 
@@ -112,7 +134,7 @@
 			<entry>
 				<title type="html"><![CDATA[The National Federation of the Blind Announces Partnership With Expedia, Inc. To Optimize Accessibility of Expedia.com and Travelocity.com Sites]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/SF53936/"/>
-				<updated>2015-07-13T14:54:28-04:00</updated>
+				<updated>2015-07-13T13:54:28-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/SF53936</id>
 				<content type="html"><![CDATA[<p>Proof that not all accessibility issues require a lawsuit to effect change.</p>
 <p><a rel="full-article" href="http://www.prnewswire.com/news-releases/the-national-federation-of-the-blind-announces-partnership-with-expedia-inc-to-optimize-accessibility-of-expediacom-and-travelocitycom-sites-300111583.html">Read on Expedia (via PR Newswire)&nbsp;&rarr;</a></p>]]></content>
@@ -123,7 +145,7 @@
 			<entry>
 				<title type="html"><![CDATA[Using the Web Speech API to Simulate CSS Speech Support]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/using-the-web-speech-api-to-simulate-css-speech-support/"/>
-				<updated>2015-07-13T14:51:20-04:00</updated>
+				<updated>2015-07-13T13:51:20-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/using-the-web-speech-api-to-simulate-css-speech-support</id>
 				<content type="html"><![CDATA[<p>A nice overview of the promise of CSS Speech—which is not implemented anywhere, yet—and how it can be (roughly) simulated using JavaScript’s Web Speech API.</p>
 <p><a rel="full-article" href="http://tink.uk/using-the-web-speech-api-to-simulate-css-speech-support/">Read on Tink&nbsp;&rarr;</a></p>]]></content>
@@ -134,7 +156,7 @@
 			<entry>
 				<title type="html"><![CDATA[EyeControl]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/eyecontrol-communicate-anytime-anywhere/"/>
-				<updated>2015-07-10T16:26:47-04:00</updated>
+				<updated>2015-07-10T15:26:47-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/eyecontrol-communicate-anytime-anywhere</id>
 				<content type="html"><![CDATA[<p>Very interesting eye-tracking interaction device for folks with amyotrophic lateral sclerosis (ALS) or who are otherwise &ldquo;locked in&rdquo; by a lack of speech or upper body motor control. As I post this, they’ve already raised 50% of their goal (in a mere three days no less).</p>
 <p><a rel="full-article" href="https://www.indiegogo.com/projects/eyecontrol-communicate-anytime-anywhere">Read on Indiegogo&nbsp;&rarr;</a></p>]]></content>
@@ -145,7 +167,7 @@
 			<entry>
 				<title type="html"><![CDATA[ARIA and DPUB Published a First Public Working Draft]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/aria-and-dpub-publish-fpwd/"/>
-				<updated>2015-07-08T14:25:54-04:00</updated>
+				<updated>2015-07-08T13:25:54-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/aria-and-dpub-publish-fpwd</id>
 				<content type="html"><![CDATA[<p>DAISY and ARIA, sitting in a tree… I’ve been thinking a bit about eBook accessibility in light of the forthcoming second edition of <cite>Adaptive Web Design</cite>. It’s good to see progress being made. I’d love to see some of this come back into web-based (as opposed to ePub-based) HTML as well.</p>
 <p><a rel="full-article" href="http://www.w3.org/blog/2015/07/aria-and-dpub-publish-fpwd/">Read on W3C Blog&nbsp;&rarr;</a></p>]]></content>
@@ -156,7 +178,7 @@
 			<entry>
 				<title type="html"><![CDATA[UI Fail: How Our User Interfaces Help to Ruin Lives]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/ui-fail-how-our-user-interfaces-help-to-ruin-lives/"/>
-				<updated>2015-07-07T13:58:14-04:00</updated>
+				<updated>2015-07-07T12:58:14-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/ui-fail-how-our-user-interfaces-help-to-ruin-lives</id>
 				<content type="html"><![CDATA[<p>This post is full of gold! Here’s a peek:</p>
 
@@ -181,7 +203,7 @@
 			<entry>
 				<title type="html"><![CDATA[Added Extended `srcset` and Flipped the State to in Development]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/241/"/>
-				<updated>2015-07-02T18:14:17-04:00</updated>
+				<updated>2015-07-02T17:14:17-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/241</id>
 				<content type="html"><![CDATA[<p>No ETA, but <code>srcset</code> and <code>sizes</code> are coming in Microsoft Edge. So excited about this!</p>
 <p><a rel="full-article" href="https://github.com/MicrosoftEdge/Status/pull/241">Read on Microsoft Edge on Github&nbsp;&rarr;</a></p>]]></content>
@@ -192,7 +214,7 @@
 			<entry>
 				<title type="html"><![CDATA[An Introduction to Browser Rendering]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/an-introduction-to-browser-rendering/"/>
-				<updated>2015-07-02T14:26:56-04:00</updated>
+				<updated>2015-07-02T13:26:56-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/an-introduction-to-browser-rendering</id>
 				<content type="html"><![CDATA[<p><a href="https://umaar.com/">Umar Hansa</a>’s fantastic video overview of how a browser renders HTML and CSS including the render tree and paint events. Thanks for putting this together Umar!</p>
 <p><a rel="full-article" href="https://www.youtube.com/watch?v=n1cKlKM3jYI">Read on YouTube&nbsp;&rarr;</a></p>]]></content>
@@ -203,7 +225,7 @@
 			<entry>
 				<title type="html"><![CDATA[Screen Reader User Survey #6]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/screenreadersurvey6/"/>
-				<updated>2015-07-02T12:08:23-04:00</updated>
+				<updated>2015-07-02T11:08:23-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/screenreadersurvey6</id>
 				<content type="html"><![CDATA[<p>Do you use a screen reader? Please take this survey. Know someone who does? Pass it on. The survey will be open through 24 July 2015.</p>
 <p><a rel="full-article" href="http://webaim.org/projects/screenreadersurvey6/">Read on WebAIM&nbsp;&rarr;</a></p>]]></content>
@@ -214,7 +236,7 @@
 			<entry>
 				<title type="html"><![CDATA[One Letter at a Time: Quadriplegic Coder Looks Back at 21-year Career at Microsoft]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/one-letter-at-a-time-quadriplegic-coder-looks-back/"/>
-				<updated>2015-07-02T12:03:16-04:00</updated>
+				<updated>2015-07-02T11:03:16-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/one-letter-at-a-time-quadriplegic-coder-looks-back</id>
 				<content type="html"><![CDATA[<p>A brief but inspiring profile of <a href="http://research.microsoft.com/en-us/people/gregsmi/">Greg Smith</a>, a quadriplegic programmer and principal software engineer in Microsoft Research.</p>
 
@@ -230,7 +252,7 @@ It would take too long to type out the code first and then start rearranging. So
 			<entry>
 				<title type="html"><![CDATA[Thriving in Unpredictability]]></title>
 				<link href="http://www.aaron-gustafson.com/notebook/links/thriving-in-unpredictability/"/>
-				<updated>2015-06-29T15:53:39-04:00</updated>
+				<updated>2015-06-29T14:53:39-05:00</updated>
 				<id>http://www.aaron-gustafson.com/notebook/links/thriving-in-unpredictability</id>
 				<content type="html"><![CDATA[<p>Another great post from Tim. The sooner we recognize how little we actually control when it comes to our websites, the better we’ll be able to serve our users.</p>
 
@@ -246,21 +268,6 @@ It would take too long to type out the code first and then start rearranging. So
 </ul>
 
 <p><a rel="full-article" href="http://timkadlec.com/2015/06/thriving-in-unpredictability/">Read on Tim Kadlec&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Edge Conf: Notes on User Queries]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/edge-conf-notes-on-user-queries/"/>
-				<updated>2015-06-29T14:05:54-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/edge-conf-notes-on-user-queries</id>
-				<content type="html"><![CDATA[<p>The esteemed <a href="http://www.brucelawson.co.uk/">Bruce Lawson</a> on user preferences (e.g., contrast level) and querying them via CSS (or not). User queries present some interesting possibilities, but I doubt users will want to set manually. Via a browser’s UI, however, that is interesting.</p>
-
-<p>A note to Bruce: This could make for an interesting proof of concept browser extension. Interested in playing around with it?</p>
-<p><a rel="full-article" href="http://www.brucelawson.co.uk/2015/edge-conf-notes-on-user-queries/">Read on Bruce Lawson’s Personal Site&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	

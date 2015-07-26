@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Css3 | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/css3/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-07-17T11:23:41-04:00</updated>
+  <updated>2015-07-26T14:34:46-05:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Visualizing CSS3 Transformations]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/visualizing-css3-transformations/"/>
-    <updated>2014-12-18T16:53:18-05:00</updated>
+    <updated>2014-12-18T15:53:18-06:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/visualizing-css3-transformations</id>
     <content type="html"><![CDATA[<p>It’s pretty amazing what you can do with <a href="http://dev.w3.org/csswg/css-transforms">CSS3 transforms</a> these days, but I often struggle with explaining the importance of function order when I am training people on how to use them. Transformation functions are a visual thing, so they require a visual tool to fully understand them and the implications of your function order decisions.</p>
 
