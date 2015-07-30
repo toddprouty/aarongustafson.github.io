@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-07-26T14:34:46-05:00</updated>
+  <updated>2015-07-30T12:46:48-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Harvard, MIT, and Captioning]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/harvard-and-mit-and-captioning/"/>
-    <updated>2015-06-29T13:23:28-05:00</updated>
+    <updated>2015-06-29T14:23:28-04:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/harvard-and-mit-and-captioning</id>
     <content type="html"><![CDATA[<p>The U.S. Department of Justice (DOJ) has published Statements of Interest in two cases brought by the National Association of the Deaf (NAD) against <a href="http://www.ada.gov/briefs/harvard_soi.pdf">Harvard (PDF)</a> and <a href="http://www.ada.gov/briefs/mit_soi.pdf">MIT (PDF)</a>, respectively. The NAD is suing the two universities for violations of Title III of the Americans with Disabilities Act (ADA) and Section 504 of the Rehabilitation Act because the video and audio materials they are making available as part of their online learning offerings are not captioned.</p>
 
@@ -46,7 +46,7 @@
   <entry>
     <title type="html"><![CDATA[Bringing Sanity and Order to Device Testing]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/bringing-sanity-and-order-to-device-testing/"/>
-    <updated>2015-06-05T08:56:03-05:00</updated>
+    <updated>2015-06-05T09:56:03-04:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/bringing-sanity-and-order-to-device-testing</id>
     <content type="html"><![CDATA[<p>It seems like every other day the public is granted some new means of accessing the web. Some days it’s <a href="http://www.engadget.com/2015/04/29/microsoft-edge/">a new browser</a>. Others it’s <a href="http://www.pcadvisor.co.uk/reviews/mobile-phone/3504276/yotaphone-2-review-uk-dual-screen-smartphone/">a new smartphone</a>. Or <a href="http://www.engadget.com/products/microsoft/surface/3/">a tablet</a>. Or <a href="http://the-digital-reader.com/2014/10/22/voyage-vs-paperwhite-comparison-review-web-browser/">an e-reader</a>. Or <a href="https://www.nintendo.com/3ds/internetbrowser/specs/">a video game console</a>. Or <a href="http://www.phonearena.com/news/Surf-the-Internet-from-your-Android-Wear-smartwatch-Now-possible-via-this-new-app_id58580">a smartwatch</a>. Or <a href="https://html5test.com/compare/browser/samsungsmarttv-2013.html">a TV</a>. Or <a href="http://www.techradar.com/us/reviews/wearables/microsoft-hololens-1281834/review">a heads-up display</a>. Or <a href="http://www.popularmechanics.com/cars/a13191/the-future-of-car-connectivity-is-a-real-web-browser-in-the-dash-17416796/">a car</a>. Or <a href="http://www.lgblog.lt/2009/10/28/zvilgsnis-atgal-pirmasis-pasaulyje-saldytuvas-su-internetu-lg-internet-digital-dios/">a refrigerator</a>.</p>
 
@@ -191,7 +191,7 @@
   <entry>
     <title type="html"><![CDATA[Interface Experience Maps]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/interface-experience-maps/"/>
-    <updated>2015-05-28T07:43:20-05:00</updated>
+    <updated>2015-05-28T08:43:20-04:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/interface-experience-maps</id>
     <content type="html"><![CDATA[<p>One of the greatest challenges of progressive enhancement lies not with the coding, but with the planning. It can be incredibly challenging to articulate how a single interface might adapt to a wide variety of situations. Interface Experience Maps (Ix Maps) can help.</p>
 
@@ -258,7 +258,7 @@
   <entry>
     <title type="html"><![CDATA[URL Inception]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/url-inception/"/>
-    <updated>2015-05-18T13:38:29-05:00</updated>
+    <updated>2015-05-18T14:38:29-04:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/url-inception</id>
     <content type="html"><![CDATA[<p>It’s like a snake eating its own tail:</p>
 
@@ -274,7 +274,7 @@
   <entry>
     <title type="html"><![CDATA[Lessons Learned From Atari]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/lessons-learned-from-atari/"/>
-    <updated>2015-05-05T17:05:40-05:00</updated>
+    <updated>2015-05-05T18:05:40-04:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/lessons-learned-from-atari</id>
     <content type="html"><![CDATA[<p>In watching <a href="http://www.slashfilm.com/watch-atari-game-over/"><cite>Atari: Game Over</cite></a>, I couldn&rsquo;t help but see all of the parallels between the early video game industry and the web design industry. The boys’ club… Engineers as rockstars… It&rsquo;s a tale of a meteoric commercial rise followed by a swift and dismal collapse.</p>
 

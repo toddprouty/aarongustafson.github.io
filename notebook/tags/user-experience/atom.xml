@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: User Experience | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/user-experience/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-07-26T14:34:46-05:00</updated>
+  <updated>2015-07-30T12:46:48-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Interface Experience Maps]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/interface-experience-maps/"/>
-    <updated>2015-05-28T07:43:20-05:00</updated>
+    <updated>2015-05-28T08:43:20-04:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/interface-experience-maps</id>
     <content type="html"><![CDATA[<p>One of the greatest challenges of progressive enhancement lies not with the coding, but with the planning. It can be incredibly challenging to articulate how a single interface might adapt to a wide variety of situations. Interface Experience Maps (Ix Maps) can help.</p>
 
@@ -83,7 +83,7 @@
   <entry>
     <title type="html"><![CDATA[Lies, Damn Lies, and JavaScript]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/lies-damn-lies-and-javascript/"/>
-    <updated>2015-04-27T14:10:11-05:00</updated>
+    <updated>2015-04-27T15:10:11-04:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/lies-damn-lies-and-javascript</id>
     <content type="html"><![CDATA[<p>Late last week I stumbled on a video from <a href="https://twitter.com/graemepyle">Graeme Pyle</a> that exposed a UX lie in the <a href="https://www.fnb.co.za/">First National Bank of South Africa</a>.</p>
 

@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Browsers | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/browsers/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-07-26T14:34:46-05:00</updated>
+  <updated>2015-07-30T12:46:48-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Lines in the Sand]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/lines-in-the-sand/"/>
-    <updated>2015-03-11T08:21:29-05:00</updated>
+    <updated>2015-03-11T09:21:29-04:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/lines-in-the-sand</id>
     <content type="html"><![CDATA[<p>A new site, <a href="http://breakupwithie8.com/">Break Up with Internet Explorer 8</a> by <a href="http://www.humaan.com/">Humaan</a>, has been making the rounds on the Interwebs of late. It’s cleverly done and an attractive site, but I don’t really agree with the premise:</p>
 
@@ -63,7 +63,7 @@
   <entry>
     <title type="html"><![CDATA[The One Weird Trick That Takes the Pain Out of Cross-browser Testing]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing/"/>
-    <updated>2015-01-26T10:24:25-06:00</updated>
+    <updated>2015-01-26T11:24:25-05:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing</id>
     <content type="html"><![CDATA[<p>Love this!</p>
 
@@ -74,7 +74,7 @@
   <entry>
     <title type="html"><![CDATA[Competing on “Chrome”]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/competing-on-chrome/"/>
-    <updated>2015-01-21T14:20:40-06:00</updated>
+    <updated>2015-01-21T15:20:40-05:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/competing-on-chrome</id>
     <content type="html"><![CDATA[<p>Watching the <a href="http://news.microsoft.com/windows10story/">Windows 10 announcement</a> today and the “unveiling” of its new browser, codenamed “Project Spartan”, I was amazed… not by what was said so much as what wasn’t.</p>
 
@@ -124,7 +124,7 @@
   <entry>
     <title type="html"><![CDATA[The “Native” vs. “Stylable” Tug of War]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/native-vs-stylable-tug-of-war/"/>
-    <updated>2014-07-17T07:21:47-05:00</updated>
+    <updated>2014-07-17T08:21:47-04:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/native-vs-stylable-tug-of-war</id>
     <content type="html"><![CDATA[<p>In his astute post <a href="//www.brucelawson.co.uk/2014/native-experience-vs-styling-select-boxes/">“‘Native experience’ vs styling select boxes”</a>, Bruce Lawson correctly identified a common tension in the web world:</p>
 

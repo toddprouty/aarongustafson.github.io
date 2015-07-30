@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Empathy | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/empathy/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-07-26T14:34:46-05:00</updated>
+  <updated>2015-07-30T12:46:48-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Who Should Pay 2: The Hosting]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/who-should-pay-2-the-hosting/"/>
-    <updated>2015-03-06T07:39:15-06:00</updated>
+    <updated>2015-03-06T08:39:15-05:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/who-should-pay-2-the-hosting</id>
     <content type="html"><![CDATA[<p>Two weeks ago, I argued that our <a href="http://aaron-gustafson.com/notebook/who-should-pay/">users should never foot the bill for developer convenience</a> and yesterday I stumbled on a post from EllisLab (the makers of ExpressionEngine) that echoes that sentiment, but from a different angle. The title might make you scratch your head: <a href="https://ellislab.com/blog/entry/save-thousands-of-dollars-by-paying-more-for-hosting">Save Thousands of Dollars by Paying More for Hosting</a>.</p>
 
@@ -46,7 +46,7 @@
   <entry>
     <title type="html"><![CDATA[Who Should Pay?]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/who-should-pay/"/>
-    <updated>2015-02-18T22:35:06-06:00</updated>
+    <updated>2015-02-18T23:35:06-05:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/who-should-pay</id>
     <content type="html"><![CDATA[<p>In more than a handful of conversations lately, it’s become quite clear that we, the web development community, are prioritizing our own convenience and our own time over that of our users. With our industry’s focus on “user-centered design”, you might find that hard to believe, but it’s true.</p>
 
@@ -89,7 +89,7 @@
   <entry>
     <title type="html"><![CDATA[We Need More Empathy]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/we-need-more-empathy/"/>
-    <updated>2014-12-28T10:17:21-06:00</updated>
+    <updated>2014-12-28T11:17:21-05:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/we-need-more-empathy</id>
     <content type="html"><![CDATA[<p>For a while now I’ve been <a href="http://www.slideshare.net/AaronGustafson/designing-with-empathy-breaking-development-nashville-2013">beating the “empathy” drum</a> (<a href="http://www.lukew.com/ff/entry.asp?1810">notes</a>), trying to get folks in our industry to understand the importance of creating connections with the people for whom we build software, websites, etc. After all, we design and build tools to solve the needs of actual people, not some generic “user”.<!-- more --><sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
 
