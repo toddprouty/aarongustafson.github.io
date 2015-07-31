@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-07-31T14:43:00-04:00</updated>
+	<updated>2015-07-31T17:23:12-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Wearable First—Rethinking Accessible Design]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/wearable-first-design/"/>
+				<updated>2015-07-31T17:22:28-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/wearable-first-design</id>
+				<content type="html"><![CDATA[<p>An interesting look at the evolution of UI design and where it might be heading.</p>
+<p><a rel="full-article" href="http://wearability.org/wearable-first-design.html">Read on WearAbility&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -234,17 +245,6 @@
 
 <p>And if work like this is your cup of tea, <a href="https://www.linkedin.com/jobs2/view/62303230?trk=jserp_job_details_text">Twitter is hiring a mobile accessibility engineer</a>.</p>
 <p><a rel="full-article" href="http://www.slideshare.net/iheni/introduction-to-mobile-accessibility-2015">Read on SlideShare&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[The National Federation of the Blind Announces Partnership With Expedia, Inc. To Optimize Accessibility of Expedia.com and Travelocity.com Sites]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/SF53936/"/>
-				<updated>2015-07-13T14:54:28-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/SF53936</id>
-				<content type="html"><![CDATA[<p>Proof that not all accessibility issues require a lawsuit to effect change.</p>
-<p><a rel="full-article" href="http://www.prnewswire.com/news-releases/the-national-federation-of-the-blind-announces-partnership-with-expedia-inc-to-optimize-accessibility-of-expediacom-and-travelocitycom-sites-300111583.html">Read on Expedia (via PR Newswire)&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
