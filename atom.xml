@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-07-30T12:46:48-04:00</updated>
+	<updated>2015-07-31T13:26:22-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,39 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[6000 Government Websites to Be Made Accessible for the Differently-abled]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/report-6000-government-websites-to-be-made-accessible-for-the-differently-abled-2108182/"/>
+				<updated>2015-07-31T13:22:24-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/report-6000-government-websites-to-be-made-accessible-for-the-differently-abled-2108182</id>
+				<content type="html"><![CDATA[<p>India appears to be getting serious about web accessibility. Reading the article, however, the title is a bit misleading: 6,000 sites would be affected, but only half will be made accessible (following <a href="http://www.w3.org/TR/WCAG20/">WCAG 2</a>) in the next year. Still, it’s a start.</p>
+<p><a rel="full-article" href="http://www.dnaindia.com/india/report-6000-government-websites-to-be-made-accessible-for-the-differently-abled-2108182">Read on Daily News & Analysis&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Parallels 11 to Feature Always-on Support in OS X for Microsoft’s Cortana Virtual Assistant]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/parallels-10-cortana/"/>
+				<updated>2015-07-31T13:20:24-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/parallels-10-cortana</id>
+				<content type="html"><![CDATA[<p>I don’t use Parallels, but this is pretty sweet.</p>
+<p><a rel="full-article" href="http://9to5mac.com/2015/07/27/parallels-10-cortana/">Read on 9to5Mac&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[The Value of Content]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/the-value-of-content/"/>
+				<updated>2015-07-30T15:17:45-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/the-value-of-content</id>
+				<content type="html"><![CDATA[<p>This is a great post from <a href="http://blog.andybeaumont.com/">Andy Beaumont</a> regarding the sad state of affairs when it comes to content vs. conversions on the web. I look forward to the talk!</p>
+<p><a rel="full-article" href="https://medium.com/i-m-h-o/the-value-of-content-a30bbe8b54a5">Read on Medium&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -210,53 +243,6 @@
 				<id>http://www.aaron-gustafson.com/notebook/links/aria-and-dpub-publish-fpwd</id>
 				<content type="html"><![CDATA[<p>DAISY and ARIA, sitting in a tree… I’ve been thinking a bit about eBook accessibility in light of the forthcoming second edition of <cite>Adaptive Web Design</cite>. It’s good to see progress being made. I’d love to see some of this come back into web-based (as opposed to ePub-based) HTML as well.</p>
 <p><a rel="full-article" href="http://www.w3.org/blog/2015/07/aria-and-dpub-publish-fpwd/">Read on W3C Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[UI Fail: How Our User Interfaces Help to Ruin Lives]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/ui-fail-how-our-user-interfaces-help-to-ruin-lives/"/>
-				<updated>2015-07-07T13:58:14-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/ui-fail-how-our-user-interfaces-help-to-ruin-lives</id>
-				<content type="html"><![CDATA[<p>This post is full of gold! Here’s a peek:</p>
-
-<blockquote><p>While some of the users had indeed never had much computer experience, a vast number of responses involved highly skilled, technologically-savvy individuals—often engineers themselves—who had helped build the information age but now felt themselves being left behind by Web designers who simply don&rsquo;t seem to care about them at all.</p>
-
-<p>While issues of privacy and security were frequently mentioned in responses, as were matters relating to fundamental service capabilities, issues and problems relating to user interfaces themselves were by far the dominant theme.</p>
-
-<p>Some of these were obvious.</p>
-
-<p>There is enormous, widespread frustration with the trend toward low-contrast interfaces and fonts, gray fonts on gray backgrounds and all the rest. Pretty, but unreadable to many with aging eyes (and keep in mind, visual acuity usually begins to drop by the time we&rsquo;ve started our 20s).</p>
-
-<p>Many respondents noted that screen magnifiers can&rsquo;t help in such situations—they just end up with a big low-contrast blob rather than a small low-contrast blob.</p>
-
-<p>But then we really get into the deeper nitty-gritty of UI concerns. It&rsquo;s a long and painful list.</p>
-
-<p>Hidden menus. Obscure interface elements (e.g., tiny upside-down arrows). Interface and menu elements that only appear if you&rsquo;ve moused over a particular location on the display. Interface elements that are so small or ephemeral that they can be a challenge to click even if you still have the motor skills of youth. The list goes on and on.</p></blockquote>
-<p><a rel="full-article" href="http://lauren.vortex.com/archive/001112.html">Read on Lauren Weinstein’s Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Added Extended `srcset` and Flipped the State to in Development]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/241/"/>
-				<updated>2015-07-02T18:14:17-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/241</id>
-				<content type="html"><![CDATA[<p>No ETA, but <code>srcset</code> and <code>sizes</code> are coming in Microsoft Edge. So excited about this!</p>
-<p><a rel="full-article" href="https://github.com/MicrosoftEdge/Status/pull/241">Read on Microsoft Edge on Github&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[An Introduction to Browser Rendering]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/an-introduction-to-browser-rendering/"/>
-				<updated>2015-07-02T14:26:56-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/an-introduction-to-browser-rendering</id>
-				<content type="html"><![CDATA[<p><a href="https://umaar.com/">Umar Hansa</a>’s fantastic video overview of how a browser renders HTML and CSS including the render tree and paint events. Thanks for putting this together Umar!</p>
-<p><a rel="full-article" href="https://www.youtube.com/watch?v=n1cKlKM3jYI">Read on YouTube&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
