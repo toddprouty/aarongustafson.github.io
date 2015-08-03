@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Publications | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/publications/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-08-03T12:10:06-04:00</updated>
+  <updated>2015-08-03T15:18:58-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -47,8 +47,7 @@
 
 <!-- more -->
 
-<p><div class='embed tweet'><blockquote class="twitter-tweet"><p>Time and again, I return to <a href="https://twitter.com/AaronGustafson">@AaronGustafson</a>’s “Adaptive Web Design”. Like a North Star for user-focused web design.&#10;&#10;<a href="http://t.co/K1tbm6qAON">http://t.co/K1tbm6qAON</a></p>&mdash; Mark Llobrera (@dirtystylus) <a href="https://twitter.com/dirtystylus/status/530756679286423552">November 7, 2014</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div></p>
+<p>{% tweet https://twitter.com/dirtystylus/status/530756679286423552 %}</p>
 
 <p>I think one of the main reasons the book has remained relevant for so long is because at its core, <cite>Adaptive Web Design</cite> is a <em>philosophy</em> book. Sure, there are some code examples here and there, but they only serve to demonstrate how you can apply progressive enhancement in your work. The philosophy of progressive enhancement works and only continues to demonstrate its brilliance with each new Web-enabled screen that debuts in the ever-expanding global marketplace. In fact, I’ll go out on a limb and declare that progressive enhancement is probably even more relevant today than it was when I wrote <cite>Adaptive Web Design</cite> in 2010.</p>
 
