@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-08-03T12:10:06-04:00</updated>
+	<updated>2015-08-03T16:53:27-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,84 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Web Design - the First 100 Years]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/web_design_first_100_years/"/>
+				<updated>2015-08-03T16:04:05-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/web_design_first_100_years</id>
+				<content type="html"><![CDATA[<p>This is fantastic talk was given by <a href="http://idlewords.com/">Maciej Cegłowski</a> at HOW Interactive in 2014. In it, he elegantly frames what makes the web so awesome and so special. He the identifies three distinct visions for the web and the threat two of those visions pose to it.</p>
+
+<p>Well done, sir!</p>
+<p><a rel="full-article" href="http://idlewords.com/talks/web_design_first_100_years.htm">Read on Idle Words&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Combining Section508.gov and BuyAccessible.gov]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/combining-section508_gov-and-buyaccessible_gov/"/>
+				<updated>2015-08-03T15:16:00-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/combining-section508_gov-and-buyaccessible_gov</id>
+				<content type="html"><![CDATA[<p>Consolidating everything a government agency or other entity needs to know about Section 508 compliance and contracting for accessible results was a good idea. Hopefully the net result will be more accessible public websites here in the States.</p>
+<p><a rel="full-article" href="http://section508.gov/home">Read on Section508.gov&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Will Your Toaster Become WCAG Compliant?]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/will-your-toaster-become-wcag-compliant/"/>
+				<updated>2015-08-03T15:12:54-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/will-your-toaster-become-wcag-compliant</id>
+				<content type="html"><![CDATA[<p>This is a really interesting look at the Internet of Things from the perspective of accessibility and how web standards may fit into it all.</p>
+
+<blockquote>
+  <p>While the applicability of WCAG 2.0 would need a high degree of interpretation to apply to a light bulb, web accessibility standards certainly apply to the browsers and apps that we use to centrally control it all. As this space continues to evolve, it’s vital that developers ensure that whatever devices control these products, accessibility is at the heart of them.</p>
+</blockquote>
+<p><a rel="full-article" href="http://www.accessiq.org/news/w3c-column/2015/07/will-your-toaster-become-wcag-compliant">Read on Access iQ&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[NTH-TEST]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/nth-test/"/>
+				<updated>2015-08-03T12:31:43-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/nth-test</id>
+				<content type="html"><![CDATA[<p>If you have problems understanding how nth-* selectors work in CSS, this visualizer may help you out.</p>
+<p><a rel="full-article" href="http://nth-test.com/">Read on NTH-TEST&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[The Trouble With Preprocessing Based on Future Specs]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/the-trouble-with-preprocessing-based-on-future-specs/"/>
+				<updated>2015-08-03T12:28:01-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/the-trouble-with-preprocessing-based-on-future-specs</id>
+				<content type="html"><![CDATA[<p>Lots of gold in this post from <a href="http://chriscoyier.net/">Chris Coyier</a>. I agree with a lot of what he’s saying, but this passage really resonated with me:</p>
+
+<blockquote>
+  <p>[T]here are concepts that I think belong in an abstraction of a language and not the language itself. Variables could be an example here again. Preprocessor variables and native variables could co-exist and be useful in their own ways. If native CSS could do everything ever dreamed up in a preprocessor, it would be slow, complicated, and likely wouldn’t have seen the success that CSS has had as a language.</p>
+</blockquote>
+
+<p>I could not agree more.</p>
+<p><a rel="full-article" href="https://css-tricks.com/the-trouble-with-preprocessing-based-on-future-specs/">Read on CSS-Tricks&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Page Bloat Update: The Average Web Page Is More Than 2 MB in Size]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/page-bloat-average-web-page-2-mb/"/>
+				<updated>2015-08-03T12:11:42-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/page-bloat-average-web-page-2-mb</id>
+				<content type="html"><![CDATA[<p>Not terribly surprising, but distressing nonetheless.</p>
+<p><a rel="full-article" href="http://www.soasta.com/blog/page-bloat-average-web-page-2-mb/">Read on SOASTA&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -177,84 +255,6 @@
 				<id>http://www.aaron-gustafson.com/notebook/links/the-full-stackoverflow-developer</id>
 				<content type="html"><![CDATA[<p>Fantastic piece on the StackOverflow-ification of our industry and the importance of craft.</p>
 <p><a rel="full-article" href="http://christianheilmann.com/2015/07/17/the-full-stackoverflow-developer/">Read on Christian Heilmann&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Winning Technology With a Social Purpose]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/winning-technology-social-purpose-bionic-arm/"/>
-				<updated>2015-07-15T14:24:06-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/winning-technology-social-purpose-bionic-arm</id>
-				<content type="html"><![CDATA[<p>This is about tech for social good, which is awesome, but one of the most interesting bits is buried near the bottom and concerns us as web designers:</p>
-
-<blockquote>
-  <p>According to the Office for National Statistics, in May, 27% of disabled adults had <a href="http://www.ons.gov.uk/ons/publications/re-reference-tables.html?edition=tcm%3A77-395602">never used the internet</a>, compared with 7% of non-disabled adults. And last month’s report by the Extra Costs Commission found that part of the reason disabled people typically face £550 in extra living costs is due to the lack of ability of many of them to shop around online. Too many sites are not accessible to those with disabilities.</p>
-</blockquote>
-<p><a rel="full-article" href="http://www.theguardian.com/society/2015/jul/14/winning-technology-social-purpose-bionic-arm">Read on The Guardian&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Microsoft Edge and Web Components]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/microsoft-edge-and-web-components/"/>
-				<updated>2015-07-15T13:06:37-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/microsoft-edge-and-web-components</id>
-				<content type="html"><![CDATA[<p>A follow-up to yesterday’s post, answering many of your questions about Web Component support in Edge.</p>
-<p><a rel="full-article" href="http://blogs.windows.com/msedgedev/2015/07/15/microsoft-edge-and-web-components/">Read on Microsoft Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Thinking About Web Accessibility Differently]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/thinking-about-web-accessibility-differently/"/>
-				<updated>2015-07-15T11:11:10-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/thinking-about-web-accessibility-differently</id>
-				<content type="html"><![CDATA[<p>This is a fantastic piece and perfectly echoes what many of us have been saying:</p>
-
-<blockquote>
-  <p>Accessibility isn’t just a legal mandate or list of requirements. It’s really about people. You.</p>
-</blockquote>
-<p><a rel="full-article" href="http://davidakennedy.com/2015/07/13/thinking-about-web-accessibility-differently/">Read on David A. Kennedy&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Bringing Componentization to the Web: An Overview of Web Components]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/bringing-componentization-to-the-web-an-overview-of-web-components/"/>
-				<updated>2015-07-14T14:21:42-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/bringing-componentization-to-the-web-an-overview-of-web-components</id>
-				<content type="html"><![CDATA[<p><a href="http://twitter.com/@TravisLeithead">Travis Leithead</a> and <a href="http://twitter.com/@mrcss">Arron Eicholz</a> offer some insight into the state of Web Components and what it means with regard to Microsoft’s Edge browser.</p>
-<p><a rel="full-article" href="http://blogs.windows.com/msedgedev/2015/07/14/bringing-componentization-to-the-web-an-overview-of-web-components/">Read on Microsoft Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Braille Tablet Can Convert Text for Blind Users and Let Them Read, Write and Chat]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/braille-tablet-convert-text-blind-users-read-write-chat/"/>
-				<updated>2015-07-13T15:01:44-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/braille-tablet-convert-text-blind-users-read-write-chat</id>
-				<content type="html"><![CDATA[<p>This looks so cool!</p>
-
-<figure id="fig-AN2QfdvdQiA" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(http://i2.ytimg.com/vi/AN2QfdvdQiA/0.jpg);" href="//www.youtube.com/watch?v=AN2QfdvdQiA" data-lazy-video-src="http://www.youtube.com/embed/AN2QfdvdQiA?autoplay=1&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">BLITAB First Tactile Tablet for Blind People</div></a></div></figure>
-<p><a rel="full-article" href="http://www.springwise.com/braille-tablet-convert-text-blind-users-read-write-chat/">Read on Springwise&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Introduction to Mobile Accessibility, 2015]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/introduction-to-mobile-accessibility-2015/"/>
-				<updated>2015-07-13T14:57:26-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/introduction-to-mobile-accessibility-2015</id>
-				<content type="html"><![CDATA[<p>Slides from <a href="http://www.iheni.com/">Henny Swan</a>’s AccessU 2015 workshop. Fantastic material in here—definitely worth a look.</p>
-
-<p>And if work like this is your cup of tea, <a href="https://www.linkedin.com/jobs2/view/62303230?trk=jserp_job_details_text">Twitter is hiring a mobile accessibility engineer</a>.</p>
-<p><a rel="full-article" href="http://www.slideshare.net/iheni/introduction-to-mobile-accessibility-2015">Read on SlideShare&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
