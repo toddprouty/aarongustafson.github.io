@@ -145,14 +145,13 @@
 
 <!-- more -->
 
-
 <p>I hadn’t really thought about it before, but it’s a good question. They seem pretty similar in function, right? And both support a space separated list of one or more <code>id</code> references. It’s downright confusing.</p>
 
 <p>My simple explanation was that, at least in terms of form fields, they differ in when they are read. The <code>aria-labelledby</code> attribute replaces the associated <code>label</code> element (which is, of course, associated with the field via the <code>label</code>’s <code>for</code> attribute). The <code>aria-describedby</code> attribute, on the other hand, is read after the field type is stated.</p>
 
 <p>To demonstrate how all of this plays out, I threw together <a href="http://codepen.io/aarongustafson/pen/dmuoe/">a quick CodePen demo</a> that takes you through numerous ways you can use and combine these attributes. I also did a <a href="http://youtu.be/U8_VjI-Z1LA">screen recording to demonstrate how ChromeVox exposes these attributes</a>:</p>
 
-<p><figure id="fig-U8_VjI-Z1LA" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(http://i2.ytimg.com/vi/U8_VjI-Z1LA/0.jpg);" href="//www.youtube.com/watch?v=U8_VjI-Z1LA" data-lazy-video-src="http://www.youtube.com/embed/U8_VjI-Z1LA?autoplay=1&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">aria-labelledby vs. aria-describedby</div></a></div></figure></p>
+<figure id="fig-U8_VjI-Z1LA" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(http://i2.ytimg.com/vi/U8_VjI-Z1LA/0.jpg);" href="//www.youtube.com/watch?v=U8_VjI-Z1LA" data-lazy-video-src="http://www.youtube.com/embed/U8_VjI-Z1LA?autoplay=1&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">aria-labelledby vs. aria-describedby</div></a></div></figure>
 
 <p><strong>Update:</strong> <a href="https://twitter.com/stevefaulkner">Steve Faulkner</a> shared a doc that discusses <a href="http://rawgit.com/w3c/aria/master/html-aam/html-aam.html#accessible-name-and-description-calculation">how accessible names and descriptions are calculated</a>. Thanks Steve!</p>
 

@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Empathy | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/empathy/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-07-31T17:23:12-04:00</updated>
+  <updated>2015-08-03T11:42:11-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -22,14 +22,17 @@
 
 <!-- more -->
 
-
-<p>While it sounds counterintuitive, EllisLab’s statement makes sense. It’s all about shifting your perspective from agonizing over every hard cost on the balance sheet to thinking “big picture” about how you are spending your money overall.</p>
+<p>While it sounds counterintuitive, EllisLab’s statement makes sense. It’s all about shifting your perspective from agonizing over every hard cost on the balance sheet to thinking “big picture” about how you are spending your money overall. </p>
 
 <p>Their post makes the case that a low-cost hosting may be cheaper on the surface, but its slow performance will end up costing you more in terms of productivity loss and/or actual billable hours. The comparison they use is modest, but with a big impact: GoDaddy at $59.88/year vs. Nexcess at $8.95/month (still inexpensive, but roughly 2x the cost).</p>
 
-<blockquote><p>Normally, the ExpressionEngine control panel is fast. Zippy even. There aren’t many pages in the control panel that should have an execution time of more than a second. Most pages take a fraction of a second, no fancy caching needed. It’s common to see this in the footer: &ldquo;Script executed in 0.0706 seconds.&rdquo; Sure, add-ons that are bad citizens can slow down the control panel, but typically not to the degree a bad host can.</p>
+<blockquote>
+  <p>Normally, the ExpressionEngine control panel is fast. Zippy even. There aren’t many pages in the control panel that should have an execution time of more than a second. Most pages take a fraction of a second, no fancy caching needed. It’s common to see this in the footer: “Script executed in 0.0706 seconds.” Sure, add-ons that are bad citizens can slow down the control panel, but typically not to the degree a bad host can.</p>
+</blockquote>
 
-<p>How about ten seconds per page? No joke, on a recent site we logged in to on GoDaddy, one of the faster pages in the Admin area took ten seconds. The Template Manager took fifteen seconds, the publish page twenty-plus. I felt terrible for the developer and client who were using this site daily. Not only were they having a terrible experience with our software, they were <em>losing money</em> and didn’t even know it.</p></blockquote>
+<blockquote>
+  <p>How about ten seconds per page? No joke, on a recent site we logged in to on GoDaddy, one of the faster pages in the Admin area took ten seconds. The Template Manager took fifteen seconds, the publish page twenty-plus. I felt terrible for the developer and client who were using this site daily. Not only were they having a terrible experience with our software, they were <em>losing money</em> and didn’t even know it.</p>
+</blockquote>
 
 <p>The post then proceeds to work through some estimations of normal workload in the CMS to determine how much money is quietly being drained from a project’s kitty because of a poor hosting decision. I won’t lie, it’s substantial.</p>
 
@@ -52,10 +55,10 @@
 
 <!-- more -->
 
-
 <p>Here’s one example. In reaction to <a href="/notebook/css-variables-are-a-bad-idea/">my post on why I think CSS variables are a bad idea</a>, <a href="http://sass-lang.com">SASS</a> core team member <a href="https://twitter.com/chriseppstein/">Chris Eppstein</a> had this to say:</p>
 
-<p><div class='embed tweet'>Tweet could not be processed</div></p>
+<p><div class='embed tweet'><blockquote class="twitter-tweet"><p><a href="https://twitter.com/AaronGustafson">@AaronGustafson</a> Authoring CSS shouldn’t be so onerous as to require the use of a preprocessor.</p>&mdash; Chris Eppstein (@chriseppstein) <a href="https://twitter.com/chriseppstein/status/567756897105620992">February 17, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div></p>
 
 <p>Fundamentally, I agree with his sentiment: A preprocessor should <em>not</em> be a requirement for authoring CSS. Thankfully, <em>it never was</em>; you can build amazing things using only hand-authored CSS. And if you find a preprocessor helpful to your process for one reason or another, great. But using a preprocessor never has been (nor should it ever be) a requirement.</p>
 
@@ -75,8 +78,7 @@
 
 <p>When we decide to build a site using a front-end JavaScript MVC framework, it can make the development process go so much faster for us and we can reduce our need for a robust back-end infrastructure. I mean everyone has JavaScript these days… <a href="/notebook/a-fundamental-disconnect/">the browser is the new VM</a>. But when we do this, our users suffer because we don’t give their browsers real HTML. Instead we force them to download a hefty framework so we can move all of the processing we would normally handle on a much faster, dedicated server to their questionably-capable machine instead. Oh, and if the browser encounters an error while parsing or executing the JavaScript execution, they don’t get anything at all. Welcome to the Modern Web™!</p>
 
-<hr>
-
+<hr />
 
 <p>When I look around, I see our community spending a lot of time coming up with new tools and techniques to make our jobs easier. To ship faster. And it’s not that I’m against efficiency, but I think we need to consider the implications of our decisions. And if one of those implications is making our users suffer—or potentially suffer—in order to make our lives easier, I think we need to consider their needs above our own.</p>
 
@@ -91,11 +93,13 @@
     <link href="http://www.aaron-gustafson.com/notebook/we-need-more-empathy/"/>
     <updated>2014-12-28T11:17:21-05:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/we-need-more-empathy</id>
-    <content type="html"><![CDATA[<p>For a while now I’ve been <a href="http://www.slideshare.net/AaronGustafson/designing-with-empathy-breaking-development-nashville-2013">beating the “empathy” drum</a> (<a href="http://www.lukew.com/ff/entry.asp?1810">notes</a>), trying to get folks in our industry to understand the importance of creating connections with the people for whom we build software, websites, etc. After all, we design and build tools to solve the needs of actual people, not some generic “user”.<!-- more --><sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+    <content type="html"><![CDATA[<p>For a while now I’ve been <a href="http://www.slideshare.net/AaronGustafson/designing-with-empathy-breaking-development-nashville-2013">beating the “empathy” drum</a> (<a href="http://www.lukew.com/ff/entry.asp?1810">notes</a>), trying to get folks in our industry to understand the importance of creating connections with the people for whom we build software, websites, etc. After all, we design and build tools to solve the needs of actual people, not some generic “user”.<!-- more --><sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></p>
 
 <p>It’s tough to connect with other people and we often fall into the trap of designing products for us and people like us. Jeffrey Zeldman characterizes the problem perfectly in <a href="http://www.zeldman.com/2014/12/28/unexamined-privilege-is-the-real-source-of-cruelty-in-facebooks-your-year-in-review/">his recent post</a>:</p>
 
-<blockquote><p>If we keep throwing only young, mostly white, mostly upper middle class people at the engine that makes our digital world go, we’ll keep getting camera and reminder and hookup apps—things that make an already privileged life even smoother—and we’ll keep producing features that sound like a good idea to everyone in the room, until they unexpectedly stab someone in the heart.</p></blockquote>
+<blockquote>
+  <p>If we keep throwing only young, mostly white, mostly upper middle class people at the engine that makes our digital world go, we’ll keep getting camera and reminder and hookup apps—things that make an already privileged life even smoother—and we’ll keep producing features that sound like a good idea to everyone in the room, until they unexpectedly stab someone in the heart.</p>
+</blockquote>
 
 <p>Empathy is difficult when we are surrounded by others like us. We need to be surrounded by different people. Certainly gender and ethnic diversity is incredibly important here, but so is diversity of experience. As Jeffrey astutely points out, diversity in the room where Facebook’s “Year in Review” concept was given the green light would have—I have to hope—helped create some safeguards to keep some of their actual customers from being reminded of tragedies they experienced this year.</p>
 
@@ -106,14 +110,14 @@
 <p>In order to address these issues, we need to flex our empathetic muscles. We need to create connections with people who are not like us. People who live in different neighborhoods. People who come from different countries. People who require alternate means to accessing our sites and services. We need to see that the world is full of differences.</p>
 
 <p>Life is full of great joy as well as great tragedy. When we acknowledge diversity of experience and actually embrace it, we become better designers.</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>I don’t mind the aggregate “users”, but “user” is too clinical and distanced for my tastes. Terms like “the user” keep us from connecting with the people who actually use our software and when we are disconnected from our users, we will not do a great job of solving their problems. And solving problems is the whole point of design.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
 
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>I don’t mind the aggregate “users”, but “user” is too clinical and distanced for my tastes. Terms like “the user” keep us from connecting with the people who actually use our software and when we are disconnected from our users, we will not do a great job of solving their problems. And solving problems is the whole point of design. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 ]]></content>
   </entry>
   

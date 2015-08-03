@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Experiments | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/experiments/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-07-31T17:23:12-04:00</updated>
+  <updated>2015-08-03T11:42:11-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -22,24 +22,18 @@
 
 <!-- more -->
 
-
 <p>Here’s a brief overview of the project:</p>
 
-<p><strong>The Candidate</strong>: My <a href="/speaking-engagements/">speaking engagements</a> page.<br>
-<strong>The Challenge</strong>: The &ldquo;Future&rdquo; list will grow and shrink as I book things, so I never know how many will be there. The &ldquo;Past&rdquo; list will also grow, but I am less interested in getting crazy with that.<br>
+<p><strong>The Candidate</strong>: My <a href="/speaking-engagements/">speaking engagements</a> page.<br />
+<strong>The Challenge</strong>: The “Future” list will grow and shrink as I book things, so I never know how many will be there. The “Past” list will also grow, but I am less interested in getting crazy with that.<br />
 <strong>The Idea</strong>: A grid layout that flexes to visually highlight 1-2 upcoming future events and allows the others to flow in at the default grid size. It should be set up to handle everything from a single future event to a dozen or more.</p>
 
-<p><figure id="2015-03-26-1" class="media-container"></p>
-
-<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2015-03-26/the-idea-sm.jpg"
-     srcset="/i/posts/2015-03-26/the-idea-lg.jpg 1024w, /i/posts/2015-03-26/the-idea-md.jpg 600w, /i/posts/2015-03-26/the-idea-sm.jpg 320w"
-     alt=""&gt;
-&lt;figcaption&gt;
-    &lt;p&gt;My sketch of the idea.&lt;/p&gt;
-&lt;/figcaption&gt;
-</code></pre>
-
-<p></figure></p>
+<figure id="2015-03-26-1" class="media-container">
+	<img src="http://www.aaron-gustafson.com/i/posts/2015-03-26/the-idea-sm.jpg" srcset="/i/posts/2015-03-26/the-idea-lg.jpg 1024w, /i/posts/2015-03-26/the-idea-md.jpg 600w, /i/posts/2015-03-26/the-idea-sm.jpg 320w" alt="" />
+	<figcaption>
+		<p>My sketch of the idea.</p>
+	</figcaption>
+</figure>
 
 <p>The markup pattern was pretty simple. It’s just a list of events:</p>
 
@@ -50,13 +44,13 @@
   &lt;/li&gt;
   &lt;!-- lis continue --&gt;
 &lt;/ul&gt;</code></pre></noscript></div>
-</p>
+ </p>
 
 <p>With that in place, I got to work.</p>
 
-<h2>Single File</h2>
+<h2 id="single-file">Single File</h2>
 
-<p>To set the stage, I started with some basic Flexbox syntax<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> by handling the container and the basic full-width small screen view:</p>
+<p>To set the stage, I started with some basic Flexbox syntax<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> by handling the container and the basic full-width small screen view:</p>
 
 <p><div><script src='https://gist.github.com/597284affc88b9084cf3.js?file=first-pass.css'></script>
 <noscript><pre><code>.listing--events {
@@ -69,22 +63,17 @@
   margin: 0 0 1.25rem 0; /* 20px bottom margin */
   flex: 0 0 100%;
 }</code></pre></noscript></div>
-</p>
+ </p>
 
 <p>You may be wondering where all of the experimental style rules are. I use <a href="https://github.com/postcss/autoprefixer">Autoprefixer</a> to handle the experimental property inclusion/trans-compilation so I can keep my CSS clean and standards-based.</p>
 
 <p>This simple CSS gives you exactly what you’d expect: a vertical list of events, separated by 20px worth of space.</p>
 
-<p><figure id="2015-03-26-2" class="media-container"></p>
+<figure id="2015-03-26-2" class="media-container">
+	<img src="http://www.aaron-gustafson.com/i/posts/2015-03-26/first-pass.jpg" srcset="/i/posts/2015-03-26/first-pass-lg.jpg 1024w, /i/posts/2015-03-26/first-pass-md.jpg 600w, /i/posts/2015-03-26/first-pass-sm.jpg 320w" alt="" />
+</figure>
 
-<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2015-03-26/first-pass.jpg"
-     srcset="/i/posts/2015-03-26/first-pass-lg.jpg 1024w, /i/posts/2015-03-26/first-pass-md.jpg 600w, /i/posts/2015-03-26/first-pass-sm.jpg 320w"
-     alt=""&gt;
-</code></pre>
-
-<p></figure></p>
-
-<h2>Two by Two</h2>
+<h2 id="two-by-two">Two by Two</h2>
 
 <p>Next up, I tackled the first breakpoint at 28.75em:</p>
 
@@ -135,22 +124,17 @@
 }</code></pre></noscript></div>
 </p>
 
-<p>In this pass, I set up the event blocks to fill 50% of the parent container (well, 50% minus the 1.25rem gutter between them, using <a href="http://www.w3.org/TR/css3-values/#calc"><code>calc()</code></a>).<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> In order to make the children wrap to form rows, I set <code>flex-wrap: wrap</code> on the list (<code>.listing--events</code>). Then, to make the children all equal heights across each row, I set <code>align-items: stretch</code>. The gutter space was achieved via left margins on all events save the row starters (<code>.event:nth-child(odd)</code>).</p>
+<p>In this pass, I set up the event blocks to fill 50% of the parent container (well, 50% minus the 1.25rem gutter between them, using <a href="http://www.w3.org/TR/css3-values/#calc"><code>calc()</code></a>).<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup> In order to make the children wrap to form rows, I set <code>flex-wrap: wrap</code> on the list (<code>.listing--events</code>). Then, to make the children all equal heights across each row, I set <code>align-items: stretch</code>. The gutter space was achieved via left margins on all events save the row starters (<code>.event:nth-child(odd)</code>).</p>
 
-<p>It’s worth noting that in the full page I have two sets of event listings: one past and one future. The &ldquo;event&rdquo; <code>class</code> is used in all instances. The modified &ldquo;future&rdquo; <code>class</code> is added to events that have not happened yet.</p>
+<p>It’s worth noting that in the full page I have two sets of event listings: one past and one future. The “event” <code>class</code> is used in all instances. The modified “future” <code>class</code> is added to events that have not happened yet.</p>
 
 <p>Then I used a quantity query to select the first future event when there is more than one in the list (line 38) and set it span 100% of the parent width. To keep the gutters accurate, I also swapped where the margins were applied, adding the margin back to <code>.event--future:nth-child(odd)</code> and removing it from <code>.event--future:nth-child(even)</code>.</p>
 
-<p><figure id="2015-03-26-3" class="media-container"></p>
+<figure id="2015-03-26-3" class="media-container">
+	<img src="http://www.aaron-gustafson.com/i/posts/2015-03-26/second-pass-sm.jpg" srcset="/i/posts/2015-03-26/second-pass-lg.jpg 1024w, /i/posts/2015-03-26/second-pass-md.jpg 600w, /i/posts/2015-03-26/second-pass-sm.jpg 320w" alt="" />
+</figure>
 
-<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2015-03-26/second-pass-sm.jpg"
-     srcset="/i/posts/2015-03-26/second-pass-lg.jpg 1024w, /i/posts/2015-03-26/second-pass-md.jpg 600w, /i/posts/2015-03-26/second-pass-sm.jpg 320w"
-     alt=""&gt;
-</code></pre>
-
-<p></figure></p>
-
-<h2>Three’s a Crowd</h2>
+<h2 id="threes-a-crowd">Three’s a Crowd</h2>
 
 <p>Finally, I could tackle the third and most complicated layout. Things seemed to get a little wide around 690px, so I set the breakpoint to 43.125em.</p>
 
@@ -238,7 +222,7 @@
 }</code></pre></noscript></div>
 </p>
 
-<p>In this final pass, I used a slightly more complicated calculation to set the width of each child to 1/3 of the parent minus the gutters between them (100% / 3 &ndash; 0.875rem).</p>
+<p>In this final pass, I used a slightly more complicated calculation to set the width of each child to 1/3 of the parent minus the gutters between them (100% / 3 - 0.875rem). </p>
 
 <p>If you’re paying close attention, you might wonder why the gutter being used in the calculation is 0.875rem rather than the full 1.25rem. Well, the reason is (as best I can surmise) rounding. In order to get the flex width to fill the parent without causing a wrap, 14px (0.875rem) seemed to be the magic number.</p>
 
@@ -250,30 +234,26 @@
 
 <p>To handle the margins in the quantity query instance, I added all the margins back (line 64) and then removed the left margins from the new row starters (line 77).</p>
 
-<p><figure id="2015-03-26-4" class="media-container"></p>
+<figure id="2015-03-26-4" class="media-container">
+	<img src="http://www.aaron-gustafson.com/i/posts/2015-03-26/third-pass-sm.jpg" srcset="/i/posts/2015-03-26/third-pass-lg.jpg 1024w, /i/posts/2015-03-26/third-pass-md.jpg 600w, /i/posts/2015-03-26/third-pass-sm.jpg 320w" alt="" />
+</figure>
 
-<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2015-03-26/third-pass-sm.jpg"
-     srcset="/i/posts/2015-03-26/third-pass-lg.jpg 1024w, /i/posts/2015-03-26/third-pass-md.jpg 600w, /i/posts/2015-03-26/third-pass-sm.jpg 320w"
-     alt=""&gt;
-</code></pre>
-
-<p></figure></p>
-
-<h2>Ta-da!</h2>
+<h2 id="ta-da">Ta-da!</h2>
 
 <p>And there you have it. In about 80 lines of very generously spaced and commented CSS, we’ve got a flexible grid-based Flexbox layout with visual enhancements injected via quantity queries. I’m sure I’ll continue to tinker, but I’m pretty happy with the results so far.</p>
 
-<p>You can view <a href="/speaking-engagements/">the final page of course</a> (or <a href="https://www.youtube.com/watch?v=V20wuGM2tzU">watch a video of the interaction</a>), but I also created a <a href="http://codepen.io/aarongustafson/pen/VYRZBP">distilled demo on Codepen for you to play with</a>.</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>If you aren’t familiar with Flexbox, <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS Tricks has a great cheatsheet</a>.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-<li id="fn:2">
-<p>Interestingly, the support matrices for <a href="http://caniuse.com/#feat=calc"><code>calc()</code></a> and <a href="http://caniuse.com/#feat=flexbox">Flexbox</a> are pretty well aligned.<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
+<p>You can view <a href="/speaking-engagements/">the final page of course</a> (or <a href="https://www.youtube.com/watch?v=V20wuGM2tzU">watch a video of the interaction</a>), but I also created a <a href="http://codepen.io/aarongustafson/pen/VYRZBP">distilled demo on Codepen for you to play with</a>. </p>
 
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>If you aren’t familiar with Flexbox, <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS Tricks has a great cheatsheet</a>. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>Interestingly, the support matrices for <a href="http://caniuse.com/#feat=calc"><code>calc()</code></a> and <a href="http://caniuse.com/#feat=flexbox">Flexbox</a> are pretty well aligned. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 ]]></content>
   </entry>
   

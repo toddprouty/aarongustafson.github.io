@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Wai-aria | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/wai-aria/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-07-31T17:23:12-04:00</updated>
+  <updated>2015-08-03T11:42:11-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -21,7 +21,6 @@
     <content type="html"><![CDATA[<p>Last night, while we were enjoying a cool evening and a few drinks outside after day 1 of <a href="http://bdconf.com">BDConf</a>, <a href="http://adactio.com">Jeremy</a> asked me for some clarification on the ARIA attributes I had demoed as part of <a href="http://www.slideshare.net/AaronGustafson/falling-in-love-with-forms-bdconf-2014">my forms presentation</a> earlier in the afternoon. In particular, he was confused by how <code>aria-labelledby</code> and <code>aria-describedby</code> differ.</p>
 
 <!-- more -->
-
 
 <p>I hadn’t really thought about it before, but it’s a good question. They seem pretty similar in function, right? And both support a space separated list of one or more <code>id</code> references. It’s downright confusing.</p>
 

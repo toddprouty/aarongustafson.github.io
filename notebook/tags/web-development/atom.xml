@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Development | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/web-development/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-07-31T17:23:12-04:00</updated>
+  <updated>2015-08-03T11:42:11-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -20,7 +20,8 @@
     <id>http://www.aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing</id>
     <content type="html"><![CDATA[<p>Love this!</p>
 
-<p><div class='embed tweet'>Tweet could not be processed</div></p>
+<p><div class='embed tweet'><blockquote class="twitter-tweet"><p>You&#39;ll never believe this one weird trick that takes the pain out of cross browser testing: Progressive enhancement.</p>&mdash; Orde Saunders (@decadecity) <a href="https://twitter.com/decadecity/status/559693419808034816">January 26, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div></p>
 ]]></content>
   </entry>
   
@@ -29,11 +30,13 @@
     <link href="http://www.aaron-gustafson.com/notebook/we-need-more-empathy/"/>
     <updated>2014-12-28T11:17:21-05:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/we-need-more-empathy</id>
-    <content type="html"><![CDATA[<p>For a while now I’ve been <a href="http://www.slideshare.net/AaronGustafson/designing-with-empathy-breaking-development-nashville-2013">beating the “empathy” drum</a> (<a href="http://www.lukew.com/ff/entry.asp?1810">notes</a>), trying to get folks in our industry to understand the importance of creating connections with the people for whom we build software, websites, etc. After all, we design and build tools to solve the needs of actual people, not some generic “user”.<!-- more --><sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+    <content type="html"><![CDATA[<p>For a while now I’ve been <a href="http://www.slideshare.net/AaronGustafson/designing-with-empathy-breaking-development-nashville-2013">beating the “empathy” drum</a> (<a href="http://www.lukew.com/ff/entry.asp?1810">notes</a>), trying to get folks in our industry to understand the importance of creating connections with the people for whom we build software, websites, etc. After all, we design and build tools to solve the needs of actual people, not some generic “user”.<!-- more --><sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></p>
 
 <p>It’s tough to connect with other people and we often fall into the trap of designing products for us and people like us. Jeffrey Zeldman characterizes the problem perfectly in <a href="http://www.zeldman.com/2014/12/28/unexamined-privilege-is-the-real-source-of-cruelty-in-facebooks-your-year-in-review/">his recent post</a>:</p>
 
-<blockquote><p>If we keep throwing only young, mostly white, mostly upper middle class people at the engine that makes our digital world go, we’ll keep getting camera and reminder and hookup apps—things that make an already privileged life even smoother—and we’ll keep producing features that sound like a good idea to everyone in the room, until they unexpectedly stab someone in the heart.</p></blockquote>
+<blockquote>
+  <p>If we keep throwing only young, mostly white, mostly upper middle class people at the engine that makes our digital world go, we’ll keep getting camera and reminder and hookup apps—things that make an already privileged life even smoother—and we’ll keep producing features that sound like a good idea to everyone in the room, until they unexpectedly stab someone in the heart.</p>
+</blockquote>
 
 <p>Empathy is difficult when we are surrounded by others like us. We need to be surrounded by different people. Certainly gender and ethnic diversity is incredibly important here, but so is diversity of experience. As Jeffrey astutely points out, diversity in the room where Facebook’s “Year in Review” concept was given the green light would have—I have to hope—helped create some safeguards to keep some of their actual customers from being reminded of tragedies they experienced this year.</p>
 
@@ -44,14 +47,14 @@
 <p>In order to address these issues, we need to flex our empathetic muscles. We need to create connections with people who are not like us. People who live in different neighborhoods. People who come from different countries. People who require alternate means to accessing our sites and services. We need to see that the world is full of differences.</p>
 
 <p>Life is full of great joy as well as great tragedy. When we acknowledge diversity of experience and actually embrace it, we become better designers.</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>I don’t mind the aggregate “users”, but “user” is too clinical and distanced for my tastes. Terms like “the user” keep us from connecting with the people who actually use our software and when we are disconnected from our users, we will not do a great job of solving their problems. And solving problems is the whole point of design.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
 
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>I don’t mind the aggregate “users”, but “user” is too clinical and distanced for my tastes. Terms like “the user” keep us from connecting with the people who actually use our software and when we are disconnected from our users, we will not do a great job of solving their problems. And solving problems is the whole point of design. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 ]]></content>
   </entry>
   
@@ -66,7 +69,6 @@
 
 <!-- more -->
 
-
 <p>I was in Lisbon for <a href="http://lanyrd.com/2013/uxlx/">UxLx</a> last year and was on roaming data through my mobile provider. At the hotel, the Wifi was giving me trouble, so I opted to tether my computer so I can pull down a document I needed. Chrome crashed. Lame, but no big deal. I relaunched it and, Chrome being the helpful browser that it is, all of my tabs were restored and I got back to work.</p>
 
 <p>A few minutes later I got a text message from my provider: I’d just used a tremendous amount of my data in a very short amount of time. And I had only landed an hour before. I was understandably concerned. And perplexed. What happened?</p>
@@ -80,10 +82,9 @@
 <p>Incidentally, you can <a href="https://www.facebook.com/help/633446180035470">disable auto-play in Facebook</a>, but first of all you have to know it’s an option. Facebook gives you the choice of turning it on or off entirely or to turn it on only over Wifi. That may seem like a great compromise, but I’d like to put forward a few arguments as to why it’s not:</p>
 
 <ol>
-<li><em>Tethering:</em> If I am tethered to my phone, it is likely being done over Wifi. Even if my browser is aware that I am on Wifi and even if the website is paying attention to that (using the <a href="http://www.w3.org/TR/netinfo-api/">Network Informaion API</a>), the website is probably going to get a false positive for Wifi even though the <em>actual</em> data connection is over a mobile network.</li>
-<li><em>Metered Wifi:</em> Hotels and other providers often limit how much data you can use. You could be on an awesomely fast Wifi network, but if you are limited to 100MB—it happens—being on Wifi doesn’t matter.</li>
+  <li><em>Tethering:</em> If I am tethered to my phone, it is likely being done over Wifi. Even if my browser is aware that I am on Wifi and even if the website is paying attention to that (using the <a href="http://www.w3.org/TR/netinfo-api/">Network Informaion API</a>), the website is probably going to get a false positive for Wifi even though the <em>actual</em> data connection is over a mobile network.</li>
+  <li><em>Metered Wifi:</em> Hotels and other providers often limit how much data you can use. You could be on an awesomely fast Wifi network, but if you are limited to 100MB—it happens—being on Wifi doesn’t matter.</li>
 </ol>
-
 
 <p>So again: Autoplay, don’t do it.</p>
 ]]></content>
@@ -99,7 +100,6 @@
 <p>As a programmer, I love the idea of being able to abstract reusable bits like colors, border widths, font sizes, and the like to obviously named variables. It’s a far more <a href="https://en.wikipedia.org/wiki/Don't_repeat_yourself">DRY</a> approach and makes maintenance far easier.</p>
 
 <!-- more -->
-
 
 <p>Before I made the leap to using a CSS preprocessor, I was convinced we needed CSS variables, but I always wondered how we might make it possible without breaking one of the fundamental <a href="http://www.w3.org/TR/CSS21/intro.html#design-principles">design principles of CSS</a>: Forward and backward compatibility. Take a look at this example (which is based on <a href="http://www.w3.org/TR/css-variables/">the working draft spec</a>) and I think you’ll spot the problem:</p>
 
@@ -183,12 +183,13 @@ body {
     <link href="http://www.aaron-gustafson.com/notebook/google-embraces-progressive-enhancement/"/>
     <updated>2014-10-28T21:07:35-04:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/google-embraces-progressive-enhancement</id>
-    <content type="html"><![CDATA[<p>In case you missed it, <a href="http://googlewebmastercentral.blogspot.com/2014/10/updating-our-technical-webmaster.html">yesterday Pierre Far updated Google’s Webmaster Guidelines</a>. In his post, Pierre lays out their case for <a href="https://en.wikipedia.org/wiki/Progressive_enhancement">progressive enhancement</a>:</p>
+    <content type="html"><![CDATA[<p>In case you missed it, <a href="http://googlewebmastercentral.blogspot.com/2014/10/updating-our-technical-webmaster.html">yesterday Pierre Far updated Google’s Webmaster Guidelines</a>. In his post, Pierre lays out their case for <a href="https://en.wikipedia.org/wiki/Progressive_enhancement">progressive enhancement</a>:  </p>
 
-<blockquote><p>Just like modern browsers, our rendering engine might not support all of the technologies a page uses. Make sure your web design adheres to the principles of progressive enhancement as this helps our systems (and a wider range of browsers) see usable content and basic functionality when certain web design features are not yet supported.</p></blockquote>
+<blockquote>
+  <p>Just like modern browsers, our rendering engine might not support all of the technologies a page uses. Make sure your web design adheres to the principles of progressive enhancement as this helps our systems (and a wider range of browsers) see usable content and basic functionality when certain web design features are not yet supported.</p>
+</blockquote>
 
 <!-- more -->
-
 
 <p>As someone who has been beating the drum for progressive enhancement for over a decade, this sort of support from such an influential company gets me a little teary-eyed.</p>
 
@@ -200,13 +201,11 @@ body {
 
 <h2 id="fn-2014-10-28">My (still-relevant) 2008 series on Progressive Enhancement</h2>
 
-
 <ol>
-<li><a href="http://www.alistapart.com/articles/understandingprogressiveenhancement/">Understanding Progressive Enhancement</a></li>
-<li><a href="http://www.alistapart.com/articles/progressiveenhancementwithcss/">Progressive Enhancement with CSS</a></li>
-<li><a href="http://www.alistapart.com/articles/progressiveenhancementwithjavascript/">Progressive Enhancement with JavaScript</a></li>
+  <li><a href="http://www.alistapart.com/articles/understandingprogressiveenhancement/">Understanding Progressive Enhancement</a></li>
+  <li><a href="http://www.alistapart.com/articles/progressiveenhancementwithcss/">Progressive Enhancement with CSS</a></li>
+  <li><a href="http://www.alistapart.com/articles/progressiveenhancementwithjavascript/">Progressive Enhancement with JavaScript</a></li>
 </ol>
-
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Blogging | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/blogging/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-07-31T17:23:12-04:00</updated>
+  <updated>2015-08-03T11:42:11-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -34,7 +34,6 @@
     <content type="html"><![CDATA[<p>While I am really happy with my choice to move away from a dynamic website/blog to a static one—powered by <a href="http://octopress.org/">Octopress</a>, hosted for free on <a href="https://github.com">Github</a>—it’s been pretty limiting when it comes to integrating comments and other more necessarily dynamic components.</p>
 
 <!-- more -->
-
 
 <p>Like many folks in the Octopress/Jekyll community, I’ve opted to use <a href="https://disqus.com/websites/">Disqus’ free service to manage comments</a>, but I’m not in love with it. First of all, it requires JavaScript. You know <a href="/notebook/2014/a-fundamental-disconnect/">my stance on that</a>. Now I’m willing to accept comments as an <a href="https://en.wikipedia.org/wiki/Progressive_enhancement">enhancement</a> to the reading process, but it doesn’t mean I like the situation. Secondly, they control the content and if they go away, so do all of your comments.</p>
 
@@ -71,11 +70,10 @@
 <p>It’s been a pretty fun mini-project. In the end, I created a useful bit of kit that provides three distinct experiences:</p>
 
 <ol>
-<li>Static webmentions collected when the site was generated form the baseline experience;</li>
-<li>JavaScript-enabled browsers get any webmentions that were published since I last generated the site; and</li>
-<li>JavaScript-enabled browsers with WebSockets support get real-time updates with any webmentions that are published after the page loads.</li>
+  <li>Static webmentions collected when the site was generated form the baseline experience;</li>
+  <li>JavaScript-enabled browsers get any webmentions that were published since I last generated the site; and</li>
+  <li>JavaScript-enabled browsers with WebSockets support get real-time updates with any webmentions that are published after the page loads.</li>
 </ol>
-
 
 <p>And, even better, the next time I generate the site, any missing webmentions will be inserted into the static files for safe keeping.</p>
 
@@ -93,7 +91,6 @@
     <content type="html"><![CDATA[<p>So, a mere three years after my old “life blog” stopped working, I decided to scrap it and start fresh.</p>
 
 <!-- more -->
-
 
 <p>In my quest to learn something new (more on that in a forthcoming post), I decided to give <a href="http://octopress.org">Octopress</a> a whirl. We’ll see how it goes, but the content entry has gone well so far and the Octopress community has been pretty responsive to my requests. I just need to get used to the workflow.</p>
 

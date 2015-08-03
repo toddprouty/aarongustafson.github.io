@@ -145,7 +145,6 @@
 
 <!-- more -->
 
-
 <p>Like many folks in the Octopress/Jekyll community, I’ve opted to use <a href="https://disqus.com/websites/">Disqus’ free service to manage comments</a>, but I’m not in love with it. First of all, it requires JavaScript. You know <a href="/notebook/2014/a-fundamental-disconnect/">my stance on that</a>. Now I’m willing to accept comments as an <a href="https://en.wikipedia.org/wiki/Progressive_enhancement">enhancement</a> to the reading process, but it doesn’t mean I like the situation. Secondly, they control the content and if they go away, so do all of your comments.</p>
 
 <p>I’ve become quite intrigued by the potential of <a href="http://indiewebcamp.com/webmention">webmentions</a> as a way of taking back control of our content. They are a brilliant way to loosely connect related posts on personal blogs and third-parties like Twitter, Facebook, and Google+. With my mind unable to think about anything else, I decided to see what it would take to get webmentions up and running here.</p>
@@ -158,15 +157,13 @@
 
 <p>The tag to display webentions for a page is pretty simple:</p>
 
-<div><script src='https://gist.github.com/cb15ead6bf3a72b8f92a.js?file=webmentions.html'></script>
+<div><script src="https://gist.github.com/cb15ead6bf3a72b8f92a.js?file=webmentions.html"></script>
 <noscript><pre><code>{% webmentions YOUR_URL %}</code></pre></noscript></div>
-
 
 <p>This tag outputs a container <code>div</code> and an ordered list of every webmention found when the site is generated (or previewed). To show the current webmention count, you use a slightly different tag which just outputs a number:</p>
 
-<div><script src='https://gist.github.com/cb15ead6bf3a72b8f92a.js?file=webmention_count.html'></script>
+<div><script src="https://gist.github.com/cb15ead6bf3a72b8f92a.js?file=webmention_count.html"></script>
 <noscript><pre><code>{% webmention_count YOUR_URL %}</code></pre></noscript></div>
-
 
 <p>These two tags allows me to bypass the JavaScript used in webmention.io’s integration examples and have Ruby consult the API directly. The plugin then creates the necessary markup using the JSON data the API provided.</p>
 
@@ -181,11 +178,10 @@
 <p>It’s been a pretty fun mini-project. In the end, I created a useful bit of kit that provides three distinct experiences:</p>
 
 <ol>
-<li>Static webmentions collected when the site was generated form the baseline experience;</li>
-<li>JavaScript-enabled browsers get any webmentions that were published since I last generated the site; and</li>
-<li>JavaScript-enabled browsers with WebSockets support get real-time updates with any webmentions that are published after the page loads.</li>
+  <li>Static webmentions collected when the site was generated form the baseline experience;</li>
+  <li>JavaScript-enabled browsers get any webmentions that were published since I last generated the site; and</li>
+  <li>JavaScript-enabled browsers with WebSockets support get real-time updates with any webmentions that are published after the page loads.</li>
 </ol>
-
 
 <p>And, even better, the next time I generate the site, any missing webmentions will be inserted into the static files for safe keeping.</p>
 

@@ -143,17 +143,15 @@
 
 <!-- more -->
 
-
 <p>I worked on one project where the client provided me with a spreadsheet detailing 1,400 different user agents that accessed the login screen for the m-dot site. In two days!</p>
 
 <p>As further evidence, consider <a href="http://blog.jasonsamuels.net/post/21633531278/analytics-confirm-the-need-for-adaptive-web-design">the enlightening details of this post from Jason Samuels</a> of the National Council on Family relations, a non-profit organization:</p>
 
 <ul>
-<li>In 2008, Internet Explorer dominated as the browser for 93.5% of their visitors. By 2014, that percentage had fallen to 19.7%, with Chrome bringing in the lion’s share of the traffic (37%). Firefox narrowly beat out IE with a 20% share of users.</li>
-<li>In 2008, visits from &ldquo;mobile&rdquo; devices accounted for only about 0.1% of their traffic. In 2014, that number had skyrocketed to 14.4%.</li>
-<li>In 2008, they detected 71 different screen resolutions, which is already a lot to consider. By 2014, however, they were seeing 1,000 unique screen resolutions each and every quarter (with over 200 of those recording 10+ visits per quarter).</li>
+  <li>In 2008, Internet Explorer dominated as the browser for 93.5% of their visitors. By 2014, that percentage had fallen to 19.7%, with Chrome bringing in the lion’s share of the traffic (37%). Firefox narrowly beat out IE with a 20% share of users.</li>
+  <li>In 2008, visits from “mobile” devices accounted for only about 0.1% of their traffic. In 2014, that number had skyrocketed to 14.4%.</li>
+  <li>In 2008, they detected 71 different screen resolutions, which is already a lot to consider. By 2014, however, they were seeing 1,000 unique screen resolutions each and every quarter (with over 200 of those recording 10+ visits per quarter).</li>
 </ul>
-
 
 <p>That last stat blows my mind every time I read it. You can’t design for 200 different screens, let alone 1,000. It’s a fools errand. And don’t even think of trying to test on that many devices.</p>
 
@@ -165,15 +163,14 @@
 
 <p><em>Wha?! We can have our cake and eat it too</em>? Yes. Yes we can.</p>
 
-<h2>Start on Solid Footing</h2>
+<h2 id="start-on-solid-footing">Start on Solid Footing</h2>
 
 <p>When dealing with the insane proliferation of web-enabled devices and the great unknown of where our websites will go, it pays to take a step back and focus on what’s important. We need to ask ourselves two simple questions:</p>
 
 <ol>
-<li>What is the purpose of this page, this form, this interface?</li>
-<li>What is the simplest way to realize that purpose?</li>
+  <li>What is the purpose of this page, this form, this interface?</li>
+  <li>What is the simplest way to realize that purpose?</li>
 </ol>
-
 
 <p>Then we need to build that <em>first</em>. Typically we’re talking text, some basic HTML, actual links to other pages, and forms that submit to a back-end of some sort. This is our minimum viable product and it will work anywhere.</p>
 
@@ -183,22 +180,21 @@
 
 <p>We’ll use JavaScript to give real-time feedback to our users. <a href="http://domscripting.com/presentations/xtech2006/">We’ll hijack forms and links</a> to <a href="http://www.filamentgroup.com/lab/ajax-includes-modular-content.html">lazy load additional content</a> or otherwise avoid full-page refreshes. Heck, we can even take over the entire page and <a href="http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/">convert it into a single page app</a>.</p>
 
-<p>But we should never sacrifice the functional core.</p>
+<p>But we should never sacrifice the functional core. </p>
 
 <p>This approach to designing for the web is called <a href="http://alistapart.com/article/understandingprogressiveenhancement">progressive enhancement</a> and it’s the number one tool for dealing with the one-two punch of older browsers and device proliferation.</p>
 
-<h2>Be Conservative in Your Delivery</h2>
+<h2 id="be-conservative-in-your-delivery">Be Conservative in Your Delivery</h2>
 
-<p>What makes progressive enhancement so helpful when it comes to dealing with this swirling mass of devices and browsers is that the core experience will <em>always be</em> available. There is nothing precluding our users from accessing it, even on a crappy WAP browser or a text-based browser like Lynx or even some <a href="http://www.theubi.com/">no so far-future talking computer</a> that only &ldquo;sees&rdquo; the web as text.</p>
+<p>What makes progressive enhancement so helpful when it comes to dealing with this swirling mass of devices and browsers is that the core experience will <em>always be</em> available. There is nothing precluding our users from accessing it, even on a crappy WAP browser or a text-based browser like Lynx or even some <a href="http://www.theubi.com/">no so far-future talking computer</a> that only “sees” the web as text.</p>
 
 <p>In order to ensure we don’t accidentally deliver advanced features to less capable browsers like these, we just need to be smart about how we load stuff like CSS and JavaScript.</p>
 
 <p>Some basic CSS—think typography, color, etc.—will be usable by just about anyone, so we can put all that stuff in one CSS file (e.g., <code>basic.css</code>) and include it with a standard <code>link</code>. Then we can tuck all of our layout rules and other advanced CSS into a separate CSS file (e.g., <code>advanced.css</code>) that we link to with an associated media query.</p>
 
-<div><script src='https://gist.github.com/166b285a4fe3d854b97b.js?file=css-linking.html'></script>
+<div><script src="https://gist.github.com/166b285a4fe3d854b97b.js?file=css-linking.html"></script>
 <noscript><pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;default.css&quot; media=&quot;all&quot;&gt;
-    &lt;link rel=&quot;stylesheet&quot; href=&quot;advanced.css&quot; media=&quot;only screen&quot;&gt;</code></pre></noscript></div>
-
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;advanced.css&quot; media=&quot;only screen&quot;&gt;</code></pre></noscript></div>
 
 <p>Any <a href="http://www.slideshare.net/bryanrieger/rethinking-the-mobile-web-by-yiibu/106">browsers that don’t understand media queries will ignore the second CSS file entirely</a> and receive only the linear, mobile view. Easy peasy, and IE8 gets the mobile layout (a baseline level of support that is not likely to cause you any testing headaches).</p>
 
@@ -206,23 +202,21 @@
 
 <p>Of course, CSS support issues are nothing compared to JavaScript, so sometimes it’s best not to deliver certain bits of JavaScript-based functionality to browsers that can’t handle it. This is where <a href="http://www.quirksmode.org/js/support.html">feature (and object) detection</a> becomes incredibly useful:</p>
 
-<div><script src='https://gist.github.com/166b285a4fe3d854b97b.js?file=feature-test.js'></script>
+<div><script src="https://gist.github.com/166b285a4fe3d854b97b.js?file=feature-test.js"></script>
 <noscript><pre><code>if ( &#39;querySelector&#39; in document ) {
-    // We can use querySelector!
+	// We can use querySelector!
 }</code></pre></noscript></div>
-
 
 <p>You can also use <a href="http://en.wikipedia.org/wiki/Conditional_comment#Downlevel-revealed_conditional_comment">inverted conditional comments</a> to prohibit older versions of IE from getting JavaScript in the first place (which means you don’t even need to worry about debugging JavaScript there). Here’s an example that hides <code>main.js</code> from IE8 and below, but makes it available to IE9 on up and to every other non-IE browser.</p>
 
-<div><script src='https://gist.github.com/166b285a4fe3d854b97b.js?file=no-script-in-lte-ie8.html'></script>
+<div><script src="https://gist.github.com/166b285a4fe3d854b97b.js?file=no-script-in-lte-ie8.html"></script>
 <noscript><pre><code>&lt;!--[if gt IE 8]&gt;&lt;!--&gt;
-    &lt;script src=&quot;main.js&quot;&gt;&lt;/script&gt;
+	&lt;script src=&quot;main.js&quot;&gt;&lt;/script&gt;
 &lt;!--&lt;![endif]--&gt;</code></pre></noscript></div>
-
 
 <p>By being conservative in what we deliver to browsers we <a href="http://bradfrost.com/blog/mobile/support-vs-optimization/">ensure the greatest level of support, but can still optimize for more advanced ones</a>. This makes testing so much easier because we know older browsers will be okay with the basics and we aren’t trying to use JavaScript features unless we know they’re available.</p>
 
-<h2>Test, Test, Test</h2>
+<h2 id="test-test-test">Test, Test, Test</h2>
 
 <p>Progressive enhancement helps us avoid a lot of rendering and scripting issues before we even get to the testing phase of a project, but eventually we do need to sit down and run our projects through their paces.</p>
 
@@ -231,11 +225,10 @@
 <p>I personally keep several versions of each major browser on my laptop at any given time. I work on a Mac, so I typically have a few versions of Chrome, Firefox, and Opera lying around. You can get older versions of these browsers here:</p>
 
 <ul>
-<li><a href="http://commondatastorage.googleapis.com/chromium-browser-continuous/index.html">Chromium Archive</a></li>
-<li><a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/">Firefox Archive</a></li>
-<li><a href="http://www.opera.com/download//?custom=yes">Opera Archive</a></li>
+  <li><a href="http://commondatastorage.googleapis.com/chromium-browser-continuous/index.html">Chromium Archive</a></li>
+  <li><a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/">Firefox Archive</a></li>
+  <li><a href="http://www.opera.com/download//?custom=yes">Opera Archive</a></li>
 </ul>
-
 
 <p>It’s near-impossible to get older versions of Safari running on modern versions of OS X, so I typically just have the latest version locally.</p>
 
@@ -259,7 +252,7 @@
 
 <p>It’s important to bear in mind that we will never be able to give each user on each device exactly the same experience. We need to be okay with that—experience is a continuum. As long as our users can accomplish what they need to on our sites, they will be well-served.</p>
 
-<h2>Bonus Points: Embrace Patterns</h2>
+<h2 id="bonus-points-embrace-patterns">Bonus Points: Embrace Patterns</h2>
 
 <p>If we really want to make things easy on ourselves (and our team), we should consider building a <a href="http://alistapart.com/blog/post/getting-started-with-pattern-libraries">pattern library</a> before we build a single page of our website.</p>
 
@@ -267,7 +260,7 @@
 
 <p>Gathering our patterns into a live, web-based pattern library  allows anyone on our team to collect the patterns they need to build a given interface as easily as they’d assemble a plate at a smörgåsbord. And if we really want to streamline the building and testing process, we can even <a href="http://ianfeather.co.uk/a-maintainable-style-guide/">make the patterns importable into the live site</a> so everything stays in sync.</p>
 
-<h2>Don’t Fear the Zombie Apocalypse</h2>
+<h2 id="dont-fear-the-zombie-apocalypse">Don’t Fear the Zombie Apocalypse</h2>
 
 <p>With the constant onslaught of new devices, form factors, and considerations, it’s tempting to throw up our hands and find another line of work. The pace of advancement is so brisk, it’s just hard to keep up, let alone feel like we’re on top of where things are headed.</p>
 

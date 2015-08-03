@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Progressive Enhancement | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/progressive-enhancement/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-07-31T17:23:12-04:00</updated>
+  <updated>2015-08-03T11:42:11-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -22,25 +22,21 @@
 
 <!-- more -->
 
-
-
-
-<hr>
-
+<hr />
 
 <p>Today has provided an amazing tour of the world of responsive design. We’ve seen how to level-up our workflows and processes. We’ve learned new ways to improve the accessibility of our products. We’ve grappled with modern CSS and HTML capabilities that help us embrace the hugely variable display sizes that swirl and whirl around us.</p>
 
 <p>We’ve explored the future of modular code and browsers’ capacity for working without network connectivity. And we’ve even taken a trip into the possible future of where the web might go.</p>
 
-<p><figure id="figure-2015-06-22-01">
+<figure id="figure-2015-06-22-01">
 <img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
-</figure></p>
+</figure>
 
 <p>We’ve come a long way since <a href="https://huffduffer.com/adactio/243780">Ethan’s article</a>, fluid grids, flexible media, and media queries. Those three tenets sowed a seed that has grown and flourished as we have come to better understand the implications of device proliferation. We’ve seen that the web is capable of going anywhere and doing pretty much anything.</p>
 
-<p>I would argue that <a href="https://huffduffer.com/adactio/243780">&ldquo;Responsive Web Design&rdquo;</a> was the first article that really managed to capture the concepts that John Allsopp had discussed so many years before in <a href="http://www.alistapart.com/articles/dao/">“A Dao of Web Design”</a> and distilled them into something the design and development community could really sink their teeth into. It provided a concrete example of the web’s ability to flex and mold itself into whatever shape it needed to take on.</p>
+<p>I would argue that <a href="https://huffduffer.com/adactio/243780">“Responsive Web Design”</a> was the first article that really managed to capture the concepts that John Allsopp had discussed so many years before in <a href="http://www.alistapart.com/articles/dao/">“A Dao of Web Design”</a> and distilled them into something the design and development community could really sink their teeth into. It provided a concrete example of the web’s ability to flex and mold itself into whatever shape it needed to take on.</p>
 
-<p>It was the first time many designers had come to terms with the idea that &ldquo;experience&rdquo; was not some monolithic thing.</p>
+<p>It was the first time many designers had come to terms with the idea that “experience” was not some monolithic thing.</p>
 
 <p>Sure, many of us in the web standards community had been talking the talk and walking the walk with regard to <a href="http://alistapart.com/article/understandingprogressiveenhancement">progressive enhancement</a>. And we were gaining converts, but progress was slow. Ethan demonstrated—directly and succinctly—what the progressive enhancement of visual design could look like.</p>
 
@@ -48,19 +44,19 @@
 
 <p><strong>And that doesn’t even consider our users.</strong></p>
 
-<p>When it comes to the people we need to reach for our work to actually matter, we have to consider literacy level, reading acumen, level of domain knowledge, cognitive impairments like learning disabilities and dyslexia, attention deficit issues, environmental distractions, vision impairment, hearing impairment, motor impairment, how much they understand how to use their device, how much they understand how to use their browser, how well-versed in common web conventions they are, and a ton of other &ldquo;human factors&rdquo;.</p>
+<p>When it comes to the people we need to reach for our work to actually matter, we have to consider literacy level, reading acumen, level of domain knowledge, cognitive impairments like learning disabilities and dyslexia, attention deficit issues, environmental distractions, vision impairment, hearing impairment, motor impairment, how much they understand how to use their device, how much they understand how to use their browser, how well-versed in common web conventions they are, and a ton of other “human factors”.</p>
 
 <p>Every person is different and everyone comes to the web with their own set of special needs. Some are always with them, blindness for example. Others are transient, like breaking your mousing arm. Still others are purely situational and dependent on the device you are using at the time and its technical capabilities or constraints.</p>
 
 <p>Trying to devise one monolithic experience for each and every person to have in every context that considers every factor would be impossible. And yet, Sir Tim Berners Lee had a vision for a web that was capable of going anywhere. Was he insane?</p>
 
-<p><a href="http://www.w3.org/History/1989/proposal.html">Sir Tim’s vision for the web</a> was that content could be created once and accessed from anywhere. Disparate but related pieces of &ldquo;hypermedia&rdquo; scattered across the globe could be connected to one another via links. Moreover, they would be retrievable by anyone on any device capable of reading HTML. For free.</p>
+<p><a href="http://www.w3.org/History/1989/proposal.html">Sir Tim’s vision for the web</a> was that content could be created once and accessed from anywhere. Disparate but related pieces of “hypermedia” scattered across the globe could be connected to one another via links. Moreover, they would be retrievable by anyone on any device capable of reading HTML. For free.</p>
 
 <p><strong>Ultimately, Sir Tim envisioned universal accessibility.</strong></p>
 
 <p>For a great many of us, ensuring our websites are accessible is an afterthought. We talk a good game when it comes to “user centered” this or that, but often treat the word “accessibility” as a synonym for “screen reader”. It’s so much more than that. “Accessibility” is about people. People consume content and use interfaces in many different ways, some similar and some quite dissimilar to how we do it.</p>
 
-<p>Sure, people with visual impairments often use a screen reader to consume content. But they might also use a braille touch feedback device or a braille printer. They probably also use a keyboard. Or they may use a touchscreen in concert with audio cues. Or they may even use a camera to allow them to &ldquo;read&rdquo; content via OCR and text-to-speech. And yes, visual impairment affects a decent percentage of the populace (especially as we age), but it is only part of the “accessibility” puzzle.</p>
+<p>Sure, people with visual impairments often use a screen reader to consume content. But they might also use a braille touch feedback device or a braille printer. They probably also use a keyboard. Or they may use a touchscreen in concert with audio cues. Or they may even use a camera to allow them to “read” content via OCR and text-to-speech. And yes, visual impairment affects a decent percentage of the populace (especially as we age), but it is only part of the “accessibility” puzzle.</p>
 
 <p>The contrast between text and the background is an important factor in ensuring content remains readable in different lighting situations. Color choice is an accessibility concern.</p>
 
@@ -78,9 +74,9 @@
 
 <p>Embracing the reality that experience does’t need to be just one thing will help us reach more people with fewer headaches. Experience can—and should—be crafted as a continuum. This is progressive enhancement: We start with a baseline experience that works for everyone—content, real links, first generation form controls, and forms that actually submit to the server. Then we build up the experience from there.</p>
 
-<p><figure id="figure-2015-06-22-02">
-<img src="http://www.aaron-gustafson.com/i/posts/2015-06-22/02.gif" alt="">
-</figure></p>
+<figure id="figure-2015-06-22-02">
+<img src="http://www.aaron-gustafson.com/i/posts/2015-06-22/02.gif" alt="" />
+</figure>
 
 <p>Your browser supports HTML5 form controls? Great! You’ll get a better virtual keyboard when you go to type your email address. You can use CSS? Awesome, let me make that reading experience better for you. Oh, you can handle media queries! Let me adjust the layout so those line lengths are a little more comfortable. Wow, your browser supports Ajax?! Here let me load in some teasers for related content you might find interesting.</p>
 
@@ -88,15 +84,19 @@
 
 <p>And yet we—as an industry—don’t seem to have any problem telling someone they need to change their browser to accommodate us. That’s just wrong. Our work is meaningless without users. We should be bending over backwards to attract and retain them. This is customer service 101.</p>
 
-<p>This comes back to Postel&rsquo;s law, which Jeremy often recounts:</p>
+<p>This comes back to Postel’s law, which Jeremy often recounts:</p>
 
-<blockquote><p>Be conservative in what you do, be liberal in what you accept from others.</p></blockquote>
+<blockquote>
+  <p>Be conservative in what you do, be liberal in what you accept from others.</p>
+</blockquote>
 
-<p>We need to be lax when it comes to browser support and not make to many (or better yet any) assumptions about what we can send.</p>
+<p>We need to be lax when it comes to browser support and not make to many (or better yet any) assumptions about what we can send. </p>
 
 <p>Of course this is not an approach everyone in our industry is ready to embrace, so I’ll offer another quote I come back to time and time again…</p>
 
-<blockquote><p>When something happens, the only thing in your power is your attitude toward it; you can either accept it or resent it.</p></blockquote>
+<blockquote>
+  <p>When something happens, the only thing in your power is your attitude toward it; you can either accept it or resent it.</p>
+</blockquote>
 
 <p>We can’t control the world, we can only control our reaction to it.</p>
 
@@ -104,11 +104,11 @@
 
 <p>It’s up to us to educate those around us who have—either by accident or intent—not accepted that diversity is the reality we live in and things are only going to get crazier. Burying our heads in the sand is not an option.</p>
 
-<p>When I am trying to help folks understand and embrace diversity, I often reach for one of my favorite thought exercises from <a href="https://en.wikipedia.org/wiki/John_Rawls">John Rawls</a>.</p>
+<p>When I am trying to help folks understand and embrace diversity, I often reach for one of my favorite thought exercises from <a href="https://en.wikipedia.org/wiki/John_Rawls">John Rawls</a>. </p>
 
-<p><figure id="figure-2015-06-22-03">
+<figure id="figure-2015-06-22-03">
 <img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
-</figure></p>
+</figure>
 
 <p>Rawls was a philosopher who used to run a social experiment with students, church groups, and the like.</p>
 
@@ -120,9 +120,9 @@
 
 <p>The things we do to accommodate special needs now pay dividends in the future. Look at ramps.</p>
 
-<p><figure id="figure-2015-06-22-04">
+<figure id="figure-2015-06-22-04">
 <img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
-</figure></p>
+</figure>
 
 <p>They’re a classic example of an accessibility feature for people in wheelchairs that also benefit people who aren’t in them: People toting luggage, delivery services hauling heavy things on dollies, parents pushing children (or their dressed up dogs) in strollers, a commuter walking her bike, and that guy who just prefers walking up a gentle incline to expending the effort required to mount a step.</p>
 
@@ -142,7 +142,7 @@
 
 <p>The first big leap in this direction was <a href="https://en.wikipedia.org/wiki/Kinect">Kinect</a> on the Xbox 360 (and later, Windows). With Kinect, we interact with the computer using body movements like raising a hand (which gets Kinect to pay attention), pushing our hand forward to click/tap, and grasping to drag the canvas in a particular direction.</p>
 
-<p>The Kinect ushered in a major revolution in terms of interfacing with computers, but from an interaction perspective, it presents similar challenges to those of the <a href="https://en.wikipedia.org/wiki/Wii#Wii_Remote">Wii controller</a> and Sony’s <a href="https://en.wikipedia.org/wiki/PlayStation_Move">PlayStation Move</a>. Large body gestures like raising your hand (or a wand controller) can be tiring.</p>
+<p>The Kinect ushered in a major revolution in terms of interfacing with computers, but from an interaction perspective, it presents similar challenges to those of the <a href="https://en.wikipedia.org/wiki/Wii#Wii_Remote">Wii controller</a> and Sony’s <a href="https://en.wikipedia.org/wiki/PlayStation_Move">PlayStation Move</a>. Large body gestures like raising your hand (or a wand controller) can be tiring. </p>
 
 <p><figure id="fig-21LtA5-wiwU" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(http://i2.ytimg.com/vi/21LtA5-wiwU/0.jpg);" href="//www.youtube.com/watch?v=21LtA5-wiwU&amp;start=7&amp;end=19" data-lazy-video-src="http://www.youtube.com/embed/21LtA5-wiwU?autoplay=1&amp;start=7&amp;end=19&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Leap Motion With Windows</div></a></div></figure></p>
 
@@ -161,7 +161,7 @@
 }</code></pre></noscript></div>
 </p>
 
-<p>Of course, we want to offer a sensible default in terms of size and spacing as a fallback for older browsers and devices.</p>
+<p>Of course, we want to offer a sensible default in terms of size and spacing as a fallback for older browsers and devices. </p>
 
 <p>We also have the ability to determine whether the device is capable of hovering over an element and can adjust the interface accordingly.</p>
 
@@ -180,7 +180,9 @@
 
 <p>We still need to figure out how well all of this ends up working on multimodal devices like the Surface tablet, however. Will the design change as the user switches between input modes? Should it? To that end, the spec also provides <code>any-pointer</code> and <code>any-hover</code> to allow you to query for whether <em>any</em> supported interaction method meets your requirements, but here’s a word of warning from the spec:</p>
 
-<blockquote><p>Designing a page that relies on hovering or accurate pointing only because <code>any-hover</code> or <code>any-pointer</code> indicate that an input mechanism with these capabilities is available, is likely to result in a poor experience.</p></blockquote>
+<blockquote>
+  <p>Designing a page that relies on hovering or accurate pointing only because <code>any-hover</code> or <code>any-pointer</code> indicate that an input mechanism with these capabilities is available, is likely to result in a poor experience.</p>
+</blockquote>
 
 <p>These media query options are starting to roll out in Chrome, Mobile Safari, and Microsoft Edge, so it’s worth taking a look at them.</p>
 
@@ -248,7 +250,7 @@
 
 <p>In a similar vein, we should begin to think about what experiences can and should look like when we are browsing solely with our gaze. Gaze tracking has its origins in the accessibility space as a means of providing interface control to folks with limited or no use of their hands. Traditionally, gaze tracking hardware has been several thousand dollars, putting it out of the reach of many people, but that is starting to change.</p>
 
-<p>In the last few years, the computational power of our devices has increased as the hardware costs associated with supporting gaze tracking have dropped dramatically. Looking around, you can see gaze tracking beginning to move into the public sphere: Many smartphones and smartwatches can recognize when you are looking at them (or at least they do sometimes). This is only a short step away from knowing where on the screen you are looking. And nearly every high-end smartphone is now equipped with a front-facing camera which makes them perfect candidates to provide this interaction method.</p>
+<p>In the last few years, the computational power of our devices has increased as the hardware costs associated with supporting gaze tracking have dropped dramatically. Looking around, you can see gaze tracking beginning to move into the public sphere: Many smartphones and smartwatches can recognize when you are looking at them (or at least they do sometimes). This is only a short step away from knowing where on the screen you are looking. And nearly every high-end smartphone is now equipped with a front-facing camera which makes them perfect candidates to provide this interaction method. </p>
 
 <p><figure id="fig-DEk7PlJWQgI" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(http://i2.ytimg.com/vi/DEk7PlJWQgI/0.jpg);" href="//www.youtube.com/watch?v=DEk7PlJWQgI&amp;start=18&amp;end=54" data-lazy-video-src="http://www.youtube.com/embed/DEk7PlJWQgI?autoplay=1&amp;start=18&amp;end=54&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">The Sesame Phone</div></a></div></figure></p>
 
@@ -266,7 +268,7 @@
 
 <p>Most of us are familiar with <a href="https://en.wikipedia.org/wiki/Siri">Apple’s Siri</a>, <a href="https://en.wikipedia.org/wiki/Google_Now">Google Now</a>, and <a href="https://en.wikipedia.org/wiki/Microsoft_Cortana">Microsoft’s Cortana</a>. These digital assistants are great at retrieving information from select sources and doing other assistant-y things like calculating a tip and setting a reminder. As far as interacting with the web, however, they don’t… yet. We can engage with them, but they can‘t (necessarily) engage with a web page.</p>
 
-<p>Exposing the information stored in our webpages via semantic HTML and structured syntaxes like <a href="http://microformats.org/">microformats</a>, <a href="https://en.wikipedia.org/wiki/Microdata_(HTML">microdata</a>), and <a href="https://en.wikipedia.org/wiki/RDFa">RDFa</a> <em>should</em> eventually make our content available to these assistants, but we don’t really know. Their various makers haven’t really given us any clue as to how to do that and, as it stands right now, none of them can look up a web page and read it to you. For that you need to invoke a screen reader.</p>
+<p>Exposing the information stored in our webpages via semantic HTML and structured syntaxes like <a href="http://microformats.org/">microformats</a>, <a href="https://en.wikipedia.org/wiki/Microdata_(HTML)">microdata</a>, and <a href="https://en.wikipedia.org/wiki/RDFa">RDFa</a> <em>should</em> eventually make our content available to these assistants, but we don’t really know. Their various makers haven’t really given us any clue as to how to do that and, as it stands right now, none of them can look up a web page and read it to you. For that you need to invoke a screen reader.</p>
 
 <p>Each company offers a first-party screen reader. And all are capable of helping you interact with a page, including helping you fill in forms, without having to see the page. And yet, these technologies have not been coupled with their corresponding assistants. It probably won’t be long before we see that happen.</p>
 
@@ -282,7 +284,7 @@
 <noscript><pre><code>&lt;meta name=“msapplication-cortanavcd&quot; content=&quot;http://myapp.io/vcd.xml&quot;&gt;</code></pre></noscript></div>
 </p>
 
-<p>The referenced VCD file is simply an XML file defining the keyword for the web app and commands that can be issued.</p>
+<p>The referenced VCD file is simply an XML file defining the keyword for the web app and commands that can be issued. </p>
 
 <p>Using very basic syntax, The VCD identifies optional pieces of a given phrase and variables Cortana should extract:</p>
 
@@ -307,13 +309,13 @@
 
 <p>But traditional computers and smart mobile devices aren’t the only place we’re starting to see voice based experiences. We also have disembodied voices like <a href="https://en.wikipedia.org/wiki/Amazon_Echo">Amazon’s Echo</a> and <a href="http://www.theubi.com/">the Ubi</a> which are completely headless.</p>
 
-<p><figure id="figure-2015-06-22-11">
+<figure id="figure-2015-06-22-11">
 <img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
-</figure></p>
+</figure>
 
-<p>Right now, they both seem squarely focused on helping your house become &ldquo;smarter"—streaming music, adjusting the thermostat, etc.—but it isn’t hard to imagine these devices becoming coupled with the ability to browse and interact with the web.</p>
+<p>Right now, they both seem squarely focused on helping your house become “smarter”—streaming music, adjusting the thermostat, etc.—but it isn’t hard to imagine these devices becoming coupled with the ability to browse and interact with the web.</p>
 
-<p>In the near future, voice-based interactions with the web will be entirely possible. They will likely suck a bit at first, but they&rsquo;ll get better.</p>
+<p>In the near future, voice-based interactions with the web will be entirely possible. They will likely suck a bit at first, but they’ll get better.</p>
 
 <p>I’m going to make a somewhat bold prediction: while touch has been revolutionary in many ways toward improving digital access, voice is going to be even more significant. Voice-based interfaces will create new opportunities for people to interact with and participate in the digital world.</p>
 
@@ -329,21 +331,19 @@
 
 <p>This is an incredibly exciting time, not just for the responsive design community, not just the web, but for the world! The future is coming and I can’t wait to see how awesome you make it!</p>
 
-<p><figure id="figure-2015-06-22-12">
+<figure id="figure-2015-06-22-12">
 <img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
-</figure></p>
+</figure>
 
-<hr>
-
+<hr />
 
 <p><em>Responsive Day Out 3: The Final Breakpoint was held in Brighton, UK on 19 June 2015.</em></p>
 
 <ul>
-<li><a href="https://huffduffer.com/adactio/243780">Listen to this presentation on Huffduffer</a>.</li>
-<li>Read <a href="https://decadecity.net/blog/2015/06/19/aaron-gustafson-where-do-we-go-here">Orde Saunders’ notes</a> from my talk.</li>
-<li>Read <a href="https://hiddedevries.nl/en/blog/2015-06-20-responsive-day-out-3-the-final-breakpoint/">Hidde de Vries’ recap of the day</a>.</li>
+  <li><a href="https://huffduffer.com/adactio/243780">Listen to this presentation on Huffduffer</a>.</li>
+  <li>Read <a href="https://decadecity.net/blog/2015/06/19/aaron-gustafson-where-do-we-go-here">Orde Saunders’ notes</a> from my talk.</li>
+  <li>Read <a href="https://hiddedevries.nl/en/blog/2015-06-20-responsive-day-out-3-the-final-breakpoint/">Hidde de Vries’ recap of the day</a>.</li>
 </ul>
-
 ]]></content>
   </entry>
   
@@ -356,17 +356,15 @@
 
 <!-- more -->
 
-
 <p>I worked on one project where the client provided me with a spreadsheet detailing 1,400 different user agents that accessed the login screen for the m-dot site. In two days!</p>
 
 <p>As further evidence, consider <a href="http://blog.jasonsamuels.net/post/21633531278/analytics-confirm-the-need-for-adaptive-web-design">the enlightening details of this post from Jason Samuels</a> of the National Council on Family relations, a non-profit organization:</p>
 
 <ul>
-<li>In 2008, Internet Explorer dominated as the browser for 93.5% of their visitors. By 2014, that percentage had fallen to 19.7%, with Chrome bringing in the lion’s share of the traffic (37%). Firefox narrowly beat out IE with a 20% share of users.</li>
-<li>In 2008, visits from &ldquo;mobile&rdquo; devices accounted for only about 0.1% of their traffic. In 2014, that number had skyrocketed to 14.4%.</li>
-<li>In 2008, they detected 71 different screen resolutions, which is already a lot to consider. By 2014, however, they were seeing 1,000 unique screen resolutions each and every quarter (with over 200 of those recording 10+ visits per quarter).</li>
+  <li>In 2008, Internet Explorer dominated as the browser for 93.5% of their visitors. By 2014, that percentage had fallen to 19.7%, with Chrome bringing in the lion’s share of the traffic (37%). Firefox narrowly beat out IE with a 20% share of users.</li>
+  <li>In 2008, visits from “mobile” devices accounted for only about 0.1% of their traffic. In 2014, that number had skyrocketed to 14.4%.</li>
+  <li>In 2008, they detected 71 different screen resolutions, which is already a lot to consider. By 2014, however, they were seeing 1,000 unique screen resolutions each and every quarter (with over 200 of those recording 10+ visits per quarter).</li>
 </ul>
-
 
 <p>That last stat blows my mind every time I read it. You can’t design for 200 different screens, let alone 1,000. It’s a fools errand. And don’t even think of trying to test on that many devices.</p>
 
@@ -378,15 +376,14 @@
 
 <p><em>Wha?! We can have our cake and eat it too</em>? Yes. Yes we can.</p>
 
-<h2>Start on Solid Footing</h2>
+<h2 id="start-on-solid-footing">Start on Solid Footing</h2>
 
 <p>When dealing with the insane proliferation of web-enabled devices and the great unknown of where our websites will go, it pays to take a step back and focus on what’s important. We need to ask ourselves two simple questions:</p>
 
 <ol>
-<li>What is the purpose of this page, this form, this interface?</li>
-<li>What is the simplest way to realize that purpose?</li>
+  <li>What is the purpose of this page, this form, this interface?</li>
+  <li>What is the simplest way to realize that purpose?</li>
 </ol>
-
 
 <p>Then we need to build that <em>first</em>. Typically we’re talking text, some basic HTML, actual links to other pages, and forms that submit to a back-end of some sort. This is our minimum viable product and it will work anywhere.</p>
 
@@ -396,13 +393,13 @@
 
 <p>We’ll use JavaScript to give real-time feedback to our users. <a href="http://domscripting.com/presentations/xtech2006/">We’ll hijack forms and links</a> to <a href="http://www.filamentgroup.com/lab/ajax-includes-modular-content.html">lazy load additional content</a> or otherwise avoid full-page refreshes. Heck, we can even take over the entire page and <a href="http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/">convert it into a single page app</a>.</p>
 
-<p>But we should never sacrifice the functional core.</p>
+<p>But we should never sacrifice the functional core. </p>
 
 <p>This approach to designing for the web is called <a href="http://alistapart.com/article/understandingprogressiveenhancement">progressive enhancement</a> and it’s the number one tool for dealing with the one-two punch of older browsers and device proliferation.</p>
 
-<h2>Be Conservative in Your Delivery</h2>
+<h2 id="be-conservative-in-your-delivery">Be Conservative in Your Delivery</h2>
 
-<p>What makes progressive enhancement so helpful when it comes to dealing with this swirling mass of devices and browsers is that the core experience will <em>always be</em> available. There is nothing precluding our users from accessing it, even on a crappy WAP browser or a text-based browser like Lynx or even some <a href="http://www.theubi.com/">no so far-future talking computer</a> that only &ldquo;sees&rdquo; the web as text.</p>
+<p>What makes progressive enhancement so helpful when it comes to dealing with this swirling mass of devices and browsers is that the core experience will <em>always be</em> available. There is nothing precluding our users from accessing it, even on a crappy WAP browser or a text-based browser like Lynx or even some <a href="http://www.theubi.com/">no so far-future talking computer</a> that only “sees” the web as text.</p>
 
 <p>In order to ensure we don’t accidentally deliver advanced features to less capable browsers like these, we just need to be smart about how we load stuff like CSS and JavaScript.</p>
 
@@ -435,7 +432,7 @@
 
 <p>By being conservative in what we deliver to browsers we <a href="http://bradfrost.com/blog/mobile/support-vs-optimization/">ensure the greatest level of support, but can still optimize for more advanced ones</a>. This makes testing so much easier because we know older browsers will be okay with the basics and we aren’t trying to use JavaScript features unless we know they’re available.</p>
 
-<h2>Test, Test, Test</h2>
+<h2 id="test-test-test">Test, Test, Test</h2>
 
 <p>Progressive enhancement helps us avoid a lot of rendering and scripting issues before we even get to the testing phase of a project, but eventually we do need to sit down and run our projects through their paces.</p>
 
@@ -444,11 +441,10 @@
 <p>I personally keep several versions of each major browser on my laptop at any given time. I work on a Mac, so I typically have a few versions of Chrome, Firefox, and Opera lying around. You can get older versions of these browsers here:</p>
 
 <ul>
-<li><a href="http://commondatastorage.googleapis.com/chromium-browser-continuous/index.html">Chromium Archive</a></li>
-<li><a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/">Firefox Archive</a></li>
-<li><a href="http://www.opera.com/download//?custom=yes">Opera Archive</a></li>
+  <li><a href="http://commondatastorage.googleapis.com/chromium-browser-continuous/index.html">Chromium Archive</a></li>
+  <li><a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/">Firefox Archive</a></li>
+  <li><a href="http://www.opera.com/download//?custom=yes">Opera Archive</a></li>
 </ul>
-
 
 <p>It’s near-impossible to get older versions of Safari running on modern versions of OS X, so I typically just have the latest version locally.</p>
 
@@ -472,7 +468,7 @@
 
 <p>It’s important to bear in mind that we will never be able to give each user on each device exactly the same experience. We need to be okay with that—experience is a continuum. As long as our users can accomplish what they need to on our sites, they will be well-served.</p>
 
-<h2>Bonus Points: Embrace Patterns</h2>
+<h2 id="bonus-points-embrace-patterns">Bonus Points: Embrace Patterns</h2>
 
 <p>If we really want to make things easy on ourselves (and our team), we should consider building a <a href="http://alistapart.com/blog/post/getting-started-with-pattern-libraries">pattern library</a> before we build a single page of our website.</p>
 
@@ -480,7 +476,7 @@
 
 <p>Gathering our patterns into a live, web-based pattern library  allows anyone on our team to collect the patterns they need to build a given interface as easily as they’d assemble a plate at a smörgåsbord. And if we really want to streamline the building and testing process, we can even <a href="http://ianfeather.co.uk/a-maintainable-style-guide/">make the patterns importable into the live site</a> so everything stays in sync.</p>
 
-<h2>Don’t Fear the Zombie Apocalypse</h2>
+<h2 id="dont-fear-the-zombie-apocalypse">Don’t Fear the Zombie Apocalypse</h2>
 
 <p>With the constant onslaught of new devices, form factors, and considerations, it’s tempting to throw up our hands and find another line of work. The pace of advancement is so brisk, it’s just hard to keep up, let alone feel like we’re on top of where things are headed.</p>
 
@@ -501,43 +497,38 @@
 
 <!-- more -->
 
-
-
-
-<hr>
-
+<hr />
 
 <p>Back in 2007, I was presented with this challenge while putting together a talk called <a href="https://web.archive.org/web/20070515221318/http://2007.sxsw.com/interactive/programming/panels/?action=show&amp;id=IAP060214">Ruining the User Experience</a> (which I co-presented for the first time with at SXSW with <a href="https://twitter.com/sarahbeee">Sarah B. Nelson</a>). In the talk, Sarah and I discussed how to treat JavaScript as an enhancement and what happens when you don’t—in 2007, I know!</p>
 
 <p>Anyway, in the talk I was struggling to convey the various decision points and interface adjustments that would happen as a result of those decisions. I don’t remember which of us came up with the idea—it was probably Sarah—but we opted to use a flowchart to visually describe what we were talking about on stage. Here was the first one we did:</p>
 
-<p><figure id="fig-2015-05-28-01" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/01.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/01.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>An early flowchart used to describe progressive enhancement with JavaScript</figcaption></figure></p>
+<figure id="fig-2015-05-28-01" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/01.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/01.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>An early flowchart used to describe progressive enhancement with JavaScript</figcaption></figure>
 
 <p>It was pretty rudimentary, but it got the point across.</p>
 
 <p>In future iterations of the talk, I expounded upon the idea of a flowchart for describing how an interface might adapt to different circumstances and browser capabilities. Here’s a particularly complex one I used to describe how a FAQ might function:</p>
 
-<p><figure id="fig-2015-05-28-02" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/02.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/02.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>A flowchart describing the progressive enhancement and interaction options for an FAQ.</figcaption></figure></p>
+<figure id="fig-2015-05-28-02" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/02.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/02.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>A flowchart describing the progressive enhancement and interaction options for an FAQ.</figcaption></figure>
 
-<p>Over the years I found more and more ways to put these artifacts to use. And at a certain point, &ldquo;flowchart&rdquo; didn’t seem to cut it, so I began calling them &ldquo;UI construction flows"—which, admittedly, was a mouthful—and then finally settled on the name "Interaction Experience Maps&rdquo; with the help of a client.</p>
+<p>Over the years I found more and more ways to put these artifacts to use. And at a certain point, “flowchart” didn’t seem to cut it, so I began calling them “UI construction flows”—which, admittedly, was a mouthful—and then finally settled on the name “Interaction Experience Maps” with the help of a client.</p>
 
-<h2>The Benefits of Ix Maps</h2>
+<h2 id="the-benefits-of-ix-maps">The Benefits of Ix Maps</h2>
 
 <p>Ix Maps have become an invaluable tool to me and the teams I’ve worked with. They excel at articulating the different ways in which a given interface might adapt and what the end results of each adaptation might be.</p>
 
 <p>This sort of documentation is invaluable to just about everyone on the team:</p>
 
 <ul>
-<li>Copywriters get a clear picture of the different experience possibilities so they can craft the copy accordingly;</li>
-<li>Designers can see the different experience possibilities and can create wireframes and visual designs that account for each;</li>
-<li>Developers get a clear outline of what functionality is expected and know exactly what features and capability detection to employ in generating each experience; and</li>
-<li>The quality assurance team has a clear picture of what they should be looking for in each component of an interface.</li>
+  <li>Copywriters get a clear picture of the different experience possibilities so they can craft the copy accordingly;</li>
+  <li>Designers can see the different experience possibilities and can create wireframes and visual designs that account for each;</li>
+  <li>Developers get a clear outline of what functionality is expected and know exactly what features and capability detection to employ in generating each experience; and</li>
+  <li>The quality assurance team has a clear picture of what they should be looking for in each component of an interface.</li>
 </ul>
-
 
 <p>In short, Ix Maps ensure everyone on the team has a clear picture of what’s expected so they can work toward the common goal. One company I worked with found Ix Maps so useful that they created one for each and every pattern in their pattern library. Then they included the drawings as part of each pattern’s documentation.</p>
 
-<h2>Ix Maps Facilitate Collaboration and Iteration</h2>
+<h2 id="ix-maps-facilitate-collaboration-and-iteration">Ix Maps Facilitate Collaboration and Iteration</h2>
 
 <p>An Ix Map is a pretty simple concept for anyone to come to grips with, making it a fantastic tool for enabling mixed teams—designers, developers, content folks, business strategists, etc.—to brainstorm ideas and build a strategy around progressive enhancement.</p>
 
@@ -547,13 +538,13 @@
 
 <p>Here’s an example from <a href="https://www.facebook.com/events/804756366246427/">my Beyond Responsive workshop</a> that illustrates the evolution of a tabbed interface Ix Map from basic into something that is far more appropriate for differently-sized screens:</p>
 
-<p><figure id="fig-2015-05-28-03" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/03.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/03.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>Pass 1: If JavaScript’s available, make a tabbed interface out of linear content. If not, leave it as it was.</figcaption></figure></p>
+<figure id="fig-2015-05-28-03" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/03.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/03.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>Pass 1: If JavaScript’s available, make a tabbed interface out of linear content. If not, leave it as it was.</figcaption></figure>
 
-<p><figure id="fig-2015-05-28-04" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/04.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/04.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/04.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/04.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>Pass 2: Add a live width test into the mix to see if there’s enough room for the tabs and make it an accordion if the screen is too narrow.</figcaption></figure></p>
+<figure id="fig-2015-05-28-04" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/04.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/04.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/04.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/04.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>Pass 2: Add a live width test into the mix to see if there’s enough room for the tabs and make it an accordion if the screen is too narrow.</figcaption></figure>
 
-<p><figure id="fig-2015-05-28-05" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/05.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/05.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/05.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/05.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>Pass 3: Test for native <code>details</code>/<code>summary</code> support and use the native functionality if available.</figcaption></figure></p>
+<figure id="fig-2015-05-28-05" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/05.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/05.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/05.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/05.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>Pass 3: Test for native <code>details</code>/<code>summary</code> support and use the native functionality if available.</figcaption></figure>
 
-<h2>Simple, Powerful</h2>
+<h2 id="simple-powerful">Simple, Powerful</h2>
 
 <p>Ix Maps have been incredibly useful to me and the dozens of teams I’ve worked with. They’ve helped us explore innovative ways to solve design challenges and have been an amazing touchstone to organize our work around. Give them a shot an I’m sure you’ll discover lots of ways to put them to use in your own projects.</p>
 ]]></content>
@@ -568,42 +559,39 @@
 
 <!-- more -->
 
-
-<h2>1. Embrace mobile-first CSS</h2>
+<h2 id="embrace-mobile-first-css">1. Embrace mobile-first CSS</h2>
 
 <p>This is a quick win. I’ve done the mobile-first overhaul on a number of existing sites over the last few years and the best strategy I’ve found is this:</p>
 
 <ol>
-<li>Create two CSS files. Name the first something like &ldquo;basic.css&rdquo; and link to it with <code>media="all"</code>. Name the second something like &ldquo;advanced.css&rdquo; and link to it with <code>media="only screen"</code>.</li>
-<li>Move all of your existing desktop-only CSS into advanced.css and wrap the rules in a media query corresponding to your design width (e.g. <code>@media (min-width:60em)</code> for a 960px max width).</li>
-<li>Open a page from your site in a new browser window and make it as small as possible. Move any basic typographic and color styles from advanced.css to default.css and refresh the page. How does it look? Make the browser wider. Still acceptable? Awesome! This is the CSS you’ll serve to older browsers that don’t understand media queries and it forms the basis of your larger screen styles.</li>
-<li>Shrink the browser back down to the smallest it can go and create a breakpoint for that size in advanced.css (e.g. <code>@media (min-width:10.5em)</code> if you want to small target devices like the <a href="https://getpebble.com/">Pebble</a>). Move any styles you want applied in this scenario from your &ldquo;full screen&rdquo; breakpoint and add any new rules you need to make things look good.</li>
-<li>Increase the browser width until the layout looks odd, then make a new breakpoint and move in or add the necessary styles.</li>
-<li>Rinse &amp; repeat until you get up to the &ldquo;full screen&rdquo; layout.</li>
-<li>Move your print styles—you do have print styles, right?—into default.css and wrap them in a print <code>@media</code> block.</li>
+  <li>Create two CSS files. Name the first something like “basic.css” and link to it with <code>media="all"</code>. Name the second something like “advanced.css” and link to it with <code>media="only screen"</code>.</li>
+  <li>Move all of your existing desktop-only CSS into advanced.css and wrap the rules in a media query corresponding to your design width (e.g. <code>@media (min-width:60em)</code> for a 960px max width).</li>
+  <li>Open a page from your site in a new browser window and make it as small as possible. Move any basic typographic and color styles from advanced.css to default.css and refresh the page. How does it look? Make the browser wider. Still acceptable? Awesome! This is the CSS you’ll serve to older browsers that don’t understand media queries and it forms the basis of your larger screen styles.</li>
+  <li>Shrink the browser back down to the smallest it can go and create a breakpoint for that size in advanced.css (e.g. <code>@media (min-width:10.5em)</code> if you want to small target devices like the <a href="https://getpebble.com/">Pebble</a>). Move any styles you want applied in this scenario from your “full screen” breakpoint and add any new rules you need to make things look good.</li>
+  <li>Increase the browser width until the layout looks odd, then make a new breakpoint and move in or add the necessary styles.</li>
+  <li>Rinse &amp; repeat until you get up to the “full screen” layout.</li>
+  <li>Move your print styles—you do have print styles, right?—into default.css and wrap them in a print <code>@media</code> block.</li>
 </ol>
-
 
 <p>For another approach to responsive retrofitting, check out <a href="http://webstandardssherpa.com/reviews/responsive-retrofitting/">this piece from Ben Callahan</a>.</p>
 
-<h2>2. Focus on key tasks</h2>
+<h2 id="focus-on-key-tasks">2. Focus on key tasks</h2>
 
 <p>Every page has a purpose. If it doesn’t, you don’t need it. Find the page’s purpose and make that the focus. Eliminate distractions and reduce the amount of friction a user encounters when trying to accomplish the task.</p>
 
 <p>If company or client politics preclude you from getting rid of all distractions on a page, consider <a href="http://www.filamentgroup.com/lab/ajax-includes-modular-content.html">a lazy-loading strategy</a> to bring them in with JavaScript only when there is more screen real estate.</p>
 
-<h2>3. Get smarter about images</h2>
+<h2 id="get-smarter-about-images">3. Get smarter about images</h2>
 
 <p>Images are great, but they often comprise the majority of a web page’s bulk. To slim things down, first consider whether a given image is actually needed. If it isn’t, get rid of it. If it offers an enhancement, but isn’t crucial, consider lazy-loading it after page load. If the image is really important, <a href="https://ericportis.com/posts/2014/srcset-sizes/">use <code>srcset</code> and <code>sizes</code></a> (or the <code>picture</code> element) to deliver the smallest and yet most appropriate image to your users, based on their device.</p>
 
-<h2>4. Embrace the continuum</h2>
+<h2 id="embrace-the-continuum">4. Embrace the continuum</h2>
 
 <p>As designers and developers, we often try to control everything. But we have to realize that we can’t control everything on the Web. People on different devices have different capabilities and considerations. They will need your website to be flexible enough to allow them to accomplish their goals no matter what.</p>
 
 <p>Understanding that is key to building experiences that move seamlessly across devices. You know, <a href="http://alistapart.com/article/understandingprogressiveenhancement">progressive enhancement</a>. It’s key to embracing the Web for all of its inherent web-iness.</p>
 
-<hr>
-
+<hr />
 
 <p>And there you have it: 4 simple, but effective guidelines for creating awesome websites that will fair well under Google’s new algorithm. And guess what: Your users will benefit too.</p>
 ]]></content>
@@ -618,44 +606,72 @@
 
 <!-- more -->
 
+<blockquote>
+  <p>I’ve been trying to make my site (a content publishing “web app”) work fully without JavaScript, however, I’ve found myself in situations where I can’t honestly think how I would do some features without it.</p>
+</blockquote>
 
-<blockquote><p>I&rsquo;ve been trying to make my site (a content publishing &ldquo;web app&rdquo;) work fully without JavaScript, however, I&rsquo;ve found myself in situations where I can&rsquo;t honestly think how I would do some features without it.</p>
+<blockquote>
+  <p>For instance:</p>
+</blockquote>
 
-<p>For instance:</p>
+<blockquote>
+  <ul>
+    <li>I have a form submission page where you change certain settings, and the form changes accordingly.This is alright, I can apply query strings in the url and have some logic in my layout so that certain fields are shown/hidden according to the query string. The thing is, I also need to update a “price” dynamically, according to what fields are filled in, how they are filled in, and some other factors, and I don’t honestly see how I could do that without JavaScript.</li>
+    <li>I have a messaging section where I’m using WebSockets (with the help of Socket.io). The UI of the messaging (and of course, the
+WebSockets) stuff pretty much depends on JavaScript, with ‘messages’ being created as they arrive and appended into DOM and also a form that allows you to quickly look up an user via AJAX so you can send a message easily, among many other things.</li>
+  </ul>
+</blockquote>
 
-<ul>
-<li>I have a form submission page where you change certain settings, and the form changes accordingly.This is alright, I can apply query strings in the url and have some logic in my layout so that certain fields are shown/hidden according to the query string. The thing is, I also need to update a &ldquo;price&rdquo; dynamically, according to what fields are filled in, how they are filled in, and some other factors, and I don&rsquo;t honestly see how I could do that without JavaScript.</li>
-<li>I have a messaging section where I&rsquo;m using WebSockets (with the help of Socket.io). The UI of the messaging (and of course, the
-WebSockets) stuff pretty much depends on JavaScript, with &lsquo;messages&rsquo; being created as they arrive and appended into DOM and also a form that allows you to quickly look up an user via AJAX so you can send a message easily, among many other things.</li>
-</ul>
+<blockquote>
+  <p>I mean, I could probably come up with very complicated solutions for each situation, and obviously the functionality wouldn’t be the same. I’m thinking I might as well just require JavaScript for the whole thing</p>
+</blockquote>
 
-
-<p>I mean, I could probably come up with very complicated solutions for each situation, and obviously the functionality wouldn&rsquo;t be the same. I&rsquo;m thinking I might as well just require JavaScript for the whole thing</p>
-
-<p>But it kinda sucks, since I&rsquo;ve been making everything work without JavaScript, up until this point. And I would like some consistency across the whole site. In these kind of situations, is it acceptable to not support non-js clients? What would you suggest in this case?</p></blockquote>
+<blockquote>
+  <p>But it kinda sucks, since I’ve been making everything work without JavaScript, up until this point. And I would like some consistency across the whole site. In these kind of situations, is it acceptable to not support non-js clients? What would you suggest in this case?</p>
+</blockquote>
 
 <p>My response (which I was drafting when he deleted the question):</p>
 
-<blockquote><p>First off, I applaud your interest in using progressive enhancement. It will ensure the most users possible have access to your content and will also result in a more robust application overall. As a general guiding principle, look to the past. How did we solve these issues before widespread JavaScript availability? Those &ldquo;Web 1.0&rdquo; solutions will still work and can be overtaken by supplanted by your JavaScript solution whenever it is possible to do so.</p>
+<blockquote>
+  <p>First off, I applaud your interest in using progressive enhancement. It will ensure the most users possible have access to your content and will also result in a more robust application overall. As a general guiding principle, look to the past. How did we solve these issues before widespread JavaScript availability? Those “Web 1.0” solutions will still work and can be overtaken by supplanted by your JavaScript solution whenever it is possible to do so.</p>
+</blockquote>
 
-<p>Every situation is different, but it is even possible to reuse a lot of code in both scenarios.</p>
+<blockquote>
+  <p>Every situation is different, but it is even possible to reuse a lot of code in both scenarios.</p>
+</blockquote>
 
-<p>Now to address your interfaces…</p>
+<blockquote>
+  <p>Now to address your interfaces…</p>
+</blockquote>
 
-<p><strong>Your Submission Page</strong> &ndash; I could be wrong, but this sounds like a shopping cart to me (at least in essence). You are on the right track with query parameters, but you could also store info about the cart (and the user’s capabilities) in a session or cookie.</p>
+<blockquote>
+  <p><strong>Your Submission Page</strong> - I could be wrong, but this sounds like a shopping cart to me (at least in essence). You are on the right track with query parameters, but you could also store info about the cart (and the user’s capabilities) in a session or cookie.</p>
+</blockquote>
 
-<p>In terms of updating the &ldquo;cart&rdquo;, a simple &ldquo;update&rdquo; submit button that posts the form and triggers a redirection back to this page with the updated info would be sufficient. And if you need to show or hide fields based on choices made, you simply apply that logic on the server side. You could even have the server generate that same markup into the page, but hidden for situations where JavaScript is available.</p>
+<blockquote>
+  <p>In terms of updating the “cart”, a simple “update” submit button that posts the form and triggers a redirection back to this page with the updated info would be sufficient. And if you need to show or hide fields based on choices made, you simply apply that logic on the server side. You could even have the server generate that same markup into the page, but hidden for situations where JavaScript is available.</p>
+</blockquote>
 
-<p><strong>Your Messaging App</strong> &ndash; This can seem like a daunting challenge, but before we had web sockets and even Ajax, we relied on a small form which posts messages to the back end and a running feed of messages being sent from the back-end. One of the most common way to handle this involved frames and a &ldquo;meta refresh&rdquo; like this one:</p>
+<blockquote>
+  <p><strong>Your Messaging App</strong> - This can seem like a daunting challenge, but before we had web sockets and even Ajax, we relied on a small form which posts messages to the back end and a running feed of messages being sent from the back-end. One of the most common way to handle this involved frames and a “meta refresh” like this one:</p>
+</blockquote>
 
-<pre><code>&lt;meta http-equiv="refresh" content="30"&gt;
+<blockquote>
+  <pre><code>&lt;meta http-equiv="refresh" content="30"&gt;
 </code></pre>
+</blockquote>
 
-<p>That simple <code>meta</code> tag will make any browser refresh the page every 30 seconds. Now if you put that in an <code>iframe</code> to keep it from causing a refresh of the entire interface, any new messages would be picked up and displayed automatically at that interval (which you should tune to be appropriate for your app).</p>
+<blockquote>
+  <p>That simple <code>meta</code> tag will make any browser refresh the page every 30 seconds. Now if you put that in an <code>iframe</code> to keep it from causing a refresh of the entire interface, any new messages would be picked up and displayed automatically at that interval (which you should tune to be appropriate for your app).</p>
+</blockquote>
 
-<p>Once that is in place the page itself could even post to that frame by using the non-standard but well-supported <code>_target</code> attribute on the <code>form</code>.</p>
+<blockquote>
+  <p>Once that is in place the page itself could even post to that frame by using the non-standard but well-supported <code>_target</code> attribute on the <code>form</code>.</p>
+</blockquote>
 
-<p>Obviously with JavaScript enabled, you’d probably throw away that <code>iframe</code>, but the rest of the setup (including the templates for displaying the messages) could certainly be reused with WebSockets.</p></blockquote>
+<blockquote>
+  <p>Obviously with JavaScript enabled, you’d probably throw away that <code>iframe</code>, but the rest of the setup (including the templates for displaying the messages) could certainly be reused with WebSockets.</p>
+</blockquote>
 
 <p>I hope this helps. Progressive enhancement may seem like a huge challenge, but when you take a few moments to think about how we handled these challenges in the past, the way forward becomes clear.</p>
 ]]></content>

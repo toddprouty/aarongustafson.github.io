@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Responsive Web Design | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/responsive-web-design/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-07-31T17:23:12-04:00</updated>
+  <updated>2015-08-03T11:42:11-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -22,25 +22,21 @@
 
 <!-- more -->
 
-
-
-
-<hr>
-
+<hr />
 
 <p>Today has provided an amazing tour of the world of responsive design. We’ve seen how to level-up our workflows and processes. We’ve learned new ways to improve the accessibility of our products. We’ve grappled with modern CSS and HTML capabilities that help us embrace the hugely variable display sizes that swirl and whirl around us.</p>
 
 <p>We’ve explored the future of modular code and browsers’ capacity for working without network connectivity. And we’ve even taken a trip into the possible future of where the web might go.</p>
 
-<p><figure id="figure-2015-06-22-01">
+<figure id="figure-2015-06-22-01">
 <img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
-</figure></p>
+</figure>
 
 <p>We’ve come a long way since <a href="https://huffduffer.com/adactio/243780">Ethan’s article</a>, fluid grids, flexible media, and media queries. Those three tenets sowed a seed that has grown and flourished as we have come to better understand the implications of device proliferation. We’ve seen that the web is capable of going anywhere and doing pretty much anything.</p>
 
-<p>I would argue that <a href="https://huffduffer.com/adactio/243780">&ldquo;Responsive Web Design&rdquo;</a> was the first article that really managed to capture the concepts that John Allsopp had discussed so many years before in <a href="http://www.alistapart.com/articles/dao/">“A Dao of Web Design”</a> and distilled them into something the design and development community could really sink their teeth into. It provided a concrete example of the web’s ability to flex and mold itself into whatever shape it needed to take on.</p>
+<p>I would argue that <a href="https://huffduffer.com/adactio/243780">“Responsive Web Design”</a> was the first article that really managed to capture the concepts that John Allsopp had discussed so many years before in <a href="http://www.alistapart.com/articles/dao/">“A Dao of Web Design”</a> and distilled them into something the design and development community could really sink their teeth into. It provided a concrete example of the web’s ability to flex and mold itself into whatever shape it needed to take on.</p>
 
-<p>It was the first time many designers had come to terms with the idea that &ldquo;experience&rdquo; was not some monolithic thing.</p>
+<p>It was the first time many designers had come to terms with the idea that “experience” was not some monolithic thing.</p>
 
 <p>Sure, many of us in the web standards community had been talking the talk and walking the walk with regard to <a href="http://alistapart.com/article/understandingprogressiveenhancement">progressive enhancement</a>. And we were gaining converts, but progress was slow. Ethan demonstrated—directly and succinctly—what the progressive enhancement of visual design could look like.</p>
 
@@ -48,19 +44,19 @@
 
 <p><strong>And that doesn’t even consider our users.</strong></p>
 
-<p>When it comes to the people we need to reach for our work to actually matter, we have to consider literacy level, reading acumen, level of domain knowledge, cognitive impairments like learning disabilities and dyslexia, attention deficit issues, environmental distractions, vision impairment, hearing impairment, motor impairment, how much they understand how to use their device, how much they understand how to use their browser, how well-versed in common web conventions they are, and a ton of other &ldquo;human factors&rdquo;.</p>
+<p>When it comes to the people we need to reach for our work to actually matter, we have to consider literacy level, reading acumen, level of domain knowledge, cognitive impairments like learning disabilities and dyslexia, attention deficit issues, environmental distractions, vision impairment, hearing impairment, motor impairment, how much they understand how to use their device, how much they understand how to use their browser, how well-versed in common web conventions they are, and a ton of other “human factors”.</p>
 
 <p>Every person is different and everyone comes to the web with their own set of special needs. Some are always with them, blindness for example. Others are transient, like breaking your mousing arm. Still others are purely situational and dependent on the device you are using at the time and its technical capabilities or constraints.</p>
 
 <p>Trying to devise one monolithic experience for each and every person to have in every context that considers every factor would be impossible. And yet, Sir Tim Berners Lee had a vision for a web that was capable of going anywhere. Was he insane?</p>
 
-<p><a href="http://www.w3.org/History/1989/proposal.html">Sir Tim’s vision for the web</a> was that content could be created once and accessed from anywhere. Disparate but related pieces of &ldquo;hypermedia&rdquo; scattered across the globe could be connected to one another via links. Moreover, they would be retrievable by anyone on any device capable of reading HTML. For free.</p>
+<p><a href="http://www.w3.org/History/1989/proposal.html">Sir Tim’s vision for the web</a> was that content could be created once and accessed from anywhere. Disparate but related pieces of “hypermedia” scattered across the globe could be connected to one another via links. Moreover, they would be retrievable by anyone on any device capable of reading HTML. For free.</p>
 
 <p><strong>Ultimately, Sir Tim envisioned universal accessibility.</strong></p>
 
 <p>For a great many of us, ensuring our websites are accessible is an afterthought. We talk a good game when it comes to “user centered” this or that, but often treat the word “accessibility” as a synonym for “screen reader”. It’s so much more than that. “Accessibility” is about people. People consume content and use interfaces in many different ways, some similar and some quite dissimilar to how we do it.</p>
 
-<p>Sure, people with visual impairments often use a screen reader to consume content. But they might also use a braille touch feedback device or a braille printer. They probably also use a keyboard. Or they may use a touchscreen in concert with audio cues. Or they may even use a camera to allow them to &ldquo;read&rdquo; content via OCR and text-to-speech. And yes, visual impairment affects a decent percentage of the populace (especially as we age), but it is only part of the “accessibility” puzzle.</p>
+<p>Sure, people with visual impairments often use a screen reader to consume content. But they might also use a braille touch feedback device or a braille printer. They probably also use a keyboard. Or they may use a touchscreen in concert with audio cues. Or they may even use a camera to allow them to “read” content via OCR and text-to-speech. And yes, visual impairment affects a decent percentage of the populace (especially as we age), but it is only part of the “accessibility” puzzle.</p>
 
 <p>The contrast between text and the background is an important factor in ensuring content remains readable in different lighting situations. Color choice is an accessibility concern.</p>
 
@@ -78,9 +74,9 @@
 
 <p>Embracing the reality that experience does’t need to be just one thing will help us reach more people with fewer headaches. Experience can—and should—be crafted as a continuum. This is progressive enhancement: We start with a baseline experience that works for everyone—content, real links, first generation form controls, and forms that actually submit to the server. Then we build up the experience from there.</p>
 
-<p><figure id="figure-2015-06-22-02">
-<img src="http://www.aaron-gustafson.com/i/posts/2015-06-22/02.gif" alt="">
-</figure></p>
+<figure id="figure-2015-06-22-02">
+<img src="http://www.aaron-gustafson.com/i/posts/2015-06-22/02.gif" alt="" />
+</figure>
 
 <p>Your browser supports HTML5 form controls? Great! You’ll get a better virtual keyboard when you go to type your email address. You can use CSS? Awesome, let me make that reading experience better for you. Oh, you can handle media queries! Let me adjust the layout so those line lengths are a little more comfortable. Wow, your browser supports Ajax?! Here let me load in some teasers for related content you might find interesting.</p>
 
@@ -88,15 +84,19 @@
 
 <p>And yet we—as an industry—don’t seem to have any problem telling someone they need to change their browser to accommodate us. That’s just wrong. Our work is meaningless without users. We should be bending over backwards to attract and retain them. This is customer service 101.</p>
 
-<p>This comes back to Postel&rsquo;s law, which Jeremy often recounts:</p>
+<p>This comes back to Postel’s law, which Jeremy often recounts:</p>
 
-<blockquote><p>Be conservative in what you do, be liberal in what you accept from others.</p></blockquote>
+<blockquote>
+  <p>Be conservative in what you do, be liberal in what you accept from others.</p>
+</blockquote>
 
-<p>We need to be lax when it comes to browser support and not make to many (or better yet any) assumptions about what we can send.</p>
+<p>We need to be lax when it comes to browser support and not make to many (or better yet any) assumptions about what we can send. </p>
 
 <p>Of course this is not an approach everyone in our industry is ready to embrace, so I’ll offer another quote I come back to time and time again…</p>
 
-<blockquote><p>When something happens, the only thing in your power is your attitude toward it; you can either accept it or resent it.</p></blockquote>
+<blockquote>
+  <p>When something happens, the only thing in your power is your attitude toward it; you can either accept it or resent it.</p>
+</blockquote>
 
 <p>We can’t control the world, we can only control our reaction to it.</p>
 
@@ -104,11 +104,11 @@
 
 <p>It’s up to us to educate those around us who have—either by accident or intent—not accepted that diversity is the reality we live in and things are only going to get crazier. Burying our heads in the sand is not an option.</p>
 
-<p>When I am trying to help folks understand and embrace diversity, I often reach for one of my favorite thought exercises from <a href="https://en.wikipedia.org/wiki/John_Rawls">John Rawls</a>.</p>
+<p>When I am trying to help folks understand and embrace diversity, I often reach for one of my favorite thought exercises from <a href="https://en.wikipedia.org/wiki/John_Rawls">John Rawls</a>. </p>
 
-<p><figure id="figure-2015-06-22-03">
+<figure id="figure-2015-06-22-03">
 <img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
-</figure></p>
+</figure>
 
 <p>Rawls was a philosopher who used to run a social experiment with students, church groups, and the like.</p>
 
@@ -120,9 +120,9 @@
 
 <p>The things we do to accommodate special needs now pay dividends in the future. Look at ramps.</p>
 
-<p><figure id="figure-2015-06-22-04">
+<figure id="figure-2015-06-22-04">
 <img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
-</figure></p>
+</figure>
 
 <p>They’re a classic example of an accessibility feature for people in wheelchairs that also benefit people who aren’t in them: People toting luggage, delivery services hauling heavy things on dollies, parents pushing children (or their dressed up dogs) in strollers, a commuter walking her bike, and that guy who just prefers walking up a gentle incline to expending the effort required to mount a step.</p>
 
@@ -142,7 +142,7 @@
 
 <p>The first big leap in this direction was <a href="https://en.wikipedia.org/wiki/Kinect">Kinect</a> on the Xbox 360 (and later, Windows). With Kinect, we interact with the computer using body movements like raising a hand (which gets Kinect to pay attention), pushing our hand forward to click/tap, and grasping to drag the canvas in a particular direction.</p>
 
-<p>The Kinect ushered in a major revolution in terms of interfacing with computers, but from an interaction perspective, it presents similar challenges to those of the <a href="https://en.wikipedia.org/wiki/Wii#Wii_Remote">Wii controller</a> and Sony’s <a href="https://en.wikipedia.org/wiki/PlayStation_Move">PlayStation Move</a>. Large body gestures like raising your hand (or a wand controller) can be tiring.</p>
+<p>The Kinect ushered in a major revolution in terms of interfacing with computers, but from an interaction perspective, it presents similar challenges to those of the <a href="https://en.wikipedia.org/wiki/Wii#Wii_Remote">Wii controller</a> and Sony’s <a href="https://en.wikipedia.org/wiki/PlayStation_Move">PlayStation Move</a>. Large body gestures like raising your hand (or a wand controller) can be tiring. </p>
 
 <p><figure id="fig-21LtA5-wiwU" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(http://i2.ytimg.com/vi/21LtA5-wiwU/0.jpg);" href="//www.youtube.com/watch?v=21LtA5-wiwU&amp;start=7&amp;end=19" data-lazy-video-src="http://www.youtube.com/embed/21LtA5-wiwU?autoplay=1&amp;start=7&amp;end=19&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Leap Motion With Windows</div></a></div></figure></p>
 
@@ -161,7 +161,7 @@
 }</code></pre></noscript></div>
 </p>
 
-<p>Of course, we want to offer a sensible default in terms of size and spacing as a fallback for older browsers and devices.</p>
+<p>Of course, we want to offer a sensible default in terms of size and spacing as a fallback for older browsers and devices. </p>
 
 <p>We also have the ability to determine whether the device is capable of hovering over an element and can adjust the interface accordingly.</p>
 
@@ -180,7 +180,9 @@
 
 <p>We still need to figure out how well all of this ends up working on multimodal devices like the Surface tablet, however. Will the design change as the user switches between input modes? Should it? To that end, the spec also provides <code>any-pointer</code> and <code>any-hover</code> to allow you to query for whether <em>any</em> supported interaction method meets your requirements, but here’s a word of warning from the spec:</p>
 
-<blockquote><p>Designing a page that relies on hovering or accurate pointing only because <code>any-hover</code> or <code>any-pointer</code> indicate that an input mechanism with these capabilities is available, is likely to result in a poor experience.</p></blockquote>
+<blockquote>
+  <p>Designing a page that relies on hovering or accurate pointing only because <code>any-hover</code> or <code>any-pointer</code> indicate that an input mechanism with these capabilities is available, is likely to result in a poor experience.</p>
+</blockquote>
 
 <p>These media query options are starting to roll out in Chrome, Mobile Safari, and Microsoft Edge, so it’s worth taking a look at them.</p>
 
@@ -248,7 +250,7 @@
 
 <p>In a similar vein, we should begin to think about what experiences can and should look like when we are browsing solely with our gaze. Gaze tracking has its origins in the accessibility space as a means of providing interface control to folks with limited or no use of their hands. Traditionally, gaze tracking hardware has been several thousand dollars, putting it out of the reach of many people, but that is starting to change.</p>
 
-<p>In the last few years, the computational power of our devices has increased as the hardware costs associated with supporting gaze tracking have dropped dramatically. Looking around, you can see gaze tracking beginning to move into the public sphere: Many smartphones and smartwatches can recognize when you are looking at them (or at least they do sometimes). This is only a short step away from knowing where on the screen you are looking. And nearly every high-end smartphone is now equipped with a front-facing camera which makes them perfect candidates to provide this interaction method.</p>
+<p>In the last few years, the computational power of our devices has increased as the hardware costs associated with supporting gaze tracking have dropped dramatically. Looking around, you can see gaze tracking beginning to move into the public sphere: Many smartphones and smartwatches can recognize when you are looking at them (or at least they do sometimes). This is only a short step away from knowing where on the screen you are looking. And nearly every high-end smartphone is now equipped with a front-facing camera which makes them perfect candidates to provide this interaction method. </p>
 
 <p><figure id="fig-DEk7PlJWQgI" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(http://i2.ytimg.com/vi/DEk7PlJWQgI/0.jpg);" href="//www.youtube.com/watch?v=DEk7PlJWQgI&amp;start=18&amp;end=54" data-lazy-video-src="http://www.youtube.com/embed/DEk7PlJWQgI?autoplay=1&amp;start=18&amp;end=54&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">The Sesame Phone</div></a></div></figure></p>
 
@@ -266,7 +268,7 @@
 
 <p>Most of us are familiar with <a href="https://en.wikipedia.org/wiki/Siri">Apple’s Siri</a>, <a href="https://en.wikipedia.org/wiki/Google_Now">Google Now</a>, and <a href="https://en.wikipedia.org/wiki/Microsoft_Cortana">Microsoft’s Cortana</a>. These digital assistants are great at retrieving information from select sources and doing other assistant-y things like calculating a tip and setting a reminder. As far as interacting with the web, however, they don’t… yet. We can engage with them, but they can‘t (necessarily) engage with a web page.</p>
 
-<p>Exposing the information stored in our webpages via semantic HTML and structured syntaxes like <a href="http://microformats.org/">microformats</a>, <a href="https://en.wikipedia.org/wiki/Microdata_(HTML">microdata</a>), and <a href="https://en.wikipedia.org/wiki/RDFa">RDFa</a> <em>should</em> eventually make our content available to these assistants, but we don’t really know. Their various makers haven’t really given us any clue as to how to do that and, as it stands right now, none of them can look up a web page and read it to you. For that you need to invoke a screen reader.</p>
+<p>Exposing the information stored in our webpages via semantic HTML and structured syntaxes like <a href="http://microformats.org/">microformats</a>, <a href="https://en.wikipedia.org/wiki/Microdata_(HTML)">microdata</a>, and <a href="https://en.wikipedia.org/wiki/RDFa">RDFa</a> <em>should</em> eventually make our content available to these assistants, but we don’t really know. Their various makers haven’t really given us any clue as to how to do that and, as it stands right now, none of them can look up a web page and read it to you. For that you need to invoke a screen reader.</p>
 
 <p>Each company offers a first-party screen reader. And all are capable of helping you interact with a page, including helping you fill in forms, without having to see the page. And yet, these technologies have not been coupled with their corresponding assistants. It probably won’t be long before we see that happen.</p>
 
@@ -282,7 +284,7 @@
 <noscript><pre><code>&lt;meta name=“msapplication-cortanavcd&quot; content=&quot;http://myapp.io/vcd.xml&quot;&gt;</code></pre></noscript></div>
 </p>
 
-<p>The referenced VCD file is simply an XML file defining the keyword for the web app and commands that can be issued.</p>
+<p>The referenced VCD file is simply an XML file defining the keyword for the web app and commands that can be issued. </p>
 
 <p>Using very basic syntax, The VCD identifies optional pieces of a given phrase and variables Cortana should extract:</p>
 
@@ -307,13 +309,13 @@
 
 <p>But traditional computers and smart mobile devices aren’t the only place we’re starting to see voice based experiences. We also have disembodied voices like <a href="https://en.wikipedia.org/wiki/Amazon_Echo">Amazon’s Echo</a> and <a href="http://www.theubi.com/">the Ubi</a> which are completely headless.</p>
 
-<p><figure id="figure-2015-06-22-11">
+<figure id="figure-2015-06-22-11">
 <img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
-</figure></p>
+</figure>
 
-<p>Right now, they both seem squarely focused on helping your house become &ldquo;smarter"—streaming music, adjusting the thermostat, etc.—but it isn’t hard to imagine these devices becoming coupled with the ability to browse and interact with the web.</p>
+<p>Right now, they both seem squarely focused on helping your house become “smarter”—streaming music, adjusting the thermostat, etc.—but it isn’t hard to imagine these devices becoming coupled with the ability to browse and interact with the web.</p>
 
-<p>In the near future, voice-based interactions with the web will be entirely possible. They will likely suck a bit at first, but they&rsquo;ll get better.</p>
+<p>In the near future, voice-based interactions with the web will be entirely possible. They will likely suck a bit at first, but they’ll get better.</p>
 
 <p>I’m going to make a somewhat bold prediction: while touch has been revolutionary in many ways toward improving digital access, voice is going to be even more significant. Voice-based interfaces will create new opportunities for people to interact with and participate in the digital world.</p>
 
@@ -329,21 +331,19 @@
 
 <p>This is an incredibly exciting time, not just for the responsive design community, not just the web, but for the world! The future is coming and I can’t wait to see how awesome you make it!</p>
 
-<p><figure id="figure-2015-06-22-12">
+<figure id="figure-2015-06-22-12">
 <img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
-</figure></p>
+</figure>
 
-<hr>
-
+<hr />
 
 <p><em>Responsive Day Out 3: The Final Breakpoint was held in Brighton, UK on 19 June 2015.</em></p>
 
 <ul>
-<li><a href="https://huffduffer.com/adactio/243780">Listen to this presentation on Huffduffer</a>.</li>
-<li>Read <a href="https://decadecity.net/blog/2015/06/19/aaron-gustafson-where-do-we-go-here">Orde Saunders’ notes</a> from my talk.</li>
-<li>Read <a href="https://hiddedevries.nl/en/blog/2015-06-20-responsive-day-out-3-the-final-breakpoint/">Hidde de Vries’ recap of the day</a>.</li>
+  <li><a href="https://huffduffer.com/adactio/243780">Listen to this presentation on Huffduffer</a>.</li>
+  <li>Read <a href="https://decadecity.net/blog/2015/06/19/aaron-gustafson-where-do-we-go-here">Orde Saunders’ notes</a> from my talk.</li>
+  <li>Read <a href="https://hiddedevries.nl/en/blog/2015-06-20-responsive-day-out-3-the-final-breakpoint/">Hidde de Vries’ recap of the day</a>.</li>
 </ul>
-
 ]]></content>
   </entry>
   
@@ -356,12 +356,11 @@
 
 <!-- more -->
 
-
 <p>Most Nichols College sites run on <a href="http://ellislabs.com/expressionengine">EllisLab’s ExpressionEngine</a>, a solid little workhorse of a CMS we’ve been using for years. We love it because it gives us complete control over the markup it generates. Now EE offers some pretty decent file management and image manipulation utilities out of the box, but the options it provides were not enough to handle our adaptive image needs; we needed backup. <a href="http://www.causingeffect.com/software/expressionengine/ce-image">Causing Effect’s CE Image</a> add-on is reasonably priced and offered exactly the functionality we needed to make our adaptive image dreams a reality.</p>
 
 <p>I won’t bore you with how to set up CE Image as there is <a href="http://www.causingeffect.com/software/expressionengine/ce-image/user-guide">documentation on that</a>, but I will walk you through two different responsive image use-cases we had and how we addressed them using this add-on.</p>
 
-<h2>Header images</h2>
+<h2 id="header-images">Header images</h2>
 
 <p>The first use case we had was a series of large, focal images. You can find different examples of them on <a href="http://www.nichols.edu">the homepage</a> and landing pages (like <a href="http://www.nichols.edu/admissions/">this one for Admissions</a>). The first pass on making these images adaptive involved the <code>picture</code> element for which <a href="https://html.spec.whatwg.org/multipage/embedded-content.html#adaptive-images">the spec</a> is known. The markup we were generating was based on the pattern outlined for <a href="http://scottjehl.github.io/picturefill/">Picturefill</a>, a JavaScript polyfill that implements adaptive images in browsers that don’t do it natively:</p>
 
@@ -439,15 +438,14 @@
 <p>This is an example using CE Image’s tag pair option, which lets you control the markup output. In the opening tag, we set several properties:</p>
 
 <ul>
-<li><code>src</code> is the path to the original image uploaded by content authors;</li>
-<li><code>filename_suffix</code> is the suffix we want added to the cached file to differentiate it from others in the cache (and make the files more easily scannable);</li>
-<li><code>width</code> is our desired output width for the generated image;</li>
-<li><code>allow_scale_larger</code> does exactly what you’d expect: it dictates whether or not CE Image should scale the image to reach the desired width;</li>
-<li><code>crop</code> tells CE Image whether it’s okay to crop the image;</li>
-<li><code>interlace</code> tells CE Image to use image interlacing (which can speed load time); and</li>
-<li><code>cache_dir</code> tells CE Image where to store the cached image (in relation to our global configuration)</li>
+  <li><code>src</code> is the path to the original image uploaded by content authors;</li>
+  <li><code>filename_suffix</code> is the suffix we want added to the cached file to differentiate it from others in the cache (and make the files more easily scannable);</li>
+  <li><code>width</code> is our desired output width for the generated image;</li>
+  <li><code>allow_scale_larger</code> does exactly what you’d expect: it dictates whether or not CE Image should scale the image to reach the desired width;</li>
+  <li><code>crop</code> tells CE Image whether it’s okay to crop the image;</li>
+  <li><code>interlace</code> tells CE Image to use image interlacing (which can speed load time); and</li>
+  <li><code>cache_dir</code> tells CE Image where to store the cached image (in relation to our global configuration)</li>
 </ul>
-
 
 <p>Then, within the tag pair is the <code>source</code> element with the <code>srcset</code> value set to the path to the file CE Image generated (referenced by the <code>made</code> variable) and the associated media query.</p>
 
@@ -506,9 +504,9 @@
 
 <p>The added bonus of this approach is that I am not hard-coding any media queries and the browser gets to make the ultimate decision of which image to request. All I am doing is telling the browser the image options and their respective widths within the <code>srcset</code> attribute. As all of the images take up 100% of their containers, I didn’t even need to use the <code>sizes</code> attribute. Easy peasy.</p>
 
-<h2>&ldquo;Nice to Have&rdquo; Images</h2>
+<h2 id="nice-to-have-images">“Nice to Have” Images</h2>
 
-<p>Not every image adds something to the page. Some are purely optional, a visual enhancement. In order to reduce the size of pages on smaller screens, we often choose to &ldquo;lazy load&rdquo; certain image assets after page load, when we know there is enough room to display the image or when we feel it would be an enhancement to the design.</p>
+<p>Not every image adds something to the page. Some are purely optional, a visual enhancement. In order to reduce the size of pages on smaller screens, we often choose to “lazy load” certain image assets after page load, when we know there is enough room to display the image or when we feel it would be an enhancement to the design.</p>
 
 <p>Now some of you might be wondering: <em>Why not just <code>display:none</code> below a certain threshold?</em> Well, I’ll tell you: images that are hidden with CSS are still requested by the browser. That means users who don’t see the images are still paying to download them (whether in terms of time waiting for the page to render or actual money on a metered connection). That kinda sucks for them. We should show our users a bit more respect and only request the images when we need them.</p>
 
@@ -519,7 +517,7 @@
      data-image-src=&quot;Tim-Smith_220x140_220_140_int_c1.jpg&quot;&gt;&lt;/div&gt;</code></pre></noscript></div>
 </p>
 
-<p>The <code>data-img-src</code> attribute defines the path to the &ldquo;nice to have&rdquo; image and then the JavaScript adds the image element into the page when the appropriate conditions are met:</p>
+<p>The <code>data-img-src</code> attribute defines the path to the “nice to have” image and then the JavaScript adds the image element into the page when the appropriate conditions are met:</p>
 
 <p><div><script src='https://gist.github.com/96dd157a0206d59ac30a.js?file=lazy-loaded-result.html'></script>
 <noscript><pre><code>&lt;div class=&quot;module__image image--lazy&quot;

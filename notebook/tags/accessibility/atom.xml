@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Accessibility | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/accessibility/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-07-31T17:23:12-04:00</updated>
+  <updated>2015-08-03T11:42:11-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -22,14 +22,17 @@
 
 <!-- more -->
 
-
 <p>The DOJ Statements make it quite clear that</p>
 
-<blockquote><p>Both the ADA and Section 504 currently obligate Harvard to provide effective communication to ensure equal access to its online programming services, and resolution of Plaintiffs’ claim involves a straightforward application of longstanding statutory and regulatory requirements. For more than two decades, federal courts have resolved effective communication claims brought under the ADA and Section 504 in a wide range of contexts, including claims alleging unequal access to goods, benefits and services provided through websites or other electronic media. And the Departments of Justice and Education have routinely required covered entities to ensure equal access to goods, benefits and services, electronic or otherwise, through the provision of captioning or other auxiliary aids or services.</p></blockquote>
+<blockquote>
+  <p>Both the ADA and Section 504 currently obligate Harvard to provide effective communication to ensure equal access to its online programming services, and resolution of Plaintiffs’ claim involves a straightforward application of longstanding statutory and regulatory requirements. For more than two decades, federal courts have resolved effective communication claims brought under the ADA and Section 504 in a wide range of contexts, including claims alleging unequal access to goods, benefits and services provided through websites or other electronic media. And the Departments of Justice and Education have routinely required covered entities to ensure equal access to goods, benefits and services, electronic or otherwise, through the provision of captioning or other auxiliary aids or services. </p>
+</blockquote>
 
 <p>Also…</p>
 
-<blockquote><p>[T]he Department issued an Advanced Notice of Proposed Rulemaking (“ANPRM”) on Accessibility of Web Information and Services of State and Local Government Entities and Public Accommodations, announcing the Department’s interest in developing more specific requirements or technical standards for  website accessibility. … In the ANPRM, the Department reaffirmed its longstanding position that the ADA applies to websites of public accommodations, and reiterated, consistent with the preamble to the 1991 regulations, that the ADA regulations should be interpreted to keep pace with developing technologies.</p></blockquote>
+<blockquote>
+  <p>[T]he Department issued an Advanced Notice of Proposed Rulemaking (“ANPRM”) on Accessibility of Web Information and Services of State and Local Government Entities and Public Accommodations, announcing the Department’s interest in developing more specific requirements or technical standards for  website accessibility. … In the ANPRM, the Department reaffirmed its longstanding position that the ADA applies to websites of public accommodations, and reiterated, consistent with the preamble to the 1991 regulations, that the ADA regulations should be interpreted to keep pace with developing technologies.</p>
+</blockquote>
 
 <p>Neither case has been settled yet, but the fact that the DOJ is siding with the NAD will lend more credence to their complaints and will likely result in one or both institutions settling out of court and, eventually, captioning their videos.</p>
 
@@ -52,25 +55,21 @@
 
 <!-- more -->
 
-
-
-
-<hr>
-
+<hr />
 
 <p>Today has provided an amazing tour of the world of responsive design. We’ve seen how to level-up our workflows and processes. We’ve learned new ways to improve the accessibility of our products. We’ve grappled with modern CSS and HTML capabilities that help us embrace the hugely variable display sizes that swirl and whirl around us.</p>
 
 <p>We’ve explored the future of modular code and browsers’ capacity for working without network connectivity. And we’ve even taken a trip into the possible future of where the web might go.</p>
 
-<p><figure id="figure-2015-06-22-01">
+<figure id="figure-2015-06-22-01">
 <img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
-</figure></p>
+</figure>
 
 <p>We’ve come a long way since <a href="https://huffduffer.com/adactio/243780">Ethan’s article</a>, fluid grids, flexible media, and media queries. Those three tenets sowed a seed that has grown and flourished as we have come to better understand the implications of device proliferation. We’ve seen that the web is capable of going anywhere and doing pretty much anything.</p>
 
-<p>I would argue that <a href="https://huffduffer.com/adactio/243780">&ldquo;Responsive Web Design&rdquo;</a> was the first article that really managed to capture the concepts that John Allsopp had discussed so many years before in <a href="http://www.alistapart.com/articles/dao/">“A Dao of Web Design”</a> and distilled them into something the design and development community could really sink their teeth into. It provided a concrete example of the web’s ability to flex and mold itself into whatever shape it needed to take on.</p>
+<p>I would argue that <a href="https://huffduffer.com/adactio/243780">“Responsive Web Design”</a> was the first article that really managed to capture the concepts that John Allsopp had discussed so many years before in <a href="http://www.alistapart.com/articles/dao/">“A Dao of Web Design”</a> and distilled them into something the design and development community could really sink their teeth into. It provided a concrete example of the web’s ability to flex and mold itself into whatever shape it needed to take on.</p>
 
-<p>It was the first time many designers had come to terms with the idea that &ldquo;experience&rdquo; was not some monolithic thing.</p>
+<p>It was the first time many designers had come to terms with the idea that “experience” was not some monolithic thing.</p>
 
 <p>Sure, many of us in the web standards community had been talking the talk and walking the walk with regard to <a href="http://alistapart.com/article/understandingprogressiveenhancement">progressive enhancement</a>. And we were gaining converts, but progress was slow. Ethan demonstrated—directly and succinctly—what the progressive enhancement of visual design could look like.</p>
 
@@ -78,19 +77,19 @@
 
 <p><strong>And that doesn’t even consider our users.</strong></p>
 
-<p>When it comes to the people we need to reach for our work to actually matter, we have to consider literacy level, reading acumen, level of domain knowledge, cognitive impairments like learning disabilities and dyslexia, attention deficit issues, environmental distractions, vision impairment, hearing impairment, motor impairment, how much they understand how to use their device, how much they understand how to use their browser, how well-versed in common web conventions they are, and a ton of other &ldquo;human factors&rdquo;.</p>
+<p>When it comes to the people we need to reach for our work to actually matter, we have to consider literacy level, reading acumen, level of domain knowledge, cognitive impairments like learning disabilities and dyslexia, attention deficit issues, environmental distractions, vision impairment, hearing impairment, motor impairment, how much they understand how to use their device, how much they understand how to use their browser, how well-versed in common web conventions they are, and a ton of other “human factors”.</p>
 
 <p>Every person is different and everyone comes to the web with their own set of special needs. Some are always with them, blindness for example. Others are transient, like breaking your mousing arm. Still others are purely situational and dependent on the device you are using at the time and its technical capabilities or constraints.</p>
 
 <p>Trying to devise one monolithic experience for each and every person to have in every context that considers every factor would be impossible. And yet, Sir Tim Berners Lee had a vision for a web that was capable of going anywhere. Was he insane?</p>
 
-<p><a href="http://www.w3.org/History/1989/proposal.html">Sir Tim’s vision for the web</a> was that content could be created once and accessed from anywhere. Disparate but related pieces of &ldquo;hypermedia&rdquo; scattered across the globe could be connected to one another via links. Moreover, they would be retrievable by anyone on any device capable of reading HTML. For free.</p>
+<p><a href="http://www.w3.org/History/1989/proposal.html">Sir Tim’s vision for the web</a> was that content could be created once and accessed from anywhere. Disparate but related pieces of “hypermedia” scattered across the globe could be connected to one another via links. Moreover, they would be retrievable by anyone on any device capable of reading HTML. For free.</p>
 
 <p><strong>Ultimately, Sir Tim envisioned universal accessibility.</strong></p>
 
 <p>For a great many of us, ensuring our websites are accessible is an afterthought. We talk a good game when it comes to “user centered” this or that, but often treat the word “accessibility” as a synonym for “screen reader”. It’s so much more than that. “Accessibility” is about people. People consume content and use interfaces in many different ways, some similar and some quite dissimilar to how we do it.</p>
 
-<p>Sure, people with visual impairments often use a screen reader to consume content. But they might also use a braille touch feedback device or a braille printer. They probably also use a keyboard. Or they may use a touchscreen in concert with audio cues. Or they may even use a camera to allow them to &ldquo;read&rdquo; content via OCR and text-to-speech. And yes, visual impairment affects a decent percentage of the populace (especially as we age), but it is only part of the “accessibility” puzzle.</p>
+<p>Sure, people with visual impairments often use a screen reader to consume content. But they might also use a braille touch feedback device or a braille printer. They probably also use a keyboard. Or they may use a touchscreen in concert with audio cues. Or they may even use a camera to allow them to “read” content via OCR and text-to-speech. And yes, visual impairment affects a decent percentage of the populace (especially as we age), but it is only part of the “accessibility” puzzle.</p>
 
 <p>The contrast between text and the background is an important factor in ensuring content remains readable in different lighting situations. Color choice is an accessibility concern.</p>
 
@@ -108,9 +107,9 @@
 
 <p>Embracing the reality that experience does’t need to be just one thing will help us reach more people with fewer headaches. Experience can—and should—be crafted as a continuum. This is progressive enhancement: We start with a baseline experience that works for everyone—content, real links, first generation form controls, and forms that actually submit to the server. Then we build up the experience from there.</p>
 
-<p><figure id="figure-2015-06-22-02">
-<img src="http://www.aaron-gustafson.com/i/posts/2015-06-22/02.gif" alt="">
-</figure></p>
+<figure id="figure-2015-06-22-02">
+<img src="http://www.aaron-gustafson.com/i/posts/2015-06-22/02.gif" alt="" />
+</figure>
 
 <p>Your browser supports HTML5 form controls? Great! You’ll get a better virtual keyboard when you go to type your email address. You can use CSS? Awesome, let me make that reading experience better for you. Oh, you can handle media queries! Let me adjust the layout so those line lengths are a little more comfortable. Wow, your browser supports Ajax?! Here let me load in some teasers for related content you might find interesting.</p>
 
@@ -118,15 +117,19 @@
 
 <p>And yet we—as an industry—don’t seem to have any problem telling someone they need to change their browser to accommodate us. That’s just wrong. Our work is meaningless without users. We should be bending over backwards to attract and retain them. This is customer service 101.</p>
 
-<p>This comes back to Postel&rsquo;s law, which Jeremy often recounts:</p>
+<p>This comes back to Postel’s law, which Jeremy often recounts:</p>
 
-<blockquote><p>Be conservative in what you do, be liberal in what you accept from others.</p></blockquote>
+<blockquote>
+  <p>Be conservative in what you do, be liberal in what you accept from others.</p>
+</blockquote>
 
-<p>We need to be lax when it comes to browser support and not make to many (or better yet any) assumptions about what we can send.</p>
+<p>We need to be lax when it comes to browser support and not make to many (or better yet any) assumptions about what we can send. </p>
 
 <p>Of course this is not an approach everyone in our industry is ready to embrace, so I’ll offer another quote I come back to time and time again…</p>
 
-<blockquote><p>When something happens, the only thing in your power is your attitude toward it; you can either accept it or resent it.</p></blockquote>
+<blockquote>
+  <p>When something happens, the only thing in your power is your attitude toward it; you can either accept it or resent it.</p>
+</blockquote>
 
 <p>We can’t control the world, we can only control our reaction to it.</p>
 
@@ -134,11 +137,11 @@
 
 <p>It’s up to us to educate those around us who have—either by accident or intent—not accepted that diversity is the reality we live in and things are only going to get crazier. Burying our heads in the sand is not an option.</p>
 
-<p>When I am trying to help folks understand and embrace diversity, I often reach for one of my favorite thought exercises from <a href="https://en.wikipedia.org/wiki/John_Rawls">John Rawls</a>.</p>
+<p>When I am trying to help folks understand and embrace diversity, I often reach for one of my favorite thought exercises from <a href="https://en.wikipedia.org/wiki/John_Rawls">John Rawls</a>. </p>
 
-<p><figure id="figure-2015-06-22-03">
+<figure id="figure-2015-06-22-03">
 <img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
-</figure></p>
+</figure>
 
 <p>Rawls was a philosopher who used to run a social experiment with students, church groups, and the like.</p>
 
@@ -150,9 +153,9 @@
 
 <p>The things we do to accommodate special needs now pay dividends in the future. Look at ramps.</p>
 
-<p><figure id="figure-2015-06-22-04">
+<figure id="figure-2015-06-22-04">
 <img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
-</figure></p>
+</figure>
 
 <p>They’re a classic example of an accessibility feature for people in wheelchairs that also benefit people who aren’t in them: People toting luggage, delivery services hauling heavy things on dollies, parents pushing children (or their dressed up dogs) in strollers, a commuter walking her bike, and that guy who just prefers walking up a gentle incline to expending the effort required to mount a step.</p>
 
@@ -172,7 +175,7 @@
 
 <p>The first big leap in this direction was <a href="https://en.wikipedia.org/wiki/Kinect">Kinect</a> on the Xbox 360 (and later, Windows). With Kinect, we interact with the computer using body movements like raising a hand (which gets Kinect to pay attention), pushing our hand forward to click/tap, and grasping to drag the canvas in a particular direction.</p>
 
-<p>The Kinect ushered in a major revolution in terms of interfacing with computers, but from an interaction perspective, it presents similar challenges to those of the <a href="https://en.wikipedia.org/wiki/Wii#Wii_Remote">Wii controller</a> and Sony’s <a href="https://en.wikipedia.org/wiki/PlayStation_Move">PlayStation Move</a>. Large body gestures like raising your hand (or a wand controller) can be tiring.</p>
+<p>The Kinect ushered in a major revolution in terms of interfacing with computers, but from an interaction perspective, it presents similar challenges to those of the <a href="https://en.wikipedia.org/wiki/Wii#Wii_Remote">Wii controller</a> and Sony’s <a href="https://en.wikipedia.org/wiki/PlayStation_Move">PlayStation Move</a>. Large body gestures like raising your hand (or a wand controller) can be tiring. </p>
 
 <p><figure id="fig-21LtA5-wiwU" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(http://i2.ytimg.com/vi/21LtA5-wiwU/0.jpg);" href="//www.youtube.com/watch?v=21LtA5-wiwU&amp;start=7&amp;end=19" data-lazy-video-src="http://www.youtube.com/embed/21LtA5-wiwU?autoplay=1&amp;start=7&amp;end=19&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Leap Motion With Windows</div></a></div></figure></p>
 
@@ -191,7 +194,7 @@
 }</code></pre></noscript></div>
 </p>
 
-<p>Of course, we want to offer a sensible default in terms of size and spacing as a fallback for older browsers and devices.</p>
+<p>Of course, we want to offer a sensible default in terms of size and spacing as a fallback for older browsers and devices. </p>
 
 <p>We also have the ability to determine whether the device is capable of hovering over an element and can adjust the interface accordingly.</p>
 
@@ -210,7 +213,9 @@
 
 <p>We still need to figure out how well all of this ends up working on multimodal devices like the Surface tablet, however. Will the design change as the user switches between input modes? Should it? To that end, the spec also provides <code>any-pointer</code> and <code>any-hover</code> to allow you to query for whether <em>any</em> supported interaction method meets your requirements, but here’s a word of warning from the spec:</p>
 
-<blockquote><p>Designing a page that relies on hovering or accurate pointing only because <code>any-hover</code> or <code>any-pointer</code> indicate that an input mechanism with these capabilities is available, is likely to result in a poor experience.</p></blockquote>
+<blockquote>
+  <p>Designing a page that relies on hovering or accurate pointing only because <code>any-hover</code> or <code>any-pointer</code> indicate that an input mechanism with these capabilities is available, is likely to result in a poor experience.</p>
+</blockquote>
 
 <p>These media query options are starting to roll out in Chrome, Mobile Safari, and Microsoft Edge, so it’s worth taking a look at them.</p>
 
@@ -278,7 +283,7 @@
 
 <p>In a similar vein, we should begin to think about what experiences can and should look like when we are browsing solely with our gaze. Gaze tracking has its origins in the accessibility space as a means of providing interface control to folks with limited or no use of their hands. Traditionally, gaze tracking hardware has been several thousand dollars, putting it out of the reach of many people, but that is starting to change.</p>
 
-<p>In the last few years, the computational power of our devices has increased as the hardware costs associated with supporting gaze tracking have dropped dramatically. Looking around, you can see gaze tracking beginning to move into the public sphere: Many smartphones and smartwatches can recognize when you are looking at them (or at least they do sometimes). This is only a short step away from knowing where on the screen you are looking. And nearly every high-end smartphone is now equipped with a front-facing camera which makes them perfect candidates to provide this interaction method.</p>
+<p>In the last few years, the computational power of our devices has increased as the hardware costs associated with supporting gaze tracking have dropped dramatically. Looking around, you can see gaze tracking beginning to move into the public sphere: Many smartphones and smartwatches can recognize when you are looking at them (or at least they do sometimes). This is only a short step away from knowing where on the screen you are looking. And nearly every high-end smartphone is now equipped with a front-facing camera which makes them perfect candidates to provide this interaction method. </p>
 
 <p><figure id="fig-DEk7PlJWQgI" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(http://i2.ytimg.com/vi/DEk7PlJWQgI/0.jpg);" href="//www.youtube.com/watch?v=DEk7PlJWQgI&amp;start=18&amp;end=54" data-lazy-video-src="http://www.youtube.com/embed/DEk7PlJWQgI?autoplay=1&amp;start=18&amp;end=54&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">The Sesame Phone</div></a></div></figure></p>
 
@@ -296,7 +301,7 @@
 
 <p>Most of us are familiar with <a href="https://en.wikipedia.org/wiki/Siri">Apple’s Siri</a>, <a href="https://en.wikipedia.org/wiki/Google_Now">Google Now</a>, and <a href="https://en.wikipedia.org/wiki/Microsoft_Cortana">Microsoft’s Cortana</a>. These digital assistants are great at retrieving information from select sources and doing other assistant-y things like calculating a tip and setting a reminder. As far as interacting with the web, however, they don’t… yet. We can engage with them, but they can‘t (necessarily) engage with a web page.</p>
 
-<p>Exposing the information stored in our webpages via semantic HTML and structured syntaxes like <a href="http://microformats.org/">microformats</a>, <a href="https://en.wikipedia.org/wiki/Microdata_(HTML">microdata</a>), and <a href="https://en.wikipedia.org/wiki/RDFa">RDFa</a> <em>should</em> eventually make our content available to these assistants, but we don’t really know. Their various makers haven’t really given us any clue as to how to do that and, as it stands right now, none of them can look up a web page and read it to you. For that you need to invoke a screen reader.</p>
+<p>Exposing the information stored in our webpages via semantic HTML and structured syntaxes like <a href="http://microformats.org/">microformats</a>, <a href="https://en.wikipedia.org/wiki/Microdata_(HTML)">microdata</a>, and <a href="https://en.wikipedia.org/wiki/RDFa">RDFa</a> <em>should</em> eventually make our content available to these assistants, but we don’t really know. Their various makers haven’t really given us any clue as to how to do that and, as it stands right now, none of them can look up a web page and read it to you. For that you need to invoke a screen reader.</p>
 
 <p>Each company offers a first-party screen reader. And all are capable of helping you interact with a page, including helping you fill in forms, without having to see the page. And yet, these technologies have not been coupled with their corresponding assistants. It probably won’t be long before we see that happen.</p>
 
@@ -312,7 +317,7 @@
 <noscript><pre><code>&lt;meta name=“msapplication-cortanavcd&quot; content=&quot;http://myapp.io/vcd.xml&quot;&gt;</code></pre></noscript></div>
 </p>
 
-<p>The referenced VCD file is simply an XML file defining the keyword for the web app and commands that can be issued.</p>
+<p>The referenced VCD file is simply an XML file defining the keyword for the web app and commands that can be issued. </p>
 
 <p>Using very basic syntax, The VCD identifies optional pieces of a given phrase and variables Cortana should extract:</p>
 
@@ -337,13 +342,13 @@
 
 <p>But traditional computers and smart mobile devices aren’t the only place we’re starting to see voice based experiences. We also have disembodied voices like <a href="https://en.wikipedia.org/wiki/Amazon_Echo">Amazon’s Echo</a> and <a href="http://www.theubi.com/">the Ubi</a> which are completely headless.</p>
 
-<p><figure id="figure-2015-06-22-11">
+<figure id="figure-2015-06-22-11">
 <img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
-</figure></p>
+</figure>
 
-<p>Right now, they both seem squarely focused on helping your house become &ldquo;smarter"—streaming music, adjusting the thermostat, etc.—but it isn’t hard to imagine these devices becoming coupled with the ability to browse and interact with the web.</p>
+<p>Right now, they both seem squarely focused on helping your house become “smarter”—streaming music, adjusting the thermostat, etc.—but it isn’t hard to imagine these devices becoming coupled with the ability to browse and interact with the web.</p>
 
-<p>In the near future, voice-based interactions with the web will be entirely possible. They will likely suck a bit at first, but they&rsquo;ll get better.</p>
+<p>In the near future, voice-based interactions with the web will be entirely possible. They will likely suck a bit at first, but they’ll get better.</p>
 
 <p>I’m going to make a somewhat bold prediction: while touch has been revolutionary in many ways toward improving digital access, voice is going to be even more significant. Voice-based interfaces will create new opportunities for people to interact with and participate in the digital world.</p>
 
@@ -359,21 +364,19 @@
 
 <p>This is an incredibly exciting time, not just for the responsive design community, not just the web, but for the world! The future is coming and I can’t wait to see how awesome you make it!</p>
 
-<p><figure id="figure-2015-06-22-12">
+<figure id="figure-2015-06-22-12">
 <img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
-</figure></p>
+</figure>
 
-<hr>
-
+<hr />
 
 <p><em>Responsive Day Out 3: The Final Breakpoint was held in Brighton, UK on 19 June 2015.</em></p>
 
 <ul>
-<li><a href="https://huffduffer.com/adactio/243780">Listen to this presentation on Huffduffer</a>.</li>
-<li>Read <a href="https://decadecity.net/blog/2015/06/19/aaron-gustafson-where-do-we-go-here">Orde Saunders’ notes</a> from my talk.</li>
-<li>Read <a href="https://hiddedevries.nl/en/blog/2015-06-20-responsive-day-out-3-the-final-breakpoint/">Hidde de Vries’ recap of the day</a>.</li>
+  <li><a href="https://huffduffer.com/adactio/243780">Listen to this presentation on Huffduffer</a>.</li>
+  <li>Read <a href="https://decadecity.net/blog/2015/06/19/aaron-gustafson-where-do-we-go-here">Orde Saunders’ notes</a> from my talk.</li>
+  <li>Read <a href="https://hiddedevries.nl/en/blog/2015-06-20-responsive-day-out-3-the-final-breakpoint/">Hidde de Vries’ recap of the day</a>.</li>
 </ul>
-
 ]]></content>
   </entry>
   
@@ -382,10 +385,9 @@
     <link href="http://www.aaron-gustafson.com/notebook/consider-how-your-forms-read/"/>
     <updated>2015-02-23T11:21:24-05:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/consider-how-your-forms-read</id>
-    <content type="html"><![CDATA[<p>While listening to <a href="http://www.radiolab.org/story/trust-engineers/">Radiolab’s &ldquo;The Trust Engineers&rdquo;</a>, I’ll admit I got a little excited when they started talking about web form performance. And no, not &ldquo;performance&rdquo; in the time-to-download sense, but &ldquo;performance&rdquo; in terms of how well the forms performed in attempting to capture meaningful, actionable data.</p>
+    <content type="html"><![CDATA[<p>While listening to <a href="http://www.radiolab.org/story/trust-engineers/">Radiolab’s “The Trust Engineers”</a>, I’ll admit I got a little excited when they started talking about web form performance. And no, not “performance” in the time-to-download sense, but “performance” in terms of how well the forms performed in attempting to capture meaningful, actionable data.</p>
 
 <!-- more -->
-
 
 <p>I’ll set the scene: It’s the holiday season in 2011 and people are uploading photos to Facebook like crazy. In the span of a few days, Facebook processed more photo uploads than are contained in the entirety of Flickr. Seriously, that’s a lot of photos.</p>
 
@@ -396,32 +398,30 @@
 <p>The existing photo reporting form had not done a good job of accounting for these more personal reasons for wanting a photo removed, so the Facebook engineers went to work. They added a step that asked <em>How does this photo make you feel?</em> The options were simple:</p>
 
 <ul>
-<li>Embarrassing</li>
-<li>Upsetting</li>
-<li>Saddening</li>
-<li>Bad Photo</li>
-<li>Other</li>
+  <li>Embarrassing</li>
+  <li>Upsetting</li>
+  <li>Saddening</li>
+  <li>Bad Photo</li>
+  <li>Other</li>
 </ul>
 
+<p>The “other” option also provided a free-response field to fill in.</p>
 
-<p>The &ldquo;other&rdquo; option also provided a free-response field to fill in.</p>
+<p>With this system in place, they found that 50% of reporters would choose one of the provided options. That was pretty helpful, but there was still a problem: 34% of the “other” respondents were writing “It’s embarrassing” in the blank rather than choosing the “embarrassing” option already provided.</p>
 
-<p>With this system in place, they found that 50% of reporters would choose one of the provided options. That was pretty helpful, but there was still a problem: 34% of the &ldquo;other&rdquo; respondents were writing &ldquo;It’s embarrassing&rdquo; in the blank rather than choosing the &ldquo;embarrassing&rdquo; option already provided.</p>
-
-<p>What they realized was that people were not identifying with the &ldquo;embarrassing&rdquo; text (or may have even thought it was referring to them, rather than assuming the implied &ldquo;It’s&rdquo;). A subtle shift in language was needed, so they changed the label to <em>Please describe the photo</em>. And they updated the options to mirror how people actually talk:</p>
+<p>What they realized was that people were not identifying with the “embarrassing” text (or may have even thought it was referring to them, rather than assuming the implied “It’s”). A subtle shift in language was needed, so they changed the label to <em>Please describe the photo</em>. And they updated the options to mirror how people actually talk:</p>
 
 <ul>
-<li>It’s embarrassing</li>
-<li>It’s a bad photo of me</li>
-<li>It makes me sad</li>
+  <li>It’s embarrassing</li>
+  <li>It’s a bad photo of me</li>
+  <li>It makes me sad</li>
 </ul>
-
 
 <p>With this subtle change, they were able to increase the percentage of photo reporters who chose one of the options provided to a whopping 78%.</p>
 
-<p>Sometimes we feel compelled to create forms that are very clinical. In the survey world we’re often taught to limit the &ldquo;personality&rdquo; of our forms in order to avoid influencing the responses.</p>
+<p>Sometimes we feel compelled to create forms that are very clinical. In the survey world we’re often taught to limit the “personality” of our forms in order to avoid influencing the responses.</p>
 
-<p>That said, we need to remember that we are authoring interfaces that will be used by actual people. When we are creating forms that don’t require that kind of scientific rigor, we can (and should) do whatever we can to make the interaction more human.</p>
+<p>That said, we need to remember that we are authoring interfaces that will be used by actual people. When we are creating forms that don’t require that kind of scientific rigor, we can (and should) do whatever we can to make the interaction more human. </p>
 
 <p>Ask real questions: <em>What’s your name?</em>, <em>What’s your email?</em>, and <em>How would you prefer we contact you?</em> are far more friendly than <em>Name</em>, <em>Email</em>, and <em>Contact Preference</em>.</p>
 
@@ -438,34 +438,31 @@
 
 <!-- more -->
 
-
 <p>According to <a href="http://www.merriam-webster.com/dictionary/egalitarianism"><cite class="book">Merriam Webster</cite></a>, egalitarianism is:</p>
 
 <blockquote>
-    <ol>
-        <li>a belief in human equality especially with respect to social, political, and economic affairs;</li>
-        <li>a social philosophy advocating the removal of inequalities among people.</li>
-    </ol>
+	<ol>
+		<li>a belief in human equality especially with respect to social, political, and economic affairs;</li>
+		<li>a social philosophy advocating the removal of inequalities among people.</li>
+	</ol>
 </blockquote>
-
 
 <p>It’s a simple philosophy inspired by <a href="http://en.wikipedia.org/wiki/Golden_Rule">the Golden Rule</a>, an ethical code which is central to most major religions:</p>
 
 <dl>
-    <dt>Buddhism</dt>
-    <dd>Hurt not others in ways that you yourself would find harmful.</dd>
-    <dt>Christianity</dt>
-    <dd>Do unto others as you would have  them do unto you.</dd>
-    <dt>Islam</dt>
-    <dd>No one of you is a believer until he desires for his brother that which he desires for himself.</dd>
-    <dt>Judaism</dt>
-    <dd>What is hateful to you, do not to your fellow man. That is the entire law; all the rest is commentary.</dd>
+	<dt>Buddhism</dt>
+	<dd>Hurt not others in ways that you yourself would find harmful.</dd>
+	<dt>Christianity</dt>
+	<dd>Do unto others as you would have  them do unto you.</dd>
+	<dt>Islam</dt>
+	<dd>No one of you is a believer until he desires for his brother that which he desires for himself.</dd>
+	<dt>Judaism</dt>
+	<dd>What is hateful to you, do not to your fellow man. That is the entire law; all the rest is commentary.</dd>
 </dl>
-
 
 <p>Heck, even Confucius said “Never impose on others what you would not choose for yourself”.</p>
 
-<p>With so much emphasis on treating others with the sort of respect that we would like to be given, you’d think that inequality would be a non-issue. Obviously that’s not the case.</p>
+<p>With so much emphasis on treating others with the sort of respect that we would like to be given, you’d think that inequality would be a non-issue. Obviously that’s not the case. </p>
 
 <p>For centuries, we humans—even those of us who ascribe to <a href="http://en.wikipedia.org/wiki/Golden_Rule#Religion_and_philosophy">these and the other countless Golden Rule abiding religions and philosophies</a>—have failed to recognize ourselves in others and have erected barriers (both physical and societal) to their ability to lead the sort of happy, fulfilled life that we want for ourselves and our families.</p>
 
@@ -475,8 +472,7 @@
 
 <p>And this is why I am so passionate about the philosophy of egalitarianism. It grounds us in the notion that we are all equally valuable and should be granted equal opportunity to all that life has to offer.</p>
 
-<hr>
-
+<hr />
 
 <p>John Rawls has a great thought experiment that I often cite in <a href="http://vimeo.com/70018634">my talks on empathy</a>. In it, he would ask you to imagine your ideal society. It could be a monarchy, anarchy, capitalist, or communist. It could be ruled by people of one particular gender or color. It could be governed by people of a particular tribe. It could be <a href="http://en.wikipedia.org/wiki/The_Hunger_Games_universe#Panem">Panem</a>. It could be <a href="http://en.wikipedia.org/wiki/Erewhon">Erewhon</a>. It could be <a href="http://en.wikipedia.org/wiki/Brobdingnag">Brobdingnag</a>. The choice is yours.</p>
 
@@ -486,8 +482,7 @@
 
 <p>I love this exercise because it makes it easy to create at least basic connections between you and a wide variety of people who are different than you. It helps you realize that we are all equal and all worthy of consideration.</p>
 
-<hr>
-
+<hr />
 
 <p>What is interesting about egalitarianism, as opposed to similar sounding philosophies like <a href="http://en.wikipedia.org/wiki/The_Communist_Manifesto">modern communism</a>, is that it recognizes that equality of opportunity does not necessitate equality of outcome. In other words, while pushing for equality,  it simultaneously recognizes that we have differences in capability, capacity, and interest.</p>
 
@@ -511,8 +506,7 @@
 
 <p>Accessibility <em>is</em> egalitarianism.</p>
 
-<hr>
-
+<hr />
 
 <p>We are all different, but we all human. We all deserve respect. We all deserve to be treated equally. To be treated fairly.</p>
 
@@ -531,8 +525,7 @@
 
 <!-- more -->
 
-
-<h2>I: We are surrounded by technology</h2>
+<h2 id="i-we-are-surrounded-by-technology">I: We are surrounded by technology</h2>
 
 <p>We live in a bubble. We are surrounded by technology. Most of us grew up on desktops and laptops. Most of us carry at least one device on us at all times. For some of us, it’s a smartphone of some sort. For others it might be some sort of wearable—a fitness tracker or smart watch. And I’m willing to bet that a large number of us here in this auditorium may even have three or more devices on us at this very moment. I know I do.</p>
 
@@ -550,51 +543,27 @@
 
 <p>And of course there’s the coolness factor of being able to turn on your heat while on your way home from work. These advancements are incredible!</p>
 
-<p><figure id="fig-2014-11-06-01" class="media-container"></p>
-
-<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/01-sm.jpg"
-     srcset="/i/posts/2014-11-06/01-lg.jpg 1920w, /i/posts/2014-11-06/01-md.jpg 600w, /i/posts/2014-11-06/01-sm.jpg 320w"
-     alt="Two pie charts comparing Internet usage in the U.S. and Canada."
-     &gt;
-</code></pre>
-
-<p></figure></p>
+<figure id="fig-2014-11-06-01" class="media-container">
+	<img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/01-sm.jpg" srcset="/i/posts/2014-11-06/01-lg.jpg 1920w, /i/posts/2014-11-06/01-md.jpg 600w, /i/posts/2014-11-06/01-sm.jpg 320w" alt="Two pie charts comparing Internet usage in the U.S. and Canada." />
+</figure>
 
 <p>Of course, what enables all of these things to be as amazing as they are is our ubiquitous connectivity. According to <a href="http://www.InternetLiveStats.com">Internet Live Stats</a>, roughly 86% of Americans use the Internet. You Canadians are a wee bit more “online” at 93%.</p>
 
-<p><figure id="fig-2014-11-06-02" class="media-container"></p>
-
-<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/02-sm.jpg"
-     srcset="/i/posts/2014-11-06/02-lg.jpg 1920w, /i/posts/2014-11-06/02-md.jpg 600w, /i/posts/2014-11-06/02-sm.jpg 320w"
-     alt="Two pie charts comparing the number of mobile data connections in the U.S. and Canada."
-     &gt;
-</code></pre>
-
-<p></figure></p>
+<figure id="fig-2014-11-06-02" class="media-container">
+	<img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/02-sm.jpg" srcset="/i/posts/2014-11-06/02-lg.jpg 1920w, /i/posts/2014-11-06/02-md.jpg 600w, /i/posts/2014-11-06/02-sm.jpg 320w" alt="Two pie charts comparing the number of mobile data connections in the U.S. and Canada." />
+</figure>
 
 <p>America does have you beat when it comes to mobile connectivity: there are over 100 mobile data subscriptions per 100 individuals in the U.S. (probably because of the whole multi-device thing). Mobile connections in Canada are around 53 per 100 people. <small><a href="http://www.oecd.org/sti/broadband/oecdbroadbandportal.htm">(source)</a></small></p>
 
-<p><figure id="fig-2014-11-06-03" class="media-container"></p>
-
-<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/03-sm.jpg"
-     srcset="/i/posts/2014-11-06/03-lg.jpg 1920w, /i/posts/2014-11-06/03-md.jpg 600w, /i/posts/2014-11-06/03-sm.jpg 320w"
-     alt="Two pie charts comparing wired Internet connections in the U.S. and Canada."
-     &gt;
-</code></pre>
-
-<p></figure></p>
+<figure id="fig-2014-11-06-03" class="media-container">
+	<img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/03-sm.jpg" srcset="/i/posts/2014-11-06/03-lg.jpg 1920w, /i/posts/2014-11-06/03-md.jpg 600w, /i/posts/2014-11-06/03-sm.jpg 320w" alt="Two pie charts comparing wired Internet connections in the U.S. and Canada." />
+</figure>
 
 <p>Wired connectivity is a bit lower: 30 for every 100 in the U.S. and 33 for every 100 in Canada. <small><a href="http://www.oecd.org/sti/broadband/oecdbroadbandportal.htm">(source)</a></small></p>
 
-<p><figure id="fig-2014-11-06-04" class="media-container"></p>
-
-<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/04-sm.jpg"
-     srcset="/i/posts/2014-11-06/04-lg.jpg 1920w, /i/posts/2014-11-06/04-md.jpg 600w, /i/posts/2014-11-06/04-sm.jpg 320w"
-     alt="A bar chart depicting the cost range, per megabit per month, in the U.S. and Canada."
-     &gt;
-</code></pre>
-
-<p></figure></p>
+<figure id="fig-2014-11-06-04" class="media-container">
+	<img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/04-sm.jpg" srcset="/i/posts/2014-11-06/04-lg.jpg 1920w, /i/posts/2014-11-06/04-md.jpg 600w, /i/posts/2014-11-06/04-sm.jpg 320w" alt="A bar chart depicting the cost range, per megabit per month, in the U.S. and Canada." />
+</figure>
 
 <p>Connectivity is relatively cheap for you Canadians as well. You pay somewhere in the neighborhood of 39¢-$9.86 per megabyte per month. In the U.S., fees range widely from 53¢ to a whopping $41.70 per megabyte per month. <small><a href="http://www.oecd.org/sti/broadband/oecdbroadbandportal.htm">(source)</a></small></p>
 
@@ -602,71 +571,41 @@
 
 <p>This technology and access makes it possible for us to live richer lives and post photos of our cats and kids on Instagram, but it has insulated us. We live in a fantasy world of speed, high definition, and Beats by Dre. Sadly, our experience is far from the reality most of the world lives in.</p>
 
-<p><figure id="fig-2014-11-06-05" class="media-container"></p>
-
-<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/05-sm.jpg"
-     srcset="/i/posts/2014-11-06/05-lg.jpg 1920w, /i/posts/2014-11-06/05-md.jpg 600w, /i/posts/2014-11-06/05-sm.jpg 320w"
-     alt="A bar chart comparing the average monthly incomes of people living in the U.S., Canada, China, and India."
-     &gt;
-</code></pre>
-
-<p></figure></p>
+<figure id="fig-2014-11-06-05" class="media-container">
+	<img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/05-sm.jpg" srcset="/i/posts/2014-11-06/05-lg.jpg 1920w, /i/posts/2014-11-06/05-md.jpg 600w, /i/posts/2014-11-06/05-sm.jpg 320w" alt="A bar chart comparing the average monthly incomes of people living in the U.S., Canada, China, and India." />
+</figure>
 
 <p>The average American takes home $3,263 a month. For the average Canadian, that figure is $2,724. By comparison, the average worker in China makes $656 a month. But that is a fortune compared to folks in India, who only take home $295 for a month of hard work. <small><a href="http://en.wikipedia.org/wiki/List_of_countries_by_average_wage">(source)</a></small></p>
 
 <p>How much is an unlocked iPhone 6 again? It starts around $649. That’s more than two months salary for the average Indian. The Galaxy S5? $799 or nearly three months of hard work. In places like India, feature phones are still quite prevalent. And even when a smartphone is introduced for their market, it pales in comparison to the sort of tech we are used to seeing.</p>
 
-<p><figure id="fig-2014-11-06-06" class="media-container"></p>
-
-<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/06-sm.jpg"
-     srcset="/i/posts/2014-11-06/06-lg.jpg 1920w, /i/posts/2014-11-06/06-md.jpg 600w, /i/posts/2014-11-06/06-sm.jpg 320w"
-     alt="The Samsung Galaxy S5 smartphone with a specification summary (relevant details follow)."
-     &gt;
-</code></pre>
-
-<p></figure></p>
+<figure id="fig-2014-11-06-06" class="media-container">
+	<img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/06-sm.jpg" srcset="/i/posts/2014-11-06/06-lg.jpg 1920w, /i/posts/2014-11-06/06-md.jpg 600w, /i/posts/2014-11-06/06-sm.jpg 320w" alt="The Samsung Galaxy S5 smartphone with a specification summary (relevant details follow)." />
+</figure>
 
 <p>Here we have <a href="http://www.samsung.com/gr/microsite/galaxys5/">Samsung’s flagship Galaxy S5</a> with an amazing set of specs. A 16GB camera?! A quad-core processor?! This is the stuff of dreams for anyone who has been working with computers for more than 10 years. My first desktop was a 5150.</p>
 
-<p>No not <a href="https://en.wikipedia.org/wiki/5150_(album">that awesome Van Halen record</a>), <a href="http://www-03.ibm.com/ibm/history/exhibits/pc25/pc25_intro.html">this beast from IBM</a>:</p>
+<p>No not <a href="https://en.wikipedia.org/wiki/5150_(album)">that awesome Van Halen record</a>, <a href="http://www-03.ibm.com/ibm/history/exhibits/pc25/pc25_intro.html">this beast from IBM</a>:</p>
 
-<p><figure id="fig-2014-11-06-08" class="media-container"></p>
-
-<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/08-sm.jpg"
-     srcset="/i/posts/2014-11-06/08-lg.jpg 1920w, /i/posts/2014-11-06/08-md.jpg 600w, /i/posts/2014-11-06/08-sm.jpg 320w"
-     alt="The IBM 5150 personal computer."
-     &gt;
-</code></pre>
-
-<p></figure></p>
+<figure id="fig-2014-11-06-08" class="media-container">
+	<img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/08-sm.jpg" srcset="/i/posts/2014-11-06/08-lg.jpg 1920w, /i/posts/2014-11-06/08-md.jpg 600w, /i/posts/2014-11-06/08-sm.jpg 320w" alt="The IBM 5150 personal computer." />
+</figure>
 
 <p>It weighted over 20 lbs, 28 lbs with two floppy drives. The screen weighed another 13 lbs and the keyboard was 6 lbs. It maxed out at 256K of memory and offered 40K of read only memory. I couldn‘t even find a spec detailing how slow the processor was, but let’s just say that the computer I began my Web career with nearly 15 years later was only a Pentium 90 with something like 16 MB of RAM.</p>
 
 <p>And here, this pocket-sized computer just blows all of that out of the water.</p>
 
-<p><figure id="fig-2014-11-06-09" class="media-container"></p>
-
-<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/09-sm.jpg"
-     srcset="/i/posts/2014-11-06/09-lg.jpg 1920w, /i/posts/2014-11-06/09-md.jpg 600w, /i/posts/2014-11-06/09-sm.jpg 320w"
-     alt="The Intex Cloud FX smartphone with specification summary (relevant details follow)."
-     &gt;
-</code></pre>
-
-<p></figure></p>
+<figure id="fig-2014-11-06-09" class="media-container">
+	<img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/09-sm.jpg" srcset="/i/posts/2014-11-06/09-lg.jpg 1920w, /i/posts/2014-11-06/09-md.jpg 600w, /i/posts/2014-11-06/09-sm.jpg 320w" alt="The Intex Cloud FX smartphone with specification summary (relevant details follow)." />
+</figure>
 
 <p>By contrast, here we have <a href="http://www.intexmobile.in/product_detail.aspx?PID=191&amp;PCatID=3">Intex’s Cloud FX</a>, a new phone with specs that read like the state of the art in 2007. A crappy camera, no front camera, a slow 1 GHz processor, a paltry 128 MB of RAM and barely double that in internal storage. It’s a crappy phone by our standards.</p>
 
 <p>But that’s a Firefox OS phone aimed at the Indian market vs. an Android one aimed at the “developed” world. Perhaps you’d like to look at a more apples-to-apples comparison:</p>
 
-<p><figure id="fig-2014-11-06-10" class="media-container"></p>
-
-<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/10-sm.jpg"
-     srcset="/i/posts/2014-11-06/10-lg.jpg 1920w, /i/posts/2014-11-06/10-md.jpg 600w, /i/posts/2014-11-06/10-sm.jpg 320w"
-     alt="The BLU Dash Jr K smartphone with specification summary (relevant details follow)."
-     &gt;
-</code></pre>
-
-<p></figure></p>
+<figure id="fig-2014-11-06-10" class="media-container">
+	<img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/10-sm.jpg" srcset="/i/posts/2014-11-06/10-lg.jpg 1920w, /i/posts/2014-11-06/10-md.jpg 600w, /i/posts/2014-11-06/10-sm.jpg 320w" alt="The BLU Dash Jr K smartphone with specification summary (relevant details follow)." />
+</figure>
 
 <p>Here we have the <a href="http://www.gsmarena.com/blu_dash_jr-5662.php">BLU Dash Jr K</a>.</p>
 
@@ -680,29 +619,17 @@
 
 <p>The dirty little secret behind that 50% penetration number is that the penetration in question was concentrated in a scant 30% of U.S. households. Kinda burying the lead if you ask me. <small><a href="http://www.chetansharma.com/usmarketupdateq12013.htm">(source)</a></small></p>
 
-<p><figure id="fig-2014-11-06-12" class="media-container"></p>
-
-<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/12-sm.jpg"
-     srcset="/i/posts/2014-11-06/12-lg.jpg 1920w, /i/posts/2014-11-06/12-md.jpg 600w, /i/posts/2014-11-06/12-sm.jpg 320w"
-     alt="A pie chart breakdown of the findings by the Pew Research Center on smartphone penetration by household income (relevant details follow)."
-     &gt;
-</code></pre>
-
-<p></figure></p>
+<figure id="fig-2014-11-06-12" class="media-container">
+	<img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/12-sm.jpg" srcset="/i/posts/2014-11-06/12-lg.jpg 1920w, /i/posts/2014-11-06/12-md.jpg 600w, /i/posts/2014-11-06/12-sm.jpg 320w" alt="A pie chart breakdown of the findings by the Pew Research Center on smartphone penetration by household income (relevant details follow)." />
+</figure>
 
 <p>The Pew Research Center released a study earlier this year that showed smartphone penetration in the US, broken down by income bracket. As expected, the higher the household income, the more likely you were to find someone with a smartphone.</p>
 
 <p>In the &lt; $30,000 income bracket, smartphones were found in 47% of households. But it starts to get really interesting when you cross-reference that data with how many people fall into those income brackets. <small><a href="http://www.pewinternet.org/2014/02/27/part-1-how-the-internet-has-woven-itself-into-american-life/">(source)</a></small></p>
 
-<p><figure id="fig-2014-11-06-13" class="media-container"></p>
-
-<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/13-sm.jpg"
-     srcset="/i/posts/2014-11-06/13-lg.jpg 1920w, /i/posts/2014-11-06/13-md.jpg 600w, /i/posts/2014-11-06/13-sm.jpg 320w"
-     alt="The Pew Research Center’s findings when compared to U.S. Census Data (relevant details follow)."
-     &gt;
-</code></pre>
-
-<p></figure></p>
+<figure id="fig-2014-11-06-13" class="media-container">
+	<img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/13-sm.jpg" srcset="/i/posts/2014-11-06/13-lg.jpg 1920w, /i/posts/2014-11-06/13-md.jpg 600w, /i/posts/2014-11-06/13-sm.jpg 320w" alt="The Pew Research Center’s findings when compared to U.S. Census Data (relevant details follow)." />
+</figure>
 
 <p>$30,000 was the average income in the U.S. in 2013. And, according to the 2010 census, the overwhelming majority of American households earn less than that. <small><a href="http://www.census.gov/2010census/data/">(source)</a></small></p>
 
@@ -716,15 +643,9 @@
 
 <p>While it may not be a big deal for us to pay $60, $100, or more a month for mobile data access with fast speeds and high bandwidth limits, that would be a burden for most people. It’s worth noting that the cheaper pay-as-you-go plans typically have substantially lower data caps, frequently cost more per megabit, and often run at far slower speeds. Accordingly, while the Galaxy S5 supports blazingly fast 4G LTE speeds, both the Cloud FX and the Dash Jr K run on 2G technology.</p>
 
-<p><figure id="fig-2014-11-06-14" class="media-container"></p>
-
-<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/14-sm.jpg"
-     srcset="/i/posts/2014-11-06/14-lg.jpg 1920w, /i/posts/2014-11-06/14-md.jpg 600w, /i/posts/2014-11-06/14-sm.jpg 320w"
-     alt="A photo of a Blackberry device experiencing an error loading a webpage because the page was too large. Photo Credit: Brad Frost."
-     &gt;
-</code></pre>
-
-<p></figure></p>
+<figure id="fig-2014-11-06-14" class="media-container">
+	<img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/14-sm.jpg" srcset="/i/posts/2014-11-06/14-lg.jpg 1920w, /i/posts/2014-11-06/14-md.jpg 600w, /i/posts/2014-11-06/14-sm.jpg 320w" alt="A photo of a Blackberry device experiencing an error loading a webpage because the page was too large. Photo Credit: Brad Frost." />
+</figure>
 
 <p>All of this is to say that we must be hyper-aware of how big our Web pages are. Large pages with tons of high-resolution images cost our users real money and, frankly, waste their time. Some might not even load. Big Web pages are a barrier to access.</p>
 
@@ -732,33 +653,21 @@
 
 <p>These are just a few of the concerns we’re having to deal with today, and only about a third of our planet is online. There are 4.8 billion people with no Internet access. But it’s coming. And when it happens, we will likely have even more to deal with. Like language barriers.</p>
 
-<p><figure id="fig-2014-11-06-15" class="media-container"></p>
-
-<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/15-sm.jpg"
-     srcset="/i/posts/2014-11-06/15-lg.jpg 1920w, /i/posts/2014-11-06/15-md.jpg 600w, /i/posts/2014-11-06/15-sm.jpg 320w"
-     alt="A pie chart comparison of the global population that speaks English versus the percentage of the Web that is in English."
-     &gt;
-</code></pre>
-
-<p></figure></p>
+<figure id="fig-2014-11-06-15" class="media-container">
+	<img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/15-sm.jpg" srcset="/i/posts/2014-11-06/15-lg.jpg 1920w, /i/posts/2014-11-06/15-md.jpg 600w, /i/posts/2014-11-06/15-sm.jpg 320w" alt="A pie chart comparison of the global population that speaks English versus the percentage of the Web that is in English." />
+</figure>
 
 <p>Consider this: <a href="http://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers">About 11.7% of the world speaks English as its first or second language</a> yet <a href="http://en.wikipedia.org/wiki/Languages_used_on_the_Internet">55.7% of the Web is in English</a>. (French is spoken by roughly 1.4% of the world and 4% of the Web is in French.)</p>
 
-<p><figure id="fig-2014-11-06-16" class="media-container"></p>
-
-<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/16-sm.jpg"
-     srcset="/i/posts/2014-11-06/16-lg.jpg 1920w, /i/posts/2014-11-16/15-md.jpg 600w, /i/posts/2014-11-06/16-sm.jpg 320w"
-     alt="Pie charts detailing the percentage of people in India and China who speak English."
-     &gt;
-</code></pre>
-
-<p></figure></p>
+<figure id="fig-2014-11-06-16" class="media-container">
+	<img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/16-sm.jpg" srcset="/i/posts/2014-11-06/16-lg.jpg 1920w, /i/posts/2014-11-16/15-md.jpg 600w, /i/posts/2014-11-06/16-sm.jpg 320w" alt="Pie charts detailing the percentage of people in India and China who speak English." />
+</figure>
 
 <p>This presents some significant challenges as the Web expands into places like India and China. Only 18.61% of India’s 1.2 billion people speak English as a first, second, or even third language. In China, only about 0.73% of their 1.2 billion people speak English. Network availability is only the first of many hurdles to accessing the Web for much of the planet. <small><a href="http://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population">(source)</a></small></p>
 
 <p>We need to look beyond our technological and cultural bubble and consider how others experience the Web. As an industry, we must figure out how we can make their experiences better.</p>
 
-<h2>II: We are UX professionals</h2>
+<h2 id="ii-we-are-ux-professionals">II: We are UX professionals</h2>
 
 <p>We are technologists who focus on accessibility, the capacity to tackle these challenges should come naturally to us. We were drawn to this field because we empathize with the struggles of others and want to help empower them to live independently.</p>
 
@@ -786,15 +695,9 @@
 
 <p>If our primary job is to empower people to live independently, our second job is surely to educate the world, not just on how to make the Web more accessible, but why it matters. <strong>We need to bring everyone into the fold.</strong></p>
 
-<p><figure id="fig-2014-11-06-17" class="media-container"></p>
-
-<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/17-sm.jpg"
-     srcset="/i/posts/2014-11-06/17-lg.jpg 1920w, /i/posts/2014-11-06/17-md.jpg 600w, /i/posts/2014-11-06/17-sm.jpg 320w"
-     alt="A photo of the philosopher John Rawls."
-     &gt;
-</code></pre>
-
-<p></figure></p>
+<figure id="fig-2014-11-06-17" class="media-container">
+	<img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/17-sm.jpg" srcset="/i/posts/2014-11-06/17-lg.jpg 1920w, /i/posts/2014-11-06/17-md.jpg 600w, /i/posts/2014-11-06/17-sm.jpg 320w" alt="A photo of the philosopher John Rawls." />
+</figure>
 
 <p>I love exercises that create opportunities for revelation. One of my favorites originates from John Rawls. Rawls was a philosopher who used to run a social experiment with students, church groups, and the like.</p>
 
@@ -812,7 +715,7 @@
 
 <p><strong>We are invaluable.</strong></p>
 
-<h2>III: We are the future</h2>
+<h2 id="iii-we-are-the-future">III: We are the future</h2>
 
 <p>This is an incredibly exciting time to be working in accessibility. User experience is becoming central to how organizations work and how they design their products and accessibility should be at the core of that.</p>
 
@@ -838,27 +741,15 @@
 
 <p>And while we can certainly do a lot to make rich, JavaScript-based interactions far more accessible to assistive technology, our advocacy for progressive enhancement ensures that our content and tools work no matter what.</p>
 
-<p><figure id="fig-2014-11-06-18" class="media-container"></p>
-
-<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/18-sm.jpg"
-     srcset="/i/posts/2014-11-06/18-lg.jpg 1920w, /i/posts/2014-11-06/18-md.jpg 600w, /i/posts/2014-11-06/18-sm.jpg 320w"
-     alt="Headline: “Sky’s internet service mistakenly blocks web-critical plugin” (Source: The Guardian)"
-     &gt;
-</code></pre>
-
-<p></figure></p>
+<figure id="fig-2014-11-06-18" class="media-container">
+	<img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/18-sm.jpg" srcset="/i/posts/2014-11-06/18-lg.jpg 1920w, /i/posts/2014-11-06/18-md.jpg 600w, /i/posts/2014-11-06/18-sm.jpg 320w" alt="Headline: “Sky’s internet service mistakenly blocks web-critical plugin” (Source: The Guardian)" />
+</figure>
 
 <p>Let’s say an ISP blocks jQuery as malware. No problem.</p>
 
-<p><figure id="fig-2014-11-06-19" class="media-container"></p>
-
-<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/19-sm.jpg"
-     srcset="/i/posts/2014-11-06/19-lg.jpg 1920w, /i/posts/2014-11-06/19-md.jpg 600w, /i/posts/2014-11-06/19-sm.jpg 320w"
-     alt="Headline: “FCC to Marriott: No, you can’t force your customers onto terrible hotel WiFi” (Source: The Washington Post)"
-     &gt;
-</code></pre>
-
-<p></figure></p>
+<figure id="fig-2014-11-06-19" class="media-container">
+	<img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/19-sm.jpg" srcset="/i/posts/2014-11-06/19-lg.jpg 1920w, /i/posts/2014-11-06/19-md.jpg 600w, /i/posts/2014-11-06/19-sm.jpg 320w" alt="Headline: “FCC to Marriott: No, you can’t force your customers onto terrible hotel WiFi” (Source: The Washington Post)" />
+</figure>
 
 <p>Let’s say the page is taking a long time to download on a high-latency mobile network (or hotel Wi-Fi). No big deal.</p>
 
@@ -866,7 +757,7 @@
 
 <p>It’s our job to educate others on this reality and to demonstrate why these are central to user experience.</p>
 
-<h2>IV: We are Agents of Change</h2>
+<h2 id="iv-we-are-agents-of-change">IV: We are Agents of Change</h2>
 
 <p>The shift to handheld computers has been huge for accessibility. After all, the computers in our pockets are assistive technology. This is our world!</p>
 
@@ -890,15 +781,9 @@
 
 <p>This is an incredibly exciting time, not just for the accessibility experts, not just for user experience, not just the Web, but for the world! I can’t wait to see how awesome you make it!</p>
 
-<p><figure id="fig-2014-11-06-20" class="media-container"></p>
-
-<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/20-sm.jpg"
-     srcset="/i/posts/2014-11-06/20-lg.jpg 1920w, /i/posts/2014-11-06/20-md.jpg 600w, /i/posts/2014-11-06/20-sm.jpg 320w"
-     alt="A photo of the opening ceremony of the 2012 London Olympic Games when Sir Tim Berners-Lee (creator of the World Wide Web) typed “This is for Everyone” across the stadium."
-     &gt;
-</code></pre>
-
-<p></figure></p>
+<figure id="fig-2014-11-06-20" class="media-container">
+	<img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/20-sm.jpg" srcset="/i/posts/2014-11-06/20-lg.jpg 1920w, /i/posts/2014-11-06/20-md.jpg 600w, /i/posts/2014-11-06/20-sm.jpg 320w" alt="A photo of the opening ceremony of the 2012 London Olympic Games when Sir Tim Berners-Lee (creator of the World Wide Web) typed “This is for Everyone” across the stadium." />
+</figure>
 
 <p>Thank you.</p>
 ]]></content>

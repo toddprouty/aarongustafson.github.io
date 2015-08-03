@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Html Forms | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/html-forms/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-07-31T17:23:12-04:00</updated>
+  <updated>2015-08-03T11:42:11-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -24,28 +24,20 @@
 
 <!-- more -->
 
+<h2 id="slides">Slides</h2>
 
-<h2>Slides</h2>
+<figure class="video-embed video-embed--16x9" id="figure-2015-05-05-01">  
+<iframe class="video-embed__video" src="//www.slideshare.net/slideshow/embed_code/key/H1xKkpN0KIoXq3" frameborder="0"></iframe>  
+</figure>
 
-<p><figure class="video-embed video-embed--16x9" id="figure-2015-05-05-01"></p>
+<h2 id="video">Video</h2>
 
-<iframe class="video-embed__video" src="//www.slideshare.net/slideshow/embed_code/key/H1xKkpN0KIoXq3" frameborder="0"></iframe>
-
-
-<p>
-</figure></p>
-
-<h2>Video</h2>
-
-<p><figure class="video-embed video-embed--16x9" id="figure-2015-05-05-02"><br/>
+<figure class="video-embed video-embed--16x9" id="figure-2015-05-05-02">  
 <video class="video-embed__video" poster="//sec.ch9.ms/sessions/websummit/2015/GA05-LG.jpg" controls="">
-<source src="//video.ch9.ms/sessions/websummit/2015/GA05.mp4"></p>
-
+<source src="//video.ch9.ms/sessions/websummit/2015/GA05.mp4" />
 <p>Download it: <a href="//video.ch9.ms/sessions/websummit/2015/GA05.mp4">High Quality MP4</a> or <a href="//video.ch9.ms/sessions/websummit/2015/GA05-mobile.mp4">Low Quality MP4</a></p>
-
-
-<p></video>
-</figure></p>
+</video>
+</figure>
 ]]></content>
   </entry>
   

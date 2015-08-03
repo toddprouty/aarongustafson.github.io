@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Ce Images | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/ce-images/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-07-31T17:23:12-04:00</updated>
+  <updated>2015-08-03T11:42:11-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -22,12 +22,11 @@
 
 <!-- more -->
 
-
 <p>Most Nichols College sites run on <a href="http://ellislabs.com/expressionengine">EllisLab’s ExpressionEngine</a>, a solid little workhorse of a CMS we’ve been using for years. We love it because it gives us complete control over the markup it generates. Now EE offers some pretty decent file management and image manipulation utilities out of the box, but the options it provides were not enough to handle our adaptive image needs; we needed backup. <a href="http://www.causingeffect.com/software/expressionengine/ce-image">Causing Effect’s CE Image</a> add-on is reasonably priced and offered exactly the functionality we needed to make our adaptive image dreams a reality.</p>
 
 <p>I won’t bore you with how to set up CE Image as there is <a href="http://www.causingeffect.com/software/expressionengine/ce-image/user-guide">documentation on that</a>, but I will walk you through two different responsive image use-cases we had and how we addressed them using this add-on.</p>
 
-<h2>Header images</h2>
+<h2 id="header-images">Header images</h2>
 
 <p>The first use case we had was a series of large, focal images. You can find different examples of them on <a href="http://www.nichols.edu">the homepage</a> and landing pages (like <a href="http://www.nichols.edu/admissions/">this one for Admissions</a>). The first pass on making these images adaptive involved the <code>picture</code> element for which <a href="https://html.spec.whatwg.org/multipage/embedded-content.html#adaptive-images">the spec</a> is known. The markup we were generating was based on the pattern outlined for <a href="http://scottjehl.github.io/picturefill/">Picturefill</a>, a JavaScript polyfill that implements adaptive images in browsers that don’t do it natively:</p>
 
@@ -105,15 +104,14 @@
 <p>This is an example using CE Image’s tag pair option, which lets you control the markup output. In the opening tag, we set several properties:</p>
 
 <ul>
-<li><code>src</code> is the path to the original image uploaded by content authors;</li>
-<li><code>filename_suffix</code> is the suffix we want added to the cached file to differentiate it from others in the cache (and make the files more easily scannable);</li>
-<li><code>width</code> is our desired output width for the generated image;</li>
-<li><code>allow_scale_larger</code> does exactly what you’d expect: it dictates whether or not CE Image should scale the image to reach the desired width;</li>
-<li><code>crop</code> tells CE Image whether it’s okay to crop the image;</li>
-<li><code>interlace</code> tells CE Image to use image interlacing (which can speed load time); and</li>
-<li><code>cache_dir</code> tells CE Image where to store the cached image (in relation to our global configuration)</li>
+  <li><code>src</code> is the path to the original image uploaded by content authors;</li>
+  <li><code>filename_suffix</code> is the suffix we want added to the cached file to differentiate it from others in the cache (and make the files more easily scannable);</li>
+  <li><code>width</code> is our desired output width for the generated image;</li>
+  <li><code>allow_scale_larger</code> does exactly what you’d expect: it dictates whether or not CE Image should scale the image to reach the desired width;</li>
+  <li><code>crop</code> tells CE Image whether it’s okay to crop the image;</li>
+  <li><code>interlace</code> tells CE Image to use image interlacing (which can speed load time); and</li>
+  <li><code>cache_dir</code> tells CE Image where to store the cached image (in relation to our global configuration)</li>
 </ul>
-
 
 <p>Then, within the tag pair is the <code>source</code> element with the <code>srcset</code> value set to the path to the file CE Image generated (referenced by the <code>made</code> variable) and the associated media query.</p>
 
@@ -172,9 +170,9 @@
 
 <p>The added bonus of this approach is that I am not hard-coding any media queries and the browser gets to make the ultimate decision of which image to request. All I am doing is telling the browser the image options and their respective widths within the <code>srcset</code> attribute. As all of the images take up 100% of their containers, I didn’t even need to use the <code>sizes</code> attribute. Easy peasy.</p>
 
-<h2>&ldquo;Nice to Have&rdquo; Images</h2>
+<h2 id="nice-to-have-images">“Nice to Have” Images</h2>
 
-<p>Not every image adds something to the page. Some are purely optional, a visual enhancement. In order to reduce the size of pages on smaller screens, we often choose to &ldquo;lazy load&rdquo; certain image assets after page load, when we know there is enough room to display the image or when we feel it would be an enhancement to the design.</p>
+<p>Not every image adds something to the page. Some are purely optional, a visual enhancement. In order to reduce the size of pages on smaller screens, we often choose to “lazy load” certain image assets after page load, when we know there is enough room to display the image or when we feel it would be an enhancement to the design.</p>
 
 <p>Now some of you might be wondering: <em>Why not just <code>display:none</code> below a certain threshold?</em> Well, I’ll tell you: images that are hidden with CSS are still requested by the browser. That means users who don’t see the images are still paying to download them (whether in terms of time waiting for the page to render or actual money on a metered connection). That kinda sucks for them. We should show our users a bit more respect and only request the images when we need them.</p>
 
@@ -185,7 +183,7 @@
      data-image-src=&quot;Tim-Smith_220x140_220_140_int_c1.jpg&quot;&gt;&lt;/div&gt;</code></pre></noscript></div>
 </p>
 
-<p>The <code>data-img-src</code> attribute defines the path to the &ldquo;nice to have&rdquo; image and then the JavaScript adds the image element into the page when the appropriate conditions are met:</p>
+<p>The <code>data-img-src</code> attribute defines the path to the “nice to have” image and then the JavaScript adds the image element into the page when the appropriate conditions are met:</p>
 
 <p><div><script src='https://gist.github.com/96dd157a0206d59ac30a.js?file=lazy-loaded-result.html'></script>
 <noscript><pre><code>&lt;div class=&quot;module__image image--lazy&quot;

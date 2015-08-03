@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Mobile | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/mobile/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-07-31T17:23:12-04:00</updated>
+  <updated>2015-08-03T11:42:11-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -22,17 +22,15 @@
 
 <!-- more -->
 
-
 <p>I worked on one project where the client provided me with a spreadsheet detailing 1,400 different user agents that accessed the login screen for the m-dot site. In two days!</p>
 
 <p>As further evidence, consider <a href="http://blog.jasonsamuels.net/post/21633531278/analytics-confirm-the-need-for-adaptive-web-design">the enlightening details of this post from Jason Samuels</a> of the National Council on Family relations, a non-profit organization:</p>
 
 <ul>
-<li>In 2008, Internet Explorer dominated as the browser for 93.5% of their visitors. By 2014, that percentage had fallen to 19.7%, with Chrome bringing in the lion’s share of the traffic (37%). Firefox narrowly beat out IE with a 20% share of users.</li>
-<li>In 2008, visits from &ldquo;mobile&rdquo; devices accounted for only about 0.1% of their traffic. In 2014, that number had skyrocketed to 14.4%.</li>
-<li>In 2008, they detected 71 different screen resolutions, which is already a lot to consider. By 2014, however, they were seeing 1,000 unique screen resolutions each and every quarter (with over 200 of those recording 10+ visits per quarter).</li>
+  <li>In 2008, Internet Explorer dominated as the browser for 93.5% of their visitors. By 2014, that percentage had fallen to 19.7%, with Chrome bringing in the lion’s share of the traffic (37%). Firefox narrowly beat out IE with a 20% share of users.</li>
+  <li>In 2008, visits from “mobile” devices accounted for only about 0.1% of their traffic. In 2014, that number had skyrocketed to 14.4%.</li>
+  <li>In 2008, they detected 71 different screen resolutions, which is already a lot to consider. By 2014, however, they were seeing 1,000 unique screen resolutions each and every quarter (with over 200 of those recording 10+ visits per quarter).</li>
 </ul>
-
 
 <p>That last stat blows my mind every time I read it. You can’t design for 200 different screens, let alone 1,000. It’s a fools errand. And don’t even think of trying to test on that many devices.</p>
 
@@ -44,15 +42,14 @@
 
 <p><em>Wha?! We can have our cake and eat it too</em>? Yes. Yes we can.</p>
 
-<h2>Start on Solid Footing</h2>
+<h2 id="start-on-solid-footing">Start on Solid Footing</h2>
 
 <p>When dealing with the insane proliferation of web-enabled devices and the great unknown of where our websites will go, it pays to take a step back and focus on what’s important. We need to ask ourselves two simple questions:</p>
 
 <ol>
-<li>What is the purpose of this page, this form, this interface?</li>
-<li>What is the simplest way to realize that purpose?</li>
+  <li>What is the purpose of this page, this form, this interface?</li>
+  <li>What is the simplest way to realize that purpose?</li>
 </ol>
-
 
 <p>Then we need to build that <em>first</em>. Typically we’re talking text, some basic HTML, actual links to other pages, and forms that submit to a back-end of some sort. This is our minimum viable product and it will work anywhere.</p>
 
@@ -62,13 +59,13 @@
 
 <p>We’ll use JavaScript to give real-time feedback to our users. <a href="http://domscripting.com/presentations/xtech2006/">We’ll hijack forms and links</a> to <a href="http://www.filamentgroup.com/lab/ajax-includes-modular-content.html">lazy load additional content</a> or otherwise avoid full-page refreshes. Heck, we can even take over the entire page and <a href="http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/">convert it into a single page app</a>.</p>
 
-<p>But we should never sacrifice the functional core.</p>
+<p>But we should never sacrifice the functional core. </p>
 
 <p>This approach to designing for the web is called <a href="http://alistapart.com/article/understandingprogressiveenhancement">progressive enhancement</a> and it’s the number one tool for dealing with the one-two punch of older browsers and device proliferation.</p>
 
-<h2>Be Conservative in Your Delivery</h2>
+<h2 id="be-conservative-in-your-delivery">Be Conservative in Your Delivery</h2>
 
-<p>What makes progressive enhancement so helpful when it comes to dealing with this swirling mass of devices and browsers is that the core experience will <em>always be</em> available. There is nothing precluding our users from accessing it, even on a crappy WAP browser or a text-based browser like Lynx or even some <a href="http://www.theubi.com/">no so far-future talking computer</a> that only &ldquo;sees&rdquo; the web as text.</p>
+<p>What makes progressive enhancement so helpful when it comes to dealing with this swirling mass of devices and browsers is that the core experience will <em>always be</em> available. There is nothing precluding our users from accessing it, even on a crappy WAP browser or a text-based browser like Lynx or even some <a href="http://www.theubi.com/">no so far-future talking computer</a> that only “sees” the web as text.</p>
 
 <p>In order to ensure we don’t accidentally deliver advanced features to less capable browsers like these, we just need to be smart about how we load stuff like CSS and JavaScript.</p>
 
@@ -101,7 +98,7 @@
 
 <p>By being conservative in what we deliver to browsers we <a href="http://bradfrost.com/blog/mobile/support-vs-optimization/">ensure the greatest level of support, but can still optimize for more advanced ones</a>. This makes testing so much easier because we know older browsers will be okay with the basics and we aren’t trying to use JavaScript features unless we know they’re available.</p>
 
-<h2>Test, Test, Test</h2>
+<h2 id="test-test-test">Test, Test, Test</h2>
 
 <p>Progressive enhancement helps us avoid a lot of rendering and scripting issues before we even get to the testing phase of a project, but eventually we do need to sit down and run our projects through their paces.</p>
 
@@ -110,11 +107,10 @@
 <p>I personally keep several versions of each major browser on my laptop at any given time. I work on a Mac, so I typically have a few versions of Chrome, Firefox, and Opera lying around. You can get older versions of these browsers here:</p>
 
 <ul>
-<li><a href="http://commondatastorage.googleapis.com/chromium-browser-continuous/index.html">Chromium Archive</a></li>
-<li><a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/">Firefox Archive</a></li>
-<li><a href="http://www.opera.com/download//?custom=yes">Opera Archive</a></li>
+  <li><a href="http://commondatastorage.googleapis.com/chromium-browser-continuous/index.html">Chromium Archive</a></li>
+  <li><a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/">Firefox Archive</a></li>
+  <li><a href="http://www.opera.com/download//?custom=yes">Opera Archive</a></li>
 </ul>
-
 
 <p>It’s near-impossible to get older versions of Safari running on modern versions of OS X, so I typically just have the latest version locally.</p>
 
@@ -138,7 +134,7 @@
 
 <p>It’s important to bear in mind that we will never be able to give each user on each device exactly the same experience. We need to be okay with that—experience is a continuum. As long as our users can accomplish what they need to on our sites, they will be well-served.</p>
 
-<h2>Bonus Points: Embrace Patterns</h2>
+<h2 id="bonus-points-embrace-patterns">Bonus Points: Embrace Patterns</h2>
 
 <p>If we really want to make things easy on ourselves (and our team), we should consider building a <a href="http://alistapart.com/blog/post/getting-started-with-pattern-libraries">pattern library</a> before we build a single page of our website.</p>
 
@@ -146,7 +142,7 @@
 
 <p>Gathering our patterns into a live, web-based pattern library  allows anyone on our team to collect the patterns they need to build a given interface as easily as they’d assemble a plate at a smörgåsbord. And if we really want to streamline the building and testing process, we can even <a href="http://ianfeather.co.uk/a-maintainable-style-guide/">make the patterns importable into the live site</a> so everything stays in sync.</p>
 
-<h2>Don’t Fear the Zombie Apocalypse</h2>
+<h2 id="dont-fear-the-zombie-apocalypse">Don’t Fear the Zombie Apocalypse</h2>
 
 <p>With the constant onslaught of new devices, form factors, and considerations, it’s tempting to throw up our hands and find another line of work. The pace of advancement is so brisk, it’s just hard to keep up, let alone feel like we’re on top of where things are headed.</p>
 
@@ -167,42 +163,39 @@
 
 <!-- more -->
 
-
-<h2>1. Embrace mobile-first CSS</h2>
+<h2 id="embrace-mobile-first-css">1. Embrace mobile-first CSS</h2>
 
 <p>This is a quick win. I’ve done the mobile-first overhaul on a number of existing sites over the last few years and the best strategy I’ve found is this:</p>
 
 <ol>
-<li>Create two CSS files. Name the first something like &ldquo;basic.css&rdquo; and link to it with <code>media="all"</code>. Name the second something like &ldquo;advanced.css&rdquo; and link to it with <code>media="only screen"</code>.</li>
-<li>Move all of your existing desktop-only CSS into advanced.css and wrap the rules in a media query corresponding to your design width (e.g. <code>@media (min-width:60em)</code> for a 960px max width).</li>
-<li>Open a page from your site in a new browser window and make it as small as possible. Move any basic typographic and color styles from advanced.css to default.css and refresh the page. How does it look? Make the browser wider. Still acceptable? Awesome! This is the CSS you’ll serve to older browsers that don’t understand media queries and it forms the basis of your larger screen styles.</li>
-<li>Shrink the browser back down to the smallest it can go and create a breakpoint for that size in advanced.css (e.g. <code>@media (min-width:10.5em)</code> if you want to small target devices like the <a href="https://getpebble.com/">Pebble</a>). Move any styles you want applied in this scenario from your &ldquo;full screen&rdquo; breakpoint and add any new rules you need to make things look good.</li>
-<li>Increase the browser width until the layout looks odd, then make a new breakpoint and move in or add the necessary styles.</li>
-<li>Rinse &amp; repeat until you get up to the &ldquo;full screen&rdquo; layout.</li>
-<li>Move your print styles—you do have print styles, right?—into default.css and wrap them in a print <code>@media</code> block.</li>
+  <li>Create two CSS files. Name the first something like “basic.css” and link to it with <code>media="all"</code>. Name the second something like “advanced.css” and link to it with <code>media="only screen"</code>.</li>
+  <li>Move all of your existing desktop-only CSS into advanced.css and wrap the rules in a media query corresponding to your design width (e.g. <code>@media (min-width:60em)</code> for a 960px max width).</li>
+  <li>Open a page from your site in a new browser window and make it as small as possible. Move any basic typographic and color styles from advanced.css to default.css and refresh the page. How does it look? Make the browser wider. Still acceptable? Awesome! This is the CSS you’ll serve to older browsers that don’t understand media queries and it forms the basis of your larger screen styles.</li>
+  <li>Shrink the browser back down to the smallest it can go and create a breakpoint for that size in advanced.css (e.g. <code>@media (min-width:10.5em)</code> if you want to small target devices like the <a href="https://getpebble.com/">Pebble</a>). Move any styles you want applied in this scenario from your “full screen” breakpoint and add any new rules you need to make things look good.</li>
+  <li>Increase the browser width until the layout looks odd, then make a new breakpoint and move in or add the necessary styles.</li>
+  <li>Rinse &amp; repeat until you get up to the “full screen” layout.</li>
+  <li>Move your print styles—you do have print styles, right?—into default.css and wrap them in a print <code>@media</code> block.</li>
 </ol>
-
 
 <p>For another approach to responsive retrofitting, check out <a href="http://webstandardssherpa.com/reviews/responsive-retrofitting/">this piece from Ben Callahan</a>.</p>
 
-<h2>2. Focus on key tasks</h2>
+<h2 id="focus-on-key-tasks">2. Focus on key tasks</h2>
 
 <p>Every page has a purpose. If it doesn’t, you don’t need it. Find the page’s purpose and make that the focus. Eliminate distractions and reduce the amount of friction a user encounters when trying to accomplish the task.</p>
 
 <p>If company or client politics preclude you from getting rid of all distractions on a page, consider <a href="http://www.filamentgroup.com/lab/ajax-includes-modular-content.html">a lazy-loading strategy</a> to bring them in with JavaScript only when there is more screen real estate.</p>
 
-<h2>3. Get smarter about images</h2>
+<h2 id="get-smarter-about-images">3. Get smarter about images</h2>
 
 <p>Images are great, but they often comprise the majority of a web page’s bulk. To slim things down, first consider whether a given image is actually needed. If it isn’t, get rid of it. If it offers an enhancement, but isn’t crucial, consider lazy-loading it after page load. If the image is really important, <a href="https://ericportis.com/posts/2014/srcset-sizes/">use <code>srcset</code> and <code>sizes</code></a> (or the <code>picture</code> element) to deliver the smallest and yet most appropriate image to your users, based on their device.</p>
 
-<h2>4. Embrace the continuum</h2>
+<h2 id="embrace-the-continuum">4. Embrace the continuum</h2>
 
 <p>As designers and developers, we often try to control everything. But we have to realize that we can’t control everything on the Web. People on different devices have different capabilities and considerations. They will need your website to be flexible enough to allow them to accomplish their goals no matter what.</p>
 
 <p>Understanding that is key to building experiences that move seamlessly across devices. You know, <a href="http://alistapart.com/article/understandingprogressiveenhancement">progressive enhancement</a>. It’s key to embracing the Web for all of its inherent web-iness.</p>
 
-<hr>
-
+<hr />
 
 <p>And there you have it: 4 simple, but effective guidelines for creating awesome websites that will fair well under Google’s new algorithm. And guess what: Your users will benefit too.</p>
 ]]></content>
@@ -217,20 +210,13 @@
 
 <!-- more -->
 
-
 <p>The two Lumia devices are the cheapest Windows Phone offerings to date: The Lumia 435 is €69 (about US$80) and the Lumia 532 is just slightly more expensive at €79 (about US$94). By comparison, the Lumia 535 was the previous low-cost Windows Phone winner at US$135. And Samsung’s Z1, which is aimed at the Indian market, runs a mere Rs 5,700 (roughly US$92).</p>
 
 <p>Now if you’ve read this far, you are probably wondering why this matters. Well, spec-wise, many of these lower-end devices are far from what we are used to. All of these devices are running a resolution of 800×480. And their processing speeds are slower than the device you likely have in your pocket. But they are all far cheaper too. And remember that people in China and India have <a href="#fig-2015-01-15-01">far less disposible income than we do</a>.</p>
 
-<p><figure id="fig-2015-01-15-01" class="media-container"></p>
-
-<pre><code>&lt;img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/05-sm.jpg"
-     srcset="/i/posts/2014-11-06/05-lg.jpg 1920w, /i/posts/2014-11-06/05-md.jpg 600w, /i/posts/2014-11-06/05-sm.jpg 320w"
-     alt="A bar chart comparing the average monthly incomes of people living in the U.S., Canada, China, and India."
-     &gt;
-</code></pre>
-
-<p></figure></p>
+<figure id="fig-2015-01-15-01" class="media-container">
+	<img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/05-sm.jpg" srcset="/i/posts/2014-11-06/05-lg.jpg 1920w, /i/posts/2014-11-06/05-md.jpg 600w, /i/posts/2014-11-06/05-sm.jpg 320w" alt="A bar chart comparing the average monthly incomes of people living in the U.S., Canada, China, and India." />
+</figure>
 
 <p>If you only earned US$295 a month, a US$799 smartphone would likely be out of the question.</p>
 
@@ -247,33 +233,33 @@
     <id>http://www.aaron-gustafson.com/notebook/native-vs-stylable-tug-of-war</id>
     <content type="html"><![CDATA[<p>In his astute post <a href="//www.brucelawson.co.uk/2014/native-experience-vs-styling-select-boxes/">“‘Native experience’ vs styling select boxes”</a>, Bruce Lawson correctly identified a common tension in the web world:</p>
 
-<blockquote><p>But why this urge to re-style page elements that end-users are familiar with? … Or is it that we love native look and feel, except when we don’t?</p></blockquote>
+<blockquote>
+  <p>But why this urge to re-style page elements that end-users are familiar with? … Or is it that we love native look and feel, except when we don’t?</p>
+</blockquote>
 
 <p>Speaking as the guy who not only wrote JavaScript to help me create an accessible <code>select</code> element alternative, but who also made it <a href="http://d1b14unh5d6w7g.cloudfront.net/1590598563.01.S0ER.LXXXXXXX.jpg?Expires=1405686346&amp;Signature=DCT4Z0l75JQESDNyP0PVGVonuJYwY9XYtaTI3grX/RhdlLcXGRAVADJCB/N/fAj7GxLhEVzuXqstMebJIJ9Ip5I6kE7IKYt2F20F5EGD+1ghua9zKwyjS1e4KBgumMKzQytbcfIVX4dMr7XFzj26mScFKz9bSKtZT5jU1LU6hWM=&amp;Key-Pair-Id=APKAIUO27P366FGALUMQ">the focus of a case study (image)</a> in <a href="http://amzn.to/TaoffD">AdvancED DOM Scripting</a>, I am fully aware of the desire to have it both ways. I have not often seen the desire for both in a single individual, but it does happen in one particular instance occasionally.</p>
 
 <!-- more -->
 
-
 <p>Based on my own experience, I see the following arguments in favor of changing the display of a native control quite often:</p>
 
 <ol>
-<li>It doesn’t look good to me.</li>
-<li>It is not “on brand”.</li>
-<li>It clashes with our brand’s color scheme.</li>
-<li>We want the web experience to feel like a native app.</li>
-<li>It doesn’t behave how we think it should.</li>
+  <li>It doesn’t look good to me.</li>
+  <li>It is not “on brand”.</li>
+  <li>It clashes with our brand’s color scheme.</li>
+  <li>We want the web experience to feel like a native app.</li>
+  <li>It doesn’t behave how we think it should.</li>
 </ol>
-
 
 <p><em>(<abbr lang="it" title="nota bene: please note">n.b.</abbr> Browsers have done a pretty good job reducing the amount of color and the overall visual strength used in native controls to help them better blend in with a wide variety of designs, so clashes as mentioned in #3 happen far less often than they did nearly a decade ago.)</em></p>
 
 <p>As the weathered, battle tested (and, admittedly, somewhat jaded) front-end dev that I am, I typically push back with one or more of the following:</p>
 
-<h2>In Addressing Desired Design Changes</h2>
+<h2 id="in-addressing-desired-design-changes">In Addressing Desired Design Changes</h2>
 
 <p>In terms of aesthetics (addressing arguments 1, 2, and 3), I understand where you’re coming from. Native controls are not the most appealing things, but they are familiar to your users. A <code>select</code> box they see on your site that looks like the one they see on Wikipedia or their banking site will be immediately recognizable. Sure, the looks and feel may differ from browser to browser, but most people use only a small number of browsers throughout the day—at work, at home, on their device—and if you want to ensure the design of a form control feels “right” in the browser they are using, sometimes it’s best to let go of that control.</p>
 
-<h2>In Addressing OS Parity</h2>
+<h2 id="in-addressing-os-parity">In Addressing OS Parity</h2>
 
 <p>I can understand the desire to have a form control in a web page look and feel like the same (or a similar) control within the native operating system (argument 4), but I am not sure that’s a rabbit hole you want to go down. Here’s why: Achieving exact design and functional parity between a native control and a web control quite often requires extra markup, a bunch of CSS, and a bit of JavaScript. Anything is achievable with unlimited time and budget, so it’s completely doable, but it would be good to estimate the cost to see if you still think it is a worthwhile endeavor.</p>
 
@@ -287,7 +273,7 @@
 
 <p>Or we could use the native form control and it will just work.</p>
 
-<h2>In Addressing Altered Behavior</h2>
+<h2 id="in-addressing-altered-behavior">In Addressing Altered Behavior</h2>
 
 <p>I completely agree that not all native controls work exactly how I would like, but there are several risks in changing the expected behavior of a native control.</p>
 
@@ -297,8 +283,7 @@
 
 <p>For what it’s worth, if we go this route and are successful, we should consider getting involved in the spec-writing process at the <a href="//w3.org">W3C</a> or  <a href="//whatwg.org">WhatWG</a>. We should contribute our recommended changes back to the community and share what we learned. If we make a compelling argument, perhaps our idea will become part of some future standard and we can taper off our browser testing when the change goes native.</p>
 
-<hr>
-
+<hr />
 
 <p>As you can probably tell, I’m not a really big fan of changing existing controls as I feel it can amount to a wasted effort. That said, if there are design improvements to be made—“design” in the true sense: being about how usable something is, not just how aesthetically-pleasing it is to someone (e.g. improving contrast, making the control more intuitive, etc.)—I’m willing to accept the change as something we <em>should</em> do and then work to make sure that change has been vetted and, if successful, given away for inclusion in other projects. If it solves a major issue on the web, I want to give that change every opportunity to make it into the appropriate spec by talking to the appropriate folks about it both in-person, in blog posts, and on the appropriate mailing list. If the change solves a problem in a specific browser, I want to see it incorporated into said browser and will file a bug report and try to build momentum around it by engaging the community.</p>
 
@@ -313,9 +298,11 @@
     <id>http://www.aaron-gustafson.com/notebook/searching-for-the-right-size</id>
     <content type="html"><![CDATA[<p>This <a href="http://www.wired.com/2014/07/what-a-stalling-tablet-market-says-about-our-search-for-the-perfect-screen/">recent piece from <cite>Wired</cite></a> attributes dwindling tablet sales to cannibalization from larger mobile phones (<abbr title="also known as">aka</abbr> “phablets”) which are nearly as big as 7-8˝ tablets:</p>
 
-<blockquote><p>Aside from the ability to make a phone call, the difference between a phone and a tablet comes down to 1.5 inches or less. … But the real issue is device makers are running out of good arguments for why these ever more subtle size gradations matter. After a point, the differences come down to personal preference rather than any meaningful new use case. As phones and tablets converge into this tight window, slightly bigger phones could accelerate the decline in tablet demand.</p></blockquote>
+<blockquote>
+  <p>Aside from the ability to make a phone call, the difference between a phone and a tablet comes down to 1.5 inches or less. … But the real issue is device makers are running out of good arguments for why these ever more subtle size gradations matter. After a point, the differences come down to personal preference rather than any meaningful new use case. As phones and tablets converge into this tight window, slightly bigger phones could accelerate the decline in tablet demand.</p>
+</blockquote>
 
-<p>Personally, I’m not sure it matters. We’re in the midst of one big experiment being run by the device manufacturers. We’re in the scattershot. The industry is feeling out the &ldquo;right&rdquo; screen size (or sizes) that most people want to use and we are (in large part) footing the bill.</p>
+<p>Personally, I’m not sure it matters. We’re in the midst of one big experiment being run by the device manufacturers. We’re in the scattershot. The industry is feeling out the “right” screen size (or sizes) that most people want to use and we are (in large part) footing the bill.</p>
 ]]></content>
   </entry>
   

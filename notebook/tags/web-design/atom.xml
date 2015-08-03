@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-07-31T17:23:12-04:00</updated>
+  <updated>2015-08-03T11:42:11-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -22,14 +22,17 @@
 
 <!-- more -->
 
-
 <p>The DOJ Statements make it quite clear that</p>
 
-<blockquote><p>Both the ADA and Section 504 currently obligate Harvard to provide effective communication to ensure equal access to its online programming services, and resolution of Plaintiffs’ claim involves a straightforward application of longstanding statutory and regulatory requirements. For more than two decades, federal courts have resolved effective communication claims brought under the ADA and Section 504 in a wide range of contexts, including claims alleging unequal access to goods, benefits and services provided through websites or other electronic media. And the Departments of Justice and Education have routinely required covered entities to ensure equal access to goods, benefits and services, electronic or otherwise, through the provision of captioning or other auxiliary aids or services.</p></blockquote>
+<blockquote>
+  <p>Both the ADA and Section 504 currently obligate Harvard to provide effective communication to ensure equal access to its online programming services, and resolution of Plaintiffs’ claim involves a straightforward application of longstanding statutory and regulatory requirements. For more than two decades, federal courts have resolved effective communication claims brought under the ADA and Section 504 in a wide range of contexts, including claims alleging unequal access to goods, benefits and services provided through websites or other electronic media. And the Departments of Justice and Education have routinely required covered entities to ensure equal access to goods, benefits and services, electronic or otherwise, through the provision of captioning or other auxiliary aids or services. </p>
+</blockquote>
 
 <p>Also…</p>
 
-<blockquote><p>[T]he Department issued an Advanced Notice of Proposed Rulemaking (“ANPRM”) on Accessibility of Web Information and Services of State and Local Government Entities and Public Accommodations, announcing the Department’s interest in developing more specific requirements or technical standards for  website accessibility. … In the ANPRM, the Department reaffirmed its longstanding position that the ADA applies to websites of public accommodations, and reiterated, consistent with the preamble to the 1991 regulations, that the ADA regulations should be interpreted to keep pace with developing technologies.</p></blockquote>
+<blockquote>
+  <p>[T]he Department issued an Advanced Notice of Proposed Rulemaking (“ANPRM”) on Accessibility of Web Information and Services of State and Local Government Entities and Public Accommodations, announcing the Department’s interest in developing more specific requirements or technical standards for  website accessibility. … In the ANPRM, the Department reaffirmed its longstanding position that the ADA applies to websites of public accommodations, and reiterated, consistent with the preamble to the 1991 regulations, that the ADA regulations should be interpreted to keep pace with developing technologies.</p>
+</blockquote>
 
 <p>Neither case has been settled yet, but the fact that the DOJ is siding with the NAD will lend more credence to their complaints and will likely result in one or both institutions settling out of court and, eventually, captioning their videos.</p>
 
@@ -52,17 +55,15 @@
 
 <!-- more -->
 
-
 <p>I worked on one project where the client provided me with a spreadsheet detailing 1,400 different user agents that accessed the login screen for the m-dot site. In two days!</p>
 
 <p>As further evidence, consider <a href="http://blog.jasonsamuels.net/post/21633531278/analytics-confirm-the-need-for-adaptive-web-design">the enlightening details of this post from Jason Samuels</a> of the National Council on Family relations, a non-profit organization:</p>
 
 <ul>
-<li>In 2008, Internet Explorer dominated as the browser for 93.5% of their visitors. By 2014, that percentage had fallen to 19.7%, with Chrome bringing in the lion’s share of the traffic (37%). Firefox narrowly beat out IE with a 20% share of users.</li>
-<li>In 2008, visits from &ldquo;mobile&rdquo; devices accounted for only about 0.1% of their traffic. In 2014, that number had skyrocketed to 14.4%.</li>
-<li>In 2008, they detected 71 different screen resolutions, which is already a lot to consider. By 2014, however, they were seeing 1,000 unique screen resolutions each and every quarter (with over 200 of those recording 10+ visits per quarter).</li>
+  <li>In 2008, Internet Explorer dominated as the browser for 93.5% of their visitors. By 2014, that percentage had fallen to 19.7%, with Chrome bringing in the lion’s share of the traffic (37%). Firefox narrowly beat out IE with a 20% share of users.</li>
+  <li>In 2008, visits from “mobile” devices accounted for only about 0.1% of their traffic. In 2014, that number had skyrocketed to 14.4%.</li>
+  <li>In 2008, they detected 71 different screen resolutions, which is already a lot to consider. By 2014, however, they were seeing 1,000 unique screen resolutions each and every quarter (with over 200 of those recording 10+ visits per quarter).</li>
 </ul>
-
 
 <p>That last stat blows my mind every time I read it. You can’t design for 200 different screens, let alone 1,000. It’s a fools errand. And don’t even think of trying to test on that many devices.</p>
 
@@ -74,15 +75,14 @@
 
 <p><em>Wha?! We can have our cake and eat it too</em>? Yes. Yes we can.</p>
 
-<h2>Start on Solid Footing</h2>
+<h2 id="start-on-solid-footing">Start on Solid Footing</h2>
 
 <p>When dealing with the insane proliferation of web-enabled devices and the great unknown of where our websites will go, it pays to take a step back and focus on what’s important. We need to ask ourselves two simple questions:</p>
 
 <ol>
-<li>What is the purpose of this page, this form, this interface?</li>
-<li>What is the simplest way to realize that purpose?</li>
+  <li>What is the purpose of this page, this form, this interface?</li>
+  <li>What is the simplest way to realize that purpose?</li>
 </ol>
-
 
 <p>Then we need to build that <em>first</em>. Typically we’re talking text, some basic HTML, actual links to other pages, and forms that submit to a back-end of some sort. This is our minimum viable product and it will work anywhere.</p>
 
@@ -92,13 +92,13 @@
 
 <p>We’ll use JavaScript to give real-time feedback to our users. <a href="http://domscripting.com/presentations/xtech2006/">We’ll hijack forms and links</a> to <a href="http://www.filamentgroup.com/lab/ajax-includes-modular-content.html">lazy load additional content</a> or otherwise avoid full-page refreshes. Heck, we can even take over the entire page and <a href="http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/">convert it into a single page app</a>.</p>
 
-<p>But we should never sacrifice the functional core.</p>
+<p>But we should never sacrifice the functional core. </p>
 
 <p>This approach to designing for the web is called <a href="http://alistapart.com/article/understandingprogressiveenhancement">progressive enhancement</a> and it’s the number one tool for dealing with the one-two punch of older browsers and device proliferation.</p>
 
-<h2>Be Conservative in Your Delivery</h2>
+<h2 id="be-conservative-in-your-delivery">Be Conservative in Your Delivery</h2>
 
-<p>What makes progressive enhancement so helpful when it comes to dealing with this swirling mass of devices and browsers is that the core experience will <em>always be</em> available. There is nothing precluding our users from accessing it, even on a crappy WAP browser or a text-based browser like Lynx or even some <a href="http://www.theubi.com/">no so far-future talking computer</a> that only &ldquo;sees&rdquo; the web as text.</p>
+<p>What makes progressive enhancement so helpful when it comes to dealing with this swirling mass of devices and browsers is that the core experience will <em>always be</em> available. There is nothing precluding our users from accessing it, even on a crappy WAP browser or a text-based browser like Lynx or even some <a href="http://www.theubi.com/">no so far-future talking computer</a> that only “sees” the web as text.</p>
 
 <p>In order to ensure we don’t accidentally deliver advanced features to less capable browsers like these, we just need to be smart about how we load stuff like CSS and JavaScript.</p>
 
@@ -131,7 +131,7 @@
 
 <p>By being conservative in what we deliver to browsers we <a href="http://bradfrost.com/blog/mobile/support-vs-optimization/">ensure the greatest level of support, but can still optimize for more advanced ones</a>. This makes testing so much easier because we know older browsers will be okay with the basics and we aren’t trying to use JavaScript features unless we know they’re available.</p>
 
-<h2>Test, Test, Test</h2>
+<h2 id="test-test-test">Test, Test, Test</h2>
 
 <p>Progressive enhancement helps us avoid a lot of rendering and scripting issues before we even get to the testing phase of a project, but eventually we do need to sit down and run our projects through their paces.</p>
 
@@ -140,11 +140,10 @@
 <p>I personally keep several versions of each major browser on my laptop at any given time. I work on a Mac, so I typically have a few versions of Chrome, Firefox, and Opera lying around. You can get older versions of these browsers here:</p>
 
 <ul>
-<li><a href="http://commondatastorage.googleapis.com/chromium-browser-continuous/index.html">Chromium Archive</a></li>
-<li><a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/">Firefox Archive</a></li>
-<li><a href="http://www.opera.com/download//?custom=yes">Opera Archive</a></li>
+  <li><a href="http://commondatastorage.googleapis.com/chromium-browser-continuous/index.html">Chromium Archive</a></li>
+  <li><a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/">Firefox Archive</a></li>
+  <li><a href="http://www.opera.com/download//?custom=yes">Opera Archive</a></li>
 </ul>
-
 
 <p>It’s near-impossible to get older versions of Safari running on modern versions of OS X, so I typically just have the latest version locally.</p>
 
@@ -168,7 +167,7 @@
 
 <p>It’s important to bear in mind that we will never be able to give each user on each device exactly the same experience. We need to be okay with that—experience is a continuum. As long as our users can accomplish what they need to on our sites, they will be well-served.</p>
 
-<h2>Bonus Points: Embrace Patterns</h2>
+<h2 id="bonus-points-embrace-patterns">Bonus Points: Embrace Patterns</h2>
 
 <p>If we really want to make things easy on ourselves (and our team), we should consider building a <a href="http://alistapart.com/blog/post/getting-started-with-pattern-libraries">pattern library</a> before we build a single page of our website.</p>
 
@@ -176,7 +175,7 @@
 
 <p>Gathering our patterns into a live, web-based pattern library  allows anyone on our team to collect the patterns they need to build a given interface as easily as they’d assemble a plate at a smörgåsbord. And if we really want to streamline the building and testing process, we can even <a href="http://ianfeather.co.uk/a-maintainable-style-guide/">make the patterns importable into the live site</a> so everything stays in sync.</p>
 
-<h2>Don’t Fear the Zombie Apocalypse</h2>
+<h2 id="dont-fear-the-zombie-apocalypse">Don’t Fear the Zombie Apocalypse</h2>
 
 <p>With the constant onslaught of new devices, form factors, and considerations, it’s tempting to throw up our hands and find another line of work. The pace of advancement is so brisk, it’s just hard to keep up, let alone feel like we’re on top of where things are headed.</p>
 
@@ -197,43 +196,38 @@
 
 <!-- more -->
 
-
-
-
-<hr>
-
+<hr />
 
 <p>Back in 2007, I was presented with this challenge while putting together a talk called <a href="https://web.archive.org/web/20070515221318/http://2007.sxsw.com/interactive/programming/panels/?action=show&amp;id=IAP060214">Ruining the User Experience</a> (which I co-presented for the first time with at SXSW with <a href="https://twitter.com/sarahbeee">Sarah B. Nelson</a>). In the talk, Sarah and I discussed how to treat JavaScript as an enhancement and what happens when you don’t—in 2007, I know!</p>
 
 <p>Anyway, in the talk I was struggling to convey the various decision points and interface adjustments that would happen as a result of those decisions. I don’t remember which of us came up with the idea—it was probably Sarah—but we opted to use a flowchart to visually describe what we were talking about on stage. Here was the first one we did:</p>
 
-<p><figure id="fig-2015-05-28-01" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/01.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/01.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>An early flowchart used to describe progressive enhancement with JavaScript</figcaption></figure></p>
+<figure id="fig-2015-05-28-01" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/01.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/01.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>An early flowchart used to describe progressive enhancement with JavaScript</figcaption></figure>
 
 <p>It was pretty rudimentary, but it got the point across.</p>
 
 <p>In future iterations of the talk, I expounded upon the idea of a flowchart for describing how an interface might adapt to different circumstances and browser capabilities. Here’s a particularly complex one I used to describe how a FAQ might function:</p>
 
-<p><figure id="fig-2015-05-28-02" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/02.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/02.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>A flowchart describing the progressive enhancement and interaction options for an FAQ.</figcaption></figure></p>
+<figure id="fig-2015-05-28-02" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/02.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/02.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>A flowchart describing the progressive enhancement and interaction options for an FAQ.</figcaption></figure>
 
-<p>Over the years I found more and more ways to put these artifacts to use. And at a certain point, &ldquo;flowchart&rdquo; didn’t seem to cut it, so I began calling them &ldquo;UI construction flows"—which, admittedly, was a mouthful—and then finally settled on the name "Interaction Experience Maps&rdquo; with the help of a client.</p>
+<p>Over the years I found more and more ways to put these artifacts to use. And at a certain point, “flowchart” didn’t seem to cut it, so I began calling them “UI construction flows”—which, admittedly, was a mouthful—and then finally settled on the name “Interaction Experience Maps” with the help of a client.</p>
 
-<h2>The Benefits of Ix Maps</h2>
+<h2 id="the-benefits-of-ix-maps">The Benefits of Ix Maps</h2>
 
 <p>Ix Maps have become an invaluable tool to me and the teams I’ve worked with. They excel at articulating the different ways in which a given interface might adapt and what the end results of each adaptation might be.</p>
 
 <p>This sort of documentation is invaluable to just about everyone on the team:</p>
 
 <ul>
-<li>Copywriters get a clear picture of the different experience possibilities so they can craft the copy accordingly;</li>
-<li>Designers can see the different experience possibilities and can create wireframes and visual designs that account for each;</li>
-<li>Developers get a clear outline of what functionality is expected and know exactly what features and capability detection to employ in generating each experience; and</li>
-<li>The quality assurance team has a clear picture of what they should be looking for in each component of an interface.</li>
+  <li>Copywriters get a clear picture of the different experience possibilities so they can craft the copy accordingly;</li>
+  <li>Designers can see the different experience possibilities and can create wireframes and visual designs that account for each;</li>
+  <li>Developers get a clear outline of what functionality is expected and know exactly what features and capability detection to employ in generating each experience; and</li>
+  <li>The quality assurance team has a clear picture of what they should be looking for in each component of an interface.</li>
 </ul>
-
 
 <p>In short, Ix Maps ensure everyone on the team has a clear picture of what’s expected so they can work toward the common goal. One company I worked with found Ix Maps so useful that they created one for each and every pattern in their pattern library. Then they included the drawings as part of each pattern’s documentation.</p>
 
-<h2>Ix Maps Facilitate Collaboration and Iteration</h2>
+<h2 id="ix-maps-facilitate-collaboration-and-iteration">Ix Maps Facilitate Collaboration and Iteration</h2>
 
 <p>An Ix Map is a pretty simple concept for anyone to come to grips with, making it a fantastic tool for enabling mixed teams—designers, developers, content folks, business strategists, etc.—to brainstorm ideas and build a strategy around progressive enhancement.</p>
 
@@ -243,13 +237,13 @@
 
 <p>Here’s an example from <a href="https://www.facebook.com/events/804756366246427/">my Beyond Responsive workshop</a> that illustrates the evolution of a tabbed interface Ix Map from basic into something that is far more appropriate for differently-sized screens:</p>
 
-<p><figure id="fig-2015-05-28-03" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/03.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/03.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>Pass 1: If JavaScript’s available, make a tabbed interface out of linear content. If not, leave it as it was.</figcaption></figure></p>
+<figure id="fig-2015-05-28-03" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/03.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/03.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>Pass 1: If JavaScript’s available, make a tabbed interface out of linear content. If not, leave it as it was.</figcaption></figure>
 
-<p><figure id="fig-2015-05-28-04" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/04.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/04.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/04.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/04.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>Pass 2: Add a live width test into the mix to see if there’s enough room for the tabs and make it an accordion if the screen is too narrow.</figcaption></figure></p>
+<figure id="fig-2015-05-28-04" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/04.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/04.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/04.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/04.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>Pass 2: Add a live width test into the mix to see if there’s enough room for the tabs and make it an accordion if the screen is too narrow.</figcaption></figure>
 
-<p><figure id="fig-2015-05-28-05" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/05.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/05.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/05.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/05.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>Pass 3: Test for native <code>details</code>/<code>summary</code> support and use the native functionality if available.</figcaption></figure></p>
+<figure id="fig-2015-05-28-05" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/05.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/05.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/05.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-05-28/05.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>Pass 3: Test for native <code>details</code>/<code>summary</code> support and use the native functionality if available.</figcaption></figure>
 
-<h2>Simple, Powerful</h2>
+<h2 id="simple-powerful">Simple, Powerful</h2>
 
 <p>Ix Maps have been incredibly useful to me and the dozens of teams I’ve worked with. They’ve helped us explore innovative ways to solve design challenges and have been an amazing touchstone to organize our work around. Give them a shot an I’m sure you’ll discover lots of ways to put them to use in your own projects.</p>
 ]]></content>
@@ -265,7 +259,7 @@
 <pre><code>https://m.facebook.com/ClydesOnMain?refsrc=https%3A%2F%2Fwww.facebook.com%2FClydesOnMain#!/ClydesOnMain?refsrc=https%3A%2F%2Fwww.facebook.com%2FClydesOnMain
 </code></pre>
 
-<p>Wonder what’s going on? Well, Facebook’s mobile site (<code>m.facebook.com/ClydesOnMain</code>) is tracking the URL (using the <code>refsrc</code> GET parameter) I came from (<code>www.facebook.com/ClydesOnMain#!/ClydesOnMain</code>)—a single page &ldquo;web app&rdquo;, hence the hash-bang: <code>#!</code>—that was tracking the original referral page (<code>www.facebook.com/ClydesOnMain</code>).</p>
+<p>Wonder what’s going on? Well, Facebook’s mobile site (<code>m.facebook.com/ClydesOnMain</code>) is tracking the URL (using the <code>refsrc</code> GET parameter) I came from (<code>www.facebook.com/ClydesOnMain#!/ClydesOnMain</code>)—a single page “web app”, hence the hash-bang: <code>#!</code>—that was tracking the original referral page (<code>www.facebook.com/ClydesOnMain</code>).</p>
 
 <p>I hope they got all that.</p>
 ]]></content>
@@ -276,16 +270,17 @@
     <link href="http://www.aaron-gustafson.com/notebook/lessons-learned-from-atari/"/>
     <updated>2015-05-05T18:05:40-04:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/lessons-learned-from-atari</id>
-    <content type="html"><![CDATA[<p>In watching <a href="http://www.slashfilm.com/watch-atari-game-over/"><cite>Atari: Game Over</cite></a>, I couldn&rsquo;t help but see all of the parallels between the early video game industry and the web design industry. The boys’ club… Engineers as rockstars… It&rsquo;s a tale of a meteoric commercial rise followed by a swift and dismal collapse.</p>
+    <content type="html"><![CDATA[<p>In watching <a href="http://www.slashfilm.com/watch-atari-game-over/"><cite>Atari: Game Over</cite></a>, I couldn’t help but see all of the parallels between the early video game industry and the web design industry. The boys’ club… Engineers as rockstars… It’s a tale of a meteoric commercial rise followed by a swift and dismal collapse.</p>
 
 <!-- more -->
 
-
-<p>The film centers around the urban legend of millions of <cite>E.T. The Videogame</cite> cartridges being buried in a landfill in New Mexico as Atari burying it&rsquo;s shame over producing such a bad video game. Many cite <cite>E.T. The Videogame</cite> as the reason for the collapse of the industry in 1983, but it wasn&rsquo;t the case.</p>
+<p>The film centers around the urban legend of millions of <cite>E.T. The Videogame</cite> cartridges being buried in a landfill in New Mexico as Atari burying it’s shame over producing such a bad video game. Many cite <cite>E.T. The Videogame</cite> as the reason for the collapse of the industry in 1983, but it wasn’t the case.</p>
 
 <p>Xbox co-creator <a href="https://twitter.com/seamusblackley">Seamus Blackley</a> offered this:</p>
 
-<blockquote><p>The behavior patterns that created the conditions for the E.T. failure is what destroyed the video game industry.</p></blockquote>
+<blockquote>
+  <p>The behavior patterns that created the conditions for the E.T. failure is what destroyed the video game industry.</p>
+</blockquote>
 
 <p>The behavior patterns in question: greed; ridiculous timelines (E.T. was conceived and programmed in 5 weeks by one man: <a href="http://en.wikipedia.org/wiki/Howard_Scott_Warshaw">Howard Scott Warshaw</a>); and hubris.</p>
 
