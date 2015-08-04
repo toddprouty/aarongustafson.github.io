@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Posts]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-posts.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-08-04T11:12:53-04:00</updated>
+	<updated>2015-08-04T14:02:34-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -14,6 +14,22 @@
 	
 		
 	
+		
+			<entry>
+				<title type="html"><![CDATA[Unum Releases Their Pattern Libraries]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/unum-releases-their-pattern-libraries/"/>
+				<updated>2015-08-04T13:55:34-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/unum-releases-their-pattern-libraries</id>
+				<content type="html"><![CDATA[<p>Insurance company <a href="http://www.unum.com/">Unum</a> has just released the “UX Toolkits” (a.k.a. patten libraries) they use for both Unum and Colonial Life. They are pretty bare-bones right now, but I am hopeful they will flesh them out over time.</p>
+
+<ul>
+  <li><a href="http://toolkit.unumux.com">Unum UX Toolkit</a></li>
+  <li><a href="http://toolkit.coloniallifeux.com">Colonial Life UX Toolkit</a></li>
+</ul>
+
+<p>I love it when companies share stuff like this.</p>
+]]></content>
+			</entry>
 		
 	
 		

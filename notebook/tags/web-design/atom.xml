@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-08-04T11:12:53-04:00</updated>
+  <updated>2015-08-04T14:02:34-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Unum Releases Their Pattern Libraries]]></title>
+    <link href="http://www.aaron-gustafson.com/notebook/unum-releases-their-pattern-libraries/"/>
+    <updated>2015-08-04T13:55:34-04:00</updated>
+    <id>http://www.aaron-gustafson.com/notebook/unum-releases-their-pattern-libraries</id>
+    <content type="html"><![CDATA[<p>Insurance company <a href="http://www.unum.com/">Unum</a> has just released the “UX Toolkits” (a.k.a. patten libraries) they use for both Unum and Colonial Life. They are pretty bare-bones right now, but I am hopeful they will flesh them out over time.</p>
+
+<ul>
+  <li><a href="http://toolkit.unumux.com">Unum UX Toolkit</a></li>
+  <li><a href="http://toolkit.coloniallifeux.com">Colonial Life UX Toolkit</a></li>
+</ul>
+
+<p>I love it when companies share stuff like this.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Harvard, MIT, and Captioning]]></title>
@@ -262,29 +278,6 @@
 <p>Wonder what’s going on? Well, Facebook’s mobile site (<code>m.facebook.com/ClydesOnMain</code>) is tracking the URL (using the <code>refsrc</code> GET parameter) I came from (<code>www.facebook.com/ClydesOnMain#!/ClydesOnMain</code>)—a single page “web app”, hence the hash-bang: <code>#!</code>—that was tracking the original referral page (<code>www.facebook.com/ClydesOnMain</code>).</p>
 
 <p>I hope they got all that.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Lessons Learned From Atari]]></title>
-    <link href="http://www.aaron-gustafson.com/notebook/lessons-learned-from-atari/"/>
-    <updated>2015-05-05T18:05:40-04:00</updated>
-    <id>http://www.aaron-gustafson.com/notebook/lessons-learned-from-atari</id>
-    <content type="html"><![CDATA[<p>In watching <a href="http://www.slashfilm.com/watch-atari-game-over/"><cite>Atari: Game Over</cite></a>, I couldn’t help but see all of the parallels between the early video game industry and the web design industry. The boys’ club… Engineers as rockstars… It’s a tale of a meteoric commercial rise followed by a swift and dismal collapse.</p>
-
-<!-- more -->
-
-<p>The film centers around the urban legend of millions of <cite>E.T. The Videogame</cite> cartridges being buried in a landfill in New Mexico as Atari burying it’s shame over producing such a bad video game. Many cite <cite>E.T. The Videogame</cite> as the reason for the collapse of the industry in 1983, but it wasn’t the case.</p>
-
-<p>Xbox co-creator <a href="https://twitter.com/seamusblackley">Seamus Blackley</a> offered this:</p>
-
-<blockquote>
-  <p>The behavior patterns that created the conditions for the E.T. failure is what destroyed the video game industry.</p>
-</blockquote>
-
-<p>The behavior patterns in question: greed; ridiculous timelines (E.T. was conceived and programmed in 5 weeks by one man: <a href="http://en.wikipedia.org/wiki/Howard_Scott_Warshaw">Howard Scott Warshaw</a>); and hubris.</p>
-
-<p>There are a lot of parallels with the Silicon Valley of today. Food for thought.</p>
 ]]></content>
   </entry>
   
