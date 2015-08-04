@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-08-04T15:12:23-04:00</updated>
+	<updated>2015-08-04T15:29:48-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,21 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[The Web We Have to Save]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/the-web-we-have-to-save-2eb1fe15a426/"/>
+				<updated>2015-08-04T15:15:00-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/the-web-we-have-to-save-2eb1fe15a426</id>
+				<content type="html"><![CDATA[<p>This is a wonderful celebration of the hyperlink and the beauty of the decentralized web in a world of social media sites vying to keep us in their walled gardens. Hossein Derakhshan’s perspective is an interesting one as he’d been in prison (for blogging) since 2008.</p>
+
+<blockquote>
+  <p>Nearly every social network now treats a link as just the same as it treats any other object — the same as a photo, or a piece of text — instead of seeing it as a way to make that text richer. You’re encouraged to post one single hyperlink and expose it to a quasi-democratic process of liking and plussing and hearting: Adding several links to a piece of text is usually not allowed. Hyperlinks are objectivized, isolated, stripped of their powers.</p>
+</blockquote>
+<p><a rel="full-article" href="https://medium.com/matter/the-web-we-have-to-save-2eb1fe15a426">Read on Medium&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -254,17 +269,6 @@
 				<id>http://www.aaron-gustafson.com/notebook/links/report-6000-government-websites-to-be-made-accessible-for-the-differently-abled-2108182</id>
 				<content type="html"><![CDATA[<p>India appears to be getting serious about web accessibility. Reading the article, however, the title is a bit misleading: 6,000 sites would be affected, but only half will be made accessible (following <a href="http://www.w3.org/TR/WCAG20/">WCAG 2</a>) in the next year. Still, it’s a start.</p>
 <p><a rel="full-article" href="http://www.dnaindia.com/india/report-6000-government-websites-to-be-made-accessible-for-the-differently-abled-2108182">Read on Daily News & Analysis&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Parallels 11 to Feature Always-on Support in OS X for Microsoft’s Cortana Virtual Assistant]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/parallels-10-cortana/"/>
-				<updated>2015-07-31T13:20:24-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/parallels-10-cortana</id>
-				<content type="html"><![CDATA[<p>I don’t use Parallels, but this is pretty sweet.</p>
-<p><a rel="full-article" href="http://9to5mac.com/2015/07/27/parallels-10-cortana/">Read on 9to5Mac&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
