@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-08-04T14:02:34-04:00</updated>
+	<updated>2015-08-04T15:12:23-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,69 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[This Conspiracy Theory Says Ad Tech Companies Deliberately Keep Web Pages Loading Slow Because They Make More Money That Way]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/conspiracy-web-pages-load-slowly-because-they-make-more-money-that-way-2015-7/"/>
+				<updated>2015-08-04T15:09:51-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/conspiracy-web-pages-load-slowly-because-they-make-more-money-that-way-2015-7</id>
+				<content type="html"><![CDATA[<p>Ad companies profit, users suffer. This is ridiculous.</p>
+
+<blockquote>
+  <p>Basically, his theory is, when a reader clicks to read a story, the page calls for bids from advertisers on the ad space available. This bidding is supposed to take place in a few milliseconds. But, my correspondent says, ad tech companies hold open the bids much, much longer, so more bids come in, driving up the price. Publishers hate this because it makes pages load really slowly, giving readers a terrible experience. But it’s hard to stop because everyone — publisher included — is taking a cut of the winning bid. So publishers and ad tech companies actually have an incentive to make pages load slowly.</p>
+</blockquote>
+<p><a rel="full-article" href="http://www.businessinsider.com/conspiracy-web-pages-load-slowly-because-they-make-more-money-that-way-2015-7">Read on Business Insider&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Opera 31 Released]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/opera-31/"/>
+				<updated>2015-08-04T15:07:10-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/opera-31</id>
+				<content type="html"><![CDATA[<p>CSS columns, ES6 computed property names, Web Audio API updates, and more!</p>
+<p><a rel="full-article" href="https://dev.opera.com/blog/opera-31/">Read on Dev.Opera&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Every Browser Is the New IE (to Me)]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/every-browser-is-the-new-ie-to-me/"/>
+				<updated>2015-08-04T15:06:00-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/every-browser-is-the-new-ie-to-me</id>
+				<content type="html"><![CDATA[<p>Maybe browsers should focus on intro before forging ahead with new tech. You gotta clean your room before you go outside and play.</p>
+<p><a rel="full-article" href="http://daverupert.com/2015/07/every-browser-is-the-new-ie-to-me/">Read on daverupert.com&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Vendor Prefixes and Market Reality]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/vendor-prefixes-market/"/>
+				<updated>2015-08-04T15:04:33-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/vendor-prefixes-market</id>
+				<content type="html"><![CDATA[<p>The sad reality of vendor prefixes.</p>
+
+<blockquote>
+  <p>We have reached the point where browser vendors have to start implementing or aliasing these WebKit prefixes just to allow their users to browse the Web, see Mozilla in Gecko and Microsoft in Edge.</p>
+</blockquote>
+<p><a rel="full-article" href="http://www.otsukare.info/2015/07/29/vendor-prefixes-market">Read on otsukare&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Understanding Proxy Browsers: Architecture]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/understanding-proxy-browsers-architecture/"/>
+				<updated>2015-08-04T15:01:33-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/understanding-proxy-browsers-architecture</id>
+				<content type="html"><![CDATA[<p>The first in a series of posts on proxy browsers from <a href="http://timkadlec.com/">Tim Kadlec</a>.</p>
+<p><a rel="full-article" href="http://timkadlec.com/2015/07/understanding-proxy-browsers-architecture/">Read on TimKadlec.com&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -186,73 +249,6 @@
 				<id>http://www.aaron-gustafson.com/notebook/links/parallels-10-cortana</id>
 				<content type="html"><![CDATA[<p>I don’t use Parallels, but this is pretty sweet.</p>
 <p><a rel="full-article" href="http://9to5mac.com/2015/07/27/parallels-10-cortana/">Read on 9to5Mac&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[The Value of Content]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/the-value-of-content/"/>
-				<updated>2015-07-30T15:17:45-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/the-value-of-content</id>
-				<content type="html"><![CDATA[<p>This is a great post from <a href="http://blog.andybeaumont.com/">Andy Beaumont</a> regarding the sad state of affairs when it comes to content vs. conversions on the web. I look forward to the talk!</p>
-<p><a rel="full-article" href="https://medium.com/i-m-h-o/the-value-of-content-a30bbe8b54a5">Read on Medium&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Why Is So Much of the Internet Still Inaccessible to Disabled People?]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/why-is-so-much-of-the-internet-still-inaccessible-to-disabled-people/"/>
-				<updated>2015-07-30T12:45:07-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/why-is-so-much-of-the-internet-still-inaccessible-to-disabled-people</id>
-				<content type="html"><![CDATA[<blockquote>
-  <p>The internet represents one of our greatest post-ADA social failings, as a communications medium that had the potential to build accessibility into its very backbone, but didn’t. As the web becomes even more of a way of life in the next 25 years, the disability community will likely have to continue to fight for basic online accommodations, a telling testimony to their status in society.</p>
-</blockquote>
-
-<p>Amen.</p>
-<p><a rel="full-article" href="http://theweek.com/articles/567908">Read on The Week&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[This Small Change Could Make a Big Difference for Accessible Technology]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/this-small-change-could-make-a-big-difference-for-accessible-technology/"/>
-				<updated>2015-07-30T12:41:18-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/this-small-change-could-make-a-big-difference-for-accessible-technology</id>
-				<content type="html"><![CDATA[<p>Understanding accessibility will be key to getting tech jobs at Adobe, AT&amp;T, Facebook, Intuit, LinkedIn, Microsoft, Yahoo, and more. Are you ready?</p>
-<p><a rel="full-article" href="https://www.washingtonpost.com/blogs/the-switch/wp/2015/07/23/this-small-change-could-make-a-big-difference-for-accessible-technology/">Read on The Washington Post&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[The ADA at 25: Disability Rights and Diversity]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/the-ada-at-25-disability-rights-and-diversity/"/>
-				<updated>2015-07-30T12:35:11-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/the-ada-at-25-disability-rights-and-diversity</id>
-				<content type="html"><![CDATA[<p>This is a beautiful piece from Microsoft’s General Counsel on the importance of considering special needs within the umbrella of diversity. I particularly loved this bit:</p>
-
-<blockquote>
-  <p>At its core the ADA is not about the dimensions of doorways, but the individuals who can now pass through them.</p>
-</blockquote>
-
-<blockquote>
-  <p>A vision for the ADA that focuses on people helps enfranchise so many who have been excluded for so long. It also enriches and opens our institutions to the very best and brightest talent our country has to offer. That is the power of diversity and why diversity efforts should include disability.</p>
-</blockquote>
-<p><a rel="full-article" href="http://blogs.microsoft.com/on-the-issues/2015/07/23/the-ada-at-25-disability-rights-and-diversity/">Read on Microsoft on the Issues&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[ADA Anniversary Tool Kit]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/adaanniversary/"/>
-				<updated>2015-07-26T15:32:51-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/adaanniversary</id>
-				<content type="html"><![CDATA[<p>Happy 25th birthday to the Americans with Disabilities Act!</p>
-<p><a rel="full-article" href="http://www.adaanniversary.org/">Read on Syracuse University&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
