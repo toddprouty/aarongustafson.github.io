@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-08-06T13:51:51-04:00</updated>
+	<updated>2015-08-06T13:58:22-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,34 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[This Is What Android Fragmentation Looks Like in 2015]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/this-is-what-android-fragmentation-looks-like-in-2015/"/>
+				<updated>2015-08-06T13:55:12-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/this-is-what-android-fragmentation-looks-like-in-2015</id>
+				<content type="html"><![CDATA[<p>An Android is an Android is an Android, right? Right?</p>
+
+<p>This post will blow your mind.</p>
+<p><a rel="full-article" href="http://thenextweb.com/insider/2015/08/05/this-is-what-android-fragmentation-looks-like-in-2015/">Read on The Next Web&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Text Justification and Accessibility]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/text-justification-and-accessibility/"/>
+				<updated>2015-08-06T13:53:28-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/text-justification-and-accessibility</id>
+				<content type="html"><![CDATA[<p>Worth noting:</p>
+
+<blockquote>
+  <p>Justifying text can present problems for people with Dyslexia, where the extended spaces between words and sometimes letters within words can create what’s been termed “rivers of white”, referring to the spaces of white that can visually dominate the text.</p>
+</blockquote>
+<p><a rel="full-article" href="http://www.accessiq.org/news/news-features/2015/08/text-justification-and-accessibility">Read on Access iQ&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -249,28 +277,6 @@
 
 <p>I could not agree more.</p>
 <p><a rel="full-article" href="https://css-tricks.com/the-trouble-with-preprocessing-based-on-future-specs/">Read on CSS-Tricks&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Page Bloat Update: The Average Web Page Is More Than 2 MB in Size]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/page-bloat-average-web-page-2-mb/"/>
-				<updated>2015-08-03T12:11:42-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/page-bloat-average-web-page-2-mb</id>
-				<content type="html"><![CDATA[<p>Not terribly surprising, but distressing nonetheless.</p>
-<p><a rel="full-article" href="http://www.soasta.com/blog/page-bloat-average-web-page-2-mb/">Read on SOASTA&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Wearable First—Rethinking Accessible Design]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/wearable-first-design/"/>
-				<updated>2015-07-31T17:22:28-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/wearable-first-design</id>
-				<content type="html"><![CDATA[<p>An interesting look at the evolution of UI design and where it might be heading.</p>
-<p><a rel="full-article" href="http://wearability.org/wearable-first-design.html">Read on WearAbility&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
