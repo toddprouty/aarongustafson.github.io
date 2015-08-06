@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-08-05T14:57:40-04:00</updated>
+	<updated>2015-08-06T13:51:51-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,32 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Google+: A Case Study on App Download Interstitials]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/google-case-study-on-app-download-interstitials/"/>
+				<updated>2015-08-06T11:51:14-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/google-case-study-on-app-download-interstitials</id>
+				<content type="html"><![CDATA[<p>No big surprise: The app-promoting interstitial drove users away to the tune of 69%. And so…</p>
+
+<blockquote>
+  <p>Based on these results, we decided to permanently retire the interstitial. We believe that the increase in users on our product makes this a net positive change, and we are sharing this with the hope that you will reconsider the use of promotional interstitials. Let’s remove friction and make the mobile web more useful and usable!</p>
+</blockquote>
+<p><a rel="full-article" href="http://googlewebmastercentral.blogspot.com/2015/07/google-case-study-on-app-download-interstitials.html">Read on Official Google Webmaster Central Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[​Can Microsoft Edge Start the Browser War We So Desperately Need?]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/windows-10-microsoft-edge-browser-war/"/>
+				<updated>2015-08-06T11:49:38-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/windows-10-microsoft-edge-browser-war</id>
+				<content type="html"><![CDATA[<p>It’s not the “browser war” our industry talks about, it’s just healthy competition. There’s a good bit of history in here though.</p>
+<p><a rel="full-article" href="http://www.popularmechanics.com/technology/a16653/windows-10-microsoft-edge-browser-war/">Read on Popular Mechanics&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -245,30 +271,6 @@
 				<id>http://www.aaron-gustafson.com/notebook/links/wearable-first-design</id>
 				<content type="html"><![CDATA[<p>An interesting look at the evolution of UI design and where it might be heading.</p>
 <p><a rel="full-article" href="http://wearability.org/wearable-first-design.html">Read on WearAbility&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[We Are All Disabled, or Soon Could Be: Redefining Inclusive User Experience on the Web [PDF]]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/we-are-all-disabled-or-soon-might-be-pseweb2015-dboudreau-final/"/>
-				<updated>2015-07-31T13:51:38-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/we-are-all-disabled-or-soon-might-be-pseweb2015-dboudreau-final</id>
-				<content type="html"><![CDATA[<p>What an amazing talk! I wish I could have seen it delivered in person.</p>
-
-<p>My thanks to Denis for quoting <a href="http://www.aaron-gustafson.com/notebook/the-web-is-for-everyone/">my a11yQC keynote</a> too :-)</p>
-<p><a rel="full-article" href="http://denisboudreau.org/presentations/2015/PSEweb/we-are-all-disabled-or-soon-could-be/we-are-all-disabled-or-soon-might-be-pseweb2015-dboudreau-final.pdf">Read on Denis Boudreau&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Keyboard Shortcuts of Microsoft Edge Browser]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/keyboard-shortcuts-of-microsoft-edge-browser-complete-list/"/>
-				<updated>2015-07-31T13:50:28-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/keyboard-shortcuts-of-microsoft-edge-browser-complete-list</id>
-				<content type="html"><![CDATA[<p>In case you’re curious.</p>
-<p><a rel="full-article" href="http://www.howto-connect.com/keyboard-shortcuts-of-microsoft-edge-browser-complete-list/">Read on Howtoconnect&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
