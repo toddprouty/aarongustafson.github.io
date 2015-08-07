@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: The Web | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/the-web/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-08-07T09:15:14-04:00</updated>
+  <updated>2015-08-07T09:29:47-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -14,11 +14,13 @@
 
   
   <entry>
-    <title type="html"><![CDATA[“Ramblings on New Browser Features, Interoperability, Craft, and the Future of the Web"]]></title>
+    <title type="html"><![CDATA[Ramblings on New Browser Features, Interoperability, Craft, and the Future of the Web]]></title>
     <link href="http://www.aaron-gustafson.com/notebook/ramblings-on-new-browser-features-interoperability-craft-and-the-future-of-the-web/"/>
     <updated>2015-08-05T11:14:23-04:00</updated>
     <id>http://www.aaron-gustafson.com/notebook/ramblings-on-new-browser-features-interoperability-craft-and-the-future-of-the-web</id>
     <content type="html"><![CDATA[<p>Last week <a href="http://www.quirksmode.org/about/">Peter-Paul Koch (PPK)</a> posted <a href="http://www.quirksmode.org/blog/archives/2015/07/stop_pushing_th.html">a lengthy treatise on why browsers should stop “pushing the web forward”</a>. I thoroughly enjoyed the read and agree with him on a number of points. I also agreed with the well-articulated responses from <a href="https://jakearchibald.com/2015/if-we-stand-still-we-go-backwards/">Jake Archibald (of Google)</a> and <a href="https://dev.opera.com/blog/on-a-moratorium-on-new-browser-features/">Bruce Lawson (of Opera)</a>. I guess I’m saying I see both sides. Like <a href="http://chriscoyier.net/">Chris Coyier</a>, I live in <a href="https://css-tricks.com/the-gray-gray-ghost-that-i-call-home/">a world filled with varying shades of grey</a> rather than stark black &amp; white.</p>
+
+<!-- more -->
 
 <h2 id="new-features-vs-interoperability">New Features vs. Interoperability</h2>
 
