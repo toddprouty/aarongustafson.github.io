@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: The Web | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/the-web/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-08-07T10:55:07-04:00</updated>
+  <updated>2015-08-07T12:56:24-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -56,7 +56,7 @@
 
 <ol>
   <li>Prioritize interop over new features. Don’t halt development on new features, just put them on the back burner so the rising tide can, as they say, lift <em>all</em> the ships. Web developers and end users all benefit when there’s feature parity and stability among browsers.</li>
-  <li>Put a moratorium on vendor-prefixes. They are not generally understood to be experimental. If you feel you must use a vendor prefix, ensure it’s only enabled by a corresponding feature flag.</li>
+  <li>Put a ban on vendor-prefixes. They are not generally understood to be experimental. If you feel you must use a vendor prefix, ensure it’s only enabled by a corresponding feature flag.</li>
   <li>Use feature flags (or some similar opt-in) to enable developers to test experimental features in their own browsers, but also to ensure they aren’t available on the “open web” before they’re ready.</li>
 </ol>
 
@@ -88,7 +88,7 @@
 
 <p>As Jake points out in his response, stagnation is not a good policy. Stagnation pretty much killed BlackBerry. It also led to a lot of developer frustration in the guise of IE 6.</p>
 
-<p>Change is not inherently bad. It’s pace can be quite frustrating at times, though. PPK certainly seems to be feeling that way about its speed now just as <a href="https://infrequently.org/2007/09/slides-from-my-standards-heresy-talk/">Alex Russell lamented it’s plodding progress back in 2007</a>. But when you take a step back, especially with a historical perspective, you see the changes are cyclical in many ways. The bandwidth issues we dealt with during the dial-up era are with us again in the form of mobile networks. The lessons we learned building a web for 640x480 screens are equally applicable in a world of wearables. And the text-based interactions we created in the very early days will serve as a template as we move boldly forward into the realm of voice-driven user experiences.</p>
+<p>Change is not inherently bad. It’s pace can be quite frustrating at times, though. PPK certainly seems to be feeling that way about its speed now just as <a href="https://infrequently.org/2007/09/slides-from-my-standards-heresy-talk/">Alex Russell lamented its plodding progress back in 2007</a>. But when you take a step back, especially with a historical perspective, you see the changes are cyclical in many ways. The bandwidth issues we dealt with during the dial-up era are with us again in the form of mobile networks. The lessons we learned building a web for 640x480 screens are equally applicable in a world of wearables. And the text-based interactions we created in the very early days will serve as a template as we move boldly forward into the realm of voice-driven user experiences.</p>
 
 <h2 id="cutting-edge-vs-craft">Cutting Edge vs. Craft</h2>
 
