@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Browsers | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/browsers/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-08-07T12:56:24-04:00</updated>
+  <updated>2015-08-07T16:28:53-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -27,11 +27,11 @@
 <p>One of the arguments PPK makes is against browsers competing on features. It really rang true to me: </p>
 
 <blockquote>
-  <p>I call for a moratorium on new browser features of about a year. Let’s postpone all completely new features that as of right now don’t yet work in any browser.</p>
-</blockquote>
 
-<blockquote>
-  <p>Browsers are encouraged to add features that are already supported by other browsers, and to write bug fixes. In fact, finding time for these unglorious but necessary jobs would be an important advantage of the moratorium. As an added bonus it would decrease the amount of tools web developers need.</p>
+I call for a moratorium on new browser features of about a year. Let’s postpone all completely new features that as of right now don’t yet work in any browser.
+
+Browsers are encouraged to add features that are already supported by other browsers, and to write bug fixes. In fact, finding time for these unglorious but necessary jobs would be an important advantage of the moratorium. As an added bonus it would decrease the amount of tools web developers need.
+
 </blockquote>
 
 <p><a href="/notebook/competing-on-chrome/">Back in January</a>, I wrote about how I was excited by Microsoft’s announcement of “Project Spartan” (now “Microsoft Edge”) and it’s focus on interoperability. Interoperability’s a long word, so I’m gonna go with “interop” from here on out.</p>
