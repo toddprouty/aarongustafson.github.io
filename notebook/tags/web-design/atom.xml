@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-08-09T23:02:39-04:00</updated>
+  <updated>2015-08-09T23:20:57-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -84,7 +84,7 @@ Browsers are encouraged to add features that are already supported by other brow
 
 <p>Underpinning this whole “native vs. web” thing is, I think, a feeling many of us old-timers have that our web—the web we grew up building—is slipping away from us. We cling to the idea of the web as an open platform<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup> for people to share their thoughts, passions, and cat photos. We like the web as it was originally. We like the web as we made it.</p>
 
-<p>The web is changing. In some ways it’s changing for the better, in some ways for the worse. It’s a far different beast today than <a href="info.cern.ch/hypertext/WWW/TheProject.html">when Tim Berners-Lee typed that first <code>&lt;HEADER&gt;</code></a> and you can certainly do a lot more in the browser now than you could when I first picked up HTML. But I don’t think halting progress on the web is desirable.</p>
+<p>The web is changing. In some ways it’s changing for the better, in some ways for the worse. It’s a far different beast today than <a href="http://info.cern.ch/hypertext/WWW/TheProject.html">when Tim Berners-Lee typed that first <code>&lt;HEADER&gt;</code></a> and you can certainly do a lot more in the browser now than you could when I first picked up HTML. But I don’t think halting progress on the web is desirable.</p>
 
 <p>As Jake points out in his response, stagnation is not a good policy. Stagnation pretty much killed BlackBerry. It also led to a lot of developer frustration in the guise of IE 6.</p>
 
