@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-08-10T11:42:53-04:00</updated>
+	<updated>2015-08-12T16:03:20-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Open Source Style Guide]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/18f-open-source-style-guide/"/>
+				<updated>2015-08-11T07:48:07-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/18f-open-source-style-guide</id>
+				<content type="html"><![CDATA[<p>A fantastic overview of best practices for running an open source project on Github from the folks at <a href="https://18f.gsa.gov/">18F</a>. Covers everything to naming your project to writing READMEs to reporting issues.</p>
+<p><a rel="full-article" href="https://pages.18f.gov/open-source-guide/index.html">Read on 18F&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 	
@@ -235,17 +246,6 @@
   <p>While the applicability of WCAG 2.0 would need a high degree of interpretation to apply to a light bulb, web accessibility standards certainly apply to the browsers and apps that we use to centrally control it all. As this space continues to evolve, it’s vital that developers ensure that whatever devices control these products, accessibility is at the heart of them.</p>
 </blockquote>
 <p><a rel="full-article" href="http://www.accessiq.org/news/w3c-column/2015/07/will-your-toaster-become-wcag-compliant">Read on Access iQ&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[NTH-TEST]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/nth-test/"/>
-				<updated>2015-08-03T12:31:43-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/nth-test</id>
-				<content type="html"><![CDATA[<p>If you have problems understanding how nth-* selectors work in CSS, this visualizer may help you out.</p>
-<p><a rel="full-article" href="http://nth-test.com/">Read on NTH-TEST&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
