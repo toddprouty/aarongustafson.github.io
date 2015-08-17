@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-08-14T15:07:39-04:00</updated>
+	<updated>2015-08-17T12:00:13-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,32 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[The Ethics of Modern Web Ad-blocking]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/ad-blocking-ethics/"/>
+				<updated>2015-08-17T11:57:49-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/ad-blocking-ethics</id>
+				<content type="html"><![CDATA[<p>An excellent overview of where web advertising is and what lines it has crossed. This bit is particularly relevant:</p>
+
+<blockquote>
+  <p>This won’t be a clean, easy transition. Blocking pop-ups was much more incisive: it was easy for legitimate publishers to avoid one narrowly-useful Javascript function to open new windows. But it’s completely reasonable for today’s web readers to be so fed up that they disable all ads, or even all Javascript. Web developers and standards bodies couldn’t be more out of touch with this issue, racing ahead to give browsers and Javascript even more capabilities without adequately addressing the fundamental problems that will drive many people to disable huge chunks of their browser’s functionality.</p>
+</blockquote>
+<p><a rel="full-article" href="http://www.marco.org/2015/08/11/ad-blocking-ethics">Read on Marco.org&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Use the Words Normal People Use]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/normal-words/"/>
+				<updated>2015-08-17T11:52:35-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/normal-words</id>
+				<content type="html"><![CDATA[<p>’Nuff said.</p>
+<p><a rel="full-article" href="http://gilest.org/normal-words.html">Read on Gilest.org&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -353,30 +379,6 @@ Browsers are encouraged to add features that are already supported by other brow
 				<id>http://www.aaron-gustafson.com/notebook/links/pointer-events-now-in-firefox-nightly</id>
 				<content type="html"><![CDATA[<p>I’m so excited to see this land in Firefox. Chrome and Safari: Your move.</p>
 <p><a rel="full-article" href="https://hacks.mozilla.org/2015/08/pointer-events-now-in-firefox-nightly/">Read on Mozilla Hacks&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Web Design - the First 100 Years]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/web_design_first_100_years/"/>
-				<updated>2015-08-03T16:04:05-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/web_design_first_100_years</id>
-				<content type="html"><![CDATA[<p>This is fantastic talk was given by <a href="http://idlewords.com/">Maciej Cegłowski</a> at HOW Interactive in 2014. In it, he elegantly frames what makes the web so awesome and so special. He the identifies three distinct visions for the web and the threat two of those visions pose to it.</p>
-
-<p>Well done, sir!</p>
-<p><a rel="full-article" href="http://idlewords.com/talks/web_design_first_100_years.htm">Read on Idle Words&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Combining Section508.gov and BuyAccessible.gov]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/combining-section508_gov-and-buyaccessible_gov/"/>
-				<updated>2015-08-03T15:16:00-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/combining-section508_gov-and-buyaccessible_gov</id>
-				<content type="html"><![CDATA[<p>Consolidating everything a government agency or other entity needs to know about Section 508 compliance and contracting for accessible results was a good idea. Hopefully the net result will be more accessible public websites here in the States.</p>
-<p><a rel="full-article" href="http://section508.gov/home">Read on Section508.gov&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
