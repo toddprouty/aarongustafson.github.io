@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-08-17T13:34:12-04:00</updated>
+	<updated>2015-08-17T14:31:44-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Windows 10 Virtual Machines Now Available]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/windows-10-virtual-machines-now-available-on-microsoft-edge-dev/"/>
+				<updated>2015-08-17T14:24:33-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/windows-10-virtual-machines-now-available-on-microsoft-edge-dev</id>
+				<content type="html"><![CDATA[<p>Need a Windows 10 (virtual) box for testing Microsoft Edge? They’re now available no <a href="http://dev.modern.ie/">the Microsoft Edge Dev site</a>.</p>
+<p><a rel="full-article" href="http://blogs.windows.com/msedgedev/2015/08/17/windows-10-virtual-machines-now-available-on-microsoft-edge-dev/">Read on Microsoft Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -354,24 +365,6 @@ Browsers are encouraged to add features that are already supported by other brow
 				<id>http://www.aaron-gustafson.com/notebook/links/understanding-proxy-browsers-architecture</id>
 				<content type="html"><![CDATA[<p>The first in a series of posts on proxy browsers from <a href="http://timkadlec.com/">Tim Kadlec</a>.</p>
 <p><a rel="full-article" href="http://timkadlec.com/2015/07/understanding-proxy-browsers-architecture/">Read on TimKadlec.com&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Design With Accessibility in Mind]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/design-with-accessibility-in-mind/"/>
-				<updated>2015-08-04T14:00:22-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/design-with-accessibility-in-mind</id>
-				<content type="html"><![CDATA[<p>An overview of solid strategies for accessible web design from the UX team at Unum.</p>
-
-<ol>
-  <li>Consider the Flow</li>
-  <li>Provide Good Contrast</li>
-  <li>Style Your Font Carefully</li>
-  <li>Avoid Ambiguous Links</li>
-</ol>
-<p><a rel="full-article" href="http://www.unumux.com/ux-insights/design-with-accessibility-in-mind">Read on Unum UX&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
