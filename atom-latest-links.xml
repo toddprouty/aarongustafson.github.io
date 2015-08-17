@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-08-17T12:00:13-04:00</updated>
+	<updated>2015-08-17T13:34:12-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,28 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Inside Selectors: Discover `:matches()`, `:not()` and `:nth-child()`]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/css-selectors-inside-selectors-discover-matches-not-and-nth-child/"/>
+				<updated>2015-08-17T13:32:14-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/css-selectors-inside-selectors-discover-matches-not-and-nth-child</id>
+				<content type="html"><![CDATA[<p>More selectors from <a href="http://drafts.csswg.org/selectors-4/">Selectors Level 4</a> have landed in WebKit. This is a handy overview of some of them.</p>
+<p><a rel="full-article" href="https://www.webkit.org/blog/3615/css-selectors-inside-selectors-discover-matches-not-and-nth-child/">Read on Surfin’ Safari&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[What Happens When You Get Sued for Your Inaccessible Website]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/what-happens-when-you-get-sued-for-your-inaccessible-website/"/>
+				<updated>2015-08-17T13:22:41-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/what-happens-when-you-get-sued-for-your-inaccessible-website</id>
+				<content type="html"><![CDATA[<p>The bottom line: “Ultimately, you are going to end up fixing your website”, so “[b]eing proactive is far better than being reactive and that’s never more true than when you’re dealing with a legal threat.”</p>
+<p><a rel="full-article" href="http://www.karlgroves.com/2015/08/16/what-happens-when-you-get-sued-for-your-inaccessible-website/">Read on Karl Groves&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -235,19 +257,6 @@
   <li>Avoid Ambiguous Links</li>
 </ol>
 <p><a rel="full-article" href="http://www.unumux.com/ux-insights/design-with-accessibility-in-mind">Read on Unum UX&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Pointer Events Now in Firefox Nightly]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/pointer-events-now-in-firefox-nightly/"/>
-				<updated>2015-08-04T13:53:52-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/pointer-events-now-in-firefox-nightly</id>
-				<content type="html"><![CDATA[<p>I’m so excited to see this land in Firefox. Chrome and Safari: Your move.</p>
-<p><a rel="full-article" href="https://hacks.mozilla.org/2015/08/pointer-events-now-in-firefox-nightly/">Read on Mozilla Hacks&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
