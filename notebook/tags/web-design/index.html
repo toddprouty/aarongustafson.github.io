@@ -142,6 +142,76 @@
 	<header class="entry__header">
 		<h1 class="entry__title entry-title">
 			
+				<a href="/notebook/web-design-101-buttons-should-be-tappable/">Web Design 101: 100% Tappable</a>
+			
+		</h1>
+		
+			<p class="entry__meta">
+				
+					Posted on
+				
+				
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+		<time class="dt-published" datetime="2015-08-17T14:46:35-04:00">17 August 2015</time>
+				
+      		</p>
+		
+  	</header>
+
+
+<div class="entry__content entry__content--excerpt entry-content">
+	<p>I see this one all the time: something that looks like a button, but only a portion of it is tappable. Consider this example from a recent email I received (emails are notorious for this crap):</p>
+
+<figure id="fig-2015-08-17-01" class="media-container">{% adaptive_image /i/posts/2015-08-17/01.png %}<figcaption>A call to action from a recent email with the tiny tappable area highlighted within the much larger "button".</figcaption></figure>
+
+<p>This screenshot shows a very large call to action, which is good. Unfortunately, as the screenshot illustrates, the majority of the “button” is a table cell and the tappable link is just the text inside it.</p>
+
+<p>The markup itself isn’t horrible; here’s a distillation of that row in the design:</p>
+
+<p>{% gist 711cbd1054e8ee868a93 example.html %}</p>
+
+<p>The problem is that the 15px padding and overall button styles were put on the table cell rather than the link itself. Setting the link to have a <code>display</code> of “block” or “inline-block” would allow it to be given vertical padding (which is probably the issue the designer was struggling with here). Then the remainder of the styles could be migrated without adjusting the design at all.</p>
+
+<figure id="fig-2015-08-17-02" class="media-container">{% adaptive_image /i/posts/2015-08-17/02.png %}<figcaption>The same email with the padding shifted to the link, making more of the "button" tappable.</figcaption></figure>
+
+<p>When you design something that looks interactive, <em>always make sure the whole thing is actually tappable</em>. It will go along way toward reducing user frustration.</p>
+
+</div>
+ 	
+
+
+			</article>
+
+			
+				<hr class="rule">
+			
+
+		
+
+	
+
+		
+
+			<article class="entry entry--teaser">
+		 		
+
+
+	<header class="entry__header">
+		<h1 class="entry__title entry-title">
+			
 				<a href="/notebook/ramblings-on-new-browser-features-interoperability-craft-and-the-future-of-the-web/">Ramblings on New Browser Features, Interoperability, Craft, and the Future of the Web</a>
 			
 		</h1>
@@ -1527,8 +1597,7 @@
 <div class="entry__content entry__content--excerpt entry-content">
 	<p>Love this!</p>
 
-<p><div class='embed tweet'><blockquote class="twitter-tweet"><p>You&#39;ll never believe this one weird trick that takes the pain out of cross browser testing: Progressive enhancement.</p>&mdash; Orde Saunders (@decadecity) <a href="https://twitter.com/decadecity/status/559693419808034816">January 26, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div></p>
+<p>{% tweet https://twitter.com/decadecity/status/559693419808034816 %}</p>
 
 </div>
  	
@@ -3230,6 +3299,8 @@
 		<h1 class="module__title">Recommended Reading</h1>
 		<ul class="listing listing--links">
 			
+			
+				
 			
 				
 					

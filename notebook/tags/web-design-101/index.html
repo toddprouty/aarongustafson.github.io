@@ -16,10 +16,10 @@
 
 
 
-<title>Browse by Tag: Accessibility, From the Notebook of Aaron Gustafson</title>
-<meta property="og:title" content="Browse by Tag: Accessibility">
+<title>Browse by Tag: Web Design 101, From the Notebook of Aaron Gustafson</title>
+<meta property="og:title" content="Browse by Tag: Web Design 101">
 
-<meta property="og:url" content="http://www.aaron-gustafson.com/notebook/tags/accessibility/">
+<meta property="og:url" content="http://www.aaron-gustafson.com/notebook/tags/web-design-101/">
 
 <meta name="author" content="Aaron Gustafson">
 <meta property="og:type" content="website">
@@ -27,8 +27,8 @@
 <meta property="og:image" content="http://www.aaron-gustafson.com/i/og-logo.png">
 <meta property="og:locale" content="en_US">
 
-<meta property="og:description" content="Category: accessibility">
-<meta name="description" content="Category: accessibility">
+<meta property="og:description" content="Category: web design 101">
+<meta name="description" content="Category: web design 101">
 
 <!-- Twitter -->
 <meta name="twitter:card" value="summary"/>
@@ -125,7 +125,7 @@
 
 	
   		
-		<h1 class="page__title">Browse by Tag: Accessibility</h1>
+		<h1 class="page__title">Browse by Tag: Web Design 101</h1>
 	
 
 	<div class="layout-container__primary">
@@ -142,7 +142,7 @@
 	<header class="entry__header">
 		<h1 class="entry__title entry-title">
 			
-				<a href="/notebook/harvard-and-mit-and-captioning/">Harvard, MIT, and Captioning</a>
+				<a href="/notebook/web-design-101-buttons-should-be-tappable/">Web Design 101: 100% Tappable</a>
 			
 		</h1>
 		
@@ -165,7 +165,7 @@
 
 
 
-		<time class="dt-published" datetime="2015-06-29T14:23:28-04:00">29 June 2015</time>
+		<time class="dt-published" datetime="2015-08-17T14:46:35-04:00">17 August 2015</time>
 				
       		</p>
 		
@@ -173,340 +173,24 @@
 
 
 <div class="entry__content entry__content--excerpt entry-content">
-	<p>The U.S. Department of Justice (DOJ) has published Statements of Interest in two cases brought by the National Association of the Deaf (NAD) against <a href="http://www.ada.gov/briefs/harvard_soi.pdf">Harvard (PDF)</a> and <a href="http://www.ada.gov/briefs/mit_soi.pdf">MIT (PDF)</a>, respectively. The NAD is suing the two universities for violations of Title III of the Americans with Disabilities Act (ADA) and Section 504 of the Rehabilitation Act because the video and audio materials they are making available as part of their online learning offerings are not captioned.</p>
+	<p>I see this one all the time: something that looks like a button, but only a portion of it is tappable. Consider this example from a recent email I received (emails are notorious for this crap):</p>
 
+<figure id="fig-2015-08-17-01" class="media-container">{% adaptive_image /i/posts/2015-08-17/01.png %}<figcaption>A call to action from a recent email with the tiny tappable area highlighted within the much larger "button".</figcaption></figure>
 
-</div>
- 	
+<p>This screenshot shows a very large call to action, which is good. Unfortunately, as the screenshot illustrates, the majority of the “button” is a table cell and the tappable link is just the text inside it.</p>
 
-	<footer class="entry__footer">
-		<p>
-			<a rel="full-article" href="/notebook/harvard-and-mit-and-captioning/">You can finish reading
-			<cite>Harvard, MIT, and Captioning</cite> in less than 2 minutes</a>
-		</p>
-	</footer>
+<p>The markup itself isn’t horrible; here’s a distillation of that row in the design:</p>
 
+<p>{% gist 711cbd1054e8ee868a93 example.html %}</p>
 
-			</article>
+<p>The problem is that the 15px padding and overall button styles were put on the table cell rather than the link itself. Setting the link to have a <code>display</code> of “block” or “inline-block” would allow it to be given vertical padding (which is probably the issue the designer was struggling with here). Then the remainder of the styles could be migrated without adjusting the design at all.</p>
 
-			
-				<hr class="rule">
-			
+<figure id="fig-2015-08-17-02" class="media-container">{% adaptive_image /i/posts/2015-08-17/02.png %}<figcaption>The same email with the padding shifted to the link, making more of the "button" tappable.</figcaption></figure>
 
-		
-
-	
-
-		
-
-			<article class="entry entry--teaser">
-		 		
-
-
-	<header class="entry__header">
-		<h1 class="entry__title entry-title">
-			
-				<a href="/notebook/where-do-we-go-from-here/">Where Do We Go From Here?</a>
-			
-		</h1>
-		
-			<p class="entry__meta">
-				
-					Posted on
-				
-				
-
-
-
-
-
-
-
-
-	
-
-
-
-
-
-		<time class="dt-published" datetime="2015-06-22T11:49:56-04:00">22 June 2015</time>
-				
-      		</p>
-		
-  	</header>
-
-
-<div class="entry__content entry__content--excerpt entry-content">
-	<p><em>I had the great pleasure of delivering the closing keynote for the final Responsive Day Out. Here’s what I had to say.</em></p>
-
+<p>When you design something that looks interactive, <em>always make sure the whole thing is actually tappable</em>. It will go along way toward reducing user frustration.</p>
 
 </div>
  	
-
-	<footer class="entry__footer">
-		<p>
-			<a rel="full-article" href="/notebook/where-do-we-go-from-here/">You can finish reading
-			<cite>Where Do We Go From Here?</cite> in less than 23 minutes</a>
-		</p>
-	</footer>
-
-
-			</article>
-
-			
-				<hr class="rule">
-			
-
-		
-
-	
-
-		
-
-			<article class="entry entry--teaser">
-		 		
-
-
-	<header class="entry__header">
-		<h1 class="entry__title entry-title">
-			
-				<a href="/notebook/consider-how-your-forms-read/">Consider How Your Forms Read</a>
-			
-		</h1>
-		
-			<p class="entry__meta">
-				
-					Posted on
-				
-				
-
-
-
-
-
-
-
-
-	
-
-
-
-
-
-		<time class="dt-published" datetime="2015-02-23T11:21:24-05:00">23 February 2015</time>
-				
-      		</p>
-		
-  	</header>
-
-
-<div class="entry__content entry__content--excerpt entry-content">
-	<p>While listening to <a href="http://www.radiolab.org/story/trust-engineers/">Radiolab’s “The Trust Engineers”</a>, I’ll admit I got a little excited when they started talking about web form performance. And no, not “performance” in the time-to-download sense, but “performance” in terms of how well the forms performed in attempting to capture meaningful, actionable data.</p>
-
-
-</div>
- 	
-
-	<footer class="entry__footer">
-		<p>
-			<a rel="full-article" href="/notebook/consider-how-your-forms-read/">You can finish reading
-			<cite>Consider How Your Forms Read</cite> in less than 3 minutes</a>
-		</p>
-	</footer>
-
-
-			</article>
-
-			
-				<hr class="rule">
-			
-
-		
-
-	
-
-		
-
-			<article class="entry entry--teaser">
-		 		
-
-
-	<header class="entry__header">
-		<h1 class="entry__title entry-title">
-			
-				<a href="/notebook/egalitarianism/">Egalitarianism</a>
-			
-		</h1>
-		
-			<p class="entry__meta">
-				
-					Posted on
-				
-				
-
-
-
-
-
-
-
-
-	
-
-
-
-
-
-		<time class="dt-published" datetime="2015-01-19T10:32:20-05:00">19 January 2015</time>
-				
-      		</p>
-		
-  	</header>
-
-
-<div class="entry__content entry__content--excerpt entry-content">
-	<p>Today is Martin Luther King Day in the United States, so I thought I’d take a moment to reflect on one aspect of equality I think is incredibly important: egalitarianism.</p>
-
-
-</div>
- 	
-
-	<footer class="entry__footer">
-		<p>
-			<a rel="full-article" href="/notebook/egalitarianism/">You can finish reading
-			<cite>Egalitarianism</cite> in less than 7 minutes</a>
-		</p>
-	</footer>
-
-
-			</article>
-
-			
-				<hr class="rule">
-			
-
-		
-
-	
-
-		
-
-			<article class="entry entry--teaser">
-		 		
-
-
-	<header class="entry__header">
-		<h1 class="entry__title entry-title">
-			
-				<a href="/notebook/the-web-is-for-everyone/">The Web is for Everyone</a>
-			
-		</h1>
-		
-			<p class="entry__meta">
-				
-					Posted on
-				
-				
-
-
-
-
-
-
-
-
-	
-
-
-
-
-
-		<time class="dt-published" datetime="2014-11-06T15:47:54-05:00">06 November 2014</time>
-				
-      		</p>
-		
-  	</header>
-
-
-<div class="entry__content entry__content--excerpt entry-content">
-	<p><em>I gave this speech as the closing keynote at <a href="http://a11yqc.org/">A11yQC</a>, a conference on Web accessibility, on 14 October 2014 in Québec City, Canada. I have published my script here as the slides can’t really convey its message on their own.</em></p>
-
-<p>We, as an industry, tend to have a pretty myopic view of experience. Those of us who work day-to-day in accessibility probably have a broader perspective than most, but I would argue that even we all fall short now and again when it comes to seeing the Web as others do.</p>
-
-
-</div>
- 	
-
-	<footer class="entry__footer">
-		<p>
-			<a rel="full-article" href="/notebook/the-web-is-for-everyone/">You can finish reading
-			<cite>The Web is for Everyone</cite> in less than 23 minutes</a>
-		</p>
-	</footer>
-
-
-			</article>
-
-			
-				<hr class="rule">
-			
-
-		
-
-	
-
-		
-
-			<article class="entry entry--teaser">
-		 		
-
-
-	<header class="entry__header">
-		<h1 class="entry__title entry-title">
-			
-				<a href="/notebook/aria-quicktip-labelledby-vs-describedby/">ARIA Quicktip: Labelledby vs. Describedby</a>
-			
-		</h1>
-		
-			<p class="entry__meta">
-				
-					Posted on
-				
-				
-
-
-
-
-
-
-
-
-	
-
-
-
-
-
-		<time class="dt-published" datetime="2014-11-05T10:45:22-05:00">05 November 2014</time>
-				
-      		</p>
-		
-  	</header>
-
-
-<div class="entry__content entry__content--excerpt entry-content">
-	<p>Last night, while we were enjoying a cool evening and a few drinks outside after day 1 of <a href="http://bdconf.com">BDConf</a>, <a href="http://adactio.com">Jeremy</a> asked me for some clarification on the ARIA attributes I had demoed as part of <a href="http://www.slideshare.net/AaronGustafson/falling-in-love-with-forms-bdconf-2014">my forms presentation</a> earlier in the afternoon. In particular, he was confused by how <code>aria-labelledby</code> and <code>aria-describedby</code> differ.</p>
-
-
-</div>
- 	
-
-	<footer class="entry__footer">
-		<p>
-			<a rel="full-article" href="/notebook/aria-quicktip-labelledby-vs-describedby/">You can finish reading
-			<cite>ARIA Quicktip: Labelledby vs. Describedby</cite> in less than 1 minute</a>
-		</p>
-	</footer>
 
 
 			</article>
@@ -1764,7 +1448,7 @@
 		<footer role="contentinfo" class="footer">
 	<div class="layout-container">
 		
-			<p class="footer__fork-me">Did you spot a typo or error? Eesh. <a href="https://github.com/aarongustafson/aarongustafson.github.io/tree/source/source/notebook/tags/accessibility/index.html">Would you mind fixing it for me?</a> You’re so awesome.</p>
+			<p class="footer__fork-me">Did you spot a typo or error? Eesh. <a href="https://github.com/aarongustafson/aarongustafson.github.io/tree/source/source/notebook/tags/web-design-101/index.html">Would you mind fixing it for me?</a> You’re so awesome.</p>
 		
 		<p class="footer__copyright"><b id="license">The content of this site is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons</a>.</b> Details of how this site was made are in <a href="/colophon/">the colophon</a>.</b></p>
 	</div>
@@ -1799,7 +1483,7 @@
 
 
 <noscript>
-	<img src="http://nojsstats.appspot.com/UA-176472-5/http://www.aaron-gustafson.com/notebook/tags/accessibility/" alt=""/>
+	<img src="http://nojsstats.appspot.com/UA-176472-5/http://www.aaron-gustafson.com/notebook/tags/web-design-101/" alt=""/>
 </noscript>
 
 	
