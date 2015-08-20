@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Posts]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-posts.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-08-19T16:13:28-04:00</updated>
+	<updated>2015-08-20T13:05:16-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,8 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
 	
 		
 			<entry>
@@ -175,8 +177,6 @@ Browsers are encouraged to add features that are already supported by other brow
 </div>
 ]]></content>
 			</entry>
-		
-	
 		
 	
 		

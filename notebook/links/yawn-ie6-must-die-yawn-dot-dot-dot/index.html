@@ -280,33 +280,50 @@
 		<h1 class="hidden">Here’s what you can find on this site:</h1>
 		<ul class="main-navigation">
 			
-				<li><a href="/about/"><b class="hidden">A Bit </b>About<b class="hidden"> Me</b></a></li>
+				<li class="main-navigation__item">
+					<a class="main-navigation__link main-navigation__link--about" href="/about/"><b class="hidden">A Bit </b>About<b class="hidden"> Me</b></a>
+				</li>
 			
-				<li><a href="/notebook/"><b class="hidden">Entries in My </b>Notebook</a></li>
+				<li class="main-navigation__item">
+					<a class="main-navigation__link main-navigation__link--notebook" href="/notebook/"><b class="hidden">Entries in My </b>Notebook</a>
+				</li>
 			
-				<li><a href="/speaking-engagements/"><b class="hidden">A List of My </b>Speaking<b class="hidden"> Engagements</b></a></li>
+				<li class="main-navigation__item">
+					<a class="main-navigation__link main-navigation__link--speaking-engagements" href="/speaking-engagements/"><b class="hidden">A List of My </b>Speaking<b class="hidden"> Engagements</b></a>
+				</li>
 			
-				<li><a href="/publications/"><b class="hidden">A List of My </b>Publications</a></li>
+				<li class="main-navigation__item">
+					<a class="main-navigation__link main-navigation__link--publications" href="/publications/"><b class="hidden">A List of My </b>Publications</a>
+				</li>
 			
-				<li><a href="/appearances/"><b class="hidden">Links to </b>Interviews<b class="hidden"> I’ve Given</b></a></li>
+				<li class="main-navigation__item">
+					<a class="main-navigation__link main-navigation__link--appearances" href="/appearances/"><b class="hidden">Links to </b>Interviews<b class="hidden"> I’ve Given</b></a>
+				</li>
 			
-				<li><a href="/contact/"><b class="hidden">The Requisite </b>Contact<b class="hidden"> Form</b></a></li>
+				<li class="main-navigation__item">
+					<a class="main-navigation__link main-navigation__link--contact" href="/contact/"><b class="hidden">The Requisite </b>Contact<b class="hidden"> Form</b></a>
+				</li>
 			
-			<li><a href="/atom.xml" title="subscribe via RSS">RSS</a></li>
+			<li class="main-navigation__item">
+				<a class="main-navigation__link main-navigation__link--rss" href="/atom.xml" title="subscribe via RSS">RSS</a>
+			</li>
 		</ul>
 
 		
-			<form action="https://www.google.com/search" method="get" role="search" id="search">
+			<form class="form search-form" action="https://www.google.com/search" method="get" role="search" id="search">
 				<ol>
-					<li class="search">
+					<li class="form-control form-control--search">
 						<label class="hidden">What are you looking for?</label>
 						<input name='q' type='hidden' value='site:www.aaron-gustafson.com'>
 						<input type="search" name="q">
 					</li>
-					<li><button name="sa" value="Search"><b class="hidden">Let’s see if </b>Google <b class="hidden">Finds </b>it</button></li>
+					<li class="form-control form-control--buttons">
+						<button type="submit" name="sa" value="Search"><b class="hidden">Let’s see if </b>Google <b class="hidden">Finds </b>it</button>
+					</li>
 				</ol>
 			</form>
 		
+
 	</div>
 </nav>
 		
@@ -317,7 +334,7 @@
 		
 			<p class="footer__fork-me">Did you spot a typo or error? Eesh. <a href="https://github.com/aarongustafson/aarongustafson.github.io/tree/source/source/2015-01-22-yawn-ie6-must-die-yawn-dot-dot-dot.markdown">Would you mind fixing it for me?</a> You’re so awesome.</p>
 		
-		<p class="footer__copyright"><b id="license">The content of this site is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons</a>.</b> Details of how this site was made are in <a href="/colophon/">the colophon</a>.</b></p>
+		<p class="footer__copyright"><b id="license">The content of this site is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons</a>.</b> Interested in how this site was made? <a href="/colophon/">Check this out</a>.</b></p>
 	</div>
 </footer>
 		
