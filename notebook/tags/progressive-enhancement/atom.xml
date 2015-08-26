@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Progressive Enhancement | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/progressive-enhancement/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-08-20T13:05:16-04:00</updated>
+  <updated>2015-08-26T17:44:36-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[My Trip to 18F]]></title>
+    <link href="http://www.aaron-gustafson.com/notebook/my-trip-to-18f/"/>
+    <updated>2015-08-26T15:51:14-04:00</updated>
+    <id>http://www.aaron-gustafson.com/notebook/my-trip-to-18f</id>
+    <content type="html"><![CDATA[<p>The fine folks at 18F just posted <a href="https://18f.gsa.gov/2015/08/26/aaron-gustafson-beyond-responsive-design/">a beautiful write-up of the talk on progressive enhancement that I delivered</a> as part of the <a href="https://18f.gsa.gov/tags/speaker-series/">18F Design Speaker Series</a>. I thoroughly enjoyed talking to the folks that came. They presented some interesting challenges and asked pressing questions—exactly the kind of engagement I love.</p>
+
+<!-- more -->
+
+<p>They live-streamed the event and immediately <a href="https://youtu.be/Fu1L34TLUHM">posted the video on YouTube</a>. I also <a href="http://www.slideshare.net/AaronGustafson/beyond-responsive-18f-2015">posted the deck to SlideShare</a> so you can follow along a little easier. I’ve embedded each below if you want to tuck in right away:</p>
+
+<p><figure id="fig-Fu1L34TLUHM" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(http://i2.ytimg.com/vi/Fu1L34TLUHM/0.jpg);" href="//www.youtube.com/watch?v=Fu1L34TLUHM" data-lazy-video-src="http://www.youtube.com/embed/Fu1L34TLUHM?autoplay=1&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">18F Design Presents: Aaron Gustafson</div></a></div></figure></p>
+
+<figure class="video-embed video-embed--16x9" id="figure-2015-08-26-01"><iframe class="video-embed__video" src="//www.slideshare.net/slideshow/embed_code/key/7jsUtSzGEqFyKj" frameborder="0"></iframe></figure>
+
+<p>For a little more coverage, you can also check out <a href="http://www.digitalgov.gov/2015/08/25/trends-on-tuesday-web-standards-advocate-advises-adaptive-web-design-for-government-sites/">Will Sullivan’s takeaways from the talk</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Where Do We Go From Here?]]></title>
@@ -594,86 +613,6 @@
 <hr />
 
 <p>And there you have it: 4 simple, but effective guidelines for creating awesome websites that will fair well under Google’s new algorithm. And guess what: Your users will benefit too.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[How to Apply Progressive Enhancement When JavaScript Seems Like a Requirement]]></title>
-    <link href="http://www.aaron-gustafson.com/notebook/how-to-apply-progressive-enhancement-when-javascript-seems-like-a-requirement/"/>
-    <updated>2015-04-02T10:14:40-04:00</updated>
-    <id>http://www.aaron-gustafson.com/notebook/how-to-apply-progressive-enhancement-when-javascript-seems-like-a-requirement</id>
-    <content type="html"><![CDATA[<p>On Stack Overflow last week, <a href="http://stackoverflow.com/users/4719194/jamham">JamHam</a> asked how to apply progressive enhancement in interfaces that seem to require JavaScript. Unfortunately he deleted the question before I could post my response, so I thought I would post it all here for posterity.</p>
-
-<!-- more -->
-
-<blockquote>
-  <p>I’ve been trying to make my site (a content publishing “web app”) work fully without JavaScript, however, I’ve found myself in situations where I can’t honestly think how I would do some features without it.</p>
-</blockquote>
-
-<blockquote>
-  <p>For instance:</p>
-</blockquote>
-
-<blockquote>
-  <ul>
-    <li>I have a form submission page where you change certain settings, and the form changes accordingly.This is alright, I can apply query strings in the url and have some logic in my layout so that certain fields are shown/hidden according to the query string. The thing is, I also need to update a “price” dynamically, according to what fields are filled in, how they are filled in, and some other factors, and I don’t honestly see how I could do that without JavaScript.</li>
-    <li>I have a messaging section where I’m using WebSockets (with the help of Socket.io). The UI of the messaging (and of course, the
-WebSockets) stuff pretty much depends on JavaScript, with ‘messages’ being created as they arrive and appended into DOM and also a form that allows you to quickly look up an user via AJAX so you can send a message easily, among many other things.</li>
-  </ul>
-</blockquote>
-
-<blockquote>
-  <p>I mean, I could probably come up with very complicated solutions for each situation, and obviously the functionality wouldn’t be the same. I’m thinking I might as well just require JavaScript for the whole thing</p>
-</blockquote>
-
-<blockquote>
-  <p>But it kinda sucks, since I’ve been making everything work without JavaScript, up until this point. And I would like some consistency across the whole site. In these kind of situations, is it acceptable to not support non-js clients? What would you suggest in this case?</p>
-</blockquote>
-
-<p>My response (which I was drafting when he deleted the question):</p>
-
-<blockquote>
-  <p>First off, I applaud your interest in using progressive enhancement. It will ensure the most users possible have access to your content and will also result in a more robust application overall. As a general guiding principle, look to the past. How did we solve these issues before widespread JavaScript availability? Those “Web 1.0” solutions will still work and can be overtaken by supplanted by your JavaScript solution whenever it is possible to do so.</p>
-</blockquote>
-
-<blockquote>
-  <p>Every situation is different, but it is even possible to reuse a lot of code in both scenarios.</p>
-</blockquote>
-
-<blockquote>
-  <p>Now to address your interfaces…</p>
-</blockquote>
-
-<blockquote>
-  <p><strong>Your Submission Page</strong> - I could be wrong, but this sounds like a shopping cart to me (at least in essence). You are on the right track with query parameters, but you could also store info about the cart (and the user’s capabilities) in a session or cookie.</p>
-</blockquote>
-
-<blockquote>
-  <p>In terms of updating the “cart”, a simple “update” submit button that posts the form and triggers a redirection back to this page with the updated info would be sufficient. And if you need to show or hide fields based on choices made, you simply apply that logic on the server side. You could even have the server generate that same markup into the page, but hidden for situations where JavaScript is available.</p>
-</blockquote>
-
-<blockquote>
-  <p><strong>Your Messaging App</strong> - This can seem like a daunting challenge, but before we had web sockets and even Ajax, we relied on a small form which posts messages to the back end and a running feed of messages being sent from the back-end. One of the most common way to handle this involved frames and a “meta refresh” like this one:</p>
-</blockquote>
-
-<blockquote>
-  <pre><code>&lt;meta http-equiv="refresh" content="30"&gt;
-</code></pre>
-</blockquote>
-
-<blockquote>
-  <p>That simple <code>meta</code> tag will make any browser refresh the page every 30 seconds. Now if you put that in an <code>iframe</code> to keep it from causing a refresh of the entire interface, any new messages would be picked up and displayed automatically at that interval (which you should tune to be appropriate for your app).</p>
-</blockquote>
-
-<blockquote>
-  <p>Once that is in place the page itself could even post to that frame by using the non-standard but well-supported <code>_target</code> attribute on the <code>form</code>.</p>
-</blockquote>
-
-<blockquote>
-  <p>Obviously with JavaScript enabled, you’d probably throw away that <code>iframe</code>, but the rest of the setup (including the templates for displaying the messages) could certainly be reused with WebSockets.</p>
-</blockquote>
-
-<p>I hope this helps. Progressive enhancement may seem like a huge challenge, but when you take a few moments to think about how we handled these challenges in the past, the way forward becomes clear.</p>
 ]]></content>
   </entry>
   

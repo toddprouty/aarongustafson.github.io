@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Presentations | Aaron Gustafson]]></title>
   <link href="http://www.aaron-gustafson.com/notebook/tags/presentations/atom.xml" rel="self"/>
   <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-08-20T13:05:16-04:00</updated>
+  <updated>2015-08-26T17:44:36-04:00</updated>
   <id>http://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[My Trip to 18F]]></title>
+    <link href="http://www.aaron-gustafson.com/notebook/my-trip-to-18f/"/>
+    <updated>2015-08-26T15:51:14-04:00</updated>
+    <id>http://www.aaron-gustafson.com/notebook/my-trip-to-18f</id>
+    <content type="html"><![CDATA[<p>The fine folks at 18F just posted <a href="https://18f.gsa.gov/2015/08/26/aaron-gustafson-beyond-responsive-design/">a beautiful write-up of the talk on progressive enhancement that I delivered</a> as part of the <a href="https://18f.gsa.gov/tags/speaker-series/">18F Design Speaker Series</a>. I thoroughly enjoyed talking to the folks that came. They presented some interesting challenges and asked pressing questions—exactly the kind of engagement I love.</p>
+
+<!-- more -->
+
+<p>They live-streamed the event and immediately <a href="https://youtu.be/Fu1L34TLUHM">posted the video on YouTube</a>. I also <a href="http://www.slideshare.net/AaronGustafson/beyond-responsive-18f-2015">posted the deck to SlideShare</a> so you can follow along a little easier. I’ve embedded each below if you want to tuck in right away:</p>
+
+<p><figure id="fig-Fu1L34TLUHM" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(http://i2.ytimg.com/vi/Fu1L34TLUHM/0.jpg);" href="//www.youtube.com/watch?v=Fu1L34TLUHM" data-lazy-video-src="http://www.youtube.com/embed/Fu1L34TLUHM?autoplay=1&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">18F Design Presents: Aaron Gustafson</div></a></div></figure></p>
+
+<figure class="video-embed video-embed--16x9" id="figure-2015-08-26-01"><iframe class="video-embed__video" src="//www.slideshare.net/slideshow/embed_code/key/7jsUtSzGEqFyKj" frameborder="0"></iframe></figure>
+
+<p>For a little more coverage, you can also check out <a href="http://www.digitalgov.gov/2015/08/25/trends-on-tuesday-web-standards-advocate-advises-adaptive-web-design-for-government-sites/">Will Sullivan’s takeaways from the talk</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Slides From My Talk at #msEdgeSummit]]></title>
