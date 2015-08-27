@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-08-27T14:01:36-04:00</updated>
+	<updated>2015-08-27T14:48:58-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,28 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Infinite Scrolling and Accessibility (It&#8217;s Usually Bad)]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/infinite-scrolling-and-accessibility/"/>
+				<updated>2015-08-27T14:47:38-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/infinite-scrolling-and-accessibility</id>
+				<content type="html"><![CDATA[<p>An excellent round-up of research findings and articles with regard to accessibility and the infinite scrolling design pattern.</p>
+<p><a rel="full-article" href="http://www.webaxe.org/infinite-scrolling-and-accessibility/">Read on Web Axe&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Results From Assistive Technology]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/rat/"/>
+				<updated>2015-08-27T14:46:17-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/rat</id>
+				<content type="html"><![CDATA[<p>This is a fantastic resource for information on how different markup patterns are handled in terms of accessibility.</p>
+<p><a rel="full-article" href="http://jonathantneal.github.io/rat/">Read on Jonathan T. Neal&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 	
@@ -202,32 +224,6 @@
   <p>Nearly every social network now treats a link as just the same as it treats any other object — the same as a photo, or a piece of text — instead of seeing it as a way to make that text richer. You’re encouraged to post one single hyperlink and expose it to a quasi-democratic process of liking and plussing and hearting: Adding several links to a piece of text is usually not allowed. Hyperlinks are objectivized, isolated, stripped of their powers.</p>
 </blockquote>
 <p><a rel="full-article" href="https://medium.com/matter/the-web-we-have-to-save-2eb1fe15a426">Read on Medium&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[This Conspiracy Theory Says Ad Tech Companies Deliberately Keep Web Pages Loading Slow Because They Make More Money That Way]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/conspiracy-web-pages-load-slowly-because-they-make-more-money-that-way-2015-7/"/>
-				<updated>2015-08-04T15:09:51-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/conspiracy-web-pages-load-slowly-because-they-make-more-money-that-way-2015-7</id>
-				<content type="html"><![CDATA[<p>Ad companies profit, users suffer. This is ridiculous.</p>
-
-<blockquote>
-  <p>Basically, his theory is, when a reader clicks to read a story, the page calls for bids from advertisers on the ad space available. This bidding is supposed to take place in a few milliseconds. But, my correspondent says, ad tech companies hold open the bids much, much longer, so more bids come in, driving up the price. Publishers hate this because it makes pages load really slowly, giving readers a terrible experience. But it’s hard to stop because everyone — publisher included — is taking a cut of the winning bid. So publishers and ad tech companies actually have an incentive to make pages load slowly.</p>
-</blockquote>
-<p><a rel="full-article" href="http://www.businessinsider.com/conspiracy-web-pages-load-slowly-because-they-make-more-money-that-way-2015-7">Read on Business Insider&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Opera 31 Released]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/opera-31/"/>
-				<updated>2015-08-04T15:07:10-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/opera-31</id>
-				<content type="html"><![CDATA[<p>CSS columns, ES6 computed property names, Web Audio API updates, and more!</p>
-<p><a rel="full-article" href="https://dev.opera.com/blog/opera-31/">Read on Dev.Opera&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
