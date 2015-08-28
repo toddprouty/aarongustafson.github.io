@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-08-28T11:56:43-04:00</updated>
+	<updated>2015-08-28T12:32:53-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -15,9 +15,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Creating an Accessible Breakout Game Using Web Audio & SVG]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/creating-an-accessible-breakout-game-using-web-audio-amp-svg/"/>
+				<link href="http://www.aaron-gustafson.com/notebook/links/creating-an-accessible-breakout-game-using-web-audio-and-svg/"/>
 				<updated>2015-08-28T10:06:53-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/creating-an-accessible-breakout-game-using-web-audio-amp-svg</id>
+				<id>http://www.aaron-gustafson.com/notebook/links/creating-an-accessible-breakout-game-using-web-audio-and-svg</id>
 				<content type="html"><![CDATA[<p>I had the great pleasure of seeing Dave present his accessible breakout game at the MS Edge Web Summit and have been eagerly awaiting this post ever since. So much good stuff in here!</p>
 <p><a rel="full-article" href="http://blogs.msdn.com/b/davrous/archive/2015/08/27/creating-an-accessible-breakout-game-using-web-audio-amp-svg.aspx">Read on David Rousset&nbsp;&rarr;</a></p>]]></content>
 			</entry>
