@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="http://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-08-27T16:56:19-04:00</updated>
+	<updated>2015-08-28T11:56:43-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Creating an Accessible Breakout Game Using Web Audio & SVG]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/creating-an-accessible-breakout-game-using-web-audio-amp-svg/"/>
+				<updated>2015-08-28T10:06:53-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/creating-an-accessible-breakout-game-using-web-audio-amp-svg</id>
+				<content type="html"><![CDATA[<p>I had the great pleasure of seeing Dave present his accessible breakout game at the MS Edge Web Summit and have been eagerly awaiting this post ever since. So much good stuff in here!</p>
+<p><a rel="full-article" href="http://blogs.msdn.com/b/davrous/archive/2015/08/27/creating-an-accessible-breakout-game-using-web-audio-amp-svg.aspx">Read on David Rousset&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -375,21 +386,6 @@ Browsers are encouraged to add features that are already supported by other brow
 				<id>http://www.aaron-gustafson.com/notebook/links/how-google-designs-for-the-blind</id>
 				<content type="html"><![CDATA[<p>While not hugely in-depth, this is a good piece for a broad audience on why accessibility matters. It also talks about some of the ways Google is working to make accessibility part of their culture.</p>
 <p><a rel="full-article" href="http://money.cnn.com/2015/08/04/technology/google-accessability/index.html">Read on CNN Money&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[The Web We Have to Save]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/the-web-we-have-to-save-2eb1fe15a426/"/>
-				<updated>2015-08-04T15:15:00-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/the-web-we-have-to-save-2eb1fe15a426</id>
-				<content type="html"><![CDATA[<p>This is a wonderful celebration of the hyperlink and the beauty of the decentralized web in a world of social media sites vying to keep us in their walled gardens. Hossein Derakhshan’s perspective is an interesting one as he’d been in prison (for blogging) since 2008.</p>
-
-<blockquote>
-  <p>Nearly every social network now treats a link as just the same as it treats any other object — the same as a photo, or a piece of text — instead of seeing it as a way to make that text richer. You’re encouraged to post one single hyperlink and expose it to a quasi-democratic process of liking and plussing and hearting: Adding several links to a piece of text is usually not allowed. Hyperlinks are objectivized, isolated, stripped of their powers.</p>
-</blockquote>
-<p><a rel="full-article" href="https://medium.com/matter/the-web-we-have-to-save-2eb1fe15a426">Read on Medium&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
