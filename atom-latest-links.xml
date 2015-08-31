@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-08-28T12:32:53-04:00</updated>
+	<updated>2015-08-31T16:27:28-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Progressive Enhancement With Aaron Gustafson]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/105/"/>
+				<updated>2015-08-31T16:20:56-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/105</id>
+				<content type="html"><![CDATA[<p>Jen Simmons and I discuss working on the web and all things progressive enhancement.</p>
+<p><a rel="full-article" href="http://thewebahead.net/105">Read on The Web Ahead&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -209,17 +220,6 @@
 				<id>http://www.aaron-gustafson.com/notebook/links/new-embed-code-for-asynchronous-font-loading</id>
 				<content type="html"><![CDATA[<p>Font loading will be async by default now in Typekit. Update your embed code!</p>
 <p><a rel="full-article" href="http://blog.typekit.com/2015/08/04/new-embed-code-for-asynchronous-font-loading/">Read on The Typekit Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[How Google Designs for the Blind]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/how-google-designs-for-the-blind/"/>
-				<updated>2015-08-05T14:48:29-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/how-google-designs-for-the-blind</id>
-				<content type="html"><![CDATA[<p>While not hugely in-depth, this is a good piece for a broad audience on why accessibility matters. It also talks about some of the ways Google is working to make accessibility part of their culture.</p>
-<p><a rel="full-article" href="http://money.cnn.com/2015/08/04/technology/google-accessability/index.html">Read on CNN Money&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
