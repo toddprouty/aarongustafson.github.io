@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-09-01T11:58:57-04:00</updated>
+	<updated>2015-09-03T11:46:01-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,50 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Towards a New Information Architecture]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/towards-a-new-information-architecture-f38b5cc904c0/"/>
+				<updated>2015-09-02T14:33:19-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/towards-a-new-information-architecture-f38b5cc904c0</id>
+				<content type="html"><![CDATA[<p>Fantastic history of “Information Architecture” as a practice, with an eye for where it’s heading. Great work <a href="http://www.cwodtke.com">Christina Wodtke</a>!</p>
+<p><a rel="full-article" href="https://medium.com/goodux-badux/towards-a-new-information-architecture-f38b5cc904c0">Read on Medium&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[How to Write a Great Error Message]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/how-to-write-an-error-message-883718173322/"/>
+				<updated>2015-09-02T14:16:54-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/how-to-write-an-error-message-883718173322</id>
+				<content type="html"><![CDATA[<p>This is a fantastic rant from <a href="http://mir.aculo.us/">Thomas Fuchs</a> on error messages and how to do them well (with lots of examples of how <em>not</em> to write error messages).</p>
+<p><a rel="full-article" href="https://medium.com/@thomasfuchs/how-to-write-an-error-message-883718173322">Read on Medium&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Mobile 2015: UI/UX Trends]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/mobile-2015-263ab694e60e/"/>
+				<updated>2015-09-02T14:09:35-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/mobile-2015-263ab694e60e</id>
+				<content type="html"><![CDATA[<p>A nice overview of small screen design trends with backgrounds as to why these approaches work well.</p>
+<p><a rel="full-article" href="https://medium.com/interactive-mind/mobile-2015-263ab694e60e">Read on Medium&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[7 Ways Form Accessibility Can Boost Conversions]]></title>
+				<link href="http://www.aaron-gustafson.com/notebook/links/form-accessibility/"/>
+				<updated>2015-09-02T14:06:33-04:00</updated>
+				<id>http://www.aaron-gustafson.com/notebook/links/form-accessibility</id>
+				<content type="html"><![CDATA[<p>There’s some really good forms advice in here. Just be careful when manipulating the tab flow.</p>
+<p><a rel="full-article" href="http://conversionxl.com/form-accessibility/">Read on ConversionXL&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 	
@@ -158,58 +202,6 @@
 				<id>http://www.aaron-gustafson.com/notebook/links/what-happens-when-you-get-sued-for-your-inaccessible-website</id>
 				<content type="html"><![CDATA[<p>The bottom line: “Ultimately, you are going to end up fixing your website”, so “[b]eing proactive is far better than being reactive and that’s never more true than when you’re dealing with a legal threat.”</p>
 <p><a rel="full-article" href="http://www.karlgroves.com/2015/08/16/what-happens-when-you-get-sued-for-your-inaccessible-website/">Read on Karl Groves&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[The Ethics of Modern Web Ad-blocking]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/ad-blocking-ethics/"/>
-				<updated>2015-08-17T11:57:49-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/ad-blocking-ethics</id>
-				<content type="html"><![CDATA[<p>An excellent overview of where web advertising is and what lines it has crossed. This bit is particularly relevant:</p>
-
-<blockquote>
-  <p>This won’t be a clean, easy transition. Blocking pop-ups was much more incisive: it was easy for legitimate publishers to avoid one narrowly-useful Javascript function to open new windows. But it’s completely reasonable for today’s web readers to be so fed up that they disable all ads, or even all Javascript. Web developers and standards bodies couldn’t be more out of touch with this issue, racing ahead to give browsers and Javascript even more capabilities without adequately addressing the fundamental problems that will drive many people to disable huge chunks of their browser’s functionality.</p>
-</blockquote>
-<p><a rel="full-article" href="http://www.marco.org/2015/08/11/ad-blocking-ethics">Read on Marco.org&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Use the Words Normal People Use]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/normal-words/"/>
-				<updated>2015-08-17T11:52:35-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/normal-words</id>
-				<content type="html"><![CDATA[<p>’Nuff said.</p>
-<p><a rel="full-article" href="http://gilest.org/normal-words.html">Read on Gilest.org&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Opening Standards]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/opening-standards/"/>
-				<updated>2015-08-14T15:06:42-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/opening-standards</id>
-				<content type="html"><![CDATA[<p>This is exciting news:</p>
-
-<blockquote>
-  <p>For the first time, all of W3C’s active Working Groups now operate in public.</p>
-</blockquote>
-<p><a rel="full-article" href="http://schepers.cc/opening-standards">Read on Reinventing Fire&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Open Source Style Guide]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/18f-open-source-style-guide/"/>
-				<updated>2015-08-11T07:48:07-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/18f-open-source-style-guide</id>
-				<content type="html"><![CDATA[<p>A fantastic overview of best practices for running an open source project on Github from the folks at <a href="https://18f.gsa.gov/">18F</a>. Covers everything to naming your project to writing READMEs to reporting issues.</p>
-<p><a rel="full-article" href="https://pages.18f.gov/open-source-guide/index.html">Read on 18F&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	

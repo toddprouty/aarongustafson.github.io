@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Posts]]></title>
 	<link href="http://www.aaron-gustafson.com/atom-latest-posts.xml" rel="self"/>
 	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-09-01T11:58:57-04:00</updated>
+	<updated>2015-09-03T11:46:01-04:00</updated>
 	<id>http://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,14 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+	
+		
+	
+		
+	
+		
 	
 		
 			<entry>
@@ -114,14 +122,6 @@
 <p>When you design something that looks interactive, <em>always make sure the whole thing is actually tappable</em>. It will go along way toward reducing user frustration.</p>
 ]]></content>
 			</entry>
-		
-	
-		
-	
-		
-	
-		
-	
 		
 	
 		
