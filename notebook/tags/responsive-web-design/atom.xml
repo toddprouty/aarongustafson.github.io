@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Browse by Tag: Responsive Web Design | Aaron Gustafson]]></title>
-  <link href="http://www.aaron-gustafson.com/notebook/tags/responsive-web-design/atom.xml" rel="self"/>
-  <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-09-03T11:46:01-04:00</updated>
-  <id>http://www.aaron-gustafson.com/</id>
+  <link href="https://www.aaron-gustafson.com/notebook/tags/responsive-web-design/atom.xml" rel="self"/>
+  <link href="https://www.aaron-gustafson.com/"/>
+  <updated>2015-09-03T15:21:14-04:00</updated>
+  <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Where Do We Go From Here?]]></title>
-    <link href="http://www.aaron-gustafson.com/notebook/where-do-we-go-from-here/"/>
+    <link href="https://www.aaron-gustafson.com/notebook/where-do-we-go-from-here/"/>
     <updated>2015-06-22T11:49:56-04:00</updated>
-    <id>http://www.aaron-gustafson.com/notebook/where-do-we-go-from-here</id>
+    <id>https://www.aaron-gustafson.com/notebook/where-do-we-go-from-here</id>
     <content type="html"><![CDATA[<p><em>I had the great pleasure of delivering the closing keynote for the final Responsive Day Out. Here’s what I had to say.</em></p>
 
 <!-- more -->
@@ -29,7 +29,7 @@
 <p>We’ve explored the future of modular code and browsers’ capacity for working without network connectivity. And we’ve even taken a trip into the possible future of where the web might go.</p>
 
 <figure id="figure-2015-06-22-01">
-<img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
+<img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
 </figure>
 
 <p>We’ve come a long way since <a href="https://huffduffer.com/adactio/243780">Ethan’s article</a>, fluid grids, flexible media, and media queries. Those three tenets sowed a seed that has grown and flourished as we have come to better understand the implications of device proliferation. We’ve seen that the web is capable of going anywhere and doing pretty much anything.</p>
@@ -75,7 +75,7 @@
 <p>Embracing the reality that experience does’t need to be just one thing will help us reach more people with fewer headaches. Experience can—and should—be crafted as a continuum. This is progressive enhancement: We start with a baseline experience that works for everyone—content, real links, first generation form controls, and forms that actually submit to the server. Then we build up the experience from there.</p>
 
 <figure id="figure-2015-06-22-02">
-<img src="http://www.aaron-gustafson.com/i/posts/2015-06-22/02.gif" alt="" />
+<img src="https://www.aaron-gustafson.com/i/posts/2015-06-22/02.gif" alt="" />
 </figure>
 
 <p>Your browser supports HTML5 form controls? Great! You’ll get a better virtual keyboard when you go to type your email address. You can use CSS? Awesome, let me make that reading experience better for you. Oh, you can handle media queries! Let me adjust the layout so those line lengths are a little more comfortable. Wow, your browser supports Ajax?! Here let me load in some teasers for related content you might find interesting.</p>
@@ -107,7 +107,7 @@
 <p>When I am trying to help folks understand and embrace diversity, I often reach for one of my favorite thought exercises from <a href="https://en.wikipedia.org/wiki/John_Rawls">John Rawls</a>. </p>
 
 <figure id="figure-2015-06-22-03">
-<img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
+<img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
 </figure>
 
 <p>Rawls was a philosopher who used to run a social experiment with students, church groups, and the like.</p>
@@ -121,7 +121,7 @@
 <p>The things we do to accommodate special needs now pay dividends in the future. Look at ramps.</p>
 
 <figure id="figure-2015-06-22-04">
-<img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
+<img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
 </figure>
 
 <p>They’re a classic example of an accessibility feature for people in wheelchairs that also benefit people who aren’t in them: People toting luggage, delivery services hauling heavy things on dollies, parents pushing children (or their dressed up dogs) in strollers, a commuter walking her bike, and that guy who just prefers walking up a gentle incline to expending the effort required to mount a step.</p>
@@ -310,7 +310,7 @@
 <p>But traditional computers and smart mobile devices aren’t the only place we’re starting to see voice based experiences. We also have disembodied voices like <a href="https://en.wikipedia.org/wiki/Amazon_Echo">Amazon’s Echo</a> and <a href="http://www.theubi.com/">the Ubi</a> which are completely headless.</p>
 
 <figure id="figure-2015-06-22-11">
-<img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
+<img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
 </figure>
 
 <p>Right now, they both seem squarely focused on helping your house become “smarter”—streaming music, adjusting the thermostat, etc.—but it isn’t hard to imagine these devices becoming coupled with the ability to browse and interact with the web.</p>
@@ -332,7 +332,7 @@
 <p>This is an incredibly exciting time, not just for the responsive design community, not just the web, but for the world! The future is coming and I can’t wait to see how awesome you make it!</p>
 
 <figure id="figure-2015-06-22-12">
-<img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
+<img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
 </figure>
 
 <hr />
@@ -349,9 +349,9 @@
   
   <entry>
     <title type="html"><![CDATA[Adaptive Images in ExpressionEngine With CE Image]]></title>
-    <link href="http://www.aaron-gustafson.com/notebook/adaptive-images-in-expressionengine-with-ce-image/"/>
+    <link href="https://www.aaron-gustafson.com/notebook/adaptive-images-in-expressionengine-with-ce-image/"/>
     <updated>2014-11-21T18:18:23-05:00</updated>
-    <id>http://www.aaron-gustafson.com/notebook/adaptive-images-in-expressionengine-with-ce-image</id>
+    <id>https://www.aaron-gustafson.com/notebook/adaptive-images-in-expressionengine-with-ce-image</id>
     <content type="html"><![CDATA[<p>One of the biggest headaches of responsive design has been dealing with images. Thankfully our work on the <a href="http://ricg.io">Responsive <del>Images</del> <ins>Issues</ins> Community Group</a> has resulted in a rock-solid set of elements and attributes to address all of your adaptive image needs. My company, <a href="http://easy-designs.net">Easy Designs</a>, recently redesigned <a href="http://www.nichols.edu">Nichols College’s website</a> and that project just happened to coincide adaptive images landing in <a href="http://www.chromium.org/blink">Blink</a> (the rendering engine that powers Chrome and Opera). Naturally, we jumped at the opportunity to use them.</p>
 
 <!-- more -->

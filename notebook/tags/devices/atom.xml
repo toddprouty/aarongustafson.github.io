@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Browse by Tag: Devices | Aaron Gustafson]]></title>
-  <link href="http://www.aaron-gustafson.com/notebook/tags/devices/atom.xml" rel="self"/>
-  <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-09-03T11:46:01-04:00</updated>
-  <id>http://www.aaron-gustafson.com/</id>
+  <link href="https://www.aaron-gustafson.com/notebook/tags/devices/atom.xml" rel="self"/>
+  <link href="https://www.aaron-gustafson.com/"/>
+  <updated>2015-09-03T15:21:14-04:00</updated>
+  <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Bringing Sanity and Order to Device Testing]]></title>
-    <link href="http://www.aaron-gustafson.com/notebook/bringing-sanity-and-order-to-device-testing/"/>
+    <link href="https://www.aaron-gustafson.com/notebook/bringing-sanity-and-order-to-device-testing/"/>
     <updated>2015-06-05T09:56:03-04:00</updated>
-    <id>http://www.aaron-gustafson.com/notebook/bringing-sanity-and-order-to-device-testing</id>
+    <id>https://www.aaron-gustafson.com/notebook/bringing-sanity-and-order-to-device-testing</id>
     <content type="html"><![CDATA[<p>It seems like every other day the public is granted some new means of accessing the web. Some days it’s <a href="http://www.engadget.com/2015/04/29/microsoft-edge/">a new browser</a>. Others it’s <a href="http://www.pcadvisor.co.uk/reviews/mobile-phone/3504276/yotaphone-2-review-uk-dual-screen-smartphone/">a new smartphone</a>. Or <a href="http://www.engadget.com/products/microsoft/surface/3/">a tablet</a>. Or <a href="http://the-digital-reader.com/2014/10/22/voyage-vs-paperwhite-comparison-review-web-browser/">an e-reader</a>. Or <a href="https://www.nintendo.com/3ds/internetbrowser/specs/">a video game console</a>. Or <a href="http://www.phonearena.com/news/Surf-the-Internet-from-your-Android-Wear-smartwatch-Now-possible-via-this-new-app_id58580">a smartwatch</a>. Or <a href="https://html5test.com/compare/browser/samsungsmarttv-2013.html">a TV</a>. Or <a href="http://www.techradar.com/us/reviews/wearables/microsoft-hololens-1281834/review">a heads-up display</a>. Or <a href="http://www.popularmechanics.com/cars/a13191/the-future-of-car-connectivity-is-a-real-web-browser-in-the-dash-17416796/">a car</a>. Or <a href="http://www.lgblog.lt/2009/10/28/zvilgsnis-atgal-pirmasis-pasaulyje-saldytuvas-su-internetu-lg-internet-digital-dios/">a refrigerator</a>.</p>
 
 <!-- more -->
@@ -156,9 +156,9 @@
   
   <entry>
     <title type="html"><![CDATA[An Onslaught of Low-cost Smartphones]]></title>
-    <link href="http://www.aaron-gustafson.com/notebook/an-onslaught-of-low-cost-smartphones/"/>
+    <link href="https://www.aaron-gustafson.com/notebook/an-onslaught-of-low-cost-smartphones/"/>
     <updated>2015-01-15T11:58:11-05:00</updated>
-    <id>http://www.aaron-gustafson.com/notebook/an-onslaught-of-low-cost-smartphones</id>
+    <id>https://www.aaron-gustafson.com/notebook/an-onslaught-of-low-cost-smartphones</id>
     <content type="html"><![CDATA[<p>It seems every week we are seeing more and more low-cost devices being launched in an effort to connect the unconnected. For instance, this past week  saw the announcement of <a href="http://www.theverge.com/2015/1/14/7544107/microsoft-lumia-435-532-launch-specs-price-release-date">two new entries in the Microsoft Lumia line, the 435 and the 532</a>, and the announcement of <a href="http://arstechnica.com/gadgets/2015/01/samsung-finally-puts-tizen-on-a-smartphone-launches-the-z1-in-india/">Samsung’s first Tizen phone, the Z1</a>.</p>
 
 <!-- more -->
@@ -168,7 +168,7 @@
 <p>Now if you’ve read this far, you are probably wondering why this matters. Well, spec-wise, many of these lower-end devices are far from what we are used to. All of these devices are running a resolution of 800×480. And their processing speeds are slower than the device you likely have in your pocket. But they are all far cheaper too. And remember that people in China and India have <a href="#fig-2015-01-15-01">far less disposible income than we do</a>.</p>
 
 <figure id="fig-2015-01-15-01" class="media-container">
-	<img src="http://www.aaron-gustafson.com/i/posts/2014-11-06/05-sm.jpg" srcset="/i/posts/2014-11-06/05-lg.jpg 1920w, /i/posts/2014-11-06/05-md.jpg 600w, /i/posts/2014-11-06/05-sm.jpg 320w" alt="A bar chart comparing the average monthly incomes of people living in the U.S., Canada, China, and India." />
+	<img src="https://www.aaron-gustafson.com/i/posts/2014-11-06/05-sm.jpg" srcset="/i/posts/2014-11-06/05-lg.jpg 1920w, /i/posts/2014-11-06/05-md.jpg 600w, /i/posts/2014-11-06/05-sm.jpg 320w" alt="A bar chart comparing the average monthly incomes of people living in the U.S., Canada, China, and India." />
 </figure>
 
 <p>If you only earned US$295 a month, a US$799 smartphone would likely be out of the question.</p>
@@ -181,9 +181,9 @@
   
   <entry>
     <title type="html"><![CDATA[webOS Is Back]]></title>
-    <link href="http://www.aaron-gustafson.com/notebook/webos-is-back/"/>
+    <link href="https://www.aaron-gustafson.com/notebook/webos-is-back/"/>
     <updated>2015-01-08T10:17:09-05:00</updated>
-    <id>http://www.aaron-gustafson.com/notebook/webos-is-back</id>
+    <id>https://www.aaron-gustafson.com/notebook/webos-is-back</id>
     <content type="html"><![CDATA[<p>You may not remember it, but Palm’s groundbreaking—yes, I said groundbreaking—operating system, <a href="https://en.wikipedia.org/wiki/WebOS">webOS</a>, has been resuscitated yet again. This time by LG.</p>
 
 <!-- more -->

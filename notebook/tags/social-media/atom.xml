@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Browse by Tag: Social Media | Aaron Gustafson]]></title>
-  <link href="http://www.aaron-gustafson.com/notebook/tags/social-media/atom.xml" rel="self"/>
-  <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-09-03T11:46:01-04:00</updated>
-  <id>http://www.aaron-gustafson.com/</id>
+  <link href="https://www.aaron-gustafson.com/notebook/tags/social-media/atom.xml" rel="self"/>
+  <link href="https://www.aaron-gustafson.com/"/>
+  <updated>2015-09-03T15:21:14-04:00</updated>
+  <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
     
@@ -15,13 +15,13 @@
   
   <entry>
     <title type="html"><![CDATA[Creepy Namefellow]]></title>
-    <link href="http://www.aaron-gustafson.com/notebook/creepy-namefellow/"/>
+    <link href="https://www.aaron-gustafson.com/notebook/creepy-namefellow/"/>
     <updated>2015-01-22T17:27:27-05:00</updated>
-    <id>http://www.aaron-gustafson.com/notebook/creepy-namefellow</id>
+    <id>https://www.aaron-gustafson.com/notebook/creepy-namefellow</id>
     <content type="html"><![CDATA[<p>So yeah, this happened:</p>
 
 <figure id="2015-01-22-2" class="media-container">
-	<img src="http://www.aaron-gustafson.com/i/posts/2015-01-22/creepy-sm.png" srcset="/i/posts/2015-01-22/creepy-lg.png 1062w, /i/posts/2015-01-22/creepy-md.png 600w, /i/posts/2015-01-22/creepy-sm.png 320w" alt="" />
+	<img src="https://www.aaron-gustafson.com/i/posts/2015-01-22/creepy-sm.png" srcset="/i/posts/2015-01-22/creepy-lg.png 1062w, /i/posts/2015-01-22/creepy-md.png 600w, /i/posts/2015-01-22/creepy-sm.png 320w" alt="" />
 	<figcaption>
 		<p>The @GustafsonAaron Twitter account only follows 5 people, and they are all named “Aaron Gustafson”.</p>
 	</figcaption>

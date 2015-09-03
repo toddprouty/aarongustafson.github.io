@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Browse by Tag: Writing | Aaron Gustafson]]></title>
-  <link href="http://www.aaron-gustafson.com/notebook/tags/writing/atom.xml" rel="self"/>
-  <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-09-03T11:46:01-04:00</updated>
-  <id>http://www.aaron-gustafson.com/</id>
+  <link href="https://www.aaron-gustafson.com/notebook/tags/writing/atom.xml" rel="self"/>
+  <link href="https://www.aaron-gustafson.com/"/>
+  <updated>2015-09-03T15:21:14-04:00</updated>
+  <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Responsive Typography]]></title>
-    <link href="http://www.aaron-gustafson.com/notebook/responsive-typography/"/>
+    <link href="https://www.aaron-gustafson.com/notebook/responsive-typography/"/>
     <updated>2014-09-20T16:43:22-04:00</updated>
-    <id>http://www.aaron-gustafson.com/notebook/responsive-typography</id>
+    <id>https://www.aaron-gustafson.com/notebook/responsive-typography</id>
     <content type="html"><![CDATA[<p>I’m incredibly excited to see that <a href="https://twitter.com/jpamental">Jason Pamental</a>’s fantastic <a href="http://www.amazon.com/gp/product/1491907096/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1491907096&amp;linkCode=as2&amp;tag=easydesign-20&amp;linkId=JC6INFXF3DHODKEM"><cite>Responsive Typography</cite></a> is finally available. I had the great pleasure of reviewing an early galley and I can honestly say that it’s a book well worth reading. Jason’s natural and friendly style makes for an easy read and it’s chock-full of actionable recommendations and tips you’ll want to start using right away.</p>
 
 <!-- more -->

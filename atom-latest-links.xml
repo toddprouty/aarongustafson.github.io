@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
-	<link href="http://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
-	<link href="http://www.aaron-gustafson.com/"/>
-	<updated>2015-09-03T11:46:01-04:00</updated>
-	<id>http://www.aaron-gustafson.com/</id>
+	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
+	<link href="https://www.aaron-gustafson.com/"/>
+	<updated>2015-09-03T15:21:14-04:00</updated>
+	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
 		
@@ -15,9 +15,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Towards a New Information Architecture]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/towards-a-new-information-architecture-f38b5cc904c0/"/>
+				<link href="https://www.aaron-gustafson.com/notebook/links/towards-a-new-information-architecture-f38b5cc904c0/"/>
 				<updated>2015-09-02T14:33:19-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/towards-a-new-information-architecture-f38b5cc904c0</id>
+				<id>https://www.aaron-gustafson.com/notebook/links/towards-a-new-information-architecture-f38b5cc904c0</id>
 				<content type="html"><![CDATA[<p>Fantastic history of “Information Architecture” as a practice, with an eye for where it’s heading. Great work <a href="http://www.cwodtke.com">Christina Wodtke</a>!</p>
 <p><a rel="full-article" href="https://medium.com/goodux-badux/towards-a-new-information-architecture-f38b5cc904c0">Read on Medium&nbsp;&rarr;</a></p>]]></content>
 			</entry>
@@ -26,9 +26,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[How to Write a Great Error Message]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/how-to-write-an-error-message-883718173322/"/>
+				<link href="https://www.aaron-gustafson.com/notebook/links/how-to-write-an-error-message-883718173322/"/>
 				<updated>2015-09-02T14:16:54-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/how-to-write-an-error-message-883718173322</id>
+				<id>https://www.aaron-gustafson.com/notebook/links/how-to-write-an-error-message-883718173322</id>
 				<content type="html"><![CDATA[<p>This is a fantastic rant from <a href="http://mir.aculo.us/">Thomas Fuchs</a> on error messages and how to do them well (with lots of examples of how <em>not</em> to write error messages).</p>
 <p><a rel="full-article" href="https://medium.com/@thomasfuchs/how-to-write-an-error-message-883718173322">Read on Medium&nbsp;&rarr;</a></p>]]></content>
 			</entry>
@@ -37,9 +37,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Mobile 2015: UI/UX Trends]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/mobile-2015-263ab694e60e/"/>
+				<link href="https://www.aaron-gustafson.com/notebook/links/mobile-2015-263ab694e60e/"/>
 				<updated>2015-09-02T14:09:35-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/mobile-2015-263ab694e60e</id>
+				<id>https://www.aaron-gustafson.com/notebook/links/mobile-2015-263ab694e60e</id>
 				<content type="html"><![CDATA[<p>A nice overview of small screen design trends with backgrounds as to why these approaches work well.</p>
 <p><a rel="full-article" href="https://medium.com/interactive-mind/mobile-2015-263ab694e60e">Read on Medium&nbsp;&rarr;</a></p>]]></content>
 			</entry>
@@ -48,9 +48,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[7 Ways Form Accessibility Can Boost Conversions]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/form-accessibility/"/>
+				<link href="https://www.aaron-gustafson.com/notebook/links/form-accessibility/"/>
 				<updated>2015-09-02T14:06:33-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/form-accessibility</id>
+				<id>https://www.aaron-gustafson.com/notebook/links/form-accessibility</id>
 				<content type="html"><![CDATA[<p>There’s some really good forms advice in here. Just be careful when manipulating the tab flow.</p>
 <p><a rel="full-article" href="http://conversionxl.com/form-accessibility/">Read on ConversionXL&nbsp;&rarr;</a></p>]]></content>
 			</entry>
@@ -61,9 +61,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Where to Put Your Search Role]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/where-to-put-your-search-role/"/>
+				<link href="https://www.aaron-gustafson.com/notebook/links/where-to-put-your-search-role/"/>
 				<updated>2015-09-01T11:31:44-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/where-to-put-your-search-role</id>
+				<id>https://www.aaron-gustafson.com/notebook/links/where-to-put-your-search-role</id>
 				<content type="html"><![CDATA[<p>Not on the <code>form</code>. Noted.</p>
 <p><a rel="full-article" href="http://adrianroselli.com/2015/08/where-to-put-your-search-role.html">Read on Adrian Roselli&nbsp;&rarr;</a></p>]]></content>
 			</entry>
@@ -72,9 +72,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Making Radio Buttons and Checkboxes Easier to Use]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/making-radio-buttons-and-checkboxes-easier-to-use/"/>
+				<link href="https://www.aaron-gustafson.com/notebook/links/making-radio-buttons-and-checkboxes-easier-to-use/"/>
 				<updated>2015-09-01T11:27:41-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/making-radio-buttons-and-checkboxes-easier-to-use</id>
+				<id>https://www.aaron-gustafson.com/notebook/links/making-radio-buttons-and-checkboxes-easier-to-use</id>
 				<content type="html"><![CDATA[<p>Experiments in radio and checkbox resizing. It’s a sad state of affairs. The small hit targets are why I recommend adding negative margins above and below the <code>label</code>, coupled with equal padding top and bottom. It’s a recommendation from <a href="http://www.aaron-gustafson.com/notebook/slides-from-my-talk-at-number-msedgesummit/">my forms talk</a> that I will write up soon.</p>
 <p><a rel="full-article" href="https://gdstechnology.blog.gov.uk/2015/08/27/making-radio-buttons-and-checkboxes-easier-to-use/">Read on Technology at GDS&nbsp;&rarr;</a></p>]]></content>
 			</entry>
@@ -83,9 +83,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[A Fictional Conversation About Progressive Enhancement]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/9370/"/>
+				<link href="https://www.aaron-gustafson.com/notebook/links/9370/"/>
 				<updated>2015-09-01T11:21:42-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/9370</id>
+				<id>https://www.aaron-gustafson.com/notebook/links/9370</id>
 				<content type="html"><![CDATA[<p>A cheeky fictional conversation about progressive enhancement, though I might take it a bit further: If you want to edit the rich document and JavaScript enhancements aren’t available, there’s always <a href="http://daringfireball.net/projects/markdown/">Markdown</a> or <a href="http://redcloth.org/hobix.com/textile/">Textile</a> or <a href="https://en.wikipedia.org/wiki/Lightweight_markup_language#Types">any other plain text pseudo-formatting language</a>. Where there’s a will…</p>
 <p><a rel="full-article" href="https://tommorris.org/posts/9370">Read on tommorris.org&nbsp;&rarr;</a></p>]]></content>
 			</entry>
@@ -94,9 +94,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Accessibility - Beyond the Screen Reader]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/accessibility-beyond-screen-reader-91516540/"/>
+				<link href="https://www.aaron-gustafson.com/notebook/links/accessibility-beyond-screen-reader-91516540/"/>
 				<updated>2015-09-01T11:18:34-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/accessibility-beyond-screen-reader-91516540</id>
+				<id>https://www.aaron-gustafson.com/notebook/links/accessibility-beyond-screen-reader-91516540</id>
 				<content type="html"><![CDATA[<p>This is a fantastic overview of the accessibility considerations you should be making. Most are far more important than screen reader support.</p>
 <p><a rel="full-article" href="http://www.creativebloq.com/web-design/accessibility-beyond-screen-reader-91516540">Read on Creative Bloq&nbsp;&rarr;</a></p>]]></content>
 			</entry>
@@ -105,9 +105,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[V8 Release 4.6]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/v8-release-46/"/>
+				<link href="https://www.aaron-gustafson.com/notebook/links/v8-release-46/"/>
 				<updated>2015-09-01T10:58:58-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/v8-release-46</id>
+				<id>https://www.aaron-gustafson.com/notebook/links/v8-release-46</id>
 				<content type="html"><![CDATA[<p>New ES6 (ECMAScript 2015) features rolling out in V8: <code>spread</code> and <code>new.target</code>. Also: Reduced jank.</p>
 <p><a rel="full-article" href="http://v8project.blogspot.co.uk/2015/08/v8-release-46.html">Read on V8 JavaScript Engine Blog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
@@ -116,9 +116,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Progressive Enhancement With Aaron Gustafson]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/105/"/>
+				<link href="https://www.aaron-gustafson.com/notebook/links/105/"/>
 				<updated>2015-08-31T16:20:56-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/105</id>
+				<id>https://www.aaron-gustafson.com/notebook/links/105</id>
 				<content type="html"><![CDATA[<p>Jen Simmons and I discuss working on the web and all things progressive enhancement.</p>
 <p><a rel="full-article" href="http://thewebahead.net/105">Read on The Web Ahead&nbsp;&rarr;</a></p>]]></content>
 			</entry>
@@ -127,9 +127,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Creating an Accessible Breakout Game Using Web Audio & SVG]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/creating-an-accessible-breakout-game-using-web-audio-and-svg/"/>
+				<link href="https://www.aaron-gustafson.com/notebook/links/creating-an-accessible-breakout-game-using-web-audio-and-svg/"/>
 				<updated>2015-08-28T10:06:53-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/creating-an-accessible-breakout-game-using-web-audio-and-svg</id>
+				<id>https://www.aaron-gustafson.com/notebook/links/creating-an-accessible-breakout-game-using-web-audio-and-svg</id>
 				<content type="html"><![CDATA[<p>I had the great pleasure of seeing Dave present his accessible breakout game at the MS Edge Web Summit and have been eagerly awaiting this post ever since. So much good stuff in here!</p>
 <p><a rel="full-article" href="http://blogs.msdn.com/b/davrous/archive/2015/08/27/creating-an-accessible-breakout-game-using-web-audio-amp-svg.aspx">Read on David Rousset&nbsp;&rarr;</a></p>]]></content>
 			</entry>
@@ -138,9 +138,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Infinite Scrolling and Accessibility (It’s Usually Bad)]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/infinite-scrolling-and-accessibility/"/>
+				<link href="https://www.aaron-gustafson.com/notebook/links/infinite-scrolling-and-accessibility/"/>
 				<updated>2015-08-27T14:47:38-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/infinite-scrolling-and-accessibility</id>
+				<id>https://www.aaron-gustafson.com/notebook/links/infinite-scrolling-and-accessibility</id>
 				<content type="html"><![CDATA[<p>An excellent round-up of research findings and articles with regard to accessibility and the infinite scrolling design pattern.</p>
 <p><a rel="full-article" href="http://www.webaxe.org/infinite-scrolling-and-accessibility/">Read on Web Axe&nbsp;&rarr;</a></p>]]></content>
 			</entry>
@@ -149,9 +149,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Results From Assistive Technology]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/rat/"/>
+				<link href="https://www.aaron-gustafson.com/notebook/links/rat/"/>
 				<updated>2015-08-27T14:46:17-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/rat</id>
+				<id>https://www.aaron-gustafson.com/notebook/links/rat</id>
 				<content type="html"><![CDATA[<p>This is a fantastic resource for information on how different markup patterns are handled in terms of accessibility.</p>
 <p><a rel="full-article" href="http://jonathantneal.github.io/rat/">Read on Jonathan T. Neal&nbsp;&rarr;</a></p>]]></content>
 			</entry>
@@ -162,9 +162,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Designing Web Code in a Native App]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/designing-web-code-in-a-native-app/"/>
+				<link href="https://www.aaron-gustafson.com/notebook/links/designing-web-code-in-a-native-app/"/>
 				<updated>2015-08-20T13:03:16-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/designing-web-code-in-a-native-app</id>
+				<id>https://www.aaron-gustafson.com/notebook/links/designing-web-code-in-a-native-app</id>
 				<content type="html"><![CDATA[<p><a href="http://www.thishereweb.com/">Jeff Burtoft</a> and I collaborated on a little post about the benefits of hosted apps and the pros and cons of “going native”.</p>
 <p><a rel="full-article" href="http://www.thishereweb.com/designing-web-code-in-a-native-app/">Read on This Here Web&nbsp;&rarr;</a></p>]]></content>
 			</entry>
@@ -175,9 +175,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Windows 10 Virtual Machines Now Available]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/windows-10-virtual-machines-now-available-on-microsoft-edge-dev/"/>
+				<link href="https://www.aaron-gustafson.com/notebook/links/windows-10-virtual-machines-now-available-on-microsoft-edge-dev/"/>
 				<updated>2015-08-17T14:24:33-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/windows-10-virtual-machines-now-available-on-microsoft-edge-dev</id>
+				<id>https://www.aaron-gustafson.com/notebook/links/windows-10-virtual-machines-now-available-on-microsoft-edge-dev</id>
 				<content type="html"><![CDATA[<p>Need a Windows 10 (virtual) box for testing Microsoft Edge? They’re now available no <a href="http://dev.modern.ie/">the Microsoft Edge Dev site</a>.</p>
 <p><a rel="full-article" href="http://blogs.windows.com/msedgedev/2015/08/17/windows-10-virtual-machines-now-available-on-microsoft-edge-dev/">Read on Microsoft Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
@@ -186,9 +186,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[Inside Selectors: Discover `:matches()`, `:not()` and `:nth-child()`]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/css-selectors-inside-selectors-discover-matches-not-and-nth-child/"/>
+				<link href="https://www.aaron-gustafson.com/notebook/links/css-selectors-inside-selectors-discover-matches-not-and-nth-child/"/>
 				<updated>2015-08-17T13:32:14-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/css-selectors-inside-selectors-discover-matches-not-and-nth-child</id>
+				<id>https://www.aaron-gustafson.com/notebook/links/css-selectors-inside-selectors-discover-matches-not-and-nth-child</id>
 				<content type="html"><![CDATA[<p>More selectors from <a href="http://drafts.csswg.org/selectors-4/">Selectors Level 4</a> have landed in WebKit. This is a handy overview of some of them.</p>
 <p><a rel="full-article" href="https://www.webkit.org/blog/3615/css-selectors-inside-selectors-discover-matches-not-and-nth-child/">Read on Surfin’ Safari&nbsp;&rarr;</a></p>]]></content>
 			</entry>
@@ -197,9 +197,9 @@
 		
 			<entry>
 				<title type="html"><![CDATA[What Happens When You Get Sued for Your Inaccessible Website]]></title>
-				<link href="http://www.aaron-gustafson.com/notebook/links/what-happens-when-you-get-sued-for-your-inaccessible-website/"/>
+				<link href="https://www.aaron-gustafson.com/notebook/links/what-happens-when-you-get-sued-for-your-inaccessible-website/"/>
 				<updated>2015-08-17T13:22:41-04:00</updated>
-				<id>http://www.aaron-gustafson.com/notebook/links/what-happens-when-you-get-sued-for-your-inaccessible-website</id>
+				<id>https://www.aaron-gustafson.com/notebook/links/what-happens-when-you-get-sued-for-your-inaccessible-website</id>
 				<content type="html"><![CDATA[<p>The bottom line: “Ultimately, you are going to end up fixing your website”, so “[b]eing proactive is far better than being reactive and that’s never more true than when you’re dealing with a legal threat.”</p>
 <p><a rel="full-article" href="http://www.karlgroves.com/2015/08/16/what-happens-when-you-get-sued-for-your-inaccessible-website/">Read on Karl Groves&nbsp;&rarr;</a></p>]]></content>
 			</entry>

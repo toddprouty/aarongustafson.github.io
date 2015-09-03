@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Browse by Tag: Html Forms | Aaron Gustafson]]></title>
-  <link href="http://www.aaron-gustafson.com/notebook/tags/html-forms/atom.xml" rel="self"/>
-  <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-09-03T11:46:01-04:00</updated>
-  <id>http://www.aaron-gustafson.com/</id>
+  <link href="https://www.aaron-gustafson.com/notebook/tags/html-forms/atom.xml" rel="self"/>
+  <link href="https://www.aaron-gustafson.com/"/>
+  <updated>2015-09-03T15:21:14-04:00</updated>
+  <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Slides From My Talk at #msEdgeSummit]]></title>
-    <link href="http://www.aaron-gustafson.com/notebook/slides-from-my-talk-at-number-msedgesummit/"/>
+    <link href="https://www.aaron-gustafson.com/notebook/slides-from-my-talk-at-number-msedgesummit/"/>
     <updated>2015-05-05T20:14:00-04:00</updated>
-    <id>http://www.aaron-gustafson.com/notebook/slides-from-my-talk-at-number-msedgesummit</id>
+    <id>https://www.aaron-gustafson.com/notebook/slides-from-my-talk-at-number-msedgesummit</id>
     <content type="html"><![CDATA[<p>I just came off stage from my talk at the <a href="https://channel9.msdn.com/Events/WebPlatformSummit/2015">Microsoft Edge Web Summit</a> and I wanted to share <a href="/notebook/slides-from-my-talk-at-number-msedgesummit/#figure-2015-05-05-01">the deck</a> with you. The talk was live-streamed, but I will post a video link as soon as it is up.</p>
 
 <p><strong>Update:</strong> <a href="https://channel9.msdn.com/Events/WebPlatformSummit/2015/Falling-in-love-with-forms">The video is now online</a>. You can also <a href="/notebook/slides-from-my-talk-at-number-msedgesummit/#figure-2015-05-05-02">view it below</a>.</p>

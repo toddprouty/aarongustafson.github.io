@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Browse by Tag: Web Design 101 | Aaron Gustafson]]></title>
-  <link href="http://www.aaron-gustafson.com/notebook/tags/web-design-101/atom.xml" rel="self"/>
-  <link href="http://www.aaron-gustafson.com/"/>
-  <updated>2015-09-03T11:46:01-04:00</updated>
-  <id>http://www.aaron-gustafson.com/</id>
+  <link href="https://www.aaron-gustafson.com/notebook/tags/web-design-101/atom.xml" rel="self"/>
+  <link href="https://www.aaron-gustafson.com/"/>
+  <updated>2015-09-03T15:21:14-04:00</updated>
+  <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
     
@@ -15,12 +15,12 @@
   
   <entry>
     <title type="html"><![CDATA[Web Design 101: 100% Tappable]]></title>
-    <link href="http://www.aaron-gustafson.com/notebook/web-design-101-100-percent-tappable/"/>
+    <link href="https://www.aaron-gustafson.com/notebook/web-design-101-100-percent-tappable/"/>
     <updated>2015-08-17T14:46:35-04:00</updated>
-    <id>http://www.aaron-gustafson.com/notebook/web-design-101-100-percent-tappable</id>
+    <id>https://www.aaron-gustafson.com/notebook/web-design-101-100-percent-tappable</id>
     <content type="html"><![CDATA[<p>I see this one all the time: something that looks like a button, but only a portion of it is tappable. <!-- more -->Consider this example from a recent email I received (emails are notorious for this crap):</p>
 
-<figure id="fig-2015-08-17-01" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-08-17/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-08-17/01.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-08-17/01.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-08-17/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>A call to action from a recent email with the tiny tappable area highlighted within the much larger "button".</figcaption></figure>
+<figure id="fig-2015-08-17-01" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/01.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/01.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>A call to action from a recent email with the tiny tappable area highlighted within the much larger "button".</figcaption></figure>
 
 <p>This screenshot shows a very large call to action, which is good. Unfortunately, as the screenshot illustrates, the majority of the “button” is a table cell and the tappable link is just the text inside it.</p>
 
@@ -40,7 +40,7 @@
 
 <p>The problem is that the 15px padding and overall button styles were put on the table cell rather than the link itself. Setting the link to have a <code>display</code> of “block” or “inline-block” would allow it to be given vertical padding (which is probably the issue the designer was struggling with here). Then the remainder of the styles could be migrated without adjusting the design at all.</p>
 
-<figure id="fig-2015-08-17-02" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-08-17/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-08-17/02.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-08-17/02.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.aaron-gustafson.com/i/posts/2015-08-17/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>The same email with the padding shifted to the link, making more of the "button" tappable.</figcaption></figure>
+<figure id="fig-2015-08-17-02" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/02.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/02.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>The same email with the padding shifted to the link, making more of the "button" tappable.</figcaption></figure>
 
 <p>When you design something that looks interactive, <em>always make sure the whole thing is actually tappable</em>. It will go along way toward reducing user frustration.</p>
 ]]></content>
