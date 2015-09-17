@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="https://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-09-17T15:34:26-04:00</updated>
+	<updated>2015-09-17T15:57:12-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[iOS 9, Safari and the Web]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/ios9-safari-for-web-developers/"/>
+				<updated>2015-09-17T15:55:08-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/ios9-safari-for-web-developers</id>
+				<content type="html"><![CDATA[<p>An excellent (and exhaustive) overview of what’s new in iOS 9 as it pertains to web design.</p>
+<p><a rel="full-article" href="http://www.mobilexweb.com/blog/ios9-safari-for-web-developers">Read on Breaking the Mobile Web&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -269,17 +280,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/creating-an-accessible-breakout-game-using-web-audio-and-svg</id>
 				<content type="html"><![CDATA[<p>I had the great pleasure of seeing Dave present his accessible breakout game at the MS Edge Web Summit and have been eagerly awaiting this post ever since. So much good stuff in here!</p>
 <p><a rel="full-article" href="http://blogs.msdn.com/b/davrous/archive/2015/08/27/creating-an-accessible-breakout-game-using-web-audio-amp-svg.aspx">Read on David Rousset&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Infinite Scrolling and Accessibility (It’s Usually Bad)]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/infinite-scrolling-and-accessibility/"/>
-				<updated>2015-08-27T14:47:38-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/infinite-scrolling-and-accessibility</id>
-				<content type="html"><![CDATA[<p>An excellent round-up of research findings and articles with regard to accessibility and the infinite scrolling design pattern.</p>
-<p><a rel="full-article" href="http://www.webaxe.org/infinite-scrolling-and-accessibility/">Read on Web Axe&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
