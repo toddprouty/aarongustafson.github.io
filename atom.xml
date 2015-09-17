@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="https://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-09-04T20:14:37-04:00</updated>
+	<updated>2015-09-17T15:34:26-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,58 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[What Porn Site Statistics Can Tell Us About the Worldwide Console Wars]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/what-porn-site-statistics-can-tell-us-about-the-worldwide-console-wars/"/>
+				<updated>2015-09-17T15:31:20-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/what-porn-site-statistics-can-tell-us-about-the-worldwide-console-wars</id>
+				<content type="html"><![CDATA[<p>This was a fascinating dive into console browser stats. You did know people use console browsers, right? And yes, for more than porn.</p>
+<p><a rel="full-article" href="http://arstechnica.com/gaming/2015/09/what-porn-site-statistics-can-tell-us-about-the-worldwide-console-wars/">Read on Ars Technica&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Anachronistic Beard: A New Methodology to Make Sites Work Anywhere]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/anachronistic-beard-a-new-methodology-to-make-sites-work-anywhere/"/>
+				<updated>2015-09-17T15:24:42-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/anachronistic-beard-a-new-methodology-to-make-sites-work-anywhere</id>
+				<content type="html"><![CDATA[<blockquote>
+  <p>[A] revolutionary way of making websites so they look good in iOS 9 with external fonts turned off, work well for Opera Mini’s 250+ million users, and in Chrome, Opera, Firefox, IE, Edge, whether you’re using a computer, a phone, a tablet, a phablet (you’re not, are you?), with or without assistive technology.</p>
+</blockquote>
+
+<p>Thank you Bruce!</p>
+<p><a rel="full-article" href="http://www.brucelawson.co.uk/2015/anachronistic-beard-a-new-methodology-to-make-sites-work-anywhere/">Read on Bruce Lawson&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Strategic Planning for Web Accessibility]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/impl/"/>
+				<updated>2015-09-17T15:22:24-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/impl</id>
+				<content type="html"><![CDATA[<p>I could not have said it better myself:</p>
+
+<blockquote>
+  <p>A successful plan for web accessibility addresses many areas of your organization and projects: training, quality assurance, recruiting, purchasing, marketing, content development, visual design, and more. As with other important aspects of website development, such as performance, accessibility is best approached as an integral and ongoing activity.</p>
+</blockquote>
+<p><a rel="full-article" href="http://www.w3.org/WAI/impl/">Read on W3C Web Accessibility Initiative&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[WAI-ARIA - Screen Reader Compatibility]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/powermapper-screen-readers-aria/"/>
+				<updated>2015-09-17T15:15:06-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/powermapper-screen-readers-aria</id>
+				<content type="html"><![CDATA[<p>Screen reader compatibility is complex because it relies on a browser and a screen reader to work in tandem. As browsers can be combined with different screen readers, it makes testing a challenge. This matrix goes through a few key ARIA options and approaches, identifying which ones work and which ones don’t using a bunch of combinations. <a href="https://en.wikipedia.org/wiki/Microsoft_Narrator">Narrator</a> is sadly missing from the matrix, but this is still a useful resource that I hope continues to grow and get updated. In fact, to that end, I’d love to see it move to Github for more contributions.</p>
+<p><a rel="full-article" href="http://www.powermapper.com/tests/screen-readers/aria/index.html">Read on PowerMapper Software&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -228,83 +280,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/infinite-scrolling-and-accessibility</id>
 				<content type="html"><![CDATA[<p>An excellent round-up of research findings and articles with regard to accessibility and the infinite scrolling design pattern.</p>
 <p><a rel="full-article" href="http://www.webaxe.org/infinite-scrolling-and-accessibility/">Read on Web Axe&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Results From Assistive Technology]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/rat/"/>
-				<updated>2015-08-27T14:46:17-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/rat</id>
-				<content type="html"><![CDATA[<p>This is a fantastic resource for information on how different markup patterns are handled in terms of accessibility.</p>
-<p><a rel="full-article" href="http://jonathantneal.github.io/rat/">Read on Jonathan T. Neal&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[My Trip to 18F]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/my-trip-to-18f/"/>
-				<updated>2015-08-26T15:51:14-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/my-trip-to-18f</id>
-				<content type="html"><![CDATA[<p>The fine folks at 18F just posted <a href="https://18f.gsa.gov/2015/08/26/aaron-gustafson-beyond-responsive-design/">a beautiful write-up of the talk on progressive enhancement that I delivered</a> as part of the <a href="https://18f.gsa.gov/tags/speaker-series/">18F Design Speaker Series</a>. I thoroughly enjoyed talking to the folks that came. They presented some interesting challenges and asked pressing questions—exactly the kind of engagement I love.</p>
-
-<!-- more -->
-
-<p>They live-streamed the event and immediately <a href="https://youtu.be/Fu1L34TLUHM">posted the video on YouTube</a>. I also <a href="http://www.slideshare.net/AaronGustafson/beyond-responsive-18f-2015">posted the deck to SlideShare</a> so you can follow along a little easier. I’ve embedded each below if you want to tuck in right away:</p>
-
-<figure id="fig-Fu1L34TLUHM" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(https://i2.ytimg.com/vi/Fu1L34TLUHM/0.jpg);" href="//www.youtube.com/watch?v=Fu1L34TLUHM" data-lazy-video-src="https://www.youtube.com/embed/Fu1L34TLUHM?autoplay=1&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">18F Design Presents: Aaron Gustafson</div></a></div></figure>
-
-<div class="bogus-wrapper"><notextile><figure class="video-embed video-embed--16x9" id="figure-2015-08-26-01"><iframe class="video-embed__video" src="//www.slideshare.net/slideshow/embed_code/key/7jsUtSzGEqFyKj" frameborder="0"></iframe></figure></notextile></div>
-
-<p>For a little more coverage, you can also check out <a href="http://www.digitalgov.gov/2015/08/25/trends-on-tuesday-web-standards-advocate-advises-adaptive-web-design-for-government-sites/">Will Sullivan’s takeaways from the talk</a>.</p>
-]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Designing Web Code in a Native App]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/designing-web-code-in-a-native-app/"/>
-				<updated>2015-08-20T13:03:16-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/designing-web-code-in-a-native-app</id>
-				<content type="html"><![CDATA[<p><a href="http://www.thishereweb.com/">Jeff Burtoft</a> and I collaborated on a little post about the benefits of hosted apps and the pros and cons of “going native”.</p>
-<p><a rel="full-article" href="http://www.thishereweb.com/designing-web-code-in-a-native-app/">Read on This Here Web&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Web Design 101: 100% Tappable]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/web-design-101-100-percent-tappable/"/>
-				<updated>2015-08-17T14:46:35-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/web-design-101-100-percent-tappable</id>
-				<content type="html"><![CDATA[<p>I see this one all the time: something that looks like a button, but only a portion of it is tappable. <!-- more -->Consider this example from a recent email I received (emails are notorious for this crap):</p>
-
-<div class="bogus-wrapper"><notextile><figure id="fig-2015-08-17-01" class="media-container"><img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/01.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/01.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="" /><figcaption>A call to action from a recent email with the tiny tappable area highlighted within the much larger &#8220;button&#8221;.</figcaption></figure></notextile></div>
-
-<p>This screenshot shows a very large call to action, which is good. Unfortunately, as the screenshot illustrates, the majority of the “button” is a table cell and the tappable link is just the text inside it.</p>
-
-<p>The markup itself isn’t horrible; here’s a distillation of that row in the design:</p>
-
-<div><script src="https://gist.github.com/711cbd1054e8ee868a93.js?file=example.html"></script>
-<noscript><pre><code>&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;
-        &lt;a href=&quot;…&quot;&gt;Shop Biotek Marine&lt;/a&gt;
-      &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</code></pre></noscript></div>
-
-<p>The problem is that the 15px padding and overall button styles were put on the table cell rather than the link itself. Setting the link to have a <code>display</code> of “block” or “inline-block” would allow it to be given vertical padding (which is probably the issue the designer was struggling with here). Then the remainder of the styles could be migrated without adjusting the design at all.</p>
-
-<div class="bogus-wrapper"><notextile><figure id="fig-2015-08-17-02" class="media-container"><img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/02.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/02.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="" /><figcaption>The same email with the padding shifted to the link, making more of the &#8220;button&#8221; tappable.</figcaption></figure></notextile></div>
-
-<p>When you design something that looks interactive, <em>always make sure the whole thing is actually tappable</em>. It will go along way toward reducing user frustration.</p>
-]]></content>
 			</entry>
 		
 	

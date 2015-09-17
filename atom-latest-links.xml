@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-09-04T20:14:37-04:00</updated>
+	<updated>2015-09-17T15:34:26-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,58 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[What Porn Site Statistics Can Tell Us About the Worldwide Console Wars]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/what-porn-site-statistics-can-tell-us-about-the-worldwide-console-wars/"/>
+				<updated>2015-09-17T15:31:20-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/what-porn-site-statistics-can-tell-us-about-the-worldwide-console-wars</id>
+				<content type="html"><![CDATA[<p>This was a fascinating dive into console browser stats. You did know people use console browsers, right? And yes, for more than porn.</p>
+<p><a rel="full-article" href="http://arstechnica.com/gaming/2015/09/what-porn-site-statistics-can-tell-us-about-the-worldwide-console-wars/">Read on Ars Technica&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Anachronistic Beard: A New Methodology to Make Sites Work Anywhere]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/anachronistic-beard-a-new-methodology-to-make-sites-work-anywhere/"/>
+				<updated>2015-09-17T15:24:42-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/anachronistic-beard-a-new-methodology-to-make-sites-work-anywhere</id>
+				<content type="html"><![CDATA[<blockquote>
+  <p>[A] revolutionary way of making websites so they look good in iOS 9 with external fonts turned off, work well for Opera Mini’s 250+ million users, and in Chrome, Opera, Firefox, IE, Edge, whether you’re using a computer, a phone, a tablet, a phablet (you’re not, are you?), with or without assistive technology.</p>
+</blockquote>
+
+<p>Thank you Bruce!</p>
+<p><a rel="full-article" href="http://www.brucelawson.co.uk/2015/anachronistic-beard-a-new-methodology-to-make-sites-work-anywhere/">Read on Bruce Lawson&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Strategic Planning for Web Accessibility]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/impl/"/>
+				<updated>2015-09-17T15:22:24-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/impl</id>
+				<content type="html"><![CDATA[<p>I could not have said it better myself:</p>
+
+<blockquote>
+  <p>A successful plan for web accessibility addresses many areas of your organization and projects: training, quality assurance, recruiting, purchasing, marketing, content development, visual design, and more. As with other important aspects of website development, such as performance, accessibility is best approached as an integral and ongoing activity.</p>
+</blockquote>
+<p><a rel="full-article" href="http://www.w3.org/WAI/impl/">Read on W3C Web Accessibility Initiative&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[WAI-ARIA - Screen Reader Compatibility]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/powermapper-screen-readers-aria/"/>
+				<updated>2015-09-17T15:15:06-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/powermapper-screen-readers-aria</id>
+				<content type="html"><![CDATA[<p>Screen reader compatibility is complex because it relies on a browser and a screen reader to work in tandem. As browsers can be combined with different screen readers, it makes testing a challenge. This matrix goes through a few key ARIA options and approaches, identifying which ones work and which ones don’t using a bunch of combinations. <a href="https://en.wikipedia.org/wiki/Microsoft_Narrator">Narrator</a> is sadly missing from the matrix, but this is still a useful resource that I hope continues to grow and get updated. In fact, to that end, I’d love to see it move to Github for more contributions.</p>
+<p><a rel="full-article" href="http://www.powermapper.com/tests/screen-readers/aria/index.html">Read on PowerMapper Software&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -168,32 +220,6 @@
 				<content type="html"><![CDATA[<p>An excellent round-up of research findings and articles with regard to accessibility and the infinite scrolling design pattern.</p>
 <p><a rel="full-article" href="http://www.webaxe.org/infinite-scrolling-and-accessibility/">Read on Web Axe&nbsp;&rarr;</a></p>]]></content>
 			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Results From Assistive Technology]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/rat/"/>
-				<updated>2015-08-27T14:46:17-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/rat</id>
-				<content type="html"><![CDATA[<p>This is a fantastic resource for information on how different markup patterns are handled in terms of accessibility.</p>
-<p><a rel="full-article" href="http://jonathantneal.github.io/rat/">Read on Jonathan T. Neal&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Designing Web Code in a Native App]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/designing-web-code-in-a-native-app/"/>
-				<updated>2015-08-20T13:03:16-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/designing-web-code-in-a-native-app</id>
-				<content type="html"><![CDATA[<p><a href="http://www.thishereweb.com/">Jeff Burtoft</a> and I collaborated on a little post about the benefits of hosted apps and the pros and cons of “going native”.</p>
-<p><a rel="full-article" href="http://www.thishereweb.com/designing-web-code-in-a-native-app/">Read on This Here Web&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
 		
 	
 </feed>
