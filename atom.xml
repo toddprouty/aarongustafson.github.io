@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="https://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-09-17T15:57:12-04:00</updated>
+	<updated>2015-09-20T15:06:04-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,21 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Content Blocking Primer]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/content-blocking-primer/"/>
+				<updated>2015-09-20T14:52:34-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/content-blocking-primer</id>
+				<content type="html"><![CDATA[<p>Fantastic post from Eric on how the mass appeal of content blockers has given the web a <a href="https://en.wikipedia.org/wiki/Mulligan_(games)">mulligan</a>. There’s a lot of great content in his post, but I’ll just share this one emblematic passage:</p>
+
+<blockquote>
+  <p>Remember, this isn’t just about ads.  Ads are emblematic of the root problem, but they’re not the actual root problem. If ads were the sole concern of content blockers, then the blockers (mostly) wouldn’t bother to block web fonts.  It’s possible to use web fonts smartly and efficiently, but most sites don’t, so web fonts are a major culprit in slow mobile load times.  The same is true for Javascript, whether it’s served by an ad network, an analytics engine, or some other source.  So they’re both targeted by blockers—not for enabling ads, but for disabling the web.</p>
+</blockquote>
+<p><a rel="full-article" href="http://meyerweb.com/eric/thoughts/2015/09/19/content-blocking-primer/">Read on Eric Meyer&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -269,17 +284,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/105</id>
 				<content type="html"><![CDATA[<p>Jen Simmons and I discuss working on the web and all things progressive enhancement.</p>
 <p><a rel="full-article" href="http://thewebahead.net/105">Read on The Web Ahead&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Creating an Accessible Breakout Game Using Web Audio & SVG]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/creating-an-accessible-breakout-game-using-web-audio-and-svg/"/>
-				<updated>2015-08-28T10:06:53-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/creating-an-accessible-breakout-game-using-web-audio-and-svg</id>
-				<content type="html"><![CDATA[<p>I had the great pleasure of seeing Dave present his accessible breakout game at the MS Edge Web Summit and have been eagerly awaiting this post ever since. So much good stuff in here!</p>
-<p><a rel="full-article" href="http://blogs.msdn.com/b/davrous/archive/2015/08/27/creating-an-accessible-breakout-game-using-web-audio-amp-svg.aspx">Read on David Rousset&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
