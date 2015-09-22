@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="https://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-09-21T11:57:27-07:00</updated>
+	<updated>2015-09-22T15:42:20-07:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[CSS Round Display Level 1]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/WD-css-round-display-1-20150922/"/>
+				<updated>2015-09-22T15:41:05-07:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/WD-css-round-display-1-20150922</id>
+				<content type="html"><![CDATA[<p>An interesting proposal from LG regarding design tools for addressing non-rectangular screens.</p>
+<p><a rel="full-article" href="http://www.w3.org/TR/2015/WD-css-round-display-1-20150922/">Read on W3C&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -273,17 +284,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/accessibility-beyond-screen-reader-91516540</id>
 				<content type="html"><![CDATA[<p>This is a fantastic overview of the accessibility considerations you should be making. Most are far more important than screen reader support.</p>
 <p><a rel="full-article" href="http://www.creativebloq.com/web-design/accessibility-beyond-screen-reader-91516540">Read on Creative Bloq&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[V8 Release 4.6]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/v8-release-46/"/>
-				<updated>2015-09-01T07:58:58-07:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/v8-release-46</id>
-				<content type="html"><![CDATA[<p>New ES6 (ECMAScript 2015) features rolling out in V8: <code>spread</code> and <code>new.target</code>. Also: Reduced jank.</p>
-<p><a rel="full-article" href="http://v8project.blogspot.co.uk/2015/08/v8-release-46.html">Read on V8 JavaScript Engine Blog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
