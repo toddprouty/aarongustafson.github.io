@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Mobile | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/mobile/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2015-09-22T15:42:20-07:00</updated>
+  <updated>2015-09-29T11:46:15-04:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Bringing Sanity and Order to Device Testing]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/bringing-sanity-and-order-to-device-testing/"/>
-    <updated>2015-06-05T06:56:03-07:00</updated>
+    <updated>2015-06-05T09:56:03-04:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/bringing-sanity-and-order-to-device-testing</id>
     <content type="html"><![CDATA[<p>It seems like every other day the public is granted some new means of accessing the web. Some days it’s <a href="http://www.engadget.com/2015/04/29/microsoft-edge/">a new browser</a>. Others it’s <a href="http://www.pcadvisor.co.uk/reviews/mobile-phone/3504276/yotaphone-2-review-uk-dual-screen-smartphone/">a new smartphone</a>. Or <a href="http://www.engadget.com/products/microsoft/surface/3/">a tablet</a>. Or <a href="http://the-digital-reader.com/2014/10/22/voyage-vs-paperwhite-comparison-review-web-browser/">an e-reader</a>. Or <a href="https://www.nintendo.com/3ds/internetbrowser/specs/">a video game console</a>. Or <a href="http://www.phonearena.com/news/Surf-the-Internet-from-your-Android-Wear-smartwatch-Now-possible-via-this-new-app_id58580">a smartwatch</a>. Or <a href="https://html5test.com/compare/browser/samsungsmarttv-2013.html">a TV</a>. Or <a href="http://www.techradar.com/us/reviews/wearables/microsoft-hololens-1281834/review">a heads-up display</a>. Or <a href="http://www.popularmechanics.com/cars/a13191/the-future-of-car-connectivity-is-a-real-web-browser-in-the-dash-17416796/">a car</a>. Or <a href="http://www.lgblog.lt/2009/10/28/zvilgsnis-atgal-pirmasis-pasaulyje-saldytuvas-su-internetu-lg-internet-digital-dios/">a refrigerator</a>.</p>
 
@@ -157,7 +157,7 @@
   <entry>
     <title type="html"><![CDATA[Tips for Surviving Google’s “Mobilegeddon”]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/tips-for-surviving-googles-mobilegeddon/"/>
-    <updated>2015-04-21T06:10:12-07:00</updated>
+    <updated>2015-04-21T09:10:12-04:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/tips-for-surviving-googles-mobilegeddon</id>
     <content type="html"><![CDATA[<p>Today is the day <a href="http://www.economist.com/news/business-and-finance/21648947-worlds-biggest-search-engine-shakes-up-its-algorithms-mobilegeddon">Google updates it algorithm to take into account mobile-friendliness</a>. Here are a few tips that will help you embrace mobile without tearing your hair out.</p>
 
@@ -204,7 +204,7 @@
   <entry>
     <title type="html"><![CDATA[An Onslaught of Low-cost Smartphones]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/an-onslaught-of-low-cost-smartphones/"/>
-    <updated>2015-01-15T08:58:11-08:00</updated>
+    <updated>2015-01-15T11:58:11-05:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/an-onslaught-of-low-cost-smartphones</id>
     <content type="html"><![CDATA[<p>It seems every week we are seeing more and more low-cost devices being launched in an effort to connect the unconnected. For instance, this past week  saw the announcement of <a href="http://www.theverge.com/2015/1/14/7544107/microsoft-lumia-435-532-launch-specs-price-release-date">two new entries in the Microsoft Lumia line, the 435 and the 532</a>, and the announcement of <a href="http://arstechnica.com/gadgets/2015/01/samsung-finally-puts-tizen-on-a-smartphone-launches-the-z1-in-india/">Samsung’s first Tizen phone, the Z1</a>.</p>
 
@@ -229,7 +229,7 @@
   <entry>
     <title type="html"><![CDATA[The “Native” vs. “Stylable” Tug of War]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/native-vs-stylable-tug-of-war/"/>
-    <updated>2014-07-17T05:21:47-07:00</updated>
+    <updated>2014-07-17T08:21:47-04:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/native-vs-stylable-tug-of-war</id>
     <content type="html"><![CDATA[<p>In his astute post <a href="//www.brucelawson.co.uk/2014/native-experience-vs-styling-select-boxes/">“‘Native experience’ vs styling select boxes”</a>, Bruce Lawson correctly identified a common tension in the web world:</p>
 
@@ -294,7 +294,7 @@
   <entry>
     <title type="html"><![CDATA[Searching for the “Right Size”]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/searching-for-the-right-size/"/>
-    <updated>2014-07-10T17:38:16-07:00</updated>
+    <updated>2014-07-10T20:38:16-04:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/searching-for-the-right-size</id>
     <content type="html"><![CDATA[<p>This <a href="http://www.wired.com/2014/07/what-a-stalling-tablet-market-says-about-our-search-for-the-perfect-screen/">recent piece from <cite>Wired</cite></a> attributes dwindling tablet sales to cannibalization from larger mobile phones (<abbr title="also known as">aka</abbr> “phablets”) which are nearly as big as 7-8˝ tablets:</p>
 
