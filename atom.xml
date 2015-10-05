@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="https://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-10-05T11:54:14-04:00</updated>
+	<updated>2015-10-05T15:28:01-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Why Words Are a Design Issue]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/why-words-are-design-issue-91516852/"/>
+				<updated>2015-10-05T15:26:26-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/why-words-are-design-issue-91516852</id>
+				<content type="html"><![CDATA[<p>Gemma Church on why the words you choose matter. I wholeheartedly agree. Your website is a conversation with your customers, which means words are central to it.</p>
+<p><a rel="full-article" href="http://www.creativebloq.com/ux/why-words-are-design-issue-91516852">Read on Creative Bloq&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -234,17 +245,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/powermapper-screen-readers-aria</id>
 				<content type="html"><![CDATA[<p>Screen reader compatibility is complex because it relies on a browser and a screen reader to work in tandem. As browsers can be combined with different screen readers, it makes testing a challenge. This matrix goes through a few key ARIA options and approaches, identifying which ones work and which ones don’t using a bunch of combinations. <a href="https://en.wikipedia.org/wiki/Microsoft_Narrator">Narrator</a> is sadly missing from the matrix, but this is still a useful resource that I hope continues to grow and get updated. In fact, to that end, I’d love to see it move to Github for more contributions.</p>
 <p><a rel="full-article" href="http://www.powermapper.com/tests/screen-readers/aria/index.html">Read on PowerMapper Software&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[ZTE’s Cheap Phones Quietly Winning the U.S.]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/zte-s-cheap-phones-quietly-winning-the-u-s-/"/>
-				<updated>2015-09-04T16:26:08-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/zte-s-cheap-phones-quietly-winning-the-u-s-</id>
-				<content type="html"><![CDATA[<p>This is a drum I’ve been beating for a while: Not all smartphones are created equal. <strong>You should be testing on low-spec smartphones</strong>.</p>
-<p><a rel="full-article" href="http://www.bloomberg.com/news/articles/2015-09-03/zte-s-cheap-phones-quietly-winning-the-u-s-">Read on Bloomberg Business&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
