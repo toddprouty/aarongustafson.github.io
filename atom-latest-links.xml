@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-10-02T15:04:14-04:00</updated>
+	<updated>2015-10-05T10:32:06-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,28 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[What Forces Layout/reflow. The Comprehensive List.]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/what-forces-layout-reflow/"/>
+				<updated>2015-10-05T10:01:17-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/what-forces-layout-reflow</id>
+				<content type="html"><![CDATA[<p>A good overview of layout and reflow triggers in JavaScript. It’s worth noting that this resource can be made more complete with contributions from the WebKit and Microsoft Edge teams (hopefully forthcoming).</p>
+<p><a rel="full-article" href="https://gist.github.com/paulirish/5d52fb081b3570c81e3a">Read on Paul Irish&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[The Price of Free: How Apple, Facebook, Microsoft and Google Sell You to Advertisers]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/the-price-of-free-how-apple-facebook-microsoft-and-google-sell-you-to-advertisers/"/>
+				<updated>2015-10-05T09:58:20-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/the-price-of-free-how-apple-facebook-microsoft-and-google-sell-you-to-advertisers</id>
+				<content type="html"><![CDATA[<p>A relatively brief overview of the privacy policies and practices of four companies you probably interact with on a regular basis. It’s good food for thought.</p>
+<p><a rel="full-article" href="http://www.itworld.com/article/2988865/security/the-price-of-free-how-apple-facebook-microsoft-and-google-sell-you-to-advertisers.html">Read on ITworld&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -221,19 +243,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/on-the-device-context-continuum</id>
 				<content type="html"><![CDATA[<p>Smart thinking (as always) from Jason Grigsby. This time he’s asking the right questions about context in the age of tiny screens (smartwatches) and giant ones (smart TVs).</p>
 <p><a rel="full-article" href="http://blog.cloudfour.com/on-the-device-context-continuum/">Read on The Cloud Four Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Towards a New Information Architecture]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/towards-a-new-information-architecture-f38b5cc904c0/"/>
-				<updated>2015-09-02T14:33:19-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/towards-a-new-information-architecture-f38b5cc904c0</id>
-				<content type="html"><![CDATA[<p>Fantastic history of “Information Architecture” as a practice, with an eye for where it’s heading. Great work <a href="http://www.cwodtke.com">Christina Wodtke</a>!</p>
-<p><a rel="full-article" href="https://medium.com/goodux-badux/towards-a-new-information-architecture-f38b5cc904c0">Read on Medium&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
