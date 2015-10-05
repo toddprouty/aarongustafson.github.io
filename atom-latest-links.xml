@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-10-05T10:32:06-04:00</updated>
+	<updated>2015-10-05T11:54:14-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,19 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Collateral Damage]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/collateral-damage/"/>
+				<updated>2015-10-05T10:59:56-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/collateral-damage</id>
+				<content type="html"><![CDATA[<p>Just like JavaScript, CSS, and images, you are not guaranteed that your web fonts are going to reach (or be appreciated by) your users. I know I constantly run into web font-related performance issues with <em>Wired</em> on my iPhone, even on a speedy WiFi connection, so I’m not at all surprised users are looking to block them.</p>
+
+<p>How do you deal with this? Don’t hide your content until the fonts arrive. Assume they never will.</p>
+<p><a rel="full-article" href="http://miranj.in/blog/2015/collateral-damage">Read on Miranj&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -69,7 +82,7 @@
 	
 		
 			<entry>
-				<title type="html"><![CDATA[Accessibility]]></title>
+				<title type="html"><![CDATA[Accessibility: Towards a More Inclusive Web With Microsoft Edge and Windows 10]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/accessibility-towards-a-more-inclusive-web-with-microsoft-edge-and-windows-10/"/>
 				<updated>2015-10-02T14:13:16-04:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/accessibility-towards-a-more-inclusive-web-with-microsoft-edge-and-windows-10</id>
@@ -232,17 +245,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/zte-s-cheap-phones-quietly-winning-the-u-s-</id>
 				<content type="html"><![CDATA[<p>This is a drum I’ve been beating for a while: Not all smartphones are created equal. <strong>You should be testing on low-spec smartphones</strong>.</p>
 <p><a rel="full-article" href="http://www.bloomberg.com/news/articles/2015-09-03/zte-s-cheap-phones-quietly-winning-the-u-s-">Read on Bloomberg Business&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[On the Device Context Continuum]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/on-the-device-context-continuum/"/>
-				<updated>2015-09-04T16:23:53-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/on-the-device-context-continuum</id>
-				<content type="html"><![CDATA[<p>Smart thinking (as always) from Jason Grigsby. This time he’s asking the right questions about context in the age of tiny screens (smartwatches) and giant ones (smart TVs).</p>
-<p><a rel="full-article" href="http://blog.cloudfour.com/on-the-device-context-continuum/">Read on The Cloud Four Blog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
