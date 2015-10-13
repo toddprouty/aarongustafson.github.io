@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="https://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-10-05T15:28:01-04:00</updated>
+	<updated>2015-10-13T11:17:43-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,61 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[India Is the Most Expensive Place to Buy an iPhone 6S]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/india-is-the-most-expensive-place-to-buy-an-iphone-6s/"/>
+				<updated>2015-10-12T12:25:56-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/india-is-the-most-expensive-place-to-buy-an-iphone-6s</id>
+				<content type="html"><![CDATA[<p>Are you building web projects for the developing world? If so, you can probably forego any in-depth testing on flagship phones like the iPhone 6S.</p>
+<p><a rel="full-article" href="http://www.cnet.com/news/india-is-the-most-expensive-place-to-buy-an-iphone-6s/">Read on CNET&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[“Tomato” Versus “#FF6347”—the Tragicomic History of CSS Color Names]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/tomato-versus-ff6347-the-tragicomic-history-of-css-color-names/"/>
+				<updated>2015-10-12T12:22:23-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/tomato-versus-ff6347-the-tragicomic-history-of-css-color-names</id>
+				<content type="html"><![CDATA[<p>Did you ever wonder how we ended up with color names like “thistle” and “peru” in <a href="https://drafts.csswg.org/css-color/">the CSS color spec</a>? This article provides a little history.</p>
+<p><a rel="full-article" href="http://arstechnica.com/information-technology/2015/10/tomato-versus-ff6347-the-tragicomic-history-of-css-color-names/">Read on Ars Technica&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[AMP and Incentives]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/amp-and-incentives/"/>
+				<updated>2015-10-08T14:28:51-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/amp-and-incentives</id>
+				<content type="html"><![CDATA[<p>This is an excellent big picture perspective on <a href="https://www.ampproject.org/">Google’s Accelerated Mobile Pages (AMP)</a> from <a href="http://timkadlec.com/">Tim Kadlec</a>.</p>
+<p><a rel="full-article" href="http://timkadlec.com/2015/10/amp-and-incentives/">Read on TimKadlec.com&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Shadow DOM (6 October 2015)]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/WD-shadow-dom-20151006/"/>
+				<updated>2015-10-07T11:26:22-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/WD-shadow-dom-20151006</id>
+				<content type="html"><![CDATA[<p>The latest draft of the Shadow DOM spec has been published. Check it out and give the team some feedback.</p>
+<p><a rel="full-article" href="http://www.w3.org/TR/2015/WD-shadow-dom-20151006/">Read on W3C&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Safari Web Inspector Keyboard Shortcuts]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/web-inspector-keyboard-shortcuts/"/>
+				<updated>2015-10-07T11:23:56-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/web-inspector-keyboard-shortcuts</id>
+				<content type="html"><![CDATA[<p>A good overview of how you can get more efficient in Safari’s Web Inspector panel.</p>
+<p><a rel="full-article" href="https://www.webkit.org/blog/4038/web-inspector-keyboard-shortcuts/">Read on Surfin’ Safari&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -182,69 +237,6 @@
   <p>Remember, this isn’t just about ads.  Ads are emblematic of the root problem, but they’re not the actual root problem. If ads were the sole concern of content blockers, then the blockers (mostly) wouldn’t bother to block web fonts.  It’s possible to use web fonts smartly and efficiently, but most sites don’t, so web fonts are a major culprit in slow mobile load times.  The same is true for Javascript, whether it’s served by an ad network, an analytics engine, or some other source.  So they’re both targeted by blockers—not for enabling ads, but for disabling the web.</p>
 </blockquote>
 <p><a rel="full-article" href="http://meyerweb.com/eric/thoughts/2015/09/19/content-blocking-primer/">Read on Eric Meyer&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[iOS 9, Safari and the Web]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/ios9-safari-for-web-developers/"/>
-				<updated>2015-09-17T15:55:08-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/ios9-safari-for-web-developers</id>
-				<content type="html"><![CDATA[<p>An excellent (and exhaustive) overview of what’s new in iOS 9 as it pertains to web design.</p>
-<p><a rel="full-article" href="http://www.mobilexweb.com/blog/ios9-safari-for-web-developers">Read on Breaking the Mobile Web&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[What Porn Site Statistics Can Tell Us About the Worldwide Console Wars]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/what-porn-site-statistics-can-tell-us-about-the-worldwide-console-wars/"/>
-				<updated>2015-09-17T15:31:20-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/what-porn-site-statistics-can-tell-us-about-the-worldwide-console-wars</id>
-				<content type="html"><![CDATA[<p>This was a fascinating dive into console browser stats. You did know people use console browsers, right? And yes, for more than porn.</p>
-<p><a rel="full-article" href="http://arstechnica.com/gaming/2015/09/what-porn-site-statistics-can-tell-us-about-the-worldwide-console-wars/">Read on Ars Technica&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Anachronistic Beard: A New Methodology to Make Sites Work Anywhere]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/anachronistic-beard-a-new-methodology-to-make-sites-work-anywhere/"/>
-				<updated>2015-09-17T15:24:42-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/anachronistic-beard-a-new-methodology-to-make-sites-work-anywhere</id>
-				<content type="html"><![CDATA[<blockquote>
-  <p>[A] revolutionary way of making websites so they look good in iOS 9 with external fonts turned off, work well for Opera Mini’s 250+ million users, and in Chrome, Opera, Firefox, IE, Edge, whether you’re using a computer, a phone, a tablet, a phablet (you’re not, are you?), with or without assistive technology.</p>
-</blockquote>
-
-<p>Thank you Bruce!</p>
-<p><a rel="full-article" href="http://www.brucelawson.co.uk/2015/anachronistic-beard-a-new-methodology-to-make-sites-work-anywhere/">Read on Bruce Lawson&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Strategic Planning for Web Accessibility]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/impl/"/>
-				<updated>2015-09-17T15:22:24-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/impl</id>
-				<content type="html"><![CDATA[<p>I could not have said it better myself:</p>
-
-<blockquote>
-  <p>A successful plan for web accessibility addresses many areas of your organization and projects: training, quality assurance, recruiting, purchasing, marketing, content development, visual design, and more. As with other important aspects of website development, such as performance, accessibility is best approached as an integral and ongoing activity.</p>
-</blockquote>
-<p><a rel="full-article" href="http://www.w3.org/WAI/impl/">Read on W3C Web Accessibility Initiative&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[WAI-ARIA - Screen Reader Compatibility]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/powermapper-screen-readers-aria/"/>
-				<updated>2015-09-17T15:15:06-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/powermapper-screen-readers-aria</id>
-				<content type="html"><![CDATA[<p>Screen reader compatibility is complex because it relies on a browser and a screen reader to work in tandem. As browsers can be combined with different screen readers, it makes testing a challenge. This matrix goes through a few key ARIA options and approaches, identifying which ones work and which ones don’t using a bunch of combinations. <a href="https://en.wikipedia.org/wiki/Microsoft_Narrator">Narrator</a> is sadly missing from the matrix, but this is still a useful resource that I hope continues to grow and get updated. In fact, to that end, I’d love to see it move to Github for more contributions.</p>
-<p><a rel="full-article" href="http://www.powermapper.com/tests/screen-readers/aria/index.html">Read on PowerMapper Software&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	

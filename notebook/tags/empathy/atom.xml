@@ -1,1 +1,124 @@
-[#<Jekyll::ContentFilters:0x007f9fd4fb6190 @options=nil, @caption=nil, @lang=nil, @url=nil, @title=nil>]
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Browse by Tag: Empathy | Aaron Gustafson]]></title>
+  <link href="https://www.aaron-gustafson.com/notebook/tags/empathy/atom.xml" rel="self"/>
+  <link href="https://www.aaron-gustafson.com/"/>
+  <updated>2015-10-13T11:17:43-04:00</updated>
+  <id>https://www.aaron-gustafson.com/</id>
+  <author>
+    <name><![CDATA[Aaron Gustafson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Who Should Pay 2: The Hosting]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/who-should-pay-2-the-hosting/"/>
+    <updated>2015-03-06T08:39:15-05:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/who-should-pay-2-the-hosting</id>
+    <content type="html"><![CDATA[<p>Two weeks ago, I argued that our <a href="http://aaron-gustafson.com/notebook/who-should-pay/">users should never foot the bill for developer convenience</a> and yesterday I stumbled on a post from EllisLab (the makers of ExpressionEngine) that echoes that sentiment, but from a different angle. The title might make you scratch your head: <a href="https://ellislab.com/blog/entry/save-thousands-of-dollars-by-paying-more-for-hosting">Save Thousands of Dollars by Paying More for Hosting</a>.</p>
+
+<!-- more -->
+
+<p>While it sounds counterintuitive, EllisLab’s statement makes sense. It’s all about shifting your perspective from agonizing over every hard cost on the balance sheet to thinking “big picture” about how you are spending your money overall.</p>
+
+<p>Their post makes the case that a low-cost hosting may be cheaper on the surface, but its slow performance will end up costing you more in terms of productivity loss and/or actual billable hours. The comparison they use is modest, but with a big impact: GoDaddy at $59.88/year vs. Nexcess at $8.95/month (still inexpensive, but roughly 2x the cost).</p>
+
+<blockquote>
+  <p>Normally, the ExpressionEngine control panel is fast. Zippy even. There aren’t many pages in the control panel that should have an execution time of more than a second. Most pages take a fraction of a second, no fancy caching needed. It’s common to see this in the footer: “Script executed in 0.0706 seconds.” Sure, add-ons that are bad citizens can slow down the control panel, but typically not to the degree a bad host can.</p>
+</blockquote>
+
+<blockquote>
+  <p>How about ten seconds per page? No joke, on a recent site we logged in to on GoDaddy, one of the faster pages in the Admin area took ten seconds. The Template Manager took fifteen seconds, the publish page twenty-plus. I felt terrible for the developer and client who were using this site daily. Not only were they having a terrible experience with our software, they were <em>losing money</em> and didn’t even know it.</p>
+</blockquote>
+
+<p>The post then proceeds to work through some estimations of normal workload in the CMS to determine how much money is quietly being drained from a project’s kitty because of a poor hosting decision. I won’t lie, it’s substantial.</p>
+
+<p>Now the EllisLab post is focused more on agency and project costs, but the implications of a slow host extend to our end users too.</p>
+
+<p>Sure, a slow host will delay the delivery of our content and <a href="http://www.nytimes.com/2012/03/01/technology/impatient-web-users-flee-slow-loading-sites.html?pagewanted=all&amp;_r=0">increase the likelihood they will go to a competitor</a>. That’s a given. But a slow host can also drain a mobile device’s battery (because the radio must be kept on longer), which reduces the usefulness of their device.</p>
+
+<p>Slow servers are also incredibly frustrating for users and are inconsiderate of their time. This is one of the points I was harping on in my post: we should not value our time above our customers’ time. When we put our customers’ needs above our own, we make better products and (ultimately) better decisions for our businesses.</p>
+
+<p>Long story short: Shop around for a good price on a speedy server. Your developers, content creators, and (most importantly) your customers will thank you for it.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Who Should Pay?]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/who-should-pay/"/>
+    <updated>2015-02-18T23:35:06-05:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/who-should-pay</id>
+    <content type="html"><![CDATA[<p>In more than a handful of conversations lately, it’s become quite clear that we, the web development community, are prioritizing our own convenience and our own time over that of our users. With our industry’s focus on “user-centered design”, you might find that hard to believe, but it’s true.</p>
+
+<!-- more -->
+
+<p>Here’s one example. In reaction to <a href="/notebook/css-variables-are-a-bad-idea/">my post on why I think CSS variables are a bad idea</a>, <a href="http://sass-lang.com">SASS</a> core team member <a href="https://twitter.com/chriseppstein/">Chris Eppstein</a> had this to say:</p>
+
+<p><div class='embed tweet'><blockquote class="twitter-tweet"><p><a href="https://twitter.com/AaronGustafson">@AaronGustafson</a> Authoring CSS shouldn’t be so onerous as to require the use of a preprocessor.</p>&mdash; Chris Eppstein (@chriseppstein) <a href="https://twitter.com/chriseppstein/status/567756897105620992">February 17, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div></p>
+
+<p>Fundamentally, I agree with his sentiment: A preprocessor should <em>not</em> be a requirement for authoring CSS. Thankfully, <em>it never was</em>; you can build amazing things using only hand-authored CSS. And if you find a preprocessor helpful to your process for one reason or another, great. But using a preprocessor never has been (nor should it ever be) a requirement.</p>
+
+<p>But Chris was not railing against preprocessors. Instead, he is echoing a sentiment held by many people in the preprocessor community. He feels CSS is not as powerful as it could/should be and he hopes that one day soon preprocessors won’t need to exist because CSS will have all of the features they offer natively. Like variables.</p>
+
+<p>I used to feel that way. I used to want variables… and mixins… and functions… and loops… and declaration block-level inheritance. But I’ve changed my mind.</p>
+
+<p>Don’t get me wrong, I love these constructs. I use them nearly every day in the SASS I write and I am incredibly thankful for the hard work that has gone into their creation and maintenance.  Chris alone has probably saved me several weeks worth of work over the last four years through his contributions to SASS and <a href="http://compass-style.org/">Compass</a>. I definitely owe him a beer (or three).</p>
+
+<p>Ok, so if my issue is not with the idea of programmatically generating styles, why would I not want these to be part of CSS, the <i>lingua franca</i> for design on the Web? Well, it’s pretty simple: Converting all of these constructs into something that is actionable by the browser takes time and processing power. Someone has to pay that cost and I wouldn’t feel right passing that cost on to my end users if there are better options.</p>
+
+<p>This is a topic I bring up often in my conference talks and workshops: Every decision we make affects the user experience in some way.</p>
+
+<p>When we add another JavaScript library or plugin, it’s no big deal from our perspective. We tend to have fast connections and faster processors. For our users it’s another story: It’s one more thing to request. One more thing to download. One more script to parse. One more thing holding up page rendering. One more reason to leave our site and seek out a competitor who actually values their time.</p>
+
+<p>When we hide an <code>img</code> in the small screen version of our responsive design using <code>display: none</code>, the cost to us is quite minimal. It’s just one little declaration. What’s the harm? But the cost to our end users is quite significant: Longer load times, slower performance, and (in some cases) in real dollars if they are on a <a href="http://blog.kaspersky.com/cost-aware/">metered data connection</a>. And they don’t even get to see the image they paid for!</p>
+
+<p>When we decide to build a site using a front-end JavaScript MVC framework, it can make the development process go so much faster for us and we can reduce our need for a robust back-end infrastructure. I mean everyone has JavaScript these days… <a href="/notebook/a-fundamental-disconnect/">the browser is the new VM</a>. But when we do this, our users suffer because we don’t give their browsers real HTML. Instead we force them to download a hefty framework so we can move all of the processing we would normally handle on a much faster, dedicated server to their questionably-capable machine instead. Oh, and if the browser encounters an error while parsing or executing the JavaScript execution, they don’t get anything at all. Welcome to the Modern Web™!</p>
+
+<hr />
+
+<p>When I look around, I see our community spending a lot of time coming up with new tools and techniques to make our jobs easier. To ship faster. And it’s not that I’m against efficiency, but I think we need to consider the implications of our decisions. And if one of those implications is making our users suffer—or potentially suffer—in order to make our lives easier, I think we need to consider their needs above our own.</p>
+
+<p>So yes, I would love a world where preprocessors are unnecessary, but I would much rather spend a few seconds (or even a few minutes) transcompiling my SASS into CSS in order to save my users even a few milliseconds. It’s the same reason I optimize my images, minify my JavaScript, use Gzip, and lazy load design and experience enhancements only in contexts where they provide a real benefit.</p>
+
+<p>Our users should never foot the bill for our convenience. We need to put their needs above our own.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[We Need More Empathy]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/we-need-more-empathy/"/>
+    <updated>2014-12-28T11:17:21-05:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/we-need-more-empathy</id>
+    <content type="html"><![CDATA[<p>For a while now I’ve been <a href="http://www.slideshare.net/AaronGustafson/designing-with-empathy-breaking-development-nashville-2013">beating the “empathy” drum</a> (<a href="http://www.lukew.com/ff/entry.asp?1810">notes</a>), trying to get folks in our industry to understand the importance of creating connections with the people for whom we build software, websites, etc. After all, we design and build tools to solve the needs of actual people, not some generic “user”.<!-- more --><sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></p>
+
+<p>It’s tough to connect with other people and we often fall into the trap of designing products for us and people like us. Jeffrey Zeldman characterizes the problem perfectly in <a href="http://www.zeldman.com/2014/12/28/unexamined-privilege-is-the-real-source-of-cruelty-in-facebooks-your-year-in-review/">his recent post</a>:</p>
+
+<blockquote>
+  <p>If we keep throwing only young, mostly white, mostly upper middle class people at the engine that makes our digital world go, we’ll keep getting camera and reminder and hookup apps—things that make an already privileged life even smoother—and we’ll keep producing features that sound like a good idea to everyone in the room, until they unexpectedly stab someone in the heart.</p>
+</blockquote>
+
+<p>Empathy is difficult when we are surrounded by others like us. We need to be surrounded by different people. Certainly gender and ethnic diversity is incredibly important here, but so is diversity of experience. As Jeffrey astutely points out, diversity in the room where Facebook’s “Year in Review” concept was given the green light would have—I have to hope—helped create some safeguards to keep some of their actual customers from being reminded of tragedies they experienced this year.</p>
+
+<p>In all likelihood, the worst thing they probably discussed was an embarrassing hookup being celebrated, but I’ve had several friends lose children and loved ones this year, other friends battling serious illnesses, and still others who have suffered losses of different sorts. All bore their souls on Facebook in the past year and this feature has brought it back and, in some cases, <a href="http://meyerweb.com/eric/thoughts/2014/12/24/inadvertent-algorithmic-cruelty/">celebrated these tragic events in a very uncanny and dispassionate way</a>.</p>
+
+<p>And Facebook isn’t the only company to blame for this sort of thing. Pretty much every social network suffers from similar issues. Reading the comments on the various press accounts of this story have revealed similar problems at <a href="http://arstechnica.com/business/2014/12/facebook-apologizes-for-morbid-results-with-its-year-in-review-nag/?comments=1&amp;post=28196195#comment-28196195">LinkedIn</a>, <a href="http://arstechnica.com/business/2014/12/facebook-apologizes-for-morbid-results-with-its-year-in-review-nag/?comments=1&amp;post=28196709#comment-28196709">Google+</a>, <a href="http://www.deathanddigitallegacy.com/2010/08/05/twitter-recommends-dead-friends/">Twitter</a>, and others. We can and need to do better.</p>
+
+<p>In order to address these issues, we need to flex our empathetic muscles. We need to create connections with people who are not like us. People who live in different neighborhoods. People who come from different countries. People who require alternate means to accessing our sites and services. We need to see that the world is full of differences.</p>
+
+<p>Life is full of great joy as well as great tragedy. When we acknowledge diversity of experience and actually embrace it, we become better designers.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>I don’t mind the aggregate “users”, but “user” is too clinical and distanced for my tastes. Terms like “the user” keep us from connecting with the people who actually use our software and when we are disconnected from our users, we will not do a great job of solving their problems. And solving problems is the whole point of design. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+</feed>

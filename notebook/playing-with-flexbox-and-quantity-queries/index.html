@@ -148,7 +148,7 @@
 
 
 
-		<time class="dt-published" datetime="2015-03-26T14:44:24-04:00">26 March 2015</time><b class="hidden"> by <a class="p-author h-card" href="/about">Aaron Gustafson</a></b></dd>
+		<time class="dt-published" datetime="2015-03-26T14:44:24-04:00"></time><b class="hidden"> by <a class="p-author h-card" href="/about">Aaron Gustafson</a></b></dd>
 						
 						<dt>Reading Time</dt>
 						<dd>7 minutes</dd>
@@ -159,7 +159,7 @@
 
 	<span class="post__categories">
 		
-			<a class="category p-category" rel="tag" href="/notebook/tags/css/">css</a>, <a class="category p-category" rel="tag" href="/notebook/tags/experiments/">experiments</a>, <a class="category p-category" rel="tag" href="/notebook/tags/web-design/">web design</a>
+			<a class='category' href='/notebook/tags/css/'>css</a>, <a class='category' href='/notebook/tags/experiments/'>experiments</a>, <a class='category' href='/notebook/tags/web-design/'>web design</a>
 		
 	</span>
 
@@ -220,6 +220,7 @@
 <div><script src="https://gist.github.com/597284affc88b9084cf3.js?file=first-pass.css"></script>
 <noscript><pre><code>.listing--events {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .event {
@@ -384,7 +385,7 @@
   
 }</code></pre></noscript></div>
 
-<p>In this final pass, I used a slightly more complicated calculation to set the width of each child to 1/3 of the parent minus the gutters between them (100% / 3 - 0.875rem). </p>
+<p>In this final pass, I used a slightly more complicated calculation to set the width of each child to 1/3 of the parent minus the gutters between them (100% / 3 - 0.875rem).</p>
 
 <p>If you’re paying close attention, you might wonder why the gutter being used in the calculation is 0.875rem rather than the full 1.25rem. Well, the reason is (as best I can surmise) rounding. In order to get the flex width to fill the parent without causing a wrap, 14px (0.875rem) seemed to be the magic number.</p>
 
@@ -404,7 +405,7 @@
 
 <p>And there you have it. In about 80 lines of very generously spaced and commented CSS, we’ve got a flexible grid-based Flexbox layout with visual enhancements injected via quantity queries. I’m sure I’ll continue to tinker, but I’m pretty happy with the results so far.</p>
 
-<p>You can view <a href="/speaking-engagements/">the final page of course</a> (or <a href="https://www.youtube.com/watch?v=V20wuGM2tzU">watch a video of the interaction</a>), but I also created a <a href="http://codepen.io/aarongustafson/pen/VYRZBP">distilled demo on Codepen for you to play with</a>. </p>
+<p>You can view <a href="/speaking-engagements/">the final page of course</a> (or <a href="https://www.youtube.com/watch?v=V20wuGM2tzU">watch a video of the interaction</a>), but I also created a <a href="http://codepen.io/aarongustafson/pen/VYRZBP">distilled demo on Codepen for you to play with</a>.</p>
 
 <div class="footnotes">
   <ol>

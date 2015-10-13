@@ -148,7 +148,7 @@
 
 
 
-		<time class="dt-published" datetime="2015-01-16T07:15:12-05:00">16 January 2015</time><b class="hidden"> by <a class="p-author h-card" href="/about">Aaron Gustafson</a></b></dd>
+		<time class="dt-published" datetime="2015-01-16T07:15:12-05:00"></time><b class="hidden"> by <a class="p-author h-card" href="/about">Aaron Gustafson</a></b></dd>
 						
 						<dt>Reading Time</dt>
 						<dd>4 minutes</dd>
@@ -159,7 +159,7 @@
 
 	<span class="post__categories">
 		
-			<a class="category p-category" rel="tag" href="/notebook/tags/web-design/">web design</a>, <a class="category p-category" rel="tag" href="/notebook/tags/web-standards/">web standards</a>
+			<a class='category' href='/notebook/tags/web-design/'>web design</a>, <a class='category' href='/notebook/tags/web-standards/'>web standards</a>
 		
 	</span>
 
@@ -184,7 +184,7 @@
 			
 
 			<div class="entry__content e-content">
-				<p>This week the W3C published a couple of really cool new Working Drafts I wanted to bring to your attention (just in case you missed them). </p>
+				<p>This week the W3C published a couple of really cool new Working Drafts I wanted to bring to your attention (just in case you missed them).</p>
 
 <!-- more -->
 
@@ -204,7 +204,7 @@
 
 <p>In this example, child A is set to <code>wrap-flow: both</code>, allowing content to flow on both sides of it. Child B is set to <code>wrap-flow: start</code> meaning content should only be allowed on the starting side of the element (based on text direction, in this case left to right). Child C is set to <code>wrap-flow: end</code> meaning content can only appear after it in terms of text-direction. And child D is set to <code>wrap-flow: clear</code> which, as you might expect based on your existing CSS knowledge, ensures no content appears on either side of it.</p>
 
-<p>There is <a href="http://www.w3.org/TR/2015/WD-css3-exclusions-20150115/#wrap-flow-property">another, more thorough example in the Working Draft</a> (scroll down a little bit), but it uses grid layout as well and is a little more complicated that I want to get into today. </p>
+<p>There is <a href="http://www.w3.org/TR/2015/WD-css3-exclusions-20150115/#wrap-flow-property">another, more thorough example in the Working Draft</a> (scroll down a little bit), but it uses grid layout as well and is a little more complicated that I want to get into today.</p>
 
 <p>On the flip side of the equation, there is <a href="http://www.w3.org/TR/2015/WD-css3-exclusions-20150115/#wrap-through-property">the <code>wrap-through</code> property</a> which allows other elements to control whether or not they pay attention to the <code>wrap-flow</code> property of another element. A <code>wrap-through</code> value of “wrap” adheres to what they are calling the “wrapping context” of the parent element (which basically means it behaves as you’d expect, being a child element). Setting a <code>wrap-through</code> value of “none” on the child element, however, would make it ignore the parent element’s wrapping context and allow this child’s content to flow through (hence <code>wrap-through</code>) the excluded element.</p>
 

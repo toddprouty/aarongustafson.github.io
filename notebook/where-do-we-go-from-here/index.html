@@ -148,7 +148,7 @@
 
 
 
-		<time class="dt-published" datetime="2015-06-22T11:49:56-04:00">22 June 2015</time><b class="hidden"> by <a class="p-author h-card" href="/about">Aaron Gustafson</a></b></dd>
+		<time class="dt-published" datetime="2015-06-22T11:49:56-04:00"></time><b class="hidden"> by <a class="p-author h-card" href="/about">Aaron Gustafson</a></b></dd>
 						
 						<dt>Reading Time</dt>
 						<dd>24 minutes</dd>
@@ -159,7 +159,7 @@
 
 	<span class="post__categories">
 		
-			<a class="category p-category" rel="tag" href="/notebook/tags/accessibility/">accessibility</a>, <a class="category p-category" rel="tag" href="/notebook/tags/progressive-enhancement/">progressive enhancement</a>, <a class="category p-category" rel="tag" href="/notebook/tags/responsive-web-design/">responsive web design</a>
+			<a class='category' href='/notebook/tags/accessibility/'>accessibility</a>, <a class='category' href='/notebook/tags/progressive-enhancement/'>progressive enhancement</a>, <a class='category' href='/notebook/tags/responsive-web-design/'>responsive web design</a>
 		
 	</span>
 
@@ -256,7 +256,7 @@
   <p>Be conservative in what you do, be liberal in what you accept from others.</p>
 </blockquote>
 
-<p>We need to be lax when it comes to browser support and not make to many (or better yet any) assumptions about what we can send. </p>
+<p>We need to be lax when it comes to browser support and not make to many (or better yet any) assumptions about what we can send.</p>
 
 <p>Of course this is not an approach everyone in our industry is ready to embrace, so I’ll offer another quote I come back to time and time again…</p>
 
@@ -270,7 +270,7 @@
 
 <p>It’s up to us to educate those around us who have—either by accident or intent—not accepted that diversity is the reality we live in and things are only going to get crazier. Burying our heads in the sand is not an option.</p>
 
-<p>When I am trying to help folks understand and embrace diversity, I often reach for one of my favorite thought exercises from <a href="https://en.wikipedia.org/wiki/John_Rawls">John Rawls</a>. </p>
+<p>When I am trying to help folks understand and embrace diversity, I often reach for one of my favorite thought exercises from <a href="https://en.wikipedia.org/wiki/John_Rawls">John Rawls</a>.</p>
 
 <div class="bogus-wrapper"><notextile><figure id="figure-2015-06-22-03">
 <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="" />
@@ -308,7 +308,7 @@
 
 <p>The first big leap in this direction was <a href="https://en.wikipedia.org/wiki/Kinect">Kinect</a> on the Xbox 360 (and later, Windows). With Kinect, we interact with the computer using body movements like raising a hand (which gets Kinect to pay attention), pushing our hand forward to click/tap, and grasping to drag the canvas in a particular direction.</p>
 
-<p>The Kinect ushered in a major revolution in terms of interfacing with computers, but from an interaction perspective, it presents similar challenges to those of the <a href="https://en.wikipedia.org/wiki/Wii#Wii_Remote">Wii controller</a> and Sony’s <a href="https://en.wikipedia.org/wiki/PlayStation_Move">PlayStation Move</a>. Large body gestures like raising your hand (or a wand controller) can be tiring. </p>
+<p>The Kinect ushered in a major revolution in terms of interfacing with computers, but from an interaction perspective, it presents similar challenges to those of the <a href="https://en.wikipedia.org/wiki/Wii#Wii_Remote">Wii controller</a> and Sony’s <a href="https://en.wikipedia.org/wiki/PlayStation_Move">PlayStation Move</a>. Large body gestures like raising your hand (or a wand controller) can be tiring.</p>
 
 <figure id="fig-21LtA5-wiwU" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(https://i2.ytimg.com/vi/21LtA5-wiwU/0.jpg);" href="//www.youtube.com/watch?v=21LtA5-wiwU&amp;start=7&amp;end=19" data-lazy-video-src="https://www.youtube.com/embed/21LtA5-wiwU?autoplay=1&amp;start=7&amp;end=19&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Leap Motion With Windows</div></a></div></figure>
 
@@ -326,7 +326,7 @@
   /* Larger links and buttons are probably a good idea */
 }</code></pre></noscript></div>
 
-<p>Of course, we want to offer a sensible default in terms of size and spacing as a fallback for older browsers and devices. </p>
+<p>Of course, we want to offer a sensible default in terms of size and spacing as a fallback for older browsers and devices.</p>
 
 <p>We also have the ability to determine whether the device is capable of hovering over an element and can adjust the interface accordingly.</p>
 
@@ -364,13 +364,13 @@
 <div><script src="https://gist.github.com/372271534c78cf11d4a6.js?file=pointer-event.js"></script>
 <noscript><pre><code>function detectType( event ) {
   switch( event.pointerType ) {
-    case &quot;mouse:
+    case &quot;mouse&quot;:
       /* mouse input detected */
       break;
     case &quot;pen&quot;:
       /* pen/stylus input detected */
       break;
-    case &quot;touch:
+    case &quot;touch&quot;:
       /* touch input detected */
       break;
     default:
@@ -411,7 +411,7 @@
 
 <p>In a similar vein, we should begin to think about what experiences can and should look like when we are browsing solely with our gaze. Gaze tracking has its origins in the accessibility space as a means of providing interface control to folks with limited or no use of their hands. Traditionally, gaze tracking hardware has been several thousand dollars, putting it out of the reach of many people, but that is starting to change.</p>
 
-<p>In the last few years, the computational power of our devices has increased as the hardware costs associated with supporting gaze tracking have dropped dramatically. Looking around, you can see gaze tracking beginning to move into the public sphere: Many smartphones and smartwatches can recognize when you are looking at them (or at least they do sometimes). This is only a short step away from knowing where on the screen you are looking. And nearly every high-end smartphone is now equipped with a front-facing camera which makes them perfect candidates to provide this interaction method. </p>
+<p>In the last few years, the computational power of our devices has increased as the hardware costs associated with supporting gaze tracking have dropped dramatically. Looking around, you can see gaze tracking beginning to move into the public sphere: Many smartphones and smartwatches can recognize when you are looking at them (or at least they do sometimes). This is only a short step away from knowing where on the screen you are looking. And nearly every high-end smartphone is now equipped with a front-facing camera which makes them perfect candidates to provide this interaction method.</p>
 
 <figure id="fig-DEk7PlJWQgI" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(https://i2.ytimg.com/vi/DEk7PlJWQgI/0.jpg);" href="//www.youtube.com/watch?v=DEk7PlJWQgI&amp;start=18&amp;end=54" data-lazy-video-src="https://www.youtube.com/embed/DEk7PlJWQgI?autoplay=1&amp;start=18&amp;end=54&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">The Sesame Phone</div></a></div></figure>
 
@@ -444,7 +444,7 @@
 <div><script src="https://gist.github.com/372271534c78cf11d4a6.js?file=vcd.html"></script>
 <noscript><pre><code>&lt;meta name=“msapplication-cortanavcd&quot; content=&quot;http://myapp.io/vcd.xml&quot;&gt;</code></pre></noscript></div>
 
-<p>The referenced VCD file is simply an XML file defining the keyword for the web app and commands that can be issued. </p>
+<p>The referenced VCD file is simply an XML file defining the keyword for the web app and commands that can be issued.</p>
 
 <p>Using very basic syntax, The VCD identifies optional pieces of a given phrase and variables Cortana should extract:</p>
 

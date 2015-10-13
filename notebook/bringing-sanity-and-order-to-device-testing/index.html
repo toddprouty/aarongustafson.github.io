@@ -148,7 +148,7 @@
 
 
 
-		<time class="dt-published" datetime="2015-06-05T09:56:03-04:00">05 June 2015</time><b class="hidden"> by <a class="p-author h-card" href="/about">Aaron Gustafson</a></b></dd>
+		<time class="dt-published" datetime="2015-06-05T09:56:03-04:00"></time><b class="hidden"> by <a class="p-author h-card" href="/about">Aaron Gustafson</a></b></dd>
 						
 						<dt>Reading Time</dt>
 						<dd>12 minutes</dd>
@@ -159,7 +159,7 @@
 
 	<span class="post__categories">
 		
-			<a class="category p-category" rel="tag" href="/notebook/tags/devices/">devices</a>, <a class="category p-category" rel="tag" href="/notebook/tags/mobile/">mobile</a>, <a class="category p-category" rel="tag" href="/notebook/tags/progressive-enhancement/">progressive enhancement</a>, <a class="category p-category" rel="tag" href="/notebook/tags/testing/">testing</a>, <a class="category p-category" rel="tag" href="/notebook/tags/web-design/">web design</a>
+			<a class='category' href='/notebook/tags/devices/'>devices</a>, <a class='category' href='/notebook/tags/mobile/'>mobile</a>, <a class='category' href='/notebook/tags/progressive-enhancement/'>progressive enhancement</a>, <a class='category' href='/notebook/tags/testing/'>testing</a>, <a class='category' href='/notebook/tags/web-design/'>web design</a>
 		
 	</span>
 
@@ -225,7 +225,7 @@
 
 <p>We’ll use JavaScript to give real-time feedback to our users. <a href="http://domscripting.com/presentations/xtech2006/">We’ll hijack forms and links</a> to <a href="http://www.filamentgroup.com/lab/ajax-includes-modular-content.html">lazy load additional content</a> or otherwise avoid full-page refreshes. Heck, we can even take over the entire page and <a href="http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/">convert it into a single page app</a>.</p>
 
-<p>But we should never sacrifice the functional core. </p>
+<p>But we should never sacrifice the functional core.</p>
 
 <p>This approach to designing for the web is called <a href="http://alistapart.com/article/understandingprogressiveenhancement">progressive enhancement</a> and it’s the number one tool for dealing with the one-two punch of older browsers and device proliferation.</p>
 
@@ -239,7 +239,7 @@
 
 <div><script src="https://gist.github.com/166b285a4fe3d854b97b.js?file=css-linking.html"></script>
 <noscript><pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;default.css&quot; media=&quot;all&quot;&gt;
-	&lt;link rel=&quot;stylesheet&quot; href=&quot;advanced.css&quot; media=&quot;only screen&quot;&gt;</code></pre></noscript></div>
+&lt;link rel=&quot;stylesheet&quot; href=&quot;advanced.css&quot; media=&quot;only screen&quot;&gt;</code></pre></noscript></div>
 
 <p>Any <a href="http://www.slideshare.net/bryanrieger/rethinking-the-mobile-web-by-yiibu/106">browsers that don’t understand media queries will ignore the second CSS file entirely</a> and receive only the linear, mobile view. Easy peasy, and IE8 gets the mobile layout (a baseline level of support that is not likely to cause you any testing headaches).</p>
 
@@ -249,14 +249,14 @@
 
 <div><script src="https://gist.github.com/166b285a4fe3d854b97b.js?file=feature-test.js"></script>
 <noscript><pre><code>if ( &#39;querySelector&#39; in document ) {
-	// We can use querySelector!
+  // We can use querySelector!
 }</code></pre></noscript></div>
 
 <p>You can also use <a href="http://en.wikipedia.org/wiki/Conditional_comment#Downlevel-revealed_conditional_comment">inverted conditional comments</a> to prohibit older versions of IE from getting JavaScript in the first place (which means you don’t even need to worry about debugging JavaScript there). Here’s an example that hides <code>main.js</code> from IE8 and below, but makes it available to IE9 on up and to every other non-IE browser.</p>
 
 <div><script src="https://gist.github.com/166b285a4fe3d854b97b.js?file=no-script-in-lte-ie8.html"></script>
 <noscript><pre><code>&lt;!--[if gt IE 8]&gt;&lt;!--&gt;
-	&lt;script src=&quot;main.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;main.js&quot;&gt;&lt;/script&gt;
 &lt;!--&lt;![endif]--&gt;</code></pre></noscript></div>
 
 <p>By being conservative in what we deliver to browsers we <a href="http://bradfrost.com/blog/mobile/support-vs-optimization/">ensure the greatest level of support, but can still optimize for more advanced ones</a>. This makes testing so much easier because we know older browsers will be okay with the basics and we aren’t trying to use JavaScript features unless we know they’re available.</p>

@@ -1,1 +1,244 @@
-[#<Jekyll::ContentFilters:0x007f9fd4fb6190 @options=nil, @caption=nil, @lang=nil, @url=nil, @title=nil>]
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
+  <link href="https://www.aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
+  <link href="https://www.aaron-gustafson.com/"/>
+  <updated>2015-10-13T11:17:43-04:00</updated>
+  <id>https://www.aaron-gustafson.com/</id>
+  <author>
+    <name><![CDATA[Aaron Gustafson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Moved to HTTPS]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/moved-to-https/"/>
+    <updated>2015-09-03T16:06:03-04:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/moved-to-https</id>
+    <content type="html"><![CDATA[<p>I’ve been complaining about <a href="https://www.aaron-gustafson.com/notebook/more-proof-we-dont-control-our-web-pages/">“man in the middle” attacks brought on by internet service providers</a> a bunch over the last year. The only way to keep uninvited third parties from injecting JavaScript and more—potentially screwing up your page—is to move to HTTPS. So, as much as it pains me to abandon good old fashioned HTTP, I’ve decided to lock things down a bit.</p>
+
+<!-- more -->
+
+<p>I was using <a href="https://github.com/">Github</a> to host my site as a <a href="https://pages.github.com/">Github page</a>. It worked really well given this is a static site, but you can’t run Github-hosted sites under HTTPS unless you go with their <code>*.github.io</code> domain name (they have a <a href="https://en.wikipedia.org/wiki/Wildcard_certificate">wildcard certificate</a> for that domain). There’s been <a href="https://github.com/isaacs/github/issues/156">a ton of interest in Github allowing custom cert installation, but no movement yet</a>, so… <i>onward!</i><sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></p>
+
+<p>I opted to move to <a href="https://www.digitalocean.com/?refcode=5270a681c6fe">DigitalOcean</a> since <a href="http://easy-designs.net">my consultancy</a> recently relocated all of its sites there in a mass exodus from MediaTemple. Migrating the site was as simple as <a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-automatic-deployment-with-git-with-a-vps">setting up the DigitalOcean server as a new “live” <code>remote</code> on my local git install</a> and pushing it up there. Since it’s a static site, I didn’t have to worry too much about the server config. Apache is really great at hosting static files.</p>
+
+<p>With the contents in place, I went through <a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-with-a-free-signed-ssl-certificate-on-a-vps">the rather convoluted process of getting SSL set up following the instructions from DigitalOcean</a>. I opted for the free <a href="http://www.startssl.com/">StartSSL</a> certificate to begin with (a rather convoluted process, but we got there in the end) and then flipped the DNS records to point to the new box. Given that the StartSSL certificate needs to be renewed every 30 days, I may opt for a paid certificate in the not too distant future.</p>
+
+<p>Once the DNS propagated, I had to go back and button up a few scripts that were requesting non-HTTPS content. I also had to tweak my Jekyll plugins and Rake tasks to include the legacy “http://” URLs when querying for webmentions and the like (since I didn’t want to lose those references). I also updated the Apache’s <code>VirtualHost</code> configuration for the non-secure site to make all traffic redirect:</p>
+
+<pre><code>Redirect permanent / https://www.aaron-gustafson.com/
+</code></pre>
+
+<p>All in all, it was a relatively painless migration. Admittedly, the initial re-build of the site (after updating the Rake tasks) did re-submit all of the webmentions I’d previously sent in order to provide the new address. If I referenced you a bunch in the past, I apologize for the flood of traffic, but it had to be done.</p>
+
+<p>Anyway, so now this site is running under HTTPS. If you encounter any issues, please let me know. And if you want to read a really good account of migrating a site to HTTPS, you should definitely <a href="https://adactio.com/articles/7435">read Jeremy Keith’s step-by-step guide</a>.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>It’s worth noting that <a href="https://github.com/aarongustafson/aarongustafson.github.io/tree/source">the source of the site</a> (and even <a href="https://github.com/aarongustafson/aarongustafson.github.io/tree/master">a back-up build</a>) will remain on Github for the forseeable future. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[More Proof We Don’t Control Our Web Pages]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/more-proof-we-dont-control-our-web-pages/"/>
+    <updated>2015-09-01T11:33:59-04:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/more-proof-we-dont-control-our-web-pages</id>
+    <content type="html"><![CDATA[<p>I’ve talked about this before: As web designers, <a href="http://www.aaron-gustafson.com/notebook/the-network-effect/">we can’t trust the network</a>. Sure, we have to contend with mobile data “dead zones” and dropped connections as our users move about throughout the day, but there’s a lot more to the network that’s beyond our control.</p>
+
+<!-- more -->
+
+<p>Here’s a roundup of some of my “favorite” network issue related headlines from the last few years:</p>
+
+<ul>
+  <li><a href="http://www.theguardian.com/technology/2014/jan/28/sky-broadband-blocks-jquery-web-critical-plugin">Sky Broadband misclassified the jQuery CDN as a malware site</a> and broke much of the web for their users.</li>
+  <li><a href="http://arstechnica.com/tech-policy/2014/09/why-comcasts-javascript-ad-injections-threaten-security-net-neutrality/">Comcast admitted to injecting self-promotional advertising</a> into web pages served by their Xfinity routers. (They have also been called out for <a href="https://blog.ryankearney.com/2013/01/comcast-caught-intercepting-and-altering-your-web-traffic/">artificially inflating subscriber bandwidth usage with their own crap</a>.)</li>
+  <li><a href="http://arstechnica.com/business/2015/08/united-in-flight-wi-fi-reportedly-blocks-ars-technica-and-new-york-times/">United was recently called out for blocking access to the <cite>New York Times</cite></a> on their in-flight Wi-Fi.</li>
+  <li><a href="http://webpolicy.org/2015/08/25/att-hotspots-now-with-advertising-injection/">Someone discovered AT&amp;T was injecting CSS, images, and JavaScript into pages</a> served via their airport hotspots.</li>
+  <li><a href="http://www.cnet.com/au/news/samsung-smart-tvs-forcing-ads-into-video-streaming-apps/">Samsung smart TVs were found to be injecting video ads</a> into video streaming apps.</li>
+  <li><a href="http://pleckey.me/blog/2013/09/11/sprint-mobile-broadband-injecting-3rd-party-javascript/">Sprint injects JavaScript into pages</a> served via its data connections.</li>
+  <li><a href="http://www.ecommercetimes.com/story/82117.html">Browser add-ins can inject their own advertisements</a>. They can also alter the DOM, load conflicting versions of JavaScript libraries, and more. Awesome, I know. (This is being addressed, but is a persistent issue when add-ins have the ability to manipulate the DOM.)</li>
+</ul>
+
+<p>Some of these issues can be avoided by serving content over HTTPS, but that still won’t enable you to bypass things like firewall blacklists (which led to the jQuery outage on Sky). Your best bet is to design defensively and make sure your users can still accomplish their goals on your site when some resources are missing or markup is altered.</p>
+
+<p>We can’t control what happens to us in this world, we can only control our reaction to it.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[My Trip to 18F]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/my-trip-to-18f/"/>
+    <updated>2015-08-26T15:51:14-04:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/my-trip-to-18f</id>
+    <content type="html"><![CDATA[<p>The fine folks at 18F just posted <a href="https://18f.gsa.gov/2015/08/26/aaron-gustafson-beyond-responsive-design/">a beautiful write-up of the talk on progressive enhancement that I delivered</a> as part of the <a href="https://18f.gsa.gov/tags/speaker-series/">18F Design Speaker Series</a>. I thoroughly enjoyed talking to the folks that came. They presented some interesting challenges and asked pressing questions—exactly the kind of engagement I love.</p>
+
+<!-- more -->
+
+<p>They live-streamed the event and immediately <a href="https://youtu.be/Fu1L34TLUHM">posted the video on YouTube</a>. I also <a href="http://www.slideshare.net/AaronGustafson/beyond-responsive-18f-2015">posted the deck to SlideShare</a> so you can follow along a little easier. I’ve embedded each below if you want to tuck in right away:</p>
+
+<p><figure id="fig-Fu1L34TLUHM" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(https://i2.ytimg.com/vi/Fu1L34TLUHM/0.jpg);" href="//www.youtube.com/watch?v=Fu1L34TLUHM" data-lazy-video-src="https://www.youtube.com/embed/Fu1L34TLUHM?autoplay=1&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">18F Design Presents: Aaron Gustafson</div></a></div></figure></p>
+
+<figure class="video-embed video-embed--16x9" id="figure-2015-08-26-01"><iframe class="video-embed__video" src="//www.slideshare.net/slideshow/embed_code/key/7jsUtSzGEqFyKj" frameborder="0"></iframe></figure>
+
+<p>For a little more coverage, you can also check out <a href="http://www.digitalgov.gov/2015/08/25/trends-on-tuesday-web-standards-advocate-advises-adaptive-web-design-for-government-sites/">Will Sullivan’s takeaways from the talk</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Web Design 101: 100% Tappable]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/web-design-101-100-percent-tappable/"/>
+    <updated>2015-08-17T14:46:35-04:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/web-design-101-100-percent-tappable</id>
+    <content type="html"><![CDATA[<p>I see this one all the time: something that looks like a button, but only a portion of it is tappable. <!-- more -->Consider this example from a recent email I received (emails are notorious for this crap):</p>
+
+<figure id="fig-2015-08-17-01" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/01.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/01.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>A call to action from a recent email with the tiny tappable area highlighted within the much larger "button".</figcaption></figure>
+
+<p>This screenshot shows a very large call to action, which is good. Unfortunately, as the screenshot illustrates, the majority of the “button” is a table cell and the tappable link is just the text inside it.</p>
+
+<p>The markup itself isn’t horrible; here’s a distillation of that row in the design:</p>
+
+<p><div><script src='https://gist.github.com/711cbd1054e8ee868a93.js?file=example.html'></script>
+<noscript><pre><code>&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;a href=&quot;…&quot;&gt;Shop Biotek Marine&lt;/a&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</code></pre></noscript></div>
+</p>
+
+<p>The problem is that the 15px padding and overall button styles were put on the table cell rather than the link itself. Setting the link to have a <code>display</code> of “block” or “inline-block” would allow it to be given vertical padding (which is probably the issue the designer was struggling with here). Then the remainder of the styles could be migrated without adjusting the design at all.</p>
+
+<figure id="fig-2015-08-17-02" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/02.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/02.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>The same email with the padding shifted to the link, making more of the "button" tappable.</figcaption></figure>
+
+<p>When you design something that looks interactive, <em>always make sure the whole thing is actually tappable</em>. It will go along way toward reducing user frustration.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ramblings on New Browser Features, Interoperability, Craft, and the Future of the Web]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/ramblings-on-new-browser-features-interoperability-craft-and-the-future-of-the-web/"/>
+    <updated>2015-08-07T10:14:23-04:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/ramblings-on-new-browser-features-interoperability-craft-and-the-future-of-the-web</id>
+    <content type="html"><![CDATA[<p>Last week <a href="http://www.quirksmode.org/about/">Peter-Paul Koch (PPK)</a> posted <a href="http://www.quirksmode.org/blog/archives/2015/07/stop_pushing_th.html">a lengthy treatise on why browsers should stop “pushing the web forward”</a>. I thoroughly enjoyed the read and agree with him on a number of points. I also agreed with the well-articulated responses from <a href="https://jakearchibald.com/2015/if-we-stand-still-we-go-backwards/">Jake Archibald (of Google)</a> and <a href="https://dev.opera.com/blog/on-a-moratorium-on-new-browser-features/">Bruce Lawson (of Opera)</a>. I guess I’m saying I see both sides. Like <a href="http://chriscoyier.net/">Chris Coyier</a>, I live in <a href="https://css-tricks.com/the-gray-gray-ghost-that-i-call-home/">a world filled with varying shades of grey</a> rather than stark black &amp; white.</p>
+
+<!-- more -->
+
+<h2 id="new-features-vs-interoperability">New Features vs. Interoperability</h2>
+
+<p>One of the arguments PPK makes is against browsers competing on features. It really rang true to me:</p>
+
+<blockquote>
+
+I call for a moratorium on new browser features of about a year. Let’s postpone all completely new features that as of right now don’t yet work in any browser.
+
+Browsers are encouraged to add features that are already supported by other browsers, and to write bug fixes. In fact, finding time for these unglorious but necessary jobs would be an important advantage of the moratorium. As an added bonus it would decrease the amount of tools web developers need.
+
+</blockquote>
+
+<p><a href="/notebook/competing-on-chrome/">Back in January</a>, I wrote about how I was excited by Microsoft’s announcement of “Project Spartan” (now “Microsoft Edge”) and it’s focus on interoperability. Interoperability’s a long word, so I’m gonna go with “interop” from here on out.</p>
+
+<p>I was not on the Microsoft payroll at the time, but I was still stoked to see their focus on interop in the new rendering engine. They’d even gone, in my humble opinion, above and beyond in this regard—aliasing Webkit’s experimental, legacy CSS syntaxes to their modern, standards-based implementations. This ensured poorly coded sites worked well in their browser and didn’t penalize users for a designer’s mistake. Talk about being a good web citizen!</p>
+
+<p>Of course, Microsoft Edge wasn’t the first browser to do this. <a href="http://snook.ca/archives/html_and_css/vendor-prefixes-competing">IE 7 Mobile implemented <code>-webkit-text-size-adjust</code> back in 2010</a>. <a href="https://dev.opera.com/articles/opera-mobile-emulator-webkit-prefix-support/">Opera</a> and <a href="https://wiki.mozilla.org/Platform/Layout/CSS_Compatibility#questions_and_methodology">Mozilla</a> also <a href="https://lists.w3.org/Archives/Public/www-style/2012Feb/0313.html">felt the pressure</a> and eventually implemented <code>-webkit-</code> vendors prefixes in versions of their browsers. It’s a weird world when one browser vendor is forced to implement another’s proprietary syntax just to make the web work, but it’s the sad state of things in our <a href="http://christianheilmann.com/2015/07/17/the-full-stackoverflow-developer/">full StackOverflow development</a> world.</p>
+
+<p>With the move away from vendor prefixes in CSS to <a href="http://www.howtogeek.com/139736/how-to-change-hidden-advanced-settings-in-any-browser/">“feature flags”</a>, you’d think this sort of thing would be behind us, but it’s not. <a href="http://www.otsukare.info/">Karl Dubost</a>, of Mozilla, recently <a href="http://www.otsukare.info/2015/07/29/vendor-prefixes-market">bemoaned the implications of Apple’s latest vendor prefix silliness</a> on his blog. In that post, he made a keen observation:</p>
+
+<blockquote>
+  <p>We have reached the point where browser vendors have to start implementing or aliasing these WebKit prefixes just to allow their users to browse the Web, see <a href="https://wiki.mozilla.org/Compatibility/Mobile/Non_Standard_Compatibility">Mozilla</a> in Gecko and <a href="https://twitter.com/jacobrossi/status/614544147941355520">Microsoft</a> in Edge. The same thing is happening over again. In the past, browser vendors had to implement the quirks of IE to be compatible with the Web. As much as I hate it, we will have to specify the current <code>-webkit-</code> prefixes to implement them uniformly.</p>
+</blockquote>
+
+<p>I completely understand PPK’s desire for browsers to apply the brakes a bit and focus on interop. With new features being added to “the web”—but in reality only browser X, Y, or Z—on the regular, without guaranteed interop, it feels like we’re stirring up the browser wars again. All the new shiny is exciting, but I lived through the browser wars the first time and they sucked for everyone involved. <span data-quotable="">Web standards helped us get everyone on the same page and brokered what we’d hoped was going to be a lasting peace.</span></p>
+
+<p>Now I’m not sure I agree with applying the brakes for a specific amount of time, but I do see great value in prioritizing interop over new features. And when browsers do implement new features, they should definitely put them behind feature flags (or some similar opt-in) to ensure we—the web development community—don’t start relying on some fancy new feature before it’s been vetted. Feature flags are awesome because they allow me, a designer, to experiment with a new technology <em>in my own browser</em> without affecting things for everyone else on the open web.</p>
+
+<p><a href="http://alistapart.com/article/prefix-or-posthack">We used to think vendor prefixes were enough of a deterrent</a> to using a particular experimental CSS property or JavaScript method. Sadly that’s turned out to not be the case. I would bet good money on the sad reality that 80% of the working web designers out there don’t understand that <code>-*-</code> means “experimental” or even “proprietary”. We—the web design authors, speakers, educators, and other influencers—did a shitty job landing that message with the industry as a whole. But even if we’d hounded people about it, it probably wouldn’t have mattered: Vendor-prefixed properties work. And now they work even in browsers they were never meant to.</p>
+
+<p>So, here’s what I’d love to see browser vendors do:</p>
+
+<ol>
+  <li>Prioritize interop over new features. Don’t halt development on new features, just put them on the back burner so the rising tide can, as they say, lift <em>all</em> the ships. Web developers and end users all benefit when there’s feature parity and stability among browsers.</li>
+  <li>Put a ban on vendor-prefixes. They are not generally understood to be experimental. If you feel you must use a vendor prefix, ensure it’s only enabled by a corresponding feature flag.</li>
+  <li>Use feature flags (or some similar opt-in) to enable developers to test experimental features in their own browsers, but also to ensure they aren’t available on the “open web” before they’re ready.</li>
+</ol>
+
+<h2 id="the-web-vs-native">The Web vs. Native</h2>
+
+<p>PPK has harped on this a few times. There is currently a palpable tension between “native” and “the web”. It’s driving most of the new features in the web “platform”<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> and it’s giving many of us old-timers a touch of angina.</p>
+
+<p>The reason is simple: The web was created as a massively interconnected document repository. A wealth of knowledge dependent on the hyperlink and the URL. The web was (and indeed still is) stateless by default, meaning it has no idea who you are or what you’ve done from request to request. This is very egalitarian: everyone has access and anyone can contribute.</p>
+
+<p>As more businesses moved online, the web became necessarily transactional. Suddenly websites needed to know information about your “state” so they could sell you things and track your movements around their site and the rest of the web. With the advent of cookies and the Common Gateway Interface (CGI), a web server could adjust the content it sent in response to a request, based on what it knew about you and what you were doing.</p>
+
+<p>Taking this simple capacity a step further, it became possible to write actual software on the web. Content management systems were probably the first big chunk of software to move online, but more soon followed. JavaScript came along and allowed us to add a bit of logic to the client side, reducing our reliance on round-trips to the server. Then we got Ajax and the whole JavaScript world exploded. We now have web-based photo editors, integrated development environments (IDEs), games, and more, all reliant on JavaScript’s ability to interact with the browser and manipulate what the user sees in real-time.</p>
+
+<p>There were earlier machinations certainly, but the last ten years have seen the biggest push to bring more traditional software-like interactions to the web. Dozens of organizations, big and small, are trying to make their mark creating <em>the</em> framework for building these “next-generation” web-based app experiences. Honestly, I don’t have a problem with that. I don’t really have an interest in client-side frameworks, but I don’t have a problem with them either… provided developers who wish to bring their programming talents to the web take a little time to learn about the medium.</p>
+
+<p><span data-quotable="">If you don’t take the time to understand how the web works, you’ll spend half your time cursing it and the other half trying to work around the things that frustrate you (which you will probably write off as “poorly designed” or “ill-conceived”).</span> If you don’t understand how the web works, you’ll build fragile experiences that collapse like a house of cards when any one of your many dependencies—the network, JavaScript, some particular element or browser API—isn’t available. If you don’t understand how the web works, what you build will simply be <a href="https://adactio.com/journal/8245">on the web, not of it</a>.</p>
+
+<p>I don’t particularly care much about bringing “native like” “60fps” experiences to the web. It’s not that I don’t write software (I do), I just don’t really care if something I make for the web feels like a piece of installed software. I’ll do everything in my power to ensure my users have a great experience, but I know that each person’s experience will be a little bit different and I no longer feel the need to enforce my will on their experience. I’d rather create many ways for someone to interact with the things I build and hope one or more of those work well for whoever happens by and whatever device they happen to be using.</p>
+
+<p>Native software and the web have always co-existed. We had installed software on computers long before the web even existed and we will continue to have installed software for as long as there are computers. Some software will move to the web if it makes sense for it to do so. Other software will remain native. Either option could be right or wrong depending on what you are trying to do. For instance, I would never personally write a photo editor in the browser because image processing requires a lot of memory and CPU cycles. Putting it in a browser moves it one more level away from the hardware. Abstraction eases development, but it invariably increases overhead and reduces performance.</p>
+
+<p>Traditional software and the web can and should co-exist. They also can and should continue to inform one another. Ultimately, that will help us better serve the needs of our users, however they use our creations.</p>
+
+<h2 id="change-vs-stagnation">Change vs. Stagnation</h2>
+
+<p>Underpinning this whole “native vs. web” thing is, I think, a feeling many of us old-timers have that our web—the web we grew up building—is slipping away from us. We cling to the idea of the web as an open platform<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup> for people to share their thoughts, passions, and cat photos. We like the web as it was originally. We like the web as we made it.</p>
+
+<p>The web is changing. In some ways it’s changing for the better, in some ways for the worse. It’s a far different beast today than <a href="http://info.cern.ch/hypertext/WWW/TheProject.html">when Tim Berners-Lee typed that first <code>&lt;HEADER&gt;</code></a> and you can certainly do a lot more in the browser now than you could when I first picked up HTML. But I don’t think halting progress on the web is desirable.</p>
+
+<p>As Jake points out in his response, stagnation is not a good policy. Stagnation pretty much killed BlackBerry. It also led to a lot of developer frustration in the guise of IE 6.</p>
+
+<p>Change is not inherently bad. It’s pace can be quite frustrating at times, though. PPK certainly seems to be feeling that way about its speed now just as <a href="https://infrequently.org/2007/09/slides-from-my-standards-heresy-talk/">Alex Russell lamented its plodding progress back in 2007</a>. But when you take a step back, especially with a historical perspective, you see the changes are cyclical in many ways. The bandwidth issues we dealt with during the dial-up era are with us again in the form of mobile networks. The lessons we learned building a web for 640x480 screens are equally applicable in a world of wearables. And the text-based interactions we created in the very early days will serve as a template as we move boldly forward into the realm of voice-driven user experiences.</p>
+
+<h2 id="cutting-edge-vs-craft">Cutting Edge vs. Craft</h2>
+
+<p>In his post, PPK also complained that we’re simply getting too many new features on the web, which makes it hard to keep up. More than that, however, it makes it hard to truly come to a deeper understanding of how these different pieces work. To really hone our craft. In other words, it’s becoming harder to be an expert generalist.</p>
+
+<p>Jake and Bruce completely get this, as do I. <a href="http://lanyrd.com/2015/web-design-day/sdpbgz/">Lyza Danger Gardener has even given an amazing talk on the topic</a>. The sheer volume of new drafts, specs, and concepts (not to mention tooling options) is overwhelming. I’m sure I don’t know half of the features that are in the HTML5 spec, let alone the umpteen CSS3 modules. I probably never will. And I’m ok with that. I’ll pick and choose the bits I’m interested in playing around with and find ways to integrate them into my practice a little at a time. That’s how we learn. That’s how we’ve always learned.</p>
+
+<p>To assuage PPK’s fears, however, I would argue that there are a lot more of us working on the web now than there were in the more leisurely paced days he remembers so fondly. And we’re sharing what we learn. Whether driven by altruistic desire to spread knowledge or an interest in rockstar-like fame in the industry (or even a smidge of both), it doesn’t really matter how it happens—the fact is that it does. We learn and we share. And the tools we have today make it even easier to do so. Not only do we have the usual magazine and blogging outlets, but we also have CodePen and JS Bin and Github and more.</p>
+
+<p>We each have the capacity to research the hell out of one specific area of web design and be the conduit for that knowledge into the web design hive mind. Look at <a href="https://www.google.com/search?q=sara+soueidan+svg">Sara Soueidan with SVG</a> or <a href="https://www.google.com/search?q=rachel+nabors+css+animation">Rachel Nabors with CSS Animation</a> or <a href="https://www.google.com/search?q=Zoe+Mickley+Gillenwater+flexbox">Zoe Mickley Gillenwater with flexbox</a>. <span data-quotable="">Individually, we will never be able to learn it all, but collectively we can.</span> Together, we can tackle any problem by accessing what we need to know when we need to know it.</p>
+
+<h2 id="developer-convenience-vs-user-needs">Developer Convenience vs. User Needs</h2>
+
+<p>Another angle in this very dense piece from PPK was around tooling and polyfills:</p>
+
+<blockquote>
+  <p>We get ever more features that become ever more complex and need ever more polyfills and other tools to function—<a href="http://www.quirksmode.org/blog/archives/2015/05/tools_dont_solv.html">tools that are part of the problem</a>, and not of the solution.</p>
+</blockquote>
+
+<p>The whole “polyfill it and move on” movement has him a little annoyed. I share his sentiment. I don’t think a JavaScript-based solution should be considered “good enough” for interop. <a href="http://kryogenix.org/code/browser/everyonehasjs.html">JavaScript is not guaranteed.</a> Moreover, JavaScript implementations are also never going to be as fast as a browser implementation. If browsers want to pick up a polyfill and implement it behind the scenes, that’s fine because it will run faster, but loading up our websites with potentially megabytes worth of polyfills in order to use new “standards” seems ludicrous.</p>
+
+<p>As an industry, we are doing an awful lot of navel gazing. <span data-quotable="">We are spending more time solving our own development problems (legitimate in some cases, fabricated in others) by throwing more and more code at the problem.</span> As a consequence, our users are paying the price in <a href="http://www.theverge.com/2015/7/20/9002721/the-mobile-web-sucks">slower sites</a>, <a href="http://www.soasta.com/blog/page-bloat-average-web-page-2-mb/">heavier web pages</a>, <a href="http://www.yottaa.com/bid/277715/Why-Your-Website-Is-Slow-Poor-JavaScript-Performance">poor performance</a>, and <a href="http://farukat.es/journal/2015/02/708-how-flipboard-chose-form-over-function-their-web-version">bad experiences</a> (or <a href="http://sighjavascript.tumblr.com/">no experience</a>). And, on top of that, we’re solving <em>our</em> problems not <em>their</em> problems.</p>
+
+<h2 id="all-is-not-lost">All is not lost</h2>
+
+<p>We are designers. Design is about solving problems for our users, not creating new ones for them. Whether we are writing code, sketching interfaces, authoring copy, curating content, or building servers, we should make each and every decision based on what will benefit our users. If it means we can’t use some shiny new technology, so be it. We can still play with the new stuff in our own browser, on our personal sites, and on CodePen. We can learn about them in our own experimentation and share that knowledge with the rest of our industry. We can improve our craft. The web can get better.</p>
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>I think I just threw up in my mouth a little. I hate using that word when speaking about the web, but there it is. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>In the other sense of the word. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+</feed>

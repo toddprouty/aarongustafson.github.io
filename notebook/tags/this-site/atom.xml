@@ -1,1 +1,133 @@
-[#<Jekyll::ContentFilters:0x007f9fd4fb6190 @options=nil, @caption=nil, @lang=nil, @url=nil, @title=nil>]
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Browse by Tag: This Site | Aaron Gustafson]]></title>
+  <link href="https://www.aaron-gustafson.com/notebook/tags/this-site/atom.xml" rel="self"/>
+  <link href="https://www.aaron-gustafson.com/"/>
+  <updated>2015-10-13T11:17:43-04:00</updated>
+  <id>https://www.aaron-gustafson.com/</id>
+  <author>
+    <name><![CDATA[Aaron Gustafson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Moved to HTTPS]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/moved-to-https/"/>
+    <updated>2015-09-03T16:06:03-04:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/moved-to-https</id>
+    <content type="html"><![CDATA[<p>I’ve been complaining about <a href="https://www.aaron-gustafson.com/notebook/more-proof-we-dont-control-our-web-pages/">“man in the middle” attacks brought on by internet service providers</a> a bunch over the last year. The only way to keep uninvited third parties from injecting JavaScript and more—potentially screwing up your page—is to move to HTTPS. So, as much as it pains me to abandon good old fashioned HTTP, I’ve decided to lock things down a bit.</p>
+
+<!-- more -->
+
+<p>I was using <a href="https://github.com/">Github</a> to host my site as a <a href="https://pages.github.com/">Github page</a>. It worked really well given this is a static site, but you can’t run Github-hosted sites under HTTPS unless you go with their <code>*.github.io</code> domain name (they have a <a href="https://en.wikipedia.org/wiki/Wildcard_certificate">wildcard certificate</a> for that domain). There’s been <a href="https://github.com/isaacs/github/issues/156">a ton of interest in Github allowing custom cert installation, but no movement yet</a>, so… <i>onward!</i><sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></p>
+
+<p>I opted to move to <a href="https://www.digitalocean.com/?refcode=5270a681c6fe">DigitalOcean</a> since <a href="http://easy-designs.net">my consultancy</a> recently relocated all of its sites there in a mass exodus from MediaTemple. Migrating the site was as simple as <a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-automatic-deployment-with-git-with-a-vps">setting up the DigitalOcean server as a new “live” <code>remote</code> on my local git install</a> and pushing it up there. Since it’s a static site, I didn’t have to worry too much about the server config. Apache is really great at hosting static files.</p>
+
+<p>With the contents in place, I went through <a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-with-a-free-signed-ssl-certificate-on-a-vps">the rather convoluted process of getting SSL set up following the instructions from DigitalOcean</a>. I opted for the free <a href="http://www.startssl.com/">StartSSL</a> certificate to begin with (a rather convoluted process, but we got there in the end) and then flipped the DNS records to point to the new box. Given that the StartSSL certificate needs to be renewed every 30 days, I may opt for a paid certificate in the not too distant future.</p>
+
+<p>Once the DNS propagated, I had to go back and button up a few scripts that were requesting non-HTTPS content. I also had to tweak my Jekyll plugins and Rake tasks to include the legacy “http://” URLs when querying for webmentions and the like (since I didn’t want to lose those references). I also updated the Apache’s <code>VirtualHost</code> configuration for the non-secure site to make all traffic redirect:</p>
+
+<pre><code>Redirect permanent / https://www.aaron-gustafson.com/
+</code></pre>
+
+<p>All in all, it was a relatively painless migration. Admittedly, the initial re-build of the site (after updating the Rake tasks) did re-submit all of the webmentions I’d previously sent in order to provide the new address. If I referenced you a bunch in the past, I apologize for the flood of traffic, but it had to be done.</p>
+
+<p>Anyway, so now this site is running under HTTPS. If you encounter any issues, please let me know. And if you want to read a really good account of migrating a site to HTTPS, you should definitely <a href="https://adactio.com/articles/7435">read Jeremy Keith’s step-by-step guide</a>.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>It’s worth noting that <a href="https://github.com/aarongustafson/aarongustafson.github.io/tree/source">the source of the site</a> (and even <a href="https://github.com/aarongustafson/aarongustafson.github.io/tree/master">a back-up build</a>) will remain on Github for the forseeable future. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Linkblog]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/the-linkblog/"/>
+    <updated>2015-01-14T09:34:34-05:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/the-linkblog</id>
+    <content type="html"><![CDATA[<p>Since re-starting my blog I’ve been continuing to tinker with Octopress and Jekyll in an effort to customize things a bit more to my liking.</p>
+
+<p>I recently began posting links (with commentary) in a bit of a link blog, but I wasn’t really happy with having it mixed in with the rest of my Notebook posts. I finally took a few minutes to formally bust out the links into <a href="/notebook/links/">their own paginated section</a>, so you can keep up with them independently. I also set up a three distinct Atom feeds to let you consume this site’s content how you want to: <a href="/atom.xml">Latest 20 posts and links</a>, <a href="/atom-latest-posts.xml">latest 20 posts</a>, and <a href="/atom-latest-links.xml">Latest 20 links</a>.</p>
+
+<p>I’m hopeful this organization will prove as helpful to you as it is for my compartmentalization anxiety.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Indecisiveness and URLs]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/indecisiveness-and-urls/"/>
+    <updated>2014-12-16T10:23:15-05:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/indecisiveness-and-urls</id>
+    <content type="html"><![CDATA[<p>If you know me, you know I am a pretty indecisive guy. It is not uncommon for <a href="https://twitter.com/shirleytemper">Kelly</a> and I to spend 15 minutes or more just trying to figure out where we want to grab a meal.</p>
+
+<!-- more -->
+
+<p>What I’m trying to say (or rather excuse) is that I have been struggling with some of my initial decisions with respect to URLs on this site and finally decided to make some changes before too many links to its content get out there. I was a bit reluctant to do so as we all know <a href="http://www.w3.org/Provider/Style/URI.html">what Sir Tim Berners-Lee says</a></p>
+
+<blockquote>
+  <p>Cool URIs don’t change.</p>
+</blockquote>
+
+<p>Well, consider me uncool as I decided to change some things around here:</p>
+
+<ol>
+  <li>I dropped the year indicator from blog post URLs. I realized that the likelihood of me having two posts with the same name was pretty much nil, so it was unnecessary to disambiguate like that. Plus it would save me from having to create the annual archives I would feel compelled to make in order to justify the “2014” directory in the URL.</li>
+  <li>I consolidated my book and article pages to <a href="/publications">a single page or publications</a>. I thought it might be nice to maintain them separately, but in retrospect that seems unnecessarily complicated.</li>
+  <li>I changed the URL to my speaking engagements from “events” to “speaking-engagements” as it just made more sense.</li>
+</ol>
+
+<p>On the off chance you ever consider changing URLs on a Jekyll or Octopress site, I thought I’d share my process.</p>
+
+<h2 id="redirecting-old-links">Redirecting Old Links</h2>
+
+<p>I was quite concerned concerned about old links being broken in this site. It’s just not a good thing to do.</p>
+
+<p>In a traditional hosting scenario, I could use <code>.htaccess</code> to set up <a href="https://en.wikipedia.org/wiki/HTTP_302">302 redirects</a>, but I am hosting on Github so that isn’t an option. On top of that, this site is built using Octopress (and Jekyll), so there is no dynamic system in place to programmatically manage those redirects.</p>
+
+<p>Thankfully, there is <a href="https://github.com/jekyll/jekyll-redirect-from">a plugin for Jekyll to manage redirects</a>. With it, you can redirect from an an existing page in the YAML front matter using the <code>redirect_to</code> key or you can use the <code>redirect_from</code> key in the YAML front matter on the destination page. I ended up using the former for old pages (articles, books, and events), and the latter for blog posts.</p>
+
+<p>The plugin covers all the bases. It generates pages at the old URLs that redirect using the good old <code>meta</code> refresh, a JavaScript redirect, and a fallback link just in case neither of those work. Oh, and it sets the new URL as the <a href="https://support.google.com/webmasters/answer/139066?hl=en">canonical reference</a> to boot.</p>
+
+<p>Done and done.</p>
+
+<h2 id="keeping-webmentions">Keeping Webmentions</h2>
+
+<p>As I mentioned a few weeks back, I wrote <a href="/notebook/enabling-webmentions-in-jekyll/">a Jekyll plugin to enable webmentions</a>. As web mentions are tied to the “mentioned” URL, changing a post’s URL was going to cause me to lose any previous webmentions. I didn’t like that idea, so <a href="https://github.com/aaronpk/webmention.io/issues/31">I talked to Aaron about adding multiple URL support to the webmention.io API</a> and he agreed it was a good idea.</p>
+
+<p>The feature landed late last week and I adjusted <a href="https://github.com/aarongustafson/jekyll-webmention_io">my Jekyll Webmention.io plugin</a> to allow you to supply multiple URLs. While I was at it, I did some other upgrades: I added caching, downloading of webmention titles if the API didn’t supply one, and a test for the existence of avatars before inserting them (so you don’t end up with missing images).</p>
+
+<p>If you were using the plugin, I definitely recommend upgrading as it performs a lot better now. I also added <a href="https://github.com/aarongustafson/jekyll-webmention_io/blob/master/webmention.Rakefile">a Rake task for sending webmentions</a> which is super handy.</p>
+
+<h2 id="pardon-my-dust">Pardon My Dust</h2>
+
+<p>I apologize for changing URLs on you, but I am hopeful this will be the last major change on the site. As it (currently) says at the top, <a href="/notebook/a-grand-experiment/">this is an open redesign</a>, so there are bound to be a few bumps here and there. That said, I will try to keep them to a minimum in the future.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A Grand Experiment]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/a-grand-experiment/"/>
+    <updated>2014-07-07T20:46:48-04:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/a-grand-experiment</id>
+    <content type="html"><![CDATA[<p>So, a mere three years after my old “life blog” stopped working, I decided to scrap it and start fresh.</p>
+
+<!-- more -->
+
+<p>In my quest to learn something new (more on that in a forthcoming post), I decided to give <a href="http://octopress.org">Octopress</a> a whirl. We’ll see how it goes, but the content entry has gone well so far and the Octopress community has been pretty responsive to my requests. I just need to get used to the workflow.</p>
+
+<p>In the spirit of openness, I’ve decided to host the new site on <a href="http://github.com">Github</a> as a <a href="https://pages.github.com/">Github Page</a>. This frees me up from worrying about hosting fees of course, but it also means this site can serve as an educational tool for those inclined to dig in to the work I do and want some introspection into the way I do it. You can <a href="https://github.com/aarongustafson/aarongustafson.github.io/">view (and fork) the whole darn thing</a> at your leisure.</p>
+
+<p>Finally, I’m designing and building this site in the open and, for posterity, taking screen shot of the progress. The screenshots will go up in time as an animated GIF, but those of you who wish will be able to follow along at home or work, seeing how I typically piece together a site, layer by layer, using <a href="http://adaptivewebdesign.info">progressive enhancement</a>. So far it’s just the content, but that’s what I preach: content first.</p>
+
+<p>Now it’s time to get back to it. Feel free to reach out if you have any questions.</p>
+]]></content>
+  </entry>
+  
+</feed>

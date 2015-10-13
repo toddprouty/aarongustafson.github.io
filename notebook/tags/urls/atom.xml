@@ -1,1 +1,32 @@
-[#<Jekyll::ContentFilters:0x007f9fd4fb6190 @options=nil, @caption=nil, @lang=nil, @url=nil, @title=nil>]
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Browse by Tag: Urls | Aaron Gustafson]]></title>
+  <link href="https://www.aaron-gustafson.com/notebook/tags/urls/atom.xml" rel="self"/>
+  <link href="https://www.aaron-gustafson.com/"/>
+  <updated>2015-10-13T11:17:43-04:00</updated>
+  <id>https://www.aaron-gustafson.com/</id>
+  <author>
+    <name><![CDATA[Aaron Gustafson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[URL Inception]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/url-inception/"/>
+    <updated>2015-05-18T14:38:29-04:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/url-inception</id>
+    <content type="html"><![CDATA[<p>It’s like a snake eating its own tail:</p>
+
+<pre><code>https://m.facebook.com/ClydesOnMain?refsrc=https%3A%2F%2Fwww.facebook.com%2FClydesOnMain#!/ClydesOnMain?refsrc=https%3A%2F%2Fwww.facebook.com%2FClydesOnMain
+</code></pre>
+
+<p>Wonder what’s going on? Well, Facebook’s mobile site (<code>m.facebook.com/ClydesOnMain</code>) is tracking the URL (using the <code>refsrc</code> GET parameter) I came from (<code>www.facebook.com/ClydesOnMain#!/ClydesOnMain</code>)—a single page “web app”, hence the hash-bang: <code>#!</code>—that was tracking the original referral page (<code>www.facebook.com/ClydesOnMain</code>).</p>
+
+<p>I hope they got all that.</p>
+]]></content>
+  </entry>
+  
+</feed>
