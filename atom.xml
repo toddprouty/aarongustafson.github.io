@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="https://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-10-13T15:42:23-04:00</updated>
+	<updated>2015-10-16T17:12:59-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Notes on Use of Multiple ARIA Role Attribute Values]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/notes-on-use-of-multiple-aria-role-attribute-values/"/>
+				<updated>2015-10-16T17:07:04-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/notes-on-use-of-multiple-aria-role-attribute-values</id>
+				<content type="html"><![CDATA[<p>Did you know the ARIA <code>role</code> attribute allows for multiple values? It’s how <code>role</code> supports fault tolerance: the first value (of the space separated list) is applied, but if the assistive technology in use doesn’t understand it, the second value will be tried, etc. until a usable alternative is found. It works a lot like font stacks.</p>
+<p><a rel="full-article" href="https://www.paciellogroup.com/blog/2015/10/notes-on-use-of-multiple-aria-role-attribute-values/">Read on The Paciello Group&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -244,17 +255,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/designstandards</id>
 				<content type="html"><![CDATA[<p>I’m so excited to see this resource making it out into the public. Congrats to the U.S. Digital Service and 18F folks for their awesome work <em>and</em> for their focus on accessibility!</p>
 <p><a rel="full-article" href="https://playbook.cio.gov/designstandards/">Read on U.S. Web Design Standards&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[CSS Round Display Level 1]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/WD-css-round-display-1-20150922/"/>
-				<updated>2015-09-22T18:41:05-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/WD-css-round-display-1-20150922</id>
-				<content type="html"><![CDATA[<p>An interesting proposal from LG regarding design tools for addressing non-rectangular screens.</p>
-<p><a rel="full-article" href="http://www.w3.org/TR/2015/WD-css-round-display-1-20150922/">Read on W3C&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
