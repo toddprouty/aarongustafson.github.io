@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="https://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-10-16T17:12:59-04:00</updated>
+	<updated>2015-10-19T11:37:26-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,33 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Strapless]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/strapless/"/>
+				<updated>2015-10-16T17:13:37-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/strapless</id>
+				<content type="html"><![CDATA[<p>On Friday, <a href="https://twitter.com/ShirleyTemper">Kelly</a> and I were having a conversation over lunch about the ubiquity of Bootstrap. It’s a topic we’ve been kvetching about for the the last few years—we’ve grown tired of seeing the same site everywhere we look.</p>
+
+<p>It’s not that we have any issues with Bootstrap specifically. It’s a solid framework for rapidly prototyping an idea before deciding if it’s got legs. It’s also a great tool to learn from when considering your own pattern library. That said, we don’t think it should be used in the way it so often is: as the entirety of your front end design with only a teensiest amount of theming applied.</p>
+
+<p>The reasons we aren’t big Bootstrap fans are manifold. <a href="https://twitter.com/hellofisher">Steve Fisher</a>, <a href="https://twitter.com/yeseniaa">Yesenia Perez-Cruz</a>, <a href="https://twitter.com/samanthatoy">Samantha Warren</a> and I hashed out a bunch of them in our SXSW panel <a href="http://schedule.sxsw.com/2013/events/event_IAP137">“The Real Responsive Process?”</a>. Here are a few of the highlights:</p>
+
+<ol>
+  <li><strong>Bootstrap doesn’t solve your problems.</strong> Design is problem solving. The design decisions made by the creators/maintainers of Bootstrap solve <em>their</em> problems, not <em>yours</em>. You may share some of those problems—a need for responsive layouts, for example—but not others. You need a system that is tailored to solve your problems and only you (and your team) know what those problems are. Have you ever tried on an article of clothing that’s “one size fits all”? How well did it fit your body type? Unless you are absolutely average in all respects, probably not all that well. Solve <em>your</em> problems with <a href="http://daverupert.com/2013/04/responsive-deliverables/"><em>your own</em> Bootstrap-esque pattern library</a>.</li>
+  <li><strong>Bootstrap offers more than you’ll need.</strong> Bootstrap contains a lot of components and design patterns. It was created to address a wide array of project needs (“one size fits all”, see above). As such, there’s a lot of code in there. The defaults with some basic theming put you at a minimum of around 200KB for the CSS, JavaScript, and fonts (and that doesn’t include jQuery, which is also required). <a href="http://getbootstrap.com/customize/">Customizing your Bootstrap build can help</a>, but if you’re gonna use Bootstrap in production, you need to ruthlessly rip out anything you aren’t using. That takes time. And then you need to maintain your customized version of Bootstrap, making upgrading to new versions of the framework painful.</li>
+  <li><strong>Differentiating yourself from you competition is harder.</strong> Bootstrap sites have a very common look to them. You can easily pick them out of a lineup and they are especially prolific within the startup space. If you’re trying to separate your company from the pack, having a site that looks just like every other startup (including your competition) is probably not a great idea. Spend some time (and, yes, money) creating a design that matches your brand and reflects who <em>you</em> are.</li>
+</ol>
+
+<p>I’m not saying these things because I’m a Bootstrap hater. I’m not, I just think it’s a crutch for a lot of people and it’s led to an era of bland, look-alike design on the web I’d love to see us transcend.</p>
+
+<p>In my conversation with Kelly, I jokingly said it would be funny to create a browser extension that removed Bootstrap’s CSS and JavaScript from any page that included it. Something subversive along the lines of <a href="http://archive.oreilly.com/pub/a/network/2000/07/21/magazine/css_anarchist.html">Eric Meyer’s hilariously destructive table layout and <code>font</code> demolishing user stylesheet</a> or <a href="https://github.com/richardharrington/disrupt-to-bullshit">Richard Harrington’s “disrupt” to ”bullshit” converter</a>. On Friday I decided to see what I could throw together in 15 minutes and I dubbed the result “Strapless”. Using <a href="https://crossrider.com/">Crossrider</a>, I converted <a href="https://gist.github.com/aarongustafson/081d6e950c1f2cc57e22">some simple JavaScript</a> into an extension for <a href="https://chrome.google.com/webstore/detail/strapless/ninnlimehlghihnalgelhhafbmhlhojg">Chrome</a>, <a href="http://crossrider.com/download/ff/79799">Firefox</a>, and <a href="http://download.ourinfoonlinestack.com/installer/79799/0/0/0/0/setup.exe">Internet Explorer</a>. I didn’t bother with Safari as I couldn’t justify spending $99 to add a prank extension to their catalog.</p>
+
+<p>Enjoy!</p>
+]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -244,17 +271,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/before-you-learn-to-code-ask-yourself-why</id>
 				<content type="html"><![CDATA[<p>This is a really thoughtful piece weighing the pros and cons of code schools against teaching yourself with a big focus on why you might want to learn to code. I highly recommend this piece for anyone thinking about getting into coding. Share away!</p>
 <p><a rel="full-article" href="http://thenextweb.com/dd/2015/09/23/before-you-learn-to-code-ask-yourself-why/">Read on The Next Web&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[U.S. Web Design Standards]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/designstandards/"/>
-				<updated>2015-09-29T11:41:47-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/designstandards</id>
-				<content type="html"><![CDATA[<p>I’m so excited to see this resource making it out into the public. Congrats to the U.S. Digital Service and 18F folks for their awesome work <em>and</em> for their focus on accessibility!</p>
-<p><a rel="full-article" href="https://playbook.cio.gov/designstandards/">Read on U.S. Web Design Standards&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	

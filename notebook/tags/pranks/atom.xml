@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title><![CDATA[Aaron Gustafson - Latest Posts]]></title>
-	<link href="https://www.aaron-gustafson.com/atom-latest-posts.xml" rel="self"/>
-	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-10-19T11:37:26-04:00</updated>
-	<id>https://www.aaron-gustafson.com/</id>
-	<author>
-		<name><![CDATA[Aaron Gustafson]]></name>
-		
-	</author>
-	<generator uri="http://octopress.org/">Octopress</generator>
 
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Strapless]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/strapless/"/>
-				<updated>2015-10-16T17:13:37-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/strapless</id>
-				<content type="html"><![CDATA[<p>On Friday, <a href="https://twitter.com/ShirleyTemper">Kelly</a> and I were having a conversation over lunch about the ubiquity of Bootstrap. It’s a topic we’ve been kvetching about for the the last few years—we’ve grown tired of seeing the same site everywhere we look.</p>
+  <title><![CDATA[Browse by Tag: Pranks | Aaron Gustafson]]></title>
+  <link href="https://www.aaron-gustafson.com/notebook/tags/pranks/atom.xml" rel="self"/>
+  <link href="https://www.aaron-gustafson.com/"/>
+  <updated>2015-10-19T11:37:26-04:00</updated>
+  <id>https://www.aaron-gustafson.com/</id>
+  <author>
+    <name><![CDATA[Aaron Gustafson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Strapless]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/strapless/"/>
+    <updated>2015-10-16T17:13:37-04:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/strapless</id>
+    <content type="html"><![CDATA[<p>On Friday, <a href="https://twitter.com/ShirleyTemper">Kelly</a> and I were having a conversation over lunch about the ubiquity of Bootstrap. It’s a topic we’ve been kvetching about for the the last few years—we’ve grown tired of seeing the same site everywhere we look.</p>
 
 <p>It’s not that we have any issues with Bootstrap specifically. It’s a solid framework for rapidly prototyping an idea before deciding if it’s got legs. It’s also a great tool to learn from when considering your own pattern library. That said, we don’t think it should be used in the way it so often is: as the entirety of your front end design with only a teensiest amount of theming applied.</p>
 
@@ -36,45 +36,6 @@
 
 <p>Enjoy!</p>
 ]]></content>
-			</entry>
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
+  </entry>
+  
 </feed>

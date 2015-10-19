@@ -16,10 +16,10 @@
 
 
 
-<title>ARIA Quicktip: Labelledby vs. Describedby, From the Notebook of Aaron Gustafson</title>
-<meta property="og:title" content="ARIA Quicktip: Labelledby vs. Describedby">
+<title>Strapless, From the Notebook of Aaron Gustafson</title>
+<meta property="og:title" content="Strapless">
 
-<meta property="og:url" content="https://www.aaron-gustafson.com/notebook/aria-quicktip-labelledby-vs-describedby/">
+<meta property="og:url" content="https://www.aaron-gustafson.com/notebook/strapless/">
 
 <meta name="author" content="Aaron Gustafson">
 <meta property="og:type" content="website">
@@ -27,8 +27,8 @@
 <meta property="og:image" content="https://www.aaron-gustafson.com/i/og-logo.png">
 <meta property="og:locale" content="en_US">
 
-<meta property="og:description" content="The difference between the `aria-labelledby` and `aria-describedby` attributes is not obvious. Here’s a bit of a clarification for using them in forms.">
-<meta name="description" content="The difference between the `aria-labelledby` and `aria-describedby` attributes is not obvious. Here’s a bit of a clarification for using them in forms.">
+<meta property="og:description" content="I wrote a silly little extension that stops Bootstrap dead in its tracks.">
+<meta name="description" content="I wrote a silly little extension that stops Bootstrap dead in its tracks.">
 
 <!-- Twitter -->
 <meta name="twitter:card" value="summary"/>
@@ -52,8 +52,6 @@
 
 
 
-
-	<meta property="webmention:redirected_from" content="/notebook/2014/aria-quicktip-labelledby-vs-describedby/">
 
 	
 	<link href="/favicon.png" rel="icon">
@@ -129,7 +127,7 @@
 	<article role="article" class="layout-container__primary h-entry">
 		<div class="entry">
 			<header class="entry__header">
-		     	<h1 class="entry__title p-name">ARIA Quicktip: Labelledby vs. Describedby</h1>
+		     	<h1 class="entry__title p-name">Strapless</h1>
 			
 				
 					<dl class="entry__meta">
@@ -150,10 +148,10 @@
 
 
 
-		<time class="dt-published" datetime="2014-11-05T10:45:22-05:00">05 November 2014</time><b class="hidden"> by <a class="p-author h-card" href="/about">Aaron Gustafson</a></b></dd>
+		<time class="dt-published" datetime="2015-10-16T17:13:37-04:00">16 October 2015</time><b class="hidden"> by <a class="p-author h-card" href="/about">Aaron Gustafson</a></b></dd>
 						
 						<dt>Reading Time</dt>
-						<dd>1 minute</dd>
+						<dd>3 minutes</dd>
 
 						<dt>Tagged</dt>
 						<dd>
@@ -161,7 +159,7 @@
 
 	<span class="post__categories">
 		
-			<a class='category' href='/notebook/tags/accessibility/'>accessibility</a>, <a class='category' href='/notebook/tags/wai-aria/'>wai-aria</a>, <a class='category' href='/notebook/tags/web-design/'>web design</a>
+			<a class='category' href='/notebook/tags/pranks/'>pranks</a>, <a class='category' href='/notebook/tags/web-design/'>web design</a>
 		
 	</span>
 
@@ -171,7 +169,7 @@
 							<dt>Reactions</dt>
 							<dd>
 								<ul class="entry__jump-links">
-									<li class="entry__jump entry__jump--comments"><a href="#disqus_thread" data-disqus-identifier="https://www.aaron-gustafson.com/notebook/aria-quicktip-labelledby-vs-describedby/">Comments</a></li>
+									<li class="entry__jump entry__jump--comments"><a href="#disqus_thread" data-disqus-identifier="https://www.aaron-gustafson.com/notebook/strapless/">Comments</a></li>
 									<li class="entry__jump entry__jump--webmentions"><a href="#webmentions">Webmentions</a></li>
 								</ul>
 							</dd>
@@ -186,21 +184,23 @@
 			
 
 			<div class="entry__content e-content">
-				<p>Last night, while we were enjoying a cool evening and a few drinks outside after day 1 of <a href="http://bdconf.com">BDConf</a>, <a href="http://adactio.com">Jeremy</a> asked me for some clarification on the ARIA attributes I had demoed as part of <a href="http://www.slideshare.net/AaronGustafson/falling-in-love-with-forms-bdconf-2014">my forms presentation</a> earlier in the afternoon. In particular, he was confused by how <code>aria-labelledby</code> and <code>aria-describedby</code> differ.</p>
+				<p>On Friday, <a href="https://twitter.com/ShirleyTemper">Kelly</a> and I were having a conversation over lunch about the ubiquity of Bootstrap. It’s a topic we’ve been kvetching about for the the last few years—we’ve grown tired of seeing the same site everywhere we look.</p>
 
-<!-- more -->
+<p>It’s not that we have any issues with Bootstrap specifically. It’s a solid framework for rapidly prototyping an idea before deciding if it’s got legs. It’s also a great tool to learn from when considering your own pattern library. That said, we don’t think it should be used in the way it so often is: as the entirety of your front end design with only a teensiest amount of theming applied.</p>
 
-<p>I hadn’t really thought about it before, but it’s a good question. They seem pretty similar in function, right? And both support a space separated list of one or more <code>id</code> references. It’s downright confusing.</p>
+<p>The reasons we aren’t big Bootstrap fans are manifold. <a href="https://twitter.com/hellofisher">Steve Fisher</a>, <a href="https://twitter.com/yeseniaa">Yesenia Perez-Cruz</a>, <a href="https://twitter.com/samanthatoy">Samantha Warren</a> and I hashed out a bunch of them in our SXSW panel <a href="http://schedule.sxsw.com/2013/events/event_IAP137">“The Real Responsive Process?”</a>. Here are a few of the highlights:</p>
 
-<p>My simple explanation was that, at least in terms of form fields, they differ in when they are read. The <code>aria-labelledby</code> attribute replaces the associated <code>label</code> element (which is, of course, associated with the field via the <code>label</code>’s <code>for</code> attribute). The <code>aria-describedby</code> attribute, on the other hand, is read after the field type is stated.</p>
+<ol>
+  <li><strong>Bootstrap doesn’t solve your problems.</strong> Design is problem solving. The design decisions made by the creators/maintainers of Bootstrap solve <em>their</em> problems, not <em>yours</em>. You may share some of those problems—a need for responsive layouts, for example—but not others. You need a system that is tailored to solve your problems and only you (and your team) know what those problems are. Have you ever tried on an article of clothing that’s “one size fits all”? How well did it fit your body type? Unless you are absolutely average in all respects, probably not all that well. Solve <em>your</em> problems with <a href="http://daverupert.com/2013/04/responsive-deliverables/"><em>your own</em> Bootstrap-esque pattern library</a>.</li>
+  <li><strong>Bootstrap offers more than you’ll need.</strong> Bootstrap contains a lot of components and design patterns. It was created to address a wide array of project needs (“one size fits all”, see above). As such, there’s a lot of code in there. The defaults with some basic theming put you at a minimum of around 200KB for the CSS, JavaScript, and fonts (and that doesn’t include jQuery, which is also required). <a href="http://getbootstrap.com/customize/">Customizing your Bootstrap build can help</a>, but if you’re gonna use Bootstrap in production, you need to ruthlessly rip out anything you aren’t using. That takes time. And then you need to maintain your customized version of Bootstrap, making upgrading to new versions of the framework painful.</li>
+  <li><strong>Differentiating yourself from you competition is harder.</strong> Bootstrap sites have a very common look to them. You can easily pick them out of a lineup and they are especially prolific within the startup space. If you’re trying to separate your company from the pack, having a site that looks just like every other startup (including your competition) is probably not a great idea. Spend some time (and, yes, money) creating a design that matches your brand and reflects who <em>you</em> are.</li>
+</ol>
 
-<p>To demonstrate how all of this plays out, I threw together <a href="http://codepen.io/aarongustafson/pen/dmuoe/">a quick CodePen demo</a> that takes you through numerous ways you can use and combine these attributes. I also did a <a href="http://youtu.be/U8_VjI-Z1LA">screen recording to demonstrate how ChromeVox exposes these attributes</a>:</p>
+<p>I’m not saying these things because I’m a Bootstrap hater. I’m not, I just think it’s a crutch for a lot of people and it’s led to an era of bland, look-alike design on the web I’d love to see us transcend.</p>
 
-<figure id="fig-U8_VjI-Z1LA" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(https://i2.ytimg.com/vi/U8_VjI-Z1LA/0.jpg);" href="//www.youtube.com/watch?v=U8_VjI-Z1LA" data-lazy-video-src="https://www.youtube.com/embed/U8_VjI-Z1LA?autoplay=1&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">aria-labelledby vs. aria-describedby</div></a></div></figure>
+<p>In my conversation with Kelly, I jokingly said it would be funny to create a browser extension that removed Bootstrap’s CSS and JavaScript from any page that included it. Something subversive along the lines of <a href="http://archive.oreilly.com/pub/a/network/2000/07/21/magazine/css_anarchist.html">Eric Meyer’s hilariously destructive table layout and <code>font</code> demolishing user stylesheet</a> or <a href="https://github.com/richardharrington/disrupt-to-bullshit">Richard Harrington’s “disrupt” to ”bullshit” converter</a>. On Friday I decided to see what I could throw together in 15 minutes and I dubbed the result “Strapless”. Using <a href="https://crossrider.com/">Crossrider</a>, I converted <a href="https://gist.github.com/aarongustafson/081d6e950c1f2cc57e22">some simple JavaScript</a> into an extension for <a href="https://chrome.google.com/webstore/detail/strapless/ninnlimehlghihnalgelhhafbmhlhojg">Chrome</a>, <a href="http://crossrider.com/download/ff/79799">Firefox</a>, and <a href="http://download.ourinfoonlinestack.com/installer/79799/0/0/0/0/setup.exe">Internet Explorer</a>. I didn’t bother with Safari as I couldn’t justify spending $99 to add a prank extension to their catalog.</p>
 
-<p><strong>Update:</strong> <a href="https://twitter.com/stevefaulkner">Steve Faulkner</a> shared a doc that discusses <a href="http://rawgit.com/w3c/aria/master/html-aam/html-aam.html#accessible-name-and-description-calculation">how accessible names and descriptions are calculated</a>. Thanks Steve!</p>
-
-<p><em>Note: I did discover a bug in ChromeVox wherein the content of the elements referenced in <code>aria-describedby</code> are not read when the field receives focus via the keyboard (using the <kbd>tab</kbd> key), but it does when it receives focus via the mouse. I’ve submitted <a href="https://code.google.com/p/google-axs-chrome/issues/detail?id=158&amp;thanks=158&amp;ts=1415202123">a bug report</a> to to the powers that be.</em></p>
+<p>Enjoy!</p>
 
 			</div>
 
@@ -210,10 +210,10 @@
 
 
 <p class="entry__sharing">If you liked this, would you mind sharing it?
-	<a class="share_link share_link--twitter" href="https://twitter.com/intent/tweet?original_referer=https://www.aaron-gustafson.com/notebook/aria-quicktip-labelledby-vs-describedby/&amp;source=tweetbutton&amp;text=ARIA+Quicktip:+Labelledby+vs.+Describedby&amp;url=https://www.aaron-gustafson.com/notebook/aria-quicktip-labelledby-vs-describedby/">Share on Twitter</a>
-	<a class="share_link share_link--facebook" href="http://www.facebook.com/sharer.php?u=https://www.aaron-gustafson.com/notebook/aria-quicktip-labelledby-vs-describedby/">Post on Facebook</a>
-	<a class="share_link share_link--linkedin" href="https://www.linkedin.com/cws/share?url=https://www.aaron-gustafson.com/notebook/aria-quicktip-labelledby-vs-describedby/&amp;original_referer=https://www.aaron-gustafson.com/notebook/aria-quicktip-labelledby-vs-describedby/">Share on LinkedIn</a>
-	<a class="share_link share_link--googleplus" href="https://plus.google.com/share?url=https://www.aaron-gustafson.com/notebook/aria-quicktip-labelledby-vs-describedby/">Share on Google+</a>
+	<a class="share_link share_link--twitter" href="https://twitter.com/intent/tweet?original_referer=https://www.aaron-gustafson.com/notebook/strapless/&amp;source=tweetbutton&amp;text=Strapless&amp;url=https://www.aaron-gustafson.com/notebook/strapless/">Share on Twitter</a>
+	<a class="share_link share_link--facebook" href="http://www.facebook.com/sharer.php?u=https://www.aaron-gustafson.com/notebook/strapless/">Post on Facebook</a>
+	<a class="share_link share_link--linkedin" href="https://www.linkedin.com/cws/share?url=https://www.aaron-gustafson.com/notebook/strapless/&amp;original_referer=https://www.aaron-gustafson.com/notebook/strapless/">Share on LinkedIn</a>
+	<a class="share_link share_link--googleplus" href="https://plus.google.com/share?url=https://www.aaron-gustafson.com/notebook/strapless/">Share on Google+</a>
 </p>
 			    
 
@@ -247,8 +247,7 @@
 
 
 
-	<div class="webmentions"><ol class="webmentions__list"><li id="webmention-655404397027983360" class="webmentions__item"><article class="h-cite webmention webmention--content-only"><div class="webmention__author p-author h-card"><a class="u-url" href="https://twitter.com/ShawnHooper"><img class="webmention__author__photo u-photo" src="https://pbs.twimg.com/profile_images/634721180709093377/p2gEctsl_normal.jpg" alt="" title="Shawn Hooper"><b class="p-name">Shawn Hooper</b></a></div><div class="webmention__content p-content"><p>ARIA Quicktip: Labelledby vs. Describedby <a href="https://t.co/OtMcUmfXE9">https://t.co/OtMcUmfXE9</a> #a11y #a11yTO</p>
-</div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2015-10-17T11:25:59-04:00">17 October 2015</time> | <a class="webmention__source u-url" href="https://twitter.com/ShawnHooper/status/655404397027983360">Permalink</a></div></article></li><li id="webmention-655404397027983360" class="webmentions__item"><article class="h-cite webmention webmention--title-only"><div class="webmention__author p-author h-card"><a class="u-url" href="http://www.shawnhooper.ca/"><img class="webmention__author__photo u-photo" src="https://webmention.io/avatar/twitter.com/c60d17e784e17a41e06f4dd793d3f735438e0fca17fa941dc6909c8722e76c64.jpeg" alt="" title="Shawn Hooper"><b class="p-name">Shawn Hooper</b></a></div> <div class="webmention__title p-name"><a href="https://twitter.com/ShawnHooper/status/655404397027983360">ARIA Quicktip: Labelledby vs. Describedby aaron-gustafson.com/notebook/aria-… #a11y #a11yTO</a></div><div class="webmention__meta"><time class="webmention__pubdate dt-published" datetime="2015-10-17T11:25:59-04:00">17 October 2015</time></div></article></li></ol></div>
+	<div class="webmentions"><p class="webmentions__not-found">No webmentions were found</p></div>
 
 			</section>
 
@@ -322,7 +321,7 @@
 		<footer role="contentinfo" class="footer">
 	<div class="layout-container">
 		
-			<p class="footer__fork-me">Did you spot a typo or error? Eesh. <a href="https://github.com/aarongustafson/aarongustafson.github.io/tree/source/source/2014-11-05-aria-quicktip-labelledby-vs-describedby.markdown">Would you mind fixing it for me?</a> You’re so awesome.</p>
+			<p class="footer__fork-me">Did you spot a typo or error? Eesh. <a href="https://github.com/aarongustafson/aarongustafson.github.io/tree/source/source/2015-10-16-strapless.markdown">Would you mind fixing it for me?</a> You’re so awesome.</p>
 		
 		<p class="footer__copyright"><b id="license">The content of this site is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons</a>.</b> Interested in how this site was made? <a href="/colophon/">Check this out</a>.</b></p>
 	</div>
@@ -336,8 +335,8 @@
 		
 			
 			// disqus_developer = 1,
-			disqus_identifier = 'https://www.aaron-gustafson.com/notebook/aria-quicktip-labelledby-vs-describedby/',
-			disqus_url = 'https://www.aaron-gustafson.com/notebook/aria-quicktip-labelledby-vs-describedby/',
+			disqus_identifier = 'https://www.aaron-gustafson.com/notebook/strapless/',
+			disqus_url = 'https://www.aaron-gustafson.com/notebook/strapless/',
 			disqus_script = 'embed.js';
 		
 		(function () {
@@ -354,7 +353,7 @@
 
 
 <noscript>
-	<img src="http://nojsstats.appspot.com/UA-176472-5/https://www.aaron-gustafson.com/notebook/aria-quicktip-labelledby-vs-describedby/" alt=""/>
+	<img src="http://nojsstats.appspot.com/UA-176472-5/https://www.aaron-gustafson.com/notebook/strapless/" alt=""/>
 </noscript>
 
 	
