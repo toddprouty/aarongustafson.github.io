@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2015-10-19T13:57:34-04:00</updated>
+  <updated>2015-10-19T15:25:03-04:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -34,7 +34,7 @@
 
 <p>I’m not saying these things because I’m a Bootstrap hater. I’m not, I just think it’s a crutch for a lot of people and it’s led to an era of bland, look-alike design on the web I’d love to see us transcend.</p>
 
-<p>In my conversation with Kelly, I jokingly said it would be funny to create a browser extension that removed Bootstrap’s CSS and JavaScript from any page that included it. Something subversive along the lines of <a href="http://archive.oreilly.com/pub/a/network/2000/07/21/magazine/css_anarchist.html">Eric Meyer’s hilariously destructive table layout and <code>font</code> demolishing user stylesheet</a> or <a href="https://github.com/richardharrington/disrupt-to-bullshit">Richard Harrington’s “disrupt” to “bullshit” converter</a>. On Friday I decided to see what I could throw together in 15 minutes and I dubbed the result “Strapless”. Using <a href="https://crossrider.com/">Crossrider</a>, I converted <a href="https://gist.github.com/aarongustafson/081d6e950c1f2cc57e22">some simple JavaScript</a> into an extension for <a href="https://chrome.google.com/webstore/detail/strapless/ninnlimehlghihnalgelhhafbmhlhojg">Chrome</a>, <a href="http://crossrider.com/download/ff/79799">Firefox</a>, and <a href="http://download.ourinfoonlinestack.com/installer/79799/0/0/0/0/setup.exe">Internet Explorer</a>. I didn’t bother with Safari as I couldn’t justify spending $99 to add a prank extension to their catalog.</p>
+<p>In my conversation with Kelly, I jokingly said it would be funny to create a browser extension that removed Bootstrap’s CSS and JavaScript from any page that included it. Something subversive along the lines of <a href="http://archive.oreilly.com/pub/a/network/2000/07/21/magazine/css_anarchist.html">Eric Meyer’s hilariously destructive table layout and <code>font</code> demolishing user stylesheet</a> or <a href="https://github.com/richardharrington/disrupt-to-bullshit">Richard Harrington’s “disrupt” to “bullshit” converter</a>. On Friday I decided to see what I could throw together in 15 minutes and I dubbed the result “Strapless”. Using <a href="https://crossrider.com/">Crossrider</a>, I converted <a href="https://gist.github.com/aarongustafson/081d6e950c1f2cc57e22">some simple JavaScript</a> into an extension for <a href="https://chrome.google.com/webstore/detail/strapless/ninnlimehlghihnalgelhhafbmhlhojg">Chrome</a> and <a href="http://crossrider.com/download/ff/79799">Firefox</a>. I didn’t bother with Safari as I couldn’t justify spending $99 to add a prank extension to their catalog. I have a version for Internet Explorer, but the installer is failing, which I suspect is an issue with Crossrider.</p>
 
 <p>Enjoy!</p>
 ]]></content>
