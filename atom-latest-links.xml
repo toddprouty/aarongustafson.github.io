@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-10-20T11:15:39-04:00</updated>
+	<updated>2015-10-20T12:10:11-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,19 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Restoration of Defocused and Blurred Images]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/BlurredImagesRestoration1/"/>
+				<updated>2015-10-20T11:48:37-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/BlurredImagesRestoration1</id>
+				<content type="html"><![CDATA[<p>Time to stop blurring sensitive client information in your slide decks and articles. Cover it in a black box instead.</p>
+<p><a rel="full-article" href="http://yuzhikov.com/articles/BlurredImagesRestoration1.htm">Read on Yuzhikov.com&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
 	
 		
 	
@@ -222,30 +235,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/apple-blows-up-the-concept-of-a-privacy-policy</id>
 				<content type="html"><![CDATA[<p>While its title is a little hyperbolic, the article highlights some of the work Apple is doing to make their Privacy Policy more accessible. You know, so non-lawyers can actually understand what Apple does with their data and why.</p>
 <p><a rel="full-article" href="http://techcrunch.com/2015/09/29/apple-blows-up-the-concept-of-a-privacy-policy/">Read on TechCrunch&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[In the Future, How Will We Talk to Our Technology?]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/future-will-talk-technology/"/>
-				<updated>2015-10-02T14:06:02-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/future-will-talk-technology</id>
-				<content type="html"><![CDATA[<p>Depending on how you read the title, your expectations for this article may not align with the subject: the technical means by which we talk to our devices. It’s not about the APIs or voice recognition, but rather how our desires are transferred from our mind to our device’s “ears”. Voice is obviously one way—and David spends a lot of time discussing microphone improvements—but it could also be silently using subvocalization.</p>
-
-<p>If—like me—this stuff fascinates you, you should definitely give it a read.</p>
-<p><a rel="full-article" href="http://www.wired.com/2015/09/future-will-talk-technology/">Read on Wired&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Before You Learn to Code, Ask Yourself Why]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/before-you-learn-to-code-ask-yourself-why/"/>
-				<updated>2015-10-02T14:03:46-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/before-you-learn-to-code-ask-yourself-why</id>
-				<content type="html"><![CDATA[<p>This is a really thoughtful piece weighing the pros and cons of code schools against teaching yourself with a big focus on why you might want to learn to code. I highly recommend this piece for anyone thinking about getting into coding. Share away!</p>
-<p><a rel="full-article" href="http://thenextweb.com/dd/2015/09/23/before-you-learn-to-code-ask-yourself-why/">Read on The Next Web&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
