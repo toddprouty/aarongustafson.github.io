@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="https://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-10-20T15:59:10-04:00</updated>
+	<updated>2015-10-21T11:14:07-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,21 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Your Computer School Sucks]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/your-computer-school-sucks/"/>
+				<updated>2015-10-21T11:11:37-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/your-computer-school-sucks</id>
+				<content type="html"><![CDATA[<p>Accessibility is an afterthought in much of our industry. In order to change that, education needs to change and code schools need to change. Karl nails it in this post:</p>
+
+<blockquote>
+  <p>While Hacker You should be applauded for their regular lunch-and-learns, I think that all computer schools should include accessibility embedded in core curriculum. It will create an alumni population better prepared to create interfaces that are universally usable. Their alumni will be differentiated by their ability to consider the user’s needs. After all, if you’re not developing for the user, who are you developing for?</p>
+</blockquote>
+<p><a rel="full-article" href="http://www.karlgroves.com/2015/10/18/your-computer-school-sucks/">Read on Karl Groves&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -287,17 +302,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/accessibility-towards-a-more-inclusive-web-with-microsoft-edge-and-windows-10</id>
 				<content type="html"><![CDATA[<p>My colleague Cynthia Shelly posted a bit about accessibility in Edge in terms of where we are and where we’re going. She included a bit about the roadmap as well.</p>
 <p><a rel="full-article" href="http://blogs.windows.com/msedgedev/2015/09/25/accessibility-towards-a-more-inclusive-web-with-microsoft-edge-and-windows-10/">Read on Microsoft Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Apple Blows Up the Concept of a Privacy Policy]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/apple-blows-up-the-concept-of-a-privacy-policy/"/>
-				<updated>2015-10-02T14:10:11-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/apple-blows-up-the-concept-of-a-privacy-policy</id>
-				<content type="html"><![CDATA[<p>While its title is a little hyperbolic, the article highlights some of the work Apple is doing to make their Privacy Policy more accessible. You know, so non-lawyers can actually understand what Apple does with their data and why.</p>
-<p><a rel="full-article" href="http://techcrunch.com/2015/09/29/apple-blows-up-the-concept-of-a-privacy-policy/">Read on TechCrunch&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
