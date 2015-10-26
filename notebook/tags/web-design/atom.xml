@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2015-10-26T15:15:44-04:00</updated>
+  <updated>2015-10-26T15:19:26-04:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -112,7 +112,7 @@
 
 <p>They live-streamed the event and immediately <a href="https://youtu.be/Fu1L34TLUHM">posted the video on YouTube</a>. I also <a href="http://www.slideshare.net/AaronGustafson/beyond-responsive-18f-2015">posted the deck to SlideShare</a> so you can follow along a little easier. I’ve embedded each below if you want to tuck in right away:</p>
 
-<p>{% youtube Fu1L34TLUHM %}</p>
+<p><figure id="fig-Fu1L34TLUHM" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(https://i2.ytimg.com/vi/Fu1L34TLUHM/0.jpg);" href="//www.youtube.com/watch?v=Fu1L34TLUHM" data-lazy-video-src="https://www.youtube.com/embed/Fu1L34TLUHM?autoplay=1&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">18F Design Presents: Aaron Gustafson</div></a></div></figure></p>
 
 <figure class="video-embed video-embed--16x9" id="figure-2015-08-26-01"><iframe class="video-embed__video" src="//www.slideshare.net/slideshow/embed_code/key/7jsUtSzGEqFyKj" frameborder="0"></iframe></figure>
 
@@ -127,17 +127,27 @@
     <id>https://www.aaron-gustafson.com/notebook/web-design-101-100-percent-tappable</id>
     <content type="html"><![CDATA[<p>I see this one all the time: something that looks like a button, but only a portion of it is tappable. <!-- more -->Consider this example from a recent email I received (emails are notorious for this crap):</p>
 
-<figure id="fig-2015-08-17-01" class="media-container">{% adaptive_image /i/posts/2015-08-17/01.png %}<figcaption>A call to action from a recent email with the tiny tappable area highlighted within the much larger "button".</figcaption></figure>
+<figure id="fig-2015-08-17-01" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/01.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/01.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>A call to action from a recent email with the tiny tappable area highlighted within the much larger "button".</figcaption></figure>
 
 <p>This screenshot shows a very large call to action, which is good. Unfortunately, as the screenshot illustrates, the majority of the “button” is a table cell and the tappable link is just the text inside it.</p>
 
 <p>The markup itself isn’t horrible; here’s a distillation of that row in the design:</p>
 
-<p>{% gist 711cbd1054e8ee868a93 example.html %}</p>
+<p><div><script src='https://gist.github.com/711cbd1054e8ee868a93.js?file=example.html'></script>
+<noscript><pre><code>&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;a href=&quot;…&quot;&gt;Shop Biotek Marine&lt;/a&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</code></pre></noscript></div>
+</p>
 
 <p>The problem is that the 15px padding and overall button styles were put on the table cell rather than the link itself. Setting the link to have a <code>display</code> of “block” or “inline-block” would allow it to be given vertical padding (which is probably the issue the designer was struggling with here). Then the remainder of the styles could be migrated without adjusting the design at all.</p>
 
-<figure id="fig-2015-08-17-02" class="media-container">{% adaptive_image /i/posts/2015-08-17/02.png %}<figcaption>The same email with the padding shifted to the link, making more of the "button" tappable.</figcaption></figure>
+<figure id="fig-2015-08-17-02" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/02.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/02.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-08-17/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>The same email with the padding shifted to the link, making more of the "button" tappable.</figcaption></figure>
 
 <p>When you design something that looks interactive, <em>always make sure the whole thing is actually tappable</em>. It will go along way toward reducing user frustration.</p>
 ]]></content>
