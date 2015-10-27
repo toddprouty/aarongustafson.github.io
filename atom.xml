@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="https://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-10-26T15:54:25-04:00</updated>
+	<updated>2015-10-27T12:53:52-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,19 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Net Awards: Outstanding Contribution]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/net-awards-outstanding-contribution/"/>
+				<updated>2015-10-27T12:34:57-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/net-awards-outstanding-contribution</id>
+				<content type="html"><![CDATA[<p>No one was more deserving of this award than <a href="http://www.molly.com">Molly</a>. No one.</p>
+
+<p>Thank you for all you have done for the Web Mols! And, especially, thank you for all you have done for me.</p>
+<p><a rel="full-article" href="http://www.molly.com/2015/10/24/net-awards-outstanding-contribution/">Read on mollydotcom&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -293,17 +306,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/easy-content-organisation-with-html5</id>
 				<content type="html"><![CDATA[<p>An excellent primer/reminder about HTML5’s organizational elements.</p>
 <p><a rel="full-article" href="https://www.paciellogroup.com/blog/2015/09/easy-content-organisation-with-html5/">Read on The Paciello Group&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Building an Enterprise CSS Framework]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/building-an-enterprise-framework-is-hard-1e8d8b33e082/"/>
-				<updated>2015-10-02T14:24:56-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/building-an-enterprise-framework-is-hard-1e8d8b33e082</id>
-				<content type="html"><![CDATA[<p>My good friend <a href="http://www.w3conversions.com/index.cfm">Stef Sullivan Rewis</a> shared a bit about the process and decision-making that went into the CSS Framework underpinning <a href="https://www.lightningdesignsystem.com/">Salesforce’s Lightning Design System</a>. It’s a worthwhile read and will definitely be helpful if you’re undertaking a similar project.</p>
-<p><a rel="full-article" href="https://medium.com/salesforce-ux/building-an-enterprise-framework-is-hard-1e8d8b33e082">Read on Medium&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
