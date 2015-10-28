@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-10-28T09:31:58-04:00</updated>
+	<updated>2015-10-28T11:53:58-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,8 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
 	
 		
 			<entry>
@@ -221,17 +223,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/the-price-of-free-how-apple-facebook-microsoft-and-google-sell-you-to-advertisers</id>
 				<content type="html"><![CDATA[<p>A relatively brief overview of the privacy policies and practices of four companies you probably interact with on a regular basis. It’s good food for thought.</p>
 <p><a rel="full-article" href="http://www.itworld.com/article/2988865/security/the-price-of-free-how-apple-facebook-microsoft-and-google-sell-you-to-advertisers.html">Read on ITworld&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Why Autoplay Is an Accessibility Issue]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/autoplay-is-an-accessibility-issue/"/>
-				<updated>2015-10-02T15:02:07-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/autoplay-is-an-accessibility-issue</id>
-				<content type="html"><![CDATA[<p><a href="https://www.aaron-gustafson.com/notebook/autoplay-dont-do-it/">I’ve written about why you should not autoplay videos</a>, but here’s another account of why it’s bad and what you can do about it.</p>
-<p><a rel="full-article" href="https://www.abilitynet.org.uk/blog/autoplay-is-an-accessibility-issue">Read on AbilityNet&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
