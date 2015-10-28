@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="https://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-10-27T13:26:49-04:00</updated>
+	<updated>2015-10-28T09:31:58-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[NPR.org Now Twice as Fast]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/npr-org-now-twice-as-fast/"/>
+				<updated>2015-10-28T09:27:11-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/npr-org-now-twice-as-fast</id>
+				<content type="html"><![CDATA[<p>An excellent overview of some significant upgrades to NPR.org along with some advice to web developers.</p>
+<p><a rel="full-article" href="http://www.npr.org/sections/thisisnpr/2015/10/27/451147757/npr-org-now-twice-as-fast">Read on NPR&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -295,17 +306,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/autoplay-is-an-accessibility-issue</id>
 				<content type="html"><![CDATA[<p><a href="https://www.aaron-gustafson.com/notebook/autoplay-dont-do-it/">I’ve written about why you should not autoplay videos</a>, but here’s another account of why it’s bad and what you can do about it.</p>
 <p><a rel="full-article" href="https://www.abilitynet.org.uk/blog/autoplay-is-an-accessibility-issue">Read on AbilityNet&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Easy Content Organisation With HTML5]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/easy-content-organisation-with-html5/"/>
-				<updated>2015-10-02T14:58:43-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/easy-content-organisation-with-html5</id>
-				<content type="html"><![CDATA[<p>An excellent primer/reminder about HTML5’s organizational elements.</p>
-<p><a rel="full-article" href="https://www.paciellogroup.com/blog/2015/09/easy-content-organisation-with-html5/">Read on The Paciello Group&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
