@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-10-29T13:14:37-04:00</updated>
+	<updated>2015-10-29T15:02:19-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,19 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[A Brief History of That Time You Used Web Fonts]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/a-brief-history-of-that-time-you-used-web-fonts/"/>
+				<updated>2015-10-29T14:58:15-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/a-brief-history-of-that-time-you-used-web-fonts</id>
+				<content type="html"><![CDATA[<p>This looks like an excellent talk from <a href="http://www.zachleat.com/web/">Zach Leatherman</a>. It’s packed with useful recommendations. I hope the video’s posted soon!</p>
+
+<p>Slides that made me laugh out loud: <a href="https://speakerdeck.com/zachleat/a-brief-history-of-that-time-you-used-web-fonts/#84">84</a> &amp; <a href="https://speakerdeck.com/zachleat/a-brief-history-of-that-time-you-used-web-fonts/#85">85</a>.</p>
+<p><a rel="full-article" href="https://speakerdeck.com/zachleat/a-brief-history-of-that-time-you-used-web-fonts">Read on Speaker Deck&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 	
@@ -212,17 +225,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/what-forces-layout-reflow</id>
 				<content type="html"><![CDATA[<p>A good overview of layout and reflow triggers in JavaScript. It’s worth noting that this resource can be made more complete with contributions from the WebKit and Microsoft Edge teams (hopefully forthcoming).</p>
 <p><a rel="full-article" href="https://gist.github.com/paulirish/5d52fb081b3570c81e3a">Read on Paul Irish&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[The Price of Free: How Apple, Facebook, Microsoft and Google Sell You to Advertisers]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/the-price-of-free-how-apple-facebook-microsoft-and-google-sell-you-to-advertisers/"/>
-				<updated>2015-10-05T09:58:20-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/the-price-of-free-how-apple-facebook-microsoft-and-google-sell-you-to-advertisers</id>
-				<content type="html"><![CDATA[<p>A relatively brief overview of the privacy policies and practices of four companies you probably interact with on a regular basis. It’s good food for thought.</p>
-<p><a rel="full-article" href="http://www.itworld.com/article/2988865/security/the-price-of-free-how-apple-facebook-microsoft-and-google-sell-you-to-advertisers.html">Read on ITworld&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
