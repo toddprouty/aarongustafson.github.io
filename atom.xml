@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson]]> Latest Posts &amp; Links</title>
 	<link href="https://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-10-29T16:24:12-04:00</updated>
+	<updated>2015-10-30T10:38:19-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Dear Microsoft, I'm Confused.]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/BB1C957ADE9DB90816B21F2806CB3AEB/"/>
+				<updated>2015-10-30T10:36:28-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/BB1C957ADE9DB90816B21F2806CB3AEB</id>
+				<content type="html"><![CDATA[<p>A funny love letter (of sorts) to Microsoft from SitePoint’s Managing Editor.</p>
+<p><a rel="full-article" href="http://go.sitepoint.com/t/ViewEmail/y/FC49DD479BFA7019/BB1C957ADE9DB90816B21F2806CB3AEB">Read on SitePoint&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -390,17 +401,6 @@
 
 <p>How do you deal with this? Don’t hide your content until the fonts arrive. Assume they never will.</p>
 <p><a rel="full-article" href="http://miranj.in/blog/2015/collateral-damage">Read on Miranj&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[What Forces Layout/reflow. The Comprehensive List.]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/what-forces-layout-reflow/"/>
-				<updated>2015-10-05T10:01:17-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/what-forces-layout-reflow</id>
-				<content type="html"><![CDATA[<p>A good overview of layout and reflow triggers in JavaScript. It’s worth noting that this resource can be made more complete with contributions from the WebKit and Microsoft Edge teams (hopefully forthcoming).</p>
-<p><a rel="full-article" href="https://gist.github.com/paulirish/5d52fb081b3570c81e3a">Read on Paul Irish&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
