@@ -261,6 +261,7 @@
 						<noscript>
 	<div class="nojs-fallback">
 		<p>Sadly, I have not had the time to build a JavaScript-less implementation of the Disqus API yet, so you can’t comment. It’s a bummer. I really wanted to hear your thoughts.</p>
+		<p>If you use Twitter or Google+, <a href="#webmentions">your webmentions of this post’s URL will show up on this page</a> still.</p>
 	</div>
 </noscript>
 
@@ -302,37 +303,52 @@
 		<ul class="main-navigation">
 			
 				<li class="main-navigation__item">
+					
 					<a class="main-navigation__link main-navigation__link--about" href="/about/"><b class="hidden">A Bit </b>About<b class="hidden"> Me</b></a>
+					
 				</li>
 			
 				<li class="main-navigation__item">
+					<mark>
 					<a class="main-navigation__link main-navigation__link--notebook" href="/notebook/"><b class="hidden">Entries in My </b>Notebook</a>
+					</mark>
 				</li>
 			
 				<li class="main-navigation__item">
+					
 					<a class="main-navigation__link main-navigation__link--speaking-engagements" href="/speaking-engagements/"><b class="hidden">A List of My </b>Speaking<b class="hidden"> Engagements</b></a>
+					
 				</li>
 			
 				<li class="main-navigation__item">
+					
 					<a class="main-navigation__link main-navigation__link--publications" href="/publications/"><b class="hidden">A List of My </b>Publications</a>
+					
 				</li>
 			
 				<li class="main-navigation__item">
+					
 					<a class="main-navigation__link main-navigation__link--appearances" href="/appearances/"><b class="hidden">Links to </b>Interviews<b class="hidden"> I’ve Given</b></a>
+					
 				</li>
 			
 				<li class="main-navigation__item">
+					
 					<a class="main-navigation__link main-navigation__link--contact" href="/contact/"><b class="hidden">The Requisite </b>Contact<b class="hidden"> Form</b></a>
+					
 				</li>
 			
 			<li class="main-navigation__item">
-				<a class="main-navigation__link main-navigation__link--rss" href="/atom.xml" title="subscribe via RSS">RSS</a>
+				<a class="main-navigation__link main-navigation__link--rss" href="/atom.xml" aria-label="subscribe via RSS">RSS</a>
+			</li>
+			<li class="main-navigation__item">
+				<a class="main-navigation__link main-navigation__link--search" href="#search" aria-label="Search This Site">Search</a>
 			</li>
 		</ul>
 
 		
-			<form class="form search-form" action="https://www.google.com/search" method="get" role="search" id="search">
-				<ol>
+			<form class="form form--search" action="https://www.google.com/search" method="get" id="search">
+				<ol role="search">
 					<li class="form-control form-control--search">
 						<label class="hidden">What are you looking for?</label>
 						<input name='q' type='hidden' value='site:www.aaron-gustafson.com'>
@@ -347,8 +363,6 @@
 
 	</div>
 </nav>
-		
-		<hr class="rule">
 		
 		<footer role="contentinfo" class="footer">
 	<div class="layout-container">
