@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson Latest Posts &amp; Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-11-10T11:19:51-05:00</updated>
+	<updated>2015-11-10T14:24:11-05:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,72 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Opt Out From Online Behavioral Advertising by Participating Companies]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/choices/"/>
+				<updated>2015-11-10T14:22:42-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/choices</id>
+				<content type="html"><![CDATA[<p>Did you know you can opt out of behavior-tracking advertising cookies? Neither did I.</p>
+<p><a rel="full-article" href="http://www.aboutads.info/choices/">Read on Digital Advertising Alliance&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Why Computer Programmers Should Stop Calling Themselves Engineers]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/414271/"/>
+				<updated>2015-11-10T14:17:13-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/414271</id>
+				<content type="html"><![CDATA[<p>I have been grappling with a lot of the concerns this fantastic article raises. In particular, this bit resonated with me:</p>
+
+<blockquote>
+  <p>Would-be “engineers” are encouraged to think of every project as a potential business ready to scale and sell, rather than as a process of long-term training in disciplines where concerns for social welfare become paramount. Engineering has always been a well-paid profession, but computing is turning it into a type of speculative finance rather than a calling.</p>
+</blockquote>
+
+<p>It’s a generalization, but it’s also a trend I’ve been seeing. I’m also on the fence regarding licensure and continuing education credits. I think they could do a lot to improve the state of the Web without destroying the wonderful DIY nature of its accessibility.</p>
+<p><a rel="full-article" href="http://www.theatlantic.com/technology/archive/2015/11/programmers-should-not-call-themselves-engineers/414271/">Read on The Atlantic&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Less Content Marketing, More Quality Content]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/less-content-marketing-more-quality-content/"/>
+				<updated>2015-11-10T14:05:53-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/less-content-marketing-more-quality-content</id>
+				<content type="html"><![CDATA[<p>I’ll just let <a href="http://www.gerrymcgovern.com/">Gerry</a> say it:</p>
+
+<blockquote>
+  <p>If there has been a constant in my 20+ years of consulting with websites it is that most websites produce far too much low quality ego content. This is true for both commercial, government and non-profit websites.</p>
+</blockquote>
+
+<blockquote>
+  <ul>
+    <li>Telenor of Norway deleted almost 90% of their pages. Conversions went up by 100%. Support requests went down by 35%</li>
+    <li>The Norwegian Cancer Society removed almost 90% of their content and saw extremely positive results.</li>
+    <li>The US Department of Health deleted 150,000 of their 200,000 pages. Nobody noticed.</li>
+    <li>Columbia University of Chicago deleted 97% of their pages. Student application inquiries went up by 80%</li>
+    <li>Liverpool City went from 4,000 pages to 700 on their website. Support requests went down and online reporting went up.</li>
+  </ul>
+</blockquote>
+
+<p>Clear, well-written content is appreciated (and actionable) by your users.</p>
+<p><a rel="full-article" href="http://www.gerrymcgovern.com/new-thinking/less-content-marketing-more-quality-content">Read on Gerry McGovern&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Panels and Panel Sets]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/panels-and-panel-sets/"/>
+				<updated>2015-11-10T14:01:47-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/panels-and-panel-sets</id>
+				<content type="html"><![CDATA[<p>This is an interesting proposal for generic <code>panel</code> and <code>panelset</code> (and <code>paneltitle</code>) elements that would function well for marking up accordion, tabbed, and carousel interfaces.</p>
+<p><a rel="full-article" href="http://radar.oreilly.com/2015/11/panels-and-panel-sets.html">Read on O’Reilly Radar&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -394,50 +460,6 @@
 
 <p>For an excellent overview of ES6 support, consult <a href="https://kangax.github.io/compat-table/es6/">this handy chart</a>.</p>
 <p><a rel="full-article" href="https://www.webkit.org/blog/4054/es6-in-webkit/">Read on Surfin’ Safari&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[India Is the Most Expensive Place to Buy an iPhone 6S]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/india-is-the-most-expensive-place-to-buy-an-iphone-6s/"/>
-				<updated>2015-10-12T12:25:56-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/india-is-the-most-expensive-place-to-buy-an-iphone-6s</id>
-				<content type="html"><![CDATA[<p>Are you building web projects for the developing world? If so, you can probably forego any in-depth testing on flagship phones like the iPhone 6S.</p>
-<p><a rel="full-article" href="http://www.cnet.com/news/india-is-the-most-expensive-place-to-buy-an-iphone-6s/">Read on CNET&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[“Tomato” Versus “#FF6347”—the Tragicomic History of CSS Color Names]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/tomato-versus-ff6347-the-tragicomic-history-of-css-color-names/"/>
-				<updated>2015-10-12T12:22:23-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/tomato-versus-ff6347-the-tragicomic-history-of-css-color-names</id>
-				<content type="html"><![CDATA[<p>Did you ever wonder how we ended up with color names like “thistle” and “peru” in <a href="https://drafts.csswg.org/css-color/">the CSS color spec</a>? This article provides a little history.</p>
-<p><a rel="full-article" href="http://arstechnica.com/information-technology/2015/10/tomato-versus-ff6347-the-tragicomic-history-of-css-color-names/">Read on Ars Technica&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[AMP and Incentives]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/amp-and-incentives/"/>
-				<updated>2015-10-08T14:28:51-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/amp-and-incentives</id>
-				<content type="html"><![CDATA[<p>This is an excellent big picture perspective on <a href="https://www.ampproject.org/">Google’s Accelerated Mobile Pages (AMP)</a> from <a href="http://timkadlec.com/">Tim Kadlec</a>.</p>
-<p><a rel="full-article" href="http://timkadlec.com/2015/10/amp-and-incentives/">Read on TimKadlec.com&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Shadow DOM (6 October 2015)]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/WD-shadow-dom-20151006/"/>
-				<updated>2015-10-07T11:26:22-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/WD-shadow-dom-20151006</id>
-				<content type="html"><![CDATA[<p>The latest draft of the Shadow DOM spec has been published. Check it out and give the team some feedback.</p>
-<p><a rel="full-article" href="http://www.w3.org/TR/2015/WD-shadow-dom-20151006/">Read on W3C&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
