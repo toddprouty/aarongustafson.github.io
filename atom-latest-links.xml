@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-11-10T14:24:11-05:00</updated>
+	<updated>2015-11-10T14:59:22-05:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,43 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Analytics Confirm the Need for Adaptive Web Design]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/analytics-confirm-the-need-for-adaptive-web-design/"/>
+				<updated>2015-11-10T14:52:28-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/analytics-confirm-the-need-for-adaptive-web-design</id>
+				<content type="html"><![CDATA[<p>I cite this post a ton in my talks and workshops (and in <a href="http://adaptivewebdesign.info/2nd-edition/">the forthcoming second edition of <cite>Adaptive Web Design</cite></a>), but I realized I had not explicitly linked it up here.</p>
+
+<p>This post is a look at browser stats for an industry/research site over a size year period of 6 years. Jason’s findings are astonishing, making this post a must-read for coming to terms with the need for designing with progressive enhancement in mind.</p>
+<p><a rel="full-article" href="http://blog.jasonsamuels.net/post/21633531278/analytics-confirm-the-need-for-adaptive-web-design">Read on Jason Samuels (Tech Thoughts)&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[The Changing Form of the Web Browser]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/the-changing-form-of-the-web-browser/"/>
+				<updated>2015-11-10T14:48:46-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/the-changing-form-of-the-web-browser</id>
+				<content type="html"><![CDATA[<p>This is an interesting thought piece from <a href="http://www.broken-links.com/">Peter Gasston</a>, examining where browsers are heading and what their role in the future of delivering content and interaction will be.</p>
+<p><a rel="full-article" href="http://rehabstudio.com/thinking/the-changing-form-of-the-web-browser/">Read on +-rehabstudio&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Supercharging JavaScript Performance With asm.js]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/supercharging-javascript-performance-with-asm-js/"/>
+				<updated>2015-11-10T14:39:51-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/supercharging-javascript-performance-with-asm-js</id>
+				<content type="html"><![CDATA[<p>I’m intrigued by the power of <a href="http://asmjs.org/spec/latest/">asm.js</a>, but have not found a use for it…yet. I hope to resolve that in the future.</p>
+
+<p>Regardless, it’s native in <a href="https://www.microsoft.com/en-us/windows/microsoft-edge">Microsoft Edge</a> now, so that’s pretty badass.</p>
+<p><a rel="full-article" href="http://blogs.windows.com/msedgedev/2015/11/10/supercharging-javascript-performance-with-asm-js/">Read on Microsoft Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -192,61 +229,6 @@
 	
 		
 	
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Notes on Use of Multiple ARIA Role Attribute Values]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/notes-on-use-of-multiple-aria-role-attribute-values/"/>
-				<updated>2015-10-16T17:07:04-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/notes-on-use-of-multiple-aria-role-attribute-values</id>
-				<content type="html"><![CDATA[<p>Did you know the ARIA <code>role</code> attribute allows for multiple values? It’s how <code>role</code> supports fault tolerance: the first value (of the space separated list) is applied, but if the assistive technology in use doesn’t understand it, the second value will be tried, etc. until a usable alternative is found. It works a lot like font stacks.</p>
-<p><a rel="full-article" href="https://www.paciellogroup.com/blog/2015/10/notes-on-use-of-multiple-aria-role-attribute-values/">Read on The Paciello Group&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[The Problem of “Fire and Forget” in Web Design]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/fire-and-forget/"/>
-				<updated>2015-10-13T15:36:53-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/fire-and-forget</id>
-				<content type="html"><![CDATA[<p><a href="http://meiert.com/">Jens Oliver Meiert</a> on why we should continue to tidy up to and improve on our creations rather than letting them site once we’ve launched them. I’ve never been once for maintenance contracts with clients, but I also believe that sites that aren’t tended to every now and again can become overgrown or, worse, wither and die.</p>
-<p><a rel="full-article" href="http://meiert.com/en/blog/20150917/fire-and-forget/">Read on Jens Oliver Meiert&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[ES6 in WebKit (October 2015)]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/es6-in-webkit/"/>
-				<updated>2015-10-13T15:28:42-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/es6-in-webkit</id>
-				<content type="html"><![CDATA[<p>This is an update on where things stand with the <a href="http://www.ecma-international.org/ecma-262/6.0/index.html">ECMAScript 6/2015 spec</a> in WebKit. Currently in Safari for El Capitan &amp; iOS9:</p>
-
-<ul>
-  <li>Classes</li>
-  <li>Promises</li>
-  <li>Map, Set, WeakMap, WeakSet, <code>for…of</code> loops, and</li>
-  <li>Symbols</li>
-</ul>
-
-<p>Coming soon:</p>
-
-<ul>
-  <li><code>let</code>, <code>const</code>, and <code>class</code> block scoping</li>
-  <li>a portion of the Reflect API</li>
-  <li>some of the current module specification</li>
-  <li>Tail calls</li>
-  <li>Default parameter values</li>
-  <li>Default destructuring values</li>
-  <li>Arrow functions, and</li>
-  <li>a portion of the internationalization API</li>
-</ul>
-
-<p>For an excellent overview of ES6 support, consult <a href="https://kangax.github.io/compat-table/es6/">this handy chart</a>.</p>
-<p><a rel="full-article" href="https://www.webkit.org/blog/4054/es6-in-webkit/">Read on Surfin’ Safari&nbsp;&rarr;</a></p>]]></content>
-			</entry>
 		
 	
 </feed>
