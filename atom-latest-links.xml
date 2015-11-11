@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-11-11T14:13:50-05:00</updated>
+	<updated>2015-11-11T16:58:13-05:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Aural UI of HTML Elements]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/aural-ui-of-html-elements/"/>
+				<updated>2015-11-11T11:12:32-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/aural-ui-of-html-elements</id>
+				<content type="html"><![CDATA[<p>This is an indispensible resource for understanding how screen readers treat your markup. Many thanks to the <a href="http://www.paciellogroup.com/">Paciello Group</a> for putting it together.</p>
+<p><a rel="full-article" href="http://thepaciellogroup.github.io/AT-browser-tests/">Read on The Paciello Group’s Github&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -236,8 +247,6 @@
 				<content type="html"><![CDATA[<p>Time to stop blurring sensitive client information in your slide decks and articles. Cover it in a black box instead.</p>
 <p><a rel="full-article" href="http://yuzhikov.com/articles/BlurredImagesRestoration1.htm">Read on Yuzhikov.com&nbsp;&rarr;</a></p>]]></content>
 			</entry>
-		
-	
 		
 	
 </feed>
