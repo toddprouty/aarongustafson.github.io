@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Posts]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-posts.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-11-11T20:29:54-05:00</updated>
+	<updated>2015-11-11T21:35:32-05:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,173 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Labeled With Love]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/labeled-with-love/"/>
+				<updated>2015-11-11T21:05:33-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/labeled-with-love</id>
+				<content type="html"><![CDATA[<p>Forms exist on pretty much every site on the web in one form or another. They are the primary mechanism by which we gather information from our users.<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> Of course, before anyone can fill out a form, they need to know what it’s asking for. Labeling is key.</p>
+
+<!-- more -->
+
+<p>A few months back, I relayed <a href="https://www.aaron-gustafson.com/notebook/consider-how-your-forms-read/">a story from Facebook</a> about how important the wording of their questions was in getting accurate responses from their users. The words we choose are incredibly important—your interface is a conversation with your users. I highly recommend reading up on that (and <a href="http://www.radiolab.org/story/trust-engineers/">listening to the Radiolab episode</a> that spurred me to write it), but I’m going to spend the remainder of this post talking about the utilitarian aspects of labels and how to use them properly in your forms.</p>
+
+<h2 id="connecting-the-dots">Connecting the Dots</h2>
+
+<p>When you look at a basic form field, you have two bits of information: the field and the label.</p>
+
+<div class="bogus-wrapper"><notextile><figure id="fig-2015-11-11-01" class="media-container"><img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/01.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/01.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="" /><figcaption>A typical form control: a label and a field.</figcaption></figure></notextile></div>
+
+<p>You could achieve this with a minimum of markup:</p>
+
+<div><script src="https://gist.github.com/3585c019108025b2f568.js?file=unlabeled-field.html"></script>
+<noscript><pre><code>Your Name
+&lt;input name=&quot;full_name&quot;&gt;</code></pre></noscript></div>
+
+<p>The thing is, the text “Your Name” is not associated in any way with the <code>input</code>. Sure, a sighted person would likely be able to tell that that text is associated with the field, but no computer can tell that. And if a computer can’t tell the text and <code>input</code> are associated, your form control is inaccessible to anyone who uses assistive technology like a screen reader. It’s also going to pose a problem in the near-future of “headless UIs” like those hinted at by Cortana, Siri, and the Echo.</p>
+
+<p>Thankfully, establishing a relationship between the two is quite easy using the <code>label</code> element. The most common (and preferable) way to do this is to wrap the labeling text in a <code>label</code> element. Then you create an explicit association with the field using the <code>for</code> attribute, which is an <code>id</code> reference. In other words, the value of the <code>for</code> attribute needs to match the value of the <code>id</code> attribute on the field you want to associate with that <code>label</code>.</p>
+
+<div><script src="https://gist.github.com/3585c019108025b2f568.js?file=labeled-field.html"></script>
+<noscript><pre><code>&lt;label for=&quot;full_name&quot;&gt;Your Name&lt;/label&gt;
+&lt;input id=&quot;full_name&quot; name=&quot;full_name&quot;&gt;</code></pre></noscript></div>
+
+<p>With that markup in place, the programmatic connection between the elements is made and the results speak for themselves: When you focus the field, the contents of the <code>label</code> are read out.</p>
+
+<figure id="fig-WR4_MAjalsU" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(https://i2.ytimg.com/vi/WR4_MAjalsU/0.jpg);" href="//www.youtube.com/watch?v=WR4_MAjalsU" data-lazy-video-src="http://www.youtube.com/embed/WR4_MAjalsU?autoplay=1&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">ChromeVox reading the label associated with a form control.</div></a></div></figure>
+
+<h2 id="an-alternate-approach">An Alternate Approach</h2>
+
+<p>Since I specifically referred to this approach as <em>explicit</em> association, you probably assumed that there’s another kind of association. And you were right: <em>implicit</em> association. Implicit association is created by wrapping a form control and its associated label text in a <code>label</code> element. I like to use this approach with radio and checkbox controls:</p>
+
+<div><script src="https://gist.github.com/3585c019108025b2f568.js?file=implicitly-labeled-checkbox.html"></script>
+<noscript><pre><code>&lt;label&gt;
+  &lt;input type=&quot;checkbox&quot; name=&quot;devices[]&quot; value=&quot;Asus Nexus 7&quot;&gt;
+  Asus Nexus 7
+&lt;/label&gt;</code></pre></noscript></div>
+
+<p>It’s worth noting that there’s nothing wrong with explicit association in this context either.</p>
+
+<div><script src="https://gist.github.com/3585c019108025b2f568.js?file=explicitly-labeled-checkbox.html"></script>
+<noscript><pre><code>&lt;input type=&quot;checkbox&quot; id=&quot;asus-nexus-7&quot; name=&quot;devices[]&quot; value=&quot;Asus Nexus 7&quot;&gt;
+&lt;label for=&quot;asus-nexus-7&quot;&gt;Asus Nexus 7&lt;/label&gt;</code></pre></noscript></div>
+
+<p>You can even combine the two approaches.</p>
+
+<div><script src="https://gist.github.com/3585c019108025b2f568.js?file=combo-labeled-checkbox.html"></script>
+<noscript><pre><code>&lt;label for=&quot;asus-nexus-7&quot;&gt;
+  &lt;input type=&quot;checkbox&quot; name=&quot;devices[]&quot; id=&quot;asus-nexus-7&quot; value=&quot;Asus Nexus 7&quot;&gt;
+  Asus Nexus 7
+&lt;/label&gt;</code></pre></noscript></div>
+
+<p>The reason I like to use implicit association with checkbox and radio controls has to do with ensuring the greatest breadth of support when it comes to styling inputs. For instance, if I set <code>width: 80%</code> on all <code>input</code> elements using a simple <a href="https://developer.mozilla.org/docs/Web/CSS/Type_selectors">type selector</a>, that width would be applied to <em>all</em> <code>input</code> elements, including radio and checkbox controls. In order to prevent radio and checkbox controls from getting rendered at that width, I would need to assign an override value of <code>width: auto</code> to them them specifically. I can do that using <a href="https://developer.mozilla.org/docs/Web/CSS/Attribute_selectors">attribute selectors</a>:</p>
+
+<div><script src="https://gist.github.com/3585c019108025b2f568.js?file=modern-only.css"></script>
+<noscript><pre><code>input {
+  width: 80%;
+}
+input[type=checkbox],
+input[type=radio] {
+  width: auto;
+}</code></pre></noscript></div>
+
+<p>While completely valid, that approach leaves out any browsers that don’t support attribute selection (e.g. IE 6). That may not seem like a deal-breaker in your book, but on the off chance some poor soul happens to be stuck using an out-of-date browser (as many are on mobile), I like to show them a little love. And, thankfully, using the implicit markup pattern for checkboxes and radio controls allows for this quite easily: I just use a <a href="https://developer.mozilla.org/docs/Web/CSS/Descendant_selectors">descendent selector</a> instead.</p>
+
+<div><script src="https://gist.github.com/3585c019108025b2f568.js?file=universal.css"></script>
+<noscript><pre><code>input {
+  width: 80%;
+}
+label input {
+  width: auto;
+}</code></pre></noscript></div>
+
+<p>This approach results in a greater amount of support and, incidentally, less CSS.</p>
+
+<h2 id="added-benefit-interactivity">Added Benefit: Interactivity</h2>
+
+<p>Obviously, associated labels are great for folks who use screen readers, but they have another benefit: tapping on a <code>label</code> will focus or activate the associated form control.</p>
+
+<div class="bogus-wrapper"><notextile><figure id="fig-2015-11-11-02" class="media-container"><img src="https://www.aaron-gustafson.com/i/posts/2015-11-11/02.gif" alt="" /><figcaption>Animation showing how clicking a <code>label</code> will focus the associated form control.</figcaption></figure></notextile></div>
+
+<p>This isn’t a game-changer when it comes to standard text fields, but it’s an exceptional affordance when it comes to radio and checkbox controls, especially on mobile, as it vastly increases the tappable region used to activate the control.</p>
+
+<div class="bogus-wrapper"><notextile><figure id="fig-2015-11-11-03" class="media-container"><img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/03.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/03.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="" /><figcaption>A screenshot of a group of checkbox controls with their labels outlined.</figcaption></figure></notextile></div>
+
+<p>To create incredibly generous tap targets on mobile devices, we can take things a little further. Add padding to the top and bottom of the <code>label</code> to make it bigger and then use negative margins to counter that enlargement and keep the layout as it was before the padding was applied.</p>
+
+<div><script src="https://gist.github.com/3585c019108025b2f568.js?file=larger-labels.css"></script>
+<noscript><pre><code>.grouped label {
+  margin: -1em 0;
+  padding: 1em 0;
+}</code></pre></noscript></div>
+
+<div class="bogus-wrapper"><notextile><figure id="fig-2015-11-11-04" class="media-container"><img src="https://www.aaron-gustafson.com/i/posts/2015-11-11/04.gif" alt="" /><figcaption>An animation showing very generous tap targets on a narrow screen.</figcaption></figure></notextile></div>
+
+<p>It’s worth noting that older versions of Internet Explorer only provide the focus/interaction benefit when you use explicit label association. That’s why I like the combo approach of implicit <em>and</em> explicit association for checkbox and radio controls.</p>
+
+<h2 id="placeholders-arent-labels">Placeholders Aren’t Labels</h2>
+
+<p>HTML5 ushered in a new option for working with <code>input</code> elements: the <code>placeholder</code> attribute. This declarative attribute makes it possible to offer hint as to the sort of content you were looking for in a field. In <a href="http://caniuse.com/#feat=input-placeholder">supporting browsers</a>, it appears in the field, ghosted back a bit, and disappears when you start typing a response.<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup></p>
+
+<div class="bogus-wrapper"><notextile><figure id="fig-2015-11-11-05" class="media-container"><img src="https://www.aaron-gustafson.com/i/posts/2015-11-11/05.gif" alt="" /><figcaption>An animation showing a placeholder in action on <a href="http://webstandardssherpa.com"><cite>Web Standards Sherpa</cite></a>.</figcaption></figure></notextile></div>
+
+<p>Having this natively supported in the browser was a huge boon. For years we’d been using JavaScript to achieve this very effect—albeit typically for label text—in an effort to create more compact forms. Now we get the effect without having to include any additional files or libraries.</p>
+
+<p>Of course, since <code>placeholder</code> implements an existing pattern, it came with baggage. People commonly achieved this effect by (ab)using the <code>value</code> attribute as a fake label. As such, its introduction didn’t do much to increase the accessibility of forms. <em>Form controls need a label</em>. If you want to make your form more compact, you can do that using proper markup and a little clever CSS.</p>
+
+<div><script src="https://gist.github.com/3585c019108025b2f568.js?file=fancy-example.html"></script>
+<noscript><pre><code>&lt;p class=&quot;form-control&quot;&gt;
+  &lt;input id=&quot;full_name&quot; name=&quot;full_name&quot;&gt;
+  &lt;label for=&quot;full_name&quot;&gt;Your Name&lt;/label&gt;
+&lt;/p&gt;</code></pre></noscript></div>
+
+<div><script src="https://gist.github.com/3585c019108025b2f568.js?file=fancy-example.css"></script>
+<noscript><pre><code>.form-control {
+  position: relative;
+}
+label {
+  display: block;
+  position: absolute;
+  top: 50%;
+  margin-top: -.5em;
+  left: .25em;
+  transition: .25s transform;
+}
+input {
+  display: block;
+  border: 1px solid;
+  border-radius: 3px;
+  padding: .25em
+}
+input:focus + label {
+  transform: translateY(-1.5em)
+}</code></pre></noscript></div>
+
+<div class="bogus-wrapper"><notextile><figure id="fig-2015-11-11-06" class="media-container"><img src="https://www.aaron-gustafson.com/i/posts/2015-11-11/06.gif" alt="" /><figcaption>A simple demo of this code. <a href="http://codepen.io/aarongustafson/pen/BoGgYM">It’s on CodePen</a> if you wanna dissect it.</figcaption></figure></notextile></div>
+
+<p>Mary Lou assembled some beautiful examples of this approach in her <a href="http://tympanus.net/codrops/2015/01/08/inspiration-text-input-effects/">Inspiration for Text Input Effects</a>. I highly recommend you check those out, but here’s a teaser to whet your whistle:</p>
+
+<div class="bogus-wrapper"><notextile><figure id="fig-2015-11-11-07" class="media-container"><img src="https://www.aaron-gustafson.com/i/posts/2015-11-11/07.gif" alt="" /><figcaption>A fancy, accessible form field and label from Mary Lou’s collection.</figcaption></figure></notextile></div>
+
+<hr />
+
+<p>We don’t have a ton of elements in HTML, which is why it’s important that we properly use the ones we do have. Hopefully this has provided a helpful overview of how to properly label form controls using HTML.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>When we’re not, you know, tracking them with a <a href="http://arstechnica.com/security/2015/10/verizons-zombie-cookie-gets-new-life/">super cookie</a> or something. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>Browsers typically exhibit two different behaviors here. Some hide the placeholder text as soon as you focus the field, others hide it only when you start typing. Either one works although, admittedly, I favor the text disappearing when you type rather than when the field receives focus. I can see how that approach might confuse some users, I just prefer it because it ensures you see the placeholder. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+			</entry>
+		
 	
 		
 	
@@ -197,8 +364,6 @@
 <p>Jeremy posted in detail about how to set it all up and provided <a href="https://gist.github.com/adactio/c174a4a68498e30babfd">the PHP code he’s using</a> to make it all work. As I’m running a static site on <a href="http://octopress.org/">Octopress</a>, I ported it to Ruby as a <a href="http://jekyllrb.com/docs/plugins/#generators">Jekyll Generator</a>. I’ve <a href="https://github.com/aarongustafson/jekyll-crosspost_to_medium">posted it to Github</a>, so you can grab it there if you so desire.</p>
 ]]></content>
 			</entry>
-		
-	
 		
 	
 		
