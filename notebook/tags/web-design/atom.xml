@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2015-11-12T08:53:36-05:00</updated>
+  <updated>2015-11-12T09:11:29-05:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -28,43 +28,77 @@
 
 <p>When you look at a basic form field, you have two bits of information: the field and the label.</p>
 
-<figure id="fig-2015-11-11-01" class="media-container">{% adaptive_image /i/posts/2015-11-11/01.png %}<figcaption>A typical form control: a label and a field.</figcaption></figure>
+<figure id="fig-2015-11-11-01" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/01.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/01.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>A typical form control: a label and a field.</figcaption></figure>
 
 <p>You could achieve this with a minimum of markup:</p>
 
-<p>{% gist 3585c019108025b2f568 unlabeled-field.html %}</p>
+<p><div><script src='https://gist.github.com/3585c019108025b2f568.js?file=unlabeled-field.html'></script>
+<noscript><pre><code>Your Name
+&lt;input name=&quot;full_name&quot;&gt;</code></pre></noscript></div>
+</p>
 
 <p>The thing is, the text “Your Name” is not associated in any way with the <code>input</code>. Sure, a sighted person would likely be able to tell that that text is associated with the field, but no computer can tell that. And if a computer can’t tell the text and <code>input</code> are associated, your form control is inaccessible to anyone who uses assistive technology like a screen reader. It’s also going to pose a problem in the near-future of “headless UIs” like those hinted at by Cortana, Siri, and the Echo.</p>
 
 <p>Thankfully, establishing a relationship between the two is quite easy using the <code>label</code> element. The most common (and preferable) way to do this is to wrap the labeling text in a <code>label</code> element. Then you create an explicit association with the field using the <code>for</code> attribute, which is an <code>id</code> reference. In other words, the value of the <code>for</code> attribute needs to match the value of the <code>id</code> attribute on the field you want to associate with that <code>label</code>.</p>
 
-<p>{% gist 3585c019108025b2f568 labeled-field.html %}</p>
+<p><div><script src='https://gist.github.com/3585c019108025b2f568.js?file=labeled-field.html'></script>
+<noscript><pre><code>&lt;label for=&quot;full_name&quot;&gt;Your Name&lt;/label&gt;
+&lt;input id=&quot;full_name&quot; name=&quot;full_name&quot;&gt;</code></pre></noscript></div>
+</p>
 
 <p>With that markup in place, the programmatic connection between the elements is made and the results speak for themselves: When you focus the field, the contents of the <code>label</code> are read out.</p>
 
-<p>{% youtube WR4_MAjalsU %}</p>
+<p><figure id="fig-WR4_MAjalsU" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(//i2.ytimg.com/vi/WR4_MAjalsU/0.jpg);" href="//www.youtube.com/watch?v=WR4_MAjalsU" data-lazy-video-src="//www.youtube.com/embed/WR4_MAjalsU?autoplay=1&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">ChromeVox reading the label associated with a form control.</div></a></div></figure></p>
 
 <h2 id="an-alternate-approach">An Alternate Approach</h2>
 
 <p>Since I specifically referred to this approach as <em>explicit</em> association, you probably assumed that there’s another kind of association. And you were right: <em>implicit</em> association. Implicit association is created by wrapping a form control and its associated label text in a <code>label</code> element. I like to use this approach with radio and checkbox controls:</p>
 
-<p>{% gist 3585c019108025b2f568 implicitly-labeled-checkbox.html %}</p>
+<p><div><script src='https://gist.github.com/3585c019108025b2f568.js?file=implicitly-labeled-checkbox.html'></script>
+<noscript><pre><code>&lt;label&gt;
+  &lt;input type=&quot;checkbox&quot; name=&quot;devices[]&quot; value=&quot;Asus Nexus 7&quot;&gt;
+  Asus Nexus 7
+&lt;/label&gt;</code></pre></noscript></div>
+</p>
 
 <p>It’s worth noting that there’s nothing wrong with explicit association in this context either.</p>
 
-<p>{% gist 3585c019108025b2f568 explicitly-labeled-checkbox.html %}</p>
+<p><div><script src='https://gist.github.com/3585c019108025b2f568.js?file=explicitly-labeled-checkbox.html'></script>
+<noscript><pre><code>&lt;input type=&quot;checkbox&quot; id=&quot;asus-nexus-7&quot; name=&quot;devices[]&quot; value=&quot;Asus Nexus 7&quot;&gt;
+&lt;label for=&quot;asus-nexus-7&quot;&gt;Asus Nexus 7&lt;/label&gt;</code></pre></noscript></div>
+</p>
 
 <p>You can even combine the two approaches.</p>
 
-<p>{% gist 3585c019108025b2f568 combo-labeled-checkbox.html %}</p>
+<p><div><script src='https://gist.github.com/3585c019108025b2f568.js?file=combo-labeled-checkbox.html'></script>
+<noscript><pre><code>&lt;label for=&quot;asus-nexus-7&quot;&gt;
+  &lt;input type=&quot;checkbox&quot; name=&quot;devices[]&quot; id=&quot;asus-nexus-7&quot; value=&quot;Asus Nexus 7&quot;&gt;
+  Asus Nexus 7
+&lt;/label&gt;</code></pre></noscript></div>
+</p>
 
 <p>The reason I like to use implicit association with checkbox and radio controls has to do with ensuring the greatest breadth of support when it comes to styling inputs. For instance, if I set <code>width: 80%</code> on all <code>input</code> elements using a simple <a href="https://developer.mozilla.org/docs/Web/CSS/Type_selectors">type selector</a>, that width would be applied to <em>all</em> <code>input</code> elements, including radio and checkbox controls. In order to prevent radio and checkbox controls from getting rendered at that width, I would need to assign an override value of <code>width: auto</code> to them them specifically. I can do that using <a href="https://developer.mozilla.org/docs/Web/CSS/Attribute_selectors">attribute selectors</a>:</p>
 
-<p>{% gist 3585c019108025b2f568 modern-only.css %}</p>
+<p><div><script src='https://gist.github.com/3585c019108025b2f568.js?file=modern-only.css'></script>
+<noscript><pre><code>input {
+  width: 80%;
+}
+input[type=checkbox],
+input[type=radio] {
+  width: auto;
+}</code></pre></noscript></div>
+</p>
 
 <p>While completely valid, that approach leaves out any browsers that don’t support attribute selection (e.g. IE 6). That may not seem like a deal-breaker in your book, but on the off chance some poor soul happens to be stuck using an out-of-date browser (as many are on mobile), I like to show them a little love. And, thankfully, using the implicit markup pattern for checkboxes and radio controls allows for this quite easily: I just use a <a href="https://developer.mozilla.org/docs/Web/CSS/Descendant_selectors">descendent selector</a> instead.</p>
 
-<p>{% gist 3585c019108025b2f568 universal.css %}</p>
+<p><div><script src='https://gist.github.com/3585c019108025b2f568.js?file=universal.css'></script>
+<noscript><pre><code>input {
+  width: 80%;
+}
+label input {
+  width: auto;
+}</code></pre></noscript></div>
+</p>
 
 <p>This approach results in a greater amount of support and, incidentally, less CSS.</p>
 
@@ -76,11 +110,16 @@
 
 <p>This isn’t a game-changer when it comes to standard text fields, but it’s an exceptional affordance when it comes to radio and checkbox controls, especially on mobile, as it vastly increases the tappable region used to activate the control.</p>
 
-<figure id="fig-2015-11-11-03" class="media-container">{% adaptive_image /i/posts/2015-11-11/03.png %}<figcaption>A screenshot of a group of checkbox controls with their labels outlined.</figcaption></figure>
+<figure id="fig-2015-11-11-03" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/03.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/03.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>A screenshot of a group of checkbox controls with their labels outlined.</figcaption></figure>
 
 <p>To create incredibly generous tap targets on mobile devices, we can take things a little further. Add padding to the top and bottom of the <code>label</code> to make it bigger and then use negative margins to counter that enlargement and keep the layout as it was before the padding was applied.</p>
 
-<p>{% gist 3585c019108025b2f568 larger-labels.css %}</p>
+<p><div><script src='https://gist.github.com/3585c019108025b2f568.js?file=larger-labels.css'></script>
+<noscript><pre><code>.grouped label {
+  margin: -1em 0;
+  padding: 1em 0;
+}</code></pre></noscript></div>
+</p>
 
 <figure id="fig-2015-11-11-04" class="media-container"><img src="https://www.aaron-gustafson.com/i/posts/2015-11-11/04.gif" alt="" /><figcaption>An animation showing very generous tap targets on a narrow screen.</figcaption></figure>
 
@@ -96,9 +135,35 @@
 
 <p>Of course, since <code>placeholder</code> implements an existing pattern, it came with baggage. People commonly achieved this effect by (ab)using the <code>value</code> attribute as a fake label. As such, its introduction didn’t do much to increase the accessibility of forms. <em>Form controls need a label</em>. If you want to make your form more compact, you can do that using proper markup and a little clever CSS.</p>
 
-<p>{% gist 3585c019108025b2f568 fancy-example.html %}</p>
+<p><div><script src='https://gist.github.com/3585c019108025b2f568.js?file=fancy-example.html'></script>
+<noscript><pre><code>&lt;p class=&quot;form-control&quot;&gt;
+  &lt;input id=&quot;full_name&quot; name=&quot;full_name&quot;&gt;
+  &lt;label for=&quot;full_name&quot;&gt;Your Name&lt;/label&gt;
+&lt;/p&gt;</code></pre></noscript></div>
+</p>
 
-<p>{% gist 3585c019108025b2f568 fancy-example.css %}</p>
+<p><div><script src='https://gist.github.com/3585c019108025b2f568.js?file=fancy-example.css'></script>
+<noscript><pre><code>.form-control {
+  position: relative;
+}
+label {
+  display: block;
+  position: absolute;
+  top: 50%;
+  margin-top: -.5em;
+  left: .25em;
+  transition: .25s transform;
+}
+input {
+  display: block;
+  border: 1px solid;
+  border-radius: 3px;
+  padding: .25em
+}
+input:focus + label {
+  transform: translateY(-1.5em)
+}</code></pre></noscript></div>
+</p>
 
 <figure id="fig-2015-11-11-06" class="media-container"><img src="https://www.aaron-gustafson.com/i/posts/2015-11-11/06.gif" alt="" /><figcaption>A simple demo of this code. <a href="http://codepen.io/aarongustafson/pen/BoGgYM">It’s on CodePen</a> if you wanna dissect it.</figcaption></figure>
 
@@ -136,7 +201,7 @@
 
 <h2 id="falling-in-love-with-forms">Falling in Love with Forms</h2>
 
-<p>{% vimeo 144870932 %}</p>
+<p><figure id="fig-144870932" class="figure figure--video"><div class="video-embed video-embed--vimeo video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(https://i.vimeocdn.com/video/542903228_1280.jpg)" href="//vimeo.com/144870932" data-lazy-video-src="//player.vimeo.com/video/144870932?autoplay=1"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Falling in Love with Forms</div></a></div></figure></p>
 
 <p>This one’s a survey of current forms best practices. This one’s a bit abbreviated from my previous iterations as the talks were only 40 minutes at FoWD and Øredev, but I distilled out the most important bits.</p>
 
@@ -147,7 +212,7 @@
 
 <h2 id="there-are-no-buts-in-progressive-enhancement">There Are No “Buts” in Progressive Enhancement</h2>
 
-<p>{% vimeo 144979022 %}</p>
+<p><figure id="fig-144979022" class="figure figure--video"><div class="video-embed video-embed--vimeo video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(https://i.vimeocdn.com/video/542999481_1280.jpg)" href="//vimeo.com/144979022" data-lazy-video-src="//player.vimeo.com/video/144979022?autoplay=1"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">There Are No “Buts” in Progressive Enhancement</div></a></div></figure></p>
 
 <p>Wherein I dispel the myth that progressive enhancement has no place in news, healthcare, education, financial, commerce, and single-page app websites. Lots of goodies in here.</p>
 

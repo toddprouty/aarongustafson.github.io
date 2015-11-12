@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Javascript | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/javascript/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2015-11-12T08:53:36-05:00</updated>
+  <updated>2015-11-12T09:11:29-05:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -49,7 +49,7 @@
 
 <!-- more -->
 
-<p>{% youtube gpBWwl-Ngak %}</p>
+<p><figure id="fig-gpBWwl-Ngak" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--4x3"><a class="video-embed__lazy-link" style="background-image:url(//i2.ytimg.com/vi/gpBWwl-Ngak/0.jpg);" href="//www.youtube.com/watch?v=gpBWwl-Ngak" data-lazy-video-src="//www.youtube.com/embed/gpBWwl-Ngak?autoplay=1&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Shocking discovery: fnb.co.za progress bar a placebo!</div></a></div></figure></p>
 
 <p>On the off chance you don’t want to watch the video, I’ll recap: When accessing certain screens on the FNB site, a progress meter is shown to indicate new content is being flowed into the browser. But it’s not.</p>
 

@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Responsive Web Design | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/responsive-web-design/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2015-11-12T08:42:06-05:00</updated>
+  <updated>2015-11-12T09:11:29-05:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -138,13 +138,13 @@
 
 <p>We’re just starting to dip or toes—er, hands—into the world of motion-based gestural controls. Sure, we’ve had them in two dimensions on touch screens for a while now but three dimensional motion-based controls are only beginning to appear.</p>
 
-<p><figure id="fig-VXhhE-l96qQ" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(https://i2.ytimg.com/vi/VXhhE-l96qQ/0.jpg);" href="//www.youtube.com/watch?v=VXhhE-l96qQ&amp;start=41&amp;end=78" data-lazy-video-src="https://www.youtube.com/embed/VXhhE-l96qQ?autoplay=1&amp;start=41&amp;end=78&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Kinect Tips, Part 3: Gesture Controls</div></a></div></figure></p>
+<p><figure id="fig-VXhhE-l96qQ" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(//i2.ytimg.com/vi/VXhhE-l96qQ/0.jpg);" href="//www.youtube.com/watch?v=VXhhE-l96qQ&amp;start=41&amp;end=78" data-lazy-video-src="//www.youtube.com/embed/VXhhE-l96qQ?autoplay=1&amp;start=41&amp;end=78&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Kinect Tips, Part 3: Gesture Controls</div></a></div></figure></p>
 
 <p>The first big leap in this direction was <a href="https://en.wikipedia.org/wiki/Kinect">Kinect</a> on the Xbox 360 (and later, Windows). With Kinect, we interact with the computer using body movements like raising a hand (which gets Kinect to pay attention), pushing our hand forward to click/tap, and grasping to drag the canvas in a particular direction.</p>
 
 <p>The Kinect ushered in a major revolution in terms of interfacing with computers, but from an interaction perspective, it presents similar challenges to those of the <a href="https://en.wikipedia.org/wiki/Wii#Wii_Remote">Wii controller</a> and Sony’s <a href="https://en.wikipedia.org/wiki/PlayStation_Move">PlayStation Move</a>. Large body gestures like raising your hand (or a wand controller) can be tiring.</p>
 
-<p><figure id="fig-21LtA5-wiwU" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(https://i2.ytimg.com/vi/21LtA5-wiwU/0.jpg);" href="//www.youtube.com/watch?v=21LtA5-wiwU&amp;start=7&amp;end=19" data-lazy-video-src="https://www.youtube.com/embed/21LtA5-wiwU?autoplay=1&amp;start=7&amp;end=19&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Leap Motion With Windows</div></a></div></figure></p>
+<p><figure id="fig-21LtA5-wiwU" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(//i2.ytimg.com/vi/21LtA5-wiwU/0.jpg);" href="//www.youtube.com/watch?v=21LtA5-wiwU&amp;start=7&amp;end=19" data-lazy-video-src="//www.youtube.com/embed/21LtA5-wiwU?autoplay=1&amp;start=7&amp;end=19&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Leap Motion With Windows</div></a></div></figure></p>
 
 <p>They’re also not terribly accurate. If you thought that touchscreen accuracy was an issue, hand gestures like those for the Kinect or <a href="https://en.wikipedia.org/wiki/Leap_Motion">LEAP Motion</a> pose even more of a challenge.</p>
 
@@ -236,15 +236,15 @@
 
 <p>Then the whole design will simply zoom the layout when viewed beyond that size.</p>
 
-<p><figure id="fig-6XoN9mMgI38" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(https://i2.ytimg.com/vi/6XoN9mMgI38/0.jpg);" href="//www.youtube.com/watch?v=6XoN9mMgI38" data-lazy-video-src="https://www.youtube.com/embed/6XoN9mMgI38?autoplay=1&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Using CSS to Scale a Design on Resize</div></a></div></figure></p>
+<p><figure id="fig-6XoN9mMgI38" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--4x3"><a class="video-embed__lazy-link" style="background-image:url(//i2.ytimg.com/vi/6XoN9mMgI38/0.jpg);" href="//www.youtube.com/watch?v=6XoN9mMgI38" data-lazy-video-src="//www.youtube.com/embed/6XoN9mMgI38?autoplay=1&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Using CSS to Scale a Design on Resize</div></a></div></figure></p>
 
 <p>If you don’t want to turn something like that on automatically, you can enable it to be toggled on and off with JavaScript.</p>
 
-<p><figure id="fig-96l_W7ca6SM" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(https://i2.ytimg.com/vi/96l_W7ca6SM/0.jpg);" href="//www.youtube.com/watch?v=96l_W7ca6SM" data-lazy-video-src="https://www.youtube.com/embed/96l_W7ca6SM?autoplay=1&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">CSS Couch Mode</div></a></div></figure></p>
+<p><figure id="fig-96l_W7ca6SM" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--4x3"><a class="video-embed__lazy-link" style="background-image:url(//i2.ytimg.com/vi/96l_W7ca6SM/0.jpg);" href="//www.youtube.com/watch?v=96l_W7ca6SM" data-lazy-video-src="//www.youtube.com/embed/96l_W7ca6SM?autoplay=1&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">CSS Couch Mode</div></a></div></figure></p>
 
 <p>Things get even crazier when you start to factor in devices like the HoloLens. And no, I have not gotten to play with one yet.</p>
 
-<p><figure id="fig-3AADEqLIALk" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(https://i2.ytimg.com/vi/3AADEqLIALk/0.jpg);" href="//www.youtube.com/watch?v=3AADEqLIALk&amp;start=87&amp;end=117" data-lazy-video-src="https://www.youtube.com/embed/3AADEqLIALk?autoplay=1&amp;start=87&amp;end=117&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Microsoft HoloLens demo onstage at BUILD 2015</div></a></div></figure></p>
+<p><figure id="fig-3AADEqLIALk" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--4x3"><a class="video-embed__lazy-link" style="background-image:url(//i2.ytimg.com/vi/3AADEqLIALk/0.jpg);" href="//www.youtube.com/watch?v=3AADEqLIALk&amp;start=87&amp;end=117" data-lazy-video-src="//www.youtube.com/embed/3AADEqLIALk?autoplay=1&amp;start=87&amp;end=117&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Microsoft HoloLens demo onstage at BUILD 2015</div></a></div></figure></p>
 
 <p>But the idea of being able to drop a resizable virtual screen on any surface presents some interesting possibilities as a user and some unique challenges as a designer. HoloLens, of course, brings with it gesture controls as well, so accounting for a variety of input types should get us pretty far.</p>
 
@@ -252,7 +252,7 @@
 
 <p>In the last few years, the computational power of our devices has increased as the hardware costs associated with supporting gaze tracking have dropped dramatically. Looking around, you can see gaze tracking beginning to move into the public sphere: Many smartphones and smartwatches can recognize when you are looking at them (or at least they do sometimes). This is only a short step away from knowing where on the screen you are looking. And nearly every high-end smartphone is now equipped with a front-facing camera which makes them perfect candidates to provide this interaction method.</p>
 
-<p><figure id="fig-DEk7PlJWQgI" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(https://i2.ytimg.com/vi/DEk7PlJWQgI/0.jpg);" href="//www.youtube.com/watch?v=DEk7PlJWQgI&amp;start=18&amp;end=54" data-lazy-video-src="https://www.youtube.com/embed/DEk7PlJWQgI?autoplay=1&amp;start=18&amp;end=54&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">The Sesame Phone</div></a></div></figure></p>
+<p><figure id="fig-DEk7PlJWQgI" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--4x3"><a class="video-embed__lazy-link" style="background-image:url(//i2.ytimg.com/vi/DEk7PlJWQgI/0.jpg);" href="//www.youtube.com/watch?v=DEk7PlJWQgI&amp;start=18&amp;end=54" data-lazy-video-src="//www.youtube.com/embed/DEk7PlJWQgI?autoplay=1&amp;start=18&amp;end=54&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">The Sesame Phone</div></a></div></figure></p>
 
 <p>The <a href="http://sesame-enable.com/phone/">Sesame Phone</a> was designed to allow people to use a smartphone without using their hands. It uses facial tracking to move a virtual cursor around the screen, allowing users to interact with the underlying operating system as well as individual applications. It supports tap, swipe, and other gestures (via a context menu) and is pretty impressive in my experience. Technology like this enables people suffering from MS, arthritis, Muscular Dystrophy, and more to use a smartphone and—more importantly to us—browse the web.</p>
 
