@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Browse by Tag: Forms | Aaron Gustafson]]></title>
+  <link href="https://www.aaron-gustafson.com/notebook/tags/forms/atom.xml" rel="self"/>
+  <link href="https://www.aaron-gustafson.com/"/>
+  <updated>2015-11-11T20:29:54-05:00</updated>
+  <id>https://www.aaron-gustafson.com/</id>
+  <author>
+    <name><![CDATA[Aaron Gustafson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Future of Web Design &amp; Øredev]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/future-of-web-design-and-oredev/"/>
+    <updated>2015-11-09T15:17:15-05:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/future-of-web-design-and-oredev</id>
+    <content type="html"><![CDATA[<p>Between <a href="https://futureofwebdesign.com/nyc-2015/">Future of Web Design</a> in New York City and <a href="http://lanyrd.com/2015/oredev/">Øredev</a> in Malmö, Sweden, I was a busy boy last week. I delivered three talks and a workshop in total and am a bit exhausted.</p>
+
+<!-- more -->
+
+<p>Øredev has already posted videos of my talks to their Vimeo account, so I’ve included links to them here along with links to the slide decks, so you can download them if you’d like:</p>
+
+<h2 id="falling-in-love-with-forms">Falling in Love with Forms</h2>
+
+<p><figure id="fig-144870932" class="figure figure--video"><div class="video-embed video-embed--vimeo video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(https://i.vimeocdn.com/video/542903228_1280.jpg)" href="//vimeo.com/144870932" data-lazy-video-src="//player.vimeo.com/video/144870932?autoplay=1"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">FALLING IN LOVE WITH FORMS</div></a></div></figure></p>
+
+<p>This one’s a survey of current forms best practices. This one’s a bit abbreviated from my previous iterations as the talks were only 40 minutes at FoWD and Øredev, but I distilled out the most important bits.</p>
+
+<ul>
+  <li><strong>Slides</strong>: http://www.slideshare.net/AaronGustafson/falling-in-love-with-forms-redev-2015</li>
+  <li><strong>Video</strong>: https://vimeo.com/144870932</li>
+</ul>
+
+<h2 id="there-are-no-buts-in-progressive-enhancement">There Are No “Buts” in Progressive Enhancement</h2>
+
+<p><figure id="fig-144979022" class="figure figure--video"><div class="video-embed video-embed--vimeo video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(https://i.vimeocdn.com/video/542999481_1280.jpg)" href="//vimeo.com/144979022" data-lazy-video-src="//player.vimeo.com/video/144979022?autoplay=1"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">THERE ARE NO “BUTS” IN PROGRESSIVE ENHANCEMENT</div></a></div></figure></p>
+
+<p>Wherein I dispel the myth that progressive enhancement has no place in news, healthcare, education, financial, commerce, and single-page app websites. Lots of goodies in here.</p>
+
+<p>This version is an updated 40-minute distillation of the hour and a half talk <a href="http://jennlukas.com/">Jenn Lukas</a> and I gave at <a href="https://uxim15.uie.com/">UX Immersion Mobile</a> back in April. The video of that one is available from <a href="https://aycl.uie.com/">UIE’s All You Can Learn</a>. Jenn designed the slides and <a href="http://cargocollective.com/mattsutter">Matt Sutter</a> did the wonderful illustrations.</p>
+
+<ul>
+  <li><strong>Slides</strong>: http://www.slideshare.net/AaronGustafson/there-are-no-buts-in-progressive-enhancement-redev-2015</li>
+  <li><strong>Video</strong>: https://vimeo.com/144979022</li>
+</ul>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Consider How Your Forms Read]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/consider-how-your-forms-read/"/>
+    <updated>2015-02-23T11:21:24-05:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/consider-how-your-forms-read</id>
+    <content type="html"><![CDATA[<p>While listening to <a href="http://www.radiolab.org/story/trust-engineers/">Radiolab’s “The Trust Engineers”</a>, I’ll admit I got a little excited when they started talking about web form performance. And no, not “performance” in the time-to-download sense, but “performance” in terms of how well the forms performed in attempting to capture meaningful, actionable data.</p>
+
+<!-- more -->
+
+<p>I’ll set the scene: It’s the holiday season in 2011 and people are uploading photos to Facebook like crazy. In the span of a few days, Facebook processed more photo uploads than are contained in the entirety of Flickr. Seriously, that’s a lot of photos.</p>
+
+<p>Anyway, one unintended consequence of this deluge of photo uploads was a significant uptick in <a href="https://www.facebook.com/help/189722821075378">photo reports</a>. Facebook received millions of them, but they made no sense: Moms holding babies reported for harassment, pictures of puppies reported for hate speech, and so on. Roughly 97% of these photo reports were miscategorized.</p>
+
+<p>When Facebook engineers reached out to some of the users who had reported these photos for a bit more background behind their decisions, they discovered that many of the reports were because users didn’t want the photo on Facebook reasons other than the options provided. In some cases it was because they didn’t like how they looked in the photo and in others it was because the photo was of an ex or even a beloved pet they shared with an ex.</p>
+
+<p>The existing photo reporting form had not done a good job of accounting for these more personal reasons for wanting a photo removed, so the Facebook engineers went to work. They added a step that asked <em>How does this photo make you feel?</em> The options were simple:</p>
+
+<ul>
+  <li>Embarrassing</li>
+  <li>Upsetting</li>
+  <li>Saddening</li>
+  <li>Bad Photo</li>
+  <li>Other</li>
+</ul>
+
+<p>The “other” option also provided a free-response field to fill in.</p>
+
+<p>With this system in place, they found that 50% of reporters would choose one of the provided options. That was pretty helpful, but there was still a problem: 34% of the “other” respondents were writing “It’s embarrassing” in the blank rather than choosing the “embarrassing” option already provided.</p>
+
+<p>What they realized was that people were not identifying with the “embarrassing” text (or may have even thought it was referring to them, rather than assuming the implied “It’s”). A subtle shift in language was needed, so they changed the label to <em>Please describe the photo</em>. And they updated the options to mirror how people actually talk:</p>
+
+<ul>
+  <li>It’s embarrassing</li>
+  <li>It’s a bad photo of me</li>
+  <li>It makes me sad</li>
+</ul>
+
+<p>With this subtle change, they were able to increase the percentage of photo reporters who chose one of the options provided to a whopping 78%.</p>
+
+<p>Sometimes we feel compelled to create forms that are very clinical. In the survey world we’re often taught to limit the “personality” of our forms in order to avoid influencing the responses.</p>
+
+<p>That said, we need to remember that we are authoring interfaces that will be used by actual people. When we are creating forms that don’t require that kind of scientific rigor, we can (and should) do whatever we can to make the interaction more human.</p>
+
+<p>Ask real questions: <em>What’s your name?</em>, <em>What’s your email?</em>, and <em>How would you prefer we contact you?</em> are far more friendly than <em>Name</em>, <em>Email</em>, and <em>Contact Preference</em>.</p>
+
+<p>A little thoughtful consideration for the people who need to fill in your form goes a long way toward making them feel at ease and also helps to ensure the feedback you receive is accurate, valuable, and actionable.</p>
+]]></content>
+  </entry>
+  
+</feed>

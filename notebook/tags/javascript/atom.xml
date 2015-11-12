@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Browse by Tag: Javascript | Aaron Gustafson]]></title>
+  <link href="https://www.aaron-gustafson.com/notebook/tags/javascript/atom.xml" rel="self"/>
+  <link href="https://www.aaron-gustafson.com/"/>
+  <updated>2015-11-11T20:29:54-05:00</updated>
+  <id>https://www.aaron-gustafson.com/</id>
+  <author>
+    <name><![CDATA[Aaron Gustafson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[More Proof We Don’t Control Our Web Pages]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/more-proof-we-dont-control-our-web-pages/"/>
+    <updated>2015-09-01T11:33:59-04:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/more-proof-we-dont-control-our-web-pages</id>
+    <content type="html"><![CDATA[<p>I’ve talked about this before: As web designers, <a href="http://www.aaron-gustafson.com/notebook/the-network-effect/">we can’t trust the network</a>. Sure, we have to contend with mobile data “dead zones” and dropped connections as our users move about throughout the day, but there’s a lot more to the network that’s beyond our control.</p>
+
+<!-- more -->
+
+<p>Here’s a roundup of some of my “favorite” network issue related headlines from the last few years:</p>
+
+<ul>
+  <li><a href="http://www.theguardian.com/technology/2014/jan/28/sky-broadband-blocks-jquery-web-critical-plugin">Sky Broadband misclassified the jQuery CDN as a malware site</a> and broke much of the web for their users.</li>
+  <li><a href="http://arstechnica.com/tech-policy/2014/09/why-comcasts-javascript-ad-injections-threaten-security-net-neutrality/">Comcast admitted to injecting self-promotional advertising</a> into web pages served by their Xfinity routers. (They have also been called out for <a href="https://blog.ryankearney.com/2013/01/comcast-caught-intercepting-and-altering-your-web-traffic/">artificially inflating subscriber bandwidth usage with their own crap</a>.)</li>
+  <li><a href="http://arstechnica.com/business/2015/08/united-in-flight-wi-fi-reportedly-blocks-ars-technica-and-new-york-times/">United was recently called out for blocking access to the <cite>New York Times</cite></a> on their in-flight Wi-Fi.</li>
+  <li><a href="http://webpolicy.org/2015/08/25/att-hotspots-now-with-advertising-injection/">Someone discovered AT&amp;T was injecting CSS, images, and JavaScript into pages</a> served via their airport hotspots.</li>
+  <li><a href="http://www.cnet.com/au/news/samsung-smart-tvs-forcing-ads-into-video-streaming-apps/">Samsung smart TVs were found to be injecting video ads</a> into video streaming apps.</li>
+  <li><a href="http://pleckey.me/blog/2013/09/11/sprint-mobile-broadband-injecting-3rd-party-javascript/">Sprint injects JavaScript into pages</a> served via its data connections.</li>
+  <li><a href="http://www.ecommercetimes.com/story/82117.html">Browser add-ins can inject their own advertisements</a>. They can also alter the DOM, load conflicting versions of JavaScript libraries, and more. Awesome, I know. (This is being addressed, but is a persistent issue when add-ins have the ability to manipulate the DOM.)</li>
+</ul>
+
+<p>Some of these issues can be avoided by serving content over HTTPS, but that still won’t enable you to bypass things like firewall blacklists (which led to the jQuery outage on Sky). Your best bet is to design defensively and make sure your users can still accomplish their goals on your site when some resources are missing or markup is altered.</p>
+
+<p>We can’t control what happens to us in this world, we can only control our reaction to it.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Lies, Damn Lies, and JavaScript]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/lies-damn-lies-and-javascript/"/>
+    <updated>2015-04-27T15:10:11-04:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/lies-damn-lies-and-javascript</id>
+    <content type="html"><![CDATA[<p>Late last week I stumbled on a video from <a href="https://twitter.com/graemepyle">Graeme Pyle</a> that exposed a UX lie in the <a href="https://www.fnb.co.za/">First National Bank of South Africa</a>.</p>
+
+<!-- more -->
+
+<p><figure id="fig-gpBWwl-Ngak" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--4x3"><a class="video-embed__lazy-link" style="background-image:url(https://i2.ytimg.com/vi/gpBWwl-Ngak/0.jpg);" href="//www.youtube.com/watch?v=gpBWwl-Ngak" data-lazy-video-src="https://www.youtube.com/embed/gpBWwl-Ngak?autoplay=1&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Shocking discovery: fnb.co.za progress bar a placebo!</div></a></div></figure></p>
+
+<p>On the off chance you don’t want to watch the video, I’ll recap: When accessing certain screens on the FNB site, a progress meter is shown to indicate new content is being flowed into the browser. But it’s not.</p>
+
+<p>As Graeme uncovered, the site uses JavaScript to create the progress bar, but the progress is not tied to anything except some basic JavaScript logic. The progress bar has no grounding in reality. It uses timeouts and follows a steady incrementation for a bit, then jumps up randomly for a bit before finishing.</p>
+
+<p>Taking the easy way out like this may seem like a non-issue, but what happens when your user loses network connectivity? You guessed it: The progress meter still runs. <em>Doh!</em></p>
+
+<p>Tracking true activity progress (like time to upload a file) involves constant communication between the server and the client. It used to be pretty difficult to do (and <a href="http://search.cpan.org/~lgoddard/CGI-ProgressBar-0.05/lib/CGI/ProgressBar.pm">required Perl</a>), but nowadays we have <a href="http://www.w3.org/TR/websockets/">WebSockets</a> and it’s much easier to keep the lines of communication between client and server open.</p>
+
+<p>There is no reason to fake a progress bar. It’s pointless. Especially when you don’t even check to see if the user’s connection is still online.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How to Apply Progressive Enhancement When JavaScript Seems Like a Requirement]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/how-to-apply-progressive-enhancement-when-javascript-seems-like-a-requirement/"/>
+    <updated>2015-04-02T10:14:40-04:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/how-to-apply-progressive-enhancement-when-javascript-seems-like-a-requirement</id>
+    <content type="html"><![CDATA[<p>On Stack Overflow last week, <a href="http://stackoverflow.com/users/4719194/jamham">JamHam</a> asked how to apply progressive enhancement in interfaces that seem to require JavaScript. Unfortunately he deleted the question before I could post my response, so I thought I would post it all here for posterity.</p>
+
+<!-- more -->
+
+<blockquote>
+  <p>I’ve been trying to make my site (a content publishing “web app”) work fully without JavaScript, however, I’ve found myself in situations where I can’t honestly think how I would do some features without it.</p>
+</blockquote>
+
+<blockquote>
+  <p>For instance:</p>
+</blockquote>
+
+<blockquote>
+  <ul>
+    <li>I have a form submission page where you change certain settings, and the form changes accordingly.This is alright, I can apply query strings in the url and have some logic in my layout so that certain fields are shown/hidden according to the query string. The thing is, I also need to update a “price” dynamically, according to what fields are filled in, how they are filled in, and some other factors, and I don’t honestly see how I could do that without JavaScript.</li>
+    <li>I have a messaging section where I’m using WebSockets (with the help of Socket.io). The UI of the messaging (and of course, the
+WebSockets) stuff pretty much depends on JavaScript, with ‘messages’ being created as they arrive and appended into DOM and also a form that allows you to quickly look up an user via AJAX so you can send a message easily, among many other things.</li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <p>I mean, I could probably come up with very complicated solutions for each situation, and obviously the functionality wouldn’t be the same. I’m thinking I might as well just require JavaScript for the whole thing</p>
+</blockquote>
+
+<blockquote>
+  <p>But it kinda sucks, since I’ve been making everything work without JavaScript, up until this point. And I would like some consistency across the whole site. In these kind of situations, is it acceptable to not support non-js clients? What would you suggest in this case?</p>
+</blockquote>
+
+<p>My response (which I was drafting when he deleted the question):</p>
+
+<blockquote>
+  <p>First off, I applaud your interest in using progressive enhancement. It will ensure the most users possible have access to your content and will also result in a more robust application overall. As a general guiding principle, look to the past. How did we solve these issues before widespread JavaScript availability? Those “Web 1.0” solutions will still work and can be overtaken by supplanted by your JavaScript solution whenever it is possible to do so.</p>
+</blockquote>
+
+<blockquote>
+  <p>Every situation is different, but it is even possible to reuse a lot of code in both scenarios.</p>
+</blockquote>
+
+<blockquote>
+  <p>Now to address your interfaces…</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Your Submission Page</strong> - I could be wrong, but this sounds like a shopping cart to me (at least in essence). You are on the right track with query parameters, but you could also store info about the cart (and the user’s capabilities) in a session or cookie.</p>
+</blockquote>
+
+<blockquote>
+  <p>In terms of updating the “cart”, a simple “update” submit button that posts the form and triggers a redirection back to this page with the updated info would be sufficient. And if you need to show or hide fields based on choices made, you simply apply that logic on the server side. You could even have the server generate that same markup into the page, but hidden for situations where JavaScript is available.</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Your Messaging App</strong> - This can seem like a daunting challenge, but before we had web sockets and even Ajax, we relied on a small form which posts messages to the back end and a running feed of messages being sent from the back-end. One of the most common way to handle this involved frames and a “meta refresh” like this one:</p>
+</blockquote>
+
+<blockquote>
+  <pre><code>&lt;meta http-equiv="refresh" content="30"&gt;
+</code></pre>
+</blockquote>
+
+<blockquote>
+  <p>That simple <code>meta</code> tag will make any browser refresh the page every 30 seconds. Now if you put that in an <code>iframe</code> to keep it from causing a refresh of the entire interface, any new messages would be picked up and displayed automatically at that interval (which you should tune to be appropriate for your app).</p>
+</blockquote>
+
+<blockquote>
+  <p>Once that is in place the page itself could even post to that frame by using the non-standard but well-supported <code>_target</code> attribute on the <code>form</code>.</p>
+</blockquote>
+
+<blockquote>
+  <p>Obviously with JavaScript enabled, you’d probably throw away that <code>iframe</code>, but the rest of the setup (including the templates for displaying the messages) could certainly be reused with WebSockets.</p>
+</blockquote>
+
+<p>I hope this helps. Progressive enhancement may seem like a huge challenge, but when you take a few moments to think about how we handled these challenges in the past, the way forward becomes clear.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Google Embraces Progressive Enhancement]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/google-embraces-progressive-enhancement/"/>
+    <updated>2014-10-28T21:07:35-04:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/google-embraces-progressive-enhancement</id>
+    <content type="html"><![CDATA[<p>In case you missed it, <a href="http://googlewebmastercentral.blogspot.com/2014/10/updating-our-technical-webmaster.html">yesterday Pierre Far updated Google’s Webmaster Guidelines</a>. In his post, Pierre lays out their case for <a href="https://en.wikipedia.org/wiki/Progressive_enhancement">progressive enhancement</a>:</p>
+
+<blockquote>
+  <p>Just like modern browsers, our rendering engine might not support all of the technologies a page uses. Make sure your web design adheres to the principles of progressive enhancement as this helps our systems (and a wider range of browsers) see usable content and basic functionality when certain web design features are not yet supported.</p>
+</blockquote>
+
+<!-- more -->
+
+<p>As someone who has been beating the drum for progressive enhancement for over a decade, this sort of support from such an influential company gets me a little teary-eyed.</p>
+
+<p>It’s nice to see Steve Champeon’s philosophy for web design finally beginning to gain traction outside of the ivory tower of Web standards. It is a fantastic philosophy that has been guiding our work since Steve unveiled it. And it has paid some handsome dividends for both us and our clients.</p>
+
+<p>If you need help wrapping your head around progressive enhancement, you should read <a href="#fn-2014-10-28">my introductory series for <cite>A List Apart</cite></a>. If you want more, there’s also <a href="http://adaptivewebdesign.info">my book on progressive enhancement: <cite>Adaptive Web Design</cite></a>. And if you need help getting your team up to speed, I’m more than happy to hop on a plane and come to you. Just <a href="/contact/">drop me a line</a>. I have helped many companies embrace this philosophy and have seen it improve their productivity, increase their reach by supporting more devices, and improve the accessibility of their products. Oh… and <a href="http://blog.easy-designs.net/archives/the-true-cost-of-progressive-enhancement">progressive enhancement has saved our clients real money and reduced their time to market</a>.</p>
+
+<p>I don’t tend to be a “magic pill” kind of believer, but I can honestly say that embracing progressive enhancement can radically change your business for the better. And I’m glad to see Google agrees with me.</p>
+
+<h2 id="fn-2014-10-28">My (still-relevant) 2008 series on Progressive Enhancement</h2>
+
+<ol>
+  <li><a href="http://www.alistapart.com/articles/understandingprogressiveenhancement/">Understanding Progressive Enhancement</a></li>
+  <li><a href="http://www.alistapart.com/articles/progressiveenhancementwithcss/">Progressive Enhancement with CSS</a></li>
+  <li><a href="http://www.alistapart.com/articles/progressiveenhancementwithjavascript/">Progressive Enhancement with JavaScript</a></li>
+</ol>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Missed Connections]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/missed-connections/"/>
+    <updated>2014-09-19T16:12:50-04:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/missed-connections</id>
+    <content type="html"><![CDATA[<p>Earlier today, <a href="http://www.kryogenix.org">Stuart Langridge</a>—who I worked with on WaSP’s DOM Scripting Task Force and have the utmost respect for—<a href="http://www.kryogenix.org/days/2014/09/19/fundamentally-connected/">published a blog response</a> to <a href="http://aaron-gustafson.com/notebook/2014/a-fundamental-disconnect/">my last post</a>. In it, he made some good points I wanted to highlight, but he also misunderstood one thing I said and managed to avoid addressing the core of my argument. As comments aren’t enabled on his site, I thought I’d respond here.</p>
+
+<!-- more -->
+
+<p>Let’s start with the good stuff:</p>
+
+<blockquote>
+  <p>Now, nobody is arguing that the web environment is occasionally challengingly different across browsers and devices. But a lot of it isn’t. No browser ships with a JavaScript implementation in which 1 and 1 add to make 3, or in which Arrays don’t have a length property, or in which the for keyword doesn’t exist. If we ignore some of the Mozilla-specific stuff which is becoming ES6 (things such as array comprehensions, which nobody is actually using in actual live code out there in the universe), JavaScript is pretty stable and pretty unchanging across all its implementations. Of course, what we’re really talking about here is the DOM model, not JavaScript-the-language, and to claim that “JavaScript can be the virtual machine” and then say “aha I didn’t mean the DOM” is sophistry on a par with a child asking “can I not not not not not have an ice-cream?”. But the DOM model is pretty stable too, let’s be honest. In things I build, certainly I find myself in murky depths occasionally with JavaScript across different browsers and devices, but those depths are as the sparkling waters of Lake Treviso by comparison with CSS across different browsers. In fact, when CSS proves problematic across browsers, JavaScript is the bandage used to fix it and provide a consistent experience — your keyframed CSS animation might be unreliable, but jQuery plugins work everywhere. JavaScript is the glue that binds the other bits together.</p>
+</blockquote>
+
+<p>To be honest, I could not agree more, nor could I put it more elegantly. JavaScript, as a language, is relatively stable in terms of its core API. Sure, there are some gaps that JavaScript libraries have always sought to even out, but by and large what works in one browser will work in another. Assuming, of course, JavaScript is available… but let’s come back to that.</p>
+
+<p>In this passage Stuart also highlights the quagmire that is CSS support. This is a great point to hammer home: we have no assurance that the CSS we write will be understood by or interpreted the same in every browser. This is why it is so important that we provide fallbacks like a hex value for that RGBa color we want to use. It pays have a solid understanding of how fault tolerance works because it helps us author the most robust code and ultimately leads to fewer browser headaches (and happier users). I devoted a huge portion of the CSS chapter in <a href="http://adaptivewebdesign.info">my book</a> to the topic.</p>
+
+<p>I also loved this passage:</p>
+
+<blockquote>
+  <p>Web developers are actually better than non-web developers. And Aaron explains precisely why. It is because to build a great web app is precisely to build a thing which can be meaningfully experienced by people on any class of browser and device and capability. The absolute tip-top very best “native” app can only be enjoyed by those to whom it is native. “Native apps” are poetry: undeniably beautiful when done well, but useless if you don’t speak the language. A great web app, on the other hand, is a painting: beautiful to experience and available to everybody. The Web has trained its developers to attempt to build something that is fundamentally egalitarian, fundamentally available to everyone. That’s why the Web’s good. The old software model, of something which only works in one place, isn’t the baseline against which the Web should be judged; it’s something that’s been surpassed. Software development is easiest if it only has to work on your own machine, but that doesn’t mean that that’s all we should aim for. We’re all still collaboratively working out exactly how to build apps this way. Do we always succeed? No. But by any measure the Web is the largest, most widely deployed, most popular and most ubiquitous computing platform the world has ever known. And its programming language is JavaScript.</p>
+</blockquote>
+
+<p>I’ll admit I got a little teary-eyed when he said <q>The Web has trained its developers to attempt to build something that is fundamentally egalitarian, fundamentally available to everyone.</q>. Stuart is bang on with this passage. Building the Web requires more of us than traditionally software development. In many ways, it asks us to be our best selves.</p>
+
+<p>The one thing I take issue with is that last sentence, but again, I’ll come back to it.</p>
+
+<p>In the middle, his post got a little off-track. Most likely it was because I was not as clear in my post as I could have been:</p>
+
+<blockquote>
+  <p>I am not at all sold that “we have knowledge of [the server environment] and can author your program accordingly so it will execute as anticipated” when doing server development. Or, at least, that’s possible, but nobody does. If you doubt this, I invite you to go file a bug on any server-side app you like and say “this thing doesn’t work right for me” and then add at the bottom “oh, and I’m running FreeBSD, not Ubuntu”. The response will occasionally be “oh really? we had better get that fixed then!” but is much more likely to be “we don’t support that. Use Ubuntu and this git repository.” Now, that’s a valid approach — we only support this specific known configuration! — but importantly, on the web Aaron sees requiring a specific browser/OS combination as an impractical impossibility and the wrong thing to do, whereas doing this on the server is positively virtuous. I believe that this is no virtue. Dismissing claims of failure with “well, you should be using the environment I demand” is just as large a sin on the server or the desktop as it is in the browser. You, the web developer, can’t require that I use your choice of browser, but equally you, the server developer, shouldn’t require that I use your particular exact combination of server packages either. Why do client users deserve more respect than server users? If a developer using your server software should be compelled to go and get a different server, how’s that different from asking someone to install a different web browser? Sure, I’m not expecting someone who built a server app running on Linux to necessarily also make it run on Windows (although wise developers will do so), but then I’m not really expecting someone who’s built a 3d game with WebGL to make the experience meaningful for someone browsing with Lynx, either.</p>
+</blockquote>
+
+<p>Here’s what he was reacting to:</p>
+
+<blockquote><p>If we’re writing server-side software in Python or Rails or even PHP, one of two things is true:</p><ol><li>We control the server environment: operating system, language versions, packages, etc.; or</li><li>We don’t control the server environment, but we have knowledge of it and can author your program accordingly so it will execute as anticipated.</li></ol></blockquote>
+
+<p>In this passage, I was talking about software we write for ourselves, our companies, and our clients. In those cases we do—or at least we <em>should</em>—know the environment our code is running in and can customize our code or the server build if a particular package or feature is missing. In fact, this is such a consistent need that we now have umpteen tools that empower us make recipes of server requirements so we can quickly build, configure, and deploy servers right from the command line. I would never write server-side code for a client running Windows without testing it on a carbon-copy of their Windows server. That would be reckless and unprofessional.</p>
+
+<p>If, however, I was writing code to sell or license to third parties, I’d fall into the second camp I outlined:</p>
+
+<blockquote>
+  <p>In the more traditional installed software world, we can similarly control the environment by placing certain restrictions on what operating systems our code can run on and what the dependencies for its use may be in terms of hard drive space and RAM required. We provide that information up front and users can choose to use our software or use a competing product based on what will work for them.</p>
+</blockquote>
+
+<p>Lots of people who offer software in this way provide an overview of hardware and software requirements for using their product, and that’s fine. But I feel Stuart was incorrectly lumping the two camps together. He asks “Why do client users deserve more respect than server users?” I agree with the sentiment—the lack of requirements documentation for some third party server utilities is certainly appalling—but if I choose to try installing a given utility or program without knowing if it will work on my system, that’s my choice. And, moreover, failing installs of server-side utilities is a concern that I—a technical-savvy software developer—can readily deal with (or at least that I am competent enough to solve with Google’s help). I don’t think we can expect the same of the people who read our content, check their bank balances on our systems, and whose experience and capabilities may not be the same as ours.</p>
+
+<p>Stuart brings his response to a close with the gloriously uplifting statement—<q>[B]y any measure the Web is the largest, most widely deployed, most popular and most ubiquitous computing platform the world has ever known.</q>—before declaring, unequivocally, <q>[I]ts programming language is JavaScript.</q> That sounds great, but it’s not entirely true.</p>
+
+<p>The first part is dead-on: the Web absolutely is <q>most popular and most ubiquitous computing platform the world has ever known</q>, but saying that the Web’s only programming language is JavaScript is a bit disingenuous. Yes, JavaScript is the de-facto programming language in the browser, but that’s only half of the equation: PHP, Perl, C++, Ruby, Java, Python… these (and many others) are the languages that drive the vast majority of the server-side processing that makes the dynamic Web possible. (Yes, JavaScript has made it onto the server side of things, but I don’t think that was what he was trying to say. Stuart, please correct me if I’m wrong.) These languages provide a fallback when JavaScript fails us. We need them.</p>
+
+<p>The fact is that you can’t build a robust Web experience that relies solely on client-side JavaScript. And that’s what disappointed me about Stuart’s post: he completely avoided addressing this, the main thrust of my argument. While JavaScript may technically be available and consistently-implemented across most devices used to access our sites nowadays, we do not control how, when, or even if that JavaScript is ultimately executed. That’s the disconnect.</p>
+
+<p>Any number of factors can bring our carefully-crafted JavaScript application to its knees. I mentioned a few in my post, but I’ll reiterate them here, along with a few others:</p>
+
+<ol>
+  <li><strong>Bugs</strong>: None of us write buggy code, of course, but even if we did, we have numerous safeguards that would prohibit that buggy code from making it into production. <a href="http://blogs.wsj.com/digits/2011/02/07/gawker-outage-causing-twitter-stir/">Right? Right!?</a> But what about third-party code? I have gotten a buggy version of jQuery from the Google Ajax CDN before. And I’ve certainly come across buggy jQuery plugins. And what about the JavaScript being injected by other third party services? Advertising networks… social widgets… we test all of that code too, right? Any errors or conflicts in JavaScript code can cause all JavaScript execution to stop.</li>
+  <li><strong>Browser Add-ons</strong>: We can’t control which add-ons or plugins our users have installed on their browser, but each and every one has the ability to manipulate the DOM, insert CSS, and inject scripts. If we don’t code defensively, we can spend hours trying to replicate a bug report only to ultimately discover the person reporting it had an add-on installed that was causing the issue. I’ve been there. It sucks.</li>
+  <li><strong>Man-in-the-Middle Attacks</strong>: Back in the olden days, we used to have to worry about JavaScript being blocked at the firewall as a security threat. That issue has largely gone away, but we still run into similar issues today: Sky accidentally blocked jQuery for all of their UK subscribers when they <a href="http://www.theguardian.com/technology/2014/jan/28/sky-broadband-blocks-jquery-web-critical-plugin">mistakenly flagged the hosted version of jQuery as malware and filtered it out</a>. And routers are capable of injecting code that can break our pages too: <a href="http://aaron-gustafson.com/notebook/2014/the-network-effect/">I wrote about Comcast doing it the other day</a> and then experienced a similar issue with the Atlanta airport’s free Wi-Fi while on my way home from BlendConf. Sadly, unless we send everything via SSL, we can’t even control what code ultimately gets delivered to our users.</li>
+  <li><strong>Underpowered Hardware</strong>: Some devices just don’t have the RAM to store or processing power to execute large JavaScript frameworks. If we’re using one, we could be dead in the water. Oh, and iOS sandboxes in-app browsers and <a href="http://sealedabstract.com/rants/why-mobile-web-apps-are-slow/">they run really slowly</a> compared to the native Safari browser (which is already pretty slow compared to desktop browsers). If someone opens a link to our site in the Twitter app or if we are using a native app wrapper around our Web experience, the whole thing may… just… crawl.</li>
+  <li><strong>Still Loading</strong>: While our JavaScript is being downloaded, processed, and executed, it’s not running. So, if JavaScript is a requirement for any interaction, the site could appear frozen until the browser finishes dealing with it.</li>
+</ol>
+
+<p>All of this adds up to JavaScript being the biggest potential single point of failure in our Web experience.</p>
+
+<p>Again, it’s not that JavaScript is a bad thing; I love JavaScript and write it every day—some days it’s all I do. But when we write JavaScript, its critical that we recognize that we can’t be guaranteed it will run. We need a backup plan and that’s what progressive enhancement asks of us. If we do that, our bases are covered and we can sleep soundly knowing that our users are happy because they can do what they need to do, no matter what.</p>
+
+<p>And I, for one, enjoy sleeping.</p>
+]]></content>
+  </entry>
+  
+</feed>

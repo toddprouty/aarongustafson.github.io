@@ -1,244 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title><![CDATA[Aaron Gustafson Latest Posts &amp; Links]]></title>
-	<link href="https://www.aaron-gustafson.com/atom.xml" rel="self"/>
-	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-11-11T20:29:54-05:00</updated>
-	<id>https://www.aaron-gustafson.com/</id>
-	<author>
-		<name><![CDATA[Aaron Gustafson]]></name>
-		
-	</author>
-	<generator uri="http://octopress.org/">Octopress</generator>
 
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Aural UI of HTML Elements]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/aural-ui-of-html-elements/"/>
-				<updated>2015-11-11T11:12:32-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/aural-ui-of-html-elements</id>
-				<content type="html"><![CDATA[<p>This is an indispensible resource for understanding how screen readers treat your markup. Many thanks to the <a href="http://www.paciellogroup.com/">Paciello Group</a> for putting it together.</p>
-<p><a rel="full-article" href="http://thepaciellogroup.github.io/AT-browser-tests/">Read on The Paciello Group’s Github&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[50 Female Tech Influencers You Need to Follow on Twitter]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/50-female-tech-influencers-to-follow-on-twitter/"/>
-				<updated>2015-11-10T15:12:39-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/50-female-tech-influencers-to-follow-on-twitter</id>
-				<content type="html"><![CDATA[<p>Just what it says on the tin. It’s a great compliment to <a href="https://www.aaron-gustafson.com/notebook/excellent-speakers-for-your-next-tech-event/">the recommended speaker list I published</a>.</p>
-<p><a rel="full-article" href="http://skillcrush.com/2015/11/04/50-female-tech-influencers-to-follow-on-twitter/">Read on Skillcrush&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Analytics Confirm the Need for Adaptive Web Design]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/analytics-confirm-the-need-for-adaptive-web-design/"/>
-				<updated>2015-11-10T14:52:28-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/analytics-confirm-the-need-for-adaptive-web-design</id>
-				<content type="html"><![CDATA[<p>I cite this post a ton in my talks and workshops (and in <a href="http://adaptivewebdesign.info/2nd-edition/">the forthcoming second edition of <cite>Adaptive Web Design</cite></a>), but I realized I had not explicitly linked it up here.</p>
+  <title><![CDATA[Browse by Tag: Business | Aaron Gustafson]]></title>
+  <link href="https://www.aaron-gustafson.com/notebook/tags/business/atom.xml" rel="self"/>
+  <link href="https://www.aaron-gustafson.com/"/>
+  <updated>2015-11-11T20:29:54-05:00</updated>
+  <id>https://www.aaron-gustafson.com/</id>
+  <author>
+    <name><![CDATA[Aaron Gustafson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
-<p>This post is a look at browser stats for an industry/research site over a size year period of 6 years. Jason’s findings are astonishing, making this post a must-read for coming to terms with the need for designing with progressive enhancement in mind.</p>
-<p><a rel="full-article" href="http://blog.jasonsamuels.net/post/21633531278/analytics-confirm-the-need-for-adaptive-web-design">Read on Jason Samuels (Tech Thoughts)&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[The Changing Form of the Web Browser]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/the-changing-form-of-the-web-browser/"/>
-				<updated>2015-11-10T14:48:46-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/the-changing-form-of-the-web-browser</id>
-				<content type="html"><![CDATA[<p>This is an interesting thought piece from <a href="http://www.broken-links.com/">Peter Gasston</a>, examining where browsers are heading and what their role in the future of delivering content and interaction will be.</p>
-<p><a rel="full-article" href="http://rehabstudio.com/thinking/the-changing-form-of-the-web-browser/">Read on +-rehabstudio&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Supercharging JavaScript Performance With asm.js]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/supercharging-javascript-performance-with-asm-js/"/>
-				<updated>2015-11-10T14:39:51-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/supercharging-javascript-performance-with-asm-js</id>
-				<content type="html"><![CDATA[<p>I’m intrigued by the power of <a href="http://asmjs.org/spec/latest/">asm.js</a>, but have not found a use for it…yet. I hope to resolve that in the future.</p>
-
-<p>Regardless, it’s native in <a href="https://www.microsoft.com/en-us/windows/microsoft-edge">Microsoft Edge</a> now, so that’s pretty badass.</p>
-<p><a rel="full-article" href="http://blogs.windows.com/msedgedev/2015/11/10/supercharging-javascript-performance-with-asm-js/">Read on Microsoft Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Opt Out From Online Behavioral Advertising by Participating Companies]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/choices/"/>
-				<updated>2015-11-10T14:22:42-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/choices</id>
-				<content type="html"><![CDATA[<p>Did you know you can opt out of behavior-tracking advertising cookies? Neither did I.</p>
-<p><a rel="full-article" href="http://www.aboutads.info/choices/">Read on Digital Advertising Alliance&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Why Computer Programmers Should Stop Calling Themselves Engineers]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/414271/"/>
-				<updated>2015-11-10T14:17:13-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/414271</id>
-				<content type="html"><![CDATA[<p>I have been grappling with a lot of the concerns this fantastic article raises. In particular, this bit resonated with me:</p>
-
-<blockquote>
-  <p>Would-be “engineers” are encouraged to think of every project as a potential business ready to scale and sell, rather than as a process of long-term training in disciplines where concerns for social welfare become paramount. Engineering has always been a well-paid profession, but computing is turning it into a type of speculative finance rather than a calling.</p>
-</blockquote>
-
-<p>It’s a generalization, but it’s also a trend I’ve been seeing. I’m also on the fence regarding licensure and continuing education credits. I think they could do a lot to improve the state of the Web without destroying the wonderful DIY nature of its accessibility.</p>
-<p><a rel="full-article" href="http://www.theatlantic.com/technology/archive/2015/11/programmers-should-not-call-themselves-engineers/414271/">Read on The Atlantic&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Less Content Marketing, More Quality Content]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/less-content-marketing-more-quality-content/"/>
-				<updated>2015-11-10T14:05:53-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/less-content-marketing-more-quality-content</id>
-				<content type="html"><![CDATA[<p>I’ll just let <a href="http://www.gerrymcgovern.com/">Gerry</a> say it:</p>
-
-<blockquote>
-  <p>If there has been a constant in my 20+ years of consulting with websites it is that most websites produce far too much low quality ego content. This is true for both commercial, government and non-profit websites.</p>
-</blockquote>
-
-<blockquote>
-  <ul>
-    <li>Telenor of Norway deleted almost 90% of their pages. Conversions went up by 100%. Support requests went down by 35%</li>
-    <li>The Norwegian Cancer Society removed almost 90% of their content and saw extremely positive results.</li>
-    <li>The US Department of Health deleted 150,000 of their 200,000 pages. Nobody noticed.</li>
-    <li>Columbia University of Chicago deleted 97% of their pages. Student application inquiries went up by 80%</li>
-    <li>Liverpool City went from 4,000 pages to 700 on their website. Support requests went down and online reporting went up.</li>
-  </ul>
-</blockquote>
-
-<p>Clear, well-written content is appreciated (and actionable) by your users.</p>
-<p><a rel="full-article" href="http://www.gerrymcgovern.com/new-thinking/less-content-marketing-more-quality-content">Read on Gerry McGovern&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Panels and Panel Sets]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/panels-and-panel-sets/"/>
-				<updated>2015-11-10T14:01:47-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/panels-and-panel-sets</id>
-				<content type="html"><![CDATA[<p>This is an interesting proposal for generic <code>panel</code> and <code>panelset</code> (and <code>paneltitle</code>) elements that would function well for marking up accordion, tabbed, and carousel interfaces.</p>
-<p><a rel="full-article" href="http://radar.oreilly.com/2015/11/panels-and-panel-sets.html">Read on O’Reilly Radar&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Future of Web Design &amp; Øredev]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/future-of-web-design-and-oredev/"/>
-				<updated>2015-11-09T15:17:15-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/future-of-web-design-and-oredev</id>
-				<content type="html"><![CDATA[<p>Between <a href="https://futureofwebdesign.com/nyc-2015/">Future of Web Design</a> in New York City and <a href="http://lanyrd.com/2015/oredev/">Øredev</a> in Malmö, Sweden, I was a busy boy last week. I delivered three talks and a workshop in total and am a bit exhausted.</p>
-
-<!-- more -->
-
-<p>Øredev has already posted videos of my talks to their Vimeo account, so I’ve included links to them here along with links to the slide decks, so you can download them if you’d like:</p>
-
-<h2 id="falling-in-love-with-forms">Falling in Love with Forms</h2>
-
-<figure id="fig-144870932" class="figure figure--video"><div class="video-embed video-embed--vimeo video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(https://i.vimeocdn.com/video/542903228_1280.jpg)" href="//vimeo.com/144870932" data-lazy-video-src="//player.vimeo.com/video/144870932?autoplay=1"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">FALLING IN LOVE WITH FORMS</div></a></div></figure>
-
-<p>This one’s a survey of current forms best practices. This one’s a bit abbreviated from my previous iterations as the talks were only 40 minutes at FoWD and Øredev, but I distilled out the most important bits.</p>
-
-<ul>
-  <li><strong>Slides</strong>: http://www.slideshare.net/AaronGustafson/falling-in-love-with-forms-redev-2015</li>
-  <li><strong>Video</strong>: https://vimeo.com/144870932</li>
-</ul>
-
-<h2 id="there-are-no-buts-in-progressive-enhancement">There Are No “Buts” in Progressive Enhancement</h2>
-
-<figure id="fig-144979022" class="figure figure--video"><div class="video-embed video-embed--vimeo video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(https://i.vimeocdn.com/video/542999481_1280.jpg)" href="//vimeo.com/144979022" data-lazy-video-src="//player.vimeo.com/video/144979022?autoplay=1"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">THERE ARE NO “BUTS” IN PROGRESSIVE ENHANCEMENT</div></a></div></figure>
-
-<p>Wherein I dispel the myth that progressive enhancement has no place in news, healthcare, education, financial, commerce, and single-page app websites. Lots of goodies in here.</p>
-
-<p>This version is an updated 40-minute distillation of the hour and a half talk <a href="http://jennlukas.com/">Jenn Lukas</a> and I gave at <a href="https://uxim15.uie.com/">UX Immersion Mobile</a> back in April. The video of that one is available from <a href="https://aycl.uie.com/">UIE’s All You Can Learn</a>. Jenn designed the slides and <a href="http://cargocollective.com/mattsutter">Matt Sutter</a> did the wonderful illustrations.</p>
-
-<ul>
-  <li><strong>Slides</strong>: http://www.slideshare.net/AaronGustafson/there-are-no-buts-in-progressive-enhancement-redev-2015</li>
-  <li><strong>Video</strong>: https://vimeo.com/144979022</li>
-</ul>
-]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[How Our CSS Framework Helps Enforce Accessibility]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/how-our-css-framework-helps-enforce-accessibility/"/>
-				<updated>2015-11-09T15:14:12-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/how-our-css-framework-helps-enforce-accessibility</id>
-				<content type="html"><![CDATA[<p>I love this post so much. The tab example is pretty much identical to the approach I’ve been using for a while now.</p>
-
-<p>By making our selectors tied to proper semantic choices, we limit the likelihood that poor decisions will be made in HTML and covered up by CSS and JavaScript (which also introduce additional dependencies we aren’t guaranteed will make it to our users).</p>
-
-<p>Read it. Ruminate on it. Implement it.</p>
-<p><a rel="full-article" href="http://www.ebaytechblog.com/2015/11/04/how-our-css-framework-helps-enforce-accessibility/">Read on eBay Tech Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Accessibility Requires App Developers to Consider Every End User]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/mobile-accessibility-end-user/"/>
-				<updated>2015-11-09T15:01:45-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/mobile-accessibility-end-user</id>
-				<content type="html"><![CDATA[<p>There’s a ton of great info in this article, but this one little bit is definitely worth calling out:</p>
-
-<blockquote>
-  <p>Android app developers know that there are over 24,000 devices in the marketplace that can potentially run their app. The number of end users that can be reached is staggering and that sheer volume of individuals means that app developers tailor their build for the majority of users and not the minority. iOS developers don’t have the same level of device fragmentation but there are over 1.5 billion apps in the App Store and (again) millions of end users to think about.</p>
-</blockquote>
-
-<p>Now consider that this is focused purely on native apps and not products delivered on the Web. We should do everything in our power to deliver <em>positive experiences</em> to our users while simultaneously recognizing that it is impossible to deliver <em>the same experience</em> to each of them.</p>
-<p><a rel="full-article" href="http://arc.applause.com/2015/11/02/mobile-accessibility-end-user/">Read on Arc&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Dear Microsoft, I'm Confused.]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/BB1C957ADE9DB90816B21F2806CB3AEB/"/>
-				<updated>2015-10-30T10:36:28-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/BB1C957ADE9DB90816B21F2806CB3AEB</id>
-				<content type="html"><![CDATA[<p>A funny love letter (of sorts) to Microsoft from SitePoint’s Managing Editor.</p>
-<p><a rel="full-article" href="http://go.sitepoint.com/t/ViewEmail/y/FC49DD479BFA7019/BB1C957ADE9DB90816B21F2806CB3AEB">Read on SitePoint&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[A Brief History of That Time You Used Web Fonts]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/a-brief-history-of-that-time-you-used-web-fonts/"/>
-				<updated>2015-10-29T14:58:15-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/a-brief-history-of-that-time-you-used-web-fonts</id>
-				<content type="html"><![CDATA[<p>This looks like an excellent talk from <a href="http://www.zachleat.com/web/">Zach Leatherman</a>. It’s packed with useful recommendations. I hope the video’s posted soon!</p>
-
-<p>Slides that made me laugh out loud: <a href="https://speakerdeck.com/zachleat/a-brief-history-of-that-time-you-used-web-fonts/#84">84</a> &amp; <a href="https://speakerdeck.com/zachleat/a-brief-history-of-that-time-you-used-web-fonts/#85">85</a>.</p>
-<p><a rel="full-article" href="https://speakerdeck.com/zachleat/a-brief-history-of-that-time-you-used-web-fonts">Read on Speaker Deck&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Excellent Speakers for Your Next Tech Event]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/excellent-speakers-for-your-next-tech-event/"/>
-				<updated>2015-10-28T09:28:09-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/excellent-speakers-for-your-next-tech-event</id>
-				<content type="html"><![CDATA[<p>Like many, I’m disappointed that gender—or ethnicity, etc., etc., etc.—should even have to play a role when it comes to selecting awesome speakers, but the reality is that the dais at most tech-related events and conferences is still occupied (largely) by white men. That needs to change. We’ve been very intentional with our programming of <a href="codeandcreativity.com">Code &amp; Creativity</a>, but it wasn’t like it was hard to find <a href="http://www.codeandcreativity.com/events/">an incredible speaker lineup that also happened to be pretty diverse</a>.</p>
+  
+  <entry>
+    <title type="html"><![CDATA[Excellent Speakers for Your Next Tech Event]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/excellent-speakers-for-your-next-tech-event/"/>
+    <updated>2015-10-28T09:28:09-04:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/excellent-speakers-for-your-next-tech-event</id>
+    <content type="html"><![CDATA[<p>Like many, I’m disappointed that gender—or ethnicity, etc., etc., etc.—should even have to play a role when it comes to selecting awesome speakers, but the reality is that the dais at most tech-related events and conferences is still occupied (largely) by white men. That needs to change. We’ve been very intentional with our programming of <a href="codeandcreativity.com">Code &amp; Creativity</a>, but it wasn’t like it was hard to find <a href="http://www.codeandcreativity.com/events/">an incredible speaker lineup that also happened to be pretty diverse</a>.</p>
 
 <!-- more -->
 
@@ -334,70 +114,128 @@
 
 <p>If you’re looking for an even more exhaustive list of incredible speakers, you should check out <a href="http://articulate-network.lanyrd.com/speakers/">the Articulate Network</a> on Lanyrd.</p>
 ]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[NPR.org Now Twice as Fast]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/npr-org-now-twice-as-fast/"/>
-				<updated>2015-10-28T09:27:11-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/npr-org-now-twice-as-fast</id>
-				<content type="html"><![CDATA[<p>An excellent overview of some significant upgrades to NPR.org along with some advice to web developers.</p>
-<p><a rel="full-article" href="http://www.npr.org/sections/thisisnpr/2015/10/27/451147757/npr-org-now-twice-as-fast">Read on NPR&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Net Awards: Outstanding Contribution]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/net-awards-outstanding-contribution/"/>
-				<updated>2015-10-27T12:34:57-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/net-awards-outstanding-contribution</id>
-				<content type="html"><![CDATA[<p>No one was more deserving of this award than <a href="http://www.molly.com">Molly</a>. No one.</p>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Apple, Business, and Standards]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/apple-business-and-standards/"/>
+    <updated>2015-02-26T10:44:40-05:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/apple-business-and-standards</id>
+    <content type="html"><![CDATA[<p>At <a href="http://www.codeandcreativity.com/events/2015-02-24">Tuesday night’s Code &amp; Creativity</a>, digital governance expert <a href="https://twitter.com/lwelchman">Lisa Welchman</a> equated digital projects to an atom. Content, IA, project management, networking, graphic design, application development, performance, and other concerns are flying this way and that like electrons—a swirling mass of energy and velocity. What holds this chaos together and keeps the electrons from flying off in all directions is the magnetic pull of protons in the nucleus of the atom.</p>
 
-<p>Thank you for all you have done for the Web Mols! And, especially, thank you for all you have done for me.</p>
-<p><a rel="full-article" href="http://www.molly.com/2015/10/24/net-awards-outstanding-contribution/">Read on mollydotcom&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Crossposting to Medium From Jekyll]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/crossposting-to-medium-from-jekyll/"/>
-				<updated>2015-10-26T15:27:00-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/crossposting-to-medium-from-jekyll</id>
-				<content type="html"><![CDATA[<p>Last week, <a href="https://adactio.com/journal/9694">Jeremy Keith posted about syndicating his content to Medium using their new API</a>. Before they added <a href="https://github.com/Medium/medium-api-docs">the API</a>, there was no way to automatically publishing to <a href="https://medium.com">Medium</a> from your own blog. And doing it manually was quite tedious.</p>
+<!-- more -->
 
-<p>Jeremy posted in detail about how to set it all up and provided <a href="https://gist.github.com/adactio/c174a4a68498e30babfd">the PHP code he’s using</a> to make it all work. As I’m running a static site on <a href="http://octopress.org/">Octopress</a>, I ported it to Ruby as a <a href="http://jekyllrb.com/docs/plugins/#generators">Jekyll Generator</a>. I’ve <a href="https://github.com/aarongustafson/jekyll-crosspost_to_medium">posted it to Github</a>, so you can grab it there if you so desire.</p>
-]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Your Computer School Sucks]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/your-computer-school-sucks/"/>
-				<updated>2015-10-21T11:11:37-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/your-computer-school-sucks</id>
-				<content type="html"><![CDATA[<p>Accessibility is an afterthought in much of our industry. In order to change that, education needs to change and code schools need to change. Karl nails it in this post:</p>
+<figure id="fig-2015-02-26-01" class="media-container">
+	<img src="https://www.aaron-gustafson.com/i/posts/2015-02-26/atom-sm.jpg" srcset="/i/posts/2015-02-26/atom-lg.jpg 800w, /i/posts/2015-02-26/atom-sm.jpg 320w" alt="A slide from Lisa Welchman’s talk showing Web Standards and KPI at the center of the project “atom”." />
+</figure>
+
+<p>In Lisa’s analogy, the protons of a digital project are Web standards and Key Performance Indicators (KPIs). She believes that without these key ingredients, projects will often career out of control. Her reasoning? We all need to know how we should be doing things in order to work together well (Web standards) and we need to know what our expectations are for the project to be successful (KPI).</p>
+
+<p>This really resonated with me. Mainly, it resonated because I am a Web standards guy, but I also believe in the importance of standards across the board. I think projects need copywriting standards, design standards, performance standards, coding standards, and many other kinds of standards as well. Standards hold a project together. For real.</p>
+
+<p>That’s why <em>Web</em> standards are so important.</p>
+
+<p>Without standards, the Web was <a href="http://en.wikipedia.org/wiki/Browser_wars">an unruly mass of spaghetti code</a>.  I started working on the Web in 1996. I know, I lived it.</p>
+
+<p>We used to deliver separate browser-specific JavaScript and CSS files to different User Agents. Our HTML code had to be 3-4 times as hefty to support all of the various ways browsers had decided to implement the same features. It was horrible and made building anything remotely interesting a truly painful endeavor.</p>
+
+<p>Then browser makers got together to codify HTML into a generally agreed-upon set of elements and attributes that would allow authors like me to write pages that would Just Work™. That work extended into CSS, and so on, and so forth. I can’t thank them enough for doing that.</p>
+
+<p>Tuesday also saw the W3C officially make <a href="http://www.w3.org/TR/pointerevents/">Pointer Events</a> a recommendation. I’d always liked the idea of Pointer Events because it abstracts the traditional concept of a click into a generic interaction that could be triggered by a mouse, a finger, a pen, an eye movement, or any other interaction method we come up with in the future. Sure, I work for Microsoft now—they proposed this idea—but that isn’t the reason I like the concept. I like it because it doesn’t tie us down to a single way of interacting with Web content that necessitates the creation of new specs when new interaction methods are invented. It’s future friendly and embraces the “continuum of experience” I evangelize incessantly.</p>
+
+<p>When Pointer Events were first proposed, there was a lot of support behind them. Obviously Microsoft was on board, but Mozilla was too. And Google was all about Pointer Events for a while and was already using them when <a href="https://code.google.com/p/chromium/issues/detail?id=162757#c64">they did an abrupt  about-face and decided they were ripping them out of Blink in favor of overhauling Touch Events</a> (which Apple supports and which Pointer Events were intended to supersede).</p>
+
+<p>And so now we have a recommendation from the W3C that browsers implement Pointer Events. <a href="http://blog.jquery.com/2015/02/24/getting-on-point/">Developers want them</a> and it seems Apple doesn’t. And because Apple doesn’t want them, Google doesn’t want them now either. To quote Rick Byers (of Google) in <a href="https://lists.w3.org/Archives/Public/public-pointer-events/2014JulSep/0071">a Pointer Events meeting in late 2014</a>:</p>
 
 <blockquote>
-  <p>While Hacker You should be applauded for their regular lunch-and-learns, I think that all computer schools should include accessibility embedded in core curriculum. It will create an alumni population better prepared to create interfaces that are universally usable. Their alumni will be differentiated by their ability to consider the user’s needs. After all, if you’re not developing for the user, who are you developing for?</p>
+  <p>No argument that PE is more elegant. If we had a path to universal input that all supported, we would be great with that, but not all browsers will support PE. If we had Apple on board with PE, we’d still be on board too. The equation has shifted for us.</p>
 </blockquote>
-<p><a rel="full-article" href="http://www.karlgroves.com/2015/10/18/your-computer-school-sucks/">Read on Karl Groves&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Restoration of Defocused and Blurred Images]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/BlurredImagesRestoration1/"/>
-				<updated>2015-10-20T11:48:37-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/BlurredImagesRestoration1</id>
-				<content type="html"><![CDATA[<p>Time to stop blurring sensitive client information in your slide decks and articles. Cover it in a black box instead.</p>
-<p><a rel="full-article" href="http://yuzhikov.com/articles/BlurredImagesRestoration1.htm">Read on Yuzhikov.com&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
+
+<p>So, effectively, Apple is holding the Web back. <a href="https://twitter.com/tkadlec">Tim Kadlec</a> wrote <a href="http://timkadlec.com/2015/02/apples-web/">a great piece discussing the core issue at play here</a>:</p>
+
+<blockquote>
+  <p>Let’s set any opinions about Pointer Events aside. Frankly, I need to do a <em>lot</em> more digging here before I have any sort of strong opinion in one direction or another. There is a bigger issue here. We have a recurring situation where all vendors (save for Apple) show interest in standard, but because Apple does not express that same interest, the standard gets waylaid.</p>
+</blockquote>
+
+<figure id="fig-2015-02-25-02" class="media-container media-container--right">
+	<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Yin_yang.svg/200px-Yin_yang.svg.png" srcset="http://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Yin_yang.svg/800px-Yin_yang.svg.png 800w, http://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Yin_yang.svg/400px-Yin_yang.svg.png 400w, http://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Yin_yang.svg/200px-Yin_yang.svg.png 200w" alt="Yin and yang." />
+</figure>
+
+<p>This whole thing has caused quite a kerfuffle in the Web community. Obviously, some people are demonizing Apple (and, by proxy, Google) for holding us back. Others are quick to excuse Apple because of their history of pushing the Web forward (see CSS transitions, animations, etc.).<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> Personally, I don’t think anything is ever truly black and white. Every company does some good things and some bad things. To channel Lisa Welshman again, it’s like yin and yang: The light has a little bit of the dark in it, and the dark has a little bit of the light in it.</p>
+
+<p>Generally, I’ve found that Apple tends to do what is best for Apple, without considering how it affects designers, developers, or the Open Web. On this issue however, I just haven’t figured out their angle yet.</p>
+
+<p>Some of their past decisions have offered a clear view into their motivations. Take offline for instance. Apple supports the <a href="http://www.w3.org/TR/html5/browsers.html#offline">Application Cache API</a> (as <a href="http://caniuse.com/#feat=offline-apps">most modern browsers do</a>), but there’s a catch: You can’t store audio files in the cache. That makes it nearly impossible to build a decent game in HTML because you won’t get sound effects if you aren’t connected to the Web. But for Apple it makes perfect sense: They sell games in the App Store.</p>
+
+<p>Their motivations behind other decisions are more murky, however. For example, Safari implements the <a href="https://html.spec.whatwg.org/multipage/forms.html#client-side-form-validation">HTML5 Form Validation API</a>, which means it knows if a field is valid or invalid. The catch? It won’t halt the submission of an invalid form. <a href="http://caniuse.com/#search=form%20validation">Every other modern browser acts as you’d expect.</a><sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup> I don’t get it. I used to think/hope they just had not figured out how they wanted to handle notifying the user of the error, but it’s been like this for about 5 years.</p>
+
+<p>I’ll let Tim jump in again here:</p>
+
+<blockquote>
+  <p>Apple has a very, very strong influence over what standards get adopted and what standards do not. Partly it’s market share, partly it’s developer bias (see, for example, how other vendors eventually felt forced to start supporting the <code>webkit</code> prefix due to vendor prefix abuse).</p>
+</blockquote>
+
+<blockquote>
+  <p>Apple simply does not play well with other vendors when it comes to standardization. The same sort of things we once criticized Microsoft for doing long ago, we give Apple a pass on today. They’re very content to play in their own little sandbox all too often.</p>
+</blockquote>
+
+<p>He’s channeling <a href="https://adactio.com/journal/5442/#comment438">a bit of Remy Sharp there</a> (circa 2012):</p>
+
+<blockquote>
+  <p>When are we, as a web development community, going to stop giving Apple a free fucking pass?</p>
+</blockquote>
+
+<blockquote>
+  <p>They’re consistently lacking in the open discussion in to improving the gateway to the web: the browser. Sure, they landed an impressive mobile browsing experience back when the iPhone launched and it’s a great device, but there’s some serious questioning about whether they’re purposely cock-blocking web development and purposely hindering our advancement as a web industry.</p>
+</blockquote>
+
+<blockquote>
+  <p>WebGL is in mobile Safari, yet only available if accessed via a WebView object, not the real Safari (which is a WebView anyway…). It was recently discovered that they moved all web data storage (Web Storage, Appcache, etc) in a temporary data store meaning that it can be wiped at any time without warning.</p>
+</blockquote>
+
+<blockquote>
+  <p>Even the mighty PPK who tells entire browser vendors “fuck you”, doesn’t call Apple out, allowing them to slither on.</p>
+</blockquote>
+
+<blockquote>
+  <p>Why is it we continue to allow Apple to get away with it? And can this ever change?</p>
+</blockquote>
+
+<p>As Tim points out, Apple certainly isn’t the only company that plays games when it comes to standards:</p>
+
+<blockquote>
+  <p>The other vendors aren’t exactly perfect either. The Microsoft folks, no doubt reeling from all the negativity aimed at them over the years, have more than once been content to let everyone else duke it out over a standard, only getting involved late when a consensus has been reached. The Blink folks, despite being the best positioned to take a stand, have been happy to play the “Apple won’t do it so I guess we won’t either” card on multiple occasions.</p>
+</blockquote>
+
+<p>But he’s also quick to highlight the disappointing reality about Apple with respect to the other browser vendors:</p>
+
+<blockquote>
+  <p>It’s easy to reach the Mozilla, Google and Microsoft folks to discuss their thoughts on these emerging standards. That’s a much harder thing to do with the Apple crew.</p>
+</blockquote>
+
+<p>Apple is very much a black box and their processes are incredibly opaque. Now I’m no hater, I use their products daily.<sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup>, but I am also not an apologist. I think relationships are improved with honesty and openness. I honestly wish Apple’s processes—at least when it comes to the Web—were more open.<sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup> Heck, they often don’t even show up to meetings at the W3C. If we knew what they were thinking or why they were doing things, we could at least understand where they were coming from rather than having to speculate about their motivations. Whether we agree or not is irrelevant.</p>
+
+<p>Regardless, we are where we are and I can’t help but wonder one thing: <em>If we stop giving Apple a free pass and continue marching forward without them, will they eventually be forced to scramble to catch up like Microsoft did when IE6 sat on the shelf for so long?</em> I don’t know what the answer is, but I sincerely hope they come around and begin to treat the Web with the respect it deserves before that happens.</p>
+
+<p>When browsers refuse to implement Web standards, we all lose. And we take one step closer to the swirling pit of chaos and spaghetti code we thought we’d put behind us.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>All of which were (in true Apple style) developed in secret and then bestowed upon the world in a grand spectacle. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>Ok, Opera Mini doesn’t, but Opera Mini is also a different sort of browser. It is a proxy browser and the proxy handles all of the back and forth between the browser and the website’s origin server(s). <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>I am composing this post on a Mac… provided by Microsoft. Yes, you read that correctly. <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:4">
+      <p>I have felt the same way about Microsoft for years because I knew the great work they were doing behind the curtains. Part of the reason <a href="/notebook/ch-ch-ch-changes/">I joined them earlier this month</a> was because they have been opening up and I want to encourage and nurture that. <a href="#fnref:4" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
 </feed>

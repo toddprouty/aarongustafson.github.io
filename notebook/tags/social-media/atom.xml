@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Browse by Tag: Social Media | Aaron Gustafson]]></title>
+  <link href="https://www.aaron-gustafson.com/notebook/tags/social-media/atom.xml" rel="self"/>
+  <link href="https://www.aaron-gustafson.com/"/>
+  <updated>2015-11-11T20:29:54-05:00</updated>
+  <id>https://www.aaron-gustafson.com/</id>
+  <author>
+    <name><![CDATA[Aaron Gustafson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Creepy Namefellow]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/creepy-namefellow/"/>
+    <updated>2015-01-22T17:27:27-05:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/creepy-namefellow</id>
+    <content type="html"><![CDATA[<p>So yeah, this happened:</p>
+
+<figure id="2015-01-22-2" class="media-container">
+	<img src="https://www.aaron-gustafson.com/i/posts/2015-01-22/creepy-sm.png" srcset="/i/posts/2015-01-22/creepy-lg.png 1062w, /i/posts/2015-01-22/creepy-md.png 600w, /i/posts/2015-01-22/creepy-sm.png 320w" alt="" />
+	<figcaption>
+		<p>The @GustafsonAaron Twitter account only follows 5 people, and they are all named “Aaron Gustafson”.</p>
+	</figcaption>
+</figure>
+
+<p>It’s a little creepy, I won’t lie.</p>
+]]></content>
+  </entry>
+  
+</feed>

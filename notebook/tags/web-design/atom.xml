@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
+  <link href="https://www.aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
+  <link href="https://www.aaron-gustafson.com/"/>
+  <updated>2015-11-11T20:29:54-05:00</updated>
+  <id>https://www.aaron-gustafson.com/</id>
+  <author>
+    <name><![CDATA[Aaron Gustafson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Future of Web Design &amp; Øredev]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/future-of-web-design-and-oredev/"/>
+    <updated>2015-11-09T15:17:15-05:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/future-of-web-design-and-oredev</id>
+    <content type="html"><![CDATA[<p>Between <a href="https://futureofwebdesign.com/nyc-2015/">Future of Web Design</a> in New York City and <a href="http://lanyrd.com/2015/oredev/">Øredev</a> in Malmö, Sweden, I was a busy boy last week. I delivered three talks and a workshop in total and am a bit exhausted.</p>
+
+<!-- more -->
+
+<p>Øredev has already posted videos of my talks to their Vimeo account, so I’ve included links to them here along with links to the slide decks, so you can download them if you’d like:</p>
+
+<h2 id="falling-in-love-with-forms">Falling in Love with Forms</h2>
+
+<p><figure id="fig-144870932" class="figure figure--video"><div class="video-embed video-embed--vimeo video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(https://i.vimeocdn.com/video/542903228_1280.jpg)" href="//vimeo.com/144870932" data-lazy-video-src="//player.vimeo.com/video/144870932?autoplay=1"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">FALLING IN LOVE WITH FORMS</div></a></div></figure></p>
+
+<p>This one’s a survey of current forms best practices. This one’s a bit abbreviated from my previous iterations as the talks were only 40 minutes at FoWD and Øredev, but I distilled out the most important bits.</p>
+
+<ul>
+  <li><strong>Slides</strong>: http://www.slideshare.net/AaronGustafson/falling-in-love-with-forms-redev-2015</li>
+  <li><strong>Video</strong>: https://vimeo.com/144870932</li>
+</ul>
+
+<h2 id="there-are-no-buts-in-progressive-enhancement">There Are No “Buts” in Progressive Enhancement</h2>
+
+<p><figure id="fig-144979022" class="figure figure--video"><div class="video-embed video-embed--vimeo video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(https://i.vimeocdn.com/video/542999481_1280.jpg)" href="//vimeo.com/144979022" data-lazy-video-src="//player.vimeo.com/video/144979022?autoplay=1"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">THERE ARE NO “BUTS” IN PROGRESSIVE ENHANCEMENT</div></a></div></figure></p>
+
+<p>Wherein I dispel the myth that progressive enhancement has no place in news, healthcare, education, financial, commerce, and single-page app websites. Lots of goodies in here.</p>
+
+<p>This version is an updated 40-minute distillation of the hour and a half talk <a href="http://jennlukas.com/">Jenn Lukas</a> and I gave at <a href="https://uxim15.uie.com/">UX Immersion Mobile</a> back in April. The video of that one is available from <a href="https://aycl.uie.com/">UIE’s All You Can Learn</a>. Jenn designed the slides and <a href="http://cargocollective.com/mattsutter">Matt Sutter</a> did the wonderful illustrations.</p>
+
+<ul>
+  <li><strong>Slides</strong>: http://www.slideshare.net/AaronGustafson/there-are-no-buts-in-progressive-enhancement-redev-2015</li>
+  <li><strong>Video</strong>: https://vimeo.com/144979022</li>
+</ul>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Strapless]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/strapless/"/>
+    <updated>2015-10-19T11:33:37-04:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/strapless</id>
+    <content type="html"><![CDATA[<p>On Friday, <a href="https://twitter.com/ShirleyTemper">Kelly</a> and I were having a conversation over lunch about the ubiquity of Bootstrap. It’s a topic we’ve been kvetching about for the the last few years—we’ve grown tired of seeing the same site everywhere we look.</p>
+
+<!-- more -->
+
+<p>It’s not that we have any issues with Bootstrap specifically. It’s a solid framework for rapidly prototyping an idea before deciding if it’s got legs. It’s also a great tool to learn from when considering your own pattern library. That said, we don’t think it should be used in the way it so often is: as the entirety of your front end design with only a teensiest amount of theming applied.</p>
+
+<p>The reasons we aren’t big Bootstrap fans are manifold. <a href="https://twitter.com/hellofisher">Steve Fisher</a>, <a href="https://twitter.com/yeseniaa">Yesenia Perez-Cruz</a>, <a href="https://twitter.com/samanthatoy">Samantha Warren</a> and I hashed out a bunch of them in our SXSW panel <a href="http://schedule.sxsw.com/2013/events/event_IAP137">“The Real Responsive Process?”</a>. Here are a few of the highlights:</p>
+
+<ol>
+  <li><strong>Bootstrap doesn’t solve your problems.</strong> Design is problem solving. The design decisions made by the creators/maintainers of Bootstrap solve <em>their</em> problems, not <em>yours</em>. You may share some of those problems—a need for responsive layouts, for example—but not others. You need a system that is tailored to solve your problems and only you (and your team) know what those problems are. Have you ever tried on an article of clothing that’s “one size fits all”? How well did it fit your body type? Unless you are absolutely average in all respects, probably not all that well. Solve <em>your</em> problems with <a href="http://daverupert.com/2013/04/responsive-deliverables/"><em>your own</em> Bootstrap-esque pattern library</a>.</li>
+  <li><strong>Bootstrap offers more than you’ll need.</strong> Bootstrap contains a lot of components and design patterns. It was created to address a wide array of project needs (“one size fits all”, see above). As such, there’s a lot of code in there. The defaults with some basic theming put you at a minimum of around 200KB for the CSS, JavaScript, and fonts (and that doesn’t include jQuery, which is also required). <a href="http://getbootstrap.com/customize/">Customizing your Bootstrap build can help</a>, but if you’re gonna use Bootstrap in production, you need to ruthlessly rip out anything you aren’t using. That takes time. And then you need to maintain your customized version of Bootstrap, making upgrading to new versions of the framework painful.</li>
+  <li><strong>Differentiating yourself from you competition is harder.</strong> Bootstrap sites have a very common look to them. You can easily pick them out of a lineup and they are especially prolific within the startup space. If you’re trying to separate your company from the pack, having a site that looks just like every other startup (including your competition) is probably not a great idea. Spend some time (and, yes, money) creating a design that matches your brand and reflects who <em>you</em> are.</li>
+</ol>
+
+<p>I’m not saying these things because I’m a Bootstrap hater. I’m not, I just think it’s a crutch for a lot of people and it’s led to an era of bland, look-alike design on the web I’d love to see us transcend.</p>
+
+<p>In my conversation with Kelly, I jokingly said it would be funny to create a browser extension that removed Bootstrap’s CSS and JavaScript from any page that included it. Something subversive along the lines of <a href="http://archive.oreilly.com/pub/a/network/2000/07/21/magazine/css_anarchist.html">Eric Meyer’s hilariously destructive table layout and <code>font</code> demolishing user stylesheet</a> or <a href="https://github.com/richardharrington/disrupt-to-bullshit">Richard Harrington’s “disrupt” to “bullshit” converter</a>. On Friday I decided to see what I could throw together in 15 minutes and I dubbed the result “Strapless”. Using <a href="https://crossrider.com/">Crossrider</a>, I converted <a href="https://gist.github.com/aarongustafson/081d6e950c1f2cc57e22">some simple JavaScript</a> into an extension for <a href="https://chrome.google.com/webstore/detail/strapless/ninnlimehlghihnalgelhhafbmhlhojg">Chrome</a> and <a href="http://crossrider.com/download/ff/79799">Firefox</a>. I didn’t bother with Safari as I couldn’t justify spending $99 to add a prank extension to their catalog. I have a version for Internet Explorer, but the installer is failing, which I suspect is an issue with Crossrider.</p>
+
+<p>Enjoy!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Moved to HTTPS]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/moved-to-https/"/>
+    <updated>2015-09-03T16:06:03-04:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/moved-to-https</id>
+    <content type="html"><![CDATA[<p>I’ve been complaining about <a href="https://www.aaron-gustafson.com/notebook/more-proof-we-dont-control-our-web-pages/">“man in the middle” attacks brought on by internet service providers</a> a bunch over the last year. The only way to keep uninvited third parties from injecting JavaScript and more—potentially screwing up your page—is to move to HTTPS. So, as much as it pains me to abandon good old fashioned HTTP, I’ve decided to lock things down a bit.</p>
+
+<!-- more -->
+
+<p>I was using <a href="https://github.com/">Github</a> to host my site as a <a href="https://pages.github.com/">Github page</a>. It worked really well given this is a static site, but you can’t run Github-hosted sites under HTTPS unless you go with their <code>*.github.io</code> domain name (they have a <a href="https://en.wikipedia.org/wiki/Wildcard_certificate">wildcard certificate</a> for that domain). There’s been <a href="https://github.com/isaacs/github/issues/156">a ton of interest in Github allowing custom cert installation, but no movement yet</a>, so… <i>onward!</i><sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></p>
+
+<p>I opted to move to <a href="https://www.digitalocean.com/?refcode=5270a681c6fe">DigitalOcean</a> since <a href="http://easy-designs.net">my consultancy</a> recently relocated all of its sites there in a mass exodus from MediaTemple. Migrating the site was as simple as <a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-automatic-deployment-with-git-with-a-vps">setting up the DigitalOcean server as a new “live” <code>remote</code> on my local git install</a> and pushing it up there. Since it’s a static site, I didn’t have to worry too much about the server config. Apache is really great at hosting static files.</p>
+
+<p>With the contents in place, I went through <a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-with-a-free-signed-ssl-certificate-on-a-vps">the rather convoluted process of getting SSL set up following the instructions from DigitalOcean</a>. I opted for the free <a href="http://www.startssl.com/">StartSSL</a> certificate to begin with (a rather convoluted process, but we got there in the end) and then flipped the DNS records to point to the new box. Given that the StartSSL certificate needs to be renewed every 30 days, I may opt for a paid certificate in the not too distant future.</p>
+
+<p>Once the DNS propagated, I had to go back and button up a few scripts that were requesting non-HTTPS content. I also had to tweak my Jekyll plugins and Rake tasks to include the legacy “http://” URLs when querying for webmentions and the like (since I didn’t want to lose those references). I also updated the Apache’s <code>VirtualHost</code> configuration for the non-secure site to make all traffic redirect:</p>
+
+<pre><code>Redirect permanent / https://www.aaron-gustafson.com/
+</code></pre>
+
+<p>All in all, it was a relatively painless migration. Admittedly, the initial re-build of the site (after updating the Rake tasks) did re-submit all of the webmentions I’d previously sent in order to provide the new address. If I referenced you a bunch in the past, I apologize for the flood of traffic, but it had to be done.</p>
+
+<p>Anyway, so now this site is running under HTTPS. If you encounter any issues, please let me know. And if you want to read a really good account of migrating a site to HTTPS, you should definitely <a href="https://adactio.com/articles/7435">read Jeremy Keith’s step-by-step guide</a>.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>It’s worth noting that <a href="https://github.com/aarongustafson/aarongustafson.github.io/tree/source">the source of the site</a> (and even <a href="https://github.com/aarongustafson/aarongustafson.github.io/tree/master">a back-up build</a>) will remain on Github for the forseeable future. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[More Proof We Don’t Control Our Web Pages]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/more-proof-we-dont-control-our-web-pages/"/>
+    <updated>2015-09-01T11:33:59-04:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/more-proof-we-dont-control-our-web-pages</id>
+    <content type="html"><![CDATA[<p>I’ve talked about this before: As web designers, <a href="http://www.aaron-gustafson.com/notebook/the-network-effect/">we can’t trust the network</a>. Sure, we have to contend with mobile data “dead zones” and dropped connections as our users move about throughout the day, but there’s a lot more to the network that’s beyond our control.</p>
+
+<!-- more -->
+
+<p>Here’s a roundup of some of my “favorite” network issue related headlines from the last few years:</p>
+
+<ul>
+  <li><a href="http://www.theguardian.com/technology/2014/jan/28/sky-broadband-blocks-jquery-web-critical-plugin">Sky Broadband misclassified the jQuery CDN as a malware site</a> and broke much of the web for their users.</li>
+  <li><a href="http://arstechnica.com/tech-policy/2014/09/why-comcasts-javascript-ad-injections-threaten-security-net-neutrality/">Comcast admitted to injecting self-promotional advertising</a> into web pages served by their Xfinity routers. (They have also been called out for <a href="https://blog.ryankearney.com/2013/01/comcast-caught-intercepting-and-altering-your-web-traffic/">artificially inflating subscriber bandwidth usage with their own crap</a>.)</li>
+  <li><a href="http://arstechnica.com/business/2015/08/united-in-flight-wi-fi-reportedly-blocks-ars-technica-and-new-york-times/">United was recently called out for blocking access to the <cite>New York Times</cite></a> on their in-flight Wi-Fi.</li>
+  <li><a href="http://webpolicy.org/2015/08/25/att-hotspots-now-with-advertising-injection/">Someone discovered AT&amp;T was injecting CSS, images, and JavaScript into pages</a> served via their airport hotspots.</li>
+  <li><a href="http://www.cnet.com/au/news/samsung-smart-tvs-forcing-ads-into-video-streaming-apps/">Samsung smart TVs were found to be injecting video ads</a> into video streaming apps.</li>
+  <li><a href="http://pleckey.me/blog/2013/09/11/sprint-mobile-broadband-injecting-3rd-party-javascript/">Sprint injects JavaScript into pages</a> served via its data connections.</li>
+  <li><a href="http://www.ecommercetimes.com/story/82117.html">Browser add-ins can inject their own advertisements</a>. They can also alter the DOM, load conflicting versions of JavaScript libraries, and more. Awesome, I know. (This is being addressed, but is a persistent issue when add-ins have the ability to manipulate the DOM.)</li>
+</ul>
+
+<p>Some of these issues can be avoided by serving content over HTTPS, but that still won’t enable you to bypass things like firewall blacklists (which led to the jQuery outage on Sky). Your best bet is to design defensively and make sure your users can still accomplish their goals on your site when some resources are missing or markup is altered.</p>
+
+<p>We can’t control what happens to us in this world, we can only control our reaction to it.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[My Trip to 18F]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/my-trip-to-18f/"/>
+    <updated>2015-08-26T15:51:14-04:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/my-trip-to-18f</id>
+    <content type="html"><![CDATA[<p>The fine folks at 18F just posted <a href="https://18f.gsa.gov/2015/08/26/aaron-gustafson-beyond-responsive-design/">a beautiful write-up of the talk on progressive enhancement that I delivered</a> as part of the <a href="https://18f.gsa.gov/tags/speaker-series/">18F Design Speaker Series</a>. I thoroughly enjoyed talking to the folks that came. They presented some interesting challenges and asked pressing questions—exactly the kind of engagement I love.</p>
+
+<!-- more -->
+
+<p>They live-streamed the event and immediately <a href="https://youtu.be/Fu1L34TLUHM">posted the video on YouTube</a>. I also <a href="http://www.slideshare.net/AaronGustafson/beyond-responsive-18f-2015">posted the deck to SlideShare</a> so you can follow along a little easier. I’ve embedded each below if you want to tuck in right away:</p>
+
+<p><figure id="fig-Fu1L34TLUHM" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(https://i2.ytimg.com/vi/Fu1L34TLUHM/0.jpg);" href="//www.youtube.com/watch?v=Fu1L34TLUHM" data-lazy-video-src="https://www.youtube.com/embed/Fu1L34TLUHM?autoplay=1&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">18F Design Presents: Aaron Gustafson</div></a></div></figure></p>
+
+<figure class="video-embed video-embed--16x9" id="figure-2015-08-26-01"><iframe class="video-embed__video" src="//www.slideshare.net/slideshow/embed_code/key/7jsUtSzGEqFyKj" frameborder="0"></iframe></figure>
+
+<p>For a little more coverage, you can also check out <a href="http://www.digitalgov.gov/2015/08/25/trends-on-tuesday-web-standards-advocate-advises-adaptive-web-design-for-government-sites/">Will Sullivan’s takeaways from the talk</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>
