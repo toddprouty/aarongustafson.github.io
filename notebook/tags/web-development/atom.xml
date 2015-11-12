@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Development | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/web-development/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2015-11-12T08:42:06-05:00</updated>
+  <updated>2015-11-12T08:53:36-05:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -20,8 +20,7 @@
     <id>https://www.aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing</id>
     <content type="html"><![CDATA[<p>Love this!</p>
 
-<p><div class='embed tweet'><blockquote class="twitter-tweet"><p>You&#39;ll never believe this one weird trick that takes the pain out of cross browser testing: Progressive enhancement.</p>&mdash; Orde Saunders (@decadecity) <a href="https://twitter.com/decadecity/status/559693419808034816">January 26, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div></p>
+<p>{% tweet https://twitter.com/decadecity/status/559693419808034816 %}</p>
 ]]></content>
   </entry>
   
@@ -103,68 +102,27 @@
 
 <p>Before I made the leap to using a CSS preprocessor, I was convinced we needed CSS variables, but I always wondered how we might make it possible without breaking one of the fundamental <a href="http://www.w3.org/TR/CSS21/intro.html#design-principles">design principles of CSS</a>: Forward and backward compatibility. Take a look at this example (which is based on <a href="http://www.w3.org/TR/css-variables/">the working draft spec</a>) and I think you’ll spot the problem:</p>
 
-<p><div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=css-vairables.css'></script>
-<noscript><pre><code>:root {
-  --foreground-color: #333;
-  --background-color: #fff;
-}
-
-body {
-  background: var(--background-color);
-  color: var(--foreground-color);
-}</code></pre></noscript></div>
-</p>
+<p>{% gist c3ddcb792eb69e0703e1 css-vairables.css %}</p>
 
 <p>For a browser that understands CSS variables, the interpreted stylesheet would look like this:</p>
 
-<p><div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=desired-result.css'></script>
-<noscript><pre><code>body {
-  background: #fff;
-  color: #333;
-}</code></pre></noscript></div>
-</p>
+<p>{% gist c3ddcb792eb69e0703e1 desired-result.css %}</p>
 
 <p>But any browser that doesn’t understand the variables would never get the color values because browsers follow <a href="http://www.w3.org/TR/CSS21/syndata.html#parsing-errors">the rules of fault tolerance in CSS</a> and ignore anything they don’t understand. The introduction of variables to CSS would effectively build a wall between older browsers and new ones. (For the record, as of this writing, <a href="http://caniuse.com/#feat=css-variables">only Firefox has implemented CSS variables</a>).</p>
 
 <p>In order to serve the broadest spectrum of devices, we’d have to provide a fallback like this:</p>
 
-<p><div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=css-variables-fallback.css'></script>
-<noscript><pre><code>:root {
-  --foreground-color: #333;
-  --background-color: #fff;
-}
-
-body {
-  background: #fff;
-  background: var(--background-color);
-  color: #333;
-  color: var(--foreground-color);
-}</code></pre></noscript></div>
-</p>
+<p>{% gist c3ddcb792eb69e0703e1 css-variables-fallback.css %}</p>
 
 <p>But that kinda defeats the whole purpose, right?</p>
 
 <p>Preprocessors already give us this access to variables today (along with nesting, mixins, and programmatic structures like conditionals, loops, etc.). Here’s a SASS example:</p>
 
-<p><div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=sass-variables.scss'></script>
-<noscript><pre><code>$foreground-color: #333;
-$background-color: #fff;
- 
- 
-body {
-  background: $background-color;
-  color: $foreground-color;
-}</code></pre></noscript></div>
-</p>
+<p>{% gist c3ddcb792eb69e0703e1 sass-variables.scss %}</p>
 
 <p>The big difference here is that this document is a source file, it is not what is sent to the browser. This file is compiled by the preprocessor into actual CSS, which is what we send to the browser and is exactly what we wanted in the first place:</p>
 
-<p><div><script src='https://gist.github.com/c3ddcb792eb69e0703e1.js?file=desired-result.css'></script>
-<noscript><pre><code>body {
-  background: #fff;
-  color: #333;
-}</code></pre></noscript></div>
-</p>
+<p>{% gist c3ddcb792eb69e0703e1 desired-result.css %}</p>
 
 <p>And it works on every browser that supports CSS, all the way back to <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#Difficulty_with_adoption">IE 3</a>.</p>
 
