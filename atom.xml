@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson Latest Posts &amp; Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-11-12T09:11:29-05:00</updated>
+	<updated>2015-11-12T13:23:32-05:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,30 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Adaptive Web Design: Folded &amp; Gathered]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/adaptive-web-design-folded-and-gathered/"/>
+				<updated>2015-11-12T13:16:27-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/adaptive-web-design-folded-and-gathered</id>
+				<content type="html"><![CDATA[<p>I just got this photo from <a href="https://www.linkedin.com/pub/tracey-croom/13/a6/985">Tracey Croom</a>, my production editor on <a href="http://adaptivewebdesign.info/2nd-edition/">the Second Edition of <cite>Adaptive Web Design</cite></a> and I wanted to share it with you. Production is almost done and I should be getting my bound copies soon. I’m so excited!</p>
+
+<figure id="fig-2015-11-12-01" class="media-container"><img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-12/01.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-12/01.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-12/01.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-12/01.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="" /><figcaption>A photo of the folded &amp; gathered pages of <cite>Adaptive Web Design</cite>’s Second Edition.</figcaption></figure>
+]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Hints for Successfully Managing an Open-source Project]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/hints-for-successfully-managing-an-open-source-project/"/>
+				<updated>2015-11-12T13:14:42-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/hints-for-successfully-managing-an-open-source-project</id>
+				<content type="html"><![CDATA[<p>A nice post from my colleague <a href="http://blogs.msdn.com/b/eternalcoding/">David Catuhe</a> on what it takes to build a successful open source project.</p>
+<p><a rel="full-article" href="http://blogs.msdn.com/b/eternalcoding/archive/2015/11/12/hints-for-successfully-managing-an-open-source-project.aspx">Read on Eternal Coding&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -28,7 +52,7 @@
 
 <p>When you look at a basic form field, you have two bits of information: the field and the label.</p>
 
-<div class="bogus-wrapper"><notextile><figure id="fig-2015-11-11-01" class="media-container"><img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/01.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/01.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="" /><figcaption>A typical form control: a label and a field.</figcaption></figure></notextile></div>
+<figure id="fig-2015-11-11-01" class="media-container"><img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/01.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/01.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="" /><figcaption>A typical form control: a label and a field.</figcaption></figure>
 
 <p>You could achieve this with a minimum of markup:</p>
 
@@ -99,11 +123,11 @@ label input {
 
 <p>Obviously, associated labels are great for folks who use screen readers, but they have another benefit: tapping on a <code>label</code> will focus or activate the associated form control.</p>
 
-<div class="bogus-wrapper"><notextile><figure id="fig-2015-11-11-02" class="media-container"><img src="https://www.aaron-gustafson.com/i/posts/2015-11-11/02.gif" alt="" /><figcaption>Animation showing how clicking a <code>label</code> will focus the associated form control.</figcaption></figure></notextile></div>
+<figure id="fig-2015-11-11-02" class="media-container"><img src="https://www.aaron-gustafson.com/i/posts/2015-11-11/02.gif" alt="" /><figcaption>Animation showing how clicking a <code>label</code> will focus the associated form control.</figcaption></figure>
 
 <p>This isn’t a game-changer when it comes to standard text fields, but it’s an exceptional affordance when it comes to radio and checkbox controls, especially on mobile, as it vastly increases the tappable region used to activate the control.</p>
 
-<div class="bogus-wrapper"><notextile><figure id="fig-2015-11-11-03" class="media-container"><img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/03.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/03.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="" /><figcaption>A screenshot of a group of checkbox controls with their labels outlined.</figcaption></figure></notextile></div>
+<figure id="fig-2015-11-11-03" class="media-container"><img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/03.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/03.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="" /><figcaption>A screenshot of a group of checkbox controls with their labels outlined.</figcaption></figure>
 
 <p>To create incredibly generous tap targets on mobile devices, we can take things a little further. Add padding to the top and bottom of the <code>label</code> to make it bigger and then use negative margins to counter that enlargement and keep the layout as it was before the padding was applied.</p>
 
@@ -113,7 +137,7 @@ label input {
   padding: 1em 0;
 }</code></pre></noscript></div>
 
-<div class="bogus-wrapper"><notextile><figure id="fig-2015-11-11-04" class="media-container"><img src="https://www.aaron-gustafson.com/i/posts/2015-11-11/04.gif" alt="" /><figcaption>An animation showing very generous tap targets on a narrow screen.</figcaption></figure></notextile></div>
+<figure id="fig-2015-11-11-04" class="media-container"><img src="https://www.aaron-gustafson.com/i/posts/2015-11-11/04.gif" alt="" /><figcaption>An animation showing very generous tap targets on a narrow screen.</figcaption></figure>
 
 <p>It’s worth noting that older versions of Internet Explorer only provide the focus/interaction benefit when you use explicit label association. That’s why I like the combo approach of implicit <em>and</em> explicit association for checkbox and radio controls.</p>
 
@@ -121,7 +145,7 @@ label input {
 
 <p>HTML5 ushered in a new option for working with <code>input</code> elements: the <code>placeholder</code> attribute. This declarative attribute makes it possible to offer hint as to the sort of content you were looking for in a field. In <a href="http://caniuse.com/#feat=input-placeholder">supporting browsers</a>, it appears in the field, ghosted back a bit, and disappears when you start typing a response.<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup></p>
 
-<div class="bogus-wrapper"><notextile><figure id="fig-2015-11-11-05" class="media-container"><img src="https://www.aaron-gustafson.com/i/posts/2015-11-11/05.gif" alt="" /><figcaption>An animation showing a placeholder in action on <a href="http://webstandardssherpa.com"><cite>Web Standards Sherpa</cite></a>.</figcaption></figure></notextile></div>
+<figure id="fig-2015-11-11-05" class="media-container"><img src="https://www.aaron-gustafson.com/i/posts/2015-11-11/05.gif" alt="" /><figcaption>An animation showing a placeholder in action on <a href="http://webstandardssherpa.com"><cite>Web Standards Sherpa</cite></a>.</figcaption></figure>
 
 <p>Having this natively supported in the browser was a huge boon. For years we’d been using JavaScript to achieve this very effect—albeit typically for label text—in an effort to create more compact forms. Now we get the effect without having to include any additional files or libraries.</p>
 
@@ -155,11 +179,11 @@ input:focus + label {
   transform: translateY(-1.5em)
 }</code></pre></noscript></div>
 
-<div class="bogus-wrapper"><notextile><figure id="fig-2015-11-11-06" class="media-container"><img src="https://www.aaron-gustafson.com/i/posts/2015-11-11/06.gif" alt="" /><figcaption>A simple demo of this code. <a href="http://codepen.io/aarongustafson/pen/BoGgYM">It’s on CodePen</a> if you wanna dissect it.</figcaption></figure></notextile></div>
+<figure id="fig-2015-11-11-06" class="media-container"><p class="codepen" data-user="aarongustafson" data-href="BoGgYM" data-height="112" data-type="result" data-preview="true">See the Pen <a href="http://codepen.io/aarongustafson/pen/BoGgYM">Simple Compact Labels</a> by Aaron Gustafson (<a href="//codepen.io/aarongustafson">aarongustafson</a>) on <a href="//codepen.io">CodePen</a>.</p><script async="" src="//codepen.io/assets/embed/ei.js"></script></figure>
 
 <p>Mary Lou assembled some beautiful examples of this approach in her <a href="http://tympanus.net/codrops/2015/01/08/inspiration-text-input-effects/">Inspiration for Text Input Effects</a>. I highly recommend you check those out, but here’s a teaser to whet your whistle:</p>
 
-<div class="bogus-wrapper"><notextile><figure id="fig-2015-11-11-07" class="media-container"><img src="https://www.aaron-gustafson.com/i/posts/2015-11-11/07.gif" alt="" /><figcaption>A fancy, accessible form field and label from Mary Lou’s collection.</figcaption></figure></notextile></div>
+<figure id="fig-2015-11-11-07" class="media-container"><img src="https://www.aaron-gustafson.com/i/posts/2015-11-11/07.gif" alt="" /><figcaption>A fancy, accessible form field and label from Mary Lou’s collection.</figcaption></figure>
 
 <hr />
 
@@ -525,34 +549,6 @@ input:focus + label {
 
 <p>Thank you for all you have done for the Web Mols! And, especially, thank you for all you have done for me.</p>
 <p><a rel="full-article" href="http://www.molly.com/2015/10/24/net-awards-outstanding-contribution/">Read on mollydotcom&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Crossposting to Medium From Jekyll]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/crossposting-to-medium-from-jekyll/"/>
-				<updated>2015-10-26T15:27:00-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/crossposting-to-medium-from-jekyll</id>
-				<content type="html"><![CDATA[<p>Last week, <a href="https://adactio.com/journal/9694">Jeremy Keith posted about syndicating his content to Medium using their new API</a>. Before they added <a href="https://github.com/Medium/medium-api-docs">the API</a>, there was no way to automatically publishing to <a href="https://medium.com">Medium</a> from your own blog. And doing it manually was quite tedious.</p>
-
-<p>Jeremy posted in detail about how to set it all up and provided <a href="https://gist.github.com/adactio/c174a4a68498e30babfd">the PHP code he’s using</a> to make it all work. As I’m running a static site on <a href="http://octopress.org/">Octopress</a>, I ported it to Ruby as a <a href="http://jekyllrb.com/docs/plugins/#generators">Jekyll Generator</a>. I’ve <a href="https://github.com/aarongustafson/jekyll-crosspost_to_medium">posted it to Github</a>, so you can grab it there if you so desire.</p>
-]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Your Computer School Sucks]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/your-computer-school-sucks/"/>
-				<updated>2015-10-21T11:11:37-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/your-computer-school-sucks</id>
-				<content type="html"><![CDATA[<p>Accessibility is an afterthought in much of our industry. In order to change that, education needs to change and code schools need to change. Karl nails it in this post:</p>
-
-<blockquote>
-  <p>While Hacker You should be applauded for their regular lunch-and-learns, I think that all computer schools should include accessibility embedded in core curriculum. It will create an alumni population better prepared to create interfaces that are universally usable. Their alumni will be differentiated by their ability to consider the user’s needs. After all, if you’re not developing for the user, who are you developing for?</p>
-</blockquote>
-<p><a rel="full-article" href="http://www.karlgroves.com/2015/10/18/your-computer-school-sucks/">Read on Karl Groves&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	

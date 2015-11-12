@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-11-12T09:11:29-05:00</updated>
+	<updated>2015-11-12T13:23:32-05:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,19 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Hints for Successfully Managing an Open-source Project]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/hints-for-successfully-managing-an-open-source-project/"/>
+				<updated>2015-11-12T13:14:42-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/hints-for-successfully-managing-an-open-source-project</id>
+				<content type="html"><![CDATA[<p>A nice post from my colleague <a href="http://blogs.msdn.com/b/eternalcoding/">David Catuhe</a> on what it takes to build a successful open source project.</p>
+<p><a rel="full-article" href="http://blogs.msdn.com/b/eternalcoding/archive/2015/11/12/hints-for-successfully-managing-an-open-source-project.aspx">Read on Eternal Coding&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 	
@@ -220,23 +233,6 @@
 
 <p>Thank you for all you have done for the Web Mols! And, especially, thank you for all you have done for me.</p>
 <p><a rel="full-article" href="http://www.molly.com/2015/10/24/net-awards-outstanding-contribution/">Read on mollydotcom&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Your Computer School Sucks]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/your-computer-school-sucks/"/>
-				<updated>2015-10-21T11:11:37-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/your-computer-school-sucks</id>
-				<content type="html"><![CDATA[<p>Accessibility is an afterthought in much of our industry. In order to change that, education needs to change and code schools need to change. Karl nails it in this post:</p>
-
-<blockquote>
-  <p>While Hacker You should be applauded for their regular lunch-and-learns, I think that all computer schools should include accessibility embedded in core curriculum. It will create an alumni population better prepared to create interfaces that are universally usable. Their alumni will be differentiated by their ability to consider the user’s needs. After all, if you’re not developing for the user, who are you developing for?</p>
-</blockquote>
-<p><a rel="full-article" href="http://www.karlgroves.com/2015/10/18/your-computer-school-sucks/">Read on Karl Groves&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	

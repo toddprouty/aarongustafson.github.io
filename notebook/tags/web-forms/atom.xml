@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Forms | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/web-forms/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2015-11-12T09:11:29-05:00</updated>
+  <updated>2015-11-12T13:23:32-05:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -165,7 +165,7 @@ input:focus + label {
 }</code></pre></noscript></div>
 </p>
 
-<figure id="fig-2015-11-11-06" class="media-container"><img src="https://www.aaron-gustafson.com/i/posts/2015-11-11/06.gif" alt="" /><figcaption>A simple demo of this code. <a href="http://codepen.io/aarongustafson/pen/BoGgYM">It’s on CodePen</a> if you wanna dissect it.</figcaption></figure>
+<figure id="fig-2015-11-11-06" class="media-container"><p class="codepen" data-user="aarongustafson" data-href="BoGgYM" data-height="112" data-type="result" data-preview="true">See the Pen <a href="http://codepen.io/aarongustafson/pen/BoGgYM">Simple Compact Labels</a> by Aaron Gustafson (<a href="//codepen.io/aarongustafson">aarongustafson</a>) on <a href="//codepen.io">CodePen</a>.</p><script async src="//codepen.io/assets/embed/ei.js"></script></figure>
 
 <p>Mary Lou assembled some beautiful examples of this approach in her <a href="http://tympanus.net/codrops/2015/01/08/inspiration-text-input-effects/">Inspiration for Text Input Effects</a>. I highly recommend you check those out, but here’s a teaser to whet your whistle:</p>
 

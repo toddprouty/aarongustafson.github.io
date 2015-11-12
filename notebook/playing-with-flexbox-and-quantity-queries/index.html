@@ -198,12 +198,12 @@
 <strong>The Challenge</strong>: The “Future” list will grow and shrink as I book things, so I never know how many will be there. The “Past” list will also grow, but I am less interested in getting crazy with that.<br />
 <strong>The Idea</strong>: A grid layout that flexes to visually highlight 1-2 upcoming future events and allows the others to flow in at the default grid size. It should be set up to handle everything from a single future event to a dozen or more.</p>
 
-<div class="bogus-wrapper"><notextile><figure id="2015-03-26-1" class="media-container">
+<figure id="2015-03-26-1" class="media-container">
 	<img src="/i/posts/2015-03-26/the-idea-sm.jpg" srcset="/i/posts/2015-03-26/the-idea-lg.jpg 1024w, /i/posts/2015-03-26/the-idea-md.jpg 600w, /i/posts/2015-03-26/the-idea-sm.jpg 320w" alt="" />
 	<figcaption>
 		<p>My sketch of the idea.</p>
 	</figcaption>
-</figure></notextile></div>
+</figure>
 
 <p>The markup pattern was pretty simple. It’s just a list of events:</p>
 
@@ -238,9 +238,9 @@
 
 <p>This simple CSS gives you exactly what you’d expect: a vertical list of events, separated by 20px worth of space.</p>
 
-<div class="bogus-wrapper"><notextile><figure id="2015-03-26-2" class="media-container">
+<figure id="2015-03-26-2" class="media-container">
 	<img src="/i/posts/2015-03-26/first-pass.jpg" srcset="/i/posts/2015-03-26/first-pass-lg.jpg 1024w, /i/posts/2015-03-26/first-pass-md.jpg 600w, /i/posts/2015-03-26/first-pass-sm.jpg 320w" alt="" />
-</figure></notextile></div>
+</figure>
 
 <h2 id="two-by-two">Two by Two</h2>
 
@@ -298,9 +298,9 @@
 
 <p>Then I used a quantity query to select the first future event when there is more than one in the list (line 38) and set it span 100% of the parent width. To keep the gutters accurate, I also swapped where the margins were applied, adding the margin back to <code>.event--future:nth-child(odd)</code> and removing it from <code>.event--future:nth-child(even)</code>.</p>
 
-<div class="bogus-wrapper"><notextile><figure id="2015-03-26-3" class="media-container">
+<figure id="2015-03-26-3" class="media-container">
 	<img src="/i/posts/2015-03-26/second-pass-sm.jpg" srcset="/i/posts/2015-03-26/second-pass-lg.jpg 1024w, /i/posts/2015-03-26/second-pass-md.jpg 600w, /i/posts/2015-03-26/second-pass-sm.jpg 320w" alt="" />
-</figure></notextile></div>
+</figure>
 
 <h2 id="threes-a-crowd">Three’s a Crowd</h2>
 
@@ -401,9 +401,9 @@
 
 <p>To handle the margins in the quantity query instance, I added all the margins back (line 64) and then removed the left margins from the new row starters (line 77).</p>
 
-<div class="bogus-wrapper"><notextile><figure id="2015-03-26-4" class="media-container">
+<figure id="2015-03-26-4" class="media-container">
 	<img src="/i/posts/2015-03-26/third-pass-sm.jpg" srcset="/i/posts/2015-03-26/third-pass-lg.jpg 1024w, /i/posts/2015-03-26/third-pass-md.jpg 600w, /i/posts/2015-03-26/third-pass-sm.jpg 320w" alt="" />
-</figure></notextile></div>
+</figure>
 
 <h2 id="ta-da">Ta-da!</h2>
 

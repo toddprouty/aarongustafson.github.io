@@ -202,9 +202,9 @@
 
 <p>This has been a long time coming. The idea is pretty simple: Within a flow-type element (think <code>p</code>, <code>div</code>, etc.) you can apply <a href="http://www.w3.org/TR/2015/WD-css3-exclusions-20150115/#wrap-flow-property">the <code>wrap-flow</code> property</a> to children in order to control where content can go in relation to them. Here’s an example from the spec:</p>
 
-<div class="bogus-wrapper"><notextile><figure id="fig-2015-01-16-1">
+<figure id="fig-2015-01-16-1">
 	<img src="http://www.w3.org/TR/2015/WD-css3-exclusions-20150115/images/exclusions-illustration.png" alt="Four boxes layed out roughly diagonally from the upper left to the lower right within a larger container. A flow of blue color shows where text is allowed to flow." />
-</figure></notextile></div>
+</figure>
 
 <p>In this example, child A is set to <code>wrap-flow: both</code>, allowing content to flow on both sides of it. Child B is set to <code>wrap-flow: start</code> meaning content should only be allowed on the starting side of the element (based on text direction, in this case left to right). Child C is set to <code>wrap-flow: end</code> meaning content can only appear after it in terms of text-direction. And child D is set to <code>wrap-flow: clear</code> which, as you might expect based on your existing CSS knowledge, ensures no content appears on either side of it.</p>
 
