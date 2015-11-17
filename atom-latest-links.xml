@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-11-12T13:40:35-05:00</updated>
+	<updated>2015-11-16T21:27:41-05:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,28 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[The Cost of Frameworks]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/the-cost-of-frameworks/"/>
+				<updated>2015-11-16T21:20:59-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/the-cost-of-frameworks</id>
+				<content type="html"><![CDATA[<p>This is a fantastic investigation of framework performance on mobile by Google’s <a href="https://aerotwist.com">Paul Lewis</a>. In short: frameworks make things more convenient for developers, but pass the inconvenience on to end users. For more, see <a href="https://www.aaron-gustafson.com/notebook/who-should-pay/">Who Should Pay?</a> and <a href="https://www.aaron-gustafson.com/notebook/who-should-pay-2-the-hosting/">Who Should Pay 2: The Hosting</a>.</p>
+<p><a rel="full-article" href="https://aerotwist.com/blog/the-cost-of-frameworks/">Read on Aerotwist&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Introducing EdgeHTML 13, Our First Platform Update for Microsoft Edge]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/introducing-edgehtml-13-our-first-platform-update-for-microsoft-edge/"/>
+				<updated>2015-11-16T14:22:59-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/introducing-edgehtml-13-our-first-platform-update-for-microsoft-edge</id>
+				<content type="html"><![CDATA[<p>Tons of great stuff in this release. Notably: <a href="http://dev.modern.ie/platform/status/pictureelement/">the <code>picture</code> element</a>, <a href="http://dev.modern.ie/platform/status/extendedsrcsetandsizessupport/">the <code>srcset</code> (<em>with</em> <code>w</code> descriptors) &amp; <code>sizes</code> attributes</a>, CSS <a href="http://dev.modern.ie/platform/status/cssinitialvalue/"><code>initial</code></a> and <a href="http://dev.modern.ie/platform/status/cssunsetvalue/"><code>unset</code></a> keywords, <a href="http://dev.modern.ie/platform/status/adownloadattribute/"><code>a[download]</code></a>, <a href="https://dev.modern.ie/platform/status/cssmutabilitypseudoclasses/"><code>:read-write</code> &amp; <code>:read-only</code></a>, <a href="https://dev.modern.ie/platform/status/cssrangepseudoclasses/"><code>:in-range</code> &amp; <code>:out-of-range</code></a>, more ES2015 goodies, and a ton more. Hooray for evergreen!</p>
+<p><a rel="full-article" href="http://blogs.windows.com/msedgedev/2015/11/16/introducing-edgehtml-13-our-first-platform-update-for-microsoft-edge/">Read on Microsoft Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 	
@@ -210,30 +232,6 @@
 			</entry>
 		
 	
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[NPR.org Now Twice as Fast]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/npr-org-now-twice-as-fast/"/>
-				<updated>2015-10-28T09:27:11-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/npr-org-now-twice-as-fast</id>
-				<content type="html"><![CDATA[<p>An excellent overview of some significant upgrades to NPR.org along with some advice to web developers.</p>
-<p><a rel="full-article" href="http://www.npr.org/sections/thisisnpr/2015/10/27/451147757/npr-org-now-twice-as-fast">Read on NPR&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Net Awards: Outstanding Contribution]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/net-awards-outstanding-contribution/"/>
-				<updated>2015-10-27T12:34:57-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/net-awards-outstanding-contribution</id>
-				<content type="html"><![CDATA[<p>No one was more deserving of this award than <a href="http://www.molly.com">Molly</a>. No one.</p>
-
-<p>Thank you for all you have done for the Web Mols! And, especially, thank you for all you have done for me.</p>
-<p><a rel="full-article" href="http://www.molly.com/2015/10/24/net-awards-outstanding-contribution/">Read on mollydotcom&nbsp;&rarr;</a></p>]]></content>
-			</entry>
 		
 	
 </feed>

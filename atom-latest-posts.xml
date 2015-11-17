@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Posts]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-posts.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-11-12T13:40:35-05:00</updated>
+	<updated>2015-11-16T21:27:41-05:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,10 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+	
+		
 	
 		
 			<entry>
@@ -362,10 +366,6 @@ input:focus + label {
 <p>If you’re looking for an even more exhaustive list of incredible speakers, you should check out <a href="http://articulate-network.lanyrd.com/speakers/">the Articulate Network</a> on Lanyrd.</p>
 ]]></content>
 			</entry>
-		
-	
-		
-	
 		
 	
 </feed>
