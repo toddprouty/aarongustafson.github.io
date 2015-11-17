@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson Latest Posts &amp; Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-11-17T11:56:31-05:00</updated>
+	<updated>2015-11-17T17:30:12-05:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -14,13 +14,35 @@
 	
 		
 			<entry>
+				<title type="html"><![CDATA[Service Workers: Dynamic Responsive Images Using WebP Images]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/10132/"/>
+				<updated>2015-11-17T13:41:29-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/10132</id>
+				<content type="html"><![CDATA[<p>I really dig this approach to image optimizations for browsers that support <a href="https://developers.google.com/speed/webp/">the WebP image format</a>. It shows how <a href="https://slightlyoff.github.io/ServiceWorker/spec/service_worker_1/index.html">ServiceWorker</a> can handle site-wide enhancements easily.</p>
+<p><a rel="full-article" href="http://deanhume.com/Home/BlogPost/service-workers--dynamic-responsive-images-using-webp-images/10132/">Read on Dean Hume&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Tips for Creating Accessible SVG]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/tips-accessible-svg/"/>
+				<updated>2015-11-17T13:37:36-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/tips-accessible-svg</id>
+				<content type="html"><![CDATA[<p>An excellent overview of how to make SVGs more accessible, from the incredible <a href="https://twitter.com/leoniewatson">Léonie Watson</a>.</p>
+<p><a rel="full-article" href="http://www.sitepoint.com/tips-accessible-svg/">Read on SitePoint&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
 				<title type="html"><![CDATA[Not So Micro Optimizations]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/not-so-micro-optimizations-f867c47b832d/"/>
 				<updated>2015-11-17T11:43:04-05:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/not-so-micro-optimizations-f867c47b832d</id>
 				<content type="html"><![CDATA[<p>There’s some really interesting performance-related lessons to be learned from <a href="https://www.ampproject.org">Google’s AMP project</a>. This chronicles a few.</p>
 
-<p>I’m gonna give the preconnect &amp; prefetch stuff a whirl on this site to see if it helps speed things up at all.</p>
+<p><del datetime="2015-11-17T13:40:00">I’m gonna give the preconnect &amp; prefetch stuff a whirl on this site to see if it helps speed things up at all.</del> <ins datetime="2015-11-17T13:40:00">I gave the preconnect &amp; prefetch stuff a whirl on this site, and it sped things up substantially.</ins></p>
 <p><a rel="full-article" href="https://medium.com/@cramforce/not-so-micro-optimizations-f867c47b832d">Read on Medium&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
@@ -431,30 +453,6 @@ input:focus + label {
 
 <p>Now consider that this is focused purely on native apps and not products delivered on the Web. We should do everything in our power to deliver <em>positive experiences</em> to our users while simultaneously recognizing that it is impossible to deliver <em>the same experience</em> to each of them.</p>
 <p><a rel="full-article" href="http://arc.applause.com/2015/11/02/mobile-accessibility-end-user/">Read on Arc&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Dear Microsoft, I'm Confused.]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/BB1C957ADE9DB90816B21F2806CB3AEB/"/>
-				<updated>2015-10-30T10:36:28-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/BB1C957ADE9DB90816B21F2806CB3AEB</id>
-				<content type="html"><![CDATA[<p>A funny love letter (of sorts) to Microsoft from SitePoint’s Managing Editor.</p>
-<p><a rel="full-article" href="http://go.sitepoint.com/t/ViewEmail/y/FC49DD479BFA7019/BB1C957ADE9DB90816B21F2806CB3AEB">Read on SitePoint&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[A Brief History of That Time You Used Web Fonts]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/a-brief-history-of-that-time-you-used-web-fonts/"/>
-				<updated>2015-10-29T14:58:15-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/a-brief-history-of-that-time-you-used-web-fonts</id>
-				<content type="html"><![CDATA[<p>This looks like an excellent talk from <a href="http://www.zachleat.com/web/">Zach Leatherman</a>. It’s packed with useful recommendations. I hope the video’s posted soon!</p>
-
-<p>Slides that made me laugh out loud: <a href="https://speakerdeck.com/zachleat/a-brief-history-of-that-time-you-used-web-fonts/#84">84</a> &amp; <a href="https://speakerdeck.com/zachleat/a-brief-history-of-that-time-you-used-web-fonts/#85">85</a>.</p>
-<p><a rel="full-article" href="https://speakerdeck.com/zachleat/a-brief-history-of-that-time-you-used-web-fonts">Read on Speaker Deck&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
