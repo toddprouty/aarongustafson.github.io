@@ -81,9 +81,6 @@
 
 
 	
-	<script type="text/javascript">
-		function _kms(e){setTimeout(function(){var t=document,n=t.getElementsByTagName("script")[0],r=t.createElement("script");r.type="text/javascript";r.async=true;r.src=e;n.parentNode.insertBefore(r,n)},1)}var _kmq=_kmq||[];var _kmk=_kmk||"f0d52d1a61f4cb2f69aa62a6c07c049f7ae815b6";_kms("//i.kissmetrics.com/i.js");_kms("//doug1izaerwt3.cloudfront.net/"+_kmk+".1.js")
-	</script>
 
 	
 	<script>
@@ -202,7 +199,7 @@
 
 <p>The first use case we had was a series of large, focal images. You can find different examples of them on <a href="http://www.nichols.edu">the homepage</a> and landing pages (like <a href="http://www.nichols.edu/admissions/">this one for Admissions</a>). The first pass on making these images adaptive involved the <code>picture</code> element for which <a href="https://html.spec.whatwg.org/multipage/embedded-content.html#adaptive-images">the spec</a> is known. The markup we were generating was based on the pattern outlined for <a href="http://scottjehl.github.io/picturefill/">Picturefill</a>, a JavaScript polyfill that implements adaptive images in browsers that don’t do it natively:</p>
 
-<div><script src="https://gist.github.com/96dd157a0206d59ac30a.js?file=picture-result.html"></script>
+<div><script src="https://gist.github.com/96dd157a0206d59ac30a.js?file=picture-result.html" async=""></script>
 <noscript><pre><code>&lt;picture class=&quot;page__image-header__photo&quot;&gt;
     &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
     &lt;source srcset=&quot;about_940_343_int_s_c1_full.jpg&quot; media=&quot;(min-width: 40em)&quot;&gt;
@@ -214,7 +211,7 @@
 
 <p>To get to that point, however, we needed to use CE Image to generate (and cache) the specific sizes we needed:</p>
 
-<div><script src="https://gist.github.com/96dd157a0206d59ac30a.js?file=picture-element.html"></script>
+<div><script src="https://gist.github.com/96dd157a0206d59ac30a.js?file=picture-element.html" async=""></script>
 <noscript><pre><code>&lt;picture class=&quot;page__image-header__photo&quot;&gt;
     &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
     {exp:ce_img:pair
@@ -257,7 +254,7 @@
 
 <p>Not what’s a lot of code, so let’s just look at one segment of that jumble:</p>
 
-<div><script src="https://gist.github.com/96dd157a0206d59ac30a.js?file=picture-excerpt.html"></script>
+<div><script src="https://gist.github.com/96dd157a0206d59ac30a.js?file=picture-excerpt.html" async=""></script>
 <noscript><pre><code>{exp:ce_img:pair
     src=&quot;{content_focal_image}&quot;
     filename_suffix=&quot;_full&quot;
@@ -288,7 +285,7 @@
 
 <p>Now that’s all well and good, but shortly after launch, <a href="http://ericportis.com/">Eric Portis</a> wrote <a href="http://ericportis.com/posts/2014/srcset-sizes/">an amazing post explaining how the <code>srcset</code> and <code>sizes</code> attributes operate</a> and it cleared up a lot of my confusion on the matter. He convinced me that the age-old <code>img</code> element, with these new attributes, would be far more maintainable. With a fire in my belly, I rewrote the markup:</p>
 
-<div><script src="https://gist.github.com/96dd157a0206d59ac30a.js?file=simple-resize.html"></script>
+<div><script src="https://gist.github.com/96dd157a0206d59ac30a.js?file=simple-resize.html" async=""></script>
 <noscript><pre><code>&lt;img class=&quot;page__image-header__photo&quot; alt=&quot;&quot;
     {exp:ce_img:pair
         src=&quot;{embed:image}&quot;
@@ -328,7 +325,7 @@
 
 <p>The CE Image behavior is exactly the same, but the resulting markup is much clearer:</p>
 
-<div><script src="https://gist.github.com/96dd157a0206d59ac30a.js?file=srcset-result.html"></script>
+<div><script src="https://gist.github.com/96dd157a0206d59ac30a.js?file=srcset-result.html" async=""></script>
 <noscript><pre><code>&lt;img class=&quot;page__image-header__photo&quot; alt=&quot;&quot;
      src=&quot;about_480_320_int_c1_small.jpg&quot;
      srcset=&quot;about_480_320_int_c1_small.jpg 480w,
@@ -345,13 +342,13 @@
 
 <p>We wrote <a href="https://github.com/easy-designs/easy-lazy-images.js">a lazy-loading image script</a> a few years back and have battle tested it on numerous sites to great success. It’s all based on a simple markup pattern:</p>
 
-<div><script src="https://gist.github.com/96dd157a0206d59ac30a.js?file=lazy-loaded-markup.html"></script>
+<div><script src="https://gist.github.com/96dd157a0206d59ac30a.js?file=lazy-loaded-markup.html" async=""></script>
 <noscript><pre><code>&lt;div class=&quot;module__image image--lazy&quot;
      data-image-src=&quot;Tim-Smith_220x140_220_140_int_c1.jpg&quot;&gt;&lt;/div&gt;</code></pre></noscript></div>
 
 <p>The <code>data-img-src</code> attribute defines the path to the “nice to have” image and then the JavaScript adds the image element into the page when the appropriate conditions are met:</p>
 
-<div><script src="https://gist.github.com/96dd157a0206d59ac30a.js?file=lazy-loaded-result.html"></script>
+<div><script src="https://gist.github.com/96dd157a0206d59ac30a.js?file=lazy-loaded-result.html" async=""></script>
 <noscript><pre><code>&lt;div class=&quot;module__image image--lazy&quot;
     data-image-src=&quot;Tim-Smith_220x140_220_140_int_c1.jpg&quot;
     data-image-loaded=&quot;&quot;
@@ -361,7 +358,7 @@
 
 <p>Pretty simple. It even supports <code>srcset</code>:</p>
 
-<div><script src="https://gist.github.com/96dd157a0206d59ac30a.js?file=lazy-loaded-srcset.html"></script>
+<div><script src="https://gist.github.com/96dd157a0206d59ac30a.js?file=lazy-loaded-srcset.html" async=""></script>
 <noscript><pre><code>&lt;div class=&quot;module__image image--lazy&quot;
      data-image=&quot;about_480_320_int_c1_small.jpg&quot;
      data-image-srcset=&quot;about_480_320_int_c1_small.jpg 480w,
@@ -372,7 +369,7 @@
 
 <p>Implementing this in the context of CE Image was a breeze and builds on the <code>source</code> pattern I showed earlier:</p>
 
-<div><script src="https://gist.github.com/96dd157a0206d59ac30a.js?file=lazy-loading.html"></script>
+<div><script src="https://gist.github.com/96dd157a0206d59ac30a.js?file=lazy-loading.html" async=""></script>
 <noscript><pre><code>{if testimonial_photo}
     {exp:ce_img:pair
         src=&quot;{testimonial_photo}&quot;
@@ -444,7 +441,6 @@
 	
 	
 
-	<script src="/j/post.min.js" async></script>
 </div>
 			
 	    </main>
@@ -534,28 +530,19 @@
 	<script>
 		var disqus_shortname = 'aarongustafson',
 		
-			
+			// embed the comments
 			// disqus_developer = 1,
 			disqus_identifier = 'https://www.aaron-gustafson.com/notebook/adaptive-images-in-expressionengine-with-ce-image/',
 			disqus_url = 'https://www.aaron-gustafson.com/notebook/adaptive-images-in-expressionengine-with-ce-image/',
 			disqus_script = 'embed.js';
 		
-		(function () {
-			if ( 'AG' in window && 'preconnect' in window.AG ) {
-    		    window.AG.preconnect( '//disqus.com/' );
-    		    window.AG.preconnect( '//aarongustafson.disqus.com' );
-    		    window.AG.preconnect( '//links.services.disqus.com/' );
-    		    window.AG.preconnect( '//a.disquscdn.com' );
-    		}
-			var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-			dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
-			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-		}());
 	</script>
 
 
 
 	<script src="/j/main.js"></script>
+
+	<script src="/j/post.min.js" async></script>
 
 
 

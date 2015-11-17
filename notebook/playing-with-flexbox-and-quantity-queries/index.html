@@ -79,9 +79,6 @@
 
 
 	
-	<script type="text/javascript">
-		function _kms(e){setTimeout(function(){var t=document,n=t.getElementsByTagName("script")[0],r=t.createElement("script");r.type="text/javascript";r.async=true;r.src=e;n.parentNode.insertBefore(r,n)},1)}var _kmq=_kmq||[];var _kmk=_kmk||"f0d52d1a61f4cb2f69aa62a6c07c049f7ae815b6";_kms("//i.kissmetrics.com/i.js");_kms("//doug1izaerwt3.cloudfront.net/"+_kmk+".1.js")
-	</script>
 
 	
 	<script>
@@ -207,7 +204,7 @@
 
 <p>The markup pattern was pretty simple. It’s just a list of events:</p>
 
-<div><script src="https://gist.github.com/597284affc88b9084cf3.js?file=markup.html"></script>
+<div><script src="https://gist.github.com/597284affc88b9084cf3.js?file=markup.html" async=""></script>
 <noscript><pre><code>&lt;ul class=&quot;listing listing--events&quot;&gt;
   &lt;li class=&quot;listing__item listing__item--1 event event--future&quot;&gt;
     &lt;!-- content --&gt;
@@ -221,7 +218,7 @@
 
 <p>To set the stage, I started with some basic Flexbox syntax<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> by handling the container and the basic full-width small screen view:</p>
 
-<div><script src="https://gist.github.com/597284affc88b9084cf3.js?file=first-pass.css"></script>
+<div><script src="https://gist.github.com/597284affc88b9084cf3.js?file=first-pass.css" async=""></script>
 <noscript><pre><code>.listing--events {
   display: flex;
   flex-wrap: wrap;
@@ -246,7 +243,7 @@
 
 <p>Next up, I tackled the first breakpoint at 28.75em:</p>
 
-<div><script src="https://gist.github.com/597284affc88b9084cf3.js?file=second-pass.css"></script>
+<div><script src="https://gist.github.com/597284affc88b9084cf3.js?file=second-pass.css" async=""></script>
 <noscript><pre><code>.listing--events {
   display: flex;
   flex-wrap: wrap;
@@ -306,7 +303,7 @@
 
 <p>Finally, I could tackle the third and most complicated layout. Things seemed to get a little wide around 690px, so I set the breakpoint to 43.125em.</p>
 
-<div><script src="https://gist.github.com/597284affc88b9084cf3.js?file=third-pass.css"></script>
+<div><script src="https://gist.github.com/597284affc88b9084cf3.js?file=third-pass.css" async=""></script>
 <noscript><pre><code>.listing--events {
   display: flex;
   flex-wrap: wrap;
@@ -496,7 +493,6 @@
 	
 	
 
-	<script src="/j/post.min.js" async></script>
 </div>
 			
 	    </main>
@@ -586,28 +582,19 @@
 	<script>
 		var disqus_shortname = 'aarongustafson',
 		
-			
+			// embed the comments
 			// disqus_developer = 1,
 			disqus_identifier = 'https://www.aaron-gustafson.com/notebook/playing-with-flexbox-and-quantity-queries/',
 			disqus_url = 'https://www.aaron-gustafson.com/notebook/playing-with-flexbox-and-quantity-queries/',
 			disqus_script = 'embed.js';
 		
-		(function () {
-			if ( 'AG' in window && 'preconnect' in window.AG ) {
-    		    window.AG.preconnect( '//disqus.com/' );
-    		    window.AG.preconnect( '//aarongustafson.disqus.com' );
-    		    window.AG.preconnect( '//links.services.disqus.com/' );
-    		    window.AG.preconnect( '//a.disquscdn.com' );
-    		}
-			var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-			dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
-			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-		}());
 	</script>
 
 
 
 	<script src="/j/main.js"></script>
+
+	<script src="/j/post.min.js" async></script>
 
 
 

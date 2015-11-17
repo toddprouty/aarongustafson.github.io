@@ -79,9 +79,6 @@
 
 
 	
-	<script type="text/javascript">
-		function _kms(e){setTimeout(function(){var t=document,n=t.getElementsByTagName("script")[0],r=t.createElement("script");r.type="text/javascript";r.async=true;r.src=e;n.parentNode.insertBefore(r,n)},1)}var _kmq=_kmq||[];var _kmk=_kmk||"f0d52d1a61f4cb2f69aa62a6c07c049f7ae815b6";_kms("//i.kissmetrics.com/i.js");_kms("//doug1izaerwt3.cloudfront.net/"+_kmk+".1.js")
-	</script>
 
 	
 	<script>
@@ -241,7 +238,7 @@
 
 <p>Some basic CSS—think typography, color, etc.—will be usable by just about anyone, so we can put all that stuff in one CSS file (e.g., <code>basic.css</code>) and include it with a standard <code>link</code>. Then we can tuck all of our layout rules and other advanced CSS into a separate CSS file (e.g., <code>advanced.css</code>) that we link to with an associated media query.</p>
 
-<div><script src="https://gist.github.com/166b285a4fe3d854b97b.js?file=css-linking.html"></script>
+<div><script src="https://gist.github.com/166b285a4fe3d854b97b.js?file=css-linking.html" async=""></script>
 <noscript><pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;default.css&quot; media=&quot;all&quot;&gt;
 &lt;link rel=&quot;stylesheet&quot; href=&quot;advanced.css&quot; media=&quot;only screen&quot;&gt;</code></pre></noscript></div>
 
@@ -251,14 +248,14 @@
 
 <p>Of course, CSS support issues are nothing compared to JavaScript, so sometimes it’s best not to deliver certain bits of JavaScript-based functionality to browsers that can’t handle it. This is where <a href="http://www.quirksmode.org/js/support.html">feature (and object) detection</a> becomes incredibly useful:</p>
 
-<div><script src="https://gist.github.com/166b285a4fe3d854b97b.js?file=feature-test.js"></script>
+<div><script src="https://gist.github.com/166b285a4fe3d854b97b.js?file=feature-test.js" async=""></script>
 <noscript><pre><code>if ( &#39;querySelector&#39; in document ) {
   // We can use querySelector!
 }</code></pre></noscript></div>
 
 <p>You can also use <a href="http://en.wikipedia.org/wiki/Conditional_comment#Downlevel-revealed_conditional_comment">inverted conditional comments</a> to prohibit older versions of IE from getting JavaScript in the first place (which means you don’t even need to worry about debugging JavaScript there). Here’s an example that hides <code>main.js</code> from IE8 and below, but makes it available to IE9 on up and to every other non-IE browser.</p>
 
-<div><script src="https://gist.github.com/166b285a4fe3d854b97b.js?file=no-script-in-lte-ie8.html"></script>
+<div><script src="https://gist.github.com/166b285a4fe3d854b97b.js?file=no-script-in-lte-ie8.html" async=""></script>
 <noscript><pre><code>&lt;!--[if gt IE 8]&gt;&lt;!--&gt;
   &lt;script src=&quot;main.js&quot;&gt;&lt;/script&gt;
 &lt;!--&lt;![endif]--&gt;</code></pre></noscript></div>
@@ -386,7 +383,6 @@
 	
 	
 
-	<script src="/j/post.min.js" async></script>
 </div>
 			
 	    </main>
@@ -476,28 +472,19 @@
 	<script>
 		var disqus_shortname = 'aarongustafson',
 		
-			
+			// embed the comments
 			// disqus_developer = 1,
 			disqus_identifier = 'https://www.aaron-gustafson.com/notebook/bringing-sanity-and-order-to-device-testing/',
 			disqus_url = 'https://www.aaron-gustafson.com/notebook/bringing-sanity-and-order-to-device-testing/',
 			disqus_script = 'embed.js';
 		
-		(function () {
-			if ( 'AG' in window && 'preconnect' in window.AG ) {
-    		    window.AG.preconnect( '//disqus.com/' );
-    		    window.AG.preconnect( '//aarongustafson.disqus.com' );
-    		    window.AG.preconnect( '//links.services.disqus.com/' );
-    		    window.AG.preconnect( '//a.disquscdn.com' );
-    		}
-			var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-			dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
-			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-		}());
 	</script>
 
 
 
 	<script src="/j/main.js"></script>
+
+	<script src="/j/post.min.js" async></script>
 
 
 

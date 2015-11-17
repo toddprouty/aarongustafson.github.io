@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-11-16T21:27:41-05:00</updated>
+	<updated>2015-11-17T11:56:31-05:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,19 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Not So Micro Optimizations]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/not-so-micro-optimizations-f867c47b832d/"/>
+				<updated>2015-11-17T11:43:04-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/not-so-micro-optimizations-f867c47b832d</id>
+				<content type="html"><![CDATA[<p>There’s some really interesting performance-related lessons to be learned from <a href="https://www.ampproject.org">Google’s AMP project</a>. This chronicles a few.</p>
+
+<p>I’m gonna give the preconnect &amp; prefetch stuff a whirl on this site to see if it helps speed things up at all.</p>
+<p><a rel="full-article" href="https://medium.com/@cramforce/not-so-micro-optimizations-f867c47b832d">Read on Medium&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -230,8 +243,6 @@
 <p>Slides that made me laugh out loud: <a href="https://speakerdeck.com/zachleat/a-brief-history-of-that-time-you-used-web-fonts/#84">84</a> &amp; <a href="https://speakerdeck.com/zachleat/a-brief-history-of-that-time-you-used-web-fonts/#85">85</a>.</p>
 <p><a rel="full-article" href="https://speakerdeck.com/zachleat/a-brief-history-of-that-time-you-used-web-fonts">Read on Speaker Deck&nbsp;&rarr;</a></p>]]></content>
 			</entry>
-		
-	
 		
 	
 </feed>

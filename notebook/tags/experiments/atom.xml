@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Experiments | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/experiments/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2015-11-16T21:27:41-05:00</updated>
+  <updated>2015-11-17T11:56:31-05:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -37,7 +37,7 @@
 
 <p>The markup pattern was pretty simple. It’s just a list of events:</p>
 
-<p><div><script src='https://gist.github.com/597284affc88b9084cf3.js?file=markup.html'></script>
+<p><div><script src="https://gist.github.com/597284affc88b9084cf3.js?file=markup.html" async></script>
 <noscript><pre><code>&lt;ul class=&quot;listing listing--events&quot;&gt;
   &lt;li class=&quot;listing__item listing__item--1 event event--future&quot;&gt;
     &lt;!-- content --&gt;
@@ -52,7 +52,7 @@
 
 <p>To set the stage, I started with some basic Flexbox syntax<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> by handling the container and the basic full-width small screen view:</p>
 
-<p><div><script src='https://gist.github.com/597284affc88b9084cf3.js?file=first-pass.css'></script>
+<p><div><script src="https://gist.github.com/597284affc88b9084cf3.js?file=first-pass.css" async></script>
 <noscript><pre><code>.listing--events {
   display: flex;
   flex-wrap: wrap;
@@ -78,7 +78,7 @@
 
 <p>Next up, I tackled the first breakpoint at 28.75em:</p>
 
-<p><div><script src='https://gist.github.com/597284affc88b9084cf3.js?file=second-pass.css'></script>
+<p><div><script src="https://gist.github.com/597284affc88b9084cf3.js?file=second-pass.css" async></script>
 <noscript><pre><code>.listing--events {
   display: flex;
   flex-wrap: wrap;
@@ -139,7 +139,7 @@
 
 <p>Finally, I could tackle the third and most complicated layout. Things seemed to get a little wide around 690px, so I set the breakpoint to 43.125em.</p>
 
-<p><div><script src='https://gist.github.com/597284affc88b9084cf3.js?file=third-pass.css'></script>
+<p><div><script src="https://gist.github.com/597284affc88b9084cf3.js?file=third-pass.css" async></script>
 <noscript><pre><code>.listing--events {
   display: flex;
   flex-wrap: wrap;

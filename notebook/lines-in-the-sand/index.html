@@ -79,9 +79,6 @@
 
 
 	
-	<script type="text/javascript">
-		function _kms(e){setTimeout(function(){var t=document,n=t.getElementsByTagName("script")[0],r=t.createElement("script");r.type="text/javascript";r.async=true;r.src=e;n.parentNode.insertBefore(r,n)},1)}var _kmq=_kmq||[];var _kmk=_kmk||"f0d52d1a61f4cb2f69aa62a6c07c049f7ae815b6";_kms("//i.kissmetrics.com/i.js");_kms("//doug1izaerwt3.cloudfront.net/"+_kmk+".1.js")
-	</script>
 
 	
 	<script>
@@ -204,7 +201,7 @@
 
 <p>A simple way to rid yourself of IE8 related headaches is to embrace the idea that <a href="http://dowebsitesneedtolookexactlythesameineverybrowser.com/">web pages don’t need to look (or behave) the same in every browser</a> and look for ways to achieve this while still providing access to your content and tools for less-capable browsers and devices. For example:</p>
 
-<div><script src="https://gist.github.com/b9bca995a67ba298225d.js?file=css-filter.html"></script>
+<div><script src="https://gist.github.com/b9bca995a67ba298225d.js?file=css-filter.html" async=""></script>
 <noscript><pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;simple.css&quot;&gt;
 &lt;link rel=&quot;stylesheet&quot; href=&quot;complex.css&quot; media=&quot;only screen&quot;&gt;</code></pre></noscript></div>
 
@@ -214,7 +211,7 @@
 
 <p>On the JavaScript end, you can draw a line in the sand too. Let’s say you don’t want to spend your time debugging JavaScript in IE8. You can just skip it using <a href="http://www.quirksmode.org/css/condcom.html">Conditional Comments</a>:</p>
 
-<div><script src="https://gist.github.com/b9bca995a67ba298225d.js?file=js-filter.html"></script>
+<div><script src="https://gist.github.com/b9bca995a67ba298225d.js?file=js-filter.html" async=""></script>
 <noscript><pre><code>&lt;!--[if gte IE 9]&gt;&lt;!--&gt;
   &lt;script src=&quot;not-for-ie8.js&quot;&gt;&lt;/script&gt;
 &lt;!--&lt;![endif]--&gt;</code></pre></noscript></div>
@@ -282,7 +279,6 @@
 	
 	
 
-	<script src="/j/post.min.js" async></script>
 </div>
 			
 	    </main>
@@ -372,28 +368,19 @@
 	<script>
 		var disqus_shortname = 'aarongustafson',
 		
-			
+			// embed the comments
 			// disqus_developer = 1,
 			disqus_identifier = 'https://www.aaron-gustafson.com/notebook/lines-in-the-sand/',
 			disqus_url = 'https://www.aaron-gustafson.com/notebook/lines-in-the-sand/',
 			disqus_script = 'embed.js';
 		
-		(function () {
-			if ( 'AG' in window && 'preconnect' in window.AG ) {
-    		    window.AG.preconnect( '//disqus.com/' );
-    		    window.AG.preconnect( '//aarongustafson.disqus.com' );
-    		    window.AG.preconnect( '//links.services.disqus.com/' );
-    		    window.AG.preconnect( '//a.disquscdn.com' );
-    		}
-			var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-			dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
-			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-		}());
 	</script>
 
 
 
 	<script src="/j/main.js"></script>
+
+	<script src="/j/post.min.js" async></script>
 
 
 

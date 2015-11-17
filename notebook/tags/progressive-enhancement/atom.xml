@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Progressive Enhancement | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/progressive-enhancement/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2015-11-16T21:27:41-05:00</updated>
+  <updated>2015-11-17T11:56:31-05:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -244,7 +244,7 @@
 
 <p>In <a href="http://dev.w3.org/csswg/mediaqueries-4/">Media Queries Level 4</a>, we became able to apply style rules to particular interaction contexts. For instance, when we have very accurate control over our cursor (as in the case of a stylus or mouse) or less accurate control (as in the case of a touch screen or physical gesture):</p>
 
-<p><div><script src='https://gist.github.com/372271534c78cf11d4a6.js?file=mq4-pointer.css'></script>
+<p><div><script src="https://gist.github.com/372271534c78cf11d4a6.js?file=mq4-pointer.css" async></script>
 <noscript><pre><code>@media (pointer:fine) {
   /* Smaller links and buttons are ok */
 }
@@ -257,7 +257,7 @@
 
 <p>We also have the ability to determine whether the device is capable of hovering over an element and can adjust the interface accordingly.</p>
 
-<p><div><script src='https://gist.github.com/372271534c78cf11d4a6.js?file=mq4-hover.css'></script>
+<p><div><script src="https://gist.github.com/372271534c78cf11d4a6.js?file=mq4-hover.css" async></script>
 <noscript><pre><code>@media (hover:hover) {
   /* hover-related interactions are A-OK */
 }
@@ -282,7 +282,7 @@
 
 <p>We can unobtrusively detect support for Pointer Events…</p>
 
-<p><div><script src='https://gist.github.com/372271534c78cf11d4a6.js?file=pointer-test.js'></script>
+<p><div><script src="https://gist.github.com/372271534c78cf11d4a6.js?file=pointer-test.js" async></script>
 <noscript><pre><code>if ( window.PointerEvent ) {
   window.addEventListener( &quot;pointerdown&quot;, detectType, false );
 }</code></pre></noscript></div>
@@ -290,7 +290,7 @@
 
 <p>…and then handle them all in the same way or create branches based on the <code>pointerType</code>:</p>
 
-<p><div><script src='https://gist.github.com/372271534c78cf11d4a6.js?file=pointer-event.js'></script>
+<p><div><script src="https://gist.github.com/372271534c78cf11d4a6.js?file=pointer-event.js" async></script>
 <noscript><pre><code>function detectType( event ) {
   switch( event.pointerType ) {
     case &quot;mouse&quot;:
@@ -314,7 +314,7 @@
 
 <p>For a long time, I’ve used ems for the layout’s <code>max-width</code> (so the line length is proportional to the font size). I also use relative font sizes. With that as the foundation, I can use a media query that matches the maximum width and set the base font size at the vw equivalent at the max width.</p>
 
-<p><div><script src='https://gist.github.com/372271534c78cf11d4a6.js?file=vw-scaling.css'></script>
+<p><div><script src="https://gist.github.com/372271534c78cf11d4a6.js?file=vw-scaling.css" async></script>
 <noscript><pre><code>body {
   max-width: 64em;
 }
@@ -372,7 +372,7 @@
 
 <p>In Windows 10, installable web apps can include a <a href="https://msdn.microsoft.com/en-us/library/windows/apps/dn722331.aspx">Voice Command Definition (VCD) file</a> in the <code>head</code> of the page to enable custom commands:</p>
 
-<p><div><script src='https://gist.github.com/372271534c78cf11d4a6.js?file=vcd.html'></script>
+<p><div><script src="https://gist.github.com/372271534c78cf11d4a6.js?file=vcd.html" async></script>
 <noscript><pre><code>&lt;meta name=“msapplication-cortanavcd&quot; content=&quot;http://myapp.io/vcd.xml&quot;&gt;</code></pre></noscript></div>
 </p>
 
@@ -380,7 +380,7 @@
 
 <p>Using very basic syntax, The VCD identifies optional pieces of a given phrase and variables Cortana should extract:</p>
 
-<p><div><script src='https://gist.github.com/372271534c78cf11d4a6.js?file=vcd.xml'></script>
+<p><div><script src="https://gist.github.com/372271534c78cf11d4a6.js?file=vcd.xml" async></script>
 <noscript><pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
 &lt;VoiceCommands xmlns=&quot;http://schemas.microsoft.com/voicecommands/1.2&quot;&gt;
   &lt;CommandSet xml:lang=&quot;en-us&quot; Name=&quot;groupPost&quot;&gt;
@@ -497,7 +497,7 @@
 
 <p>Some basic CSS—think typography, color, etc.—will be usable by just about anyone, so we can put all that stuff in one CSS file (e.g., <code>basic.css</code>) and include it with a standard <code>link</code>. Then we can tuck all of our layout rules and other advanced CSS into a separate CSS file (e.g., <code>advanced.css</code>) that we link to with an associated media query.</p>
 
-<p><div><script src='https://gist.github.com/166b285a4fe3d854b97b.js?file=css-linking.html'></script>
+<p><div><script src="https://gist.github.com/166b285a4fe3d854b97b.js?file=css-linking.html" async></script>
 <noscript><pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;default.css&quot; media=&quot;all&quot;&gt;
 &lt;link rel=&quot;stylesheet&quot; href=&quot;advanced.css&quot; media=&quot;only screen&quot;&gt;</code></pre></noscript></div>
 </p>
@@ -508,7 +508,7 @@
 
 <p>Of course, CSS support issues are nothing compared to JavaScript, so sometimes it’s best not to deliver certain bits of JavaScript-based functionality to browsers that can’t handle it. This is where <a href="http://www.quirksmode.org/js/support.html">feature (and object) detection</a> becomes incredibly useful:</p>
 
-<p><div><script src='https://gist.github.com/166b285a4fe3d854b97b.js?file=feature-test.js'></script>
+<p><div><script src="https://gist.github.com/166b285a4fe3d854b97b.js?file=feature-test.js" async></script>
 <noscript><pre><code>if ( &#39;querySelector&#39; in document ) {
   // We can use querySelector!
 }</code></pre></noscript></div>
@@ -516,7 +516,7 @@
 
 <p>You can also use <a href="http://en.wikipedia.org/wiki/Conditional_comment#Downlevel-revealed_conditional_comment">inverted conditional comments</a> to prohibit older versions of IE from getting JavaScript in the first place (which means you don’t even need to worry about debugging JavaScript there). Here’s an example that hides <code>main.js</code> from IE8 and below, but makes it available to IE9 on up and to every other non-IE browser.</p>
 
-<p><div><script src='https://gist.github.com/166b285a4fe3d854b97b.js?file=no-script-in-lte-ie8.html'></script>
+<p><div><script src="https://gist.github.com/166b285a4fe3d854b97b.js?file=no-script-in-lte-ie8.html" async></script>
 <noscript><pre><code>&lt;!--[if gt IE 8]&gt;&lt;!--&gt;
   &lt;script src=&quot;main.js&quot;&gt;&lt;/script&gt;
 &lt;!--&lt;![endif]--&gt;</code></pre></noscript></div>
