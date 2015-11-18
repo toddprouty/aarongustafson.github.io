@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Blogging | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/blogging/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2015-11-18T13:15:36-05:00</updated>
+  <updated>2015-11-18T13:32:49-05:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -58,13 +58,13 @@
 
 <p>The tag to display webentions for a page is pretty simple:</p>
 
-<p><div><script src="https://gist.github.com/cb15ead6bf3a72b8f92a.js?file=webmentions.html" async></script>
+<p><div><script src="https://gist.github.com/cb15ead6bf3a72b8f92a.js?file=webmentions.html"></script>
 <noscript><pre><code>{% webmentions YOUR_URL %}</code></pre></noscript></div>
 </p>
 
 <p>This tag outputs a container <code>div</code> and an ordered list of every webmention found when the site is generated (or previewed). To show the current webmention count, you use a slightly different tag which just outputs a number:</p>
 
-<p><div><script src="https://gist.github.com/cb15ead6bf3a72b8f92a.js?file=webmention_count.html" async></script>
+<p><div><script src="https://gist.github.com/cb15ead6bf3a72b8f92a.js?file=webmention_count.html"></script>
 <noscript><pre><code>{% webmention_count YOUR_URL %}</code></pre></noscript></div>
 </p>
 

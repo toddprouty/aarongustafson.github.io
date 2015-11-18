@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Buttons | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/buttons/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2015-11-18T13:15:36-05:00</updated>
+  <updated>2015-11-18T13:32:49-05:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -26,7 +26,7 @@
 
 <p>The markup itself isn’t horrible; here’s a distillation of that row in the design:</p>
 
-<p><div><script src="https://gist.github.com/711cbd1054e8ee868a93.js?file=example.html" async></script>
+<p><div><script src="https://gist.github.com/711cbd1054e8ee868a93.js?file=example.html"></script>
 <noscript><pre><code>&lt;table&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
