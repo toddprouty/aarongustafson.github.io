@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-11-18T13:32:49-05:00</updated>
+	<updated>2015-11-18T14:37:44-05:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,109 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[PSA: Don't Use Gradient Generators!]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/psa-dont-use-gradient-generators/"/>
+				<updated>2015-11-18T14:34:03-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/psa-dont-use-gradient-generators</id>
+				<content type="html"><![CDATA[<p>Did you know most of the CSS gradient generation tools out there are highly inefficient? This post from Ana Tudor fills you in on why and makes some excellent recommendations for slimming down your CSS.</p>
+<p><a rel="full-article" href="http://codepen.io/thebabydino/full/pjxVWp/">Read on CodePen&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[X-Tag]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/x-tag/"/>
+				<updated>2015-11-18T14:28:32-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/x-tag</id>
+				<content type="html"><![CDATA[<p>If you follow web components, you’ve no doubt heard of <a href="http://polymer-project.org/">Polymer</a>. It’s the most popular library, but the 2nd most popular is X-Tag. The project was founded at Mozilla and is backed by Microsoft too. It’s standards-based, lightweight, has a generous support matrix, and plays well with other libraries. If you’re into web components, you should check it out.</p>
+<p><a rel="full-article" href="http://x-tag.github.io/">Read on &nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Vs Code v0.10.1]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/vs-code-v0_10_1/"/>
+				<updated>2015-11-18T14:25:14-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/vs-code-v0_10_1</id>
+				<content type="html"><![CDATA[<p>Looks like the <a href="https://code.visualstudio.com">Visual Studio Code</a> team has been busy. There are a ton of new features in the latest update to the <a href="https://atom.io/">Atom</a>-based text editor. Oh, and <a href="http://github.com/microsoft/vscode">it’s open source too</a>.</p>
+<p><a rel="full-article" href="https://code.visualstudio.com/Updates">Read on Visual Studio Code&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Peering Into the Minds of the 4.3 Billion Unconnected]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/peering-into-the-minds-of-the-4-3-billion-unconnected/"/>
+				<updated>2015-11-18T14:23:04-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/peering-into-the-minds-of-the-4-3-billion-unconnected</id>
+				<content type="html"><![CDATA[<p>This article touches on many of the issues we will struggle with as more of the world’s population comes online. The biggest one (in my mind at least) is low/no literacy. I am hopeful that voice-based interactions (e.g. Siri, Cortana, Echo) will help with that.</p>
+<p><a rel="full-article" href="http://techcrunch.com/2014/11/29/peering-into-the-minds-of-the-4-3-billion-unconnected/">Read on TechCrunch&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Mobile Friendliness Test Tool]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/bing-mobile-friendliness-tool/"/>
+				<updated>2015-11-18T14:10:39-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/bing-mobile-friendliness-tool</id>
+				<content type="html"><![CDATA[<p>The folks at Bing have put together their own mobile-friendliness test. Like <a href="https://www.google.com/webmasters/tools/mobile-friendly/">the Google one</a>, it’s a good litmus test for how you’re doing, but neither is a replacement for testing on a real device.</p>
+<p><a rel="full-article" href="https://www.bing.com/webmaster/tools/mobile-friendliness">Read on Bing&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[What Is the Business Case for Accessibility?]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/145138872/"/>
+				<updated>2015-11-18T14:08:12-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/145138872</id>
+				<content type="html"><![CDATA[<p>If you’ve ever struggled to convince someone why they should be making their site or web product accessible, <a href="http://alicebartlett.co.uk/">Alice Bartlett</a> has your back.</p>
+<p><a rel="full-article" href="https://vimeo.com/145138872">Read on Alice Bartlett (on Vimeo)&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[When the Treatment Is Worse Than the Disease]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/when-the-treatment-is-worse-than-the-disease/"/>
+				<updated>2015-11-18T14:07:55-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/when-the-treatment-is-worse-than-the-disease</id>
+				<content type="html"><![CDATA[<p>Karl nails it (as per usual):</p>
+
+<blockquote>
+  <p>[A]dd-on accessibility is a sham. … They fail to provide anything beyond a marginal benefit for the end user and are, at best, a band-aid over a gaping wound. … [Companies] would be better off spending their money educating their design and development staff on accessibility than wasting their money on snake oil solutions made by amateurs.</p>
+</blockquote>
+<p><a rel="full-article" href="http://www.karlgroves.com/2015/11/13/when-the-treatment-is-worse-than-the-disease/">Read on Karl Groves&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[How to Improve Your Website’s Accessibility Without Going Crazy]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/how-to-improve-your-websites-accessibility-without-going-crazy/"/>
+				<updated>2015-11-18T14:07:32-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/how-to-improve-your-websites-accessibility-without-going-crazy</id>
+				<content type="html"><![CDATA[<p>Based on the slides, this looks like it was an excellent talk from Eric Eggert. I wish I’d seen it delivered in person.</p>
+<p><a rel="full-article" href="http://www.slideshare.net/yatil/how-to-improve-your-websites-accessibility-without-going-crazy">Read on Eric Eggert (on SlideShare)&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Online Regex Tester and Debugger]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/regex101/"/>
+				<updated>2015-11-18T14:07:24-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/regex101</id>
+				<content type="html"><![CDATA[<p>If you struggle with regular expressions, you should check out this tool. It reminds me a lot of <a href="http://www.regexbuddy.com/">RegEx Buddy</a>, a Windows program that was an immense help in trying to wrap my head around writing regular expressions.</p>
+<p><a rel="full-article" href="https://regex101.com/">Read on RegEx 101&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -116,130 +219,6 @@
 
 <p>This post is a look at browser stats for an industry/research site over a size year period of 6 years. Jason’s findings are astonishing, making this post a must-read for coming to terms with the need for designing with progressive enhancement in mind.</p>
 <p><a rel="full-article" href="http://blog.jasonsamuels.net/post/21633531278/analytics-confirm-the-need-for-adaptive-web-design">Read on Jason Samuels (Tech Thoughts)&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[The Changing Form of the Web Browser]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/the-changing-form-of-the-web-browser/"/>
-				<updated>2015-11-10T14:48:46-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/the-changing-form-of-the-web-browser</id>
-				<content type="html"><![CDATA[<p>This is an interesting thought piece from <a href="http://www.broken-links.com/">Peter Gasston</a>, examining where browsers are heading and what their role in the future of delivering content and interaction will be.</p>
-<p><a rel="full-article" href="http://rehabstudio.com/thinking/the-changing-form-of-the-web-browser/">Read on +-rehabstudio&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Supercharging JavaScript Performance With asm.js]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/supercharging-javascript-performance-with-asm-js/"/>
-				<updated>2015-11-10T14:39:51-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/supercharging-javascript-performance-with-asm-js</id>
-				<content type="html"><![CDATA[<p>I’m intrigued by the power of <a href="http://asmjs.org/spec/latest/">asm.js</a>, but have not found a use for it…yet. I hope to resolve that in the future.</p>
-
-<p>Regardless, it’s native in <a href="https://www.microsoft.com/en-us/windows/microsoft-edge">Microsoft Edge</a> now, so that’s pretty badass.</p>
-<p><a rel="full-article" href="http://blogs.windows.com/msedgedev/2015/11/10/supercharging-javascript-performance-with-asm-js/">Read on Microsoft Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Opt Out From Online Behavioral Advertising by Participating Companies]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/choices/"/>
-				<updated>2015-11-10T14:22:42-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/choices</id>
-				<content type="html"><![CDATA[<p>Did you know you can opt out of behavior-tracking advertising cookies? Neither did I.</p>
-<p><a rel="full-article" href="http://www.aboutads.info/choices/">Read on Digital Advertising Alliance&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Why Computer Programmers Should Stop Calling Themselves Engineers]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/414271/"/>
-				<updated>2015-11-10T14:17:13-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/414271</id>
-				<content type="html"><![CDATA[<p>I have been grappling with a lot of the concerns this fantastic article raises. In particular, this bit resonated with me:</p>
-
-<blockquote>
-  <p>Would-be “engineers” are encouraged to think of every project as a potential business ready to scale and sell, rather than as a process of long-term training in disciplines where concerns for social welfare become paramount. Engineering has always been a well-paid profession, but computing is turning it into a type of speculative finance rather than a calling.</p>
-</blockquote>
-
-<p>It’s a generalization, but it’s also a trend I’ve been seeing. I’m also on the fence regarding licensure and continuing education credits. I think they could do a lot to improve the state of the Web without destroying the wonderful DIY nature of its accessibility.</p>
-<p><a rel="full-article" href="http://www.theatlantic.com/technology/archive/2015/11/programmers-should-not-call-themselves-engineers/414271/">Read on The Atlantic&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Less Content Marketing, More Quality Content]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/less-content-marketing-more-quality-content/"/>
-				<updated>2015-11-10T14:05:53-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/less-content-marketing-more-quality-content</id>
-				<content type="html"><![CDATA[<p>I’ll just let <a href="http://www.gerrymcgovern.com/">Gerry</a> say it:</p>
-
-<blockquote>
-  <p>If there has been a constant in my 20+ years of consulting with websites it is that most websites produce far too much low quality ego content. This is true for both commercial, government and non-profit websites.</p>
-</blockquote>
-
-<blockquote>
-  <ul>
-    <li>Telenor of Norway deleted almost 90% of their pages. Conversions went up by 100%. Support requests went down by 35%</li>
-    <li>The Norwegian Cancer Society removed almost 90% of their content and saw extremely positive results.</li>
-    <li>The US Department of Health deleted 150,000 of their 200,000 pages. Nobody noticed.</li>
-    <li>Columbia University of Chicago deleted 97% of their pages. Student application inquiries went up by 80%</li>
-    <li>Liverpool City went from 4,000 pages to 700 on their website. Support requests went down and online reporting went up.</li>
-  </ul>
-</blockquote>
-
-<p>Clear, well-written content is appreciated (and actionable) by your users.</p>
-<p><a rel="full-article" href="http://www.gerrymcgovern.com/new-thinking/less-content-marketing-more-quality-content">Read on Gerry McGovern&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Panels and Panel Sets]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/panels-and-panel-sets/"/>
-				<updated>2015-11-10T14:01:47-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/panels-and-panel-sets</id>
-				<content type="html"><![CDATA[<p>This is an interesting proposal for generic <code>panel</code> and <code>panelset</code> (and <code>paneltitle</code>) elements that would function well for marking up accordion, tabbed, and carousel interfaces.</p>
-<p><a rel="full-article" href="http://radar.oreilly.com/2015/11/panels-and-panel-sets.html">Read on O’Reilly Radar&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[How Our CSS Framework Helps Enforce Accessibility]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/how-our-css-framework-helps-enforce-accessibility/"/>
-				<updated>2015-11-09T15:14:12-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/how-our-css-framework-helps-enforce-accessibility</id>
-				<content type="html"><![CDATA[<p>I love this post so much. The tab example is pretty much identical to the approach I’ve been using for a while now.</p>
-
-<p>By making our selectors tied to proper semantic choices, we limit the likelihood that poor decisions will be made in HTML and covered up by CSS and JavaScript (which also introduce additional dependencies we aren’t guaranteed will make it to our users).</p>
-
-<p>Read it. Ruminate on it. Implement it.</p>
-<p><a rel="full-article" href="http://www.ebaytechblog.com/2015/11/04/how-our-css-framework-helps-enforce-accessibility/">Read on eBay Tech Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Accessibility Requires App Developers to Consider Every End User]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/mobile-accessibility-end-user/"/>
-				<updated>2015-11-09T15:01:45-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/mobile-accessibility-end-user</id>
-				<content type="html"><![CDATA[<p>There’s a ton of great info in this article, but this one little bit is definitely worth calling out:</p>
-
-<blockquote>
-  <p>Android app developers know that there are over 24,000 devices in the marketplace that can potentially run their app. The number of end users that can be reached is staggering and that sheer volume of individuals means that app developers tailor their build for the majority of users and not the minority. iOS developers don’t have the same level of device fragmentation but there are over 1.5 billion apps in the App Store and (again) millions of end users to think about.</p>
-</blockquote>
-
-<p>Now consider that this is focused purely on native apps and not products delivered on the Web. We should do everything in our power to deliver <em>positive experiences</em> to our users while simultaneously recognizing that it is impossible to deliver <em>the same experience</em> to each of them.</p>
-<p><a rel="full-article" href="http://arc.applause.com/2015/11/02/mobile-accessibility-end-user/">Read on Arc&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
