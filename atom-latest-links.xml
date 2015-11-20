@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-11-20T15:49:40-05:00</updated>
+	<updated>2015-11-20T16:41:14-05:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,8 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
 	
 		
 			<entry>
@@ -206,19 +208,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/50-female-tech-influencers-to-follow-on-twitter</id>
 				<content type="html"><![CDATA[<p>Just what it says on the tin. It’s a great compliment to <a href="https://www.aaron-gustafson.com/notebook/excellent-speakers-for-your-next-tech-event/">the recommended speaker list I published</a>.</p>
 <p><a rel="full-article" href="http://skillcrush.com/2015/11/04/50-female-tech-influencers-to-follow-on-twitter/">Read on Skillcrush&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Analytics Confirm the Need for Adaptive Web Design]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/analytics-confirm-the-need-for-adaptive-web-design/"/>
-				<updated>2015-11-10T14:52:28-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/analytics-confirm-the-need-for-adaptive-web-design</id>
-				<content type="html"><![CDATA[<p>I cite this post a ton in my talks and workshops (and in <a href="http://adaptivewebdesign.info/2nd-edition/">the forthcoming second edition of <cite>Adaptive Web Design</cite></a>), but I realized I had not explicitly linked it up here.</p>
-
-<p>This post is a look at browser stats for an industry/research site over a size year period of 6 years. Jason’s findings are astonishing, making this post a must-read for coming to terms with the need for designing with progressive enhancement in mind.</p>
-<p><a rel="full-article" href="http://blog.jasonsamuels.net/post/21633531278/analytics-confirm-the-need-for-adaptive-web-design">Read on Jason Samuels (Tech Thoughts)&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	

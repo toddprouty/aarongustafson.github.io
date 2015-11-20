@@ -1,24 +1,191 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Browse by Tag: Web Development | Aaron Gustafson]]></title>
-  <link href="https://www.aaron-gustafson.com/notebook/tags/web-development/atom.xml" rel="self"/>
-  <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2015-11-20T16:41:14-05:00</updated>
-  <id>https://www.aaron-gustafson.com/</id>
-  <author>
-    <name><![CDATA[Aaron Gustafson]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+<!DOCTYPE html>
+<html id="aaron-gustafson_com" lang="en" dir="ltr">
 
-  
-  <entry>
-    <title type="html"><![CDATA[Speeding Things Up With Service Worker, Resource Hints, and More]]></title>
-    <link href="https://www.aaron-gustafson.com/notebook/speeding-things-up-with-service-worker-resource-hints-and-more/"/>
-    <updated>2015-11-20T16:39:09-05:00</updated>
-    <id>https://www.aaron-gustafson.com/notebook/speeding-things-up-with-service-worker-resource-hints-and-more</id>
-    <content type="html"><![CDATA[<p>User experience encompasses more than just the interface. Download speed, render performance, and the cost of accessing a site are often overlooked areas when it comes to the practice of UX, but they all affect how users experience what we build on the Web.</p>
+	<head>
+
+	<meta charset="utf-8">
+	
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+		<meta http-equiv="cleartype" content="on">
+	<![endif]-->
+	
+	
+
+
+
+
+<title>Speeding Things Up With Service Worker, Resource Hints, and More, From the Notebook of Aaron Gustafson</title>
+<meta property="og:title" content="Speeding Things Up With Service Worker, Resource Hints, and More">
+
+<meta property="og:url" content="https://www.aaron-gustafson.com/notebook/speeding-things-up-with-service-worker-resource-hints-and-more/">
+
+<meta name="author" content="Aaron Gustafson">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Aaron Gustafson">
+<meta property="og:image" content="https://www.aaron-gustafson.com/i/og-logo.png">
+<meta property="og:locale" content="en_US">
+
+<meta property="og:description" content="User experience encompasses more than just the interface. Download speed, render performance, and the cost of accessing a site are often overlooked areas when it comes to the practice of UX, but they &hellip;">
+<meta name="description" content="User experience encompasses more than just the interface. Download speed, render performance, and the cost of accessing a site are often overlooked areas when it comes to the practice of UX, but they &hellip;">
+
+<!-- Twitter -->
+<meta name="twitter:card" value="summary"/>
+<meta name="twitter:site" value="@AaronGustafson"/>
+
+
+
+<link href="/atom.xml" rel="alternate" title="Posts and Links From the Notebook of Aaron Gustafson" type="application/atom+xml">
+<link href="/atom-latest-posts.xml" rel="alternate" title="Posts From the Notebook of Aaron Gustafson" type="application/atom+xml">
+<link href="/atom-latest-links.xml" rel="alternate" title="Links From the Notebook of Aaron Gustafson" type="application/atom+xml">
+
+<meta name="revisit-after" content="7 days">
+<meta name="ROBOTS" content="index,follow">
+<meta name="robots" content="NOODP">
+
+<link href="https://plus.google.com/+AaronGustafson?rel=author" rel="publisher">
+<meta property="fb:admins" content="100002880350996">
+
+<link rel="pingback" href="http://webmention.io/aaron-gustafson.com/xmlrpc" />
+<link rel="webmention" href="http://webmention.io/aaron-gustafson.com/webmention" />
+
+
+
+
+	
+	<link href="/favicon.png" rel="icon">
+	
+	
+
+<link rel="stylesheet" href="/c/default.css" media="all">
+<!--[if gt IE 8]><!-->
+	<link rel="stylesheet" href="/c/advanced.css" media="only screen">
+<!--<![endif]-->
+<!--[if (IE 8)&(!IEMobile)]>
+	<link rel="stylesheet" href="/c/old-ie.css">
+<![endif]-->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+	
+	
+
+<script>
+	(function(d){var config={kitId:'jje3afr',scriptTimeout:3000},h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config);}catch(e){}};s.parentNode.insertBefore(tk,s);})(document);
+</script>
+
+
+
+	
+
+	
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-176472-5', 'auto');
+	  ga('send', 'pageview');
+	</script>
+
+
+
+
+
+</head>
+
+
+	<body  >
+
+		
+
+		
+
+<header role="banner" class="banner">
+	<div class="layout-container">
+		<h1 class="site-title"><a href="/">Aaron Gustafson</a></h1>
+		
+	</div>
+</header>
+
+
+	<div class="alert">
+	<strong>This site is <a href="/notebook/a-grand-experiment/">undergoing an open redesign</a>, so if it looks strange, that’s why.</strong>
+</div>
+
+		
+		<main role="main">
+			
+			
+
+<div class="layout-container layout-container--blog">
+	<article role="article" class="layout-container__primary h-entry">
+		<div class="entry">
+			<header class="entry__header">
+		     	<h1 class="entry__title p-name">Speeding Things Up With Service Worker, Resource Hints, and More</h1>
+			
+				
+					<dl class="entry__meta">
+						
+						<dt>Published</dt>
+						<dd>
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+		<time class="dt-published" datetime="2015-11-20T16:39:09-05:00">20 November 2015</time><b class="hidden"> by <a class="p-author h-card" href="/about">Aaron Gustafson</a></b></dd>
+						
+						<dt>Reading Time</dt>
+						<dd>18 minutes</dd>
+
+						
+
+						<dt>Tagged</dt>
+						<dd>
+
+
+	<span class="post__categories">
+		
+			<a class='category' href='/notebook/tags/experiments/'>experiments</a>, <a class='category' href='/notebook/tags/progressive-enhancement/'>progressive enhancement</a>, <a class='category' href='/notebook/tags/web-design/'>web design</a>, <a class='category' href='/notebook/tags/web-development/'>web development</a>
+		
+	</span>
+
+</dd>
+
+		        		
+							<dt>Reactions</dt>
+							<dd>
+								<ul class="entry__jump-links">
+									<li class="entry__jump entry__jump--comments"><a href="#disqus_thread" data-disqus-identifier="https://www.aaron-gustafson.com/notebook/speeding-things-up-with-service-worker-resource-hints-and-more/">Comments</a></li>
+									<li class="entry__jump entry__jump--webmentions"><a href="#webmentions">Webmentions</a></li>
+								</ul>
+							</dd>
+		        		
+		        		
+		        		
+				
+		      		</dl>
+		    	
+		  	</header>
+	
+			
+
+	    	
+
+			<div class="entry__content e-content">
+				<p>User experience encompasses more than just the interface. Download speed, render performance, and the cost of accessing a site are often overlooked areas when it comes to the practice of UX, but they all affect how users experience what we build on the Web.</p>
 
 <!-- more -->
 
@@ -37,7 +204,7 @@
 
 <p>To kick things off, I followed Malte’s advice and used <a href="https://w3c.github.io/resource-hints/">Resource Hints</a> to <em>prime the pump</em> for any third-party servers hosting assets I use frequently (e.g. Disqus, Twitter, etc.). I used the code Malte references in <a href="https://github.com/ampproject/amphtml">the AMP Project</a> as my starting point and <a href="https://github.com/aarongustafson/aarongustafson.github.io/blob/source/source/_javascript/main/resource-hints.js">added two new methods (<code>preconnect()</code> and <code>prefetch()</code>) to my global <code>AG</code> object</a>. With that library code in place, I can call those methods as necessary from within my other JavaScript files. Here’s a simplified extract from <a href="https://github.com/aarongustafson/aarongustafson.github.io/blob/source/source/_javascript/post/disqus.js">my Disqus integration script</a>:</p>
 
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
+<div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css" />
 <div id="gist28197221" class="gist">
     <div class="gist-file">
       <div class="gist-data">
@@ -80,7 +247,7 @@
     </div>
 </div>
 
-</div></p>
+</div>
 
 <p>While a minor addition, the speed improvement in <a href="http://caniuse.com/#search=resource%20hints">supporting browsers</a> was noticeable.<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></p>
 
@@ -88,7 +255,7 @@
 
 <p>With that in the bag, I set about making my first <a href="http://www.w3.org/TR/service-workers/">Service Worker</a>. I started off gently, using Dean’s piece as a guide. I added a WebP conversion bit to <a href="https://github.com/aarongustafson/aarongustafson.github.io/blob/source/tasks/gulp/images.js">my image processing Gulp task</a> to get the files in place and then I created the Service Worker. By default, <a href="https://gist.github.com/deanhume/c04478df744ce833925c#file-client-hints-service-worker-js">Dean’s code</a> converts <em>all</em> JPG and PNG requests to WebP responses, so I set it up to limit the requests to only those files being requested directly from my server. I have no way of knowing if WebP equivalents of every JPG and PNG exist on the open web (probably not), but I know they exist on my server. Here’s the updated code:</p>
 
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
+<div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css" />
 <div id="gist28206589" class="gist">
     <div class="gist-file">
       <div class="gist-data">
@@ -274,13 +441,13 @@
     </div>
 </div>
 
-</div></p>
+</div>
 
 <p>When I began tucking to the caching possibilities of Service Workers, following Nicolas’ and Jeremy’s posts, I <a href="https://github.com/aarongustafson/aarongustafson.github.io/blob/source/source/_javascript/serviceworker/fetch-cached.js">opted to tweak Nicholas’ caching setup a bit</a>. I’m still not completely thrilled with it, but it’s a work in progress. I’m sure I will tweak as I get more familiar with the technology.</p>
 
 <p>To keep my Service Worker code modularized (like my other JavaScript code), I opted to <a href="https://github.com/aarongustafson/aarongustafson.github.io/tree/source/source/_javascript/serviceworker">break it up into separate files</a> and am using Gulp to merge them all together and move the combined file into the root of the site. If you’d like to follow a similar path, feel free to adapt this Gulp task (which builds all of my JavaScript):</p>
 
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
+<div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css" />
 <div id="gist28197221" class="gist">
     <div class="gist-file">
       <div class="gist-data">
@@ -456,11 +623,11 @@
     </div>
 </div>
 
-</div></p>
+</div>
 
 <p>As most of the walkthroughs recommended that you version your Service Worker if you’re doing any caching, I set mine up to be auto-versioned by inserting a timestamp (lines 23-27, above) into my Service Worker header file (line 3, below):</p>
 
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
+<div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css" />
 <div id="gist28197221" class="gist">
     <div class="gist-file">
       <div class="gist-data">
@@ -636,7 +803,7 @@
     </div>
 </div>
 
-</div></p>
+</div>
 
 <p>Service Workers are still pretty new (and <a href="http://caniuse.com/#feat=serviceworkers">modestly supported</a>), but it’s definitely interesting to see what’s possible using them. <a href="https://adactio.com/journal/9844">Like Jeremy</a>, I want to do a bit more exploration into caching and how it may actually <em>increase</em> the monetary cost of accessing a website if not used properly. Like any powerful tool, we need to wield it wisely.</p>
 
@@ -664,412 +831,172 @@
     </li>
   </ol>
 </div>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[The One Weird Trick That Takes the Pain Out of Cross-browser Testing]]></title>
-    <link href="https://www.aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing/"/>
-    <updated>2015-01-26T11:24:25-05:00</updated>
-    <id>https://www.aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing</id>
-    <content type="html"><![CDATA[<p>Love this!</p>
 
-<p><div class='embed tweet'><blockquote class="twitter-tweet"><p>You&#39;ll never believe this one weird trick that takes the pain out of cross browser testing: Progressive enhancement.</p>&mdash; Orde Saunders (@decadecity) <a href="https://twitter.com/decadecity/status/559693419808034816">January 26, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[We Need More Empathy]]></title>
-    <link href="https://www.aaron-gustafson.com/notebook/we-need-more-empathy/"/>
-    <updated>2014-12-28T11:17:21-05:00</updated>
-    <id>https://www.aaron-gustafson.com/notebook/we-need-more-empathy</id>
-    <content type="html"><![CDATA[<p>For a while now I’ve been <a href="http://www.slideshare.net/AaronGustafson/designing-with-empathy-breaking-development-nashville-2013">beating the “empathy” drum</a> (<a href="http://www.lukew.com/ff/entry.asp?1810">notes</a>), trying to get folks in our industry to understand the importance of creating connections with the people for whom we build software, websites, etc. After all, we design and build tools to solve the needs of actual people, not some generic “user”.<!-- more --><sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></p>
+			</div>
 
-<p>It’s tough to connect with other people and we often fall into the trap of designing products for us and people like us. Jeffrey Zeldman characterizes the problem perfectly in <a href="http://www.zeldman.com/2014/12/28/unexamined-privilege-is-the-real-source-of-cruelty-in-facebooks-your-year-in-review/">his recent post</a>:</p>
+			<footer class="entry__footer">
+				
+					
 
-<blockquote>
-  <p>If we keep throwing only young, mostly white, mostly upper middle class people at the engine that makes our digital world go, we’ll keep getting camera and reminder and hookup apps—things that make an already privileged life even smoother—and we’ll keep producing features that sound like a good idea to everyone in the room, until they unexpectedly stab someone in the heart.</p>
-</blockquote>
 
-<p>Empathy is difficult when we are surrounded by others like us. We need to be surrounded by different people. Certainly gender and ethnic diversity is incredibly important here, but so is diversity of experience. As Jeffrey astutely points out, diversity in the room where Facebook’s “Year in Review” concept was given the green light would have—I have to hope—helped create some safeguards to keep some of their actual customers from being reminded of tragedies they experienced this year.</p>
+<p class="entry__sharing">If you liked this, would you mind sharing it?
+	<a class="share_link share_link--twitter" href="https://twitter.com/intent/tweet?original_referer=https://www.aaron-gustafson.com/notebook/speeding-things-up-with-service-worker-resource-hints-and-more/&amp;source=tweetbutton&amp;text=Speeding+Things+Up+with+Service+Worker,+Resource+Hints,+and+More&amp;url=https://www.aaron-gustafson.com/notebook/speeding-things-up-with-service-worker-resource-hints-and-more/">Share on Twitter</a>
+	<a class="share_link share_link--facebook" href="http://www.facebook.com/sharer.php?u=https://www.aaron-gustafson.com/notebook/speeding-things-up-with-service-worker-resource-hints-and-more/">Post on Facebook</a>
+	<a class="share_link share_link--linkedin" href="https://www.linkedin.com/cws/share?url=https://www.aaron-gustafson.com/notebook/speeding-things-up-with-service-worker-resource-hints-and-more/&amp;original_referer=https://www.aaron-gustafson.com/notebook/speeding-things-up-with-service-worker-resource-hints-and-more/">Share on LinkedIn</a>
+	<a class="share_link share_link--googleplus" href="https://plus.google.com/share?url=https://www.aaron-gustafson.com/notebook/speeding-things-up-with-service-worker-resource-hints-and-more/">Share on Google+</a>
+</p>
+			    
 
-<p>In all likelihood, the worst thing they probably discussed was an embarrassing hookup being celebrated, but I’ve had several friends lose children and loved ones this year, other friends battling serious illnesses, and still others who have suffered losses of different sorts. All bore their souls on Facebook in the past year and this feature has brought it back and, in some cases, <a href="http://meyerweb.com/eric/thoughts/2014/12/24/inadvertent-algorithmic-cruelty/">celebrated these tragic events in a very uncanny and dispassionate way</a>.</p>
+			    
+	
 
-<p>And Facebook isn’t the only company to blame for this sort of thing. Pretty much every social network suffers from similar issues. Reading the comments on the various press accounts of this story have revealed similar problems at <a href="http://arstechnica.com/business/2014/12/facebook-apologizes-for-morbid-results-with-its-year-in-review-nag/?comments=1&amp;post=28196195#comment-28196195">LinkedIn</a>, <a href="http://arstechnica.com/business/2014/12/facebook-apologizes-for-morbid-results-with-its-year-in-review-nag/?comments=1&amp;post=28196709#comment-28196709">Google+</a>, <a href="http://www.deathanddigitallegacy.com/2010/08/05/twitter-recommends-dead-friends/">Twitter</a>, and others. We can and need to do better.</p>
+			</footer>
 
-<p>In order to address these issues, we need to flex our empathetic muscles. We need to create connections with people who are not like us. People who live in different neighborhoods. People who come from different countries. People who require alternate means to accessing our sites and services. We need to see that the world is full of differences.</p>
+			
+				<hr>
 
-<p>Life is full of great joy as well as great tragedy. When we acknowledge diversity of experience and actually embrace it, we become better designers.</p>
+				<section id="disqus" class="entry__comments">
+					<h1>Comments</h1>
+					<div id="disqus_thread" aria-live="polite">
+						<noscript>
+	<div class="nojs-fallback">
+		<p>Sadly, I have not had the time to build a JavaScript-less implementation of the Disqus API yet, so you can’t comment. It’s a bummer. I really wanted to hear your thoughts.</p>
+		<p>If you use Twitter or Google+, <a href="#webmentions">your webmentions of this post’s URL will show up on this page</a> still.</p>
+	</div>
+</noscript>
 
-<div class="footnotes">
-  <ol>
-    <li id="fn:1">
-      <p>I don’t mind the aggregate “users”, but “user” is too clinical and distanced for my tastes. Terms like “the user” keep us from connecting with the people who actually use our software and when we are disconnected from our users, we will not do a great job of solving their problems. And solving problems is the whole point of design. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
-    </li>
-  </ol>
+					</div>
+				</section>
+			
+		
+			<hr>
+
+			<section id="webmentions" class="entry__comments">
+				<h1>Webmentions</h1>
+				
+
+
+
+
+	<div class="webmentions"><p class="webmentions__not-found">No webmentions were found</p></div>
+
+			</section>
+
+		</div>
+	</article>
+	
+	
+
 </div>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Autoplay, Don’t Do It]]></title>
-    <link href="https://www.aaron-gustafson.com/notebook/autoplay-dont-do-it/"/>
-    <updated>2014-12-21T15:12:50-05:00</updated>
-    <id>https://www.aaron-gustafson.com/notebook/autoplay-dont-do-it</id>
-    <content type="html"><![CDATA[<p>A while back <a href="https://gigaom.com/2014/09/04/facebooks-autoplay-has-led-to-a-60-boost-in-traffic-on-mobile-networks/">GogOm reported on how Facebook’s decision to autoplay videos led to a 60% increase in mobile data usage</a>. It was a business decision with the intent of increasing engagement, but it was a bad decision from a user experience. It’s a tax on users and they weren’t to happy about it.</p>
+			
+	    </main>
+	  	
+		<hr class="rule rule--optional">
+		
+		<nav role="navigation">
+	<div class="layout-container">
 
-<p>You may be wondering <em>Why is this a bad thing for users? They want to see videos, so we’re just giving them what they want.</em> Well, let me share a little story.</p>
+		<h1 class="hidden">Here’s what you can find on this site:</h1>
+		<ul class="main-navigation">
+			
+				<li class="main-navigation__item">
+					
+					<a class="main-navigation__link main-navigation__link--about" href="/about/"><b class="hidden">A Bit </b>About<b class="hidden"> Me</b></a>
+					
+				</li>
+			
+				<li class="main-navigation__item">
+					<mark>
+					<a class="main-navigation__link main-navigation__link--notebook" href="/notebook/"><b class="hidden">Entries in My </b>Notebook</a>
+					</mark>
+				</li>
+			
+				<li class="main-navigation__item">
+					
+					<a class="main-navigation__link main-navigation__link--speaking-engagements" href="/speaking-engagements/"><b class="hidden">A List of My </b>Speaking<b class="hidden"> Engagements</b></a>
+					
+				</li>
+			
+				<li class="main-navigation__item">
+					
+					<a class="main-navigation__link main-navigation__link--publications" href="/publications/"><b class="hidden">A List of My </b>Publications</a>
+					
+				</li>
+			
+				<li class="main-navigation__item">
+					
+					<a class="main-navigation__link main-navigation__link--appearances" href="/appearances/"><b class="hidden">Links to </b>Interviews<b class="hidden"> I’ve Given</b></a>
+					
+				</li>
+			
+				<li class="main-navigation__item">
+					
+					<a class="main-navigation__link main-navigation__link--contact" href="/contact/"><b class="hidden">The Requisite </b>Contact<b class="hidden"> Form</b></a>
+					
+				</li>
+			
+			<li class="main-navigation__item">
+				<a class="main-navigation__link main-navigation__link--rss" href="/atom.xml" aria-label="subscribe via RSS">RSS</a>
+			</li>
+			<li class="main-navigation__item">
+				<a class="main-navigation__link main-navigation__link--search" href="#search" aria-label="Search This Site">Search</a>
+			</li>
+		</ul>
 
-<!-- more -->
+		
+			<form class="form form--search" action="https://www.google.com/search" method="get" id="search">
+				<ol role="search">
+					<li class="form-control form-control--search">
+						<label class="hidden">What are you looking for?</label>
+						<input name='q' type='hidden' value='site:www.aaron-gustafson.com'>
+						<input type="search" name="q">
+					</li>
+					<li class="form-control form-control--buttons">
+						<button type="submit" name="sa" value="Search"><b class="hidden">Let’s see if </b>Google <b class="hidden">Finds </b>it</button>
+					</li>
+				</ol>
+			</form>
+		
 
-<p>I was in Lisbon for <a href="http://lanyrd.com/2013/uxlx/">UxLx</a> last year and was on roaming data through my mobile provider. At the hotel, the Wifi was giving me trouble, so I opted to tether my computer so I can pull down a document I needed. Chrome crashed. Lame, but no big deal. I relaunched it and, Chrome being the helpful browser that it is, all of my tabs were restored and I got back to work.</p>
+	</div>
+</nav>
+		
+		<footer role="contentinfo" class="footer">
+	<div class="layout-container">
+		
+			<p class="footer__fork-me">Did you spot a typo or error? Eesh. <a href="https://github.com/aarongustafson/aarongustafson.github.io/tree/source/source/2015-11-20-speeding-things-up-with-service-worker-resource-hints-and-more.markdown">Would you mind fixing it for me?</a> You’re so awesome.</p>
+		
+		<p class="footer__copyright"><b id="license">The content of this site is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons</a>.</b> Interested in how this site was made? <a href="/colophon/">Check this out</a>.</b></p>
+	</div>
+</footer>
+		
+	  	
 
-<p>A few minutes later I got a text message from my provider: I’d just used a tremendous amount of my data in a very short amount of time. And I had only landed an hour before. I was understandably concerned. And perplexed. What happened?</p>
 
-<p>Well, it turns out one of the tabs that re-spawned after Chrome crashed was a page on YouTube. And on that page was an hour-long video. In HD. And it auto-played. I had the volume off and it was in background tab, so I had no idea.</p>
+	<script>
+		var disqus_shortname = 'aarongustafson',
+		
+			// embed the comments
+			// disqus_developer = 1,
+			disqus_identifier = 'https://www.aaron-gustafson.com/notebook/speeding-things-up-with-service-worker-resource-hints-and-more/',
+			disqus_url = 'https://www.aaron-gustafson.com/notebook/speeding-things-up-with-service-worker-resource-hints-and-more/',
+			disqus_script = 'embed.js';
+		
+	</script>
 
-<p>YouTube’s “business decision” to autoplay their videos cost me real money. A lot of it.</p>
 
-<p>Don’t autoplay. Any benefits you might see in user engagement are probably going to be drowned out by legitimate complaints from your users. Just don’t do it.</p>
 
-<p>Incidentally, you can <a href="https://www.facebook.com/help/633446180035470">disable auto-play in Facebook</a>, but first of all you have to know it’s an option. Facebook gives you the choice of turning it on or off entirely or to turn it on only over Wifi. That may seem like a great compromise, but I’d like to put forward a few arguments as to why it’s not:</p>
+	<script src="/j/main.js"></script>
 
-<ol>
-  <li><em>Tethering:</em> If I am tethered to my phone, it is likely being done over Wifi. Even if my browser is aware that I am on Wifi and even if the website is paying attention to that (using the <a href="http://www.w3.org/TR/netinfo-api/">Network Informaion API</a>), the website is probably going to get a false positive for Wifi even though the <em>actual</em> data connection is over a mobile network.</li>
-  <li><em>Metered Wifi:</em> Hotels and other providers often limit how much data you can use. You could be on an awesomely fast Wifi network, but if you are limited to 100MB—it happens—being on Wifi doesn’t matter.</li>
-</ol>
+	<script src="/j/post.min.js" async></script>
 
-<p>So again: Autoplay, don’t do it.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[CSS Variables Are a Bad Idea]]></title>
-    <link href="https://www.aaron-gustafson.com/notebook/css-variables-are-a-bad-idea/"/>
-    <updated>2014-11-04T14:58:01-05:00</updated>
-    <id>https://www.aaron-gustafson.com/notebook/css-variables-are-a-bad-idea</id>
-    <content type="html"><![CDATA[<p>I’ll level with you: I used to think I wanted variables in CSS.</p>
 
-<p>As a programmer, I love the idea of being able to abstract reusable bits like colors, border widths, font sizes, and the like to obviously named variables. It’s a far more <a href="https://en.wikipedia.org/wiki/Don't_repeat_yourself">DRY</a> approach and makes maintenance far easier.</p>
 
-<!-- more -->
+<noscript>
+	<img src="http://nojsstats.appspot.com/UA-176472-5/https://www.aaron-gustafson.com/notebook/speeding-things-up-with-service-worker-resource-hints-and-more/" alt=""/>
+</noscript>
 
-<p>Before I made the leap to using a CSS preprocessor, I was convinced we needed CSS variables, but I always wondered how we might make it possible without breaking one of the fundamental <a href="http://www.w3.org/TR/CSS21/intro.html#design-principles">design principles of CSS</a>: Forward and backward compatibility. Take a look at this example (which is based on <a href="http://www.w3.org/TR/css-variables/">the working draft spec</a>) and I think you’ll spot the problem:</p>
+	
+	</body>
 
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
-<div id="gist15673521" class="gist">
-    <div class="gist-file">
-      <div class="gist-data">
-        <div class="js-gist-file-update-container js-task-list-container file-box">
-  <div id="file-css-vairables-css" class="file">
-    
-
-  <div class="blob-wrapper data type-css">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="file-css-vairables-css-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-css-vairables-css-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-e">:root</span> {</td>
-      </tr>
-      <tr>
-        <td id="file-css-vairables-css-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-css-vairables-css-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1">--foreground-<span class="pl-c1">color</span></span>: <span class="pl-c1">#333</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-css-vairables-css-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-css-vairables-css-LC3" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1">--<span class="pl-c1">background-color</span></span>: <span class="pl-c1">#fff</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-css-vairables-css-L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="file-css-vairables-css-LC4" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-      <tr>
-        <td id="file-css-vairables-css-L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="file-css-vairables-css-LC5" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="file-css-vairables-css-L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="file-css-vairables-css-LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">body</span> {</td>
-      </tr>
-      <tr>
-        <td id="file-css-vairables-css-L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="file-css-vairables-css-LC7" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">background</span></span>: var(--background-color);</td>
-      </tr>
-      <tr>
-        <td id="file-css-vairables-css-L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="file-css-vairables-css-LC8" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">color</span></span>: var(--foreground-color);</td>
-      </tr>
-      <tr>
-        <td id="file-css-vairables-css-L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="file-css-vairables-css-LC9" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-</table>
-
-  </div>
-
-  </div>
-  
-</div>
-
-      </div>
-      <div class="gist-meta">
-        <a href="https://gist.github.com/aarongustafson/c3ddcb792eb69e0703e1/raw/743c886295c6dd38d87625b34f0a6308689c77cc/css-vairables.css" style="float:right">view raw</a>
-        <a href="https://gist.github.com/aarongustafson/c3ddcb792eb69e0703e1#file-css-vairables-css">css-vairables.css</a>
-        hosted with &#10084; by <a href="https://github.com">GitHub</a>
-      </div>
-    </div>
-</div>
-
-</div></p>
-
-<p>For a browser that understands CSS variables, the interpreted stylesheet would look like this:</p>
-
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
-<div id="gist15673521" class="gist">
-    <div class="gist-file">
-      <div class="gist-data">
-        <div class="js-gist-file-update-container js-task-list-container file-box">
-  <div id="file-desired-result-css" class="file">
-    
-
-  <div class="blob-wrapper data type-css">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="file-desired-result-css-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-desired-result-css-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">body</span> {</td>
-      </tr>
-      <tr>
-        <td id="file-desired-result-css-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-desired-result-css-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">background</span></span>: <span class="pl-c1">#fff</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-desired-result-css-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-desired-result-css-LC3" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">color</span></span>: <span class="pl-c1">#333</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-desired-result-css-L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="file-desired-result-css-LC4" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-</table>
-
-  </div>
-
-  </div>
-  
-</div>
-
-      </div>
-      <div class="gist-meta">
-        <a href="https://gist.github.com/aarongustafson/c3ddcb792eb69e0703e1/raw/743c886295c6dd38d87625b34f0a6308689c77cc/desired-result.css" style="float:right">view raw</a>
-        <a href="https://gist.github.com/aarongustafson/c3ddcb792eb69e0703e1#file-desired-result-css">desired-result.css</a>
-        hosted with &#10084; by <a href="https://github.com">GitHub</a>
-      </div>
-    </div>
-</div>
-
-</div></p>
-
-<p>But any browser that doesn’t understand the variables would never get the color values because browsers follow <a href="http://www.w3.org/TR/CSS21/syndata.html#parsing-errors">the rules of fault tolerance in CSS</a> and ignore anything they don’t understand. The introduction of variables to CSS would effectively build a wall between older browsers and new ones. (For the record, as of this writing, <a href="http://caniuse.com/#feat=css-variables">only Firefox has implemented CSS variables</a>).</p>
-
-<p>In order to serve the broadest spectrum of devices, we’d have to provide a fallback like this:</p>
-
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
-<div id="gist15673521" class="gist">
-    <div class="gist-file">
-      <div class="gist-data">
-        <div class="js-gist-file-update-container js-task-list-container file-box">
-  <div id="file-css-variables-fallback-css" class="file">
-    
-
-  <div class="blob-wrapper data type-css">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="file-css-variables-fallback-css-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-css-variables-fallback-css-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-e">:root</span> {</td>
-      </tr>
-      <tr>
-        <td id="file-css-variables-fallback-css-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-css-variables-fallback-css-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1">--foreground-<span class="pl-c1">color</span></span>: <span class="pl-c1">#333</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-css-variables-fallback-css-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-css-variables-fallback-css-LC3" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1">--<span class="pl-c1">background-color</span></span>: <span class="pl-c1">#fff</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-css-variables-fallback-css-L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="file-css-variables-fallback-css-LC4" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-      <tr>
-        <td id="file-css-variables-fallback-css-L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="file-css-variables-fallback-css-LC5" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="file-css-variables-fallback-css-L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="file-css-variables-fallback-css-LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">body</span> {</td>
-      </tr>
-      <tr>
-        <td id="file-css-variables-fallback-css-L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="file-css-variables-fallback-css-LC7" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">background</span></span>: <span class="pl-c1">#fff</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-css-variables-fallback-css-L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="file-css-variables-fallback-css-LC8" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">background</span></span>: var(--background-color);</td>
-      </tr>
-      <tr>
-        <td id="file-css-variables-fallback-css-L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="file-css-variables-fallback-css-LC9" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">color</span></span>: <span class="pl-c1">#333</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-css-variables-fallback-css-L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="file-css-variables-fallback-css-LC10" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">color</span></span>: var(--foreground-color);</td>
-      </tr>
-      <tr>
-        <td id="file-css-variables-fallback-css-L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="file-css-variables-fallback-css-LC11" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-</table>
-
-  </div>
-
-  </div>
-  
-</div>
-
-      </div>
-      <div class="gist-meta">
-        <a href="https://gist.github.com/aarongustafson/c3ddcb792eb69e0703e1/raw/743c886295c6dd38d87625b34f0a6308689c77cc/css-variables-fallback.css" style="float:right">view raw</a>
-        <a href="https://gist.github.com/aarongustafson/c3ddcb792eb69e0703e1#file-css-variables-fallback-css">css-variables-fallback.css</a>
-        hosted with &#10084; by <a href="https://github.com">GitHub</a>
-      </div>
-    </div>
-</div>
-
-</div></p>
-
-<p>But that kinda defeats the whole purpose, right?</p>
-
-<p>Preprocessors already give us this access to variables today (along with nesting, mixins, and programmatic structures like conditionals, loops, etc.). Here’s a SASS example:</p>
-
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
-<div id="gist15673521" class="gist">
-    <div class="gist-file">
-      <div class="gist-data">
-        <div class="js-gist-file-update-container js-task-list-container file-box">
-  <div id="file-sass-variables-scss" class="file">
-    
-
-  <div class="blob-wrapper data type-scss">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="file-sass-variables-scss-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-sass-variables-scss-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">$foreground-color</span>: <span class="pl-c1">#333</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-sass-variables-scss-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-sass-variables-scss-LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">$background-color</span>: <span class="pl-c1">#fff</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-sass-variables-scss-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-sass-variables-scss-LC3" class="blob-code blob-code-inner js-file-line"> </td>
-      </tr>
-      <tr>
-        <td id="file-sass-variables-scss-L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="file-sass-variables-scss-LC4" class="blob-code blob-code-inner js-file-line"> </td>
-      </tr>
-      <tr>
-        <td id="file-sass-variables-scss-L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="file-sass-variables-scss-LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">body</span> {</td>
-      </tr>
-      <tr>
-        <td id="file-sass-variables-scss-L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="file-sass-variables-scss-LC6" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">background</span></span>: <span class="pl-smi">$background-color</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-sass-variables-scss-L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="file-sass-variables-scss-LC7" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">color</span></span>: <span class="pl-smi">$foreground-color</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-sass-variables-scss-L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="file-sass-variables-scss-LC8" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-</table>
-
-  </div>
-
-  </div>
-  
-</div>
-
-      </div>
-      <div class="gist-meta">
-        <a href="https://gist.github.com/aarongustafson/c3ddcb792eb69e0703e1/raw/743c886295c6dd38d87625b34f0a6308689c77cc/sass-variables.scss" style="float:right">view raw</a>
-        <a href="https://gist.github.com/aarongustafson/c3ddcb792eb69e0703e1#file-sass-variables-scss">sass-variables.scss</a>
-        hosted with &#10084; by <a href="https://github.com">GitHub</a>
-      </div>
-    </div>
-</div>
-
-</div></p>
-
-<p>The big difference here is that this document is a source file, it is not what is sent to the browser. This file is compiled by the preprocessor into actual CSS, which is what we send to the browser and is exactly what we wanted in the first place:</p>
-
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
-<div id="gist15673521" class="gist">
-    <div class="gist-file">
-      <div class="gist-data">
-        <div class="js-gist-file-update-container js-task-list-container file-box">
-  <div id="file-desired-result-css" class="file">
-    
-
-  <div class="blob-wrapper data type-css">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="file-desired-result-css-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-desired-result-css-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">body</span> {</td>
-      </tr>
-      <tr>
-        <td id="file-desired-result-css-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-desired-result-css-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">background</span></span>: <span class="pl-c1">#fff</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-desired-result-css-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-desired-result-css-LC3" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">color</span></span>: <span class="pl-c1">#333</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-desired-result-css-L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="file-desired-result-css-LC4" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-</table>
-
-  </div>
-
-  </div>
-  
-</div>
-
-      </div>
-      <div class="gist-meta">
-        <a href="https://gist.github.com/aarongustafson/c3ddcb792eb69e0703e1/raw/743c886295c6dd38d87625b34f0a6308689c77cc/desired-result.css" style="float:right">view raw</a>
-        <a href="https://gist.github.com/aarongustafson/c3ddcb792eb69e0703e1#file-desired-result-css">desired-result.css</a>
-        hosted with &#10084; by <a href="https://github.com">GitHub</a>
-      </div>
-    </div>
-</div>
-
-</div></p>
-
-<p>And it works on every browser that supports CSS, all the way back to <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#Difficulty_with_adoption">IE 3</a>.</p>
-
-<p>With a preprocessor like SASS, Less, or Stylus, I get all of the maintainability benefits without sacrificing browser support. It’s a no-brainer. But even if that were not true, there’s another issue to consider: If I push CSS variables to browsers, they have to parse the CSS and substitute the variables before they can apply the styles.</p>
-
-<p>Now I’m sure browser makers can find ways to optimize this process, but it’s bound to affect the rendering time. And not in a positive way. I don’t even want to think about how bad it would be on a mobile chipset, especially on a low-end device.</p>
-
-<p>Honestly, I love using variables… in the source files I use with a preprocessor. Given the potential loss of browser support, the pointless fallbacks I’d have to use if I wanted to continue supporting older browsers, the existence of numerous preprocessor options that solve the abstraction problem in a backward- and forward-compatible way, and the fact that CSS variables would make browsers have to work even harder to achieve the desired result, I’m not convinced we need them.</p>
-
-<p>CSS variables are a bad idea.</p>
-]]></content>
-  </entry>
-  
-</feed>
+</html>

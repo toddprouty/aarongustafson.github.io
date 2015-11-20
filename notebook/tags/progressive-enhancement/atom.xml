@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Progressive Enhancement | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/progressive-enhancement/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2015-11-20T15:49:40-05:00</updated>
+  <updated>2015-11-20T16:41:14-05:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -12,6 +12,660 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Speeding Things Up With Service Worker, Resource Hints, and More]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/speeding-things-up-with-service-worker-resource-hints-and-more/"/>
+    <updated>2015-11-20T16:39:09-05:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/speeding-things-up-with-service-worker-resource-hints-and-more</id>
+    <content type="html"><![CDATA[<p>User experience encompasses more than just the interface. Download speed, render performance, and the cost of accessing a site are often overlooked areas when it comes to the practice of UX, but they all affect how users experience what we build on the Web.</p>
+
+<!-- more -->
+
+<p>I’m always looking for ways to improve these aspects of my own site. And, since it’s my own personal playground, I often use it as a test-bed for new technologies, ideas, and techniques. My latest adventure was inspired by a bunch of <a href="https://www.aaron-gustafson.com/notebook/links/">articles and posts I’ve linked to recently</a>, especially</p>
+
+<ul>
+  <li><a href="https://adactio.com/journal/9775">Jeremy Keith’s “My First Service Worker”</a>,</li>
+  <li><a href="https://css-tricks.com/serviceworker-for-offline/">Nicolas Bevacqua’s “Making a Simple Site Work Offline with ServiceWorker”</a>,</li>
+  <li><a href="http://deanhume.com/Home/BlogPost/service-workers--dynamic-responsive-images-using-webp-images/10132/">Dean Hume’s “Service Workers: Dynamic Responsive Images Using Webp Images”</a>, and</li>
+  <li><a href="https://medium.com/@cramforce/not-so-micro-optimizations-f867c47b832d#.satdv0fap">Malte Ubl’s “Not so micro optimizations”</a></li>
+</ul>
+
+<p>After reading these pieces, I decided to see how much I could do to improve the performance of this site, especially on posts with a lot of images and embedded code samples, like <a href="https://www.aaron-gustafson.com/notebook/labeled-with-love/">my recent post on form labels</a>.</p>
+
+<h2 id="using-resource-hints">Using Resource Hints</h2>
+
+<p>To kick things off, I followed Malte’s advice and used <a href="https://w3c.github.io/resource-hints/">Resource Hints</a> to <em>prime the pump</em> for any third-party servers hosting assets I use frequently (e.g. Disqus, Twitter, etc.). I used the code Malte references in <a href="https://github.com/ampproject/amphtml">the AMP Project</a> as my starting point and <a href="https://github.com/aarongustafson/aarongustafson.github.io/blob/source/source/_javascript/main/resource-hints.js">added two new methods (<code>preconnect()</code> and <code>prefetch()</code>) to my global <code>AG</code> object</a>. With that library code in place, I can call those methods as necessary from within my other JavaScript files. Here’s a simplified extract from <a href="https://github.com/aarongustafson/aarongustafson.github.io/blob/source/source/_javascript/post/disqus.js">my Disqus integration script</a>:</p>
+
+<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
+<div id="gist28197221" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-resource-hints-sample-js" class="file">
+    
+
+  <div class="blob-wrapper data type-javascript">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="file-resource-hints-sample-js-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-resource-hints-sample-js-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span> ( <span class="pl-s"><span class="pl-pds">&#39;</span>AG<span class="pl-pds">&#39;</span></span> <span class="pl-k">in</span> <span class="pl-c1">window</span> <span class="pl-k">&amp;&amp;</span> <span class="pl-s"><span class="pl-pds">&#39;</span>preconnect<span class="pl-pds">&#39;</span></span> <span class="pl-k">in</span> <span class="pl-c1">window</span>.AG ) {</td>
+      </tr>
+      <tr>
+        <td id="file-resource-hints-sample-js-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-resource-hints-sample-js-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1">window</span>.AG.preconnect( <span class="pl-s"><span class="pl-pds">&#39;</span>//disqus.com/<span class="pl-pds">&#39;</span></span> );</td>
+      </tr>
+      <tr>
+        <td id="file-resource-hints-sample-js-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-resource-hints-sample-js-LC3" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1">window</span>.AG.prefetch( <span class="pl-s"><span class="pl-pds">&#39;</span>//<span class="pl-pds">&#39;</span></span> <span class="pl-k">+</span> disqus_shortname <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&#39;</span>.disqus.com/count.js<span class="pl-pds">&#39;</span></span> );</td>
+      </tr>
+      <tr>
+        <td id="file-resource-hints-sample-js-L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="file-resource-hints-sample-js-LC4" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+</table>
+
+  </div>
+
+  </div>
+  
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/aarongustafson/7f05709cca9293e4efea/raw/b6ca32d30643137603def7b4805d7bdcbfe63137/resource-hints-sample.js" style="float:right">view raw</a>
+        <a href="https://gist.github.com/aarongustafson/7f05709cca9293e4efea#file-resource-hints-sample-js">resource-hints-sample.js</a>
+        hosted with &#10084; by <a href="https://github.com">GitHub</a>
+      </div>
+    </div>
+</div>
+
+</div></p>
+
+<p>While a minor addition, the speed improvement in <a href="http://caniuse.com/#search=resource%20hints">supporting browsers</a> was noticeable.<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></p>
+
+<h2 id="integrating-service-worker">Integrating Service Worker</h2>
+
+<p>With that in the bag, I set about making my first <a href="http://www.w3.org/TR/service-workers/">Service Worker</a>. I started off gently, using Dean’s piece as a guide. I added a WebP conversion bit to <a href="https://github.com/aarongustafson/aarongustafson.github.io/blob/source/tasks/gulp/images.js">my image processing Gulp task</a> to get the files in place and then I created the Service Worker. By default, <a href="https://gist.github.com/deanhume/c04478df744ce833925c#file-client-hints-service-worker-js">Dean’s code</a> converts <em>all</em> JPG and PNG requests to WebP responses, so I set it up to limit the requests to only those files being requested directly from my server. I have no way of knowing if WebP equivalents of every JPG and PNG exist on the open web (probably not), but I know they exist on my server. Here’s the updated code:</p>
+
+<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
+<div id="gist28206589" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-webp-service-worker-js" class="file">
+    
+
+  <div class="blob-wrapper data type-javascript">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="file-webp-service-worker-js-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-webp-service-worker-js-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-s"><span class="pl-pds">&quot;</span>use strict<span class="pl-pds">&quot;</span></span>;</td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-webp-service-worker-js-LC2" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-webp-service-worker-js-LC3" class="blob-code blob-code-inner js-file-line">self.addEventListener(<span class="pl-s"><span class="pl-pds">&#39;</span>fetch<span class="pl-pds">&#39;</span></span>, <span class="pl-k">function</span>(<span class="pl-smi">event</span>) {</td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="file-webp-service-worker-js-LC4" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="file-webp-service-worker-js-LC5" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">var</span> request <span class="pl-k">=</span> <span class="pl-c1">event</span>.request,</td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="file-webp-service-worker-js-LC6" class="blob-code blob-code-inner js-file-line">        url <span class="pl-k">=</span> request.url,</td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="file-webp-service-worker-js-LC7" class="blob-code blob-code-inner js-file-line">        url_object <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">URL</span>( url ),</td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="file-webp-service-worker-js-LC8" class="blob-code blob-code-inner js-file-line">        re_jpg_or_png <span class="pl-k">=</span><span class="pl-sr"> <span class="pl-pds">/</span><span class="pl-cce">\\.</span>(?:jpg<span class="pl-k">|</span>png)<span class="pl-k">$</span><span class="pl-pds">/</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="file-webp-service-worker-js-LC9" class="blob-code blob-code-inner js-file-line">        supports_webp <span class="pl-k">=</span> <span class="pl-c1">false</span>, <span class="pl-c">// pessimism</span></td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="file-webp-service-worker-js-LC10" class="blob-code blob-code-inner js-file-line">        webp_url;</td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="file-webp-service-worker-js-LC11" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="file-webp-service-worker-js-LC12" class="blob-code blob-code-inner js-file-line">    <span class="pl-c">// Check if the image is a local jpg or png</span></td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="file-webp-service-worker-js-LC13" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">if</span> ( re_jpg_or_png.<span class="pl-c1">test</span>( request.url ) <span class="pl-k">&amp;&amp;</span></td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="file-webp-service-worker-js-LC14" class="blob-code blob-code-inner js-file-line">         url_object.origin <span class="pl-k">==</span> location.origin ) {</td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="file-webp-service-worker-js-LC15" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td id="file-webp-service-worker-js-LC16" class="blob-code blob-code-inner js-file-line">        <span class="pl-c">// console.log(&#39;WORKER: caught a request for a local PNG or JPG&#39;);</span></td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="file-webp-service-worker-js-LC17" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="file-webp-service-worker-js-LC18" class="blob-code blob-code-inner js-file-line">        <span class="pl-c">// Inspect the accept header for WebP support</span></td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="file-webp-service-worker-js-LC19" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">if</span> ( request.<span class="pl-c1">headers</span>.has(<span class="pl-s"><span class="pl-pds">&#39;</span>accept<span class="pl-pds">&#39;</span></span>) )</td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="file-webp-service-worker-js-LC20" class="blob-code blob-code-inner js-file-line">        {</td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="file-webp-service-worker-js-LC21" class="blob-code blob-code-inner js-file-line">            supports_webp <span class="pl-k">=</span> request.<span class="pl-c1">headers</span>.get(<span class="pl-s"><span class="pl-pds">&#39;</span>accept<span class="pl-pds">&#39;</span></span>).includes(<span class="pl-s"><span class="pl-pds">&#39;</span>webp<span class="pl-pds">&#39;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="file-webp-service-worker-js-LC22" class="blob-code blob-code-inner js-file-line">        }</td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td id="file-webp-service-worker-js-LC23" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td id="file-webp-service-worker-js-LC24" class="blob-code blob-code-inner js-file-line">        <span class="pl-c">// Browser supports WebP</span></td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td id="file-webp-service-worker-js-LC25" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">if</span> ( supports_webp )</td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td id="file-webp-service-worker-js-LC26" class="blob-code blob-code-inner js-file-line">        {</td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td id="file-webp-service-worker-js-LC27" class="blob-code blob-code-inner js-file-line">            <span class="pl-c">// Make the new URL</span></td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td id="file-webp-service-worker-js-LC28" class="blob-code blob-code-inner js-file-line">            webp_url <span class="pl-k">=</span> url.<span class="pl-c1">substr</span>(<span class="pl-c1">0</span>, url.<span class="pl-c1">lastIndexOf</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>.<span class="pl-pds">&#39;</span></span>)) <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&#39;</span>.webp<span class="pl-pds">&#39;</span></span>;</td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td id="file-webp-service-worker-js-LC29" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td id="file-webp-service-worker-js-LC30" class="blob-code blob-code-inner js-file-line">            <span class="pl-c1">event</span>.respondWith(</td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td id="file-webp-service-worker-js-LC31" class="blob-code blob-code-inner js-file-line">                fetch(</td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td id="file-webp-service-worker-js-LC32" class="blob-code blob-code-inner js-file-line">                    webp_url,</td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L33" class="blob-num js-line-number" data-line-number="33"></td>
+        <td id="file-webp-service-worker-js-LC33" class="blob-code blob-code-inner js-file-line">                    { mode<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>no-cors<span class="pl-pds">&#39;</span></span> }</td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td id="file-webp-service-worker-js-LC34" class="blob-code blob-code-inner js-file-line">                )</td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td id="file-webp-service-worker-js-LC35" class="blob-code blob-code-inner js-file-line">            );</td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L36" class="blob-num js-line-number" data-line-number="36"></td>
+        <td id="file-webp-service-worker-js-LC36" class="blob-code blob-code-inner js-file-line">        }</td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L37" class="blob-num js-line-number" data-line-number="37"></td>
+        <td id="file-webp-service-worker-js-LC37" class="blob-code blob-code-inner js-file-line">    }</td>
+      </tr>
+      <tr>
+        <td id="file-webp-service-worker-js-L38" class="blob-num js-line-number" data-line-number="38"></td>
+        <td id="file-webp-service-worker-js-LC38" class="blob-code blob-code-inner js-file-line">});</td>
+      </tr>
+</table>
+
+  </div>
+
+  </div>
+  
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/aarongustafson/ff6aef09a10038e1728a/raw/078af4350bca2900c2d4dc10b3827948bc401c9b/webp-service-worker.js" style="float:right">view raw</a>
+        <a href="https://gist.github.com/aarongustafson/ff6aef09a10038e1728a#file-webp-service-worker-js">webp-service-worker.js</a>
+        hosted with &#10084; by <a href="https://github.com">GitHub</a>
+      </div>
+    </div>
+</div>
+
+</div></p>
+
+<p>When I began tucking to the caching possibilities of Service Workers, following Nicolas’ and Jeremy’s posts, I <a href="https://github.com/aarongustafson/aarongustafson.github.io/blob/source/source/_javascript/serviceworker/fetch-cached.js">opted to tweak Nicholas’ caching setup a bit</a>. I’m still not completely thrilled with it, but it’s a work in progress. I’m sure I will tweak as I get more familiar with the technology.</p>
+
+<p>To keep my Service Worker code modularized (like my other JavaScript code), I opted to <a href="https://github.com/aarongustafson/aarongustafson.github.io/tree/source/source/_javascript/serviceworker">break it up into separate files</a> and am using Gulp to merge them all together and move the combined file into the root of the site. If you’d like to follow a similar path, feel free to adapt this Gulp task (which builds all of my JavaScript):</p>
+
+<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
+<div id="gist28197221" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-gulp-scripts-js" class="file">
+    
+
+  <div class="blob-wrapper data type-javascript">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="file-gulp-scripts-js-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-gulp-scripts-js-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">var</span> gulp <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>gulp<span class="pl-pds">&#39;</span></span>),</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-gulp-scripts-js-LC2" class="blob-code blob-code-inner js-file-line">    path <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>path<span class="pl-pds">&#39;</span></span>),</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-gulp-scripts-js-LC3" class="blob-code blob-code-inner js-file-line">    folder <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>gulp-folders<span class="pl-pds">&#39;</span></span>),</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="file-gulp-scripts-js-LC4" class="blob-code blob-code-inner js-file-line">    gulpIf <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>gulp-if<span class="pl-pds">&#39;</span></span>),</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="file-gulp-scripts-js-LC5" class="blob-code blob-code-inner js-file-line">    insert <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>gulp-insert<span class="pl-pds">&#39;</span></span>),</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="file-gulp-scripts-js-LC6" class="blob-code blob-code-inner js-file-line">    concat <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>gulp-concat<span class="pl-pds">&#39;</span></span>),</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="file-gulp-scripts-js-LC7" class="blob-code blob-code-inner js-file-line">    uglify <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>gulp-uglify<span class="pl-pds">&#39;</span></span>),</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="file-gulp-scripts-js-LC8" class="blob-code blob-code-inner js-file-line">    notify <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>gulp-notify<span class="pl-pds">&#39;</span></span>),</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="file-gulp-scripts-js-LC9" class="blob-code blob-code-inner js-file-line">    rename <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>gulp-rename<span class="pl-pds">&#39;</span></span>),</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="file-gulp-scripts-js-LC10" class="blob-code blob-code-inner js-file-line">    <span class="pl-c">//handleErrors = require(&#39;handleErrors&#39;),</span></td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="file-gulp-scripts-js-LC11" class="blob-code blob-code-inner js-file-line">    source_folder <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&#39;</span>source/_javascript<span class="pl-pds">&#39;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="file-gulp-scripts-js-LC12" class="blob-code blob-code-inner js-file-line">    destination_root <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&#39;</span>source<span class="pl-pds">&#39;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="file-gulp-scripts-js-LC13" class="blob-code blob-code-inner js-file-line">    destination_folder <span class="pl-k">=</span> destination_root <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&#39;</span>/j<span class="pl-pds">&#39;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="file-gulp-scripts-js-LC14" class="blob-code blob-code-inner js-file-line">    public_root <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&#39;</span>public<span class="pl-pds">&#39;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="file-gulp-scripts-js-LC15" class="blob-code blob-code-inner js-file-line">    public_folder <span class="pl-k">=</span> public_root <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&#39;</span>/j<span class="pl-pds">&#39;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td id="file-gulp-scripts-js-LC16" class="blob-code blob-code-inner js-file-line">    rename_serviceworker <span class="pl-k">=</span> rename({</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="file-gulp-scripts-js-LC17" class="blob-code blob-code-inner js-file-line">        dirname<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&quot;</span>../<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="file-gulp-scripts-js-LC18" class="blob-code blob-code-inner js-file-line">    });</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="file-gulp-scripts-js-LC19" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="file-gulp-scripts-js-LC20" class="blob-code blob-code-inner js-file-line">gulp.task(<span class="pl-s"><span class="pl-pds">&#39;</span>scripts<span class="pl-pds">&#39;</span></span>, folder(source_folder, <span class="pl-k">function</span>(<span class="pl-smi">folder</span>){</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="file-gulp-scripts-js-LC21" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">return</span> gulp.src(path.<span class="pl-c1">join</span>(source_folder, folder, <span class="pl-s"><span class="pl-pds">&#39;</span>*.js<span class="pl-pds">&#39;</span></span>))</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="file-gulp-scripts-js-LC22" class="blob-code blob-code-inner js-file-line">        .pipe(<span class="pl-c1">concat</span>(folder <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&#39;</span>.js<span class="pl-pds">&#39;</span></span>))</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td id="file-gulp-scripts-js-LC23" class="blob-code blob-code-inner js-file-line">        .pipe(insert.transform(<span class="pl-k">function</span>(<span class="pl-smi">contents</span>, <span class="pl-smi">file</span>){</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td id="file-gulp-scripts-js-LC24" class="blob-code blob-code-inner js-file-line">            <span class="pl-c">// insert a build time variable</span></td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td id="file-gulp-scripts-js-LC25" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">var</span> build_time <span class="pl-k">=</span> (<span class="pl-k">new</span> <span class="pl-en">Date</span>()).<span class="pl-c1">getTime</span>() <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&#39;</span><span class="pl-pds">&#39;</span></span>;</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td id="file-gulp-scripts-js-LC26" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">return</span> contents.<span class="pl-c1">replace</span>( <span class="pl-s"><span class="pl-pds">&#39;</span>{{BUILD_TIME}}<span class="pl-pds">&#39;</span></span>, build_time );</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td id="file-gulp-scripts-js-LC27" class="blob-code blob-code-inner js-file-line">         }))</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td id="file-gulp-scripts-js-LC28" class="blob-code blob-code-inner js-file-line">        .pipe(gulp.dest(destination_folder))</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td id="file-gulp-scripts-js-LC29" class="blob-code blob-code-inner js-file-line">        .pipe(gulp.dest(public_folder))</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td id="file-gulp-scripts-js-LC30" class="blob-code blob-code-inner js-file-line">        .pipe(rename({suffix<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>.min<span class="pl-pds">&#39;</span></span>}))</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td id="file-gulp-scripts-js-LC31" class="blob-code blob-code-inner js-file-line">        .pipe(uglify())</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td id="file-gulp-scripts-js-LC32" class="blob-code blob-code-inner js-file-line">        .pipe(gulpIf(folder<span class="pl-k">==</span><span class="pl-s"><span class="pl-pds">&#39;</span>serviceworker<span class="pl-pds">&#39;</span></span>,rename_serviceworker))</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L33" class="blob-num js-line-number" data-line-number="33"></td>
+        <td id="file-gulp-scripts-js-LC33" class="blob-code blob-code-inner js-file-line">        .pipe(gulp.dest(destination_folder))</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td id="file-gulp-scripts-js-LC34" class="blob-code blob-code-inner js-file-line">        .pipe(gulp.dest(public_folder))</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td id="file-gulp-scripts-js-LC35" class="blob-code blob-code-inner js-file-line">        .pipe(notify({ message<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>Scripts task complete<span class="pl-pds">&#39;</span></span> }));</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L36" class="blob-num js-line-number" data-line-number="36"></td>
+        <td id="file-gulp-scripts-js-LC36" class="blob-code blob-code-inner js-file-line">        <span class="pl-c">//.on(&#39;error&#39;, handleErrors);</span></td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L37" class="blob-num js-line-number" data-line-number="37"></td>
+        <td id="file-gulp-scripts-js-LC37" class="blob-code blob-code-inner js-file-line">}));</td>
+      </tr>
+</table>
+
+  </div>
+
+  </div>
+  
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/aarongustafson/7f05709cca9293e4efea/raw/b6ca32d30643137603def7b4805d7bdcbfe63137/gulp-scripts.js" style="float:right">view raw</a>
+        <a href="https://gist.github.com/aarongustafson/7f05709cca9293e4efea#file-gulp-scripts-js">gulp-scripts.js</a>
+        hosted with &#10084; by <a href="https://github.com">GitHub</a>
+      </div>
+    </div>
+</div>
+
+</div></p>
+
+<p>As most of the walkthroughs recommended that you version your Service Worker if you’re doing any caching, I set mine up to be auto-versioned by inserting a timestamp (lines 23-27, above) into my Service Worker header file (line 3, below):</p>
+
+<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
+<div id="gist28197221" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-gulp-scripts-js" class="file">
+    
+
+  <div class="blob-wrapper data type-javascript">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="file-gulp-scripts-js-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-gulp-scripts-js-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">var</span> gulp <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>gulp<span class="pl-pds">&#39;</span></span>),</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-gulp-scripts-js-LC2" class="blob-code blob-code-inner js-file-line">    path <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>path<span class="pl-pds">&#39;</span></span>),</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-gulp-scripts-js-LC3" class="blob-code blob-code-inner js-file-line">    folder <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>gulp-folders<span class="pl-pds">&#39;</span></span>),</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="file-gulp-scripts-js-LC4" class="blob-code blob-code-inner js-file-line">    gulpIf <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>gulp-if<span class="pl-pds">&#39;</span></span>),</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="file-gulp-scripts-js-LC5" class="blob-code blob-code-inner js-file-line">    insert <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>gulp-insert<span class="pl-pds">&#39;</span></span>),</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="file-gulp-scripts-js-LC6" class="blob-code blob-code-inner js-file-line">    concat <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>gulp-concat<span class="pl-pds">&#39;</span></span>),</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="file-gulp-scripts-js-LC7" class="blob-code blob-code-inner js-file-line">    uglify <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>gulp-uglify<span class="pl-pds">&#39;</span></span>),</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="file-gulp-scripts-js-LC8" class="blob-code blob-code-inner js-file-line">    notify <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>gulp-notify<span class="pl-pds">&#39;</span></span>),</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="file-gulp-scripts-js-LC9" class="blob-code blob-code-inner js-file-line">    rename <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>gulp-rename<span class="pl-pds">&#39;</span></span>),</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="file-gulp-scripts-js-LC10" class="blob-code blob-code-inner js-file-line">    <span class="pl-c">//handleErrors = require(&#39;handleErrors&#39;),</span></td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="file-gulp-scripts-js-LC11" class="blob-code blob-code-inner js-file-line">    source_folder <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&#39;</span>source/_javascript<span class="pl-pds">&#39;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="file-gulp-scripts-js-LC12" class="blob-code blob-code-inner js-file-line">    destination_root <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&#39;</span>source<span class="pl-pds">&#39;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="file-gulp-scripts-js-LC13" class="blob-code blob-code-inner js-file-line">    destination_folder <span class="pl-k">=</span> destination_root <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&#39;</span>/j<span class="pl-pds">&#39;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="file-gulp-scripts-js-LC14" class="blob-code blob-code-inner js-file-line">    public_root <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&#39;</span>public<span class="pl-pds">&#39;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="file-gulp-scripts-js-LC15" class="blob-code blob-code-inner js-file-line">    public_folder <span class="pl-k">=</span> public_root <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&#39;</span>/j<span class="pl-pds">&#39;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td id="file-gulp-scripts-js-LC16" class="blob-code blob-code-inner js-file-line">    rename_serviceworker <span class="pl-k">=</span> rename({</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="file-gulp-scripts-js-LC17" class="blob-code blob-code-inner js-file-line">        dirname<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&quot;</span>../<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="file-gulp-scripts-js-LC18" class="blob-code blob-code-inner js-file-line">    });</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="file-gulp-scripts-js-LC19" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="file-gulp-scripts-js-LC20" class="blob-code blob-code-inner js-file-line">gulp.task(<span class="pl-s"><span class="pl-pds">&#39;</span>scripts<span class="pl-pds">&#39;</span></span>, folder(source_folder, <span class="pl-k">function</span>(<span class="pl-smi">folder</span>){</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="file-gulp-scripts-js-LC21" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">return</span> gulp.src(path.<span class="pl-c1">join</span>(source_folder, folder, <span class="pl-s"><span class="pl-pds">&#39;</span>*.js<span class="pl-pds">&#39;</span></span>))</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="file-gulp-scripts-js-LC22" class="blob-code blob-code-inner js-file-line">        .pipe(<span class="pl-c1">concat</span>(folder <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&#39;</span>.js<span class="pl-pds">&#39;</span></span>))</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td id="file-gulp-scripts-js-LC23" class="blob-code blob-code-inner js-file-line">        .pipe(insert.transform(<span class="pl-k">function</span>(<span class="pl-smi">contents</span>, <span class="pl-smi">file</span>){</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td id="file-gulp-scripts-js-LC24" class="blob-code blob-code-inner js-file-line">            <span class="pl-c">// insert a build time variable</span></td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td id="file-gulp-scripts-js-LC25" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">var</span> build_time <span class="pl-k">=</span> (<span class="pl-k">new</span> <span class="pl-en">Date</span>()).<span class="pl-c1">getTime</span>() <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&#39;</span><span class="pl-pds">&#39;</span></span>;</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td id="file-gulp-scripts-js-LC26" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">return</span> contents.<span class="pl-c1">replace</span>( <span class="pl-s"><span class="pl-pds">&#39;</span>{{BUILD_TIME}}<span class="pl-pds">&#39;</span></span>, build_time );</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td id="file-gulp-scripts-js-LC27" class="blob-code blob-code-inner js-file-line">         }))</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td id="file-gulp-scripts-js-LC28" class="blob-code blob-code-inner js-file-line">        .pipe(gulp.dest(destination_folder))</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td id="file-gulp-scripts-js-LC29" class="blob-code blob-code-inner js-file-line">        .pipe(gulp.dest(public_folder))</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td id="file-gulp-scripts-js-LC30" class="blob-code blob-code-inner js-file-line">        .pipe(rename({suffix<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>.min<span class="pl-pds">&#39;</span></span>}))</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td id="file-gulp-scripts-js-LC31" class="blob-code blob-code-inner js-file-line">        .pipe(uglify())</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td id="file-gulp-scripts-js-LC32" class="blob-code blob-code-inner js-file-line">        .pipe(gulpIf(folder<span class="pl-k">==</span><span class="pl-s"><span class="pl-pds">&#39;</span>serviceworker<span class="pl-pds">&#39;</span></span>,rename_serviceworker))</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L33" class="blob-num js-line-number" data-line-number="33"></td>
+        <td id="file-gulp-scripts-js-LC33" class="blob-code blob-code-inner js-file-line">        .pipe(gulp.dest(destination_folder))</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td id="file-gulp-scripts-js-LC34" class="blob-code blob-code-inner js-file-line">        .pipe(gulp.dest(public_folder))</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td id="file-gulp-scripts-js-LC35" class="blob-code blob-code-inner js-file-line">        .pipe(notify({ message<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>Scripts task complete<span class="pl-pds">&#39;</span></span> }));</td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L36" class="blob-num js-line-number" data-line-number="36"></td>
+        <td id="file-gulp-scripts-js-LC36" class="blob-code blob-code-inner js-file-line">        <span class="pl-c">//.on(&#39;error&#39;, handleErrors);</span></td>
+      </tr>
+      <tr>
+        <td id="file-gulp-scripts-js-L37" class="blob-num js-line-number" data-line-number="37"></td>
+        <td id="file-gulp-scripts-js-LC37" class="blob-code blob-code-inner js-file-line">}));</td>
+      </tr>
+</table>
+
+  </div>
+
+  </div>
+  
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/aarongustafson/7f05709cca9293e4efea/raw/b6ca32d30643137603def7b4805d7bdcbfe63137/gulp-scripts.js" style="float:right">view raw</a>
+        <a href="https://gist.github.com/aarongustafson/7f05709cca9293e4efea#file-gulp-scripts-js">gulp-scripts.js</a>
+        hosted with &#10084; by <a href="https://github.com">GitHub</a>
+      </div>
+    </div>
+</div>
+
+</div></p>
+
+<p>Service Workers are still pretty new (and <a href="http://caniuse.com/#feat=serviceworkers">modestly supported</a>), but it’s definitely interesting to see what’s possible using them. <a href="https://adactio.com/journal/9844">Like Jeremy</a>, I want to do a bit more exploration into caching and how it may actually <em>increase</em> the monetary cost of accessing a website if not used properly. Like any powerful tool, we need to wield it wisely.</p>
+
+<figure><img src="https://media.giphy.com/media/dlmcYrvalMmAw/giphy.gif" alt="Animated GIF of a guy accidentally launching a board into his helper while power sanding." /></figure>
+
+<h2 id="making-gists-static">Making Gists Static</h2>
+
+<p>On particularly code-heavy posts (yes, like this one), I make liberal use of Gists. They’re quite useful, but <a href="https://gist.github.com/BinaryMuse/803483">the Gist plugin for Jekyll</a>, while good, still requests a script from Github in order to load the pretty printed version of the Gist. On some posts, that can mean 5 or more additional network requests, not to mention execution time for the JavaScript. It’s yet another dependency that could prohibit you from quickly getting to the content you’re looking for. Additionally, <a href="https://gds.blog.gov.uk/2013/10/21/how-many-people-are-missing-out-on-javascript-enhancement/">if JavaScript should be available, but isn’t</a>, you get nothing (since the <code>noscript</code> content is only evaluated if JavaScript support isn’t available or if a user turns it off).</p>
+
+<p>With all of this in mind, I decided to revise the plugin and make it capable of downloading the JavaScript code directly. It then extracts the HTML markup that the JavaScript would be writing into the page and just embeds it directly. It also caches the result, which is handy for speeding up the build process.</p>
+
+<p>You can grab <a href="https://gist.github.com/aarongustafson/b98add8f3580f6707cf5">my fork of the Gist Jekyll Plugin as, well, a Gist</a>. It’s also <a href="https://github.com/aarongustafson/aarongustafson.github.io/blob/source/plugins/gist_tag.rb">in the source of this site on Github</a>.</p>
+
+<h2 id="hopefully-a-little-faster">(Hopefully) A Little Faster</h2>
+
+<p>All told, these changes have gotten the render time of this site down significantly across the board.<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup> Even more so on browsers that support Service Workers and Resource Hints. I’ll likely continue tweaking as I go, but I wanted to share my process, code, and thoughts in case any of it might be useful to you in your own work. In the end, it’s all about creating better experiences for our users. How our sites perform is a big part of that.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Sadly I forgot to run some speed tests prior to rolling out this change and I didn’t feel like rolling back the site, so I don’t have solid numbers for you. That said, it seemed to shave nearly 2 seconds off of the load time on heavy pages like the post I mentioned. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>Again, I don’t have the numbers, but I am routinely seeing <code>DOMContentLoaded</code> reached between 400-600ms with Service Worker caching in play. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Future of Web Design &amp; Øredev]]></title>
@@ -781,249 +1435,6 @@
   <li>Read <a href="https://decadecity.net/blog/2015/06/19/aaron-gustafson-where-do-we-go-here">Orde Saunders’ notes</a> from my talk.</li>
   <li>Read <a href="https://hiddedevries.nl/en/blog/2015-06-20-responsive-day-out-3-the-final-breakpoint/">Hidde de Vries’ recap of the day</a>.</li>
 </ul>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Bringing Sanity and Order to Device Testing]]></title>
-    <link href="https://www.aaron-gustafson.com/notebook/bringing-sanity-and-order-to-device-testing/"/>
-    <updated>2015-06-05T09:56:03-04:00</updated>
-    <id>https://www.aaron-gustafson.com/notebook/bringing-sanity-and-order-to-device-testing</id>
-    <content type="html"><![CDATA[<p>It seems like every other day the public is granted some new means of accessing the web. Some days it’s <a href="http://www.engadget.com/2015/04/29/microsoft-edge/">a new browser</a>. Others it’s <a href="http://www.pcadvisor.co.uk/reviews/mobile-phone/3504276/yotaphone-2-review-uk-dual-screen-smartphone/">a new smartphone</a>. Or <a href="http://www.engadget.com/products/microsoft/surface/3/">a tablet</a>. Or <a href="http://the-digital-reader.com/2014/10/22/voyage-vs-paperwhite-comparison-review-web-browser/">an e-reader</a>. Or <a href="https://www.nintendo.com/3ds/internetbrowser/specs/">a video game console</a>. Or <a href="http://www.phonearena.com/news/Surf-the-Internet-from-your-Android-Wear-smartwatch-Now-possible-via-this-new-app_id58580">a smartwatch</a>. Or <a href="https://html5test.com/compare/browser/samsungsmarttv-2013.html">a TV</a>. Or <a href="http://www.techradar.com/us/reviews/wearables/microsoft-hololens-1281834/review">a heads-up display</a>. Or <a href="http://www.popularmechanics.com/cars/a13191/the-future-of-car-connectivity-is-a-real-web-browser-in-the-dash-17416796/">a car</a>. Or <a href="http://www.lgblog.lt/2009/10/28/zvilgsnis-atgal-pirmasis-pasaulyje-saldytuvas-su-internetu-lg-internet-digital-dios/">a refrigerator</a>.</p>
-
-<!-- more -->
-
-<p>I worked on one project where the client provided me with a spreadsheet detailing 1,400 different user agents that accessed the login screen for the m-dot site. In two days!</p>
-
-<p>As further evidence, consider <a href="http://blog.jasonsamuels.net/post/21633531278/analytics-confirm-the-need-for-adaptive-web-design">the enlightening details of this post from Jason Samuels</a> of the National Council on Family relations, a non-profit organization:</p>
-
-<ul>
-  <li>In 2008, Internet Explorer dominated as the browser for 93.5% of their visitors. By 2014, that percentage had fallen to 19.7%, with Chrome bringing in the lion’s share of the traffic (37%). Firefox narrowly beat out IE with a 20% share of users.</li>
-  <li>In 2008, visits from “mobile” devices accounted for only about 0.1% of their traffic. In 2014, that number had skyrocketed to 14.4%.</li>
-  <li>In 2008, they detected 71 different screen resolutions, which is already a lot to consider. By 2014, however, they were seeing 1,000 unique screen resolutions each and every quarter (with over 200 of those recording 10+ visits per quarter).</li>
-</ul>
-
-<p>That last stat blows my mind every time I read it. You can’t design for 200 different screens, let alone 1,000. It’s a fools errand. And don’t even think of trying to test on that many devices.</p>
-
-<p>And yet, here we are designing websites that can (and will) go anywhere. We need to thoroughly test because we can’t make any assumptions about the browsers and devices being used to access our content.</p>
-
-<p>Testing can be tedious, time consuming, and costly. Surely there’s a way to make it easier. There sure is: Instead of getting hung up on creating one experience that needs to be nearly identical on every browser, we can be smarter about how we build things and treat experience as a continuum.</p>
-
-<p>We can build websites that are both nimble enough to work on low powered devices over slow networks <em>and</em> smart enough to take advantage of advanced features and sensors when opportunity knocks.</p>
-
-<p><em>Wha?! We can have our cake and eat it too</em>? Yes. Yes we can.</p>
-
-<h2 id="start-on-solid-footing">Start on Solid Footing</h2>
-
-<p>When dealing with the insane proliferation of web-enabled devices and the great unknown of where our websites will go, it pays to take a step back and focus on what’s important. We need to ask ourselves two simple questions:</p>
-
-<ol>
-  <li>What is the purpose of this page, this form, this interface?</li>
-  <li>What is the simplest way to realize that purpose?</li>
-</ol>
-
-<p>Then we need to build that <em>first</em>. Typically we’re talking text, some basic HTML, actual links to other pages, and forms that submit to a back-end of some sort. This is our minimum viable product and it will work anywhere.</p>
-
-<p>Then we can look for opportunities to enhance the experience, all while keeping that functional core at the center of the experience.</p>
-
-<p>We can use CSS to add visual hierarchy to the page, provide some visual interest, and adjust the layout to create a good reading experience on a wide range of screen sizes. We should start from the narrowest screen size we can imagine and <a href="https://twitter.com/brad_frost/status/191977076000161793">let the content guide our breakpoint decisions</a>.</p>
-
-<p>We’ll use JavaScript to give real-time feedback to our users. <a href="http://domscripting.com/presentations/xtech2006/">We’ll hijack forms and links</a> to <a href="http://www.filamentgroup.com/lab/ajax-includes-modular-content.html">lazy load additional content</a> or otherwise avoid full-page refreshes. Heck, we can even take over the entire page and <a href="http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/">convert it into a single page app</a>.</p>
-
-<p>But we should never sacrifice the functional core.</p>
-
-<p>This approach to designing for the web is called <a href="http://alistapart.com/article/understandingprogressiveenhancement">progressive enhancement</a> and it’s the number one tool for dealing with the one-two punch of older browsers and device proliferation.</p>
-
-<h2 id="be-conservative-in-your-delivery">Be Conservative in Your Delivery</h2>
-
-<p>What makes progressive enhancement so helpful when it comes to dealing with this swirling mass of devices and browsers is that the core experience will <em>always be</em> available. There is nothing precluding our users from accessing it, even on a crappy WAP browser or a text-based browser like Lynx or even some <a href="http://www.theubi.com/">no so far-future talking computer</a> that only “sees” the web as text.</p>
-
-<p>In order to ensure we don’t accidentally deliver advanced features to less capable browsers like these, we just need to be smart about how we load stuff like CSS and JavaScript.</p>
-
-<p>Some basic CSS—think typography, color, etc.—will be usable by just about anyone, so we can put all that stuff in one CSS file (e.g., <code>basic.css</code>) and include it with a standard <code>link</code>. Then we can tuck all of our layout rules and other advanced CSS into a separate CSS file (e.g., <code>advanced.css</code>) that we link to with an associated media query.</p>
-
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
-<div id="gist23102530" class="gist">
-    <div class="gist-file">
-      <div class="gist-data">
-        <div class="js-gist-file-update-container js-task-list-container file-box">
-  <div id="file-css-linking-html" class="file">
-    
-
-  <div class="blob-wrapper data type-html">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="file-css-linking-html-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-css-linking-html-LC1" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>stylesheet<span class="pl-pds">&quot;</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>default.css<span class="pl-pds">&quot;</span></span> <span class="pl-e">media</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>all<span class="pl-pds">&quot;</span></span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="file-css-linking-html-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-css-linking-html-LC2" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>stylesheet<span class="pl-pds">&quot;</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>advanced.css<span class="pl-pds">&quot;</span></span> <span class="pl-e">media</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>only screen<span class="pl-pds">&quot;</span></span>&gt;</td>
-      </tr>
-</table>
-
-  </div>
-
-  </div>
-  
-</div>
-
-      </div>
-      <div class="gist-meta">
-        <a href="https://gist.github.com/aarongustafson/166b285a4fe3d854b97b/raw/21e0e8a5cffdfb04fb40d80c8a613aef7b1c9bee/css-linking.html" style="float:right">view raw</a>
-        <a href="https://gist.github.com/aarongustafson/166b285a4fe3d854b97b#file-css-linking-html">css-linking.html</a>
-        hosted with &#10084; by <a href="https://github.com">GitHub</a>
-      </div>
-    </div>
-</div>
-
-</div></p>
-
-<p>Any <a href="http://www.slideshare.net/bryanrieger/rethinking-the-mobile-web-by-yiibu/106">browsers that don’t understand media queries will ignore the second CSS file entirely</a> and receive only the linear, mobile view. Easy peasy, and IE8 gets the mobile layout (a baseline level of support that is not likely to cause you any testing headaches).</p>
-
-<p>You can even take things a step further and use <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@supports">the <code>@supports</code> block</a> within <code>advanced.css</code> to limit certain rule sets to only the browsers that support specific CSS features.</p>
-
-<p>Of course, CSS support issues are nothing compared to JavaScript, so sometimes it’s best not to deliver certain bits of JavaScript-based functionality to browsers that can’t handle it. This is where <a href="http://www.quirksmode.org/js/support.html">feature (and object) detection</a> becomes incredibly useful:</p>
-
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
-<div id="gist23102530" class="gist">
-    <div class="gist-file">
-      <div class="gist-data">
-        <div class="js-gist-file-update-container js-task-list-container file-box">
-  <div id="file-feature-test-js" class="file">
-    
-
-  <div class="blob-wrapper data type-javascript">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="file-feature-test-js-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-feature-test-js-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span> ( <span class="pl-s"><span class="pl-pds">&#39;</span>querySelector<span class="pl-pds">&#39;</span></span> <span class="pl-k">in</span> <span class="pl-c1">document</span> ) {</td>
-      </tr>
-      <tr>
-        <td id="file-feature-test-js-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-feature-test-js-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-c">// We can use querySelector!</span></td>
-      </tr>
-      <tr>
-        <td id="file-feature-test-js-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-feature-test-js-LC3" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-</table>
-
-  </div>
-
-  </div>
-  
-</div>
-
-      </div>
-      <div class="gist-meta">
-        <a href="https://gist.github.com/aarongustafson/166b285a4fe3d854b97b/raw/21e0e8a5cffdfb04fb40d80c8a613aef7b1c9bee/feature-test.js" style="float:right">view raw</a>
-        <a href="https://gist.github.com/aarongustafson/166b285a4fe3d854b97b#file-feature-test-js">feature-test.js</a>
-        hosted with &#10084; by <a href="https://github.com">GitHub</a>
-      </div>
-    </div>
-</div>
-
-</div></p>
-
-<p>You can also use <a href="http://en.wikipedia.org/wiki/Conditional_comment#Downlevel-revealed_conditional_comment">inverted conditional comments</a> to prohibit older versions of IE from getting JavaScript in the first place (which means you don’t even need to worry about debugging JavaScript there). Here’s an example that hides <code>main.js</code> from IE8 and below, but makes it available to IE9 on up and to every other non-IE browser.</p>
-
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
-<div id="gist23102530" class="gist">
-    <div class="gist-file">
-      <div class="gist-data">
-        <div class="js-gist-file-update-container js-task-list-container file-box">
-  <div id="file-no-script-in-lte-ie8-html" class="file">
-    
-
-  <div class="blob-wrapper data type-html">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="file-no-script-in-lte-ie8-html-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-no-script-in-lte-ie8-html-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-c">&lt;!--[if gt IE 8]&gt;&lt;!--&gt;</span></td>
-      </tr>
-      <tr>
-        <td id="file-no-script-in-lte-ie8-html-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-no-script-in-lte-ie8-html-LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>main.js<span class="pl-pds">&quot;</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span></td>
-      </tr>
-      <tr>
-        <td id="file-no-script-in-lte-ie8-html-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-no-script-in-lte-ie8-html-LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-c">&lt;!--&lt;![endif]--&gt;</span></td>
-      </tr>
-</table>
-
-  </div>
-
-  </div>
-  
-</div>
-
-      </div>
-      <div class="gist-meta">
-        <a href="https://gist.github.com/aarongustafson/166b285a4fe3d854b97b/raw/21e0e8a5cffdfb04fb40d80c8a613aef7b1c9bee/no-script-in-lte-ie8.html" style="float:right">view raw</a>
-        <a href="https://gist.github.com/aarongustafson/166b285a4fe3d854b97b#file-no-script-in-lte-ie8-html">no-script-in-lte-ie8.html</a>
-        hosted with &#10084; by <a href="https://github.com">GitHub</a>
-      </div>
-    </div>
-</div>
-
-</div></p>
-
-<p>By being conservative in what we deliver to browsers we <a href="http://bradfrost.com/blog/mobile/support-vs-optimization/">ensure the greatest level of support, but can still optimize for more advanced ones</a>. This makes testing so much easier because we know older browsers will be okay with the basics and we aren’t trying to use JavaScript features unless we know they’re available.</p>
-
-<h2 id="test-test-test">Test, Test, Test</h2>
-
-<p>Progressive enhancement helps us avoid a lot of rendering and scripting issues before we even get to the testing phase of a project, but eventually we do need to sit down and run our projects through their paces.</p>
-
-<p>In order to keep testing manageable during development, it’s best to test in one browser we know to have good web standards support. It will provide a basic gut-check for our work. Once we are pretty confident things are working as they should be, we can begin more thorough testing on a variety of browsers and devices.</p>
-
-<p>I personally keep several versions of each major browser on my laptop at any given time. I work on a Mac, so I typically have a few versions of Chrome, Firefox, and Opera lying around. You can get older versions of these browsers here:</p>
-
-<ul>
-  <li><a href="http://commondatastorage.googleapis.com/chromium-browser-continuous/index.html">Chromium Archive</a></li>
-  <li><a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/">Firefox Archive</a></li>
-  <li><a href="http://www.opera.com/download//?custom=yes">Opera Archive</a></li>
-</ul>
-
-<p>It’s near-impossible to get older versions of Safari running on modern versions of OS X, so I typically just have the latest version locally.</p>
-
-<p>For testing on Windows versions of said browsers, I typically have anywhere from 3-5 virtual machines running various Windows versions with their associated browser version and (typically) a copy of Chrome, Firefox, and Opera for good measure. The MS Edge Dev site offers <a href="http://dev.modern.ie/tools/vms/">free Windows VMs for download</a>. If you’re just looking to get a gut-check in the latest and greatest from Microsoft, there’s also <a href="https://remote.modern.ie/">the Remote.IE service</a>, which allows you to connect to a virtualized version of the browser.</p>
-
-<p>If you develop on Windows or Linux, you’ll need access to a Mac or you’ll have to rely on virtualization to test on that platform. I’ll discuss virtualization in a moment.</p>
-
-<p>Once you’ve thoroughly tested in the various desktop browsers, it’s time to take the deep dive into the world of devices. If you’re unsure where to begin, take a look at your analytics, but take them with a grain of salt. Analytics can lead you to make false assumptions. For example, if you see a low percentage of Blackberry users, could that be because your site just doesn’t work well in Blackberry so they don’t stick around (or come back)? Beware the self-fulfilling prophecy.</p>
-
-<p>If you have the budget, by all means pick up some devices to have on hand for testing. You can use tools like <a href="https://creative.adobe.com/products/inspect">Adobe’s Edge Inspect</a>, <a href="http://vanamco.com/ghostlab/">Vanamco’s Ghostlab</a>, or <a href="https://github.com/viljamis/Remote-Preview">Viljami Salminen’s Remote Preview</a> (or a combination of all of the above) to synchronize browsing on a handful of devices. Some of these tools also allow for remote inspection of the device to debug CSS and JavaScript. <a href="http://people.apache.org/~pmuellr/weinre-docs/latest/">Weinre</a> (which Adobe Edge Inspect uses) and <a href="http://vorlonjs.com/">Vorlon.js</a> also provide remote inspection functionality.</p>
-
-<p>If you are lucky enough to have one nearby, you should stop by your local <a href="http://opendevicelab.com/">open device lab (ODL)</a> to run your tests. ODLs are free community resources, typically offered by a web design studio or an individual who happens to be sitting on a ton of devices. Someone at the ODL should be able to help you pick out devices to test on and introduce you to the testing tools they have available in the lab.</p>
-
-<p>If you don’t have an ODL nearby, you can also do some guerrilla-style testing in your local mobile phone or electronics store. Just make sure they have real devices… you won’t get far on the fake plastic ones.</p>
-
-<p>If none of these are options for you, there’s always virtualization. You can download and install <a href="http://www.mobilexweb.com/emulators">emulators for a variety of mobile browsers and devices</a>. Additionally, services like <a href="https://www.browserstack.com/">Browserstack</a> and <a href="http://crossbrowsertesting.com/">CrossBrowserTesting</a> offer access to hundreds of virtual desktops and devices for a nominal fee.</p>
-
-<p>Virtualization will never give you the same experience as holding a real device in your hand. The performance is rarely the same and you don’t get any sort of feel for how the device responds to your input. I once stumbled on an Android 2.3 bug wherein generated content was being re-generated and re-inserted every time the device was rotated. I doubt I would have discovered that using an emulator. That said, emulators can help you get a rough idea of whether your interface works or not.</p>
-
-<p>Regardless of the means by which you procure your testing devices, try to cover a good cross-section. Pick some low-end ones, a couple older high-end devices, and handful of the latest flagships, and a wide variety of screen sizes and resolutions. Make sure you have good coverage in terms of operating systems too—the latest iOS and Android versions are a given, but make sure you have a Windows device or two, a few Blackberry options, and some older Android and iOS versions in the mix. Then throw in <a href="http://www.geekwire.com/2013/microsoft-kin-resurfaces-25-daily-deals-site/">an oddball</a> <a href="http://www.windowscentral.com/have-39-spare-then-pick-odd-sylvania-7-netbook-windows-ce">or two</a> to see if your interfaces hold up.</p>
-
-<p>It’s important to bear in mind that we will never be able to give each user on each device exactly the same experience. We need to be okay with that—experience is a continuum. As long as our users can accomplish what they need to on our sites, they will be well-served.</p>
-
-<h2 id="bonus-points-embrace-patterns">Bonus Points: Embrace Patterns</h2>
-
-<p>If we really want to make things easy on ourselves (and our team), we should consider building a <a href="http://alistapart.com/blog/post/getting-started-with-pattern-libraries">pattern library</a> before we build a single page of our website.</p>
-
-<p>Breaking our interfaces down into discrete, repeatable patterns (e.g., a label and form control, a tabbed interface, etc.) lets us look at each in isolation and test it that way too. Testing in isolation is far easier than trying to debug a page with a lot of moving parts.</p>
-
-<p>Gathering our patterns into a live, web-based pattern library  allows anyone on our team to collect the patterns they need to build a given interface as easily as they’d assemble a plate at a smörgåsbord. And if we really want to streamline the building and testing process, we can even <a href="http://ianfeather.co.uk/a-maintainable-style-guide/">make the patterns importable into the live site</a> so everything stays in sync.</p>
-
-<h2 id="dont-fear-the-zombie-apocalypse">Don’t Fear the Zombie Apocalypse</h2>
-
-<p>With the constant onslaught of new devices, form factors, and considerations, it’s tempting to throw up our hands and find another line of work. The pace of advancement is so brisk, it’s just hard to keep up, let alone feel like we’re on top of where things are headed.</p>
-
-<p>Thankfully, however, all is not lost. By taking a step back and focusing on what matters, embracing experience as a continuum, and being deliberate in how (and when) we deliver certain features and functionality to browsers, we’ll head most issues off at the pass.</p>
-
-<p>This relieves some of the pressure (and frustration) from the testing process and frees us up to test on a wider variety of devices and browsers, which means we’ll be able to provide a solid experience for more users, no matter what marvel of technological wizardry they happen to be using at the time.</p>
-
-<p>Everybody wins.</p>
 ]]></content>
   </entry>
   
