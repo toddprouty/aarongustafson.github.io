@@ -148,7 +148,7 @@
 		<time class="dt-published" datetime="2015-03-20T11:00:03-04:00">20 March 2015</time><b class="hidden"> by <a class="p-author h-card" href="/about">Aaron Gustafson</a></b></dd>
 						
 						<dt>Reading Time</dt>
-						<dd>3 minutes</dd>
+						<dd>5 minutes</dd>
 
 						
 
@@ -195,11 +195,50 @@
 
 <p>Here’s Heydon’s first quantity query example:</p>
 
-<div><script src="https://gist.github.com/eddda1f32ed102cedd86.js?file=equal.css"></script>
-<noscript><pre><code>li:nth-last-child(6):first-child, 
-li:nth-last-child(6):first-child ~ li {
-  color: green;
-}</code></pre></noscript></div>
+<div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css" />
+<div id="gist20567997" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-equal-css" class="file">
+    
+
+  <div class="blob-wrapper data type-css">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="file-equal-css-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-equal-css-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">li</span><span class="pl-e">:nth-last-child</span>(<span class="pl-c1">6</span>)<span class="pl-e">:first-child</span>, </td>
+      </tr>
+      <tr>
+        <td id="file-equal-css-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-equal-css-LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">li</span><span class="pl-e">:nth-last-child</span>(<span class="pl-c1">6</span>)<span class="pl-e">:first-child</span> ~ <span class="pl-ent">li</span> {</td>
+      </tr>
+      <tr>
+        <td id="file-equal-css-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-equal-css-LC3" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">color</span></span>: <span class="pl-c1">green</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-equal-css-L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="file-equal-css-LC4" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+</table>
+
+  </div>
+
+  </div>
+  
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/aarongustafson/eddda1f32ed102cedd86/raw/70742167354e0e0cbb87e86b805eb4efe1de605f/equal.css" style="float:right">view raw</a>
+        <a href="https://gist.github.com/aarongustafson/eddda1f32ed102cedd86#file-equal-css">equal.css</a>
+        hosted with &#10084; by <a href="https://github.com">GitHub</a>
+      </div>
+    </div>
+</div>
+
+</div>
 
 <p>With these selectors, the rule set would only apply if the total count of list items was exactly 6. Here’s what he is selecting:</p>
 
@@ -213,11 +252,50 @@ li:nth-last-child(6):first-child ~ li {
 <p>But Heydon doesn’t stop there. He also gives us ways to test for  more than or equal to and fewer than or equal to a certain number. We’ll start with the <br />
 “more than” variant (because everyone always wants more):</p>
 
-<div><script src="https://gist.github.com/eddda1f32ed102cedd86.js?file=more-than-or-equal.css"></script>
-<noscript><pre><code>li:nth-last-child(n+6),
-li:nth-last-child(n+6) ~ li {
-  /* properties here */
-}</code></pre></noscript></div>
+<div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css" />
+<div id="gist20567997" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-more-than-or-equal-css" class="file">
+    
+
+  <div class="blob-wrapper data type-css">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="file-more-than-or-equal-css-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-more-than-or-equal-css-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">li</span><span class="pl-e">:nth-last-child</span>(<span class="pl-c1">n+6</span>),</td>
+      </tr>
+      <tr>
+        <td id="file-more-than-or-equal-css-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-more-than-or-equal-css-LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">li</span><span class="pl-e">:nth-last-child</span>(<span class="pl-c1">n+6</span>) ~ <span class="pl-ent">li</span> {</td>
+      </tr>
+      <tr>
+        <td id="file-more-than-or-equal-css-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-more-than-or-equal-css-LC3" class="blob-code blob-code-inner js-file-line">  <span class="pl-c">/* properties here */</span></td>
+      </tr>
+      <tr>
+        <td id="file-more-than-or-equal-css-L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="file-more-than-or-equal-css-LC4" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+</table>
+
+  </div>
+
+  </div>
+  
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/aarongustafson/eddda1f32ed102cedd86/raw/70742167354e0e0cbb87e86b805eb4efe1de605f/more-than-or-equal.css" style="float:right">view raw</a>
+        <a href="https://gist.github.com/aarongustafson/eddda1f32ed102cedd86#file-more-than-or-equal-css">more-than-or-equal.css</a>
+        hosted with &#10084; by <a href="https://github.com">GitHub</a>
+      </div>
+    </div>
+</div>
+
+</div>
 
 <p>This one is slightly more complex, using the <code>nth-*</code> formula to manage the calculation. In English, this selects:</p>
 
@@ -236,11 +314,50 @@ li:nth-last-child(n+6) ~ li {
 
 <p>The final example he gives is for fewer than or equal to a particular number:</p>
 
-<div><script src="https://gist.github.com/eddda1f32ed102cedd86.js?file=fewer-than-or-equal.css"></script>
-<noscript><pre><code>li:nth-last-child(-n+6):first-child,
-li:nth-last-child(-n+6):first-child ~ li {
-  /* properties here */
-}</code></pre></noscript></div>
+<div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css" />
+<div id="gist20567997" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-fewer-than-or-equal-css" class="file">
+    
+
+  <div class="blob-wrapper data type-css">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="file-fewer-than-or-equal-css-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-fewer-than-or-equal-css-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">li</span><span class="pl-e">:nth-last-child</span>(<span class="pl-c1">-n+6</span>)<span class="pl-e">:first-child</span>,</td>
+      </tr>
+      <tr>
+        <td id="file-fewer-than-or-equal-css-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-fewer-than-or-equal-css-LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">li</span><span class="pl-e">:nth-last-child</span>(<span class="pl-c1">-n+6</span>)<span class="pl-e">:first-child</span> ~ <span class="pl-ent">li</span> {</td>
+      </tr>
+      <tr>
+        <td id="file-fewer-than-or-equal-css-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-fewer-than-or-equal-css-LC3" class="blob-code blob-code-inner js-file-line">  <span class="pl-c">/* properties here */</span></td>
+      </tr>
+      <tr>
+        <td id="file-fewer-than-or-equal-css-L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="file-fewer-than-or-equal-css-LC4" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+</table>
+
+  </div>
+
+  </div>
+  
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/aarongustafson/eddda1f32ed102cedd86/raw/70742167354e0e0cbb87e86b805eb4efe1de605f/fewer-than-or-equal.css" style="float:right">view raw</a>
+        <a href="https://gist.github.com/aarongustafson/eddda1f32ed102cedd86#file-fewer-than-or-equal-css">fewer-than-or-equal.css</a>
+        hosted with &#10084; by <a href="https://github.com">GitHub</a>
+      </div>
+    </div>
+</div>
+
+</div>
 
 <p>This one is largely the same as the “more than” example, but the multiplier is reversed (with the minus sign) which means the count runs backward: 0+6 (6), -1+5 (5), -2+6 (4), and so on.</p>
 
@@ -250,8 +367,7 @@ li:nth-last-child(-n+6):first-child ~ li {
 
 <p><a href="https://twitter.com/danielguillan">Daniel Guillan</a> has <a href="https://github.com/danielguillan/quantity-queries">ported this functionality (and more) to SASS</a> using a handful of really straightforward mixins. Here’s a demo:</p>
 
-<p data-height="331" data-theme-id="0" data-slug-hash="GgBOxm" data-default-tab="result" data-user="danielguillan" class="codepen">See the Pen <a href="http://codepen.io/danielguillan/pen/GgBOxm/">Quantity Queries Sass mixins demo</a> by Daniel Guillan (<a href="http://codepen.io/danielguillan">@danielguillan</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
+<figure id="fig-2015-03-20-01" class="media-container"><p class="codepen" data-user="danielguillan" data-href="GgBOxm" data-height="331" data-type="result" data-preview="true">See the Pen <a href="http://codepen.io/danielguillan/pen/GgBOxm">Quanity Queries Sass mixins demo</a> by Daniel Guillan (<a href="//codepen.io/danielguillan">danielguillan</a>) on <a href="//codepen.io">CodePen</a>.</p><script async="" src="//codepen.io/assets/embed/ei.js"></script></figure>
 
 <p>Happy counting!</p>
 

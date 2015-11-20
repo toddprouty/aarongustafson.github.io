@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Progressive Enhancement | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/progressive-enhancement/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2015-11-18T14:37:44-05:00</updated>
+  <updated>2015-11-20T09:48:48-05:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -120,9 +120,7 @@
 
 <p>We’ve explored the future of modular code and browsers’ capacity for working without network connectivity. And we’ve even taken a trip into the possible future of where the web might go.</p>
 
-<figure id="figure-2015-06-22-01">
-<img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
-</figure>
+<figure id="figure-2015-06-22-01"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""></figure>
 
 <p>We’ve come a long way since <a href="https://huffduffer.com/adactio/243780">Ethan’s article</a>, fluid grids, flexible media, and media queries. Those three tenets sowed a seed that has grown and flourished as we have come to better understand the implications of device proliferation. We’ve seen that the web is capable of going anywhere and doing pretty much anything.</p>
 
@@ -166,9 +164,7 @@
 
 <p>Embracing the reality that experience does’t need to be just one thing will help us reach more people with fewer headaches. Experience can—and should—be crafted as a continuum. This is progressive enhancement: We start with a baseline experience that works for everyone—content, real links, first generation form controls, and forms that actually submit to the server. Then we build up the experience from there.</p>
 
-<figure id="figure-2015-06-22-02">
-<img src="https://www.aaron-gustafson.com/i/posts/2015-06-22/02.gif" alt="" />
-</figure>
+<figure id="figure-2015-06-22-02"><img src="https://www.aaron-gustafson.com/i/posts/2015-06-22/02.gif" alt="" /></figure>
 
 <p>Your browser supports HTML5 form controls? Great! You’ll get a better virtual keyboard when you go to type your email address. You can use CSS? Awesome, let me make that reading experience better for you. Oh, you can handle media queries! Let me adjust the layout so those line lengths are a little more comfortable. Wow, your browser supports Ajax?! Here let me load in some teasers for related content you might find interesting.</p>
 
@@ -198,9 +194,7 @@
 
 <p>When I am trying to help folks understand and embrace diversity, I often reach for one of my favorite thought exercises from <a href="https://en.wikipedia.org/wiki/John_Rawls">John Rawls</a>.</p>
 
-<figure id="figure-2015-06-22-03">
-<img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
-</figure>
+<figure id="figure-2015-06-22-03"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""></figure>
 
 <p>Rawls was a philosopher who used to run a social experiment with students, church groups, and the like.</p>
 
@@ -212,9 +206,7 @@
 
 <p>The things we do to accommodate special needs now pay dividends in the future. Look at ramps.</p>
 
-<figure id="figure-2015-06-22-04">
-<img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
-</figure>
+<figure id="figure-2015-06-22-04"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""></figure>
 
 <p>They’re a classic example of an accessibility feature for people in wheelchairs that also benefit people who aren’t in them: People toting luggage, delivery services hauling heavy things on dollies, parents pushing children (or their dressed up dogs) in strollers, a commuter walking her bike, and that guy who just prefers walking up a gentle incline to expending the effort required to mount a step.</p>
 
@@ -244,31 +236,131 @@
 
 <p>In <a href="http://dev.w3.org/csswg/mediaqueries-4/">Media Queries Level 4</a>, we became able to apply style rules to particular interaction contexts. For instance, when we have very accurate control over our cursor (as in the case of a stylus or mouse) or less accurate control (as in the case of a touch screen or physical gesture):</p>
 
-<p><div><script src="https://gist.github.com/372271534c78cf11d4a6.js?file=mq4-pointer.css"></script>
-<noscript><pre><code>@media (pointer:fine) {
-  /* Smaller links and buttons are ok */
-}
-@media (pointer:coarse) {
-  /* Larger links and buttons are probably a good idea */
-}</code></pre></noscript></div>
-</p>
+<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
+<div id="gist23609938" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-mq4-pointer-css" class="file">
+    
+
+  <div class="blob-wrapper data type-css">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="file-mq4-pointer-css-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-mq4-pointer-css-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@media</span> (pointer:fine) {</td>
+      </tr>
+      <tr>
+        <td id="file-mq4-pointer-css-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-mq4-pointer-css-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-c">/* Smaller links and buttons are ok */</span></td>
+      </tr>
+      <tr>
+        <td id="file-mq4-pointer-css-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-mq4-pointer-css-LC3" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="file-mq4-pointer-css-L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="file-mq4-pointer-css-LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@media</span> (pointer:coarse) {</td>
+      </tr>
+      <tr>
+        <td id="file-mq4-pointer-css-L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="file-mq4-pointer-css-LC5" class="blob-code blob-code-inner js-file-line">  <span class="pl-c">/* Larger links and buttons are probably a good idea */</span></td>
+      </tr>
+      <tr>
+        <td id="file-mq4-pointer-css-L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="file-mq4-pointer-css-LC6" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+</table>
+
+  </div>
+
+  </div>
+  
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/aarongustafson/372271534c78cf11d4a6/raw/949f48a1550d502edeccf4e8e8392cb687fe1064/mq4-pointer.css" style="float:right">view raw</a>
+        <a href="https://gist.github.com/aarongustafson/372271534c78cf11d4a6#file-mq4-pointer-css">mq4-pointer.css</a>
+        hosted with &#10084; by <a href="https://github.com">GitHub</a>
+      </div>
+    </div>
+</div>
+
+</div></p>
 
 <p>Of course, we want to offer a sensible default in terms of size and spacing as a fallback for older browsers and devices.</p>
 
 <p>We also have the ability to determine whether the device is capable of hovering over an element and can adjust the interface accordingly.</p>
 
-<p><div><script src="https://gist.github.com/372271534c78cf11d4a6.js?file=mq4-hover.css"></script>
-<noscript><pre><code>@media (hover:hover) {
-  /* hover-related interactions are A-OK */
-}
-@media (hover:on-demand) {
-  /* hover-related interactions are potentially difficult,
-     maybe do something else instead */
-}
-@media (hover:none) {
-	/* No hover possible :-( */
-}</code></pre></noscript></div>
-</p>
+<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
+<div id="gist23609938" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-mq4-hover-css" class="file">
+    
+
+  <div class="blob-wrapper data type-css">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="file-mq4-hover-css-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-mq4-hover-css-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@media</span> (hover:hover) {</td>
+      </tr>
+      <tr>
+        <td id="file-mq4-hover-css-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-mq4-hover-css-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-c">/* hover-related interactions are A-OK */</span></td>
+      </tr>
+      <tr>
+        <td id="file-mq4-hover-css-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-mq4-hover-css-LC3" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="file-mq4-hover-css-L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="file-mq4-hover-css-LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@media</span> (hover:on-demand) {</td>
+      </tr>
+      <tr>
+        <td id="file-mq4-hover-css-L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="file-mq4-hover-css-LC5" class="blob-code blob-code-inner js-file-line">  <span class="pl-c">/* hover-related interactions are potentially difficult,</span></td>
+      </tr>
+      <tr>
+        <td id="file-mq4-hover-css-L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="file-mq4-hover-css-LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-c">     maybe do something else instead */</span></td>
+      </tr>
+      <tr>
+        <td id="file-mq4-hover-css-L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="file-mq4-hover-css-LC7" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="file-mq4-hover-css-L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="file-mq4-hover-css-LC8" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@media</span> (hover:none) {</td>
+      </tr>
+      <tr>
+        <td id="file-mq4-hover-css-L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="file-mq4-hover-css-LC9" class="blob-code blob-code-inner js-file-line">  <span class="pl-c">/* No hover possible :-( */</span></td>
+      </tr>
+      <tr>
+        <td id="file-mq4-hover-css-L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="file-mq4-hover-css-LC10" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+</table>
+
+  </div>
+
+  </div>
+  
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/aarongustafson/372271534c78cf11d4a6/raw/949f48a1550d502edeccf4e8e8392cb687fe1064/mq4-hover.css" style="float:right">view raw</a>
+        <a href="https://gist.github.com/aarongustafson/372271534c78cf11d4a6#file-mq4-hover-css">mq4-hover.css</a>
+        hosted with &#10084; by <a href="https://github.com">GitHub</a>
+      </div>
+    </div>
+</div>
+
+</div></p>
 
 <p>We still need to figure out how well all of this ends up working on multimodal devices like the Surface tablet, however. Will the design change as the user switches between input modes? Should it? To that end, the spec also provides <code>any-pointer</code> and <code>any-hover</code> to allow you to query for whether <em>any</em> supported interaction method meets your requirements, but here’s a word of warning from the spec:</p>
 
@@ -282,31 +374,137 @@
 
 <p>We can unobtrusively detect support for Pointer Events…</p>
 
-<p><div><script src="https://gist.github.com/372271534c78cf11d4a6.js?file=pointer-test.js"></script>
-<noscript><pre><code>if ( window.PointerEvent ) {
-  window.addEventListener( &quot;pointerdown&quot;, detectType, false );
-}</code></pre></noscript></div>
-</p>
+<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
+<div id="gist23609938" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-pointer-test-js" class="file">
+    
+
+  <div class="blob-wrapper data type-javascript">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="file-pointer-test-js-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-pointer-test-js-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span> ( <span class="pl-c1">window</span>.PointerEvent ) {</td>
+      </tr>
+      <tr>
+        <td id="file-pointer-test-js-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-pointer-test-js-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1">window</span>.addEventListener( <span class="pl-s"><span class="pl-pds">&quot;</span>pointerdown<span class="pl-pds">&quot;</span></span>, detectType, <span class="pl-c1">false</span> );</td>
+      </tr>
+      <tr>
+        <td id="file-pointer-test-js-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-pointer-test-js-LC3" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+</table>
+
+  </div>
+
+  </div>
+  
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/aarongustafson/372271534c78cf11d4a6/raw/949f48a1550d502edeccf4e8e8392cb687fe1064/pointer-test.js" style="float:right">view raw</a>
+        <a href="https://gist.github.com/aarongustafson/372271534c78cf11d4a6#file-pointer-test-js">pointer-test.js</a>
+        hosted with &#10084; by <a href="https://github.com">GitHub</a>
+      </div>
+    </div>
+</div>
+
+</div></p>
 
 <p>…and then handle them all in the same way or create branches based on the <code>pointerType</code>:</p>
 
-<p><div><script src="https://gist.github.com/372271534c78cf11d4a6.js?file=pointer-event.js"></script>
-<noscript><pre><code>function detectType( event ) {
-  switch( event.pointerType ) {
-    case &quot;mouse&quot;:
-      /* mouse input detected */
-      break;
-    case &quot;pen&quot;:
-      /* pen/stylus input detected */
-      break;
-    case &quot;touch&quot;:
-      /* touch input detected */
-      break;
-    default:
-      /* pointerType is empty (could not be detected) or UA-specific custom type */
-  }
-}</code></pre></noscript></div>
-</p>
+<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
+<div id="gist23609938" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-pointer-event-js" class="file">
+    
+
+  <div class="blob-wrapper data type-javascript">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="file-pointer-event-js-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-pointer-event-js-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">function</span> <span class="pl-en">detectType</span>( <span class="pl-smi">event</span> ) {</td>
+      </tr>
+      <tr>
+        <td id="file-pointer-event-js-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-pointer-event-js-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-k">switch</span>( <span class="pl-c1">event</span>.pointerType ) {</td>
+      </tr>
+      <tr>
+        <td id="file-pointer-event-js-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-pointer-event-js-LC3" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">case</span> <span class="pl-s"><span class="pl-pds">&quot;</span>mouse<span class="pl-pds">&quot;</span></span><span class="pl-k">:</span></td>
+      </tr>
+      <tr>
+        <td id="file-pointer-event-js-L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="file-pointer-event-js-LC4" class="blob-code blob-code-inner js-file-line">      <span class="pl-c">/* mouse input detected */</span></td>
+      </tr>
+      <tr>
+        <td id="file-pointer-event-js-L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="file-pointer-event-js-LC5" class="blob-code blob-code-inner js-file-line">      <span class="pl-k">break</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-pointer-event-js-L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="file-pointer-event-js-LC6" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">case</span> <span class="pl-s"><span class="pl-pds">&quot;</span>pen<span class="pl-pds">&quot;</span></span><span class="pl-k">:</span></td>
+      </tr>
+      <tr>
+        <td id="file-pointer-event-js-L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="file-pointer-event-js-LC7" class="blob-code blob-code-inner js-file-line">      <span class="pl-c">/* pen/stylus input detected */</span></td>
+      </tr>
+      <tr>
+        <td id="file-pointer-event-js-L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="file-pointer-event-js-LC8" class="blob-code blob-code-inner js-file-line">      <span class="pl-k">break</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-pointer-event-js-L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="file-pointer-event-js-LC9" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">case</span> <span class="pl-s"><span class="pl-pds">&quot;</span>touch<span class="pl-pds">&quot;</span></span><span class="pl-k">:</span></td>
+      </tr>
+      <tr>
+        <td id="file-pointer-event-js-L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="file-pointer-event-js-LC10" class="blob-code blob-code-inner js-file-line">      <span class="pl-c">/* touch input detected */</span></td>
+      </tr>
+      <tr>
+        <td id="file-pointer-event-js-L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="file-pointer-event-js-LC11" class="blob-code blob-code-inner js-file-line">      <span class="pl-k">break</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-pointer-event-js-L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="file-pointer-event-js-LC12" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">default</span><span class="pl-k">:</span></td>
+      </tr>
+      <tr>
+        <td id="file-pointer-event-js-L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="file-pointer-event-js-LC13" class="blob-code blob-code-inner js-file-line">      <span class="pl-c">/* pointerType is empty (could not be detected) or UA-specific custom type */</span></td>
+      </tr>
+      <tr>
+        <td id="file-pointer-event-js-L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="file-pointer-event-js-LC14" class="blob-code blob-code-inner js-file-line">  }</td>
+      </tr>
+      <tr>
+        <td id="file-pointer-event-js-L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="file-pointer-event-js-LC15" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+</table>
+
+  </div>
+
+  </div>
+  
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/aarongustafson/372271534c78cf11d4a6/raw/949f48a1550d502edeccf4e8e8392cb687fe1064/pointer-event.js" style="float:right">view raw</a>
+        <a href="https://gist.github.com/aarongustafson/372271534c78cf11d4a6#file-pointer-event-js">pointer-event.js</a>
+        hosted with &#10084; by <a href="https://github.com">GitHub</a>
+      </div>
+    </div>
+</div>
+
+</div></p>
 
 <p>Of course, in addition to considering the level of accuracy our users have while interacting with our screens, we also need to consider the potentially increased distance at which our users are reading our content.</p>
 
@@ -314,17 +512,71 @@
 
 <p>For a long time, I’ve used ems for the layout’s <code>max-width</code> (so the line length is proportional to the font size). I also use relative font sizes. With that as the foundation, I can use a media query that matches the maximum width and set the base font size at the vw equivalent at the max width.</p>
 
-<p><div><script src="https://gist.github.com/372271534c78cf11d4a6.js?file=vw-scaling.css"></script>
-<noscript><pre><code>body {
-  max-width: 64em;
-}
+<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
+<div id="gist23609938" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-vw-scaling-css" class="file">
+    
 
-@media screen and (min-width: 64em) {
-  body {
-    font-size: 1.5625vw; /* ( 1em / 64em ) * 100 */
-  }
-}</code></pre></noscript></div>
-</p>
+  <div class="blob-wrapper data type-css">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="file-vw-scaling-css-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-vw-scaling-css-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">body</span> {</td>
+      </tr>
+      <tr>
+        <td id="file-vw-scaling-css-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-vw-scaling-css-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">max-width</span></span>: <span class="pl-c1">64<span class="pl-k">em</span></span>;</td>
+      </tr>
+      <tr>
+        <td id="file-vw-scaling-css-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-vw-scaling-css-LC3" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="file-vw-scaling-css-L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="file-vw-scaling-css-LC4" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-vw-scaling-css-L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="file-vw-scaling-css-LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@media</span> <span class="pl-c1">screen</span> <span class="pl-k">and</span> (<span class="pl-c1">min-width</span>: <span class="pl-c1">64<span class="pl-k">em</span></span>) {</td>
+      </tr>
+      <tr>
+        <td id="file-vw-scaling-css-L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="file-vw-scaling-css-LC6" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">body</span> {</td>
+      </tr>
+      <tr>
+        <td id="file-vw-scaling-css-L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="file-vw-scaling-css-LC7" class="blob-code blob-code-inner js-file-line">    <span class="pl-c1"><span class="pl-c1">font-size</span></span>: <span class="pl-c1">1.5625</span>vw; <span class="pl-c">/* ( 1em / 64em ) * 100 */</span></td>
+      </tr>
+      <tr>
+        <td id="file-vw-scaling-css-L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="file-vw-scaling-css-LC8" class="blob-code blob-code-inner js-file-line">  }</td>
+      </tr>
+      <tr>
+        <td id="file-vw-scaling-css-L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="file-vw-scaling-css-LC9" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+</table>
+
+  </div>
+
+  </div>
+  
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/aarongustafson/372271534c78cf11d4a6/raw/949f48a1550d502edeccf4e8e8392cb687fe1064/vw-scaling.css" style="float:right">view raw</a>
+        <a href="https://gist.github.com/aarongustafson/372271534c78cf11d4a6#file-vw-scaling-css">vw-scaling.css</a>
+        hosted with &#10084; by <a href="https://github.com">GitHub</a>
+      </div>
+    </div>
+</div>
+
+</div></p>
 
 <p>Then the whole design will simply zoom the layout when viewed beyond that size.</p>
 
@@ -372,38 +624,133 @@
 
 <p>In Windows 10, installable web apps can include a <a href="https://msdn.microsoft.com/en-us/library/windows/apps/dn722331.aspx">Voice Command Definition (VCD) file</a> in the <code>head</code> of the page to enable custom commands:</p>
 
-<p><div><script src="https://gist.github.com/372271534c78cf11d4a6.js?file=vcd.html"></script>
-<noscript><pre><code>&lt;meta name=“msapplication-cortanavcd&quot; content=&quot;http://myapp.io/vcd.xml&quot;&gt;</code></pre></noscript></div>
-</p>
+<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
+<div id="gist23609938" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-vcd-html" class="file">
+    
+
+  <div class="blob-wrapper data type-html">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="file-vcd-html-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-vcd-html-LC1" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">meta</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>msapplication-cortanavcd<span class="pl-pds">&quot;</span></span> <span class="pl-e">content</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>http://myapp.io/vcd.xml<span class="pl-pds">&quot;</span></span>&gt;</td>
+      </tr>
+</table>
+
+  </div>
+
+  </div>
+  
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/aarongustafson/372271534c78cf11d4a6/raw/949f48a1550d502edeccf4e8e8392cb687fe1064/vcd.html" style="float:right">view raw</a>
+        <a href="https://gist.github.com/aarongustafson/372271534c78cf11d4a6#file-vcd-html">vcd.html</a>
+        hosted with &#10084; by <a href="https://github.com">GitHub</a>
+      </div>
+    </div>
+</div>
+
+</div></p>
 
 <p>The referenced VCD file is simply an XML file defining the keyword for the web app and commands that can be issued.</p>
 
 <p>Using very basic syntax, The VCD identifies optional pieces of a given phrase and variables Cortana should extract:</p>
 
-<p><div><script src="https://gist.github.com/372271534c78cf11d4a6.js?file=vcd.xml"></script>
-<noscript><pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
-&lt;VoiceCommands xmlns=&quot;http://schemas.microsoft.com/voicecommands/1.2&quot;&gt;
-  &lt;CommandSet xml:lang=&quot;en-us&quot; Name=&quot;groupPost&quot;&gt;
-    &lt;CommandPrefix&gt;Group Post&lt;/CommandPrefix&gt;
-    &lt;Example&gt;Group Post add note&lt;/Example&gt;
-    &lt;Command Name=&quot;addNote&quot;&gt;
-      &lt;Example&gt;add a note {message} using group post&lt;/Example&gt;
-      &lt;ListenFor RequireAppName=&quot;BeforeOrAfterPhrase&quot;&gt;[please] add a note [that] {noteSubject}&lt;/ListenFor&gt;
-      &lt;Feedback&gt;adding {noteSubject} to Group Post&lt;/Feedback&gt;
-      &lt;Navigate Target=&quot;/addNote.htm&quot;/&gt;
-    &lt;/Command&gt;
-    &lt;PhraseTopic Label=&quot;noteSubject&quot; Scenario=&quot;Dictation&quot;&gt;&lt;/PhraseTopic&gt;
-  &lt;/CommandSet&gt;
-&lt;/VoiceCommands&gt;</code></pre></noscript></div>
-</p>
+<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
+<div id="gist23609938" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-vcd-xml" class="file">
+    
+
+  <div class="blob-wrapper data type-xml">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="file-vcd-xml-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-vcd-xml-LC1" class="blob-code blob-code-inner js-file-line">&lt;?<span class="pl-ent">xml</span><span class="pl-e"> version</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>1.0<span class="pl-pds">&quot;</span></span><span class="pl-e"> encoding</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>utf-8<span class="pl-pds">&quot;</span></span>?&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-vcd-xml-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-vcd-xml-LC2" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">VoiceCommands</span> <span class="pl-e">xmlns</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>http://schemas.microsoft.com/voicecommands/1.2<span class="pl-pds">&quot;</span></span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-vcd-xml-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-vcd-xml-LC3" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">CommandSet</span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">lang</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>en-us<span class="pl-pds">&quot;</span></span> <span class="pl-e">Name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>groupPost<span class="pl-pds">&quot;</span></span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-vcd-xml-L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="file-vcd-xml-LC4" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">CommandPrefix</span>&gt;Group Post&lt;/<span class="pl-ent">CommandPrefix</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-vcd-xml-L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="file-vcd-xml-LC5" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">Example</span>&gt;Group Post add note&lt;/<span class="pl-ent">Example</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-vcd-xml-L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="file-vcd-xml-LC6" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">Command</span> <span class="pl-e">Name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>addNote<span class="pl-pds">&quot;</span></span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-vcd-xml-L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="file-vcd-xml-LC7" class="blob-code blob-code-inner js-file-line">      &lt;<span class="pl-ent">Example</span>&gt;add a note {message} using group post&lt;/<span class="pl-ent">Example</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-vcd-xml-L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="file-vcd-xml-LC8" class="blob-code blob-code-inner js-file-line">      &lt;<span class="pl-ent">ListenFor</span> <span class="pl-e">RequireAppName</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>BeforeOrAfterPhrase<span class="pl-pds">&quot;</span></span>&gt;[please] add a note [that] {noteSubject}&lt;/<span class="pl-ent">ListenFor</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-vcd-xml-L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="file-vcd-xml-LC9" class="blob-code blob-code-inner js-file-line">      &lt;<span class="pl-ent">Feedback</span>&gt;adding {noteSubject} to Group Post&lt;/<span class="pl-ent">Feedback</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-vcd-xml-L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="file-vcd-xml-LC10" class="blob-code blob-code-inner js-file-line">      &lt;<span class="pl-ent">Navigate</span> <span class="pl-e">Target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>/addNote.htm<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-vcd-xml-L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="file-vcd-xml-LC11" class="blob-code blob-code-inner js-file-line">    &lt;/<span class="pl-ent">Command</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-vcd-xml-L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="file-vcd-xml-LC12" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">PhraseTopic</span> <span class="pl-e">Label</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>noteSubject<span class="pl-pds">&quot;</span></span> <span class="pl-e">Scenario</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>Dictation<span class="pl-pds">&quot;</span></span>&gt;&lt;/<span class="pl-ent">PhraseTopic</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-vcd-xml-L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="file-vcd-xml-LC13" class="blob-code blob-code-inner js-file-line">  &lt;/<span class="pl-ent">CommandSet</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-vcd-xml-L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="file-vcd-xml-LC14" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">VoiceCommands</span>&gt;</td>
+      </tr>
+</table>
+
+  </div>
+
+  </div>
+  
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/aarongustafson/372271534c78cf11d4a6/raw/949f48a1550d502edeccf4e8e8392cb687fe1064/vcd.xml" style="float:right">view raw</a>
+        <a href="https://gist.github.com/aarongustafson/372271534c78cf11d4a6#file-vcd-xml">vcd.xml</a>
+        hosted with &#10084; by <a href="https://github.com">GitHub</a>
+      </div>
+    </div>
+</div>
+
+</div></p>
 
 <p>This particular app passes the captured information over to JavaScript for processing. That’s right, <a href="https://msdn.microsoft.com/en-us/library/dn722330.aspx#handle_activation_and_execute_voice_commands">Cortana has a JavaScript API too</a>. Pretty neat.</p>
 
 <p>But traditional computers and smart mobile devices aren’t the only place we’re starting to see voice based experiences. We also have disembodied voices like <a href="https://en.wikipedia.org/wiki/Amazon_Echo">Amazon’s Echo</a> and <a href="http://www.theubi.com/">the Ubi</a> which are completely headless.</p>
 
-<figure id="figure-2015-06-22-11">
-<img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
-</figure>
+<figure id="figure-2015-06-22-11"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""></figure>
 
 <p>Right now, they both seem squarely focused on helping your house become “smarter”—streaming music, adjusting the thermostat, etc.—but it isn’t hard to imagine these devices becoming coupled with the ability to browse and interact with the web.</p>
 
@@ -423,9 +770,7 @@
 
 <p>This is an incredibly exciting time, not just for the responsive design community, not just the web, but for the world! The future is coming and I can’t wait to see how awesome you make it!</p>
 
-<figure id="figure-2015-06-22-12">
-<img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
-</figure>
+<figure id="figure-2015-06-22-12"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""></figure>
 
 <hr />
 
@@ -497,10 +842,42 @@
 
 <p>Some basic CSS—think typography, color, etc.—will be usable by just about anyone, so we can put all that stuff in one CSS file (e.g., <code>basic.css</code>) and include it with a standard <code>link</code>. Then we can tuck all of our layout rules and other advanced CSS into a separate CSS file (e.g., <code>advanced.css</code>) that we link to with an associated media query.</p>
 
-<p><div><script src="https://gist.github.com/166b285a4fe3d854b97b.js?file=css-linking.html"></script>
-<noscript><pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;default.css&quot; media=&quot;all&quot;&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;advanced.css&quot; media=&quot;only screen&quot;&gt;</code></pre></noscript></div>
-</p>
+<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
+<div id="gist23102530" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-css-linking-html" class="file">
+    
+
+  <div class="blob-wrapper data type-html">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="file-css-linking-html-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-css-linking-html-LC1" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>stylesheet<span class="pl-pds">&quot;</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>default.css<span class="pl-pds">&quot;</span></span> <span class="pl-e">media</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>all<span class="pl-pds">&quot;</span></span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-css-linking-html-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-css-linking-html-LC2" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>stylesheet<span class="pl-pds">&quot;</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>advanced.css<span class="pl-pds">&quot;</span></span> <span class="pl-e">media</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>only screen<span class="pl-pds">&quot;</span></span>&gt;</td>
+      </tr>
+</table>
+
+  </div>
+
+  </div>
+  
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/aarongustafson/166b285a4fe3d854b97b/raw/21e0e8a5cffdfb04fb40d80c8a613aef7b1c9bee/css-linking.html" style="float:right">view raw</a>
+        <a href="https://gist.github.com/aarongustafson/166b285a4fe3d854b97b#file-css-linking-html">css-linking.html</a>
+        hosted with &#10084; by <a href="https://github.com">GitHub</a>
+      </div>
+    </div>
+</div>
+
+</div></p>
 
 <p>Any <a href="http://www.slideshare.net/bryanrieger/rethinking-the-mobile-web-by-yiibu/106">browsers that don’t understand media queries will ignore the second CSS file entirely</a> and receive only the linear, mobile view. Easy peasy, and IE8 gets the mobile layout (a baseline level of support that is not likely to cause you any testing headaches).</p>
 
@@ -508,19 +885,89 @@
 
 <p>Of course, CSS support issues are nothing compared to JavaScript, so sometimes it’s best not to deliver certain bits of JavaScript-based functionality to browsers that can’t handle it. This is where <a href="http://www.quirksmode.org/js/support.html">feature (and object) detection</a> becomes incredibly useful:</p>
 
-<p><div><script src="https://gist.github.com/166b285a4fe3d854b97b.js?file=feature-test.js"></script>
-<noscript><pre><code>if ( &#39;querySelector&#39; in document ) {
-  // We can use querySelector!
-}</code></pre></noscript></div>
-</p>
+<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
+<div id="gist23102530" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-feature-test-js" class="file">
+    
+
+  <div class="blob-wrapper data type-javascript">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="file-feature-test-js-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-feature-test-js-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span> ( <span class="pl-s"><span class="pl-pds">&#39;</span>querySelector<span class="pl-pds">&#39;</span></span> <span class="pl-k">in</span> <span class="pl-c1">document</span> ) {</td>
+      </tr>
+      <tr>
+        <td id="file-feature-test-js-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-feature-test-js-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-c">// We can use querySelector!</span></td>
+      </tr>
+      <tr>
+        <td id="file-feature-test-js-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-feature-test-js-LC3" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+</table>
+
+  </div>
+
+  </div>
+  
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/aarongustafson/166b285a4fe3d854b97b/raw/21e0e8a5cffdfb04fb40d80c8a613aef7b1c9bee/feature-test.js" style="float:right">view raw</a>
+        <a href="https://gist.github.com/aarongustafson/166b285a4fe3d854b97b#file-feature-test-js">feature-test.js</a>
+        hosted with &#10084; by <a href="https://github.com">GitHub</a>
+      </div>
+    </div>
+</div>
+
+</div></p>
 
 <p>You can also use <a href="http://en.wikipedia.org/wiki/Conditional_comment#Downlevel-revealed_conditional_comment">inverted conditional comments</a> to prohibit older versions of IE from getting JavaScript in the first place (which means you don’t even need to worry about debugging JavaScript there). Here’s an example that hides <code>main.js</code> from IE8 and below, but makes it available to IE9 on up and to every other non-IE browser.</p>
 
-<p><div><script src="https://gist.github.com/166b285a4fe3d854b97b.js?file=no-script-in-lte-ie8.html"></script>
-<noscript><pre><code>&lt;!--[if gt IE 8]&gt;&lt;!--&gt;
-  &lt;script src=&quot;main.js&quot;&gt;&lt;/script&gt;
-&lt;!--&lt;![endif]--&gt;</code></pre></noscript></div>
-</p>
+<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
+<div id="gist23102530" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-no-script-in-lte-ie8-html" class="file">
+    
+
+  <div class="blob-wrapper data type-html">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="file-no-script-in-lte-ie8-html-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-no-script-in-lte-ie8-html-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-c">&lt;!--[if gt IE 8]&gt;&lt;!--&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="file-no-script-in-lte-ie8-html-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-no-script-in-lte-ie8-html-LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>main.js<span class="pl-pds">&quot;</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="file-no-script-in-lte-ie8-html-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-no-script-in-lte-ie8-html-LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-c">&lt;!--&lt;![endif]--&gt;</span></td>
+      </tr>
+</table>
+
+  </div>
+
+  </div>
+  
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/aarongustafson/166b285a4fe3d854b97b/raw/21e0e8a5cffdfb04fb40d80c8a613aef7b1c9bee/no-script-in-lte-ie8.html" style="float:right">view raw</a>
+        <a href="https://gist.github.com/aarongustafson/166b285a4fe3d854b97b#file-no-script-in-lte-ie8-html">no-script-in-lte-ie8.html</a>
+        hosted with &#10084; by <a href="https://github.com">GitHub</a>
+      </div>
+    </div>
+</div>
+
+</div></p>
 
 <p>By being conservative in what we deliver to browsers we <a href="http://bradfrost.com/blog/mobile/support-vs-optimization/">ensure the greatest level of support, but can still optimize for more advanced ones</a>. This makes testing so much easier because we know older browsers will be okay with the basics and we aren’t trying to use JavaScript features unless we know they’re available.</p>
 
