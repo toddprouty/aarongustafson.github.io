@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Development | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/web-development/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2015-11-24T08:16:38-05:00</updated>
+  <updated>2015-11-24T12:11:52-05:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -49,15 +49,15 @@
       <table class="highlight tab-size js-file-line-container" data-tab-size="8">
       <tr>
         <td id="file-resource-hints-sample-js-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-resource-hints-sample-js-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span> ( <span class="pl-s"><span class="pl-pds">&#39;</span>AG<span class="pl-pds">&#39;</span></span> <span class="pl-k">in</span> <span class="pl-c1">window</span> <span class="pl-k">&amp;&amp;</span> <span class="pl-s"><span class="pl-pds">&#39;</span>preconnect<span class="pl-pds">&#39;</span></span> <span class="pl-k">in</span> <span class="pl-c1">window</span>.AG ) {</td>
+        <td id="file-resource-hints-sample-js-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span> ( <span class="pl-s"><span class="pl-pds">&#39;</span>AG<span class="pl-pds">&#39;</span></span> <span class="pl-k">in</span> <span class="pl-c1">window</span> <span class="pl-k">&amp;&amp;</span> <span class="pl-s"><span class="pl-pds">&#39;</span>preconnect<span class="pl-pds">&#39;</span></span> <span class="pl-k">in</span> <span class="pl-smi">window</span>.<span class="pl-c1">AG</span> ) {</td>
       </tr>
       <tr>
         <td id="file-resource-hints-sample-js-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-resource-hints-sample-js-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1">window</span>.AG.preconnect( <span class="pl-s"><span class="pl-pds">&#39;</span>//disqus.com/<span class="pl-pds">&#39;</span></span> );</td>
+        <td id="file-resource-hints-sample-js-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-smi">window</span>.<span class="pl-c1">AG</span>.<span class="pl-en">preconnect</span>( <span class="pl-s"><span class="pl-pds">&#39;</span>//disqus.com/<span class="pl-pds">&#39;</span></span> );</td>
       </tr>
       <tr>
         <td id="file-resource-hints-sample-js-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-resource-hints-sample-js-LC3" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1">window</span>.AG.prefetch( <span class="pl-s"><span class="pl-pds">&#39;</span>//<span class="pl-pds">&#39;</span></span> <span class="pl-k">+</span> disqus_shortname <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&#39;</span>.disqus.com/count.js<span class="pl-pds">&#39;</span></span> );</td>
+        <td id="file-resource-hints-sample-js-LC3" class="blob-code blob-code-inner js-file-line">  <span class="pl-smi">window</span>.<span class="pl-c1">AG</span>.<span class="pl-en">prefetch</span>( <span class="pl-s"><span class="pl-pds">&#39;</span>//<span class="pl-pds">&#39;</span></span> <span class="pl-k">+</span> disqus_shortname <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&#39;</span>.disqus.com/count.js<span class="pl-pds">&#39;</span></span> );</td>
       </tr>
       <tr>
         <td id="file-resource-hints-sample-js-L4" class="blob-num js-line-number" data-line-number="4"></td>
@@ -109,7 +109,7 @@
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-webp-service-worker-js-LC3" class="blob-code blob-code-inner js-file-line">self.addEventListener(<span class="pl-s"><span class="pl-pds">&#39;</span>fetch<span class="pl-pds">&#39;</span></span>, <span class="pl-k">function</span>(<span class="pl-smi">event</span>) {</td>
+        <td id="file-webp-service-worker-js-LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">self</span>.<span class="pl-en">addEventListener</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>fetch<span class="pl-pds">&#39;</span></span>, <span class="pl-k">function</span>(<span class="pl-smi">event</span>) {</td>
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L4" class="blob-num js-line-number" data-line-number="4"></td>
@@ -118,11 +118,11 @@
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="file-webp-service-worker-js-LC5" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">var</span> request <span class="pl-k">=</span> <span class="pl-c1">event</span>.request,</td>
+        <td id="file-webp-service-worker-js-LC5" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">var</span> request <span class="pl-k">=</span> <span class="pl-smi">event</span>.<span class="pl-smi">request</span>,</td>
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="file-webp-service-worker-js-LC6" class="blob-code blob-code-inner js-file-line">        url <span class="pl-k">=</span> request.url,</td>
+        <td id="file-webp-service-worker-js-LC6" class="blob-code blob-code-inner js-file-line">        url <span class="pl-k">=</span> <span class="pl-smi">request</span>.<span class="pl-smi">url</span>,</td>
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L7" class="blob-num js-line-number" data-line-number="7"></td>
@@ -151,11 +151,11 @@
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="file-webp-service-worker-js-LC13" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">if</span> ( re_jpg_or_png.<span class="pl-c1">test</span>( request.url ) <span class="pl-k">&amp;&amp;</span></td>
+        <td id="file-webp-service-worker-js-LC13" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">if</span> ( <span class="pl-smi">re_jpg_or_png</span>.<span class="pl-c1">test</span>( <span class="pl-smi">request</span>.<span class="pl-smi">url</span> ) <span class="pl-k">&amp;&amp;</span></td>
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="file-webp-service-worker-js-LC14" class="blob-code blob-code-inner js-file-line">         url_object.origin <span class="pl-k">==</span> location.origin ) {</td>
+        <td id="file-webp-service-worker-js-LC14" class="blob-code blob-code-inner js-file-line">         <span class="pl-smi">url_object</span>.<span class="pl-smi">origin</span> <span class="pl-k">==</span> <span class="pl-smi">location</span>.<span class="pl-smi">origin</span> ) {</td>
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L15" class="blob-num js-line-number" data-line-number="15"></td>
@@ -177,7 +177,7 @@
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="file-webp-service-worker-js-LC19" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">if</span> ( request.<span class="pl-c1">headers</span>.has(<span class="pl-s"><span class="pl-pds">&#39;</span>accept<span class="pl-pds">&#39;</span></span>) )</td>
+        <td id="file-webp-service-worker-js-LC19" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">if</span> ( <span class="pl-smi">request</span>.<span class="pl-c1">headers</span>.<span class="pl-en">has</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>accept<span class="pl-pds">&#39;</span></span>) )</td>
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L20" class="blob-num js-line-number" data-line-number="20"></td>
@@ -185,7 +185,7 @@
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="file-webp-service-worker-js-LC21" class="blob-code blob-code-inner js-file-line">            supports_webp <span class="pl-k">=</span> request.<span class="pl-c1">headers</span>.get(<span class="pl-s"><span class="pl-pds">&#39;</span>accept<span class="pl-pds">&#39;</span></span>).includes(<span class="pl-s"><span class="pl-pds">&#39;</span>webp<span class="pl-pds">&#39;</span></span>);</td>
+        <td id="file-webp-service-worker-js-LC21" class="blob-code blob-code-inner js-file-line">            supports_webp <span class="pl-k">=</span> <span class="pl-smi">request</span>.<span class="pl-c1">headers</span>.<span class="pl-en">get</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>accept<span class="pl-pds">&#39;</span></span>).<span class="pl-en">includes</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>webp<span class="pl-pds">&#39;</span></span>);</td>
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L22" class="blob-num js-line-number" data-line-number="22"></td>
@@ -214,7 +214,7 @@
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="file-webp-service-worker-js-LC28" class="blob-code blob-code-inner js-file-line">            webp_url <span class="pl-k">=</span> url.<span class="pl-c1">substr</span>(<span class="pl-c1">0</span>, url.<span class="pl-c1">lastIndexOf</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>.<span class="pl-pds">&#39;</span></span>)) <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&#39;</span>.webp<span class="pl-pds">&#39;</span></span>;</td>
+        <td id="file-webp-service-worker-js-LC28" class="blob-code blob-code-inner js-file-line">            webp_url <span class="pl-k">=</span> <span class="pl-smi">url</span>.<span class="pl-c1">substr</span>(<span class="pl-c1">0</span>, <span class="pl-smi">url</span>.<span class="pl-c1">lastIndexOf</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>.<span class="pl-pds">&#39;</span></span>)) <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&#39;</span>.webp<span class="pl-pds">&#39;</span></span>;</td>
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L29" class="blob-num js-line-number" data-line-number="29"></td>
@@ -223,11 +223,11 @@
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L30" class="blob-num js-line-number" data-line-number="30"></td>
-        <td id="file-webp-service-worker-js-LC30" class="blob-code blob-code-inner js-file-line">            <span class="pl-c1">event</span>.respondWith(</td>
+        <td id="file-webp-service-worker-js-LC30" class="blob-code blob-code-inner js-file-line">            <span class="pl-smi">event</span>.<span class="pl-en">respondWith</span>(</td>
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L31" class="blob-num js-line-number" data-line-number="31"></td>
-        <td id="file-webp-service-worker-js-LC31" class="blob-code blob-code-inner js-file-line">                fetch(</td>
+        <td id="file-webp-service-worker-js-LC31" class="blob-code blob-code-inner js-file-line">                <span class="pl-en">fetch</span>(</td>
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L32" class="blob-num js-line-number" data-line-number="32"></td>
@@ -352,7 +352,7 @@
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="file-gulp-scripts-js-LC16" class="blob-code blob-code-inner js-file-line">    rename_serviceworker <span class="pl-k">=</span> rename({</td>
+        <td id="file-gulp-scripts-js-LC16" class="blob-code blob-code-inner js-file-line">    rename_serviceworker <span class="pl-k">=</span> <span class="pl-en">rename</span>({</td>
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L17" class="blob-num js-line-number" data-line-number="17"></td>
@@ -369,19 +369,19 @@
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L20" class="blob-num js-line-number" data-line-number="20"></td>
-        <td id="file-gulp-scripts-js-LC20" class="blob-code blob-code-inner js-file-line">gulp.task(<span class="pl-s"><span class="pl-pds">&#39;</span>scripts<span class="pl-pds">&#39;</span></span>, folder(source_folder, <span class="pl-k">function</span>(<span class="pl-smi">folder</span>){</td>
+        <td id="file-gulp-scripts-js-LC20" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">gulp</span>.<span class="pl-en">task</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>scripts<span class="pl-pds">&#39;</span></span>, <span class="pl-en">folder</span>(source_folder, <span class="pl-k">function</span>(<span class="pl-smi">folder</span>){</td>
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="file-gulp-scripts-js-LC21" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">return</span> gulp.src(path.<span class="pl-c1">join</span>(source_folder, folder, <span class="pl-s"><span class="pl-pds">&#39;</span>*.js<span class="pl-pds">&#39;</span></span>))</td>
+        <td id="file-gulp-scripts-js-LC21" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">return</span> <span class="pl-smi">gulp</span>.<span class="pl-en">src</span>(<span class="pl-smi">path</span>.<span class="pl-c1">join</span>(source_folder, folder, <span class="pl-s"><span class="pl-pds">&#39;</span>*.js<span class="pl-pds">&#39;</span></span>))</td>
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L22" class="blob-num js-line-number" data-line-number="22"></td>
-        <td id="file-gulp-scripts-js-LC22" class="blob-code blob-code-inner js-file-line">        .pipe(<span class="pl-c1">concat</span>(folder <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&#39;</span>.js<span class="pl-pds">&#39;</span></span>))</td>
+        <td id="file-gulp-scripts-js-LC22" class="blob-code blob-code-inner js-file-line">        .<span class="pl-en">pipe</span>(<span class="pl-c1">concat</span>(folder <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&#39;</span>.js<span class="pl-pds">&#39;</span></span>))</td>
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L23" class="blob-num js-line-number" data-line-number="23"></td>
-        <td id="file-gulp-scripts-js-LC23" class="blob-code blob-code-inner js-file-line">        .pipe(insert.transform(<span class="pl-k">function</span>(<span class="pl-smi">contents</span>, <span class="pl-smi">file</span>){</td>
+        <td id="file-gulp-scripts-js-LC23" class="blob-code blob-code-inner js-file-line">        .<span class="pl-en">pipe</span>(<span class="pl-smi">insert</span>.<span class="pl-en">transform</span>(<span class="pl-k">function</span>(<span class="pl-smi">contents</span>, <span class="pl-smi">file</span>){</td>
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L24" class="blob-num js-line-number" data-line-number="24"></td>
@@ -393,7 +393,7 @@
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L26" class="blob-num js-line-number" data-line-number="26"></td>
-        <td id="file-gulp-scripts-js-LC26" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">return</span> contents.<span class="pl-c1">replace</span>( <span class="pl-s"><span class="pl-pds">&#39;</span>{{BUILD_TIME}}<span class="pl-pds">&#39;</span></span>, build_time );</td>
+        <td id="file-gulp-scripts-js-LC26" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">return</span> <span class="pl-smi">contents</span>.<span class="pl-c1">replace</span>( <span class="pl-s"><span class="pl-pds">&#39;</span>{{BUILD_TIME}}<span class="pl-pds">&#39;</span></span>, build_time );</td>
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L27" class="blob-num js-line-number" data-line-number="27"></td>
@@ -401,35 +401,35 @@
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="file-gulp-scripts-js-LC28" class="blob-code blob-code-inner js-file-line">        .pipe(gulp.dest(destination_folder))</td>
+        <td id="file-gulp-scripts-js-LC28" class="blob-code blob-code-inner js-file-line">        .<span class="pl-en">pipe</span>(<span class="pl-smi">gulp</span>.<span class="pl-en">dest</span>(destination_folder))</td>
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L29" class="blob-num js-line-number" data-line-number="29"></td>
-        <td id="file-gulp-scripts-js-LC29" class="blob-code blob-code-inner js-file-line">        .pipe(gulp.dest(public_folder))</td>
+        <td id="file-gulp-scripts-js-LC29" class="blob-code blob-code-inner js-file-line">        .<span class="pl-en">pipe</span>(<span class="pl-smi">gulp</span>.<span class="pl-en">dest</span>(public_folder))</td>
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L30" class="blob-num js-line-number" data-line-number="30"></td>
-        <td id="file-gulp-scripts-js-LC30" class="blob-code blob-code-inner js-file-line">        .pipe(rename({suffix<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>.min<span class="pl-pds">&#39;</span></span>}))</td>
+        <td id="file-gulp-scripts-js-LC30" class="blob-code blob-code-inner js-file-line">        .<span class="pl-en">pipe</span>(<span class="pl-en">rename</span>({suffix<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>.min<span class="pl-pds">&#39;</span></span>}))</td>
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L31" class="blob-num js-line-number" data-line-number="31"></td>
-        <td id="file-gulp-scripts-js-LC31" class="blob-code blob-code-inner js-file-line">        .pipe(uglify())</td>
+        <td id="file-gulp-scripts-js-LC31" class="blob-code blob-code-inner js-file-line">        .<span class="pl-en">pipe</span>(<span class="pl-en">uglify</span>())</td>
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L32" class="blob-num js-line-number" data-line-number="32"></td>
-        <td id="file-gulp-scripts-js-LC32" class="blob-code blob-code-inner js-file-line">        .pipe(gulpIf(folder<span class="pl-k">==</span><span class="pl-s"><span class="pl-pds">&#39;</span>serviceworker<span class="pl-pds">&#39;</span></span>,rename_serviceworker))</td>
+        <td id="file-gulp-scripts-js-LC32" class="blob-code blob-code-inner js-file-line">        .<span class="pl-en">pipe</span>(<span class="pl-en">gulpIf</span>(folder<span class="pl-k">==</span><span class="pl-s"><span class="pl-pds">&#39;</span>serviceworker<span class="pl-pds">&#39;</span></span>,rename_serviceworker))</td>
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L33" class="blob-num js-line-number" data-line-number="33"></td>
-        <td id="file-gulp-scripts-js-LC33" class="blob-code blob-code-inner js-file-line">        .pipe(gulp.dest(destination_folder))</td>
+        <td id="file-gulp-scripts-js-LC33" class="blob-code blob-code-inner js-file-line">        .<span class="pl-en">pipe</span>(<span class="pl-smi">gulp</span>.<span class="pl-en">dest</span>(destination_folder))</td>
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L34" class="blob-num js-line-number" data-line-number="34"></td>
-        <td id="file-gulp-scripts-js-LC34" class="blob-code blob-code-inner js-file-line">        .pipe(gulp.dest(public_folder))</td>
+        <td id="file-gulp-scripts-js-LC34" class="blob-code blob-code-inner js-file-line">        .<span class="pl-en">pipe</span>(<span class="pl-smi">gulp</span>.<span class="pl-en">dest</span>(public_folder))</td>
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L35" class="blob-num js-line-number" data-line-number="35"></td>
-        <td id="file-gulp-scripts-js-LC35" class="blob-code blob-code-inner js-file-line">        .pipe(notify({ message<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>Scripts task complete<span class="pl-pds">&#39;</span></span> }));</td>
+        <td id="file-gulp-scripts-js-LC35" class="blob-code blob-code-inner js-file-line">        .<span class="pl-en">pipe</span>(<span class="pl-en">notify</span>({ message<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>Scripts task complete<span class="pl-pds">&#39;</span></span> }));</td>
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L36" class="blob-num js-line-number" data-line-number="36"></td>
@@ -629,308 +629,58 @@
 
 <p>Before I made the leap to using a CSS preprocessor, I was convinced we needed CSS variables, but I always wondered how we might make it possible without breaking one of the fundamental <a href="http://www.w3.org/TR/CSS21/intro.html#design-principles">design principles of CSS</a>: Forward and backward compatibility. Take a look at this example (which is based on <a href="http://www.w3.org/TR/css-variables/">the working draft spec</a>) and I think you’ll spot the problem:</p>
 
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
-<div id="gist15673521" class="gist">
-    <div class="gist-file">
-      <div class="gist-data">
-        <div class="js-gist-file-update-container js-task-list-container file-box">
-  <div id="file-css-vairables-css" class="file">
-    
+<p><div>:root {
+  --foreground-color: #333;
+  --background-color: #fff;
+}
 
-  <div class="blob-wrapper data type-css">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="file-css-vairables-css-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-css-vairables-css-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-e">:root</span> {</td>
-      </tr>
-      <tr>
-        <td id="file-css-vairables-css-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-css-vairables-css-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1">--foreground-<span class="pl-c1">color</span></span>: <span class="pl-c1">#333</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-css-vairables-css-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-css-vairables-css-LC3" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1">--<span class="pl-c1">background-color</span></span>: <span class="pl-c1">#fff</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-css-vairables-css-L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="file-css-vairables-css-LC4" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-      <tr>
-        <td id="file-css-vairables-css-L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="file-css-vairables-css-LC5" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="file-css-vairables-css-L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="file-css-vairables-css-LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">body</span> {</td>
-      </tr>
-      <tr>
-        <td id="file-css-vairables-css-L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="file-css-vairables-css-LC7" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">background</span></span>: var(--background-color);</td>
-      </tr>
-      <tr>
-        <td id="file-css-vairables-css-L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="file-css-vairables-css-LC8" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">color</span></span>: var(--foreground-color);</td>
-      </tr>
-      <tr>
-        <td id="file-css-vairables-css-L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="file-css-vairables-css-LC9" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-</table>
-
-  </div>
-
-  </div>
-  
-</div>
-
-      </div>
-      <div class="gist-meta">
-        <a href="https://gist.github.com/aarongustafson/c3ddcb792eb69e0703e1/raw/743c886295c6dd38d87625b34f0a6308689c77cc/css-vairables.css" style="float:right">view raw</a>
-        <a href="https://gist.github.com/aarongustafson/c3ddcb792eb69e0703e1#file-css-vairables-css">css-vairables.css</a>
-        hosted with &#10084; by <a href="https://github.com">GitHub</a>
-      </div>
-    </div>
-</div>
-
-</div></p>
+body {
+  background: var(--background-color);
+  color: var(--foreground-color);
+}</div></p>
 
 <p>For a browser that understands CSS variables, the interpreted stylesheet would look like this:</p>
 
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
-<div id="gist15673521" class="gist">
-    <div class="gist-file">
-      <div class="gist-data">
-        <div class="js-gist-file-update-container js-task-list-container file-box">
-  <div id="file-desired-result-css" class="file">
-    
-
-  <div class="blob-wrapper data type-css">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="file-desired-result-css-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-desired-result-css-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">body</span> {</td>
-      </tr>
-      <tr>
-        <td id="file-desired-result-css-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-desired-result-css-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">background</span></span>: <span class="pl-c1">#fff</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-desired-result-css-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-desired-result-css-LC3" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">color</span></span>: <span class="pl-c1">#333</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-desired-result-css-L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="file-desired-result-css-LC4" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-</table>
-
-  </div>
-
-  </div>
-  
-</div>
-
-      </div>
-      <div class="gist-meta">
-        <a href="https://gist.github.com/aarongustafson/c3ddcb792eb69e0703e1/raw/743c886295c6dd38d87625b34f0a6308689c77cc/desired-result.css" style="float:right">view raw</a>
-        <a href="https://gist.github.com/aarongustafson/c3ddcb792eb69e0703e1#file-desired-result-css">desired-result.css</a>
-        hosted with &#10084; by <a href="https://github.com">GitHub</a>
-      </div>
-    </div>
-</div>
-
-</div></p>
+<p><div>body {
+  background: #fff;
+  color: #333;
+}</div></p>
 
 <p>But any browser that doesn’t understand the variables would never get the color values because browsers follow <a href="http://www.w3.org/TR/CSS21/syndata.html#parsing-errors">the rules of fault tolerance in CSS</a> and ignore anything they don’t understand. The introduction of variables to CSS would effectively build a wall between older browsers and new ones. (For the record, as of this writing, <a href="http://caniuse.com/#feat=css-variables">only Firefox has implemented CSS variables</a>).</p>
 
 <p>In order to serve the broadest spectrum of devices, we’d have to provide a fallback like this:</p>
 
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
-<div id="gist15673521" class="gist">
-    <div class="gist-file">
-      <div class="gist-data">
-        <div class="js-gist-file-update-container js-task-list-container file-box">
-  <div id="file-css-variables-fallback-css" class="file">
-    
+<p><div>:root {
+  --foreground-color: #333;
+  --background-color: #fff;
+}
 
-  <div class="blob-wrapper data type-css">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="file-css-variables-fallback-css-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-css-variables-fallback-css-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-e">:root</span> {</td>
-      </tr>
-      <tr>
-        <td id="file-css-variables-fallback-css-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-css-variables-fallback-css-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1">--foreground-<span class="pl-c1">color</span></span>: <span class="pl-c1">#333</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-css-variables-fallback-css-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-css-variables-fallback-css-LC3" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1">--<span class="pl-c1">background-color</span></span>: <span class="pl-c1">#fff</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-css-variables-fallback-css-L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="file-css-variables-fallback-css-LC4" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-      <tr>
-        <td id="file-css-variables-fallback-css-L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="file-css-variables-fallback-css-LC5" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="file-css-variables-fallback-css-L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="file-css-variables-fallback-css-LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">body</span> {</td>
-      </tr>
-      <tr>
-        <td id="file-css-variables-fallback-css-L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="file-css-variables-fallback-css-LC7" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">background</span></span>: <span class="pl-c1">#fff</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-css-variables-fallback-css-L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="file-css-variables-fallback-css-LC8" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">background</span></span>: var(--background-color);</td>
-      </tr>
-      <tr>
-        <td id="file-css-variables-fallback-css-L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="file-css-variables-fallback-css-LC9" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">color</span></span>: <span class="pl-c1">#333</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-css-variables-fallback-css-L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="file-css-variables-fallback-css-LC10" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">color</span></span>: var(--foreground-color);</td>
-      </tr>
-      <tr>
-        <td id="file-css-variables-fallback-css-L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="file-css-variables-fallback-css-LC11" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-</table>
-
-  </div>
-
-  </div>
-  
-</div>
-
-      </div>
-      <div class="gist-meta">
-        <a href="https://gist.github.com/aarongustafson/c3ddcb792eb69e0703e1/raw/743c886295c6dd38d87625b34f0a6308689c77cc/css-variables-fallback.css" style="float:right">view raw</a>
-        <a href="https://gist.github.com/aarongustafson/c3ddcb792eb69e0703e1#file-css-variables-fallback-css">css-variables-fallback.css</a>
-        hosted with &#10084; by <a href="https://github.com">GitHub</a>
-      </div>
-    </div>
-</div>
-
-</div></p>
+body {
+  background: #fff;
+  background: var(--background-color);
+  color: #333;
+  color: var(--foreground-color);
+}</div></p>
 
 <p>But that kinda defeats the whole purpose, right?</p>
 
 <p>Preprocessors already give us this access to variables today (along with nesting, mixins, and programmatic structures like conditionals, loops, etc.). Here’s a SASS example:</p>
 
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
-<div id="gist15673521" class="gist">
-    <div class="gist-file">
-      <div class="gist-data">
-        <div class="js-gist-file-update-container js-task-list-container file-box">
-  <div id="file-sass-variables-scss" class="file">
-    
-
-  <div class="blob-wrapper data type-scss">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="file-sass-variables-scss-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-sass-variables-scss-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">$foreground-color</span>: <span class="pl-c1">#333</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-sass-variables-scss-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-sass-variables-scss-LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">$background-color</span>: <span class="pl-c1">#fff</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-sass-variables-scss-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-sass-variables-scss-LC3" class="blob-code blob-code-inner js-file-line"> </td>
-      </tr>
-      <tr>
-        <td id="file-sass-variables-scss-L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="file-sass-variables-scss-LC4" class="blob-code blob-code-inner js-file-line"> </td>
-      </tr>
-      <tr>
-        <td id="file-sass-variables-scss-L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="file-sass-variables-scss-LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">body</span> {</td>
-      </tr>
-      <tr>
-        <td id="file-sass-variables-scss-L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="file-sass-variables-scss-LC6" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">background</span></span>: <span class="pl-smi">$background-color</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-sass-variables-scss-L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="file-sass-variables-scss-LC7" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">color</span></span>: <span class="pl-smi">$foreground-color</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-sass-variables-scss-L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="file-sass-variables-scss-LC8" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-</table>
-
-  </div>
-
-  </div>
-  
-</div>
-
-      </div>
-      <div class="gist-meta">
-        <a href="https://gist.github.com/aarongustafson/c3ddcb792eb69e0703e1/raw/743c886295c6dd38d87625b34f0a6308689c77cc/sass-variables.scss" style="float:right">view raw</a>
-        <a href="https://gist.github.com/aarongustafson/c3ddcb792eb69e0703e1#file-sass-variables-scss">sass-variables.scss</a>
-        hosted with &#10084; by <a href="https://github.com">GitHub</a>
-      </div>
-    </div>
-</div>
-
-</div></p>
+<p><div>$foreground-color: #333;
+$background-color: #fff;
+ 
+ 
+body {
+  background: $background-color;
+  color: $foreground-color;
+}</div></p>
 
 <p>The big difference here is that this document is a source file, it is not what is sent to the browser. This file is compiled by the preprocessor into actual CSS, which is what we send to the browser and is exactly what we wanted in the first place:</p>
 
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
-<div id="gist15673521" class="gist">
-    <div class="gist-file">
-      <div class="gist-data">
-        <div class="js-gist-file-update-container js-task-list-container file-box">
-  <div id="file-desired-result-css" class="file">
-    
-
-  <div class="blob-wrapper data type-css">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="file-desired-result-css-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-desired-result-css-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">body</span> {</td>
-      </tr>
-      <tr>
-        <td id="file-desired-result-css-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-desired-result-css-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">background</span></span>: <span class="pl-c1">#fff</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-desired-result-css-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-desired-result-css-LC3" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">color</span></span>: <span class="pl-c1">#333</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-desired-result-css-L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="file-desired-result-css-LC4" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-</table>
-
-  </div>
-
-  </div>
-  
-</div>
-
-      </div>
-      <div class="gist-meta">
-        <a href="https://gist.github.com/aarongustafson/c3ddcb792eb69e0703e1/raw/743c886295c6dd38d87625b34f0a6308689c77cc/desired-result.css" style="float:right">view raw</a>
-        <a href="https://gist.github.com/aarongustafson/c3ddcb792eb69e0703e1#file-desired-result-css">desired-result.css</a>
-        hosted with &#10084; by <a href="https://github.com">GitHub</a>
-      </div>
-    </div>
-</div>
-
-</div></p>
+<p><div>body {
+  background: #fff;
+  color: #333;
+}</div></p>
 
 <p>And it works on every browser that supports CSS, all the way back to <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#Difficulty_with_adoption">IE 3</a>.</p>
 

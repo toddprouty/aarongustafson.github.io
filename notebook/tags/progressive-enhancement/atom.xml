@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Progressive Enhancement | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/progressive-enhancement/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2015-11-24T08:16:38-05:00</updated>
+  <updated>2015-11-24T12:11:52-05:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -49,15 +49,15 @@
       <table class="highlight tab-size js-file-line-container" data-tab-size="8">
       <tr>
         <td id="file-resource-hints-sample-js-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-resource-hints-sample-js-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span> ( <span class="pl-s"><span class="pl-pds">&#39;</span>AG<span class="pl-pds">&#39;</span></span> <span class="pl-k">in</span> <span class="pl-c1">window</span> <span class="pl-k">&amp;&amp;</span> <span class="pl-s"><span class="pl-pds">&#39;</span>preconnect<span class="pl-pds">&#39;</span></span> <span class="pl-k">in</span> <span class="pl-c1">window</span>.AG ) {</td>
+        <td id="file-resource-hints-sample-js-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span> ( <span class="pl-s"><span class="pl-pds">&#39;</span>AG<span class="pl-pds">&#39;</span></span> <span class="pl-k">in</span> <span class="pl-c1">window</span> <span class="pl-k">&amp;&amp;</span> <span class="pl-s"><span class="pl-pds">&#39;</span>preconnect<span class="pl-pds">&#39;</span></span> <span class="pl-k">in</span> <span class="pl-smi">window</span>.<span class="pl-c1">AG</span> ) {</td>
       </tr>
       <tr>
         <td id="file-resource-hints-sample-js-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-resource-hints-sample-js-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1">window</span>.AG.preconnect( <span class="pl-s"><span class="pl-pds">&#39;</span>//disqus.com/<span class="pl-pds">&#39;</span></span> );</td>
+        <td id="file-resource-hints-sample-js-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-smi">window</span>.<span class="pl-c1">AG</span>.<span class="pl-en">preconnect</span>( <span class="pl-s"><span class="pl-pds">&#39;</span>//disqus.com/<span class="pl-pds">&#39;</span></span> );</td>
       </tr>
       <tr>
         <td id="file-resource-hints-sample-js-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-resource-hints-sample-js-LC3" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1">window</span>.AG.prefetch( <span class="pl-s"><span class="pl-pds">&#39;</span>//<span class="pl-pds">&#39;</span></span> <span class="pl-k">+</span> disqus_shortname <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&#39;</span>.disqus.com/count.js<span class="pl-pds">&#39;</span></span> );</td>
+        <td id="file-resource-hints-sample-js-LC3" class="blob-code blob-code-inner js-file-line">  <span class="pl-smi">window</span>.<span class="pl-c1">AG</span>.<span class="pl-en">prefetch</span>( <span class="pl-s"><span class="pl-pds">&#39;</span>//<span class="pl-pds">&#39;</span></span> <span class="pl-k">+</span> disqus_shortname <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&#39;</span>.disqus.com/count.js<span class="pl-pds">&#39;</span></span> );</td>
       </tr>
       <tr>
         <td id="file-resource-hints-sample-js-L4" class="blob-num js-line-number" data-line-number="4"></td>
@@ -109,7 +109,7 @@
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-webp-service-worker-js-LC3" class="blob-code blob-code-inner js-file-line">self.addEventListener(<span class="pl-s"><span class="pl-pds">&#39;</span>fetch<span class="pl-pds">&#39;</span></span>, <span class="pl-k">function</span>(<span class="pl-smi">event</span>) {</td>
+        <td id="file-webp-service-worker-js-LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">self</span>.<span class="pl-en">addEventListener</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>fetch<span class="pl-pds">&#39;</span></span>, <span class="pl-k">function</span>(<span class="pl-smi">event</span>) {</td>
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L4" class="blob-num js-line-number" data-line-number="4"></td>
@@ -118,11 +118,11 @@
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="file-webp-service-worker-js-LC5" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">var</span> request <span class="pl-k">=</span> <span class="pl-c1">event</span>.request,</td>
+        <td id="file-webp-service-worker-js-LC5" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">var</span> request <span class="pl-k">=</span> <span class="pl-smi">event</span>.<span class="pl-smi">request</span>,</td>
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="file-webp-service-worker-js-LC6" class="blob-code blob-code-inner js-file-line">        url <span class="pl-k">=</span> request.url,</td>
+        <td id="file-webp-service-worker-js-LC6" class="blob-code blob-code-inner js-file-line">        url <span class="pl-k">=</span> <span class="pl-smi">request</span>.<span class="pl-smi">url</span>,</td>
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L7" class="blob-num js-line-number" data-line-number="7"></td>
@@ -151,11 +151,11 @@
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="file-webp-service-worker-js-LC13" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">if</span> ( re_jpg_or_png.<span class="pl-c1">test</span>( request.url ) <span class="pl-k">&amp;&amp;</span></td>
+        <td id="file-webp-service-worker-js-LC13" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">if</span> ( <span class="pl-smi">re_jpg_or_png</span>.<span class="pl-c1">test</span>( <span class="pl-smi">request</span>.<span class="pl-smi">url</span> ) <span class="pl-k">&amp;&amp;</span></td>
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="file-webp-service-worker-js-LC14" class="blob-code blob-code-inner js-file-line">         url_object.origin <span class="pl-k">==</span> location.origin ) {</td>
+        <td id="file-webp-service-worker-js-LC14" class="blob-code blob-code-inner js-file-line">         <span class="pl-smi">url_object</span>.<span class="pl-smi">origin</span> <span class="pl-k">==</span> <span class="pl-smi">location</span>.<span class="pl-smi">origin</span> ) {</td>
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L15" class="blob-num js-line-number" data-line-number="15"></td>
@@ -177,7 +177,7 @@
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="file-webp-service-worker-js-LC19" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">if</span> ( request.<span class="pl-c1">headers</span>.has(<span class="pl-s"><span class="pl-pds">&#39;</span>accept<span class="pl-pds">&#39;</span></span>) )</td>
+        <td id="file-webp-service-worker-js-LC19" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">if</span> ( <span class="pl-smi">request</span>.<span class="pl-c1">headers</span>.<span class="pl-en">has</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>accept<span class="pl-pds">&#39;</span></span>) )</td>
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L20" class="blob-num js-line-number" data-line-number="20"></td>
@@ -185,7 +185,7 @@
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="file-webp-service-worker-js-LC21" class="blob-code blob-code-inner js-file-line">            supports_webp <span class="pl-k">=</span> request.<span class="pl-c1">headers</span>.get(<span class="pl-s"><span class="pl-pds">&#39;</span>accept<span class="pl-pds">&#39;</span></span>).includes(<span class="pl-s"><span class="pl-pds">&#39;</span>webp<span class="pl-pds">&#39;</span></span>);</td>
+        <td id="file-webp-service-worker-js-LC21" class="blob-code blob-code-inner js-file-line">            supports_webp <span class="pl-k">=</span> <span class="pl-smi">request</span>.<span class="pl-c1">headers</span>.<span class="pl-en">get</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>accept<span class="pl-pds">&#39;</span></span>).<span class="pl-en">includes</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>webp<span class="pl-pds">&#39;</span></span>);</td>
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L22" class="blob-num js-line-number" data-line-number="22"></td>
@@ -214,7 +214,7 @@
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="file-webp-service-worker-js-LC28" class="blob-code blob-code-inner js-file-line">            webp_url <span class="pl-k">=</span> url.<span class="pl-c1">substr</span>(<span class="pl-c1">0</span>, url.<span class="pl-c1">lastIndexOf</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>.<span class="pl-pds">&#39;</span></span>)) <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&#39;</span>.webp<span class="pl-pds">&#39;</span></span>;</td>
+        <td id="file-webp-service-worker-js-LC28" class="blob-code blob-code-inner js-file-line">            webp_url <span class="pl-k">=</span> <span class="pl-smi">url</span>.<span class="pl-c1">substr</span>(<span class="pl-c1">0</span>, <span class="pl-smi">url</span>.<span class="pl-c1">lastIndexOf</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>.<span class="pl-pds">&#39;</span></span>)) <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&#39;</span>.webp<span class="pl-pds">&#39;</span></span>;</td>
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L29" class="blob-num js-line-number" data-line-number="29"></td>
@@ -223,11 +223,11 @@
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L30" class="blob-num js-line-number" data-line-number="30"></td>
-        <td id="file-webp-service-worker-js-LC30" class="blob-code blob-code-inner js-file-line">            <span class="pl-c1">event</span>.respondWith(</td>
+        <td id="file-webp-service-worker-js-LC30" class="blob-code blob-code-inner js-file-line">            <span class="pl-smi">event</span>.<span class="pl-en">respondWith</span>(</td>
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L31" class="blob-num js-line-number" data-line-number="31"></td>
-        <td id="file-webp-service-worker-js-LC31" class="blob-code blob-code-inner js-file-line">                fetch(</td>
+        <td id="file-webp-service-worker-js-LC31" class="blob-code blob-code-inner js-file-line">                <span class="pl-en">fetch</span>(</td>
       </tr>
       <tr>
         <td id="file-webp-service-worker-js-L32" class="blob-num js-line-number" data-line-number="32"></td>
@@ -352,7 +352,7 @@
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="file-gulp-scripts-js-LC16" class="blob-code blob-code-inner js-file-line">    rename_serviceworker <span class="pl-k">=</span> rename({</td>
+        <td id="file-gulp-scripts-js-LC16" class="blob-code blob-code-inner js-file-line">    rename_serviceworker <span class="pl-k">=</span> <span class="pl-en">rename</span>({</td>
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L17" class="blob-num js-line-number" data-line-number="17"></td>
@@ -369,19 +369,19 @@
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L20" class="blob-num js-line-number" data-line-number="20"></td>
-        <td id="file-gulp-scripts-js-LC20" class="blob-code blob-code-inner js-file-line">gulp.task(<span class="pl-s"><span class="pl-pds">&#39;</span>scripts<span class="pl-pds">&#39;</span></span>, folder(source_folder, <span class="pl-k">function</span>(<span class="pl-smi">folder</span>){</td>
+        <td id="file-gulp-scripts-js-LC20" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">gulp</span>.<span class="pl-en">task</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>scripts<span class="pl-pds">&#39;</span></span>, <span class="pl-en">folder</span>(source_folder, <span class="pl-k">function</span>(<span class="pl-smi">folder</span>){</td>
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="file-gulp-scripts-js-LC21" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">return</span> gulp.src(path.<span class="pl-c1">join</span>(source_folder, folder, <span class="pl-s"><span class="pl-pds">&#39;</span>*.js<span class="pl-pds">&#39;</span></span>))</td>
+        <td id="file-gulp-scripts-js-LC21" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">return</span> <span class="pl-smi">gulp</span>.<span class="pl-en">src</span>(<span class="pl-smi">path</span>.<span class="pl-c1">join</span>(source_folder, folder, <span class="pl-s"><span class="pl-pds">&#39;</span>*.js<span class="pl-pds">&#39;</span></span>))</td>
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L22" class="blob-num js-line-number" data-line-number="22"></td>
-        <td id="file-gulp-scripts-js-LC22" class="blob-code blob-code-inner js-file-line">        .pipe(<span class="pl-c1">concat</span>(folder <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&#39;</span>.js<span class="pl-pds">&#39;</span></span>))</td>
+        <td id="file-gulp-scripts-js-LC22" class="blob-code blob-code-inner js-file-line">        .<span class="pl-en">pipe</span>(<span class="pl-c1">concat</span>(folder <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&#39;</span>.js<span class="pl-pds">&#39;</span></span>))</td>
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L23" class="blob-num js-line-number" data-line-number="23"></td>
-        <td id="file-gulp-scripts-js-LC23" class="blob-code blob-code-inner js-file-line">        .pipe(insert.transform(<span class="pl-k">function</span>(<span class="pl-smi">contents</span>, <span class="pl-smi">file</span>){</td>
+        <td id="file-gulp-scripts-js-LC23" class="blob-code blob-code-inner js-file-line">        .<span class="pl-en">pipe</span>(<span class="pl-smi">insert</span>.<span class="pl-en">transform</span>(<span class="pl-k">function</span>(<span class="pl-smi">contents</span>, <span class="pl-smi">file</span>){</td>
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L24" class="blob-num js-line-number" data-line-number="24"></td>
@@ -393,7 +393,7 @@
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L26" class="blob-num js-line-number" data-line-number="26"></td>
-        <td id="file-gulp-scripts-js-LC26" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">return</span> contents.<span class="pl-c1">replace</span>( <span class="pl-s"><span class="pl-pds">&#39;</span>{{BUILD_TIME}}<span class="pl-pds">&#39;</span></span>, build_time );</td>
+        <td id="file-gulp-scripts-js-LC26" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">return</span> <span class="pl-smi">contents</span>.<span class="pl-c1">replace</span>( <span class="pl-s"><span class="pl-pds">&#39;</span>{{BUILD_TIME}}<span class="pl-pds">&#39;</span></span>, build_time );</td>
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L27" class="blob-num js-line-number" data-line-number="27"></td>
@@ -401,35 +401,35 @@
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="file-gulp-scripts-js-LC28" class="blob-code blob-code-inner js-file-line">        .pipe(gulp.dest(destination_folder))</td>
+        <td id="file-gulp-scripts-js-LC28" class="blob-code blob-code-inner js-file-line">        .<span class="pl-en">pipe</span>(<span class="pl-smi">gulp</span>.<span class="pl-en">dest</span>(destination_folder))</td>
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L29" class="blob-num js-line-number" data-line-number="29"></td>
-        <td id="file-gulp-scripts-js-LC29" class="blob-code blob-code-inner js-file-line">        .pipe(gulp.dest(public_folder))</td>
+        <td id="file-gulp-scripts-js-LC29" class="blob-code blob-code-inner js-file-line">        .<span class="pl-en">pipe</span>(<span class="pl-smi">gulp</span>.<span class="pl-en">dest</span>(public_folder))</td>
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L30" class="blob-num js-line-number" data-line-number="30"></td>
-        <td id="file-gulp-scripts-js-LC30" class="blob-code blob-code-inner js-file-line">        .pipe(rename({suffix<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>.min<span class="pl-pds">&#39;</span></span>}))</td>
+        <td id="file-gulp-scripts-js-LC30" class="blob-code blob-code-inner js-file-line">        .<span class="pl-en">pipe</span>(<span class="pl-en">rename</span>({suffix<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>.min<span class="pl-pds">&#39;</span></span>}))</td>
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L31" class="blob-num js-line-number" data-line-number="31"></td>
-        <td id="file-gulp-scripts-js-LC31" class="blob-code blob-code-inner js-file-line">        .pipe(uglify())</td>
+        <td id="file-gulp-scripts-js-LC31" class="blob-code blob-code-inner js-file-line">        .<span class="pl-en">pipe</span>(<span class="pl-en">uglify</span>())</td>
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L32" class="blob-num js-line-number" data-line-number="32"></td>
-        <td id="file-gulp-scripts-js-LC32" class="blob-code blob-code-inner js-file-line">        .pipe(gulpIf(folder<span class="pl-k">==</span><span class="pl-s"><span class="pl-pds">&#39;</span>serviceworker<span class="pl-pds">&#39;</span></span>,rename_serviceworker))</td>
+        <td id="file-gulp-scripts-js-LC32" class="blob-code blob-code-inner js-file-line">        .<span class="pl-en">pipe</span>(<span class="pl-en">gulpIf</span>(folder<span class="pl-k">==</span><span class="pl-s"><span class="pl-pds">&#39;</span>serviceworker<span class="pl-pds">&#39;</span></span>,rename_serviceworker))</td>
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L33" class="blob-num js-line-number" data-line-number="33"></td>
-        <td id="file-gulp-scripts-js-LC33" class="blob-code blob-code-inner js-file-line">        .pipe(gulp.dest(destination_folder))</td>
+        <td id="file-gulp-scripts-js-LC33" class="blob-code blob-code-inner js-file-line">        .<span class="pl-en">pipe</span>(<span class="pl-smi">gulp</span>.<span class="pl-en">dest</span>(destination_folder))</td>
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L34" class="blob-num js-line-number" data-line-number="34"></td>
-        <td id="file-gulp-scripts-js-LC34" class="blob-code blob-code-inner js-file-line">        .pipe(gulp.dest(public_folder))</td>
+        <td id="file-gulp-scripts-js-LC34" class="blob-code blob-code-inner js-file-line">        .<span class="pl-en">pipe</span>(<span class="pl-smi">gulp</span>.<span class="pl-en">dest</span>(public_folder))</td>
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L35" class="blob-num js-line-number" data-line-number="35"></td>
-        <td id="file-gulp-scripts-js-LC35" class="blob-code blob-code-inner js-file-line">        .pipe(notify({ message<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>Scripts task complete<span class="pl-pds">&#39;</span></span> }));</td>
+        <td id="file-gulp-scripts-js-LC35" class="blob-code blob-code-inner js-file-line">        .<span class="pl-en">pipe</span>(<span class="pl-en">notify</span>({ message<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>Scripts task complete<span class="pl-pds">&#39;</span></span> }));</td>
       </tr>
       <tr>
         <td id="file-gulp-scripts-js-L36" class="blob-num js-line-number" data-line-number="36"></td>
@@ -762,131 +762,27 @@
 
 <p>In <a href="http://dev.w3.org/csswg/mediaqueries-4/">Media Queries Level 4</a>, we became able to apply style rules to particular interaction contexts. For instance, when we have very accurate control over our cursor (as in the case of a stylus or mouse) or less accurate control (as in the case of a touch screen or physical gesture):</p>
 
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
-<div id="gist23609938" class="gist">
-    <div class="gist-file">
-      <div class="gist-data">
-        <div class="js-gist-file-update-container js-task-list-container file-box">
-  <div id="file-mq4-pointer-css" class="file">
-    
-
-  <div class="blob-wrapper data type-css">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="file-mq4-pointer-css-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-mq4-pointer-css-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@media</span> (pointer:fine) {</td>
-      </tr>
-      <tr>
-        <td id="file-mq4-pointer-css-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-mq4-pointer-css-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-c">/* Smaller links and buttons are ok */</span></td>
-      </tr>
-      <tr>
-        <td id="file-mq4-pointer-css-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-mq4-pointer-css-LC3" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-      <tr>
-        <td id="file-mq4-pointer-css-L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="file-mq4-pointer-css-LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@media</span> (pointer:coarse) {</td>
-      </tr>
-      <tr>
-        <td id="file-mq4-pointer-css-L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="file-mq4-pointer-css-LC5" class="blob-code blob-code-inner js-file-line">  <span class="pl-c">/* Larger links and buttons are probably a good idea */</span></td>
-      </tr>
-      <tr>
-        <td id="file-mq4-pointer-css-L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="file-mq4-pointer-css-LC6" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-</table>
-
-  </div>
-
-  </div>
-  
-</div>
-
-      </div>
-      <div class="gist-meta">
-        <a href="https://gist.github.com/aarongustafson/372271534c78cf11d4a6/raw/949f48a1550d502edeccf4e8e8392cb687fe1064/mq4-pointer.css" style="float:right">view raw</a>
-        <a href="https://gist.github.com/aarongustafson/372271534c78cf11d4a6#file-mq4-pointer-css">mq4-pointer.css</a>
-        hosted with &#10084; by <a href="https://github.com">GitHub</a>
-      </div>
-    </div>
-</div>
-
-</div></p>
+<p><div>@media (pointer:fine) {
+  /* Smaller links and buttons are ok */
+}
+@media (pointer:coarse) {
+  /* Larger links and buttons are probably a good idea */
+}</div></p>
 
 <p>Of course, we want to offer a sensible default in terms of size and spacing as a fallback for older browsers and devices.</p>
 
 <p>We also have the ability to determine whether the device is capable of hovering over an element and can adjust the interface accordingly.</p>
 
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
-<div id="gist23609938" class="gist">
-    <div class="gist-file">
-      <div class="gist-data">
-        <div class="js-gist-file-update-container js-task-list-container file-box">
-  <div id="file-mq4-hover-css" class="file">
-    
-
-  <div class="blob-wrapper data type-css">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="file-mq4-hover-css-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-mq4-hover-css-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@media</span> (hover:hover) {</td>
-      </tr>
-      <tr>
-        <td id="file-mq4-hover-css-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-mq4-hover-css-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-c">/* hover-related interactions are A-OK */</span></td>
-      </tr>
-      <tr>
-        <td id="file-mq4-hover-css-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-mq4-hover-css-LC3" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-      <tr>
-        <td id="file-mq4-hover-css-L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="file-mq4-hover-css-LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@media</span> (hover:on-demand) {</td>
-      </tr>
-      <tr>
-        <td id="file-mq4-hover-css-L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="file-mq4-hover-css-LC5" class="blob-code blob-code-inner js-file-line">  <span class="pl-c">/* hover-related interactions are potentially difficult,</span></td>
-      </tr>
-      <tr>
-        <td id="file-mq4-hover-css-L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="file-mq4-hover-css-LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-c">     maybe do something else instead */</span></td>
-      </tr>
-      <tr>
-        <td id="file-mq4-hover-css-L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="file-mq4-hover-css-LC7" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-      <tr>
-        <td id="file-mq4-hover-css-L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="file-mq4-hover-css-LC8" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@media</span> (hover:none) {</td>
-      </tr>
-      <tr>
-        <td id="file-mq4-hover-css-L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="file-mq4-hover-css-LC9" class="blob-code blob-code-inner js-file-line">  <span class="pl-c">/* No hover possible :-( */</span></td>
-      </tr>
-      <tr>
-        <td id="file-mq4-hover-css-L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="file-mq4-hover-css-LC10" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-</table>
-
-  </div>
-
-  </div>
-  
-</div>
-
-      </div>
-      <div class="gist-meta">
-        <a href="https://gist.github.com/aarongustafson/372271534c78cf11d4a6/raw/949f48a1550d502edeccf4e8e8392cb687fe1064/mq4-hover.css" style="float:right">view raw</a>
-        <a href="https://gist.github.com/aarongustafson/372271534c78cf11d4a6#file-mq4-hover-css">mq4-hover.css</a>
-        hosted with &#10084; by <a href="https://github.com">GitHub</a>
-      </div>
-    </div>
-</div>
-
-</div></p>
+<p><div>@media (hover:hover) {
+  /* hover-related interactions are A-OK */
+}
+@media (hover:on-demand) {
+  /* hover-related interactions are potentially difficult,
+     maybe do something else instead */
+}
+@media (hover:none) {
+	/* No hover possible :-( */
+}</div></p>
 
 <p>We still need to figure out how well all of this ends up working on multimodal devices like the Surface tablet, however. Will the design change as the user switches between input modes? Should it? To that end, the spec also provides <code>any-pointer</code> and <code>any-hover</code> to allow you to query for whether <em>any</em> supported interaction method meets your requirements, but here’s a word of warning from the spec:</p>
 
@@ -900,137 +796,27 @@
 
 <p>We can unobtrusively detect support for Pointer Events…</p>
 
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
-<div id="gist23609938" class="gist">
-    <div class="gist-file">
-      <div class="gist-data">
-        <div class="js-gist-file-update-container js-task-list-container file-box">
-  <div id="file-pointer-test-js" class="file">
-    
-
-  <div class="blob-wrapper data type-javascript">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="file-pointer-test-js-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-pointer-test-js-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span> ( <span class="pl-c1">window</span>.PointerEvent ) {</td>
-      </tr>
-      <tr>
-        <td id="file-pointer-test-js-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-pointer-test-js-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1">window</span>.addEventListener( <span class="pl-s"><span class="pl-pds">&quot;</span>pointerdown<span class="pl-pds">&quot;</span></span>, detectType, <span class="pl-c1">false</span> );</td>
-      </tr>
-      <tr>
-        <td id="file-pointer-test-js-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-pointer-test-js-LC3" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-</table>
-
-  </div>
-
-  </div>
-  
-</div>
-
-      </div>
-      <div class="gist-meta">
-        <a href="https://gist.github.com/aarongustafson/372271534c78cf11d4a6/raw/949f48a1550d502edeccf4e8e8392cb687fe1064/pointer-test.js" style="float:right">view raw</a>
-        <a href="https://gist.github.com/aarongustafson/372271534c78cf11d4a6#file-pointer-test-js">pointer-test.js</a>
-        hosted with &#10084; by <a href="https://github.com">GitHub</a>
-      </div>
-    </div>
-</div>
-
-</div></p>
+<p><div>if ( window.PointerEvent ) {
+  window.addEventListener( "pointerdown", detectType, false );
+}</div></p>
 
 <p>…and then handle them all in the same way or create branches based on the <code>pointerType</code>:</p>
 
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
-<div id="gist23609938" class="gist">
-    <div class="gist-file">
-      <div class="gist-data">
-        <div class="js-gist-file-update-container js-task-list-container file-box">
-  <div id="file-pointer-event-js" class="file">
-    
-
-  <div class="blob-wrapper data type-javascript">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="file-pointer-event-js-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-pointer-event-js-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">function</span> <span class="pl-en">detectType</span>( <span class="pl-smi">event</span> ) {</td>
-      </tr>
-      <tr>
-        <td id="file-pointer-event-js-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-pointer-event-js-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-k">switch</span>( <span class="pl-c1">event</span>.pointerType ) {</td>
-      </tr>
-      <tr>
-        <td id="file-pointer-event-js-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-pointer-event-js-LC3" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">case</span> <span class="pl-s"><span class="pl-pds">&quot;</span>mouse<span class="pl-pds">&quot;</span></span><span class="pl-k">:</span></td>
-      </tr>
-      <tr>
-        <td id="file-pointer-event-js-L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="file-pointer-event-js-LC4" class="blob-code blob-code-inner js-file-line">      <span class="pl-c">/* mouse input detected */</span></td>
-      </tr>
-      <tr>
-        <td id="file-pointer-event-js-L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="file-pointer-event-js-LC5" class="blob-code blob-code-inner js-file-line">      <span class="pl-k">break</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-pointer-event-js-L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="file-pointer-event-js-LC6" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">case</span> <span class="pl-s"><span class="pl-pds">&quot;</span>pen<span class="pl-pds">&quot;</span></span><span class="pl-k">:</span></td>
-      </tr>
-      <tr>
-        <td id="file-pointer-event-js-L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="file-pointer-event-js-LC7" class="blob-code blob-code-inner js-file-line">      <span class="pl-c">/* pen/stylus input detected */</span></td>
-      </tr>
-      <tr>
-        <td id="file-pointer-event-js-L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="file-pointer-event-js-LC8" class="blob-code blob-code-inner js-file-line">      <span class="pl-k">break</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-pointer-event-js-L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="file-pointer-event-js-LC9" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">case</span> <span class="pl-s"><span class="pl-pds">&quot;</span>touch<span class="pl-pds">&quot;</span></span><span class="pl-k">:</span></td>
-      </tr>
-      <tr>
-        <td id="file-pointer-event-js-L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="file-pointer-event-js-LC10" class="blob-code blob-code-inner js-file-line">      <span class="pl-c">/* touch input detected */</span></td>
-      </tr>
-      <tr>
-        <td id="file-pointer-event-js-L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="file-pointer-event-js-LC11" class="blob-code blob-code-inner js-file-line">      <span class="pl-k">break</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-pointer-event-js-L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="file-pointer-event-js-LC12" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">default</span><span class="pl-k">:</span></td>
-      </tr>
-      <tr>
-        <td id="file-pointer-event-js-L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="file-pointer-event-js-LC13" class="blob-code blob-code-inner js-file-line">      <span class="pl-c">/* pointerType is empty (could not be detected) or UA-specific custom type */</span></td>
-      </tr>
-      <tr>
-        <td id="file-pointer-event-js-L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="file-pointer-event-js-LC14" class="blob-code blob-code-inner js-file-line">  }</td>
-      </tr>
-      <tr>
-        <td id="file-pointer-event-js-L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="file-pointer-event-js-LC15" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-</table>
-
-  </div>
-
-  </div>
-  
-</div>
-
-      </div>
-      <div class="gist-meta">
-        <a href="https://gist.github.com/aarongustafson/372271534c78cf11d4a6/raw/949f48a1550d502edeccf4e8e8392cb687fe1064/pointer-event.js" style="float:right">view raw</a>
-        <a href="https://gist.github.com/aarongustafson/372271534c78cf11d4a6#file-pointer-event-js">pointer-event.js</a>
-        hosted with &#10084; by <a href="https://github.com">GitHub</a>
-      </div>
-    </div>
-</div>
-
-</div></p>
+<p><div>function detectType( event ) {
+  switch( event.pointerType ) {
+    case "mouse:
+      /* mouse input detected */
+      break;
+    case "pen":
+      /* pen/stylus input detected */
+      break;
+    case "touch:
+      /* touch input detected */
+      break;
+    default:
+      /* pointerType is empty (could not be detected) or UA-specific custom type */
+  }
+}</div></p>
 
 <p>Of course, in addition to considering the level of accuracy our users have while interacting with our screens, we also need to consider the potentially increased distance at which our users are reading our content.</p>
 
@@ -1038,71 +824,15 @@
 
 <p>For a long time, I’ve used ems for the layout’s <code>max-width</code> (so the line length is proportional to the font size). I also use relative font sizes. With that as the foundation, I can use a media query that matches the maximum width and set the base font size at the vw equivalent at the max width.</p>
 
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
-<div id="gist23609938" class="gist">
-    <div class="gist-file">
-      <div class="gist-data">
-        <div class="js-gist-file-update-container js-task-list-container file-box">
-  <div id="file-vw-scaling-css" class="file">
-    
+<p><div>body {
+  max-width: 64em;
+}
 
-  <div class="blob-wrapper data type-css">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="file-vw-scaling-css-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-vw-scaling-css-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">body</span> {</td>
-      </tr>
-      <tr>
-        <td id="file-vw-scaling-css-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-vw-scaling-css-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">max-width</span></span>: <span class="pl-c1">64<span class="pl-k">em</span></span>;</td>
-      </tr>
-      <tr>
-        <td id="file-vw-scaling-css-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-vw-scaling-css-LC3" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-      <tr>
-        <td id="file-vw-scaling-css-L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="file-vw-scaling-css-LC4" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="file-vw-scaling-css-L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="file-vw-scaling-css-LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@media</span> <span class="pl-c1">screen</span> <span class="pl-k">and</span> (<span class="pl-c1">min-width</span>: <span class="pl-c1">64<span class="pl-k">em</span></span>) {</td>
-      </tr>
-      <tr>
-        <td id="file-vw-scaling-css-L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="file-vw-scaling-css-LC6" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">body</span> {</td>
-      </tr>
-      <tr>
-        <td id="file-vw-scaling-css-L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="file-vw-scaling-css-LC7" class="blob-code blob-code-inner js-file-line">    <span class="pl-c1"><span class="pl-c1">font-size</span></span>: <span class="pl-c1">1.5625</span>vw; <span class="pl-c">/* ( 1em / 64em ) * 100 */</span></td>
-      </tr>
-      <tr>
-        <td id="file-vw-scaling-css-L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="file-vw-scaling-css-LC8" class="blob-code blob-code-inner js-file-line">  }</td>
-      </tr>
-      <tr>
-        <td id="file-vw-scaling-css-L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="file-vw-scaling-css-LC9" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-</table>
-
-  </div>
-
-  </div>
-  
-</div>
-
-      </div>
-      <div class="gist-meta">
-        <a href="https://gist.github.com/aarongustafson/372271534c78cf11d4a6/raw/949f48a1550d502edeccf4e8e8392cb687fe1064/vw-scaling.css" style="float:right">view raw</a>
-        <a href="https://gist.github.com/aarongustafson/372271534c78cf11d4a6#file-vw-scaling-css">vw-scaling.css</a>
-        hosted with &#10084; by <a href="https://github.com">GitHub</a>
-      </div>
-    </div>
-</div>
-
-</div></p>
+@media screen and (min-width: 64em) {
+  body {
+    font-size: 1.5625vw; /* ( 1em / 64em ) * 100 */
+  }
+}</div></p>
 
 <p>Then the whole design will simply zoom the layout when viewed beyond that size.</p>
 
@@ -1150,127 +880,26 @@
 
 <p>In Windows 10, installable web apps can include a <a href="https://msdn.microsoft.com/en-us/library/windows/apps/dn722331.aspx">Voice Command Definition (VCD) file</a> in the <code>head</code> of the page to enable custom commands:</p>
 
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
-<div id="gist23609938" class="gist">
-    <div class="gist-file">
-      <div class="gist-data">
-        <div class="js-gist-file-update-container js-task-list-container file-box">
-  <div id="file-vcd-html" class="file">
-    
-
-  <div class="blob-wrapper data type-html">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="file-vcd-html-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-vcd-html-LC1" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">meta</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>msapplication-cortanavcd<span class="pl-pds">&quot;</span></span> <span class="pl-e">content</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>http://myapp.io/vcd.xml<span class="pl-pds">&quot;</span></span>&gt;</td>
-      </tr>
-</table>
-
-  </div>
-
-  </div>
-  
-</div>
-
-      </div>
-      <div class="gist-meta">
-        <a href="https://gist.github.com/aarongustafson/372271534c78cf11d4a6/raw/949f48a1550d502edeccf4e8e8392cb687fe1064/vcd.html" style="float:right">view raw</a>
-        <a href="https://gist.github.com/aarongustafson/372271534c78cf11d4a6#file-vcd-html">vcd.html</a>
-        hosted with &#10084; by <a href="https://github.com">GitHub</a>
-      </div>
-    </div>
-</div>
-
-</div></p>
+<p><div><meta name=“msapplication-cortanavcd" content="http://myapp.io/vcd.xml"></div></p>
 
 <p>The referenced VCD file is simply an XML file defining the keyword for the web app and commands that can be issued.</p>
 
 <p>Using very basic syntax, The VCD identifies optional pieces of a given phrase and variables Cortana should extract:</p>
 
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
-<div id="gist23609938" class="gist">
-    <div class="gist-file">
-      <div class="gist-data">
-        <div class="js-gist-file-update-container js-task-list-container file-box">
-  <div id="file-vcd-xml" class="file">
-    
-
-  <div class="blob-wrapper data type-xml">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="file-vcd-xml-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-vcd-xml-LC1" class="blob-code blob-code-inner js-file-line">&lt;?<span class="pl-ent">xml</span><span class="pl-e"> version</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>1.0<span class="pl-pds">&quot;</span></span><span class="pl-e"> encoding</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>utf-8<span class="pl-pds">&quot;</span></span>?&gt;</td>
-      </tr>
-      <tr>
-        <td id="file-vcd-xml-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-vcd-xml-LC2" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">VoiceCommands</span> <span class="pl-e">xmlns</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>http://schemas.microsoft.com/voicecommands/1.2<span class="pl-pds">&quot;</span></span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="file-vcd-xml-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-vcd-xml-LC3" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">CommandSet</span> <span class="pl-e">xml</span><span class="pl-e">:</span><span class="pl-e">lang</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>en-us<span class="pl-pds">&quot;</span></span> <span class="pl-e">Name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>groupPost<span class="pl-pds">&quot;</span></span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="file-vcd-xml-L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="file-vcd-xml-LC4" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">CommandPrefix</span>&gt;Group Post&lt;/<span class="pl-ent">CommandPrefix</span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="file-vcd-xml-L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="file-vcd-xml-LC5" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">Example</span>&gt;Group Post add note&lt;/<span class="pl-ent">Example</span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="file-vcd-xml-L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="file-vcd-xml-LC6" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">Command</span> <span class="pl-e">Name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>addNote<span class="pl-pds">&quot;</span></span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="file-vcd-xml-L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="file-vcd-xml-LC7" class="blob-code blob-code-inner js-file-line">      &lt;<span class="pl-ent">Example</span>&gt;add a note {message} using group post&lt;/<span class="pl-ent">Example</span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="file-vcd-xml-L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="file-vcd-xml-LC8" class="blob-code blob-code-inner js-file-line">      &lt;<span class="pl-ent">ListenFor</span> <span class="pl-e">RequireAppName</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>BeforeOrAfterPhrase<span class="pl-pds">&quot;</span></span>&gt;[please] add a note [that] {noteSubject}&lt;/<span class="pl-ent">ListenFor</span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="file-vcd-xml-L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="file-vcd-xml-LC9" class="blob-code blob-code-inner js-file-line">      &lt;<span class="pl-ent">Feedback</span>&gt;adding {noteSubject} to Group Post&lt;/<span class="pl-ent">Feedback</span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="file-vcd-xml-L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="file-vcd-xml-LC10" class="blob-code blob-code-inner js-file-line">      &lt;<span class="pl-ent">Navigate</span> <span class="pl-e">Target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>/addNote.htm<span class="pl-pds">&quot;</span></span>/&gt;</td>
-      </tr>
-      <tr>
-        <td id="file-vcd-xml-L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="file-vcd-xml-LC11" class="blob-code blob-code-inner js-file-line">    &lt;/<span class="pl-ent">Command</span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="file-vcd-xml-L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="file-vcd-xml-LC12" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">PhraseTopic</span> <span class="pl-e">Label</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>noteSubject<span class="pl-pds">&quot;</span></span> <span class="pl-e">Scenario</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>Dictation<span class="pl-pds">&quot;</span></span>&gt;&lt;/<span class="pl-ent">PhraseTopic</span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="file-vcd-xml-L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="file-vcd-xml-LC13" class="blob-code blob-code-inner js-file-line">  &lt;/<span class="pl-ent">CommandSet</span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="file-vcd-xml-L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="file-vcd-xml-LC14" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">VoiceCommands</span>&gt;</td>
-      </tr>
-</table>
-
-  </div>
-
-  </div>
-  
-</div>
-
-      </div>
-      <div class="gist-meta">
-        <a href="https://gist.github.com/aarongustafson/372271534c78cf11d4a6/raw/949f48a1550d502edeccf4e8e8392cb687fe1064/vcd.xml" style="float:right">view raw</a>
-        <a href="https://gist.github.com/aarongustafson/372271534c78cf11d4a6#file-vcd-xml">vcd.xml</a>
-        hosted with &#10084; by <a href="https://github.com">GitHub</a>
-      </div>
-    </div>
-</div>
-
-</div></p>
+<p><div><?xml version="1.0" encoding="utf-8"?>
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang="en-us" Name="groupPost">
+    <CommandPrefix>Group Post</CommandPrefix>
+    <Example>Group Post add note</Example>
+    <Command Name="addNote">
+      <Example>add a note {message} using group post</Example>
+      <ListenFor RequireAppName="BeforeOrAfterPhrase">[please] add a note [that] {noteSubject}</ListenFor>
+      <Feedback>adding {noteSubject} to Group Post</Feedback>
+      <Navigate Target="/addNote.htm"/>
+    </Command>
+    <PhraseTopic Label="noteSubject" Scenario="Dictation"></PhraseTopic>
+  </CommandSet>
+</VoiceCommands></div></p>
 
 <p>This particular app passes the captured information over to JavaScript for processing. That’s right, <a href="https://msdn.microsoft.com/en-us/library/dn722330.aspx#handle_activation_and_execute_voice_commands">Cortana has a JavaScript API too</a>. Pretty neat.</p>
 
