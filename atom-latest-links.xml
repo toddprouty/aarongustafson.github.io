@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-11-20T16:57:32-05:00</updated>
+	<updated>2015-11-23T19:36:04-05:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,39 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[ally.js]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/allyjs/"/>
+				<updated>2015-11-23T18:03:34-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/allyjs</id>
+				<content type="html"><![CDATA[<p>A JavaScript library that “provides certain standard functions the ‘web platform’ should’ve provided itself, so JavaScript applications can be made accessible more easily.”</p>
+<p><a rel="full-article" href="http://allyjs.io/">Read on &nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[So You Want to Be a Front End Developer?]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/so-you-want-to-be-a-front-end-devleoper-f8be110f1d5f/"/>
+				<updated>2015-11-23T17:57:07-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/so-you-want-to-be-a-front-end-devleoper-f8be110f1d5f</id>
+				<content type="html"><![CDATA[<p>If you’re starting your career in programming, I could not give recommend a better guide than this one.</p>
+<p><a rel="full-article" href="https://medium.com/shopify-ux/so-you-want-to-be-a-front-end-devleoper-f8be110f1d5f#.93yepoulz">Read on Medium&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Seriously, Don&#8217;t Use Icon Fonts]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/seriously-dont-use-icon-fonts/"/>
+				<updated>2015-11-23T17:54:11-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/seriously-dont-use-icon-fonts</id>
+				<content type="html"><![CDATA[<p>An excellent overview of why you <em>shouldn’t</em> be using icon fonts and <em>should</em> be using SVG instead. In short: Don’t be Table Guy.</p>
+<p><a rel="full-article" href="http://blog.cloudfour.com/seriously-dont-use-icon-fonts/">Read on The Cloud Four Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 	
@@ -184,30 +217,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/hints-for-successfully-managing-an-open-source-project</id>
 				<content type="html"><![CDATA[<p>A nice post from my colleague <a href="http://blogs.msdn.com/b/eternalcoding/">David Catuhe</a> on what it takes to build a successful open source project.</p>
 <p><a rel="full-article" href="http://blogs.msdn.com/b/eternalcoding/archive/2015/11/12/hints-for-successfully-managing-an-open-source-project.aspx">Read on Eternal Coding&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Aural UI of HTML Elements]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/aural-ui-of-html-elements/"/>
-				<updated>2015-11-11T11:12:32-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/aural-ui-of-html-elements</id>
-				<content type="html"><![CDATA[<p>This is an indispensible resource for understanding how screen readers treat your markup. Many thanks to the <a href="http://www.paciellogroup.com/">Paciello Group</a> for putting it together.</p>
-<p><a rel="full-article" href="http://thepaciellogroup.github.io/AT-browser-tests/">Read on The Paciello Group’s Github&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[50 Female Tech Influencers You Need to Follow on Twitter]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/50-female-tech-influencers-to-follow-on-twitter/"/>
-				<updated>2015-11-10T15:12:39-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/50-female-tech-influencers-to-follow-on-twitter</id>
-				<content type="html"><![CDATA[<p>Just what it says on the tin. It’s a great compliment to <a href="https://www.aaron-gustafson.com/notebook/excellent-speakers-for-your-next-tech-event/">the recommended speaker list I published</a>.</p>
-<p><a rel="full-article" href="http://skillcrush.com/2015/11/04/50-female-tech-influencers-to-follow-on-twitter/">Read on Skillcrush&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
