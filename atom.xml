@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson Latest Posts &amp; Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-11-24T15:36:02-05:00</updated>
+	<updated>2015-12-01T16:13:20-05:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,33 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Chrome for Android Can Now Save More Data by Blocking Website Images]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/google-chrome-android-data-saver-image-blocking/"/>
+				<updated>2015-12-01T14:42:27-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/google-chrome-android-data-saver-image-blocking</id>
+				<content type="html"><![CDATA[<p>Full circle, eh? <a href="https://en.wikipedia.org/wiki/Blazer_(web_browser)">The Blazer browser</a> on my <a href="https://en.wikipedia.org/wiki/Treo_650">Palm Treo 650</a> (circa 2004) had a “Fast Mode” that switched off (optionally) images, CSS, and JavaScript.</p>
+<p><a rel="full-article" href="http://www.theverge.com/2015/12/1/9827386/google-chrome-android-data-saver-image-blocking">Read on The Verge&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[“Power Mode” Atom Package]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/activate-power-mode/"/>
+				<updated>2015-12-01T14:28:28-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/activate-power-mode</id>
+				<content type="html"><![CDATA[<p>This is hilarious! If you use <a href="https://atom.io">Atom</a>, you can now become all-powerful…</p>
+
+<figure>
+!(https://cloud.githubusercontent.com/assets/688415/11453297/b8f249ec-9605-11e5-978c-eb3bb21eecd8.gif)
+<figcaption>Text explodes/sparks as you type</figcaption>
+</figure>
+<p><a rel="full-article" href="https://github.com/JoelBesada/activate-power-mode">Read on GitHub&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -730,30 +757,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/introducing-edgehtml-13-our-first-platform-update-for-microsoft-edge</id>
 				<content type="html"><![CDATA[<p>Tons of great stuff in this release. Notably: <a href="http://dev.modern.ie/platform/status/pictureelement/">the <code>picture</code> element</a>, <a href="http://dev.modern.ie/platform/status/extendedsrcsetandsizessupport/">the <code>srcset</code> (<em>with</em> <code>w</code> descriptors) &amp; <code>sizes</code> attributes</a>, CSS <a href="http://dev.modern.ie/platform/status/cssinitialvalue/"><code>initial</code></a> and <a href="http://dev.modern.ie/platform/status/cssunsetvalue/"><code>unset</code></a> keywords, <a href="http://dev.modern.ie/platform/status/adownloadattribute/"><code>a[download]</code></a>, <a href="https://dev.modern.ie/platform/status/cssmutabilitypseudoclasses/"><code>:read-write</code> &amp; <code>:read-only</code></a>, <a href="https://dev.modern.ie/platform/status/cssrangepseudoclasses/"><code>:in-range</code> &amp; <code>:out-of-range</code></a>, more ES2015 goodies, and a ton more. Hooray for evergreen!</p>
 <p><a rel="full-article" href="http://blogs.windows.com/msedgedev/2015/11/16/introducing-edgehtml-13-our-first-platform-update-for-microsoft-edge/">Read on Microsoft Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Adaptive Web Design: Folded &amp; Gathered]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/adaptive-web-design-folded-and-gathered/"/>
-				<updated>2015-11-12T13:16:27-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/adaptive-web-design-folded-and-gathered</id>
-				<content type="html"><![CDATA[<p>I just got this photo from <a href="https://www.linkedin.com/pub/tracey-croom/13/a6/985">Tracey Croom</a>, my production editor on <a href="http://adaptivewebdesign.info/2nd-edition/">the Second Edition of <cite>Adaptive Web Design</cite></a> and I wanted to share it with you. Production is almost done and I should be getting my bound copies soon. I’m so excited!</p>
-
-<figure id="fig-2015-11-12-01" class="media-container"><img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-12/01.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-12/01.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-12/01.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-12/01.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="" /><figcaption>A photo of the folded &amp; gathered pages of <cite>Adaptive Web Design</cite>’s Second Edition.</figcaption></figure>
-]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Hints for Successfully Managing an Open-source Project]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/hints-for-successfully-managing-an-open-source-project/"/>
-				<updated>2015-11-12T13:14:42-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/hints-for-successfully-managing-an-open-source-project</id>
-				<content type="html"><![CDATA[<p>A nice post from my colleague <a href="http://blogs.msdn.com/b/eternalcoding/">David Catuhe</a> on what it takes to build a successful open source project.</p>
-<p><a rel="full-article" href="http://blogs.msdn.com/b/eternalcoding/archive/2015/11/12/hints-for-successfully-managing-an-open-source-project.aspx">Read on Eternal Coding&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
