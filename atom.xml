@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson Latest Posts &amp; Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-12-01T16:13:20-05:00</updated>
+	<updated>2015-12-01T17:36:30-05:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,61 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[HIKE: Our Quick, Simple Accessibility Primer]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/hike-our-quick-simple-accessibility-primer/"/>
+				<updated>2015-12-01T17:33:17-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/hike-our-quick-simple-accessibility-primer</id>
+				<content type="html"><![CDATA[<p>Learn accessibility from the Facebook dev team via focused tutorials.</p>
+<p><a rel="full-article" href="https://code.facebook.com/posts/1152362248125846/hike-our-quick-simple-accessibility-primer/">Read on Facebook&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Progressive Web Apps: Ready for Primetime]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/progressive-web-apps-ready-for-primetime/"/>
+				<updated>2015-12-01T17:31:02-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/progressive-web-apps-ready-for-primetime</id>
+				<content type="html"><![CDATA[<p>Very interesting info from Bruce Lawson on how Opera’s implementation of Progressive Apps differs from Chrome’s. I look forward to tucking into this approach soon.</p>
+<p><a rel="full-article" href="http://www.brucelawson.co.uk/2015/progressive-web-apps-ready-for-primetime/">Read on Bruce Lawson&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Adaptive Web Design, Second Edition on Safari Books]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/adaptive-web-design-safari-books/"/>
+				<updated>2015-12-01T17:28:22-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/adaptive-web-design-safari-books</id>
+				<content type="html"><![CDATA[<p>In case you like to read online…</p>
+<p><a rel="full-article" href="https://www.safaribooksonline.com/library/view/adaptive-web-design/9780134216287/">Read on Safari Books&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[How a Digital Swat Team Drove Home Obama’s College Scorecard]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/how-digital-swat-team-drove-home-obamas-college-scorecard/"/>
+				<updated>2015-12-01T17:23:57-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/how-digital-swat-team-drove-home-obamas-college-scorecard</id>
+				<content type="html"><![CDATA[<p>The fine folks at 18F really rocked this one out. Plus: progressive enhancement!</p>
+<p><a rel="full-article" href="http://www.govexec.com/technology/2015/11/how-digital-swat-team-drove-home-obamas-college-scorecard/124002/">Read on GovExec.com&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[How Vorlon.js Helps You Improve Your Web Code]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/how-vorlon-js-helps-you-improve-your-web-code/"/>
+				<updated>2015-12-01T17:14:49-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/how-vorlon-js-helps-you-improve-your-web-code</id>
+				<content type="html"><![CDATA[<p>You can now scan your website for potential issues with standards &amp; interoperability, accessibility, performance, and mobile, right from within <a href="http://vorlonjs.com">Vorlon.js</a>. This is really awesome stuff!</p>
+<p><a rel="full-article" href="http://blogs.msdn.com/b/emargraff/archive/2015/11/27/how-vorlon-js-helps-you-improve-your-web-code.aspx">Read on Etienne Margraff&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -700,63 +755,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/regex101</id>
 				<content type="html"><![CDATA[<p>If you struggle with regular expressions, you should check out this tool. It reminds me a lot of <a href="http://www.regexbuddy.com/">RegEx Buddy</a>, a Windows program that was an immense help in trying to wrap my head around writing regular expressions.</p>
 <p><a rel="full-article" href="https://regex101.com/">Read on RegEx 101&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Service Workers: Dynamic Responsive Images Using WebP Images]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/10132/"/>
-				<updated>2015-11-17T13:41:29-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/10132</id>
-				<content type="html"><![CDATA[<p>I really dig this approach to image optimizations for browsers that support <a href="https://developers.google.com/speed/webp/">the WebP image format</a>. It shows how <a href="https://slightlyoff.github.io/ServiceWorker/spec/service_worker_1/index.html">ServiceWorker</a> can handle site-wide enhancements easily.</p>
-<p><a rel="full-article" href="http://deanhume.com/Home/BlogPost/service-workers--dynamic-responsive-images-using-webp-images/10132/">Read on Dean Hume&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Tips for Creating Accessible SVG]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/tips-accessible-svg/"/>
-				<updated>2015-11-17T13:37:36-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/tips-accessible-svg</id>
-				<content type="html"><![CDATA[<p>An excellent overview of how to make SVGs more accessible, from the incredible <a href="https://twitter.com/leoniewatson">Léonie Watson</a>.</p>
-<p><a rel="full-article" href="http://www.sitepoint.com/tips-accessible-svg/">Read on SitePoint&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Not So Micro Optimizations]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/not-so-micro-optimizations-f867c47b832d/"/>
-				<updated>2015-11-17T11:43:04-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/not-so-micro-optimizations-f867c47b832d</id>
-				<content type="html"><![CDATA[<p>There’s some really interesting performance-related lessons to be learned from <a href="https://www.ampproject.org">Google’s AMP project</a>. This chronicles a few.</p>
-
-<p><del datetime="2015-11-17T13:40:00">I’m gonna give the preconnect &amp; prefetch stuff a whirl on this site to see if it helps speed things up at all.</del> <ins datetime="2015-11-17T13:40:00">I gave the preconnect &amp; prefetch stuff a whirl on this site, and it sped things up substantially.</ins></p>
-<p><a rel="full-article" href="https://medium.com/@cramforce/not-so-micro-optimizations-f867c47b832d">Read on Medium&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[The Cost of Frameworks]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/the-cost-of-frameworks/"/>
-				<updated>2015-11-16T21:20:59-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/the-cost-of-frameworks</id>
-				<content type="html"><![CDATA[<p>This is a fantastic investigation of framework performance on mobile by Google’s <a href="https://aerotwist.com">Paul Lewis</a>. In short: frameworks make things more convenient for developers, but pass the inconvenience on to end users. For more, see <a href="https://www.aaron-gustafson.com/notebook/who-should-pay/">Who Should Pay?</a> and <a href="https://www.aaron-gustafson.com/notebook/who-should-pay-2-the-hosting/">Who Should Pay 2: The Hosting</a>.</p>
-<p><a rel="full-article" href="https://aerotwist.com/blog/the-cost-of-frameworks/">Read on Aerotwist&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Introducing EdgeHTML 13, Our First Platform Update for Microsoft Edge]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/introducing-edgehtml-13-our-first-platform-update-for-microsoft-edge/"/>
-				<updated>2015-11-16T14:22:59-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/introducing-edgehtml-13-our-first-platform-update-for-microsoft-edge</id>
-				<content type="html"><![CDATA[<p>Tons of great stuff in this release. Notably: <a href="http://dev.modern.ie/platform/status/pictureelement/">the <code>picture</code> element</a>, <a href="http://dev.modern.ie/platform/status/extendedsrcsetandsizessupport/">the <code>srcset</code> (<em>with</em> <code>w</code> descriptors) &amp; <code>sizes</code> attributes</a>, CSS <a href="http://dev.modern.ie/platform/status/cssinitialvalue/"><code>initial</code></a> and <a href="http://dev.modern.ie/platform/status/cssunsetvalue/"><code>unset</code></a> keywords, <a href="http://dev.modern.ie/platform/status/adownloadattribute/"><code>a[download]</code></a>, <a href="https://dev.modern.ie/platform/status/cssmutabilitypseudoclasses/"><code>:read-write</code> &amp; <code>:read-only</code></a>, <a href="https://dev.modern.ie/platform/status/cssrangepseudoclasses/"><code>:in-range</code> &amp; <code>:out-of-range</code></a>, more ES2015 goodies, and a ton more. Hooray for evergreen!</p>
-<p><a rel="full-article" href="http://blogs.windows.com/msedgedev/2015/11/16/introducing-edgehtml-13-our-first-platform-update-for-microsoft-edge/">Read on Microsoft Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
