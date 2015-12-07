@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson Latest Posts &amp; Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-12-04T17:34:17-05:00</updated>
+	<updated>2015-12-07T15:57:27-05:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Microsoft Edge’s JavaScript Engine to Go Open-source]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/open-source-chakra-core/"/>
+				<updated>2015-12-07T10:36:47-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/open-source-chakra-core</id>
+				<content type="html"><![CDATA[<p>I don’t know the first thing about writing C++ or building a JavaScript parser, but I think this is a really cool thing for Microsoft to do. Seeing stuff like this makes me very happy to work there.</p>
+<p><a rel="full-article" href="https://blogs.windows.com/msedgedev/2015/12/05/open-source-chakra-core/">Read on Microsoft Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -251,17 +262,6 @@
 <figcaption>Text explodes/sparks as you type</figcaption>
 </figure>
 <p><a rel="full-article" href="https://github.com/JoelBesada/activate-power-mode">Read on GitHub&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[ally.js]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/allyjs/"/>
-				<updated>2015-11-23T18:03:34-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/allyjs</id>
-				<content type="html"><![CDATA[<p>A JavaScript library that “provides certain standard functions the ‘web platform’ should’ve provided itself, so JavaScript applications can be made accessible more easily.”</p>
-<p><a rel="full-article" href="http://allyjs.io/">Read on &nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
