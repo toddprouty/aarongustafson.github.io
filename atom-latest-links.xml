@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-12-07T15:57:27-05:00</updated>
+	<updated>2015-12-09T13:58:37-05:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,43 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Bridge the Digital Divide: Don’t Forget the Other Billion People]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/digital-divide-project-loon-internet-org/"/>
+				<updated>2015-12-09T11:26:49-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/digital-divide-project-loon-internet-org</id>
+				<content type="html"><![CDATA[<p>An excellent call to arms for reaching the underserved. When you need to center yourself with respect to your place in the world, consider these stats:</p>
+
+<blockquote>
+  <p>When you take a step back and look beyond the U.S., more than two-thirds of the world’s population does not have Internet access. The World Bank’s research estimates that poverty hits 700 million people in our world, which is defined as $1.90 a day or less, or 9.6% of the global population. Also 1.2 billion people (22%) live on less than $1.25 a day, and among these people just under half have electricity.</p>
+</blockquote>
+<p><a rel="full-article" href="http://readwrite.com/2015/12/04/digital-divide-project-loon-internet-org">Read on ReadWrite&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Flexbox Grid Finesse]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/flexbox-grid-finesse-4d22b80bfee1/"/>
+				<updated>2015-12-09T11:26:11-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/flexbox-grid-finesse-4d22b80bfee1</id>
+				<content type="html"><![CDATA[<p>Some wonderful examples of irregular layouts using flexbox, from the one and only Hayden Pickering.</p>
+<p><a rel="full-article" href="https://medium.com/@Heydon/flexbox-grid-finesse-4d22b80bfee1#.6ohgqrsms">Read on Medium&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Styling Placeholder Texts]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/styling_placeho/"/>
+				<updated>2015-12-09T11:25:52-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/styling_placeho</id>
+				<content type="html"><![CDATA[<p>More excellent research into form styling from <a href="http://www.quirksmode.org">PPK</a>.</p>
+<p><a rel="full-article" href="http://www.quirksmode.org/blog/archives/2015/12/styling_placeho.html">Read on QuirksBlog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -199,44 +236,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/how-digital-swat-team-drove-home-obamas-college-scorecard</id>
 				<content type="html"><![CDATA[<p>The fine folks at 18F really rocked this one out. Plus: progressive enhancement!</p>
 <p><a rel="full-article" href="http://www.govexec.com/technology/2015/11/how-digital-swat-team-drove-home-obamas-college-scorecard/124002/">Read on GovExec.com&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[How Vorlon.js Helps You Improve Your Web Code]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/how-vorlon-js-helps-you-improve-your-web-code/"/>
-				<updated>2015-12-01T17:14:49-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/how-vorlon-js-helps-you-improve-your-web-code</id>
-				<content type="html"><![CDATA[<p>You can now scan your website for potential issues with standards &amp; interoperability, accessibility, performance, and mobile, right from within <a href="http://vorlonjs.com">Vorlon.js</a>. This is really awesome stuff!</p>
-<p><a rel="full-article" href="http://blogs.msdn.com/b/emargraff/archive/2015/11/27/how-vorlon-js-helps-you-improve-your-web-code.aspx">Read on Etienne Margraff&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Chrome for Android Can Now Save More Data by Blocking Website Images]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/google-chrome-android-data-saver-image-blocking/"/>
-				<updated>2015-12-01T14:42:27-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/google-chrome-android-data-saver-image-blocking</id>
-				<content type="html"><![CDATA[<p>Full circle, eh? <a href="https://en.wikipedia.org/wiki/Blazer_(web_browser)">The Blazer browser</a> on my <a href="https://en.wikipedia.org/wiki/Treo_650">Palm Treo 650</a> (circa 2004) had a “Fast Mode” that switched off (optionally) images, CSS, and JavaScript.</p>
-<p><a rel="full-article" href="http://www.theverge.com/2015/12/1/9827386/google-chrome-android-data-saver-image-blocking">Read on The Verge&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[“Power Mode” Atom Package]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/activate-power-mode/"/>
-				<updated>2015-12-01T14:28:28-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/activate-power-mode</id>
-				<content type="html"><![CDATA[<p>This is hilarious! If you use <a href="https://atom.io">Atom</a>, you can now become all-powerful…</p>
-
-<figure>
-!(https://cloud.githubusercontent.com/assets/688415/11453297/b8f249ec-9605-11e5-978c-eb3bb21eecd8.gif)
-<figcaption>Text explodes/sparks as you type</figcaption>
-</figure>
-<p><a rel="full-article" href="https://github.com/JoelBesada/activate-power-mode">Read on GitHub&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	

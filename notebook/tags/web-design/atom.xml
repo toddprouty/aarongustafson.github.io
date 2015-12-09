@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2015-12-07T15:57:27-05:00</updated>
+  <updated>2015-12-09T13:58:37-05:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -951,6 +951,8 @@
 <figure id="fig-2015-11-11-04" class="media-container"><img src="https://www.aaron-gustafson.com/i/posts/2015-11-11/04.gif" alt="" /><figcaption>An animation showing very generous tap targets on a narrow screen.</figcaption></figure>
 
 <p>It’s worth noting that older versions of Internet Explorer only provide the focus/interaction benefit when you use explicit label association. That’s why I like the combo approach of implicit <em>and</em> explicit association for checkbox and radio controls.</p>
+
+<p><ins datetime="2015-12-09" cite="#comment-2374683375">As Dennis Lembrée mentions in the comments below, Dragon’s Naturally Speaking also doesn’t recognize implicit association, which is why it’s incredibly important to use explicit association even if it seems implicit association should suffice.</ins></p>
 
 <h2 id="placeholders-arent-labels">Placeholders Aren’t Labels</h2>
 
