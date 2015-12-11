@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-12-10T12:39:38-05:00</updated>
+	<updated>2015-12-11T13:17:14-05:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,28 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Automatic Testing of BBC Accessibility Standards]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/bbc-a11y/"/>
+				<updated>2015-12-11T13:07:18-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/bbc-a11y</id>
+				<content type="html"><![CDATA[<p>A tool for automated testing of a list of URLs for accessibility compliance.</p>
+<p><a rel="full-article" href="https://github.com/cucumber-ltd/bbc-a11y">Read on BBC on GitHub&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[When Touch-Screen Inaccessibility Becomes a Question of Safety]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/when-touch-screen-inaccessibility-becomes-question-safety-asuncion/"/>
+				<updated>2015-12-11T13:05:48-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/when-touch-screen-inaccessibility-becomes-question-safety-asuncion</id>
+				<content type="html"><![CDATA[<p>Touchscreen without audio cues are a <em>big</em> problem, especially on airplanes.</p>
+<p><a rel="full-article" href="https://www.linkedin.com/pulse/when-touch-screen-inaccessibility-becomes-question-safety-asuncion">Read on LinkedIn&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -212,28 +234,6 @@
 
 <p>This is a great post and Colin makes a lot of the same arguments I make in Chapter 5 of <em>Adaptive Web Design, Second Edition</em>. Great minds!</p>
 <p><a rel="full-article" href="http://zetafleet.com/blog/2015/11/progressive-enhancement-needs-better-advocacy.html">Read on Zetafleet&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Flexbox’s Best-Kept Secret]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/flexbox-s-best-kept-secret-bd3d892826b6/"/>
-				<updated>2015-12-02T15:29:36-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/flexbox-s-best-kept-secret-bd3d892826b6</id>
-				<content type="html"><![CDATA[<p>A few awesome examples of using automatically-calculated margins in flexbox layouts.</p>
-<p><a rel="full-article" href="https://medium.com/@samserif/flexbox-s-best-kept-secret-bd3d892826b6">Read on Medium&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Forgo JS Packaging? Not So Fast]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/js-packaging-http2/"/>
-				<updated>2015-12-02T15:27:42-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/js-packaging-http2</id>
-				<content type="html"><![CDATA[<p>Think HTTP2 will let you get away without concatenating your JavaScript? Think again.</p>
-<p><a rel="full-article" href="http://engineering.khanacademy.org/posts/js-packaging-http2.htm">Read on Khan Academy Engineering&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
