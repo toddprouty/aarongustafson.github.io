@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: User Experience | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/user-experience/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2015-12-15T13:14:08-05:00</updated>
+  <updated>2015-12-21T16:24:18-06:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Avoiding Link Rot in Print With the Help of Perma.cc]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/avoiding-linkrot-in-print-with-the-help-of-perma-dot-cc/"/>
-    <updated>2015-12-02T16:03:35-05:00</updated>
+    <updated>2015-12-02T15:03:35-06:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/avoiding-linkrot-in-print-with-the-help-of-perma-dot-cc</id>
     <content type="html"><![CDATA[<p>I think we can all agree, <a href="https://en.wikipedia.org/wiki/Link_rot">link rot</a> is a problem. A 2014 study by Harvard Law School determined that <a href="http://journals.cambridge.org/action/displayAbstract?fromPage=online&amp;aid=9282809&amp;fileId=S1472669614000255/">roughly 50% of the URLs referenced in U.S. Supreme Court opinions no longer work</a>. That’s <em>terrifying</em>.</p>
 
@@ -41,7 +41,7 @@
   <entry>
     <title type="html"><![CDATA[Interface Experience Maps]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/interface-experience-maps/"/>
-    <updated>2015-05-28T08:43:20-04:00</updated>
+    <updated>2015-05-28T07:43:20-05:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/interface-experience-maps</id>
     <content type="html"><![CDATA[<p>One of the greatest challenges of progressive enhancement lies not with the coding, but with the planning. It can be incredibly challenging to articulate how a single interface might adapt to a wide variety of situations. Interface Experience Maps (Ix Maps) can help.</p>
 
@@ -103,7 +103,7 @@
   <entry>
     <title type="html"><![CDATA[Lies, Damn Lies, and JavaScript]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/lies-damn-lies-and-javascript/"/>
-    <updated>2015-04-27T15:10:11-04:00</updated>
+    <updated>2015-04-27T14:10:11-05:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/lies-damn-lies-and-javascript</id>
     <content type="html"><![CDATA[<p>Late last week I stumbled on a video from <a href="https://twitter.com/graemepyle">Graeme Pyle</a> that exposed a UX lie in the <a href="https://www.fnb.co.za/">First National Bank of South Africa</a>.</p>
 

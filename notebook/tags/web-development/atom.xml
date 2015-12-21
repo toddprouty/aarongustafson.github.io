@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Development | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/web-development/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2015-12-15T13:14:08-05:00</updated>
+  <updated>2015-12-21T16:24:18-06:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Speeding Things Up With Service Worker, Resource Hints, and More]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/speeding-things-up-with-service-worker-resource-hints-and-more/"/>
-    <updated>2015-11-20T16:39:09-05:00</updated>
+    <updated>2015-11-20T15:39:09-06:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/speeding-things-up-with-service-worker-resource-hints-and-more</id>
     <content type="html"><![CDATA[<p>User experience encompasses more than just the interface. Download speed, render performance, and the cost of accessing a site are often overlooked areas when it comes to the practice of UX, but they all affect how users experience what we build on the Web.</p>
 
@@ -542,7 +542,7 @@
   <entry>
     <title type="html"><![CDATA[The One Weird Trick That Takes the Pain Out of Cross-browser Testing]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing/"/>
-    <updated>2015-01-26T11:24:25-05:00</updated>
+    <updated>2015-01-26T10:24:25-06:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing</id>
     <content type="html"><![CDATA[<p>Love this!</p>
 
@@ -554,7 +554,7 @@
   <entry>
     <title type="html"><![CDATA[We Need More Empathy]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/we-need-more-empathy/"/>
-    <updated>2014-12-28T11:17:21-05:00</updated>
+    <updated>2014-12-28T10:17:21-06:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/we-need-more-empathy</id>
     <content type="html"><![CDATA[<p>For a while now I’ve been <a href="http://www.slideshare.net/AaronGustafson/designing-with-empathy-breaking-development-nashville-2013">beating the “empathy” drum</a> (<a href="http://www.lukew.com/ff/entry.asp?1810">notes</a>), trying to get folks in our industry to understand the importance of creating connections with the people for whom we build software, websites, etc. After all, we design and build tools to solve the needs of actual people, not some generic “user”.<!-- more --><sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></p>
 
@@ -587,7 +587,7 @@
   <entry>
     <title type="html"><![CDATA[Autoplay, Don’t Do It]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/autoplay-dont-do-it/"/>
-    <updated>2014-12-21T15:12:50-05:00</updated>
+    <updated>2014-12-21T14:12:50-06:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/autoplay-dont-do-it</id>
     <content type="html"><![CDATA[<p>A while back <a href="https://gigaom.com/2014/09/04/facebooks-autoplay-has-led-to-a-60-boost-in-traffic-on-mobile-networks/">GogOm reported on how Facebook’s decision to autoplay videos led to a 60% increase in mobile data usage</a>. It was a business decision with the intent of increasing engagement, but it was a bad decision from a user experience. It’s a tax on users and they weren’t to happy about it.</p>
 
@@ -619,7 +619,7 @@
   <entry>
     <title type="html"><![CDATA[CSS Variables Are a Bad Idea]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/css-variables-are-a-bad-idea/"/>
-    <updated>2014-11-04T14:58:01-05:00</updated>
+    <updated>2014-11-04T13:58:01-06:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/css-variables-are-a-bad-idea</id>
     <content type="html"><![CDATA[<p>I’ll level with you: I used to think I wanted variables in CSS.</p>
 

@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Posts]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-posts.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2015-12-15T13:14:08-05:00</updated>
+	<updated>2015-12-21T16:24:18-06:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -48,31 +48,6 @@
 	
 		
 	
-		
-			<entry>
-				<title type="html"><![CDATA[Avoiding Link Rot in Print With the Help of Perma.cc]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/avoiding-linkrot-in-print-with-the-help-of-perma-dot-cc/"/>
-				<updated>2015-12-02T16:03:35-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/avoiding-linkrot-in-print-with-the-help-of-perma-dot-cc</id>
-				<content type="html"><![CDATA[<p>I think we can all agree, <a href="https://en.wikipedia.org/wiki/Link_rot">link rot</a> is a problem. A 2014 study by Harvard Law School determined that <a href="http://journals.cambridge.org/action/displayAbstract?fromPage=online&amp;aid=9282809&amp;fileId=S1472669614000255/">roughly 50% of the URLs referenced in U.S. Supreme Court opinions no longer work</a>. That’s <em>terrifying</em>.</p>
-
-<!-- more -->
-
-<p>When I was mid-way through writing <a href="http://adaptivewebdesign.info/2nd-edition/">the Second Edition of <cite>Adaptive Web Design</cite></a>, I realized that it was pretty likely some of the links I was referencing might disappear over the years. Little did I know, some of them would disappear <em>while I was writing the book!</em></p>
-
-<p><a href="https://archive.org/web/">The Internet Archive’s Wayback Machine</a> is pretty good, but it doesn’t archive everything, and I often find captured pages end up broken—especially if they rely heavily JavaScript, but often images go missing as well. I wanted to make sure that when you pick up the book a year from now or even 10 years from now, the links will still work.</p>
-
-<p>I evaluated a few options for creating a permanent archive of each and every link in the book (there are over 200), but then it dawned on me that <a href="https://perma.cc/">Perma.cc</a> might be the perfect answer.</p>
-
-<p>Perma.cc was created by the <a href="http://librarylab.law.harvard.edu/">Harvard Library Innovation Lab</a> in reaction to the paper I mentioned earlier. It is a distributed archive of URLs for scholarly and legal documents, supported not only by Harvard, but over 90 (<em>and counting!</em>) libraries, distributed all over the world. <a href="https://github.com/harvard-lil/perma">It’s also open source</a>. Each <a href="https://perma.cc/docs#archive-formats">URL is preserved as a live view, an archived view, and a screen capture</a> taken when the link is added. Archived URLs are kept for a minumum of 2 years, but <a href="https://perma.cc/docs#vesting-links">may be “vested” into the permanent archive by a member organization</a>.</p>
-
-<p>I had contributed some CSS to the project a while back, so I reached out to my contacts to see if they might be interested in vesting all of the links for the book. Turns out they were big fans of <a href="http://adaptivewebdesign.info/1st-edition/">the First Edition</a> and enthusiastically offered their support.</p>
-
-<p>Converting all of the links took time (and a lot of double- and triple-checking), but the result is that every article, blog post, and web page that I referenced in the book will remain accessible to you in perpetuity. I think that’s pretty awesome. And, as an added bonus, since Perma.cc creates unique URLs that are relatively short, those of you who read it in print won’t have to re-type the often incredibly-lengthy original URLs.</p>
-
-<p>I can’t thank <a href="http://mattphillips.info/">Matt Phillips</a>, <a href="https://twitter.com/abziegler">Adam Ziegler</a>, <a href="http://jackcushman.org/">Jack Cushman</a>, and everyone else at the Harvard Library Innovation Lab enough for creating Perma.cc <em>and</em> for offering their service to my readers. You all are amazing!</p>
-]]></content>
-			</entry>
 		
 	
 		
