@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Css | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/css/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2015-12-29T10:04:19-06:00</updated>
+  <updated>2016-01-06T15:30:07-05:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Playing With Flexbox and Quantity Queries]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/playing-with-flexbox-and-quantity-queries/"/>
-    <updated>2015-03-26T13:44:24-05:00</updated>
+    <updated>2015-03-26T14:44:24-04:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/playing-with-flexbox-and-quantity-queries</id>
     <content type="html"><![CDATA[<p>Ever since reading <a href="http://twitter.com/heydonworks">Haydon Pickering</a>’s <a href="http://alistapart.com/article/quantity-queries-for-css">piece on quantity queries</a>, I’ve been musing over the possibilities for layout. I decided I to play around with them a bit on this site as it’s been a while since I’ve tweaked the design. Being that I wanted to experiment, I thought this would be a fun time to tuck into <a href="http://www.w3.org/TR/css-flexbox-1/">Flexbox</a> a bit more as well.</p>
 
@@ -241,7 +241,7 @@
   <entry>
     <title type="html"><![CDATA[Quantity Queries… Where Have You Been All My Life?]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/quantity-queries-where-have-you-been-all-my-life/"/>
-    <updated>2015-03-20T10:00:03-05:00</updated>
+    <updated>2015-03-20T11:00:03-04:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/quantity-queries-where-have-you-been-all-my-life</id>
     <content type="html"><![CDATA[<p><a href="http://twitter.com/heydonworks">Heydon Pickering</a>’s <a href="http://alistapart.com/article/quantity-queries-for-css">Quantity Queries for CSS</a> is sheer brilliance and it’s so simple I’m surprised we hadn’t landed on the idea sooner.</p>
 
@@ -314,7 +314,7 @@ li:nth-last-child(-n+6):first-child ~ li {
   <entry>
     <title type="html"><![CDATA[CSS Variables Are a Bad Idea]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/css-variables-are-a-bad-idea/"/>
-    <updated>2014-11-04T13:58:01-06:00</updated>
+    <updated>2014-11-04T14:58:01-05:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/css-variables-are-a-bad-idea</id>
     <content type="html"><![CDATA[<p>I’ll level with you: I used to think I wanted variables in CSS.</p>
 

@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Accessibility | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/accessibility/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2015-12-29T10:04:19-06:00</updated>
+  <updated>2016-01-06T15:30:07-05:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -14,9 +14,137 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Affirming User Choice With Checkboxes]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/affirming-user-choice-with-checkboxes/"/>
+    <updated>2016-01-06T14:24:31-05:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/affirming-user-choice-with-checkboxes</id>
+    <content type="html"><![CDATA[<p>“Checkbox” form controls have long been a part of software. They enable users to provide a simple binary response—yes or no. On the Web, we often see them in two scenarios: confirmations and multiple choice.</p>
+
+<!-- more -->
+
+<h2 id="confirmation-checkboxes">Confirmation Checkboxes</h2>
+
+<p>Standalone checkboxes are often employed to enable users to affirm a statement, as in <a href="#fig-2016-01-06-01">this example</a> from <a href="https://online.americanexpress.com/myca/logon/us/action/LogonHandler?request_type=LogonHandler&amp;Face=en_US#lilo_loginForm">the American Express login form</a> where a customer can indicate they’d like the site to remember them.</p>
+
+<figure id="fig-2016-01-06-01" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/01.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/01.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>American Express’ login form offers users the option of being remembered. As that is a binary choice (e.g. yes or no), the checkbox makes sense.</figcaption></figure>
+
+<p>Here’s a simplification of the markup they’re using:</p>
+
+<p><div><script src="https://gist.github.com/d281f889a11634b45280.js?file=american-express-login-simplified.html"></script>
+<noscript><pre><code>&lt;input type=&quot;checkbox&quot; id=&quot;lilo_checkBox&quot; name=&quot;REMEMBERME&quot;&gt;
+&lt;label for=&quot;lilo_checkBox&quot;&gt;Remember Me&lt;/label&gt;</code></pre></noscript></div>
+</p>
+
+<p>This works really well, though I generally prefer to <a href="https://www.aaron-gustafson.com/notebook/labeled-with-love/#an-alternate-approach">combine explicit and implicit labeling</a> to simplify my CSS selectors and broaden their applicability. Here’s how I would rewrite this control:</p>
+
+<p><div><script src="https://gist.github.com/d281f889a11634b45280.js?file=american-express-login-reimagined.html"></script>
+<noscript><pre><code>&lt;label for=&quot;lilo_checkBox&quot;&gt;
+  &lt;input type=&quot;checkbox&quot; id=&quot;lilo_checkBox&quot; name=&quot;REMEMBERME&quot;&gt;
+  Remember Me
+&lt;/label&gt;</code></pre></noscript></div>
+</p>
+
+<p>Regardless of the markup pattern itself, it’s important to note the explicit association of the form control and the <code>label</code> element (using the <code>for</code> attribute). You’ll also notice the input has a straightforward <code>name</code> value which will be submitted to the back end if the user ticks the box.</p>
+
+<p>It’s worth noting that some back-end systems may require a value be submitted for the given variable name (in this case, “REMEMBERME”) regardless of whether the user has ticked the checkbox. If that’s a requirement, you can alter the pattern to use a hidden <code>input</code> as well:</p>
+
+<p><div><script src="https://gist.github.com/d281f889a11634b45280.js?file=american-express-login-with-hidden.html"></script>
+<noscript><pre><code>&lt;input type=&quot;hidden&quot; name=&quot;REMEMBERME&quot; value=&quot;no&quot;&gt;
+&lt;input type=&quot;checkbox&quot; id=&quot;lilo_checkBox&quot; name=&quot;REMEMBERME&quot; value=&quot;yes&quot;&gt;
+&lt;label for=&quot;lilo_checkBox&quot;&gt;Remember Me&lt;/label&gt;</code></pre></noscript></div>
+</p>
+
+<p>The source order matters because with matching <code>name</code> values, the final submittable <code>value</code> will always be the one the back-end receives. With this setup, the <code>value</code> of “no” (from the hidden <code>input</code>) will be submitted by default. If the checkbox is ticked, its <code>value</code> is submitted instead, setting REMEMBERME to “yes”.</p>
+
+<h2 id="multiple-choice-checkboxes">Multiple Choice Checkboxes</h2>
+
+<p>The other way we often see checkboxes used is to enable users to choose zero or more items from a collection of options. Consider <a href="#fig-2016-01-06-02">this example</a> from <a href="http://chadevicelab.org/book-time">the Chattanooga Open Device Lab’s reservation form</a>. It allows users to choose the devices they’d like to include in their test matrix:</p>
+
+<figure id="fig-2016-01-06-02" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/02.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/02.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>In this excerpt from the reservation form on the Chattanooga Open Device Lab website, users can choose to include gaming system options.</figcaption></figure>
+
+<p>The markup they employ is pretty well-organized and straightforward: it’s a list of checkbox options.</p>
+
+<p><div><script src="https://gist.github.com/d281f889a11634b45280.js?file=chaodl-checkbox-list.html"></script>
+<noscript><pre><code>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;label for=&quot;nintendo-ds-lite&quot;&gt;
+      &lt;input type=&quot;checkbox&quot;
+             name=&quot;reservation_requested_device[]&quot;
+             id=&quot;nintendo-ds-lite&quot;
+             value=&quot;Nintendo DS Lite (Upper Cabinet #13)&quot;
+             data-checkbox-required=&quot;&quot;
+             &gt;
+      Nintendo DS Lite
+    &lt;/label&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;label for=&quot;nintendo-wii&quot;&gt;
+      &lt;input type=&quot;checkbox&quot;
+             name=&quot;reservation_requested_device[]&quot;
+             id=&quot;nintendo-wii&quot;
+             value=&quot;Nintendo Wii (TV Area)&quot;
+             data-checkbox-required=&quot;&quot;
+             &gt;
+      Nintendo Wii
+    &lt;/label&gt;
+  &lt;/li&gt;
+  &lt;!-- list continues --&gt;
+&lt;/ul&gt;</code></pre></noscript></div>
+</p>
+
+<p>As this is an instance where a user could choose more than one option, the back end needs to be able to capture that information in what’s called an “array”. An array, if you’re unfamiliar, is a collection of values. You’ll notice that the <code>name</code> given to each of these checkbox <code>input</code> elements is the same: “reservation_requested_device[]”. The square brackets (“[]”) at the end of the <code>name</code> are the magic bit that allows the values of <em>each</em> chosen “reservation_requested_device” checkbox to be submitted as the value of “reservation_requested_device”.</p>
+
+<h2 id="applicable-attributes">Applicable Attributes</h2>
+
+<p>Checkbox controls only use a subset of the typical <code>input</code> attributes. In particular, you’ll need to include</p>
+
+<ul>
+  <li><code>name</code> - This is the variable name you want to hold the user’s response. As mentioned in <a href="#multiple-choice-checkboxes">the previous section</a>, appending “[]” to the variable name will allow the variable to hold all of the user’s choices as opposed to only the final one.</li>
+  <li><code>value</code> - This is the value that should be captured if the user ticks the checkbox.</li>
+  <li><code>id</code> - The unique identifier you’re using for the control in order to explicitly associate it with a <code>label</code>.</li>
+</ul>
+
+<p>There are a few optional attributes you might consider including as well.</p>
+
+<ul>
+  <li><code>checked</code> - Use this null attribute if you want the default state of the checkbox to be ticked. This attribute should be used with caution. <strong>Don’t</strong> use this attribute to automatically check confirmation boxes for things like mailing list opt-ins. <strong>Do</strong> use this attribute when you are displaying sensible default settings or displaying confirmations the user has already made (e.g. in the user’s profile or when re-displaying the form when it has a submission error).</li>
+  <li><code>required</code> - Use this to indicate the checkbox must be ticked for the form to be valid. It’s important to note that this attribute is typically only useful in confirmation checkbox scenarios. If you need a user to choose at least one from a multiple choice checkbox collection, it’s useless unless you need them to pick a specific one. To require one (or more) of a multiple choice checkbox group, you currently need to use JavaScript, like <a href="https://github.com/easy-designs/easy-checkbox-required.js">the one the Chattanooga Open Device Lab uses</a>.</li>
+</ul>
+
+<h2 id="checkbox-vs-other-controls">Checkbox vs. Other Controls</h2>
+
+<p>Checkboxes excel at allowing users to indicate preference from a pre-defined set of options. But there are other form control types that allow for similar control over user responses. That can make it difficult to decide which element to use.</p>
+
+<h3 id="dropdown-list-select">Dropdown List (<code>select</code>)</h3>
+
+<p>The <code>select</code> element is another tried and true option for allowing users to indicate preference. A simple two-choice <code>select</code> could achieve the same goal as a confirmation checkbox, but it’s a little clunkier. In terms of user interface, <code>select</code> elements require more clicks of your users. They also obscure the complete list of choices from view because only one options is displayed at a time. Their appearance makes them more compact, but can make it difficult to get a complete picture of what choices are available when you can’t see them all.</p>
+
+<p>You can enable multiple choice in a  <code>select</code> element by adding the <code>multiple</code> attribute to it, but depending on the number of <code>option</code> elements, it could also be a little unwieldy. Depending on the size of the <code>select</code> and the number of options, you could also create an inner scroll that could be awkward on certain touch-based devices.</p>
+
+<p>The <code>select</code> element has its place, but should be used sparingly. I’ll go in-depth with <code>select</code> elements in a future post.</p>
+
+<h3 id="choose-one-inputtyperadio">Choose One (<code>input[type=radio]</code>)</h3>
+
+<p>For simple confirmation questions, it’s completely valid to use a radio form control in lieu of a single checkbox. In fact, in some cases, it may offer a more explicit choice for your users. Consider <a href="#fig-2016-01-06-03">this example</a> from <a href="https://order.subway.com">Subway’s online ordering tool</a>.</p>
+
+<figure id="fig-2016-01-06-03" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/03.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/03.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>In this excerpt from Subway’s online ordering tool, they use a checkbox to confirm the user wants their sandwich toasted.</figcaption></figure>
+
+<p>A checkbox labelled “Fresh Toasted”, isn’t terribly clear. A better approach would be to ask something like “Would you like your sandwich toasted?” with radio controls for “yes” and “no”. Alternately, if they absolutely wanted to keep it as a checkbox, they could use a better label: “Please toast my sandwich”.</p>
+
+<figure id="fig-2016-01-06-04" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/04.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/04.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/04.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/04.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>An alternate approach to the Subway interface, using radio controls.</figcaption></figure>
+
+<p>Radio controls have their place, but are not often a one-to-one replacement for checkboxes. I will discuss radio controls in greater depth in another post.</p>
+
+<h2 id="check-em-out">Check ’Em Out</h2>
+
+<p>Checkboxes are an invaluable tool in the form building tool chest. Understanding their purpose and capabilities is key to using them properly and ensuring your forms are usable to the broadest number of users.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Labeled With Love]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/labeled-with-love/"/>
-    <updated>2015-11-11T20:05:33-06:00</updated>
+    <updated>2015-11-11T21:05:33-05:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/labeled-with-love</id>
     <content type="html"><![CDATA[<p>Forms exist on pretty much every site on the web in one form or another. They are the primary mechanism by which we gather information from our users.<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> Of course, before anyone can fill out a form, they need to know what it’s asking for. Labeling is key.</p>
 
@@ -618,7 +746,7 @@
   <entry>
     <title type="html"><![CDATA[Harvard, MIT, and Captioning]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/harvard-and-mit-and-captioning/"/>
-    <updated>2015-06-29T13:23:28-05:00</updated>
+    <updated>2015-06-29T14:23:28-04:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/harvard-and-mit-and-captioning</id>
     <content type="html"><![CDATA[<p>The U.S. Department of Justice (DOJ) has published Statements of Interest in two cases brought by the National Association of the Deaf (NAD) against <a href="http://www.ada.gov/briefs/harvard_soi.pdf">Harvard (PDF)</a> and <a href="http://www.ada.gov/briefs/mit_soi.pdf">MIT (PDF)</a>, respectively. The NAD is suing the two universities for violations of Title III of the Americans with Disabilities Act (ADA) and Section 504 of the Rehabilitation Act because the video and audio materials they are making available as part of their online learning offerings are not captioned.</p>
 
@@ -651,7 +779,7 @@
   <entry>
     <title type="html"><![CDATA[Where Do We Go From Here?]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/where-do-we-go-from-here/"/>
-    <updated>2015-06-22T10:49:56-05:00</updated>
+    <updated>2015-06-22T11:49:56-04:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/where-do-we-go-from-here</id>
     <content type="html"><![CDATA[<p><em>I had the great pleasure of delivering the closing keynote for the final Responsive Day Out. Here’s what I had to say.</em></p>
 
@@ -959,7 +1087,7 @@
   <entry>
     <title type="html"><![CDATA[Consider How Your Forms Read]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/consider-how-your-forms-read/"/>
-    <updated>2015-02-23T10:21:24-06:00</updated>
+    <updated>2015-02-23T11:21:24-05:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/consider-how-your-forms-read</id>
     <content type="html"><![CDATA[<p>While listening to <a href="http://www.radiolab.org/story/trust-engineers/">Radiolab’s “The Trust Engineers”</a>, I’ll admit I got a little excited when they started talking about web form performance. And no, not “performance” in the time-to-download sense, but “performance” in terms of how well the forms performed in attempting to capture meaningful, actionable data.</p>
 
@@ -1002,91 +1130,6 @@
 <p>Ask real questions: <em>What’s your name?</em>, <em>What’s your email?</em>, and <em>How would you prefer we contact you?</em> are far more friendly than <em>Name</em>, <em>Email</em>, and <em>Contact Preference</em>.</p>
 
 <p>A little thoughtful consideration for the people who need to fill in your form goes a long way toward making them feel at ease and also helps to ensure the feedback you receive is accurate, valuable, and actionable.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Egalitarianism]]></title>
-    <link href="https://www.aaron-gustafson.com/notebook/egalitarianism/"/>
-    <updated>2015-01-19T09:32:20-06:00</updated>
-    <id>https://www.aaron-gustafson.com/notebook/egalitarianism</id>
-    <content type="html"><![CDATA[<p>Today is Martin Luther King Day in the United States, so I thought I’d take a moment to reflect on one aspect of equality I think is incredibly important: egalitarianism.</p>
-
-<!-- more -->
-
-<p>According to <a href="http://www.merriam-webster.com/dictionary/egalitarianism"><cite class="book">Merriam Webster</cite></a>, egalitarianism is:</p>
-
-<blockquote>
-	<ol>
-		<li>a belief in human equality especially with respect to social, political, and economic affairs;</li>
-		<li>a social philosophy advocating the removal of inequalities among people.</li>
-	</ol>
-</blockquote>
-
-<p>It’s a simple philosophy inspired by <a href="http://en.wikipedia.org/wiki/Golden_Rule">the Golden Rule</a>, an ethical code which is central to most major religions:</p>
-
-<dl>
-	<dt>Buddhism</dt>
-	<dd>Hurt not others in ways that you yourself would find harmful.</dd>
-	<dt>Christianity</dt>
-	<dd>Do unto others as you would have  them do unto you.</dd>
-	<dt>Islam</dt>
-	<dd>No one of you is a believer until he desires for his brother that which he desires for himself.</dd>
-	<dt>Judaism</dt>
-	<dd>What is hateful to you, do not to your fellow man. That is the entire law; all the rest is commentary.</dd>
-</dl>
-
-<p>Heck, even Confucius said “Never impose on others what you would not choose for yourself”.</p>
-
-<p>With so much emphasis on treating others with the sort of respect that we would like to be given, you’d think that inequality would be a non-issue. Obviously that’s not the case.</p>
-
-<p>For centuries, we humans—even those of us who ascribe to <a href="http://en.wikipedia.org/wiki/Golden_Rule#Religion_and_philosophy">these and the other countless Golden Rule abiding religions and philosophies</a>—have failed to recognize ourselves in others and have erected barriers (both physical and societal) to their ability to lead the sort of happy, fulfilled life that we want for ourselves and our families.</p>
-
-<p>Almost every way we mistreat others—from rude or snarky comments to genocide—stems from our inability to empathize with another person or group of people. It’s hard to connect with people who are different than us—people who have different life experiences, people who have different perspectives, people who are challenged in ways we have never been—and when we struggle to create a connection, it becomes easy for us to view them as “the other”. And when we begin to look at other people this way, we lose sight of their humanity and we lose sight of all of the things that make us similar.</p>
-
-<p>While it is completely true that I have a very different life than a woman growing up in <a href="http://en.wikipedia.org/wiki/Dharavi">Dharavi</a>, I have to believe that we have a lot in common too. We both want a good life for our families. We both want to feel safe. We both crack jokes. We’re both human. Our respective societies may view us very differently, but she is no less valuable than I am.</p>
-
-<p>And this is why I am so passionate about the philosophy of egalitarianism. It grounds us in the notion that we are all equally valuable and should be granted equal opportunity to all that life has to offer.</p>
-
-<hr />
-
-<p>John Rawls has a great thought experiment that I often cite in <a href="http://vimeo.com/70018634">my talks on empathy</a>. In it, he would ask you to imagine your ideal society. It could be a monarchy, anarchy, capitalist, or communist. It could be ruled by people of one particular gender or color. It could be governed by people of a particular tribe. It could be <a href="http://en.wikipedia.org/wiki/The_Hunger_Games_universe#Panem">Panem</a>. It could be <a href="http://en.wikipedia.org/wiki/Erewhon">Erewhon</a>. It could be <a href="http://en.wikipedia.org/wiki/Brobdingnag">Brobdingnag</a>. The choice is yours.</p>
-
-<p>Once you’ve been ruminating on this a bit, he drops the bombshell: You have no control over or knowledge of where you fit in this society. This is called the <a href="http://en.wikipedia.org/wiki/Veil_of_ignorance">Veil of Ignorance</a>, a creation of <a href="http://en.wikipedia.org/wiki/John_Harsanyi">John Harsanyi</a> (an economist and early father of <a href="http://en.wikipedia.org/wiki/Game_theory">game theory</a>). Rawls found that, with the Veil of Ignorance in play, people who participated in this thought experiment gravitated toward creating the most egalitarian societies possible.</p>
-
-<p>It makes complete sense: What rational human being would create a society that enslaves people if they themselves could turn out to be a slave? Who would create a society that excludes women if they might be female? Who would build a world full of stairs if they could be in a wheelchair?</p>
-
-<p>I love this exercise because it makes it easy to create at least basic connections between you and a wide variety of people who are different than you. It helps you realize that we are all equal and all worthy of consideration.</p>
-
-<hr />
-
-<p>What is interesting about egalitarianism, as opposed to similar sounding philosophies like <a href="http://en.wikipedia.org/wiki/The_Communist_Manifesto">modern communism</a>, is that it recognizes that equality of opportunity does not necessitate equality of outcome. In other words, while pushing for equality,  it simultaneously recognizes that we have differences in capability, capacity, and interest.</p>
-
-<p>We are different. We are similar in more ways than we are different, but to ignore our differences is to deny us our  individuality, our personhood, our true selves. But recognizing differences is not the same as assigning a value to those differences. That’s an incredibly important distinction and bears repeating: Just because you recognize that someone is different does not imply you should view or treat them as any more or less human on account of what makes them different. That said, recognizing differences is the first step towards being able to create equality of opportunity.</p>
-
-<p>This is such an important concept in life, but I was not a philosophy major, so I’ll stick to discussing it in terms of what I know a lot about: The Web. Specifically, Web accessibility.</p>
-
-<p>For a great many of us, ensuring our websites are accessible is an afterthought. We talk a good game when it comes to “user centered” this or that, but often treat the word “accessibility” as a synonym for “screen reader”. It’s so much more than that. “Accessibility” is about people. People consume content and use interfaces in many different ways, some similar and some not so similar to how we do it.</p>
-
-<p>Sure, people with visual impairments often use a screen reader to consume content. They might also use a braille touch feedback device or a braille printer. They probably also use a keyboard. Or they may use a touchscreen in concert with audio cues. And yes, visual impairment affects a great percentage of people, but they are only part of the “accessibility” puzzle.</p>
-
-<p>The dimensions of interactive elements—links, buttons, etc.—and their proximity to one another is an important factor in ensuring an interface actually registers our intent (i.e. it helps us avoid <a href="http://en.wikipedia.org/wiki/Typographical_error">fat fingering</a>). <em>Design</em> is an accessibility concern.</p>
-
-<p>The color contrast between text and the background is an important factor in ensuring content remains readable in different lighting situations. <em>Color</em> is an accessibility concern.</p>
-
-<p>The language we use on our sites and in our interfaces directly affects how easy it is for our users to understand what we do, the products we are offering, and why it matters. It also affects how we make our users feel. <em>Language</em> is an accessibility concern.</p>
-
-<p>The size of our Web pages and their associated assets has a direct affect on how long our pages take to download, how much it costs our customers to access them, and (sometimes) even whether or not the content can be reached. <em>Performance</em> is an accessibility concern.</p>
-
-<p>I could keep going, but I’m sure you’re starting to get the point. “Accessibility” is ultimately about ensuring people have equal opportunity to access your content while simultaneously recognizing that we all have special needs—physical limitations, bandwidth limitations, device limitations, etc.—that lead us to have different experiences of the same Web page.</p>
-
-<p>Accessibility <em>is</em> egalitarianism.</p>
-
-<hr />
-
-<p>We are all different, but we all human. We all deserve respect. We all deserve to be treated equally. To be treated fairly.</p>
-
-<p>We need more egalitarianism in this world and the good news is that <em>we</em> can make it happen.</p>
 ]]></content>
   </entry>
   

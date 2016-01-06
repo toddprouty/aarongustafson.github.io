@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Planning | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/planning/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2015-12-29T10:04:19-06:00</updated>
+  <updated>2016-01-06T15:30:07-05:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Interface Experience Maps]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/interface-experience-maps/"/>
-    <updated>2015-05-28T07:43:20-05:00</updated>
+    <updated>2015-05-28T08:43:20-04:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/interface-experience-maps</id>
     <content type="html"><![CDATA[<p>One of the greatest challenges of progressive enhancement lies not with the coding, but with the planning. It can be incredibly challenging to articulate how a single interface might adapt to a wide variety of situations. Interface Experience Maps (Ix Maps) can help.</p>
 
