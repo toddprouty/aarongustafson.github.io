@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Personal | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/personal/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2016-01-26T18:32:41-05:00</updated>
+  <updated>2016-01-26T18:45:43-05:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -26,9 +26,7 @@
 
 <p>Thankfully, apart from the very finger-unfriendly hellscape the screen had become, the rest of the phone completely functional. If I was careful where and how I swiped, I could do pretty much anything I needed to. And I did exactly that for a few days while I looked into my options for fixing it.</p>
 
-<p>It was an iPhone 6 I purchased right when they came out, so a warranty repair was not an option. And I don’t see the point of paying for phone insurance or Apple Care[^1], so I was on my own to cover the cost of the repair. No biggie; it was my fault for putting it in the loose pocket of my pajama pants anyway.</p>
-
-<p>[^1] This is the first device I’ve broken in more than a decade of (ab)using expensive smartphones.</p>
+<p>It was an iPhone 6 I purchased right when they came out, so a warranty repair was not an option. And I don’t see the point of paying for phone insurance or Apple Care<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>, so I was on my own to cover the cost of the repair. No biggie; it was my fault for putting it in the loose pocket of my pajama pants anyway.</p>
 
 <p>I began researching my options:</p>
 
@@ -179,6 +177,13 @@
 <p>We talked for a few more minutes, but it was clear I was out of options. I could file a complaint with Apple (and have), but I am skeptical they even pay attention to that stuff. I know they don’t chime in on their own forums. My only other option was to share my story with you, in hopes you might avoid a similar situation.</p>
 
 <p>So consider yourself warned: If you send your phone to Apple for something as simple as a screen repair, they just may brick your phone and charge you for the convenience. Oh and the replacement phone only has a 90-day warranty. <em>Hooray!</em></p>
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>This is the first device I’ve broken in more than a decade of (ab)using expensive smartphones. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 ]]></content>
   </entry>
   
