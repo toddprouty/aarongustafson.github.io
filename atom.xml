@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson Latest Posts &amp; Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2016-01-20T18:12:26-05:00</updated>
+	<updated>2016-01-26T16:17:10-05:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,139 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Vorlon Extension]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/VorlonExtension/"/>
+				<updated>2016-01-25T09:56:58-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/VorlonExtension</id>
+				<content type="html"><![CDATA[<p><a href="http://vorlonjs.com/">Vorlon.js</a> is a pretty neat nodejs-based remote debugging tool from some of my colleagues at Microsoft. And now it’s available as a browser extension!</p>
+<p><a rel="full-article" href="https://github.com/MicrosoftDX/VorlonExtension">Read on Microsoft DX on GitHub&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Why Hover Menus Are Problematic]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/why-hover-menus-are-problematic-b21d6c7de91c/"/>
+				<updated>2016-01-25T09:56:27-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/why-hover-menus-are-problematic-b21d6c7de91c</id>
+				<content type="html"><![CDATA[<p>Lots of good information in this piece, but here’s the key takeaway:</p>
+
+<blockquote>
+  <p>The simplest solution is to show a menu via click. Click works when the user taps, when the user clicks with the mouse, and when the user tabs via keyboard and presses enter.</p>
+</blockquote>
+<p><a rel="full-article" href="https://medium.com/simple-human/why-hover-menus-are-problematic-b21d6c7de91c#.n5cw5zr1n">Read on Medium&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Submitting a Pull Request to Node.js With ChakraCore]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/nodejs-chakracore-mainline/"/>
+				<updated>2016-01-25T09:56:14-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/nodejs-chakracore-mainline</id>
+				<content type="html"><![CDATA[<p>Folks on the Chakra team at Microsoft have updated node.js to enable users to swap in <a href="https://github.com/Microsoft/ChakraCore">their open source ChakraCore JavaScript engine</a> for the default <a href="https://developers.google.com/v8/?hl=en">V8 JavaScript engine from Google</a>. <a href="https://github.com/nodejs/node/pull/4765">This is pretty big huge.</a></p>
+<p><a rel="full-article" href="https://blogs.windows.com/msedgedev/2016/01/19/nodejs-chakracore-mainline/">Read on MS Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Lawsuits Rise: Blind Plaintiffs Sue Additional Retailers for Website Accessibility/ADA Claims]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/lawsuits-rise-blind-plaintiffs-sue-additional-retailers-for%20website-accessibility-ada-claims/"/>
+				<updated>2016-01-25T09:55:57-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/lawsuits-rise-blind-plaintiffs-sue-additional-retailers-for website-accessibility-ada-claims</id>
+				<content type="html"><![CDATA[<p>Not at all surprising…</p>
+
+<blockquote>
+  <p>Patagonia, Ace Hardware, Aeropostale, Bed Bath &amp; Beyond and Estee Lauder are the most recent companies sued by blind plaintiffs, alleging that the retailers’ websites are not accessible to the blind as required by the Americans with Disabilities Act (ADA).</p>
+</blockquote>
+<p><a rel="full-article" href="http://www.lexology.com/library/detail.aspx?g=073805a5-0424-48a4-9385-dce5d2eeb657">Read on Lexology&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[How Creating Accessibility for Everyone Benefits Us All]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/how-creating-accessibility-for-everyone-benefits-us-all/"/>
+				<updated>2016-01-25T09:54:33-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/how-creating-accessibility-for-everyone-benefits-us-all</id>
+				<content type="html"><![CDATA[<p>A good piece on why accessibility matters and steps JPMorgan Chase is taking to incorporate it in everything they do.</p>
+<p><a rel="full-article" href="http://www.forbes.com/sites/jpmorganchase/2015/12/03/how-creating-accessibility-for-everyone-benefits-us-all/#2715e4857a0b676ad03d6756">Read on Forbes&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[The Value of Accessibility]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/the-value-of-accessibility/"/>
+				<updated>2016-01-25T09:54:13-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/the-value-of-accessibility</id>
+				<content type="html"><![CDATA[<p>An excellent primer on accessibility from Charles McQuilkin.</p>
+<p><a rel="full-article" href="http://www.webdesignerdepot.com/2015/12/the-value-of-accessibility/">Read on Webdesigner Depot&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[SVG A11y Test Cases]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/svg-a11y-tests/"/>
+				<updated>2016-01-25T09:54:01-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/svg-a11y-tests</id>
+				<content type="html"><![CDATA[<p>Test cases for SVG accessibility, with and without ARIA.</p>
+<p><a rel="full-article" href="http://svg-access-w3cg.github.io/svg-a11y-tests/">Read on W3C Accessible SVG Community Group on Github&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[A11y: Tables and Borders]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/a11y-tables-and-borders/"/>
+				<updated>2016-01-25T09:53:48-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/a11y-tables-and-borders</id>
+				<content type="html"><![CDATA[<p>This is an interesting discovery:</p>
+
+<blockquote>
+  <p>VoiceOver uses borders as a criteria to determine if a table is a data table or not.</p>
+</blockquote>
+<p><a rel="full-article" href="http://www.tetchi.ca/a11y-tables-and-borders/">Read on Tetchi Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Woe-ARIA: The Surprisingly but Ridiculously Complicated World of Aria-label/ledby]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/woe-aria-surprisingly-but-ridiculously/"/>
+				<updated>2016-01-25T09:53:34-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/woe-aria-surprisingly-but-ridiculously</id>
+				<content type="html"><![CDATA[<p>An in-depth examination of <code>aria-label</code> and <code>aria-labelledby</code>.</p>
+<p><a rel="full-article" href="http://blog.jantrid.net/2015/12/woe-aria-surprisingly-but-ridiculously.html">Read on Jantrid&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[The Accessibility Mindset]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/the-accessibility-mindset/"/>
+				<updated>2016-01-25T09:53:19-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/the-accessibility-mindset</id>
+				<content type="html"><![CDATA[<p>A few simple, practical examples of how to make your interfaces more accessible, by <a href="https://yatil.net/">Eric Eggert</a>.</p>
+<p><a rel="full-article" href="https://24ways.org/2015/the-accessibility-mindset/">Read on 24 ways&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[On Accessibility and the Lack of Proper HTML]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/on-accessibility-and-the-lack-of-proper-html/"/>
+				<updated>2016-01-25T09:52:56-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/on-accessibility-and-the-lack-of-proper-html</id>
+				<content type="html"><![CDATA[<p>Great minds think alike… I wrote at length about native semantics vs. fully-customized divs and the number of dependencies that come with the latter in <a href="http://adaptivewebdesign.info/2nd-edition/">the second edition of <em>Adaptive Web Design</em></a>.</p>
+<p><a rel="full-article" href="http://www.iandevlin.com/blog/2016/01/opinion/on-accessibility-and-the-lack-of-proper-html">Read on Ian Devlin&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -229,127 +362,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/accessibility-advocacy-and-pragmatism-f848602155ae</id>
 				<content type="html"><![CDATA[<p>Some very interesting thoughts about accessibility advocacy from <a href="https://twitter.com/ppatel">Pratik Patel</a>.</p>
 <p><a rel="full-article" href="https://medium.com/@ppatel/accessibility-advocacy-and-pragmatism-f848602155ae#.pv2p17sgi">Read on Medium&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[“Learn More” Links: You Can Do Better]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/learn-more-links/"/>
-				<updated>2015-12-21T16:46:55-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/learn-more-links</id>
-				<content type="html"><![CDATA[<p>“Learn More”/“Read More” has definitely inherited the mantle of “Click Here”. Do your users a favor and write descriptive link text. It’s really not that hard.</p>
-<p><a rel="full-article" href="https://www.nngroup.com/articles/learn-more-links/">Read on Nielsen Norman Group&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Updated WebGL Benchmark Results]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/updated-webgl-benchmark-results/"/>
-				<updated>2015-12-21T16:45:54-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/updated-webgl-benchmark-results</id>
-				<content type="html"><![CDATA[<p>If you’re into this kind of thing…</p>
-<p><a rel="full-article" href="http://blogs.unity3d.com/2015/12/15/updated-webgl-benchmark-results/">Read on Unity Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Joomla 3.4.6 Fixes Zero-Day Remote Execution Bug Used in the Wild]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/joomla-3-4-6-fixes-zero-day-remote-execution-bug-used-in-the-wild-497599/"/>
-				<updated>2015-12-21T16:42:14-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/joomla-3-4-6-fixes-zero-day-remote-execution-bug-used-in-the-wild-497599</id>
-				<content type="html"><![CDATA[<p>I harp on this a lot: You can never trust the client (as in “the browser”). In this case, Joomla was not sanitizing User Agent strings before storing them in the database, <a href="https://developer.joomla.org/security-centre/630-20151214-core-remote-code-execution-vulnerability.html">opening a garage door-sized security hole</a>.</p>
-<p><a rel="full-article" href="http://news.softpedia.com/news/joomla-3-4-6-fixes-zero-day-remote-execution-bug-used-in-the-wild-497599.shtml">Read on Softpedia&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Progressive Enhancement Only a Client Side Thing? No!]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/progressive-enhancement-only-a-client-side-thing-no/"/>
-				<updated>2015-12-21T16:37:59-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/progressive-enhancement-only-a-client-side-thing-no</id>
-				<content type="html"><![CDATA[<p>There are lots of places the progressive enhancement mindset can be put into practice. Of course you do often control the server, so a particular feature being unavailable isn’t usually an issue, but good open source software looks for alternative tools—<a href="http://www.sitepoint.com/imagick-vs-gd/">ImageMagick vs. GD</a>, for example—and adjusts it’s program accordingly.</p>
-<p><a rel="full-article" href="http://mpulp.mobi/2015/12/progressive-enhancement-only-a-client-side-thing-no/">Read on mpulp&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Turner & Google Vets Create New Content Technology]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/speakpage/"/>
-				<updated>2015-12-21T16:03:24-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/speakpage</id>
-				<content type="html"><![CDATA[<p>Some semi-locals (<abbr aria-label="Atlanta">ATL</abbr> is only 2 hours from <abbr aria-label="Chattanooga">Chatty</abbr>) look to be taking on the likes of <a href="http://www.readspeaker.com/">ReadSpeaker</a> (who I’ve worked with on <a href="http://webstandardssherpa.com/"><cite>Web Standards Sherpa</cite></a>) in the automated HTML-to-spoken-word automation space. If <a href="https://speakpage.com/">SpeakPage</a> can pull it off, this has some real potential.</p>
-<p><a rel="full-article" href="http://www.hypepotamus.com/companies/speakpage/">Read on Hypepotamus&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Photo Upload and Progressive Enhancement for FixMyStreet]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/photo-upload-and-progressive-enhancement-for-fixmystreet/"/>
-				<updated>2015-12-21T15:58:45-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/photo-upload-and-progressive-enhancement-for-fixmystreet</id>
-				<content type="html"><![CDATA[<p>An excellent overview of progressively enhancing image uploads in what many would call a “web app”. See also <a href="https://www.mysociety.org/2011/07/08/technical-fixmystreet-maps/">this great writeup they did on their progressively enhanced maps</a>.</p>
-<p><a rel="full-article" href="https://www.mysociety.org/2015/12/18/photo-upload-and-progressive-enhancement-for-fixmystreet/">Read on mySociety&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Does SVG Text Pass WCAG 1.4.5 (Images of Text)?]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/does-svg-text-pass-wcag-1-4-5-images-of-text/"/>
-				<updated>2015-12-14T15:35:15-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/does-svg-text-pass-wcag-1-4-5-images-of-text</id>
-				<content type="html"><![CDATA[<p><a href="http://tink.uk/">Léonie Watson</a> investigates and says… yes.</p>
-<p><a rel="full-article" href="https://www.paciellogroup.com/blog/2015/12/does-svg-text-pass-wcag-1-4-5-images-of-text/">Read on The Paciello Group&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[There’s a Free Template for That.]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/theres-a-free-template-for-that-24c9d6f99cfb/"/>
-				<updated>2015-12-14T15:31:18-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/theres-a-free-template-for-that-24c9d6f99cfb</id>
-				<content type="html"><![CDATA[<p>An excellent piece from <a href="http://laurapatti.com/">Laura Patti</a>, pondering the value of design in the age of so many “good enough” templates and frameworks.</p>
-<p><a rel="full-article" href="https://medium.com/@LampPostGroup/there-s-a-free-template-for-that-24c9d6f99cfb#.rm78mhpxp">Read on Laura Patti on Medium&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Automatic Testing of BBC Accessibility Standards]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/bbc-a11y/"/>
-				<updated>2015-12-11T13:07:18-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/bbc-a11y</id>
-				<content type="html"><![CDATA[<p>A tool for automated testing of a list of URLs for accessibility compliance.</p>
-<p><a rel="full-article" href="https://github.com/cucumber-ltd/bbc-a11y">Read on BBC on GitHub&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[When Touch-Screen Inaccessibility Becomes a Question of Safety]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/when-touch-screen-inaccessibility-becomes-question-safety-asuncion/"/>
-				<updated>2015-12-11T13:05:48-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/when-touch-screen-inaccessibility-becomes-question-safety-asuncion</id>
-				<content type="html"><![CDATA[<p>Touchscreen without audio cues are a <em>big</em> problem, especially on airplanes.</p>
-<p><a rel="full-article" href="https://www.linkedin.com/pulse/when-touch-screen-inaccessibility-becomes-question-safety-asuncion">Read on LinkedIn&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Taking Let’s Encrypt for a Spin]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/taking-lets-encrypt-for-a-spin/"/>
-				<updated>2015-12-10T12:37:47-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/taking-lets-encrypt-for-a-spin</id>
-				<content type="html"><![CDATA[<p>I walked you through my journey to HTTPS a few weeks back, but I’m intrigued by Let’s Encrypt. Honestly, I would have preferred taking that approach as it looks much easier to me.</p>
-<p><a rel="full-article" href="https://timkadlec.com/2015/12/taking-lets-encrypt-for-a-spin/">Read on TimKadlec.com&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
