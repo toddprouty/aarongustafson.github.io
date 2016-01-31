@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2016-01-30T15:47:53-05:00</updated>
+	<updated>2016-01-31T13:35:59-08:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -13,12 +13,23 @@
 
 	
 		
+			<entry>
+				<title type="html"><![CDATA[The Ultimate Section 508 Guide for Students: Content for Everyone]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/student-section508/"/>
+				<updated>2016-01-30T15:32:29-08:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/student-section508</id>
+				<content type="html"><![CDATA[<p>I don’t know about “ultimate”, but this is a good overview of why accessibility matters and what you need to know about Section 508.</p>
+<p><a rel="full-article" href="http://www.whoishostingthis.com/resources/student-section508/">Read on WhoIsHostingThis?&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
 	
 		
 			<entry>
 				<title type="html"><![CDATA[Vorlon Extension]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/VorlonExtension/"/>
-				<updated>2016-01-25T09:56:58-05:00</updated>
+				<updated>2016-01-25T06:56:58-08:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/VorlonExtension</id>
 				<content type="html"><![CDATA[<p><a href="http://vorlonjs.com/">Vorlon.js</a> is a pretty neat nodejs-based remote debugging tool from some of my colleagues at Microsoft. And now it’s available as a browser extension!</p>
 <p><a rel="full-article" href="https://github.com/MicrosoftDX/VorlonExtension">Read on Microsoft DX on GitHub&nbsp;&rarr;</a></p>]]></content>
@@ -29,7 +40,7 @@
 			<entry>
 				<title type="html"><![CDATA[Why Hover Menus Are Problematic]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/why-hover-menus-are-problematic-b21d6c7de91c/"/>
-				<updated>2016-01-25T09:56:27-05:00</updated>
+				<updated>2016-01-25T06:56:27-08:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/why-hover-menus-are-problematic-b21d6c7de91c</id>
 				<content type="html"><![CDATA[<p>Lots of good information in this piece, but here’s the key takeaway:</p>
 
@@ -44,7 +55,7 @@
 			<entry>
 				<title type="html"><![CDATA[Submitting a Pull Request to Node.js With ChakraCore]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/nodejs-chakracore-mainline/"/>
-				<updated>2016-01-25T09:56:14-05:00</updated>
+				<updated>2016-01-25T06:56:14-08:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/nodejs-chakracore-mainline</id>
 				<content type="html"><![CDATA[<p>Folks on the Chakra team at Microsoft have updated node.js to enable users to swap in <a href="https://github.com/Microsoft/ChakraCore">their open source ChakraCore JavaScript engine</a> for the default <a href="https://developers.google.com/v8/?hl=en">V8 JavaScript engine from Google</a>. <a href="https://github.com/nodejs/node/pull/4765">This is pretty big huge.</a></p>
 <p><a rel="full-article" href="https://blogs.windows.com/msedgedev/2016/01/19/nodejs-chakracore-mainline/">Read on MS Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
@@ -55,7 +66,7 @@
 			<entry>
 				<title type="html"><![CDATA[Lawsuits Rise: Blind Plaintiffs Sue Additional Retailers for Website Accessibility/ADA Claims]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/lawsuits-rise-blind-plaintiffs-sue-additional-retailers-for%20website-accessibility-ada-claims/"/>
-				<updated>2016-01-25T09:55:57-05:00</updated>
+				<updated>2016-01-25T06:55:57-08:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/lawsuits-rise-blind-plaintiffs-sue-additional-retailers-for website-accessibility-ada-claims</id>
 				<content type="html"><![CDATA[<p>Not at all surprising…</p>
 
@@ -70,7 +81,7 @@
 			<entry>
 				<title type="html"><![CDATA[How Creating Accessibility for Everyone Benefits Us All]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/how-creating-accessibility-for-everyone-benefits-us-all/"/>
-				<updated>2016-01-25T09:54:33-05:00</updated>
+				<updated>2016-01-25T06:54:33-08:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/how-creating-accessibility-for-everyone-benefits-us-all</id>
 				<content type="html"><![CDATA[<p>A good piece on why accessibility matters and steps JPMorgan Chase is taking to incorporate it in everything they do.</p>
 <p><a rel="full-article" href="http://www.forbes.com/sites/jpmorganchase/2015/12/03/how-creating-accessibility-for-everyone-benefits-us-all/#2715e4857a0b676ad03d6756">Read on Forbes&nbsp;&rarr;</a></p>]]></content>
@@ -81,7 +92,7 @@
 			<entry>
 				<title type="html"><![CDATA[The Value of Accessibility]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/the-value-of-accessibility/"/>
-				<updated>2016-01-25T09:54:13-05:00</updated>
+				<updated>2016-01-25T06:54:13-08:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/the-value-of-accessibility</id>
 				<content type="html"><![CDATA[<p>An excellent primer on accessibility from Charles McQuilkin.</p>
 <p><a rel="full-article" href="http://www.webdesignerdepot.com/2015/12/the-value-of-accessibility/">Read on Webdesigner Depot&nbsp;&rarr;</a></p>]]></content>
@@ -92,7 +103,7 @@
 			<entry>
 				<title type="html"><![CDATA[SVG A11y Test Cases]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/svg-a11y-tests/"/>
-				<updated>2016-01-25T09:54:01-05:00</updated>
+				<updated>2016-01-25T06:54:01-08:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/svg-a11y-tests</id>
 				<content type="html"><![CDATA[<p>Test cases for SVG accessibility, with and without ARIA.</p>
 <p><a rel="full-article" href="http://svg-access-w3cg.github.io/svg-a11y-tests/">Read on W3C Accessible SVG Community Group on Github&nbsp;&rarr;</a></p>]]></content>
@@ -103,7 +114,7 @@
 			<entry>
 				<title type="html"><![CDATA[A11y: Tables and Borders]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/a11y-tables-and-borders/"/>
-				<updated>2016-01-25T09:53:48-05:00</updated>
+				<updated>2016-01-25T06:53:48-08:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/a11y-tables-and-borders</id>
 				<content type="html"><![CDATA[<p>This is an interesting discovery:</p>
 
@@ -118,7 +129,7 @@
 			<entry>
 				<title type="html"><![CDATA[Woe-ARIA: The Surprisingly but Ridiculously Complicated World of Aria-label/ledby]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/woe-aria-surprisingly-but-ridiculously/"/>
-				<updated>2016-01-25T09:53:34-05:00</updated>
+				<updated>2016-01-25T06:53:34-08:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/woe-aria-surprisingly-but-ridiculously</id>
 				<content type="html"><![CDATA[<p>An in-depth examination of <code>aria-label</code> and <code>aria-labelledby</code>.</p>
 <p><a rel="full-article" href="http://blog.jantrid.net/2015/12/woe-aria-surprisingly-but-ridiculously.html">Read on Jantrid&nbsp;&rarr;</a></p>]]></content>
@@ -129,7 +140,7 @@
 			<entry>
 				<title type="html"><![CDATA[The Accessibility Mindset]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/the-accessibility-mindset/"/>
-				<updated>2016-01-25T09:53:19-05:00</updated>
+				<updated>2016-01-25T06:53:19-08:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/the-accessibility-mindset</id>
 				<content type="html"><![CDATA[<p>A few simple, practical examples of how to make your interfaces more accessible, by <a href="https://yatil.net/">Eric Eggert</a>.</p>
 <p><a rel="full-article" href="https://24ways.org/2015/the-accessibility-mindset/">Read on 24 ways&nbsp;&rarr;</a></p>]]></content>
@@ -140,7 +151,7 @@
 			<entry>
 				<title type="html"><![CDATA[On Accessibility and the Lack of Proper HTML]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/on-accessibility-and-the-lack-of-proper-html/"/>
-				<updated>2016-01-25T09:52:56-05:00</updated>
+				<updated>2016-01-25T06:52:56-08:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/on-accessibility-and-the-lack-of-proper-html</id>
 				<content type="html"><![CDATA[<p>Great minds think alike… I wrote at length about native semantics vs. fully-customized divs and the number of dependencies that come with the latter in <a href="http://adaptivewebdesign.info/2nd-edition/">the second edition of <em>Adaptive Web Design</em></a>.</p>
 <p><a rel="full-article" href="http://www.iandevlin.com/blog/2016/01/opinion/on-accessibility-and-the-lack-of-proper-html">Read on Ian Devlin&nbsp;&rarr;</a></p>]]></content>
@@ -151,7 +162,7 @@
 			<entry>
 				<title type="html"><![CDATA[WHATWG: Compatibility Standard]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/compat/"/>
-				<updated>2016-01-14T21:08:30-05:00</updated>
+				<updated>2016-01-14T18:08:30-08:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/compat</id>
 				<content type="html"><![CDATA[<p>A list of things browsers must implement to ensure poorly-coded sites work. That this is needed deeply saddens me.</p>
 <p><a rel="full-article" href="https://compat.spec.whatwg.org/">Read on WHATWG&nbsp;&rarr;</a></p>]]></content>
@@ -162,7 +173,7 @@
 			<entry>
 				<title type="html"><![CDATA[Safari 9.1]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/Safari_9_1/"/>
-				<updated>2016-01-14T21:01:56-05:00</updated>
+				<updated>2016-01-14T18:01:56-08:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/Safari_9_1</id>
 				<content type="html"><![CDATA[<p>The <code>picture</code> element, faster taps, desktop gestures, and more are coming in the next iteration of Apple’s browser.</p>
 <p><a rel="full-article" href="https://developer.apple.com/library/prerelease/mac/releasenotes/General/WhatsNewInSafari/Articles/Safari_9_1.html">Read on Apple Developer&nbsp;&rarr;</a></p>]]></content>
@@ -173,7 +184,7 @@
 			<entry>
 				<title type="html"><![CDATA[Why Is Comcast Interrupting My Web-Browsing to Upsell Me on a New Modem?]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/why-is-comcast-interrupting-my-web-browsing-to-upsell-me-on-a-new-modem/"/>
-				<updated>2016-01-14T17:46:02-05:00</updated>
+				<updated>2016-01-14T14:46:02-08:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/why-is-comcast-interrupting-my-web-browsing-to-upsell-me-on-a-new-modem</id>
 				<content type="html"><![CDATA[<p>Yep, they’re <a href="https://www.aaron-gustafson.com/notebook/the-network-effect/">at it</a> <a href="https://www.aaron-gustafson.com/notebook/more-proof-we-dont-control-our-web-pages/">again</a>…</p>
 <p><a rel="full-article" href="http://consumerist.com/2016/01/12/why-is-comcast-interrupting-my-web-browsing-to-upsell-me-on-a-new-modem/">Read on Consumerist&nbsp;&rarr;</a></p>]]></content>
@@ -184,7 +195,7 @@
 			<entry>
 				<title type="html"><![CDATA[Content & Display Patterns]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/content-display-patterns/"/>
-				<updated>2016-01-06T14:58:58-05:00</updated>
+				<updated>2016-01-06T11:58:58-08:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/content-display-patterns</id>
 				<content type="html"><![CDATA[<p>Dan Mall’s excellent overview of decoupling content and display using structured data to make your sites more flexible.</p>
 <p><a rel="full-article" href="http://danielmall.com/articles/content-display-patterns/">Read on Dan Mall&nbsp;&rarr;</a></p>]]></content>
@@ -195,7 +206,7 @@
 			<entry>
 				<title type="html"><![CDATA[Microsoft Readies Kill Switch for Internet Explorer 8, 9, and 10]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/microsoft-readies-kill-switch-for-internet-explorer-8-9-and-10/"/>
-				<updated>2016-01-06T14:54:07-05:00</updated>
+				<updated>2016-01-06T11:54:07-08:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/microsoft-readies-kill-switch-for-internet-explorer-8-9-and-10</id>
 				<content type="html"><![CDATA[<p>Microsoft is end-of-life-ing IE8–10, but that doesn’t mean we should stop supporting them. Some people <a href="http://www.networkworld.com/article/2224510/microsoft-subnet/some-windows-xp-users-just-can-t-afford-to-upgrade.html">can’t upgrade for reasons way beyond their control</a>.</p>
 <p><a rel="full-article" href="http://arstechnica.co.uk/information-technology/2016/01/microsoft-readies-kill-switch-for-internet-explorer-8-9-and-10/">Read on Ars Technica UK&nbsp;&rarr;</a></p>]]></content>
@@ -206,7 +217,7 @@
 			<entry>
 				<title type="html"><![CDATA[The Problem With Progressive Enhancement]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/the-problem-with-progressive-enhancement/"/>
-				<updated>2016-01-06T14:44:42-05:00</updated>
+				<updated>2016-01-06T11:44:42-08:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/the-problem-with-progressive-enhancement</id>
 				<content type="html"><![CDATA[<p>Alex Lande doesn’t believe optimizing for a no-JavaScript scenario makes sense, but he does believe in building a robust web experience pays huge dividends.</p>
 
@@ -219,17 +230,6 @@
 			</entry>
 		
 	
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Strategies for Website Accessibility, for Ecommerce]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/95177-Strategies-for-Website-Accessibility-for-Ecommerce/"/>
-				<updated>2015-12-21T16:51:29-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/95177-Strategies-for-Website-Accessibility-for-Ecommerce</id>
-				<content type="html"><![CDATA[<p>Accessibility is just good customer service. If you run an commerce shop, you should be following this article’s advice. Heck, if you run <em>any</em> kind of site, you should do it.</p>
-<p><a rel="full-article" href="http://www.practicalecommerce.com/articles/95177-Strategies-for-Website-Accessibility-for-Ecommerce">Read on Practical Ecommerce&nbsp;&rarr;</a></p>]]></content>
-			</entry>
 		
 	
 </feed>

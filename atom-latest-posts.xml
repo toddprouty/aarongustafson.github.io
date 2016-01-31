@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Posts]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-posts.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2016-01-30T15:47:53-05:00</updated>
+	<updated>2016-01-31T13:35:59-08:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -13,10 +13,12 @@
 
 	
 		
+	
+		
 			<entry>
 				<title type="html"><![CDATA[Apple Support: Honeybadger]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/apple-support-honeybadger/"/>
-				<updated>2016-01-26T17:34:17-05:00</updated>
+				<updated>2016-01-26T14:34:17-08:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/apple-support-honeybadger</id>
 				<content type="html"><![CDATA[<p>My iPhone fell clumsily out of my pocket when I was sitting down in the kitchen the other day. <em>Thwack!</em> It fell face-first onto the tile from my seated position a mere 18 inches up. Of course the screen cracked. Protective case be damned, the cracks spread across the screen like a spider web cast from razor blades.</p>
 
@@ -226,7 +228,7 @@
 			<entry>
 				<title type="html"><![CDATA[Affirming User Choice With Checkboxes]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/affirming-user-choice-with-checkboxes/"/>
-				<updated>2016-01-06T14:24:31-05:00</updated>
+				<updated>2016-01-06T11:24:31-08:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/affirming-user-choice-with-checkboxes</id>
 				<content type="html"><![CDATA[<p>“Checkbox” form controls have long been a part of software. They enable users to provide a simple binary response—yes or no. On the Web, we often see them in two scenarios: confirmations and multiple choice.</p>
 
@@ -346,8 +348,6 @@
 <p>Checkboxes are an invaluable tool in the form building tool chest. Understanding their purpose and capabilities is key to using them properly and ensuring your forms are usable to the broadest number of users.</p>
 ]]></content>
 			</entry>
-		
-	
 		
 	
 </feed>

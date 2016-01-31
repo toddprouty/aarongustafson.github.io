@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Publications | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/publications/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2016-01-30T15:47:53-05:00</updated>
+  <updated>2016-01-31T13:35:59-08:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Avoiding Link Rot in Print With the Help of Perma.cc]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/avoiding-linkrot-in-print-with-the-help-of-perma-dot-cc/"/>
-    <updated>2015-12-02T16:03:35-05:00</updated>
+    <updated>2015-12-02T13:03:35-08:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/avoiding-linkrot-in-print-with-the-help-of-perma-dot-cc</id>
     <content type="html"><![CDATA[<p>I think we can all agree, <a href="https://en.wikipedia.org/wiki/Link_rot">link rot</a> is a problem. A 2014 study by Harvard Law School determined that <a href="http://journals.cambridge.org/action/displayAbstract?fromPage=online&amp;aid=9282809&amp;fileId=S1472669614000255/">roughly 50% of the URLs referenced in U.S. Supreme Court opinions no longer work</a>. That’s <em>terrifying</em>.</p>
 
@@ -41,7 +41,7 @@
   <entry>
     <title type="html"><![CDATA[Bidding Farewell to Shirley the Goat]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/bidding-farewell-to-shirley-the-goat/"/>
-    <updated>2015-03-09T09:35:42-04:00</updated>
+    <updated>2015-03-09T06:35:42-07:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/bidding-farewell-to-shirley-the-goat</id>
     <content type="html"><![CDATA[<figure id="fig-2015-03-09-02" class="media-container media-container--right"><img src="http://cdn.webstandardssherpa.com/c/i/logo.png" alt="The Web Standards Sherpa logo, by Dan Cederholm" /></figure>
 
@@ -66,7 +66,7 @@
   <entry>
     <title type="html"><![CDATA[Revisiting (and Releasing) <cite>Adaptive Web Design</cite>]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/revisiting-and-releasing-adaptive-web-design/"/>
-    <updated>2015-01-05T14:10:49-05:00</updated>
+    <updated>2015-01-05T11:10:49-08:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/revisiting-and-releasing-adaptive-web-design</id>
     <content type="html"><![CDATA[<p>As you probably know, back in 2011 Easy Readers published my first solo book: <a href="http://adaptivewebdesign.info"><cite>Adaptive Web Design</cite></a>. It was an immediate hit and the response to continues to be tremendous even though it will turn four this coming May (which has to be like 80 in technology book years… many are outdated before they are even released).</p>
 
