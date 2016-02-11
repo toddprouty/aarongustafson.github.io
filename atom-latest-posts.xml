@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Posts]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-posts.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2016-01-31T16:56:50-08:00</updated>
+	<updated>2016-02-11T17:26:08-05:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -15,10 +15,22 @@
 		
 	
 		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
 			<entry>
 				<title type="html"><![CDATA[Apple Support: Honeybadger]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/apple-support-honeybadger/"/>
-				<updated>2016-01-26T14:34:17-08:00</updated>
+				<updated>2016-01-26T17:34:17-05:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/apple-support-honeybadger</id>
 				<content type="html"><![CDATA[<p>My iPhone fell clumsily out of my pocket when I was sitting down in the kitchen the other day. <em>Thwack!</em> It fell face-first onto the tile from my seated position a mere 18 inches up. Of course the screen cracked. Protective case be damned, the cracks spread across the screen like a spider web cast from razor blades.</p>
 
@@ -212,142 +224,6 @@
 	
 		
 	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Affirming User Choice With Checkboxes]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/affirming-user-choice-with-checkboxes/"/>
-				<updated>2016-01-06T11:24:31-08:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/affirming-user-choice-with-checkboxes</id>
-				<content type="html"><![CDATA[<p>“Checkbox” form controls have long been a part of software. They enable users to provide a simple binary response—yes or no. On the Web, we often see them in two scenarios: confirmations and multiple choice.</p>
-
-<!-- more -->
-
-<h2 id="confirmation-checkboxes">Confirmation Checkboxes</h2>
-
-<p>Standalone checkboxes are often employed to enable users to affirm a statement, as in <a href="#fig-2016-01-06-01">this example</a> from <a href="https://online.americanexpress.com/myca/logon/us/action/LogonHandler?request_type=LogonHandler&amp;Face=en_US#lilo_loginForm">the American Express login form</a> where a customer can indicate they’d like the site to remember them.</p>
-
-<figure id="fig-2016-01-06-01" class="media-container"><img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/01.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/01.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="" /><figcaption>American Express’ login form offers users the option of being remembered. As that is a binary choice (e.g. yes or no), the checkbox makes sense.</figcaption></figure>
-
-<p>Here’s a simplification of the markup they’re using:</p>
-
-<div><script src="https://gist.github.com/d281f889a11634b45280.js?file=american-express-login-simplified.html"></script>
-<noscript><pre><code>&lt;input type=&quot;checkbox&quot; id=&quot;lilo_checkBox&quot; name=&quot;REMEMBERME&quot;&gt;
-&lt;label for=&quot;lilo_checkBox&quot;&gt;Remember Me&lt;/label&gt;</code></pre></noscript></div>
-
-<p>This works really well, though I generally prefer to <a href="https://www.aaron-gustafson.com/notebook/labeled-with-love/#an-alternate-approach">combine explicit and implicit labeling</a> to simplify my CSS selectors and broaden their applicability. Here’s how I would rewrite this control:</p>
-
-<div><script src="https://gist.github.com/d281f889a11634b45280.js?file=american-express-login-reimagined.html"></script>
-<noscript><pre><code>&lt;label for=&quot;lilo_checkBox&quot;&gt;
-  &lt;input type=&quot;checkbox&quot; id=&quot;lilo_checkBox&quot; name=&quot;REMEMBERME&quot;&gt;
-  Remember Me
-&lt;/label&gt;</code></pre></noscript></div>
-
-<p>Regardless of the markup pattern itself, it’s important to note the explicit association of the form control and the <code>label</code> element (using the <code>for</code> attribute). You’ll also notice the input has a straightforward <code>name</code> value which will be submitted to the back end if the user ticks the box.</p>
-
-<p>It’s worth noting that some back-end systems may require a value be submitted for the given variable name (in this case, “REMEMBERME”) regardless of whether the user has ticked the checkbox. If that’s a requirement, you can alter the pattern to use a hidden <code>input</code> as well:</p>
-
-<div><script src="https://gist.github.com/d281f889a11634b45280.js?file=american-express-login-with-hidden.html"></script>
-<noscript><pre><code>&lt;input type=&quot;hidden&quot; name=&quot;REMEMBERME&quot; value=&quot;no&quot;&gt;
-&lt;input type=&quot;checkbox&quot; id=&quot;lilo_checkBox&quot; name=&quot;REMEMBERME&quot; value=&quot;yes&quot;&gt;
-&lt;label for=&quot;lilo_checkBox&quot;&gt;Remember Me&lt;/label&gt;</code></pre></noscript></div>
-
-<p>The source order matters because with matching <code>name</code> values, the final submittable <code>value</code> will always be the one the back-end receives. With this setup, the <code>value</code> of “no” (from the hidden <code>input</code>) will be submitted by default. If the checkbox is ticked, its <code>value</code> is submitted instead, setting REMEMBERME to “yes”.</p>
-
-<h2 id="multiple-choice-checkboxes">Multiple Choice Checkboxes</h2>
-
-<p>The other way we often see checkboxes used is to enable users to choose zero or more items from a collection of options. Consider <a href="#fig-2016-01-06-02">this example</a> from <a href="http://chadevicelab.org/book-time">the Chattanooga Open Device Lab’s reservation form</a>. It allows users to choose the devices they’d like to include in their test matrix:</p>
-
-<figure id="fig-2016-01-06-02" class="media-container"><img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/02.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/02.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="" /><figcaption>In this excerpt from the reservation form on the Chattanooga Open Device Lab website, users can choose to include gaming system options.</figcaption></figure>
-
-<p>The markup they employ is pretty well-organized and straightforward: it’s a list of checkbox options.</p>
-
-<div><script src="https://gist.github.com/d281f889a11634b45280.js?file=chaodl-checkbox-list.html"></script>
-<noscript><pre><code>&lt;ul&gt;
-  &lt;li&gt;
-    &lt;label for=&quot;nintendo-ds-lite&quot;&gt;
-      &lt;input type=&quot;checkbox&quot;
-             name=&quot;reservation_requested_device[]&quot;
-             id=&quot;nintendo-ds-lite&quot;
-             value=&quot;Nintendo DS Lite (Upper Cabinet #13)&quot;
-             data-checkbox-required=&quot;&quot;
-             &gt;
-      Nintendo DS Lite
-    &lt;/label&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;label for=&quot;nintendo-wii&quot;&gt;
-      &lt;input type=&quot;checkbox&quot;
-             name=&quot;reservation_requested_device[]&quot;
-             id=&quot;nintendo-wii&quot;
-             value=&quot;Nintendo Wii (TV Area)&quot;
-             data-checkbox-required=&quot;&quot;
-             &gt;
-      Nintendo Wii
-    &lt;/label&gt;
-  &lt;/li&gt;
-  &lt;!-- list continues --&gt;
-&lt;/ul&gt;</code></pre></noscript></div>
-
-<p>As this is an instance where a user could choose more than one option, the back end needs to be able to capture that information in what’s called an “array”. An array, if you’re unfamiliar, is a collection of values. You’ll notice that the <code>name</code> given to each of these checkbox <code>input</code> elements is the same: “reservation_requested_device[]”. The square brackets (“[]”) at the end of the <code>name</code> are the magic bit that allows the values of <em>each</em> chosen “reservation_requested_device” checkbox to be submitted as the value of “reservation_requested_device”.</p>
-
-<h2 id="applicable-attributes">Applicable Attributes</h2>
-
-<p>Checkbox controls only use a subset of the typical <code>input</code> attributes. In particular, you’ll need to include</p>
-
-<ul>
-  <li><code>name</code> - This is the variable name you want to hold the user’s response. As mentioned in <a href="#multiple-choice-checkboxes">the previous section</a>, appending “[]” to the variable name will allow the variable to hold all of the user’s choices as opposed to only the final one.</li>
-  <li><code>value</code> - This is the value that should be captured if the user ticks the checkbox.</li>
-  <li><code>id</code> - The unique identifier you’re using for the control in order to explicitly associate it with a <code>label</code>.</li>
-</ul>
-
-<p>There are a few optional attributes you might consider including as well.</p>
-
-<ul>
-  <li><code>checked</code> - Use this null attribute if you want the default state of the checkbox to be ticked. This attribute should be used with caution. <strong>Don’t</strong> use this attribute to automatically check confirmation boxes for things like mailing list opt-ins. <strong>Do</strong> use this attribute when you are displaying sensible default settings or displaying confirmations the user has already made (e.g. in the user’s profile or when re-displaying the form when it has a submission error).</li>
-  <li><code>required</code> - Use this to indicate the checkbox must be ticked for the form to be valid. It’s important to note that this attribute is typically only useful in confirmation checkbox scenarios. If you need a user to choose at least one from a multiple choice checkbox collection, it’s useless unless you need them to pick a specific one. To require one (or more) of a multiple choice checkbox group, you currently need to use JavaScript, like <a href="https://github.com/easy-designs/easy-checkbox-required.js">the one the Chattanooga Open Device Lab uses</a>.</li>
-</ul>
-
-<h2 id="checkbox-vs-other-controls">Checkbox vs. Other Controls</h2>
-
-<p>Checkboxes excel at allowing users to indicate preference from a pre-defined set of options. But there are other form control types that allow for similar control over user responses. That can make it difficult to decide which element to use.</p>
-
-<h3 id="dropdown-list-select">Dropdown List (<code>select</code>)</h3>
-
-<p>The <code>select</code> element is another tried and true option for allowing users to indicate preference. A simple two-choice <code>select</code> could achieve the same goal as a confirmation checkbox, but it’s a little clunkier. In terms of user interface, <code>select</code> elements require more clicks of your users. They also obscure the complete list of choices from view because only one options is displayed at a time. Their appearance makes them more compact, but can make it difficult to get a complete picture of what choices are available when you can’t see them all.</p>
-
-<p>You can enable multiple choice in a  <code>select</code> element by adding the <code>multiple</code> attribute to it, but depending on the number of <code>option</code> elements, it could also be a little unwieldy. Depending on the size of the <code>select</code> and the number of options, you could also create an inner scroll that could be awkward on certain touch-based devices.</p>
-
-<p>The <code>select</code> element has its place, but should be used sparingly. I’ll go in-depth with <code>select</code> elements in a future post.</p>
-
-<h3 id="choose-one-inputtyperadio">Choose One (<code>input[type=radio]</code>)</h3>
-
-<p>For simple confirmation questions, it’s completely valid to use a radio form control in lieu of a single checkbox. In fact, in some cases, it may offer a more explicit choice for your users. Consider <a href="#fig-2016-01-06-03">this example</a> from <a href="https://order.subway.com">Subway’s online ordering tool</a>.</p>
-
-<figure id="fig-2016-01-06-03" class="media-container"><img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/03.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/03.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="" /><figcaption>In this excerpt from Subway’s online ordering tool, they use a checkbox to confirm the user wants their sandwich toasted.</figcaption></figure>
-
-<p>A checkbox labelled “Fresh Toasted”, isn’t terribly clear. A better approach would be to ask something like “Would you like your sandwich toasted?” with radio controls for “yes” and “no”. Alternately, if they absolutely wanted to keep it as a checkbox, they could use a better label: “Please toast my sandwich”.</p>
-
-<figure id="fig-2016-01-06-04" class="media-container"><img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/04.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/04.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/04.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/04.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="" /><figcaption>An alternate approach to the Subway interface, using radio controls.</figcaption></figure>
-
-<p>Radio controls have their place, but are not often a one-to-one replacement for checkboxes. I will discuss radio controls in greater depth in another post.</p>
-
-<h2 id="check-em-out">Check ’Em Out</h2>
-
-<p>Checkboxes are an invaluable tool in the form building tool chest. Understanding their purpose and capabilities is key to using them properly and ensuring your forms are usable to the broadest number of users.</p>
-]]></content>
-			</entry>
 		
 	
 </feed>

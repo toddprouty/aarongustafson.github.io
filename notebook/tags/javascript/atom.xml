@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Javascript | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/javascript/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2016-01-31T16:56:50-08:00</updated>
+  <updated>2016-02-11T17:26:08-05:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[More Proof We Don’t Control Our Web Pages]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/more-proof-we-dont-control-our-web-pages/"/>
-    <updated>2015-09-01T08:33:59-07:00</updated>
+    <updated>2015-09-01T11:33:59-04:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/more-proof-we-dont-control-our-web-pages</id>
     <content type="html"><![CDATA[<p>I’ve talked about this before: As web designers, <a href="http://www.aaron-gustafson.com/notebook/the-network-effect/">we can’t trust the network</a>. Sure, we have to contend with mobile data “dead zones” and dropped connections as our users move about throughout the day, but there’s a lot more to the network that’s beyond our control.</p>
 
@@ -43,7 +43,7 @@
   <entry>
     <title type="html"><![CDATA[Lies, Damn Lies, and JavaScript]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/lies-damn-lies-and-javascript/"/>
-    <updated>2015-04-27T12:10:11-07:00</updated>
+    <updated>2015-04-27T15:10:11-04:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/lies-damn-lies-and-javascript</id>
     <content type="html"><![CDATA[<p>Late last week I stumbled on a video from <a href="https://twitter.com/graemepyle">Graeme Pyle</a> that exposed a UX lie in the <a href="https://www.fnb.co.za/">First National Bank of South Africa</a>.</p>
 
@@ -66,7 +66,7 @@
   <entry>
     <title type="html"><![CDATA[How to Apply Progressive Enhancement When JavaScript Seems Like a Requirement]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/how-to-apply-progressive-enhancement-when-javascript-seems-like-a-requirement/"/>
-    <updated>2015-04-02T07:14:40-07:00</updated>
+    <updated>2015-04-02T10:14:40-04:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/how-to-apply-progressive-enhancement-when-javascript-seems-like-a-requirement</id>
     <content type="html"><![CDATA[<p>On Stack Overflow last week, <a href="http://stackoverflow.com/users/4719194/jamham">JamHam</a> asked how to apply progressive enhancement in interfaces that seem to require JavaScript. Unfortunately he deleted the question before I could post my response, so I thought I would post it all here for posterity.</p>
 
@@ -146,7 +146,7 @@ WebSockets) stuff pretty much depends on JavaScript, with ‘messages’ being c
   <entry>
     <title type="html"><![CDATA[Google Embraces Progressive Enhancement]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/google-embraces-progressive-enhancement/"/>
-    <updated>2014-10-28T18:07:35-07:00</updated>
+    <updated>2014-10-28T21:07:35-04:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/google-embraces-progressive-enhancement</id>
     <content type="html"><![CDATA[<p>In case you missed it, <a href="http://googlewebmastercentral.blogspot.com/2014/10/updating-our-technical-webmaster.html">yesterday Pierre Far updated Google’s Webmaster Guidelines</a>. In his post, Pierre lays out their case for <a href="https://en.wikipedia.org/wiki/Progressive_enhancement">progressive enhancement</a>:</p>
 
@@ -177,7 +177,7 @@ WebSockets) stuff pretty much depends on JavaScript, with ‘messages’ being c
   <entry>
     <title type="html"><![CDATA[Missed Connections]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/missed-connections/"/>
-    <updated>2014-09-19T13:12:50-07:00</updated>
+    <updated>2014-09-19T16:12:50-04:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/missed-connections</id>
     <content type="html"><![CDATA[<p>Earlier today, <a href="http://www.kryogenix.org">Stuart Langridge</a>—who I worked with on WaSP’s DOM Scripting Task Force and have the utmost respect for—<a href="http://www.kryogenix.org/days/2014/09/19/fundamentally-connected/">published a blog response</a> to <a href="http://aaron-gustafson.com/notebook/2014/a-fundamental-disconnect/">my last post</a>. In it, he made some good points I wanted to highlight, but he also misunderstood one thing I said and managed to avoid addressing the core of my argument. As comments aren’t enabled on his site, I thought I’d respond here.</p>
 
