@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2016-02-15T17:01:24-05:00</updated>
+	<updated>2016-02-15T17:18:49-05:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,8 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
 	
 		
 			<entry>
@@ -226,17 +228,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/on-accessibility-and-the-lack-of-proper-html</id>
 				<content type="html"><![CDATA[<p>Great minds think alike… I wrote at length about native semantics vs. fully-customized divs and the number of dependencies that come with the latter in <a href="http://adaptivewebdesign.info/2nd-edition/">the second edition of <em>Adaptive Web Design</em></a>.</p>
 <p><a rel="full-article" href="http://www.iandevlin.com/blog/2016/01/opinion/on-accessibility-and-the-lack-of-proper-html">Read on Ian Devlin&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[WHATWG: Compatibility Standard]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/compat/"/>
-				<updated>2016-01-14T21:08:30-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/compat</id>
-				<content type="html"><![CDATA[<p>A list of things browsers must implement to ensure poorly-coded sites work. That this is needed deeply saddens me.</p>
-<p><a rel="full-article" href="https://compat.spec.whatwg.org/">Read on WHATWG&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
