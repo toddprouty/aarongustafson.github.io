@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Sass | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/sass/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2016-02-15T19:04:10-05:00</updated>
+  <updated>2016-02-17T22:41:43-05:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -28,10 +28,7 @@
 
 <p>Here’s Heydon’s first quantity query example:</p>
 
-<p><div>li:nth-last-child(6):first-child, 
-li:nth-last-child(6):first-child ~ li {
-  color: green;
-}</div></p>
+<p>{% gist eddda1f32ed102cedd86 equal.css embed %}</p>
 
 <p>With these selectors, the rule set would only apply if the total count of list items was exactly 6. Here’s what he is selecting:</p>
 
@@ -45,10 +42,7 @@ li:nth-last-child(6):first-child ~ li {
 <p>But Heydon doesn’t stop there. He also gives us ways to test for  more than or equal to and fewer than or equal to a certain number. We’ll start with the <br />
 “more than” variant (because everyone always wants more):</p>
 
-<p><div>li:nth-last-child(n+6),
-li:nth-last-child(n+6) ~ li {
-  /* properties here */
-}</div></p>
+<p>{% gist eddda1f32ed102cedd86 more-than-or-equal.css embed %}</p>
 
 <p>This one is slightly more complex, using the <code>nth-*</code> formula to manage the calculation. In English, this selects:</p>
 
@@ -67,10 +61,7 @@ li:nth-last-child(n+6) ~ li {
 
 <p>The final example he gives is for fewer than or equal to a particular number:</p>
 
-<p><div>li:nth-last-child(-n+6):first-child,
-li:nth-last-child(-n+6):first-child ~ li {
-  /* properties here */
-}</div></p>
+<p>{% gist eddda1f32ed102cedd86 fewer-than-or-equal.css embed %}</p>
 
 <p>This one is largely the same as the “more than” example, but the multiplier is reversed (with the minus sign) which means the count runs backward: 0+6 (6), -1+5 (5), -2+6 (4), and so on.</p>
 
@@ -80,7 +71,7 @@ li:nth-last-child(-n+6):first-child ~ li {
 
 <p><a href="https://twitter.com/danielguillan">Daniel Guillan</a> has <a href="https://github.com/danielguillan/quantity-queries">ported this functionality (and more) to SASS</a> using a handful of really straightforward mixins. Here’s a demo:</p>
 
-<figure id="fig-2015-03-20-01" class="media-container"><p class="codepen" data-user="danielguillan" data-href="GgBOxm" data-height="331" data-type="result" data-preview="true">See the Pen <a href="http://codepen.io/danielguillan/pen/GgBOxm">Quanity Queries Sass mixins demo</a> by Daniel Guillan (<a href="//codepen.io/danielguillan">danielguillan</a>) on <a href="//codepen.io">CodePen</a>.</p><script async src="//codepen.io/assets/embed/ei.js"></script></figure>
+<figure id="fig-2015-03-20-01" class="media-container">{% codepen GgBOxm danielguillan result 331 preview %}</figure>
 
 <p>Happy counting!</p>
 ]]></content>
