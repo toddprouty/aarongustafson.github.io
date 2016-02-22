@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Responsive Web Design | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/responsive-web-design/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2016-02-21T20:15:50-05:00</updated>
+  <updated>2016-02-21T20:23:21-05:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -53,7 +53,7 @@
 
 <p>We’ve explored the future of modular code and browsers’ capacity for working without network connectivity. And we’ve even taken a trip into the possible future of where the web might go.</p>
 
-<figure id="figure-2015-06-22-01">{% adaptive_image /i/posts/2015-06-22/01.jpg %}</figure>
+<figure id="figure-2015-06-22-01"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""></figure>
 
 <p>We’ve come a long way since <a href="https://huffduffer.com/adactio/243780">Ethan’s article</a>, fluid grids, flexible media, and media queries. Those three tenets sowed a seed that has grown and flourished as we have come to better understand the implications of device proliferation. We’ve seen that the web is capable of going anywhere and doing pretty much anything.</p>
 
@@ -127,7 +127,7 @@
 
 <p>When I am trying to help folks understand and embrace diversity, I often reach for one of my favorite thought exercises from <a href="https://en.wikipedia.org/wiki/John_Rawls">John Rawls</a>.</p>
 
-<figure id="figure-2015-06-22-03">{% adaptive_image /i/posts/2015-06-22/03.jpg %}</figure>
+<figure id="figure-2015-06-22-03"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""></figure>
 
 <p>Rawls was a philosopher who used to run a social experiment with students, church groups, and the like.</p>
 
@@ -139,7 +139,7 @@
 
 <p>The things we do to accommodate special needs now pay dividends in the future. Look at ramps.</p>
 
-<figure id="figure-2015-06-22-04">{% adaptive_image /i/posts/2015-06-22/04.jpg %}</figure>
+<figure id="figure-2015-06-22-04"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""></figure>
 
 <p>They’re a classic example of an accessibility feature for people in wheelchairs that also benefit people who aren’t in them: People toting luggage, delivery services hauling heavy things on dollies, parents pushing children (or their dressed up dogs) in strollers, a commuter walking her bike, and that guy who just prefers walking up a gentle incline to expending the effort required to mount a step.</p>
 
@@ -155,13 +155,13 @@
 
 <p>We’re just starting to dip or toes—er, hands—into the world of motion-based gestural controls. Sure, we’ve had them in two dimensions on touch screens for a while now but three dimensional motion-based controls are only beginning to appear.</p>
 
-<p>{% youtube VXhhE-l96qQ 41s/78s %}</p>
+<p><figure id="fig-VXhhE-l96qQ" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(//i2.ytimg.com/vi/VXhhE-l96qQ/0.jpg);" href="//www.youtube.com/watch?v=VXhhE-l96qQ&amp;start=41&amp;end=78" data-lazy-video-src="//www.youtube.com/embed/VXhhE-l96qQ?autoplay=1&amp;start=41&amp;end=78&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Kinect Tips, Part 3: Gesture Controls</div></a></div></figure></p>
 
 <p>The first big leap in this direction was <a href="https://en.wikipedia.org/wiki/Kinect">Kinect</a> on the Xbox 360 (and later, Windows). With Kinect, we interact with the computer using body movements like raising a hand (which gets Kinect to pay attention), pushing our hand forward to click/tap, and grasping to drag the canvas in a particular direction.</p>
 
 <p>The Kinect ushered in a major revolution in terms of interfacing with computers, but from an interaction perspective, it presents similar challenges to those of the <a href="https://en.wikipedia.org/wiki/Wii#Wii_Remote">Wii controller</a> and Sony’s <a href="https://en.wikipedia.org/wiki/PlayStation_Move">PlayStation Move</a>. Large body gestures like raising your hand (or a wand controller) can be tiring.</p>
 
-<p>{% youtube 21LtA5-wiwU 7s/19s %}</p>
+<p><figure id="fig-21LtA5-wiwU" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(//i2.ytimg.com/vi/21LtA5-wiwU/0.jpg);" href="//www.youtube.com/watch?v=21LtA5-wiwU&amp;start=7&amp;end=19" data-lazy-video-src="//www.youtube.com/embed/21LtA5-wiwU?autoplay=1&amp;start=7&amp;end=19&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Leap Motion With Windows</div></a></div></figure></p>
 
 <p>They’re also not terribly accurate. If you thought that touchscreen accuracy was an issue, hand gestures like those for the Kinect or <a href="https://en.wikipedia.org/wiki/Leap_Motion">LEAP Motion</a> pose even more of a challenge.</p>
 
@@ -169,13 +169,27 @@
 
 <p>In <a href="http://dev.w3.org/csswg/mediaqueries-4/">Media Queries Level 4</a>, we became able to apply style rules to particular interaction contexts. For instance, when we have very accurate control over our cursor (as in the case of a stylus or mouse) or less accurate control (as in the case of a touch screen or physical gesture):</p>
 
-<p>{% gist 372271534c78cf11d4a6 mq4-pointer.css embed %}</p>
+<p><div>@media (pointer:fine) {
+  /* Smaller links and buttons are ok */
+}
+@media (pointer:coarse) {
+  /* Larger links and buttons are probably a good idea */
+}</div></p>
 
 <p>Of course, we want to offer a sensible default in terms of size and spacing as a fallback for older browsers and devices.</p>
 
 <p>We also have the ability to determine whether the device is capable of hovering over an element and can adjust the interface accordingly.</p>
 
-<p>{% gist 372271534c78cf11d4a6 mq4-hover.css embed %}</p>
+<p><div>@media (hover:hover) {
+  /* hover-related interactions are A-OK */
+}
+@media (hover:on-demand) {
+  /* hover-related interactions are potentially difficult,
+     maybe do something else instead */
+}
+@media (hover:none) {
+	/* No hover possible :-( */
+}</div></p>
 
 <p>We still need to figure out how well all of this ends up working on multimodal devices like the Surface tablet, however. Will the design change as the user switches between input modes? Should it? To that end, the spec also provides <code>any-pointer</code> and <code>any-hover</code> to allow you to query for whether <em>any</em> supported interaction method meets your requirements, but here’s a word of warning from the spec:</p>
 
@@ -189,11 +203,27 @@
 
 <p>We can unobtrusively detect support for Pointer Events…</p>
 
-<p>{% gist 372271534c78cf11d4a6 pointer-test.js embed %}</p>
+<p><div>if ( window.PointerEvent ) {
+  window.addEventListener( "pointerdown", detectType, false );
+}</div></p>
 
 <p>…and then handle them all in the same way or create branches based on the <code>pointerType</code>:</p>
 
-<p>{% gist 372271534c78cf11d4a6 pointer-event.js embed %}</p>
+<p><div>function detectType( event ) {
+  switch( event.pointerType ) {
+    case "mouse:
+      /* mouse input detected */
+      break;
+    case "pen":
+      /* pen/stylus input detected */
+      break;
+    case "touch:
+      /* touch input detected */
+      break;
+    default:
+      /* pointerType is empty (could not be detected) or UA-specific custom type */
+  }
+}</div></p>
 
 <p>Of course, in addition to considering the level of accuracy our users have while interacting with our screens, we also need to consider the potentially increased distance at which our users are reading our content.</p>
 
@@ -201,19 +231,27 @@
 
 <p>For a long time, I’ve used ems for the layout’s <code>max-width</code> (so the line length is proportional to the font size). I also use relative font sizes. With that as the foundation, I can use a media query that matches the maximum width and set the base font size at the vw equivalent at the max width.</p>
 
-<p>{% gist 372271534c78cf11d4a6 vw-scaling.css embed %}</p>
+<p><div>body {
+  max-width: 64em;
+}
+
+@media screen and (min-width: 64em) {
+  body {
+    font-size: 1.5625vw; /* ( 1em / 64em ) * 100 */
+  }
+}</div></p>
 
 <p>Then the whole design will simply zoom the layout when viewed beyond that size.</p>
 
-<p>{% youtube 6XoN9mMgI38 %}</p>
+<p><figure id="fig-6XoN9mMgI38" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--4x3"><a class="video-embed__lazy-link" style="background-image:url(//i2.ytimg.com/vi/6XoN9mMgI38/0.jpg);" href="//www.youtube.com/watch?v=6XoN9mMgI38" data-lazy-video-src="//www.youtube.com/embed/6XoN9mMgI38?autoplay=1&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Using CSS to Scale a Design on Resize</div></a></div></figure></p>
 
 <p>If you don’t want to turn something like that on automatically, you can enable it to be toggled on and off with JavaScript.</p>
 
-<p>{% youtube 96l_W7ca6SM %}</p>
+<p><figure id="fig-96l_W7ca6SM" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--4x3"><a class="video-embed__lazy-link" style="background-image:url(//i2.ytimg.com/vi/96l_W7ca6SM/0.jpg);" href="//www.youtube.com/watch?v=96l_W7ca6SM" data-lazy-video-src="//www.youtube.com/embed/96l_W7ca6SM?autoplay=1&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">CSS Couch Mode</div></a></div></figure></p>
 
 <p>Things get even crazier when you start to factor in devices like the HoloLens. And no, I have not gotten to play with one yet.</p>
 
-<p>{% youtube 3AADEqLIALk 87s/117s %}</p>
+<p><figure id="fig-3AADEqLIALk" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--4x3"><a class="video-embed__lazy-link" style="background-image:url(//i2.ytimg.com/vi/3AADEqLIALk/0.jpg);" href="//www.youtube.com/watch?v=3AADEqLIALk&amp;start=87&amp;end=117" data-lazy-video-src="//www.youtube.com/embed/3AADEqLIALk?autoplay=1&amp;start=87&amp;end=117&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Microsoft HoloLens demo onstage at BUILD 2015</div></a></div></figure></p>
 
 <p>But the idea of being able to drop a resizable virtual screen on any surface presents some interesting possibilities as a user and some unique challenges as a designer. HoloLens, of course, brings with it gesture controls as well, so accounting for a variety of input types should get us pretty far.</p>
 
@@ -221,7 +259,7 @@
 
 <p>In the last few years, the computational power of our devices has increased as the hardware costs associated with supporting gaze tracking have dropped dramatically. Looking around, you can see gaze tracking beginning to move into the public sphere: Many smartphones and smartwatches can recognize when you are looking at them (or at least they do sometimes). This is only a short step away from knowing where on the screen you are looking. And nearly every high-end smartphone is now equipped with a front-facing camera which makes them perfect candidates to provide this interaction method.</p>
 
-<p>{% youtube DEk7PlJWQgI 18s/54s %}</p>
+<p><figure id="fig-DEk7PlJWQgI" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--4x3"><a class="video-embed__lazy-link" style="background-image:url(//i2.ytimg.com/vi/DEk7PlJWQgI/0.jpg);" href="//www.youtube.com/watch?v=DEk7PlJWQgI&amp;start=18&amp;end=54" data-lazy-video-src="//www.youtube.com/embed/DEk7PlJWQgI?autoplay=1&amp;start=18&amp;end=54&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">The Sesame Phone</div></a></div></figure></p>
 
 <p>The <a href="http://sesame-enable.com/phone/">Sesame Phone</a> was designed to allow people to use a smartphone without using their hands. It uses facial tracking to move a virtual cursor around the screen, allowing users to interact with the underlying operating system as well as individual applications. It supports tap, swipe, and other gestures (via a context menu) and is pretty impressive in my experience. Technology like this enables people suffering from MS, arthritis, Muscular Dystrophy, and more to use a smartphone and—more importantly to us—browse the web.</p>
 
@@ -249,19 +287,32 @@
 
 <p>In Windows 10, installable web apps can include a <a href="https://msdn.microsoft.com/en-us/library/windows/apps/dn722331.aspx">Voice Command Definition (VCD) file</a> in the <code>head</code> of the page to enable custom commands:</p>
 
-<p>{% gist 372271534c78cf11d4a6 vcd.html embed %}</p>
+<p><div><meta name=“msapplication-cortanavcd" content="http://myapp.io/vcd.xml"></div></p>
 
 <p>The referenced VCD file is simply an XML file defining the keyword for the web app and commands that can be issued.</p>
 
 <p>Using very basic syntax, The VCD identifies optional pieces of a given phrase and variables Cortana should extract:</p>
 
-<p>{% gist 372271534c78cf11d4a6 vcd.xml embed %}</p>
+<p><div><?xml version="1.0" encoding="utf-8"?>
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang="en-us" Name="groupPost">
+    <CommandPrefix>Group Post</CommandPrefix>
+    <Example>Group Post add note</Example>
+    <Command Name="addNote">
+      <Example>add a note {message} using group post</Example>
+      <ListenFor RequireAppName="BeforeOrAfterPhrase">[please] add a note [that] {noteSubject}</ListenFor>
+      <Feedback>adding {noteSubject} to Group Post</Feedback>
+      <Navigate Target="/addNote.htm"/>
+    </Command>
+    <PhraseTopic Label="noteSubject" Scenario="Dictation"></PhraseTopic>
+  </CommandSet>
+</VoiceCommands></div></p>
 
 <p>This particular app passes the captured information over to JavaScript for processing. That’s right, <a href="https://msdn.microsoft.com/en-us/library/dn722330.aspx#handle_activation_and_execute_voice_commands">Cortana has a JavaScript API too</a>. Pretty neat.</p>
 
 <p>But traditional computers and smart mobile devices aren’t the only place we’re starting to see voice based experiences. We also have disembodied voices like <a href="https://en.wikipedia.org/wiki/Amazon_Echo">Amazon’s Echo</a> and <a href="http://www.theubi.com/">the Ubi</a> which are completely headless.</p>
 
-<figure id="figure-2015-06-22-11">{% adaptive_image /i/posts/2015-06-22/05.jpg %}</figure>
+<figure id="figure-2015-06-22-11"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""></figure>
 
 <p>Right now, they both seem squarely focused on helping your house become “smarter”—streaming music, adjusting the thermostat, etc.—but it isn’t hard to imagine these devices becoming coupled with the ability to browse and interact with the web.</p>
 
@@ -281,7 +332,7 @@
 
 <p>This is an incredibly exciting time, not just for the responsive design community, not just the web, but for the world! The future is coming and I can’t wait to see how awesome you make it!</p>
 
-<figure id="figure-2015-06-22-12">{% adaptive_image /i/posts/2015-06-22/06.jpg %}</figure>
+<figure id="figure-2015-06-22-12"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""></figure>
 
 <hr />
 
@@ -312,15 +363,70 @@
 
 <p>The first use case we had was a series of large, focal images. You can find different examples of them on <a href="http://www.nichols.edu">the homepage</a> and landing pages (like <a href="http://www.nichols.edu/admissions/">this one for Admissions</a>). The first pass on making these images adaptive involved the <code>picture</code> element for which <a href="https://html.spec.whatwg.org/multipage/embedded-content.html#adaptive-images">the spec</a> is known. The markup we were generating was based on the pattern outlined for <a href="http://scottjehl.github.io/picturefill/">Picturefill</a>, a JavaScript polyfill that implements adaptive images in browsers that don’t do it natively:</p>
 
-<p>{% gist 96dd157a0206d59ac30a picture-result.html embed %}</p>
+<p><div><picture class="page__image-header__photo">
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+    <source srcset="about_940_343_int_s_c1_full.jpg" media="(min-width: 40em)">
+    <source srcset="about_800_350_int_c1_medium.jpg" media="(min-width: 20em)">
+    <source srcset="about_480_350_int_c1_small.jpg">
+    <!--[if IE 9]></video><![endif]-->
+    <img src="{made}" alt="">
+</picture></div></p>
 
 <p>To get to that point, however, we needed to use CE Image to generate (and cache) the specific sizes we needed:</p>
 
-<p>{% gist 96dd157a0206d59ac30a picture-element.html embed %}</p>
+<p><div><picture class="page__image-header__photo">
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+    {exp:ce_img:pair
+        src="{content_focal_image}"
+        filename_suffix="_full"
+        width="940"
+        allow_scale_larger="yes"
+        crop="yes"
+        interlace="yes"
+        cache_dir="/"
+        }
+        <source srcset="{made}" media="(min-width: 40em)">
+    {/exp:ce_img:pair}
+    {exp:ce_img:pair
+        src="{content_focal_image}"
+        filename_suffix="_medium"
+        width="800"
+        height="600"
+        crop="yes"
+        interlace="yes"
+        cache_dir="/"
+        }
+        <source srcset="{made}" media="(min-width: 20em)">
+    {/exp:ce_img:pair}
+    {exp:ce_img:pair
+        src="{content_focal_image}"
+        filename_suffix="_small"
+        width="480"
+        height="360"
+        crop="yes"
+        interlace="yes"
+        cache_dir="/"
+        }
+        <source srcset="{made}">
+        <!--[if IE 9]></video><![endif]-->
+        <img src="{made}" alt="">
+    {/exp:ce_img:pair}
+</picture>
+</div></p>
 
 <p>Not what’s a lot of code, so let’s just look at one segment of that jumble:</p>
 
-<p>{% gist 96dd157a0206d59ac30a  picture-excerpt.html embed %}</p>
+<p><div>{exp:ce_img:pair
+    src="{content_focal_image}"
+    filename_suffix="_full"
+    width="940"
+    allow_scale_larger="yes"
+    crop="yes"
+    interlace="yes"
+    cache_dir="/"
+    }
+    <source srcset="{made}" media="(min-width: 40em)">
+{/exp:ce_img:pair}</div></p>
 
 <p>This is an example using CE Image’s tag pair option, which lets you control the markup output. In the opening tag, we set several properties:</p>
 
@@ -340,11 +446,50 @@
 
 <p>Now that’s all well and good, but shortly after launch, <a href="http://ericportis.com/">Eric Portis</a> wrote <a href="http://ericportis.com/posts/2014/srcset-sizes/">an amazing post explaining how the <code>srcset</code> and <code>sizes</code> attributes operate</a> and it cleared up a lot of my confusion on the matter. He convinced me that the age-old <code>img</code> element, with these new attributes, would be far more maintainable. With a fire in my belly, I rewrote the markup:</p>
 
-<p>{% gist 96dd157a0206d59ac30a  simple-resize.html embed %}</p>
+<p><div><img class="page__image-header__photo" alt=""
+    {exp:ce_img:pair
+        src="{embed:image}"
+        filename_suffix="_small"
+        width="480"
+        height="320"
+        crop="yes"
+        interlace="yes"
+        cache_dir="/"
+        } 
+        src="{made}"
+        srcset="{made} 480w,
+    {/exp:ce_img:pair}
+    {exp:ce_img:pair
+        src="{embed:image}"
+        filename_suffix="_medium"
+        width="800"
+        height="600"
+        crop="yes"
+        interlace="yes"
+        cache_dir="/"
+        }
+        {made} 800w,
+    {/exp:ce_img:pair}
+    {exp:ce_img:pair
+        src="{embed:image}"
+        filename_suffix="_full"
+        width="940"
+        allow_scale_larger="yes"
+        crop="yes"
+        interlace="yes"
+        cache_dir="/"
+        }
+        {made} 940w"
+    {/exp:ce_img:pair}
+    ></div></p>
 
 <p>The CE Image behavior is exactly the same, but the resulting markup is much clearer:</p>
 
-<p>{% gist 96dd157a0206d59ac30a  srcset-result.html embed %}</p>
+<p><div><img class="page__image-header__photo" alt=""
+     src="about_480_320_int_c1_small.jpg"
+     srcset="about_480_320_int_c1_small.jpg 480w,
+             about_800_350_int_c1_medium.jpg 800w,
+             about_940_343_int_s_c1_full.jpg 940w"></div></p>
 
 <p>The added bonus of this approach is that I am not hard-coding any media queries and the browser gets to make the ultimate decision of which image to request. All I am doing is telling the browser the image options and their respective widths within the <code>srcset</code> attribute. As all of the images take up 100% of their containers, I didn’t even need to use the <code>sizes</code> attribute. Easy peasy.</p>
 
@@ -356,21 +501,43 @@
 
 <p>We wrote <a href="https://github.com/easy-designs/easy-lazy-images.js">a lazy-loading image script</a> a few years back and have battle tested it on numerous sites to great success. It’s all based on a simple markup pattern:</p>
 
-<p>{% gist 96dd157a0206d59ac30a lazy-loaded-markup.html embed %}</p>
+<p><div><div class="module__image image--lazy"
+     data-image-src="Tim-Smith_220x140_220_140_int_c1.jpg"></div></div></p>
 
 <p>The <code>data-img-src</code> attribute defines the path to the “nice to have” image and then the JavaScript adds the image element into the page when the appropriate conditions are met:</p>
 
-<p>{% gist 96dd157a0206d59ac30a lazy-loaded-result.html embed %}</p>
+<p><div><div class="module__image image--lazy"
+    data-image-src="Tim-Smith_220x140_220_140_int_c1.jpg"
+    data-image-loaded=""
+    >
+    <img alt="" src="Tim-Smith_220x140_220_140_int_c1.jpg">
+</div></div></p>
 
 <p>Pretty simple. It even supports <code>srcset</code>:</p>
 
-<p>{% gist 96dd157a0206d59ac30a lazy-loaded-srcset.html embed %}</p>
+<p><div><div class="module__image image--lazy"
+     data-image="about_480_320_int_c1_small.jpg"
+     data-image-srcset="about_480_320_int_c1_small.jpg 480w,
+                      about_800_350_int_c1_medium.jpg 800w,
+                      about_940_343_int_s_c1_full.jpg 940w"></div></div></p>
 
 <p>The <a href="https://github.com/easy-designs/easy-lazy-images.js#usage">full documentation is up on Github</a>.</p>
 
 <p>Implementing this in the context of CE Image was a breeze and builds on the <code>source</code> pattern I showed earlier:</p>
 
-<p>{% gist 96dd157a0206d59ac30a lazy-loading.html embed %}</p>
+<p><div>{if testimonial_photo}
+    {exp:ce_img:pair
+        src="{testimonial_photo}"
+        width="223"
+        height="140"
+        allow_scale_larger="yes"
+        crop="yes"
+        interlace="yes"
+        cache_dir="/"
+        }
+        <div class="module__image image--lazy" data-image-src="{made}"></div>
+    {/exp:ce_img:pair}
+{/if}</div></p>
 
 <p>We are only just beginning to scratch the surface of what’s possible with adaptive images and I am sure we will come up with newer, better ways to do this stuff. Heck, there may even be an adaptive images add-on in the pipeline for ExpressionEngine. But, in the meantime, if you are trying to implement adaptive images with ExpressionEngine, CE Image is a good way to go.</p>
 ]]></content>

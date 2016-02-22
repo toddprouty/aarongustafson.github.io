@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Browsers | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/browsers/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2016-02-21T20:15:50-05:00</updated>
+  <updated>2016-02-21T20:23:21-05:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -149,7 +149,8 @@ Browsers are encouraged to add features that are already supported by other brow
 
 <p>A simple way to rid yourself of IE8 related headaches is to embrace the idea that <a href="http://dowebsitesneedtolookexactlythesameineverybrowser.com/">web pages don’t need to look (or behave) the same in every browser</a> and look for ways to achieve this while still providing access to your content and tools for less-capable browsers and devices. For example:</p>
 
-<p>{% gist b9bca995a67ba298225d css-filter.html embed %}</p>
+<p><div><link rel="stylesheet" href="simple.css">
+<link rel="stylesheet" href="complex.css" media="only screen"></div></p>
 
 <p>This simple stylesheet setup will deliver only the <code>simple.css</code> file to browsers that are incapable of understanding media queries. Browsers that do understand them will get both stylesheets. Media queries support is an easy line in the sand we can draw because <a href="http://www.slideshare.net/bryanrieger/rethinking-the-mobile-web-by-yiibu/79">lack of media query support is in fact the first media query</a>.</p>
 
@@ -157,7 +158,9 @@ Browsers are encouraged to add features that are already supported by other brow
 
 <p>On the JavaScript end, you can draw a line in the sand too. Let’s say you don’t want to spend your time debugging JavaScript in IE8. You can just skip it using <a href="http://www.quirksmode.org/css/condcom.html">Conditional Comments</a>:</p>
 
-<p>{% gist b9bca995a67ba298225d js-filter.html embed %}</p>
+<p><div><!--[if gte IE 9]><!-->
+  <script src="not-for-ie8.js"></script>
+<!--<![endif]--></div></p>
 
 <p>Using an approach like this avoids delivering the contained JavaScript files to IE8 at all, but all other browsers will see them.</p>
 
@@ -176,7 +179,8 @@ Browsers are encouraged to add features that are already supported by other brow
     <id>https://www.aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing</id>
     <content type="html"><![CDATA[<p>Love this!</p>
 
-<p>{% tweet https://twitter.com/decadecity/status/559693419808034816 %}</p>
+<p><div class='embed tweet'><blockquote class="twitter-tweet"><p>You&#39;ll never believe this one weird trick that takes the pain out of cross browser testing: Progressive enhancement.</p>&mdash; Orde Saunders (@decadecity) <a href="https://twitter.com/decadecity/status/559693419808034816">January 26, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div></p>
 ]]></content>
   </entry>
   

@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2016-02-19T17:29:06-05:00</updated>
+	<updated>2016-02-21T20:23:21-05:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,8 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
 	
 		
 	
@@ -217,17 +219,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/the-accessibility-mindset</id>
 				<content type="html"><![CDATA[<p>A few simple, practical examples of how to make your interfaces more accessible, by <a href="https://yatil.net/">Eric Eggert</a>.</p>
 <p><a rel="full-article" href="https://24ways.org/2015/the-accessibility-mindset/">Read on 24 ways&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[On Accessibility and the Lack of Proper HTML]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/on-accessibility-and-the-lack-of-proper-html/"/>
-				<updated>2016-01-25T09:52:56-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/on-accessibility-and-the-lack-of-proper-html</id>
-				<content type="html"><![CDATA[<p>Great minds think alike… I wrote at length about native semantics vs. fully-customized divs and the number of dependencies that come with the latter in <a href="http://adaptivewebdesign.info/2nd-edition/">the second edition of <em>Adaptive Web Design</em></a>.</p>
-<p><a rel="full-article" href="http://www.iandevlin.com/blog/2016/01/opinion/on-accessibility-and-the-lack-of-proper-html">Read on Ian Devlin&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
