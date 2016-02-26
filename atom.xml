@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson Latest Posts &amp; Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2016-02-24T21:31:56-05:00</updated>
+	<updated>2016-02-26T16:24:55-05:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,32 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Link: A Design System Isn’t a Project. It’s a Product, Serving Products.]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/a-design-system-isn-t-a-project-it-s-a-product-serving-products-74dcfffef935/"/>
+				<updated>2016-02-26T16:23:45-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/a-design-system-isn-t-a-project-it-s-a-product-serving-products-74dcfffef935</id>
+				<content type="html"><![CDATA[<p>Excellent post from Nathan Curtis. You need to read this:</p>
+
+<blockquote>
+  <p>A design system’s value is realized when products ship features using parts from the system.</p>
+</blockquote>
+<p><a rel="full-article" href="https://medium.com/@nathanacurtis/a-design-system-isn-t-a-project-it-s-a-product-serving-products-74dcfffef935#.1y5xv3afw">Read on Medium&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Link: Atomic Classification]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/atomic-classification/"/>
+				<updated>2016-02-26T16:17:32-05:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/atomic-classification</id>
+				<content type="html"><![CDATA[<p>We’ve run into similar issues with Pattern Lab’s enforced groupings on a large client project. Some just didn’t make sense, causing a little confusion for our team, but way more confusion for the client’s team. It added way more cognitive overhead than was really necessary for the project. The tool made testing components easy, but we eventually ended up leaving some buckets empty.</p>
+<p><a rel="full-article" href="http://trentwalton.com/2016/02/26/atomic-classification/">Read on Trent Walton&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -494,28 +520,6 @@ I’ve been reaching out to lots of different communities around London to bring
   <p>VoiceOver uses borders as a criteria to determine if a table is a data table or not.</p>
 </blockquote>
 <p><a rel="full-article" href="http://www.tetchi.ca/a11y-tables-and-borders/">Read on Tetchi Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Link: Woe-ARIA: The Surprisingly but Ridiculously Complicated World of Aria-label/ledby]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/woe-aria-surprisingly-but-ridiculously/"/>
-				<updated>2016-01-25T09:53:34-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/woe-aria-surprisingly-but-ridiculously</id>
-				<content type="html"><![CDATA[<p>An in-depth examination of <code>aria-label</code> and <code>aria-labelledby</code>.</p>
-<p><a rel="full-article" href="http://blog.jantrid.net/2015/12/woe-aria-surprisingly-but-ridiculously.html">Read on Jantrid&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Link: The Accessibility Mindset]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/the-accessibility-mindset/"/>
-				<updated>2016-01-25T09:53:19-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/the-accessibility-mindset</id>
-				<content type="html"><![CDATA[<p>A few simple, practical examples of how to make your interfaces more accessible, by <a href="https://yatil.net/">Eric Eggert</a>.</p>
-<p><a rel="full-article" href="https://24ways.org/2015/the-accessibility-mindset/">Read on 24 ways&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
