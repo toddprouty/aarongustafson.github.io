@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Voice Ux | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/voice-ux/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2016-03-05T01:16:03+00:00</updated>
+  <updated>2016-03-05T06:39:35+00:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -156,7 +156,7 @@ $&gt; <strong>open mailbox</strong></p>
 
 <p>If the words we use form the basis of the conversations we have with our users, the semantics we employ clarify that meaning. Choosing elements with semantic value enriches our content, illuminating the meaning and intent of our words in order to overcome the limitations of text and bring it up to par with spoken language. After all, they may look the same visually, but there’s a big difference between these two statements:</p>
 
-<p>{% gist 6f5b7c0f0c072631a908 different-meaningss.html %}</p>
+<p>{% gist 6f5b7c0f0c072631a908 different-meanings.html %}</p>
 
 <p>Beyond using markup to clarify the intent of the words we write, we can use it to spell out relationships that are often represented visually. Dustin described one way we do this as part of the impetus for CSS Naked Day (emphasis mine):</p>
 
