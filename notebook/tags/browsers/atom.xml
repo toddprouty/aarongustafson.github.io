@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Browsers | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/browsers/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2016-02-26T16:24:55-05:00</updated>
+  <updated>2016-03-05T00:23:41+00:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Ramblings on New Browser Features, Interop&shy;erability, Craft, and the Future of the Web]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/ramblings-on-new-browser-features-interoperability-craft-and-the-future-of-the-web/"/>
-    <updated>2015-08-07T10:14:23-04:00</updated>
+    <updated>2015-08-07T15:14:23+01:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/ramblings-on-new-browser-features-interoperability-craft-and-the-future-of-the-web</id>
     <content type="html"><![CDATA[<p>Last week <a href="http://www.quirksmode.org/about/">Peter-Paul Koch (PPK)</a> posted <a href="http://www.quirksmode.org/blog/archives/2015/07/stop_pushing_th.html">a lengthy treatise on why browsers should stop “pushing the web forward”</a>. I thoroughly enjoyed the read and agree with him on a number of points. I also agreed with the well-articulated responses from <a href="https://jakearchibald.com/2015/if-we-stand-still-we-go-backwards/">Jake Archibald (of Google)</a> and <a href="https://dev.opera.com/blog/on-a-moratorium-on-new-browser-features/">Bruce Lawson (of Opera)</a>. I guess I’m saying I see both sides. Like <a href="http://chriscoyier.net/">Chris Coyier</a>, I live in <a href="https://css-tricks.com/the-gray-gray-ghost-that-i-call-home/">a world filled with varying shades of grey</a> rather than stark black &amp; white.</p>
 
@@ -131,7 +131,7 @@ Browsers are encouraged to add features that are already supported by other brow
   <entry>
     <title type="html"><![CDATA[Lines in the Sand]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/lines-in-the-sand/"/>
-    <updated>2015-03-11T09:21:29-04:00</updated>
+    <updated>2015-03-11T13:21:29+00:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/lines-in-the-sand</id>
     <content type="html"><![CDATA[<p>A new site, <a href="http://breakupwithie8.com/">Break Up with Internet Explorer 8</a> by <a href="http://www.humaan.com/">Humaan</a>, has been making the rounds on the Interwebs of late. It’s cleverly done and an attractive site, but I don’t really agree with the premise:</p>
 
@@ -149,8 +149,7 @@ Browsers are encouraged to add features that are already supported by other brow
 
 <p>A simple way to rid yourself of IE8 related headaches is to embrace the idea that <a href="http://dowebsitesneedtolookexactlythesameineverybrowser.com/">web pages don’t need to look (or behave) the same in every browser</a> and look for ways to achieve this while still providing access to your content and tools for less-capable browsers and devices. For example:</p>
 
-<p><div><link rel="stylesheet" href="simple.css">
-<link rel="stylesheet" href="complex.css" media="only screen"></div></p>
+<p>{% gist b9bca995a67ba298225d css-filter.html embed %}</p>
 
 <p>This simple stylesheet setup will deliver only the <code>simple.css</code> file to browsers that are incapable of understanding media queries. Browsers that do understand them will get both stylesheets. Media queries support is an easy line in the sand we can draw because <a href="http://www.slideshare.net/bryanrieger/rethinking-the-mobile-web-by-yiibu/79">lack of media query support is in fact the first media query</a>.</p>
 
@@ -158,9 +157,7 @@ Browsers are encouraged to add features that are already supported by other brow
 
 <p>On the JavaScript end, you can draw a line in the sand too. Let’s say you don’t want to spend your time debugging JavaScript in IE8. You can just skip it using <a href="http://www.quirksmode.org/css/condcom.html">Conditional Comments</a>:</p>
 
-<p><div><!--[if gte IE 9]><!-->
-  <script src="not-for-ie8.js"></script>
-<!--<![endif]--></div></p>
+<p>{% gist b9bca995a67ba298225d js-filter.html embed %}</p>
 
 <p>Using an approach like this avoids delivering the contained JavaScript files to IE8 at all, but all other browsers will see them.</p>
 
@@ -175,19 +172,18 @@ Browsers are encouraged to add features that are already supported by other brow
   <entry>
     <title type="html"><![CDATA[The One Weird Trick That Takes the Pain Out of Cross-browser Testing]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing/"/>
-    <updated>2015-01-26T11:24:25-05:00</updated>
+    <updated>2015-01-26T16:24:25+00:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/the-one-weird-trick-that-takes-the-pain-out-of-cross-browser-testing</id>
     <content type="html"><![CDATA[<p>Love this!</p>
 
-<p><div class='embed tweet'><blockquote class="twitter-tweet"><p>You&#39;ll never believe this one weird trick that takes the pain out of cross browser testing: Progressive enhancement.</p>&mdash; Orde Saunders (@decadecity) <a href="https://twitter.com/decadecity/status/559693419808034816">January 26, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div></p>
+<p>{% tweet https://twitter.com/decadecity/status/559693419808034816 %}</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Competing on “Chrome”]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/competing-on-chrome/"/>
-    <updated>2015-01-21T15:20:40-05:00</updated>
+    <updated>2015-01-21T20:20:40+00:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/competing-on-chrome</id>
     <content type="html"><![CDATA[<p>Watching the <a href="http://news.microsoft.com/windows10story/">Windows 10 announcement</a> today and the “unveiling” of its new browser, codenamed “Project Spartan”, I was amazed… not by what was said so much as what wasn’t.</p>
 
@@ -242,7 +238,7 @@ Browsers are encouraged to add features that are already supported by other brow
   <entry>
     <title type="html"><![CDATA[The “Native” vs. “Stylable” Tug of War]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/native-vs-stylable-tug-of-war/"/>
-    <updated>2014-07-17T08:21:47-04:00</updated>
+    <updated>2014-07-17T13:21:47+01:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/native-vs-stylable-tug-of-war</id>
     <content type="html"><![CDATA[<p>In his astute post <a href="//www.brucelawson.co.uk/2014/native-experience-vs-styling-select-boxes/">“‘Native experience’ vs styling select boxes”</a>, Bruce Lawson correctly identified a common tension in the web world:</p>
 

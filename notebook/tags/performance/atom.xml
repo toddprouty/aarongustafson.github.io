@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Performance | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/performance/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2016-02-26T16:24:55-05:00</updated>
+  <updated>2016-03-05T00:23:41+00:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Who Should Pay 2: The Hosting]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/who-should-pay-2-the-hosting/"/>
-    <updated>2015-03-06T08:39:15-05:00</updated>
+    <updated>2015-03-06T13:39:15+00:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/who-should-pay-2-the-hosting</id>
     <content type="html"><![CDATA[<p>Two weeks ago, I argued that our <a href="http://aaron-gustafson.com/notebook/who-should-pay/">users should never foot the bill for developer convenience</a> and yesterday I stumbled on a post from EllisLab (the makers of ExpressionEngine) that echoes that sentiment, but from a different angle. The title might make you scratch your head: <a href="https://ellislab.com/blog/entry/save-thousands-of-dollars-by-paying-more-for-hosting">Save Thousands of Dollars by Paying More for Hosting</a>.</p>
 
@@ -49,7 +49,7 @@
   <entry>
     <title type="html"><![CDATA[Who Should Pay?]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/who-should-pay/"/>
-    <updated>2015-02-18T23:35:06-05:00</updated>
+    <updated>2015-02-19T04:35:06+00:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/who-should-pay</id>
     <content type="html"><![CDATA[<p>In more than a handful of conversations lately, it’s become quite clear that we, the web development community, are prioritizing our own convenience and our own time over that of our users. With our industry’s focus on “user-centered design”, you might find that hard to believe, but it’s true.</p>
 
@@ -57,8 +57,7 @@
 
 <p>Here’s one example. In reaction to <a href="/notebook/css-variables-are-a-bad-idea/">my post on why I think CSS variables are a bad idea</a>, <a href="http://sass-lang.com">SASS</a> core team member <a href="https://twitter.com/chriseppstein/">Chris Eppstein</a> had this to say:</p>
 
-<p><div class='embed tweet'><blockquote class="twitter-tweet"><p><a href="https://twitter.com/AaronGustafson">@AaronGustafson</a> Authoring CSS shouldn’t be so onerous as to require the use of a preprocessor.</p>&mdash; Chris Eppstein (@chriseppstein) <a href="https://twitter.com/chriseppstein/status/567756897105620992">February 17, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div></p>
+<p>{% tweet https://twitter.com/chriseppstein/status/567756897105620992 %}</p>
 
 <p>Fundamentally, I agree with his sentiment: A preprocessor should <em>not</em> be a requirement for authoring CSS. Thankfully, <em>it never was</em>; you can build amazing things using only hand-authored CSS. And if you find a preprocessor helpful to your process for one reason or another, great. But using a preprocessor never has been (nor should it ever be) a requirement.</p>
 

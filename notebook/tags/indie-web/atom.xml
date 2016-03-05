@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Indie Web | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/indie-web/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2016-02-26T16:24:55-05:00</updated>
+  <updated>2016-03-05T00:23:41+00:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Crossposting to Medium From Jekyll]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/crossposting-to-medium-from-jekyll/"/>
-    <updated>2015-10-26T15:27:00-04:00</updated>
+    <updated>2015-10-26T19:27:00+00:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/crossposting-to-medium-from-jekyll</id>
     <content type="html"><![CDATA[<p>Last week, <a href="https://adactio.com/journal/9694">Jeremy Keith posted about syndicating his content to Medium using their new API</a>. Before they added <a href="https://github.com/Medium/medium-api-docs">the API</a>, there was no way to automatically publishing to <a href="https://medium.com">Medium</a> from your own blog. And doing it manually was quite tedious.</p>
 
@@ -27,7 +27,7 @@
   <entry>
     <title type="html"><![CDATA[Enabling Webmentions in Jekyll]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/enabling-webmentions-in-jekyll/"/>
-    <updated>2014-11-18T17:01:08-05:00</updated>
+    <updated>2014-11-18T22:01:08+00:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/enabling-webmentions-in-jekyll</id>
     <content type="html"><![CDATA[<p>While I am really happy with my choice to move away from a dynamic website/blog to a static one—powered by <a href="http://octopress.org/">Octopress</a>, hosted for free on <a href="https://github.com">Github</a>—it’s been pretty limiting when it comes to integrating comments and other more necessarily dynamic components.</p>
 
@@ -45,11 +45,11 @@
 
 <p>The tag to display webentions for a page is pretty simple:</p>
 
-<p><div>{% webmentions YOUR_URL %}</div></p>
+<p>{% gist cb15ead6bf3a72b8f92a webmentions.html embed %}</p>
 
 <p>This tag outputs a container <code>div</code> and an ordered list of every webmention found when the site is generated (or previewed). To show the current webmention count, you use a slightly different tag which just outputs a number:</p>
 
-<p><div>{% webmention_count YOUR_URL %}</div></p>
+<p>{% gist cb15ead6bf3a72b8f92a webmention_count.html embed %}</p>
 
 <p>These two tags allows me to bypass the JavaScript used in webmention.io’s integration examples and have Ruby consult the API directly. The plugin then creates the necessary markup using the JSON data the API provided.</p>
 
@@ -80,7 +80,7 @@
   <entry>
     <title type="html"><![CDATA[What Do We Own?]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/what-do-we-own/"/>
-    <updated>2014-11-17T09:43:54-05:00</updated>
+    <updated>2014-11-17T14:43:54+00:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/what-do-we-own</id>
     <content type="html"><![CDATA[<p>My good friend <a href="http://adactio.com">Jeremy</a> is <a href="https://adactio.com/journal/6801">incredibly excited</a> about the <a href="http://indiewebcamp.com/">Indie Web movement</a> and I am right there with him. I love the idea of owning your content and then syndicating it out to social networks, photo sites, and the like. It makes complete sense… <a href="http://www.gyford.com/phil/writing/2009/04/28/geocities.php">Web-based services have a habit of disappearing</a>, so we shouldn’t rely on them. The only Web that is permanent is the one we control.</p>
 

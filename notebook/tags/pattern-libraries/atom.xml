@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Pattern Libraries | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/pattern-libraries/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2016-02-26T16:24:55-05:00</updated>
+  <updated>2016-03-05T00:23:41+00:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Planning Adaptive Interfaces: The Workshop]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/planning-adaptive-interfaces-the-workshop/"/>
-    <updated>2016-02-21T18:56:05-05:00</updated>
+    <updated>2016-02-21T23:56:05+00:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/planning-adaptive-interfaces-the-workshop</id>
     <content type="html"><![CDATA[<p>For the last few years I’ve been running a workshop alternately titled “Planning Adaptive Interfaces” or “Beyond Responsive”, depending on the conference. It’s been one of my favorite workshops to run for a number of reasons, but before I get into that, let me explain what it is and how it works.</p>
 
@@ -41,7 +41,7 @@
   <entry>
     <title type="html"><![CDATA[Unum Releases Their Pattern Libraries]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/unum-releases-their-pattern-libraries/"/>
-    <updated>2015-08-04T13:55:34-04:00</updated>
+    <updated>2015-08-04T18:55:34+01:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/unum-releases-their-pattern-libraries</id>
     <content type="html"><![CDATA[<p>Insurance company <a href="http://www.unum.com/">Unum</a> has just released the “UX Toolkits” (a.k.a. patten libraries) they use for both Unum and Colonial Life. They are pretty bare-bones right now, but I am hopeful they will flesh them out over time.</p>
 

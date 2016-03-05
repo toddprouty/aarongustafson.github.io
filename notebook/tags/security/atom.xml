@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Security | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/security/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2016-02-26T16:24:55-05:00</updated>
+  <updated>2016-03-05T00:23:41+00:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Moved to HTTPS]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/moved-to-https/"/>
-    <updated>2015-09-03T16:06:03-04:00</updated>
+    <updated>2015-09-03T21:06:03+01:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/moved-to-https</id>
     <content type="html"><![CDATA[<p>I’ve been complaining about <a href="https://www.aaron-gustafson.com/notebook/more-proof-we-dont-control-our-web-pages/">“man in the middle” attacks brought on by internet service providers</a> a bunch over the last year. The only way to keep uninvited third parties from injecting JavaScript and more—potentially screwing up your page—is to move to HTTPS. So, as much as it pains me to abandon good old fashioned HTTP, I’ve decided to lock things down a bit.</p>
 
