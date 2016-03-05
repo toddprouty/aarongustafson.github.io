@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Accessibility | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/accessibility/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2016-03-05T08:29:03+00:00</updated>
+  <updated>2016-03-05T15:35:03-05:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Learn From the Past, Enhance for the Future]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/learn-from-the-past-enhance-for-the-future/"/>
-    <updated>2016-03-04T22:33:57+00:00</updated>
+    <updated>2016-03-04T17:33:57-05:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/learn-from-the-past-enhance-for-the-future</id>
     <content type="html"><![CDATA[<p><em>I had the great pleasure of delivering the closing keynote for the first EnhanceConf. I wanted to talk about voice and the future of “headless” user interfaces. Here’s what I had to say.</em></p>
 
@@ -87,8 +87,7 @@
 <p>Let’s take a trip back in time to one of the earliest computer games: Zork. Zork was written between 1977 and 1979. It’s a text-based adventure game that operates a lot like a game of <em>Dungeons &amp; Dragons</em>—with the program serving the role of gamemaster.</p>
 
 <blockquote>
-  <p>West of House<br /> You are standing in an open field west of a white house, with a boarded front door.<br /> There is a small mailbox here. 
-$&gt; <strong>open mailbox</strong></p>
+  <p>West of House<br /> You are standing in an open field west of a white house, with a boarded front door.<br /> There is a small mailbox here.<br /><br />&gt; <strong>open mailbox</strong></p>
 </blockquote>
 
 <p>As you move from location to location throughout the game, the program describes the environment and notes objects and people you can interact with. You type what you want to do and the program tells you the results of your actions.</p>
@@ -430,7 +429,7 @@ $&gt; <strong>open mailbox</strong></p>
   <entry>
     <title type="html"><![CDATA[Affirming User Choice With Checkboxes]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/affirming-user-choice-with-checkboxes/"/>
-    <updated>2016-01-06T19:24:31+00:00</updated>
+    <updated>2016-01-06T14:24:31-05:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/affirming-user-choice-with-checkboxes</id>
     <content type="html"><![CDATA[<p>“Checkbox” form controls have long been a part of software. They enable users to provide a simple binary response—yes or no. On the Web, we often see them in two scenarios: confirmations and multiple choice.</p>
 
@@ -558,7 +557,7 @@ $&gt; <strong>open mailbox</strong></p>
   <entry>
     <title type="html"><![CDATA[Labeled With Love]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/labeled-with-love/"/>
-    <updated>2015-11-12T02:05:33+00:00</updated>
+    <updated>2015-11-11T21:05:33-05:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/labeled-with-love</id>
     <content type="html"><![CDATA[<p>Forms exist on pretty much every site on the web in one form or another. They are the primary mechanism by which we gather information from our users.<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> Of course, before anyone can fill out a form, they need to know what it’s asking for. Labeling is key.</p>
 
@@ -1160,7 +1159,7 @@ $&gt; <strong>open mailbox</strong></p>
   <entry>
     <title type="html"><![CDATA[Harvard, MIT, and Captioning]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/harvard-and-mit-and-captioning/"/>
-    <updated>2015-06-29T19:23:28+01:00</updated>
+    <updated>2015-06-29T14:23:28-04:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/harvard-and-mit-and-captioning</id>
     <content type="html"><![CDATA[<p>The U.S. Department of Justice (DOJ) has published Statements of Interest in two cases brought by the National Association of the Deaf (NAD) against <a href="http://www.ada.gov/briefs/harvard_soi.pdf">Harvard (PDF)</a> and <a href="http://www.ada.gov/briefs/mit_soi.pdf">MIT (PDF)</a>, respectively. The NAD is suing the two universities for violations of Title III of the Americans with Disabilities Act (ADA) and Section 504 of the Rehabilitation Act because the video and audio materials they are making available as part of their online learning offerings are not captioned.</p>
 
@@ -1193,7 +1192,7 @@ $&gt; <strong>open mailbox</strong></p>
   <entry>
     <title type="html"><![CDATA[Where Do We Go From Here?]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/where-do-we-go-from-here/"/>
-    <updated>2015-06-22T16:49:56+01:00</updated>
+    <updated>2015-06-22T11:49:56-04:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/where-do-we-go-from-here</id>
     <content type="html"><![CDATA[<p><em>I had the great pleasure of delivering the closing keynote for the final Responsive Day Out. Here’s what I had to say.</em></p>
 

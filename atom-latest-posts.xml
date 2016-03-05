@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Posts]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-posts.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2016-03-05T08:29:03+00:00</updated>
+	<updated>2016-03-05T15:35:03-05:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
 			<entry>
 				<title type="html"><![CDATA[Learn From the Past, Enhance for the Future]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/learn-from-the-past-enhance-for-the-future/"/>
-				<updated>2016-03-04T22:33:57+00:00</updated>
+				<updated>2016-03-04T17:33:57-05:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/learn-from-the-past-enhance-for-the-future</id>
 				<content type="html"><![CDATA[<p><em>I had the great pleasure of delivering the closing keynote for the first EnhanceConf. I wanted to talk about voice and the future of “headless” user interfaces. Here’s what I had to say.</em></p>
 
@@ -87,8 +87,7 @@
 <p>Let’s take a trip back in time to one of the earliest computer games: Zork. Zork was written between 1977 and 1979. It’s a text-based adventure game that operates a lot like a game of <em>Dungeons &amp; Dragons</em>—with the program serving the role of gamemaster.</p>
 
 <blockquote>
-  <p>West of House<br /> You are standing in an open field west of a white house, with a boarded front door.<br /> There is a small mailbox here. 
-$&gt; <strong>open mailbox</strong></p>
+  <p>West of House<br /> You are standing in an open field west of a white house, with a boarded front door.<br /> There is a small mailbox here.<br /><br />&gt; <strong>open mailbox</strong></p>
 </blockquote>
 
 <p>As you move from location to location throughout the game, the program describes the environment and notes objects and people you can interact with. You type what you want to do and the program tells you the results of your actions.</p>
@@ -428,7 +427,7 @@ $&gt; <strong>open mailbox</strong></p>
 			<entry>
 				<title type="html"><![CDATA[Planning Adaptive Interfaces: The Workshop]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/planning-adaptive-interfaces-the-workshop/"/>
-				<updated>2016-02-21T23:56:05+00:00</updated>
+				<updated>2016-02-21T18:56:05-05:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/planning-adaptive-interfaces-the-workshop</id>
 				<content type="html"><![CDATA[<p>For the last few years I’ve been running a workshop alternately titled “Planning Adaptive Interfaces” or “Beyond Responsive”, depending on the conference. It’s been one of my favorite workshops to run for a number of reasons, but before I get into that, let me explain what it is and how it works.</p>
 
@@ -455,7 +454,7 @@ $&gt; <strong>open mailbox</strong></p>
 			<entry>
 				<title type="html"><![CDATA[Progressive Enhancement Gets a Conference]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/progressive-enhancement-gets-a-conference/"/>
-				<updated>2016-02-15T15:00:51+00:00</updated>
+				<updated>2016-02-15T10:00:51-05:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/progressive-enhancement-gets-a-conference</id>
 				<content type="html"><![CDATA[<p>On March 4th, I’ll be in London to give the closing talk at <a href="http://enhanceconf.com/">EnhanceConf</a>, the first conference dedicated progressive enhancement. Over the last few months, I’ve been talking to the conference’s organizer, <a href="https://twitter.com/simonmcmanus">Simon McManus</a>, quite a lot. He’s put a lot of thought into the conference and I thought it might be interesting to  interview him so he could share his motivations and hopes for the event.</p>
 
@@ -569,7 +568,7 @@ I’ve been reaching out to lots of different communities around London to bring
 			<entry>
 				<title type="html"><![CDATA[Apple Support: Honeybadger]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/apple-support-honeybadger/"/>
-				<updated>2016-01-26T22:34:17+00:00</updated>
+				<updated>2016-01-26T17:34:17-05:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/apple-support-honeybadger</id>
 				<content type="html"><![CDATA[<p>My iPhone fell clumsily out of my pocket when I was sitting down in the kitchen the other day. <em>Thwack!</em> It fell face-first onto the tile from my seated position a mere 18 inches up. Of course the screen cracked. Protective case be damned, the cracks spread across the screen like a spider web cast from razor blades.</p>
 

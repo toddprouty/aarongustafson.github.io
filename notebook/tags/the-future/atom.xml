@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: The Future | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/the-future/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2016-03-05T08:29:03+00:00</updated>
+  <updated>2016-03-05T15:35:03-05:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Learn From the Past, Enhance for the Future]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/learn-from-the-past-enhance-for-the-future/"/>
-    <updated>2016-03-04T22:33:57+00:00</updated>
+    <updated>2016-03-04T17:33:57-05:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/learn-from-the-past-enhance-for-the-future</id>
     <content type="html"><![CDATA[<p><em>I had the great pleasure of delivering the closing keynote for the first EnhanceConf. I wanted to talk about voice and the future of “headless” user interfaces. Here’s what I had to say.</em></p>
 
@@ -87,8 +87,7 @@
 <p>Let’s take a trip back in time to one of the earliest computer games: Zork. Zork was written between 1977 and 1979. It’s a text-based adventure game that operates a lot like a game of <em>Dungeons &amp; Dragons</em>—with the program serving the role of gamemaster.</p>
 
 <blockquote>
-  <p>West of House<br /> You are standing in an open field west of a white house, with a boarded front door.<br /> There is a small mailbox here. 
-$&gt; <strong>open mailbox</strong></p>
+  <p>West of House<br /> You are standing in an open field west of a white house, with a boarded front door.<br /> There is a small mailbox here.<br /><br />&gt; <strong>open mailbox</strong></p>
 </blockquote>
 
 <p>As you move from location to location throughout the game, the program describes the environment and notes objects and people you can interact with. You type what you want to do and the program tells you the results of your actions.</p>
@@ -430,7 +429,7 @@ $&gt; <strong>open mailbox</strong></p>
   <entry>
     <title type="html"><![CDATA[Avoiding Link Rot in Print With the Help of Perma.cc]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/avoiding-linkrot-in-print-with-the-help-of-perma-dot-cc/"/>
-    <updated>2015-12-02T21:03:35+00:00</updated>
+    <updated>2015-12-02T16:03:35-05:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/avoiding-linkrot-in-print-with-the-help-of-perma-dot-cc</id>
     <content type="html"><![CDATA[<p>I think we can all agree, <a href="https://en.wikipedia.org/wiki/Link_rot">link rot</a> is a problem. A 2014 study by Harvard Law School determined that <a href="http://journals.cambridge.org/action/displayAbstract?fromPage=online&amp;aid=9282809&amp;fileId=S1472669614000255/">roughly 50% of the URLs referenced in U.S. Supreme Court opinions no longer work</a>. That’s <em>terrifying</em>.</p>
 
@@ -455,7 +454,7 @@ $&gt; <strong>open mailbox</strong></p>
   <entry>
     <title type="html"><![CDATA[The Web Is for Everyone]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/the-web-is-for-everyone/"/>
-    <updated>2014-11-06T20:47:54+00:00</updated>
+    <updated>2014-11-06T15:47:54-05:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/the-web-is-for-everyone</id>
     <content type="html"><![CDATA[<p><em>I gave this speech as the closing keynote at <a href="http://a11yqc.org/">A11yQC</a>, a conference on Web accessibility, on 14 October 2014 in Québec City, Canada. I have published my script here as the slides can’t really convey its message on their own.</em></p>
 

@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Octopress | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/octopress/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2016-03-05T08:29:03+00:00</updated>
+  <updated>2016-03-05T15:35:03-05:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Crossposting to Medium From Jekyll]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/crossposting-to-medium-from-jekyll/"/>
-    <updated>2015-10-26T19:27:00+00:00</updated>
+    <updated>2015-10-26T15:27:00-04:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/crossposting-to-medium-from-jekyll</id>
     <content type="html"><![CDATA[<p>Last week, <a href="https://adactio.com/journal/9694">Jeremy Keith posted about syndicating his content to Medium using their new API</a>. Before they added <a href="https://github.com/Medium/medium-api-docs">the API</a>, there was no way to automatically publishing to <a href="https://medium.com">Medium</a> from your own blog. And doing it manually was quite tedious.</p>
 

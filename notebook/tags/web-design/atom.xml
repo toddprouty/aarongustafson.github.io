@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2016-03-05T08:29:03+00:00</updated>
+  <updated>2016-03-05T15:35:03-05:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Affirming User Choice With Checkboxes]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/affirming-user-choice-with-checkboxes/"/>
-    <updated>2016-01-06T19:24:31+00:00</updated>
+    <updated>2016-01-06T14:24:31-05:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/affirming-user-choice-with-checkboxes</id>
     <content type="html"><![CDATA[<p>“Checkbox” form controls have long been a part of software. They enable users to provide a simple binary response—yes or no. On the Web, we often see them in two scenarios: confirmations and multiple choice.</p>
 
@@ -144,7 +144,7 @@
   <entry>
     <title type="html"><![CDATA[Speeding Things Up With Service Worker, Resource Hints, and More]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/speeding-things-up-with-service-worker-resource-hints-and-more/"/>
-    <updated>2015-11-20T21:39:09+00:00</updated>
+    <updated>2015-11-20T16:39:09-05:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/speeding-things-up-with-service-worker-resource-hints-and-more</id>
     <content type="html"><![CDATA[<p>User experience encompasses more than just the interface. Download speed, render performance, and the cost of accessing a site are often overlooked areas when it comes to the practice of UX, but they all affect how users experience what we build on the Web.</p>
 
@@ -670,7 +670,7 @@
   <entry>
     <title type="html"><![CDATA[Labeled With Love]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/labeled-with-love/"/>
-    <updated>2015-11-12T02:05:33+00:00</updated>
+    <updated>2015-11-11T21:05:33-05:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/labeled-with-love</id>
     <content type="html"><![CDATA[<p>Forms exist on pretty much every site on the web in one form or another. They are the primary mechanism by which we gather information from our users.<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> Of course, before anyone can fill out a form, they need to know what it’s asking for. Labeling is key.</p>
 
@@ -1272,7 +1272,7 @@
   <entry>
     <title type="html"><![CDATA[Future of Web Design &amp; Øredev]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/future-of-web-design-and-oredev/"/>
-    <updated>2015-11-09T20:17:15+00:00</updated>
+    <updated>2015-11-09T15:17:15-05:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/future-of-web-design-and-oredev</id>
     <content type="html"><![CDATA[<p>Between <a href="https://futureofwebdesign.com/nyc-2015/">Future of Web Design</a> in New York City and <a href="http://lanyrd.com/2015/oredev/">Øredev</a> in Malmö, Sweden, I was a busy boy last week. I delivered three talks and a workshop in total and am a bit exhausted.</p>
 
@@ -1309,7 +1309,7 @@
   <entry>
     <title type="html"><![CDATA[Strapless]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/strapless/"/>
-    <updated>2015-10-19T16:33:37+01:00</updated>
+    <updated>2015-10-19T11:33:37-04:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/strapless</id>
     <content type="html"><![CDATA[<p>On Friday, <a href="https://twitter.com/ShirleyTemper">Kelly</a> and I were having a conversation over lunch about the ubiquity of Bootstrap. It’s a topic we’ve been kvetching about for the the last few years—we’ve grown tired of seeing the same site everywhere we look.</p>
 
