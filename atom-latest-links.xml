@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2016-03-08T16:35:14-05:00</updated>
+	<updated>2016-03-16T12:05:22-05:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -15,10 +15,12 @@
 		
 	
 		
+	
+		
 			<entry>
 				<title type="html"><![CDATA[A Design System Isn’t a Project. It’s a Product, Serving Products.]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/a-design-system-isn-t-a-project-it-s-a-product-serving-products-74dcfffef935/"/>
-				<updated>2016-02-26T16:23:45-05:00</updated>
+				<updated>2016-02-26T15:23:45-06:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/a-design-system-isn-t-a-project-it-s-a-product-serving-products-74dcfffef935</id>
 				<content type="html"><![CDATA[<p>Excellent post from Nathan Curtis. You need to read this:</p>
 
@@ -33,7 +35,7 @@
 			<entry>
 				<title type="html"><![CDATA[Atomic Classification]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/atomic-classification/"/>
-				<updated>2016-02-26T16:17:32-05:00</updated>
+				<updated>2016-02-26T15:17:32-06:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/atomic-classification</id>
 				<content type="html"><![CDATA[<p>We’ve run into similar issues with Pattern Lab’s enforced groupings on a large client project. Some just didn’t make sense, causing a little confusion for our team, but way more confusion for the client’s team. It added way more cognitive overhead than was really necessary for the project. The tool made testing components easy, but we eventually ended up leaving some buckets empty.</p>
 <p><a rel="full-article" href="http://trentwalton.com/2016/02/26/atomic-classification/">Read on Trent Walton&nbsp;&rarr;</a></p>]]></content>
@@ -48,7 +50,7 @@
 			<entry>
 				<title type="html"><![CDATA[The Very Latest Clearfix Reloaded]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/the-very-latest-clearfix-reloaded/"/>
-				<updated>2016-02-11T17:23:31-05:00</updated>
+				<updated>2016-02-11T16:23:31-06:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/the-very-latest-clearfix-reloaded</id>
 				<content type="html"><![CDATA[<p>Thierry Koblentz’s simplified, modern float clearing solution.</p>
 <p><a rel="full-article" href="http://cssmojo.com/the-very-latest-clearfix-reloaded/">Read on CSS Mojo&nbsp;&rarr;</a></p>]]></content>
@@ -59,7 +61,7 @@
 			<entry>
 				<title type="html"><![CDATA[Short Note on Use of Alt="" and the Title Attribute]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/short-note-on-use-of-alt-and-the-title-attribute/"/>
-				<updated>2016-02-11T17:08:24-05:00</updated>
+				<updated>2016-02-11T16:08:24-06:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/short-note-on-use-of-alt-and-the-title-attribute</id>
 				<content type="html"><![CDATA[<p>Steve answers the question of whether</p>
 
@@ -75,7 +77,7 @@
 			<entry>
 				<title type="html"><![CDATA[10 Pro Tips for Managing the Performance of Your Third-party Scripts]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/10-pro-tips-for-managing-the-performance-of-your-third-party-scripts/"/>
-				<updated>2016-02-11T16:58:28-05:00</updated>
+				<updated>2016-02-11T15:58:28-06:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/10-pro-tips-for-managing-the-performance-of-your-third-party-scripts</id>
 				<content type="html"><![CDATA[<p>There is some excellent advice in this piece. In particular, #1—Calculate its ROI—is probably the most important.</p>
 <p><a rel="full-article" href="http://www.soasta.com/blog/10-pro-tips-for-managing-the-performance-of-your-third-party-scripts/">Read on SOASTA&nbsp;&rarr;</a></p>]]></content>
@@ -86,7 +88,7 @@
 			<entry>
 				<title type="html"><![CDATA[Run Express Server in Your Browser]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/run-express-server-in-your-browser/"/>
-				<updated>2016-02-11T16:56:55-05:00</updated>
+				<updated>2016-02-11T15:56:55-06:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/run-express-server-in-your-browser</id>
 				<content type="html"><![CDATA[<p>Running Express within a Service Worker is either brilliant or insane. Possibly both.</p>
 <p><a rel="full-article" href="https://glebbahmutov.com/blog/run-express-server-in-your-browser/">Read on Better world by better software&nbsp;&rarr;</a></p>]]></content>
@@ -97,7 +99,7 @@
 			<entry>
 				<title type="html"><![CDATA[Which Input When?]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/which-input-when/"/>
-				<updated>2016-02-11T16:39:49-05:00</updated>
+				<updated>2016-02-11T15:39:49-06:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/which-input-when</id>
 				<content type="html"><![CDATA[<p>An excellent round-up of input types and when you should use each.</p>
 <p><a rel="full-article" href="http://morgancarter.com.au/design-solutions/which-input-when/">Read on Morgan Carter’s Blog&nbsp;&rarr;</a></p>]]></content>
@@ -108,7 +110,7 @@
 			<entry>
 				<title type="html"><![CDATA[Choosing Between Min-width and Max-width Media Queries]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/choosing-between-min-and-max-width/"/>
-				<updated>2016-02-11T16:38:32-05:00</updated>
+				<updated>2016-02-11T15:38:32-06:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/choosing-between-min-and-max-width</id>
 				<content type="html"><![CDATA[<p>Stephen Hay answers the age-old question of which type of media query you should use.</p>
 <p><a rel="full-article" href="http://www.the-haystack.com/2015/12/23/choosing-between-min-and-max-width/">Read on The Haystack&nbsp;&rarr;</a></p>]]></content>
@@ -119,7 +121,7 @@
 			<entry>
 				<title type="html"><![CDATA[The Ultimate Section 508 Guide for Students: Content for Everyone]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/student-section508/"/>
-				<updated>2016-01-30T18:32:29-05:00</updated>
+				<updated>2016-01-30T17:32:29-06:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/student-section508</id>
 				<content type="html"><![CDATA[<p>I don’t know about “ultimate”, but this is a good overview of why accessibility matters and what you need to know about Section 508.</p>
 <p><a rel="full-article" href="http://www.whoishostingthis.com/resources/student-section508/">Read on WhoIsHostingThis?&nbsp;&rarr;</a></p>]]></content>
@@ -132,7 +134,7 @@
 			<entry>
 				<title type="html"><![CDATA[Vorlon Extension]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/VorlonExtension/"/>
-				<updated>2016-01-25T09:56:58-05:00</updated>
+				<updated>2016-01-25T08:56:58-06:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/VorlonExtension</id>
 				<content type="html"><![CDATA[<p><a href="http://vorlonjs.com/">Vorlon.js</a> is a pretty neat nodejs-based remote debugging tool from some of my colleagues at Microsoft. And now it’s available as a browser extension!</p>
 <p><a rel="full-article" href="https://github.com/MicrosoftDX/VorlonExtension">Read on Microsoft DX on GitHub&nbsp;&rarr;</a></p>]]></content>
@@ -143,7 +145,7 @@
 			<entry>
 				<title type="html"><![CDATA[Why Hover Menus Are Problematic]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/why-hover-menus-are-problematic-b21d6c7de91c/"/>
-				<updated>2016-01-25T09:56:27-05:00</updated>
+				<updated>2016-01-25T08:56:27-06:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/why-hover-menus-are-problematic-b21d6c7de91c</id>
 				<content type="html"><![CDATA[<p>Lots of good information in this piece, but here’s the key takeaway:</p>
 
@@ -158,7 +160,7 @@
 			<entry>
 				<title type="html"><![CDATA[Submitting a Pull Request to Node.js With ChakraCore]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/nodejs-chakracore-mainline/"/>
-				<updated>2016-01-25T09:56:14-05:00</updated>
+				<updated>2016-01-25T08:56:14-06:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/nodejs-chakracore-mainline</id>
 				<content type="html"><![CDATA[<p>Folks on the Chakra team at Microsoft have updated node.js to enable users to swap in <a href="https://github.com/Microsoft/ChakraCore">their open source ChakraCore JavaScript engine</a> for the default <a href="https://developers.google.com/v8/?hl=en">V8 JavaScript engine from Google</a>. <a href="https://github.com/nodejs/node/pull/4765">This is pretty big huge.</a></p>
 <p><a rel="full-article" href="https://blogs.windows.com/msedgedev/2016/01/19/nodejs-chakracore-mainline/">Read on MS Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
@@ -169,7 +171,7 @@
 			<entry>
 				<title type="html"><![CDATA[Lawsuits Rise: Blind Plaintiffs Sue Additional Retailers for Website Accessibility/ADA Claims]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/lawsuits-rise-blind-plaintiffs-sue-additional-retailers-for%20website-accessibility-ada-claims/"/>
-				<updated>2016-01-25T09:55:57-05:00</updated>
+				<updated>2016-01-25T08:55:57-06:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/lawsuits-rise-blind-plaintiffs-sue-additional-retailers-for website-accessibility-ada-claims</id>
 				<content type="html"><![CDATA[<p>Not at all surprising…</p>
 
@@ -184,7 +186,7 @@
 			<entry>
 				<title type="html"><![CDATA[How Creating Accessibility for Everyone Benefits Us All]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/how-creating-accessibility-for-everyone-benefits-us-all/"/>
-				<updated>2016-01-25T09:54:33-05:00</updated>
+				<updated>2016-01-25T08:54:33-06:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/how-creating-accessibility-for-everyone-benefits-us-all</id>
 				<content type="html"><![CDATA[<p>A good piece on why accessibility matters and steps JPMorgan Chase is taking to incorporate it in everything they do.</p>
 <p><a rel="full-article" href="http://www.forbes.com/sites/jpmorganchase/2015/12/03/how-creating-accessibility-for-everyone-benefits-us-all/#2715e4857a0b676ad03d6756">Read on Forbes&nbsp;&rarr;</a></p>]]></content>
@@ -195,21 +197,10 @@
 			<entry>
 				<title type="html"><![CDATA[The Value of Accessibility]]></title>
 				<link href="https://www.aaron-gustafson.com/notebook/links/the-value-of-accessibility/"/>
-				<updated>2016-01-25T09:54:13-05:00</updated>
+				<updated>2016-01-25T08:54:13-06:00</updated>
 				<id>https://www.aaron-gustafson.com/notebook/links/the-value-of-accessibility</id>
 				<content type="html"><![CDATA[<p>An excellent primer on accessibility from Charles McQuilkin.</p>
 <p><a rel="full-article" href="http://www.webdesignerdepot.com/2015/12/the-value-of-accessibility/">Read on Webdesigner Depot&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[SVG A11y Test Cases]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/svg-a11y-tests/"/>
-				<updated>2016-01-25T09:54:01-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/svg-a11y-tests</id>
-				<content type="html"><![CDATA[<p>Test cases for SVG accessibility, with and without ARIA.</p>
-<p><a rel="full-article" href="http://svg-access-w3cg.github.io/svg-a11y-tests/">Read on W3C Accessible SVG Community Group on Github&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
