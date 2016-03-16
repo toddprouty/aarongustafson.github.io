@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Content | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/content/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2016-03-16T12:05:22-05:00</updated>
+  <updated>2016-03-16T17:24:44-04:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Avoiding Link Rot in Print With the Help of Perma.cc]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/avoiding-linkrot-in-print-with-the-help-of-perma-dot-cc/"/>
-    <updated>2015-12-02T15:03:35-06:00</updated>
+    <updated>2015-12-02T16:03:35-05:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/avoiding-linkrot-in-print-with-the-help-of-perma-dot-cc</id>
     <content type="html"><![CDATA[<p>I think we can all agree, <a href="https://en.wikipedia.org/wiki/Link_rot">link rot</a> is a problem. A 2014 study by Harvard Law School determined that <a href="http://journals.cambridge.org/action/displayAbstract?fromPage=online&amp;aid=9282809&amp;fileId=S1472669614000255/">roughly 50% of the URLs referenced in U.S. Supreme Court opinions no longer work</a>. That’s <em>terrifying</em>.</p>
 
@@ -41,7 +41,7 @@
   <entry>
     <title type="html"><![CDATA[Consider How Your Forms Read]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/consider-how-your-forms-read/"/>
-    <updated>2015-02-23T10:21:24-06:00</updated>
+    <updated>2015-02-23T11:21:24-05:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/consider-how-your-forms-read</id>
     <content type="html"><![CDATA[<p>While listening to <a href="http://www.radiolab.org/story/trust-engineers/">Radiolab’s “The Trust Engineers”</a>, I’ll admit I got a little excited when they started talking about web form performance. And no, not “performance” in the time-to-download sense, but “performance” in terms of how well the forms performed in attempting to capture meaningful, actionable data.</p>
 

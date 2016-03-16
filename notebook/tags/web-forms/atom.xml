@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Forms | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/web-forms/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2016-03-16T12:05:22-05:00</updated>
+  <updated>2016-03-16T17:24:44-04:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Affirming User Choice With Checkboxes]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/affirming-user-choice-with-checkboxes/"/>
-    <updated>2016-01-06T13:24:31-06:00</updated>
+    <updated>2016-01-06T14:24:31-05:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/affirming-user-choice-with-checkboxes</id>
     <content type="html"><![CDATA[<p>“Checkbox” form controls have long been a part of software. They enable users to provide a simple binary response—yes or no. On the Web, we often see them in two scenarios: confirmations and multiple choice.</p>
 
@@ -144,7 +144,7 @@
   <entry>
     <title type="html"><![CDATA[Labeled With Love]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/labeled-with-love/"/>
-    <updated>2015-11-11T20:05:33-06:00</updated>
+    <updated>2015-11-11T21:05:33-05:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/labeled-with-love</id>
     <content type="html"><![CDATA[<p>Forms exist on pretty much every site on the web in one form or another. They are the primary mechanism by which we gather information from our users.<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> Of course, before anyone can fill out a form, they need to know what it’s asking for. Labeling is key.</p>
 

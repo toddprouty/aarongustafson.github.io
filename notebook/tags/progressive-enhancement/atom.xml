@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Progressive Enhancement | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/progressive-enhancement/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2016-03-16T12:05:22-05:00</updated>
+  <updated>2016-03-16T17:24:44-04:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[An Event Apart Nashville 2016, Day One]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/an-event-apart-nashville-2016-day-one/"/>
-    <updated>2016-03-16T09:54:59-05:00</updated>
+    <updated>2016-03-16T10:54:59-04:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/an-event-apart-nashville-2016-day-one</id>
     <content type="html"><![CDATA[<p>Unfortunately, I was unable to spend Tuesday in Nashville for An Event Apart (for reasons that will be revealed in about a month), but I did catch Monday and it was amazing.</p>
 
@@ -45,7 +45,7 @@
   <entry>
     <title type="html"><![CDATA[Planning Adaptive Interfaces: The Workshop]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/planning-adaptive-interfaces-the-workshop/"/>
-    <updated>2016-02-21T17:56:05-06:00</updated>
+    <updated>2016-02-21T18:56:05-05:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/planning-adaptive-interfaces-the-workshop</id>
     <content type="html"><![CDATA[<p>For the last few years I’ve been running a workshop alternately titled “Planning Adaptive Interfaces” or “Beyond Responsive”, depending on the conference. It’s been one of my favorite workshops to run for a number of reasons, but before I get into that, let me explain what it is and how it works.</p>
 
@@ -70,7 +70,7 @@
   <entry>
     <title type="html"><![CDATA[Progressive Enhancement Gets a Conference]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/progressive-enhancement-gets-a-conference/"/>
-    <updated>2016-02-15T09:00:51-06:00</updated>
+    <updated>2016-02-15T10:00:51-05:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/progressive-enhancement-gets-a-conference</id>
     <content type="html"><![CDATA[<p>On March 4th, I’ll be in London to give the closing talk at <a href="http://enhanceconf.com/">EnhanceConf</a>, the first conference dedicated progressive enhancement. Over the last few months, I’ve been talking to the conference’s organizer, <a href="https://twitter.com/simonmcmanus">Simon McManus</a>, quite a lot. He’s put a lot of thought into the conference and I thought it might be interesting to  interview him so he could share his motivations and hopes for the event.</p>
 
@@ -168,7 +168,7 @@ I’ve been reaching out to lots of different communities around London to bring
   <entry>
     <title type="html"><![CDATA[Speeding Things Up With Service Worker, Resource Hints, and More]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/speeding-things-up-with-service-worker-resource-hints-and-more/"/>
-    <updated>2015-11-20T15:39:09-06:00</updated>
+    <updated>2015-11-20T16:39:09-05:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/speeding-things-up-with-service-worker-resource-hints-and-more</id>
     <content type="html"><![CDATA[<p>User experience encompasses more than just the interface. Download speed, render performance, and the cost of accessing a site are often overlooked areas when it comes to the practice of UX, but they all affect how users experience what we build on the Web.</p>
 
@@ -694,7 +694,7 @@ I’ve been reaching out to lots of different communities around London to bring
   <entry>
     <title type="html"><![CDATA[Future of Web Design &amp; Øredev]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/future-of-web-design-and-oredev/"/>
-    <updated>2015-11-09T14:17:15-06:00</updated>
+    <updated>2015-11-09T15:17:15-05:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/future-of-web-design-and-oredev</id>
     <content type="html"><![CDATA[<p>Between <a href="https://futureofwebdesign.com/nyc-2015/">Future of Web Design</a> in New York City and <a href="http://lanyrd.com/2015/oredev/">Øredev</a> in Malmö, Sweden, I was a busy boy last week. I delivered three talks and a workshop in total and am a bit exhausted.</p>
 
