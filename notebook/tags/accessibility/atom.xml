@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Accessibility | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/accessibility/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2016-03-08T16:35:14-05:00</updated>
+  <updated>2016-03-16T11:52:10-05:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Learn From the Past, Enhance for the Future]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/learn-from-the-past-enhance-for-the-future/"/>
-    <updated>2016-03-04T17:33:57-05:00</updated>
+    <updated>2016-03-04T16:33:57-06:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/learn-from-the-past-enhance-for-the-future</id>
     <content type="html"><![CDATA[<p><em>I had the great pleasure of delivering the closing keynote for the first EnhanceConf. I wanted to talk about voice and the future of “headless” user interfaces. Here’s what I had to say.</em></p>
 
@@ -155,10 +155,7 @@
 
 <p>If the words we use form the basis of the conversations we have with our users, the semantics we employ clarify that meaning. Choosing elements with semantic value enriches our content, illuminating the meaning and intent of our words in order to overcome the limitations of text and bring it up to par with spoken language. After all, they may look the same visually, but there’s a big difference between these two statements:</p>
 
-<p><div><script src="https://gist.github.com/6f5b7c0f0c072631a908.js?file=different-meanings.html"></script>
-<noscript><pre><code>&lt;p&gt;I &lt;em&gt;really&lt;/em&gt; want to be your friend.&lt;/p&gt;
-&lt;p&gt;I &lt;i class=&quot;sarcasm&quot;&gt;really&lt;/i&gt; want to be your friend.&lt;/p&gt;</code></pre></noscript></div>
-</p>
+<p>{% gist 6f5b7c0f0c072631a908 different-meanings.html %}</p>
 
 <p>Beyond using markup to clarify the intent of the words we write, we can use it to spell out relationships that are often represented visually. Dustin described one way we do this as part of the impetus for CSS Naked Day (emphasis mine):</p>
 
@@ -193,23 +190,20 @@
 <p>When we are writing for our readers, we need to be familiar with their level of domain knowledge so we don’t frustrate or alienate them. For example, if you track error codes for issues on your site, send them to <em>your developers</em>, but never present them to a user.</p>
 
 <figure id="figure-2016-03-04-03">
-<img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/03.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/03.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
+{% adaptive_image /i/posts/2016-03-04/03.png %}
 </figure>
 
 <p>Similarly, we should avoid legalese and write in plain language. Medium has done a great job of this with <a href="https://medium.com/policy/medium-terms-of-service-9db0094a1e0f#.mgexdk816">their Terms of Service</a>.</p>
 
 <figure id="figure-2016-03-04-04">
-<img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/04.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/04.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/04.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/04.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
+{% adaptive_image /i/posts/2016-03-04/04.png %}
 </figure>
 
 <h3 id="when-requesting-feedback-make-it-clear-that-the-user-needs-to-respond"><strong>When Requesting Feedback, Make It Clear that the User Needs to Respond</strong></h3>
 
 <p>In perhaps the most common form example, consider the label “First Name”. It’s not terribly conversational and doesn’t beg for a response. Labels like “What is your first name?” make it clear the user should respond.</p>
 
-<p><div><script src="https://gist.github.com/6f5b7c0f0c072631a908.js?file=better-labels.html"></script>
-<noscript><pre><code>&lt;label for=&quot;first_name&quot;&gt;What’s your first name?&lt;/label&gt;
-&lt;input name=&quot;first_name&quot; id=&quot;first_name&quot;&gt;</code></pre></noscript></div>
-</p>
+<p>{% gist 6f5b7c0f0c072631a908 better-labels.html %}</p>
 
 <figure id="figure-2016-03-04-05">
 <audio controls="">
@@ -221,16 +215,7 @@
 
 <p>Similarly, when there’s an error, notify them of the error and, if possible, give them some clues on how to fix it.</p>
 
-<p><div><script src="https://gist.github.com/6f5b7c0f0c072631a908.js?file=field-error.html"></script>
-<noscript><pre><code>&lt;label for=&quot;first_name&quot;&gt;What’s your first name?&lt;/label&gt;
-&lt;input name=&quot;first_name&quot; id=&quot;first_name&quot;
-       aria-describedby=&quot;first_name-error&quot;
-       &gt;
-&lt;em id=&quot;first_name-error&quot;&gt;
-  Without your first name, I won’t know how to address you.
-  Could you please provide it?
-&lt;/em&gt;</code></pre></noscript></div>
-</p>
+<p>{% gist 6f5b7c0f0c072631a908 field-error.html %}</p>
 
 <figure id="figure-2016-03-04-06">
 <audio controls="">
@@ -244,24 +229,11 @@
 
 <p>This comes into play often when dealing with forms. Ensuring radio and checkbox controls are properly associated with their labels is critical.</p>
 
-<p><div><script src="https://gist.github.com/6f5b7c0f0c072631a908.js?file=radio-label.html"></script>
-<noscript><pre><code>&lt;input type=&quot;radio&quot; name=&quot;agree&quot; id=&quot;agree_yes&quot; value=&quot;yes&quot;&gt;
-&lt;label for=&quot;agree_yes&quot;&gt;Yes&lt;/label&gt;</code></pre></noscript></div>
-</p>
+<p>{% gist 6f5b7c0f0c072631a908 radio-label.html %}</p>
 
 <p>You can also use the <code>fieldset</code> and <code>legend</code> elements to group the related controls, but be sure to make the <code>legend</code> focusable or associate it with the first focusable form control in order to ensure the question is read out.</p>
 
-<p><div><script src="https://gist.github.com/6f5b7c0f0c072631a908.js?file=fieldset.html"></script>
-<noscript><pre><code>&lt;fieldset&gt;
-  &lt;legend tabindex=&quot;0&quot;&gt;Do you agree to the terms of service for this site?&lt;/legend&gt;
-  
-  &lt;input type=&quot;radio&quot; name=&quot;agree&quot; id=&quot;agree_yes&quot;  value=&quot;yes&quot;&gt;
-  &lt;label for=&quot;agree_yes&quot;&gt;Yes&lt;/label&gt;
-  
-  &lt;input type=&quot;radio&quot; name=&quot;agree&quot; id=&quot;agree_no&quot;  value=&quot;no&quot;&gt;
-  &lt;label for=&quot;agree_no&quot;&gt;No&lt;/label&gt;
-&lt;/fieldset&gt;</code></pre></noscript></div>
-</p>
+<p>{% gist 6f5b7c0f0c072631a908 fieldset.html %}</p>
 
 <figure id="figure-2016-03-04-07">
 <audio controls="">
@@ -273,16 +245,7 @@
 
 <p>We should strive for the same sort of clarity when presenting navigation options. The HTML5 <code>nav</code> element enables us to semantically identify an area of the page being used for navigation. It does not, however, identify the <code>nav</code> element as being for navigation when encountered naturally in the flow of the document. For that reason, it can be useful to provide an textual introduction to the section, even if you choose to visibly hide it. You might even consider expanding the text of your navigation items to provide additional context.</p>
 
-<p><div><script src="https://gist.github.com/6f5b7c0f0c072631a908.js?file=navigation.html"></script>
-<noscript><pre><code>&lt;nav id=&quot;nav&quot; tabindex=&quot;0&quot; aria-labelledby=&quot;nav-title&quot;&gt;
-  &lt;h1 id=&quot;nav-title&quot; class=&quot;hidden&quot;&gt;Here’s what you can find on this site:&lt;/h1&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&quot;/about/&quot;&gt;&lt;b class=&quot;hidden&quot;&gt;A Bit &lt;/b&gt;About&lt;b class=&quot;hidden&quot;&gt; Me&lt;/b&gt;&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/notebook/&quot;&gt;&lt;b class=&quot;hidden&quot;&gt;Entries in My &lt;/b&gt;Notebook&lt;/a&gt;&lt;/li&gt;
-    …
-  &lt;/ul&gt;
-&lt;/nav&gt;</code></pre></noscript></div>
-</p>
+<p>{% gist 6f5b7c0f0c072631a908 navigation.html %}</p>
 
 <figure id="figure-2016-03-04-08">
 <audio controls="">
@@ -335,7 +298,7 @@
 </blockquote>
 
 <figure id="figure-2016-03-04-09">
-<img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/09.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/09.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/09.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/09.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
+{% adaptive_image /i/posts/2016-03-04/09.png %}
 </figure>
 
 <p>Clear and to the point, right?</p>
@@ -349,7 +312,7 @@
 <p>Then they allow you to lookup the property or manually enter the address.</p>
 
 <figure id="figure-2016-03-04-10">
-<img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/10.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/10.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/10.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/10.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
+{% adaptive_image /i/posts/2016-03-04/10.png %}
 </figure>
 
 <p>While not specifically designed for the future of headless UIs, this form is prepared for their eventuality.</p>
@@ -359,19 +322,19 @@
 <p>We show our users respect by respecting their time. Obviously straightforward, brief writing is one way we do that, but another is to reduce the time it takes to complete a task. Many forms are brimming with fields to be filled in. In some cases, the vast majority are purely optional. And while it may be easy to spot the required fields visually, bypassing them in an aural interface can be incredibly difficult.</p>
 
 <figure id="figure-2016-03-04-11">
-<img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/11.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/11.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/11.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/11.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
+{% adaptive_image /i/posts/2016-03-04/11.jpg %}
 </figure>
 
 <p>User experience designers have been pushing for simplified forms since… well, as long as I can remember. Users appreciate them, they tend to result in better data, and they also tend to convert better than long forms. And when it comes to voice-based interactions, they will become a necessity. No one is going to want to spend 15 minutes working their way through a 15 question registration form when all that’s required is their email address and for them to choose a password.</p>
 
 <figure id="figure-2016-03-04-12">
-<img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/12.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/12.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/12.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/12.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
+{% adaptive_image /i/posts/2016-03-04/12.jpg %}
 </figure>
 
 <p>On a similar note, we should avoid slicing fields into multiple parts if at all possible. For instance, you still see fields like this one, asking for a US phone number, quite often:</p>
 
 <figure id="figure-2016-03-04-13">
-<img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/13.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/13.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/13.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/13.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
+{% adaptive_image /i/posts/2016-03-04/13.png %}
 </figure>
 
 <p>When interacting with this construct via voice, a user will be required to supply three separate values. In order to do so, each field would require a label. Even in the States, most developers would only know how to label the first of those three boxes. (They are area code, exchange or central office code, and line number, if you’re interested.)</p>
@@ -400,29 +363,11 @@
 
 <p>Microsoft has taken a slightly different approach. Using a relatively simple XML format, they have enabled us to teach Cortana new commands that tie directly into our website.</p>
 
-<p><div><script src="https://gist.github.com/6f5b7c0f0c072631a908.js?file=meta.html"></script>
-<noscript><pre><code>&lt;meta name=&quot;msapplication-cortanavcd&quot;  content=&quot;http://myapp.io/vcd.xml&quot;&gt;</code></pre></noscript></div>
-</p>
+<p>{% gist 6f5b7c0f0c072631a908 meta.html %}</p>
 
 <p>All we need to do is include a <code>meta</code> tag pointing to an XML file that details the commands (and variations) and, when a user installs the site as a hosted app, Cortana picks up the new commands automatically. Those commands, when issued, can open a specific page or even kick off JavaScript methods in the target page.</p>
 
-<p><div><script src="https://gist.github.com/6f5b7c0f0c072631a908.js?file=vcd.xml"></script>
-<noscript><pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
-&lt;VoiceCommands xmlns=&quot;http://schemas.microsoft.com/voicecommands/1.2&quot;&gt;
-  &lt;CommandSet xml:lang=&quot;en-us&quot; Name=&quot;groupPost&quot;&gt;
-    &lt;CommandPrefix&gt;Group Post&lt;/CommandPrefix&gt;
-    &lt;Example&gt;Group Post add note&lt;/Example&gt;
-    &lt;Command Name=&quot;addNote&quot;&gt;
-      &lt;Example&gt;add a note {message} using group post&lt;/Example&gt;
-      &lt;ListenFor RequireAppName=&quot;BeforeOrAfterPhrase&quot;&gt;[please] 
-        add a note [that] {noteSubject}&lt;/ListenFor&gt;
-      &lt;Feedback&gt;adding {noteSubject} to Group Post&lt;/Feedback&gt;
-      &lt;Navigate Target=&quot;/addNote.htm&quot;/&gt;
-    &lt;/Command&gt;
-    &lt;PhraseTopic Label=&quot;noteSubject&quot; Scenario=&quot;Dictation&quot;&gt;&lt;/PhraseTopic&gt;
-  &lt;/CommandSet&gt;
-&lt;/VoiceCommands&gt;</code></pre></noscript></div>
-</p>
+<p>{% gist 6f5b7c0f0c072631a908 vcd.xml %}</p>
 
 <hr />
 
@@ -433,7 +378,7 @@
   <entry>
     <title type="html"><![CDATA[Affirming User Choice With Checkboxes]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/affirming-user-choice-with-checkboxes/"/>
-    <updated>2016-01-06T14:24:31-05:00</updated>
+    <updated>2016-01-06T13:24:31-06:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/affirming-user-choice-with-checkboxes</id>
     <content type="html"><![CDATA[<p>“Checkbox” form controls have long been a part of software. They enable users to provide a simple binary response—yes or no. On the Web, we often see them in two scenarios: confirmations and multiple choice.</p>
 
@@ -443,33 +388,21 @@
 
 <p>Standalone checkboxes are often employed to enable users to affirm a statement, as in <a href="#fig-2016-01-06-01">this example</a> from <a href="https://online.americanexpress.com/myca/logon/us/action/LogonHandler?request_type=LogonHandler&amp;Face=en_US#lilo_loginForm">the American Express login form</a> where a customer can indicate they’d like the site to remember them.</p>
 
-<figure id="fig-2016-01-06-01" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/01.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/01.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>American Express’ login form offers users the option of being remembered. As that is a binary choice (e.g. yes or no), the checkbox makes sense.</figcaption></figure>
+<figure id="fig-2016-01-06-01" class="media-container">{% adaptive_image /i/posts/2016-01-06/01.png %}<figcaption>American Express’ login form offers users the option of being remembered. As that is a binary choice (e.g. yes or no), the checkbox makes sense.</figcaption></figure>
 
 <p>Here’s a simplification of the markup they’re using:</p>
 
-<p><div><script src="https://gist.github.com/d281f889a11634b45280.js?file=american-express-login-simplified.html"></script>
-<noscript><pre><code>&lt;input type=&quot;checkbox&quot; id=&quot;lilo_checkBox&quot; name=&quot;REMEMBERME&quot;&gt;
-&lt;label for=&quot;lilo_checkBox&quot;&gt;Remember Me&lt;/label&gt;</code></pre></noscript></div>
-</p>
+<p>{% gist d281f889a11634b45280 american-express-login-simplified.html %}</p>
 
 <p>This works really well, though I generally prefer to <a href="https://www.aaron-gustafson.com/notebook/labeled-with-love/#an-alternate-approach">combine explicit and implicit labeling</a> to simplify my CSS selectors and broaden their applicability. Here’s how I would rewrite this control:</p>
 
-<p><div><script src="https://gist.github.com/d281f889a11634b45280.js?file=american-express-login-reimagined.html"></script>
-<noscript><pre><code>&lt;label for=&quot;lilo_checkBox&quot;&gt;
-  &lt;input type=&quot;checkbox&quot; id=&quot;lilo_checkBox&quot; name=&quot;REMEMBERME&quot;&gt;
-  Remember Me
-&lt;/label&gt;</code></pre></noscript></div>
-</p>
+<p>{% gist d281f889a11634b45280 american-express-login-reimagined.html %}</p>
 
 <p>Regardless of the markup pattern itself, it’s important to note the explicit association of the form control and the <code>label</code> element (using the <code>for</code> attribute). You’ll also notice the input has a straightforward <code>name</code> value which will be submitted to the back end if the user ticks the box.</p>
 
 <p>It’s worth noting that some back-end systems may require a value be submitted for the given variable name (in this case, “REMEMBERME”) regardless of whether the user has ticked the checkbox. If that’s a requirement, you can alter the pattern to use a hidden <code>input</code> as well:</p>
 
-<p><div><script src="https://gist.github.com/d281f889a11634b45280.js?file=american-express-login-with-hidden.html"></script>
-<noscript><pre><code>&lt;input type=&quot;hidden&quot; name=&quot;REMEMBERME&quot; value=&quot;no&quot;&gt;
-&lt;input type=&quot;checkbox&quot; id=&quot;lilo_checkBox&quot; name=&quot;REMEMBERME&quot; value=&quot;yes&quot;&gt;
-&lt;label for=&quot;lilo_checkBox&quot;&gt;Remember Me&lt;/label&gt;</code></pre></noscript></div>
-</p>
+<p>{% gist d281f889a11634b45280 american-express-login-with-hidden.html %}</p>
 
 <p>The source order matters because with matching <code>name</code> values, the final submittable <code>value</code> will always be the one the back-end receives. With this setup, the <code>value</code> of “no” (from the hidden <code>input</code>) will be submitted by default. If the checkbox is ticked, its <code>value</code> is submitted instead, setting REMEMBERME to “yes”.</p>
 
@@ -477,37 +410,11 @@
 
 <p>The other way we often see checkboxes used is to enable users to choose zero or more items from a collection of options. Consider <a href="#fig-2016-01-06-02">this example</a> from <a href="http://chadevicelab.org/book-time">the Chattanooga Open Device Lab’s reservation form</a>. It allows users to choose the devices they’d like to include in their test matrix:</p>
 
-<figure id="fig-2016-01-06-02" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/02.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/02.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>In this excerpt from the reservation form on the Chattanooga Open Device Lab website, users can choose to include gaming system options.</figcaption></figure>
+<figure id="fig-2016-01-06-02" class="media-container">{% adaptive_image /i/posts/2016-01-06/02.png %}<figcaption>In this excerpt from the reservation form on the Chattanooga Open Device Lab website, users can choose to include gaming system options.</figcaption></figure>
 
 <p>The markup they employ is pretty well-organized and straightforward: it’s a list of checkbox options.</p>
 
-<p><div><script src="https://gist.github.com/d281f889a11634b45280.js?file=chaodl-checkbox-list.html"></script>
-<noscript><pre><code>&lt;ul&gt;
-  &lt;li&gt;
-    &lt;label for=&quot;nintendo-ds-lite&quot;&gt;
-      &lt;input type=&quot;checkbox&quot;
-             name=&quot;reservation_requested_device[]&quot;
-             id=&quot;nintendo-ds-lite&quot;
-             value=&quot;Nintendo DS Lite (Upper Cabinet #13)&quot;
-             data-checkbox-required=&quot;&quot;
-             &gt;
-      Nintendo DS Lite
-    &lt;/label&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;label for=&quot;nintendo-wii&quot;&gt;
-      &lt;input type=&quot;checkbox&quot;
-             name=&quot;reservation_requested_device[]&quot;
-             id=&quot;nintendo-wii&quot;
-             value=&quot;Nintendo Wii (TV Area)&quot;
-             data-checkbox-required=&quot;&quot;
-             &gt;
-      Nintendo Wii
-    &lt;/label&gt;
-  &lt;/li&gt;
-  &lt;!-- list continues --&gt;
-&lt;/ul&gt;</code></pre></noscript></div>
-</p>
+<p>{% gist d281f889a11634b45280 chaodl-checkbox-list.html %}</p>
 
 <p>As this is an instance where a user could choose more than one option, the back end needs to be able to capture that information in what’s called an “array”. An array, if you’re unfamiliar, is a collection of values. You’ll notice that the <code>name</code> given to each of these checkbox <code>input</code> elements is the same: “reservation_requested_device[]”. The square brackets (“[]”) at the end of the <code>name</code> are the magic bit that allows the values of <em>each</em> chosen “reservation_requested_device” checkbox to be submitted as the value of “reservation_requested_device”.</p>
 
@@ -544,11 +451,11 @@
 
 <p>For simple confirmation questions, it’s completely valid to use a radio form control in lieu of a single checkbox. In fact, in some cases, it may offer a more explicit choice for your users. Consider <a href="#fig-2016-01-06-03">this example</a> from <a href="https://order.subway.com">Subway’s online ordering tool</a>.</p>
 
-<figure id="fig-2016-01-06-03" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/03.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/03.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>In this excerpt from Subway’s online ordering tool, they use a checkbox to confirm the user wants their sandwich toasted.</figcaption></figure>
+<figure id="fig-2016-01-06-03" class="media-container">{% adaptive_image /i/posts/2016-01-06/03.png %}<figcaption>In this excerpt from Subway’s online ordering tool, they use a checkbox to confirm the user wants their sandwich toasted.</figcaption></figure>
 
 <p>A checkbox labelled “Fresh Toasted”, isn’t terribly clear. A better approach would be to ask something like “Would you like your sandwich toasted?” with radio controls for “yes” and “no”. Alternately, if they absolutely wanted to keep it as a checkbox, they could use a better label: “Please toast my sandwich”.</p>
 
-<figure id="fig-2016-01-06-04" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/04.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/04.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/04.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/04.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>An alternate approach to the Subway interface, using radio controls.</figcaption></figure>
+<figure id="fig-2016-01-06-04" class="media-container">{% adaptive_image /i/posts/2016-01-06/04.png %}<figcaption>An alternate approach to the Subway interface, using radio controls.</figcaption></figure>
 
 <p>Radio controls have their place, but are not often a one-to-one replacement for checkboxes. I will discuss radio controls in greater depth in another post.</p>
 
@@ -561,7 +468,7 @@
   <entry>
     <title type="html"><![CDATA[Labeled With Love]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/labeled-with-love/"/>
-    <updated>2015-11-11T21:05:33-05:00</updated>
+    <updated>2015-11-11T20:05:33-06:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/labeled-with-love</id>
     <content type="html"><![CDATA[<p>Forms exist on pretty much every site on the web in one form or another. They are the primary mechanism by which we gather information from our users.<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> Of course, before anyone can fill out a form, they need to know what it’s asking for. Labeling is key.</p>
 
@@ -573,340 +480,43 @@
 
 <p>When you look at a basic form field, you have two bits of information: the field and the label.</p>
 
-<figure id="fig-2015-11-11-01" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/01.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/01.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>A typical form control: a label and a field.</figcaption></figure>
+<figure id="fig-2015-11-11-01" class="media-container">{% adaptive_image /i/posts/2015-11-11/01.png %}<figcaption>A typical form control: a label and a field.</figcaption></figure>
 
 <p>You could achieve this with a minimum of markup:</p>
 
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
-<div id="gist27925529" class="gist">
-    <div class="gist-file">
-      <div class="gist-data">
-        <div class="js-gist-file-update-container js-task-list-container file-box">
-  <div id="file-unlabeled-field-html" class="file">
-    
-
-  <div class="blob-wrapper data type-html">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="file-unlabeled-field-html-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-unlabeled-field-html-LC1" class="blob-code blob-code-inner js-file-line">Your Name</td>
-      </tr>
-      <tr>
-        <td id="file-unlabeled-field-html-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-unlabeled-field-html-LC2" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">input</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>full_name<span class="pl-pds">&quot;</span></span>&gt;</td>
-      </tr>
-</table>
-
-  </div>
-
-  </div>
-  
-</div>
-
-      </div>
-      <div class="gist-meta">
-        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568/raw/af7d34e88830a540478fcb49839be692d47248f2/unlabeled-field.html" style="float:right">view raw</a>
-        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568#file-unlabeled-field-html">unlabeled-field.html</a>
-        hosted with &#10084; by <a href="https://github.com">GitHub</a>
-      </div>
-    </div>
-</div>
-
-</div></p>
+<p>{% gist 3585c019108025b2f568 unlabeled-field.html embed %}</p>
 
 <p>The thing is, the text “Your Name” is not associated in any way with the <code>input</code>. Sure, a sighted person would likely be able to tell that that text is associated with the field, but no computer can tell that. And if a computer can’t tell the text and <code>input</code> are associated, your form control is inaccessible to anyone who uses assistive technology like a screen reader. It’s also going to pose a problem in the near-future of “headless UIs” like those hinted at by Cortana, Siri, and the Echo.</p>
 
 <p>Thankfully, establishing a relationship between the two is quite easy using the <code>label</code> element. The most common (and preferable) way to do this is to wrap the labeling text in a <code>label</code> element. Then you create an explicit association with the field using the <code>for</code> attribute, which is an <code>id</code> reference. In other words, the value of the <code>for</code> attribute needs to match the value of the <code>id</code> attribute on the field you want to associate with that <code>label</code>.</p>
 
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
-<div id="gist27925529" class="gist">
-    <div class="gist-file">
-      <div class="gist-data">
-        <div class="js-gist-file-update-container js-task-list-container file-box">
-  <div id="file-labeled-field-html" class="file">
-    
-
-  <div class="blob-wrapper data type-html">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="file-labeled-field-html-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-labeled-field-html-LC1" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">label</span> <span class="pl-e">for</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>full_name<span class="pl-pds">&quot;</span></span>&gt;Your Name&lt;/<span class="pl-ent">label</span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="file-labeled-field-html-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-labeled-field-html-LC2" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">input</span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>full_name<span class="pl-pds">&quot;</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>full_name<span class="pl-pds">&quot;</span></span>&gt;</td>
-      </tr>
-</table>
-
-  </div>
-
-  </div>
-  
-</div>
-
-      </div>
-      <div class="gist-meta">
-        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568/raw/af7d34e88830a540478fcb49839be692d47248f2/labeled-field.html" style="float:right">view raw</a>
-        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568#file-labeled-field-html">labeled-field.html</a>
-        hosted with &#10084; by <a href="https://github.com">GitHub</a>
-      </div>
-    </div>
-</div>
-
-</div></p>
+<p>{% gist 3585c019108025b2f568 labeled-field.html embed %}</p>
 
 <p>With that markup in place, the programmatic connection between the elements is made and the results speak for themselves: When you focus the field, the contents of the <code>label</code> are read out.</p>
 
-<p><figure id="fig-WR4_MAjalsU" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(//i2.ytimg.com/vi/WR4_MAjalsU/0.jpg);" href="//www.youtube.com/watch?v=WR4_MAjalsU" data-lazy-video-src="//www.youtube.com/embed/WR4_MAjalsU?autoplay=1&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">ChromeVox reading the label associated with a form control.</div></a></div></figure></p>
+<p>{% youtube WR4_MAjalsU %}</p>
 
 <h2 id="an-alternate-approach">An Alternate Approach</h2>
 
 <p>Since I specifically referred to this approach as <em>explicit</em> association, you probably assumed that there’s another kind of association. And you were right: <em>implicit</em> association. Implicit association is created by wrapping a form control and its associated label text in a <code>label</code> element. I like to use this approach with radio and checkbox controls:</p>
 
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
-<div id="gist27925529" class="gist">
-    <div class="gist-file">
-      <div class="gist-data">
-        <div class="js-gist-file-update-container js-task-list-container file-box">
-  <div id="file-implicitly-labeled-checkbox-html" class="file">
-    
-
-  <div class="blob-wrapper data type-html">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="file-implicitly-labeled-checkbox-html-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-implicitly-labeled-checkbox-html-LC1" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">label</span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="file-implicitly-labeled-checkbox-html-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-implicitly-labeled-checkbox-html-LC2" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>checkbox<span class="pl-pds">&quot;</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>devices[]<span class="pl-pds">&quot;</span></span> <span class="pl-e">value</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>Asus Nexus 7<span class="pl-pds">&quot;</span></span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="file-implicitly-labeled-checkbox-html-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-implicitly-labeled-checkbox-html-LC3" class="blob-code blob-code-inner js-file-line">  Asus Nexus 7</td>
-      </tr>
-      <tr>
-        <td id="file-implicitly-labeled-checkbox-html-L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="file-implicitly-labeled-checkbox-html-LC4" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">label</span>&gt;</td>
-      </tr>
-</table>
-
-  </div>
-
-  </div>
-  
-</div>
-
-      </div>
-      <div class="gist-meta">
-        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568/raw/af7d34e88830a540478fcb49839be692d47248f2/implicitly-labeled-checkbox.html" style="float:right">view raw</a>
-        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568#file-implicitly-labeled-checkbox-html">implicitly-labeled-checkbox.html</a>
-        hosted with &#10084; by <a href="https://github.com">GitHub</a>
-      </div>
-    </div>
-</div>
-
-</div></p>
+<p>{% gist 3585c019108025b2f568 implicitly-labeled-checkbox.html embed %}</p>
 
 <p>It’s worth noting that there’s nothing wrong with explicit association in this context either.</p>
 
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
-<div id="gist27925529" class="gist">
-    <div class="gist-file">
-      <div class="gist-data">
-        <div class="js-gist-file-update-container js-task-list-container file-box">
-  <div id="file-explicitly-labeled-checkbox-html" class="file">
-    
-
-  <div class="blob-wrapper data type-html">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="file-explicitly-labeled-checkbox-html-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-explicitly-labeled-checkbox-html-LC1" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>checkbox<span class="pl-pds">&quot;</span></span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>asus-nexus-7<span class="pl-pds">&quot;</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>devices[]<span class="pl-pds">&quot;</span></span> <span class="pl-e">value</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>Asus Nexus 7<span class="pl-pds">&quot;</span></span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="file-explicitly-labeled-checkbox-html-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-explicitly-labeled-checkbox-html-LC2" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">label</span> <span class="pl-e">for</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>asus-nexus-7<span class="pl-pds">&quot;</span></span>&gt;Asus Nexus 7&lt;/<span class="pl-ent">label</span>&gt;</td>
-      </tr>
-</table>
-
-  </div>
-
-  </div>
-  
-</div>
-
-      </div>
-      <div class="gist-meta">
-        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568/raw/af7d34e88830a540478fcb49839be692d47248f2/explicitly-labeled-checkbox.html" style="float:right">view raw</a>
-        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568#file-explicitly-labeled-checkbox-html">explicitly-labeled-checkbox.html</a>
-        hosted with &#10084; by <a href="https://github.com">GitHub</a>
-      </div>
-    </div>
-</div>
-
-</div></p>
+<p>{% gist 3585c019108025b2f568 explicitly-labeled-checkbox.html embed %}</p>
 
 <p>You can even combine the two approaches.</p>
 
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
-<div id="gist27925529" class="gist">
-    <div class="gist-file">
-      <div class="gist-data">
-        <div class="js-gist-file-update-container js-task-list-container file-box">
-  <div id="file-combo-labeled-checkbox-html" class="file">
-    
-
-  <div class="blob-wrapper data type-html">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="file-combo-labeled-checkbox-html-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-combo-labeled-checkbox-html-LC1" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">label</span> <span class="pl-e">for</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>asus-nexus-7<span class="pl-pds">&quot;</span></span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="file-combo-labeled-checkbox-html-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-combo-labeled-checkbox-html-LC2" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>checkbox<span class="pl-pds">&quot;</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>devices[]<span class="pl-pds">&quot;</span></span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>asus-nexus-7<span class="pl-pds">&quot;</span></span> <span class="pl-e">value</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>Asus Nexus 7<span class="pl-pds">&quot;</span></span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="file-combo-labeled-checkbox-html-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-combo-labeled-checkbox-html-LC3" class="blob-code blob-code-inner js-file-line">  Asus Nexus 7</td>
-      </tr>
-      <tr>
-        <td id="file-combo-labeled-checkbox-html-L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="file-combo-labeled-checkbox-html-LC4" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">label</span>&gt;</td>
-      </tr>
-</table>
-
-  </div>
-
-  </div>
-  
-</div>
-
-      </div>
-      <div class="gist-meta">
-        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568/raw/af7d34e88830a540478fcb49839be692d47248f2/combo-labeled-checkbox.html" style="float:right">view raw</a>
-        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568#file-combo-labeled-checkbox-html">combo-labeled-checkbox.html</a>
-        hosted with &#10084; by <a href="https://github.com">GitHub</a>
-      </div>
-    </div>
-</div>
-
-</div></p>
+<p>{% gist 3585c019108025b2f568 combo-labeled-checkbox.html embed %}</p>
 
 <p>The reason I like to use implicit association with checkbox and radio controls has to do with ensuring the greatest breadth of support when it comes to styling inputs. For instance, if I set <code>width: 80%</code> on all <code>input</code> elements using a simple <a href="https://developer.mozilla.org/docs/Web/CSS/Type_selectors">type selector</a>, that width would be applied to <em>all</em> <code>input</code> elements, including radio and checkbox controls. In order to prevent radio and checkbox controls from getting rendered at that width, I would need to assign an override value of <code>width: auto</code> to them them specifically. I can do that using <a href="https://developer.mozilla.org/docs/Web/CSS/Attribute_selectors">attribute selectors</a>:</p>
 
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
-<div id="gist27925529" class="gist">
-    <div class="gist-file">
-      <div class="gist-data">
-        <div class="js-gist-file-update-container js-task-list-container file-box">
-  <div id="file-modern-only-css" class="file">
-    
-
-  <div class="blob-wrapper data type-css">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="file-modern-only-css-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-modern-only-css-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">input</span> {</td>
-      </tr>
-      <tr>
-        <td id="file-modern-only-css-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-modern-only-css-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">width</span></span>: <span class="pl-c1">80<span class="pl-k">%</span></span>;</td>
-      </tr>
-      <tr>
-        <td id="file-modern-only-css-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-modern-only-css-LC3" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-      <tr>
-        <td id="file-modern-only-css-L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="file-modern-only-css-LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">input</span>[type=checkbox],</td>
-      </tr>
-      <tr>
-        <td id="file-modern-only-css-L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="file-modern-only-css-LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">input</span>[type=radio] {</td>
-      </tr>
-      <tr>
-        <td id="file-modern-only-css-L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="file-modern-only-css-LC6" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">width</span></span>: <span class="pl-c1">auto</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-modern-only-css-L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="file-modern-only-css-LC7" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-</table>
-
-  </div>
-
-  </div>
-  
-</div>
-
-      </div>
-      <div class="gist-meta">
-        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568/raw/af7d34e88830a540478fcb49839be692d47248f2/modern-only.css" style="float:right">view raw</a>
-        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568#file-modern-only-css">modern-only.css</a>
-        hosted with &#10084; by <a href="https://github.com">GitHub</a>
-      </div>
-    </div>
-</div>
-
-</div></p>
+<p>{% gist 3585c019108025b2f568 modern-only.css embed %}</p>
 
 <p>While completely valid, that approach leaves out any browsers that don’t support attribute selection (e.g. IE 6). That may not seem like a deal-breaker in your book, but on the off chance some poor soul happens to be stuck using an out-of-date browser (as many are on mobile), I like to show them a little love. And, thankfully, using the implicit markup pattern for checkboxes and radio controls allows for this quite easily: I just use a <a href="https://developer.mozilla.org/docs/Web/CSS/Descendant_selectors">descendent selector</a> instead.</p>
 
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
-<div id="gist27925529" class="gist">
-    <div class="gist-file">
-      <div class="gist-data">
-        <div class="js-gist-file-update-container js-task-list-container file-box">
-  <div id="file-universal-css" class="file">
-    
-
-  <div class="blob-wrapper data type-css">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="file-universal-css-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-universal-css-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">input</span> {</td>
-      </tr>
-      <tr>
-        <td id="file-universal-css-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-universal-css-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">width</span></span>: <span class="pl-c1">80<span class="pl-k">%</span></span>;</td>
-      </tr>
-      <tr>
-        <td id="file-universal-css-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-universal-css-LC3" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-      <tr>
-        <td id="file-universal-css-L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="file-universal-css-LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">label</span> <span class="pl-ent">input</span> {</td>
-      </tr>
-      <tr>
-        <td id="file-universal-css-L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="file-universal-css-LC5" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">width</span></span>: <span class="pl-c1">auto</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-universal-css-L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="file-universal-css-LC6" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-</table>
-
-  </div>
-
-  </div>
-  
-</div>
-
-      </div>
-      <div class="gist-meta">
-        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568/raw/af7d34e88830a540478fcb49839be692d47248f2/universal.css" style="float:right">view raw</a>
-        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568#file-universal-css">universal.css</a>
-        hosted with &#10084; by <a href="https://github.com">GitHub</a>
-      </div>
-    </div>
-</div>
-
-</div></p>
+<p>{% gist 3585c019108025b2f568 universal.css embed %}</p>
 
 <p>This approach results in a greater amount of support and, incidentally, less CSS.</p>
 
@@ -918,54 +528,11 @@
 
 <p>This isn’t a game-changer when it comes to standard text fields, but it’s an exceptional affordance when it comes to radio and checkbox controls, especially on mobile, as it vastly increases the tappable region used to activate the control.</p>
 
-<figure id="fig-2015-11-11-03" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/03.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/03.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>A screenshot of a group of checkbox controls with their labels outlined.</figcaption></figure>
+<figure id="fig-2015-11-11-03" class="media-container">{% adaptive_image /i/posts/2015-11-11/03.png %}<figcaption>A screenshot of a group of checkbox controls with their labels outlined.</figcaption></figure>
 
 <p>To create incredibly generous tap targets on mobile devices, we can take things a little further. Add padding to the top and bottom of the <code>label</code> to make it bigger and then use negative margins to counter that enlargement and keep the layout as it was before the padding was applied.</p>
 
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
-<div id="gist27925529" class="gist">
-    <div class="gist-file">
-      <div class="gist-data">
-        <div class="js-gist-file-update-container js-task-list-container file-box">
-  <div id="file-larger-labels-css" class="file">
-    
-
-  <div class="blob-wrapper data type-css">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="file-larger-labels-css-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-larger-labels-css-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-e">.grouped</span> <span class="pl-ent">label</span> {</td>
-      </tr>
-      <tr>
-        <td id="file-larger-labels-css-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-larger-labels-css-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">margin</span></span>: <span class="pl-c1">-1<span class="pl-k">em</span></span> <span class="pl-c1">0</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-larger-labels-css-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-larger-labels-css-LC3" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">padding</span></span>: <span class="pl-c1">1<span class="pl-k">em</span></span> <span class="pl-c1">0</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-larger-labels-css-L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="file-larger-labels-css-LC4" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-</table>
-
-  </div>
-
-  </div>
-  
-</div>
-
-      </div>
-      <div class="gist-meta">
-        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568/raw/af7d34e88830a540478fcb49839be692d47248f2/larger-labels.css" style="float:right">view raw</a>
-        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568#file-larger-labels-css">larger-labels.css</a>
-        hosted with &#10084; by <a href="https://github.com">GitHub</a>
-      </div>
-    </div>
-</div>
-
-</div></p>
+<p>{% gist 3585c019108025b2f568 larger-labels.css embed %}</p>
 
 <figure id="fig-2015-11-11-04" class="media-container"><img src="https://www.aaron-gustafson.com/i/posts/2015-11-11/04.gif" alt="" /><figcaption>An animation showing very generous tap targets on a narrow screen.</figcaption></figure>
 
@@ -983,161 +550,11 @@
 
 <p>Of course, since <code>placeholder</code> implements an existing pattern, it came with baggage. People commonly achieved this effect by (ab)using the <code>value</code> attribute as a fake label. As such, its introduction didn’t do much to increase the accessibility of forms. <em>Form controls need a label</em>. If you want to make your form more compact, you can do that using proper markup and a little clever CSS.</p>
 
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
-<div id="gist27925529" class="gist">
-    <div class="gist-file">
-      <div class="gist-data">
-        <div class="js-gist-file-update-container js-task-list-container file-box">
-  <div id="file-fancy-example-html" class="file">
-    
+<p>{% gist 3585c019108025b2f568 fancy-example.html embed %}</p>
 
-  <div class="blob-wrapper data type-html">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="file-fancy-example-html-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-fancy-example-html-LC1" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>form-control<span class="pl-pds">&quot;</span></span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="file-fancy-example-html-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-fancy-example-html-LC2" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">input</span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>full_name<span class="pl-pds">&quot;</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>full_name<span class="pl-pds">&quot;</span></span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="file-fancy-example-html-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-fancy-example-html-LC3" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">label</span> <span class="pl-e">for</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>full_name<span class="pl-pds">&quot;</span></span>&gt;Your Name&lt;/<span class="pl-ent">label</span>&gt;</td>
-      </tr>
-      <tr>
-        <td id="file-fancy-example-html-L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="file-fancy-example-html-LC4" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">p</span>&gt;</td>
-      </tr>
-</table>
+<p>{% gist 3585c019108025b2f568 fancy-example.css embed %}</p>
 
-  </div>
-
-  </div>
-  
-</div>
-
-      </div>
-      <div class="gist-meta">
-        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568/raw/af7d34e88830a540478fcb49839be692d47248f2/fancy-example.html" style="float:right">view raw</a>
-        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568#file-fancy-example-html">fancy-example.html</a>
-        hosted with &#10084; by <a href="https://github.com">GitHub</a>
-      </div>
-    </div>
-</div>
-
-</div></p>
-
-<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-e75a8866f2a8f51e8bbbf8ca746676f1e7cacb08f4b1d9b52ea62524b333cc6d.css">
-<div id="gist27925529" class="gist">
-    <div class="gist-file">
-      <div class="gist-data">
-        <div class="js-gist-file-update-container js-task-list-container file-box">
-  <div id="file-fancy-example-css" class="file">
-    
-
-  <div class="blob-wrapper data type-css">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="file-fancy-example-css-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-fancy-example-css-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-e">.form-control</span> {</td>
-      </tr>
-      <tr>
-        <td id="file-fancy-example-css-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-fancy-example-css-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">position</span></span>: <span class="pl-c1">relative</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-fancy-example-css-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-fancy-example-css-LC3" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-      <tr>
-        <td id="file-fancy-example-css-L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="file-fancy-example-css-LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">label</span> {</td>
-      </tr>
-      <tr>
-        <td id="file-fancy-example-css-L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="file-fancy-example-css-LC5" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">display</span></span>: <span class="pl-c1">block</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-fancy-example-css-L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="file-fancy-example-css-LC6" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">position</span></span>: <span class="pl-c1">absolute</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-fancy-example-css-L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="file-fancy-example-css-LC7" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">top</span></span>: <span class="pl-c1">50<span class="pl-k">%</span></span>;</td>
-      </tr>
-      <tr>
-        <td id="file-fancy-example-css-L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="file-fancy-example-css-LC8" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">margin-top</span></span>: <span class="pl-c1">-.5<span class="pl-k">em</span></span>;</td>
-      </tr>
-      <tr>
-        <td id="file-fancy-example-css-L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="file-fancy-example-css-LC9" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">left</span></span>: <span class="pl-c1">.25<span class="pl-k">em</span></span>;</td>
-      </tr>
-      <tr>
-        <td id="file-fancy-example-css-L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="file-fancy-example-css-LC10" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">transition</span></span>: <span class="pl-c1">.25<span class="pl-k">s</span></span> transform;</td>
-      </tr>
-      <tr>
-        <td id="file-fancy-example-css-L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="file-fancy-example-css-LC11" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-      <tr>
-        <td id="file-fancy-example-css-L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="file-fancy-example-css-LC12" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">input</span> {</td>
-      </tr>
-      <tr>
-        <td id="file-fancy-example-css-L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="file-fancy-example-css-LC13" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">display</span></span>: <span class="pl-c1">block</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-fancy-example-css-L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="file-fancy-example-css-LC14" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">border</span></span>: <span class="pl-c1">1<span class="pl-k">px</span></span> <span class="pl-c1">solid</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-fancy-example-css-L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="file-fancy-example-css-LC15" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">border-radius</span></span>: <span class="pl-c1">3<span class="pl-k">px</span></span>;</td>
-      </tr>
-      <tr>
-        <td id="file-fancy-example-css-L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="file-fancy-example-css-LC16" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">padding</span></span>: <span class="pl-c1">.25<span class="pl-k">em</span></span>;</td>
-      </tr>
-      <tr>
-        <td id="file-fancy-example-css-L17" class="blob-num js-line-number" data-line-number="17"></td>
-        <td id="file-fancy-example-css-LC17" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-      <tr>
-        <td id="file-fancy-example-css-L18" class="blob-num js-line-number" data-line-number="18"></td>
-        <td id="file-fancy-example-css-LC18" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">input</span><span class="pl-e">:focus</span> + <span class="pl-ent">label</span> {</td>
-      </tr>
-      <tr>
-        <td id="file-fancy-example-css-L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="file-fancy-example-css-LC19" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">transform</span></span>: translateY(<span class="pl-c1">-1.5<span class="pl-k">em</span></span>);</td>
-      </tr>
-      <tr>
-        <td id="file-fancy-example-css-L20" class="blob-num js-line-number" data-line-number="20"></td>
-        <td id="file-fancy-example-css-LC20" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-</table>
-
-  </div>
-
-  </div>
-  
-</div>
-
-      </div>
-      <div class="gist-meta">
-        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568/raw/af7d34e88830a540478fcb49839be692d47248f2/fancy-example.css" style="float:right">view raw</a>
-        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568#file-fancy-example-css">fancy-example.css</a>
-        hosted with &#10084; by <a href="https://github.com">GitHub</a>
-      </div>
-    </div>
-</div>
-
-</div></p>
-
-<figure id="fig-2015-11-11-06" class="media-container"><p class="codepen" data-user="aarongustafson" data-href="BoGgYM" data-height="112" data-type="result" data-preview="true">See the Pen <a href="http://codepen.io/aarongustafson/pen/BoGgYM">Simple Compact Labels</a> by Aaron Gustafson (<a href="//codepen.io/aarongustafson">aarongustafson</a>) on <a href="//codepen.io">CodePen</a>.</p><script async src="//codepen.io/assets/embed/ei.js"></script></figure>
+<figure id="fig-2015-11-11-06" class="media-container">{% codepen BoGgYM aarongustafson result 112 preview %}</figure>
 
 <p>Mary Lou assembled some beautiful examples of this approach in her <a href="http://tympanus.net/codrops/2015/01/08/inspiration-text-input-effects/">Inspiration for Text Input Effects</a>. I highly recommend you check those out, but here’s a teaser to whet your whistle:</p>
 
@@ -1163,7 +580,7 @@
   <entry>
     <title type="html"><![CDATA[Harvard, MIT, and Captioning]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/harvard-and-mit-and-captioning/"/>
-    <updated>2015-06-29T14:23:28-04:00</updated>
+    <updated>2015-06-29T13:23:28-05:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/harvard-and-mit-and-captioning</id>
     <content type="html"><![CDATA[<p>The U.S. Department of Justice (DOJ) has published Statements of Interest in two cases brought by the National Association of the Deaf (NAD) against <a href="http://www.ada.gov/briefs/harvard_soi.pdf">Harvard (PDF)</a> and <a href="http://www.ada.gov/briefs/mit_soi.pdf">MIT (PDF)</a>, respectively. The NAD is suing the two universities for violations of Title III of the Americans with Disabilities Act (ADA) and Section 504 of the Rehabilitation Act because the video and audio materials they are making available as part of their online learning offerings are not captioned.</p>
 
@@ -1196,7 +613,7 @@
   <entry>
     <title type="html"><![CDATA[Where Do We Go From Here?]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/where-do-we-go-from-here/"/>
-    <updated>2015-06-22T11:49:56-04:00</updated>
+    <updated>2015-06-22T10:49:56-05:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/where-do-we-go-from-here</id>
     <content type="html"><![CDATA[<p><em>I had the great pleasure of delivering the closing keynote for the final Responsive Day Out. Here’s what I had to say.</em></p>
 
@@ -1208,7 +625,7 @@
 
 <p>We’ve explored the future of modular code and browsers’ capacity for working without network connectivity. And we’ve even taken a trip into the possible future of where the web might go.</p>
 
-<figure id="figure-2015-06-22-01"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/01.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""></figure>
+<figure id="figure-2015-06-22-01">{% adaptive_image /i/posts/2015-06-22/01.jpg %}</figure>
 
 <p>We’ve come a long way since <a href="https://huffduffer.com/adactio/243780">Ethan’s article</a>, fluid grids, flexible media, and media queries. Those three tenets sowed a seed that has grown and flourished as we have come to better understand the implications of device proliferation. We’ve seen that the web is capable of going anywhere and doing pretty much anything.</p>
 
@@ -1282,7 +699,7 @@
 
 <p>When I am trying to help folks understand and embrace diversity, I often reach for one of my favorite thought exercises from <a href="https://en.wikipedia.org/wiki/John_Rawls">John Rawls</a>.</p>
 
-<figure id="figure-2015-06-22-03"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/03.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""></figure>
+<figure id="figure-2015-06-22-03">{% adaptive_image /i/posts/2015-06-22/03.jpg %}</figure>
 
 <p>Rawls was a philosopher who used to run a social experiment with students, church groups, and the like.</p>
 
@@ -1294,7 +711,7 @@
 
 <p>The things we do to accommodate special needs now pay dividends in the future. Look at ramps.</p>
 
-<figure id="figure-2015-06-22-04"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/04.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""></figure>
+<figure id="figure-2015-06-22-04">{% adaptive_image /i/posts/2015-06-22/04.jpg %}</figure>
 
 <p>They’re a classic example of an accessibility feature for people in wheelchairs that also benefit people who aren’t in them: People toting luggage, delivery services hauling heavy things on dollies, parents pushing children (or their dressed up dogs) in strollers, a commuter walking her bike, and that guy who just prefers walking up a gentle incline to expending the effort required to mount a step.</p>
 
@@ -1310,13 +727,13 @@
 
 <p>We’re just starting to dip or toes—er, hands—into the world of motion-based gestural controls. Sure, we’ve had them in two dimensions on touch screens for a while now but three dimensional motion-based controls are only beginning to appear.</p>
 
-<p><figure id="fig-VXhhE-l96qQ" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(//i2.ytimg.com/vi/VXhhE-l96qQ/0.jpg);" href="//www.youtube.com/watch?v=VXhhE-l96qQ&amp;start=41&amp;end=78" data-lazy-video-src="//www.youtube.com/embed/VXhhE-l96qQ?autoplay=1&amp;start=41&amp;end=78&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Kinect Tips, Part 3: Gesture Controls</div></a></div></figure></p>
+<p>{% youtube VXhhE-l96qQ 41s/78s %}</p>
 
 <p>The first big leap in this direction was <a href="https://en.wikipedia.org/wiki/Kinect">Kinect</a> on the Xbox 360 (and later, Windows). With Kinect, we interact with the computer using body movements like raising a hand (which gets Kinect to pay attention), pushing our hand forward to click/tap, and grasping to drag the canvas in a particular direction.</p>
 
 <p>The Kinect ushered in a major revolution in terms of interfacing with computers, but from an interaction perspective, it presents similar challenges to those of the <a href="https://en.wikipedia.org/wiki/Wii#Wii_Remote">Wii controller</a> and Sony’s <a href="https://en.wikipedia.org/wiki/PlayStation_Move">PlayStation Move</a>. Large body gestures like raising your hand (or a wand controller) can be tiring.</p>
 
-<p><figure id="fig-21LtA5-wiwU" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(//i2.ytimg.com/vi/21LtA5-wiwU/0.jpg);" href="//www.youtube.com/watch?v=21LtA5-wiwU&amp;start=7&amp;end=19" data-lazy-video-src="//www.youtube.com/embed/21LtA5-wiwU?autoplay=1&amp;start=7&amp;end=19&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Leap Motion With Windows</div></a></div></figure></p>
+<p>{% youtube 21LtA5-wiwU 7s/19s %}</p>
 
 <p>They’re also not terribly accurate. If you thought that touchscreen accuracy was an issue, hand gestures like those for the Kinect or <a href="https://en.wikipedia.org/wiki/Leap_Motion">LEAP Motion</a> pose even more of a challenge.</p>
 
@@ -1324,27 +741,13 @@
 
 <p>In <a href="http://dev.w3.org/csswg/mediaqueries-4/">Media Queries Level 4</a>, we became able to apply style rules to particular interaction contexts. For instance, when we have very accurate control over our cursor (as in the case of a stylus or mouse) or less accurate control (as in the case of a touch screen or physical gesture):</p>
 
-<p><div>@media (pointer:fine) {
-  /* Smaller links and buttons are ok */
-}
-@media (pointer:coarse) {
-  /* Larger links and buttons are probably a good idea */
-}</div></p>
+<p>{% gist 372271534c78cf11d4a6 mq4-pointer.css embed %}</p>
 
 <p>Of course, we want to offer a sensible default in terms of size and spacing as a fallback for older browsers and devices.</p>
 
 <p>We also have the ability to determine whether the device is capable of hovering over an element and can adjust the interface accordingly.</p>
 
-<p><div>@media (hover:hover) {
-  /* hover-related interactions are A-OK */
-}
-@media (hover:on-demand) {
-  /* hover-related interactions are potentially difficult,
-     maybe do something else instead */
-}
-@media (hover:none) {
-	/* No hover possible :-( */
-}</div></p>
+<p>{% gist 372271534c78cf11d4a6 mq4-hover.css embed %}</p>
 
 <p>We still need to figure out how well all of this ends up working on multimodal devices like the Surface tablet, however. Will the design change as the user switches between input modes? Should it? To that end, the spec also provides <code>any-pointer</code> and <code>any-hover</code> to allow you to query for whether <em>any</em> supported interaction method meets your requirements, but here’s a word of warning from the spec:</p>
 
@@ -1358,27 +761,11 @@
 
 <p>We can unobtrusively detect support for Pointer Events…</p>
 
-<p><div>if ( window.PointerEvent ) {
-  window.addEventListener( "pointerdown", detectType, false );
-}</div></p>
+<p>{% gist 372271534c78cf11d4a6 pointer-test.js embed %}</p>
 
 <p>…and then handle them all in the same way or create branches based on the <code>pointerType</code>:</p>
 
-<p><div>function detectType( event ) {
-  switch( event.pointerType ) {
-    case "mouse:
-      /* mouse input detected */
-      break;
-    case "pen":
-      /* pen/stylus input detected */
-      break;
-    case "touch:
-      /* touch input detected */
-      break;
-    default:
-      /* pointerType is empty (could not be detected) or UA-specific custom type */
-  }
-}</div></p>
+<p>{% gist 372271534c78cf11d4a6 pointer-event.js embed %}</p>
 
 <p>Of course, in addition to considering the level of accuracy our users have while interacting with our screens, we also need to consider the potentially increased distance at which our users are reading our content.</p>
 
@@ -1386,27 +773,19 @@
 
 <p>For a long time, I’ve used ems for the layout’s <code>max-width</code> (so the line length is proportional to the font size). I also use relative font sizes. With that as the foundation, I can use a media query that matches the maximum width and set the base font size at the vw equivalent at the max width.</p>
 
-<p><div>body {
-  max-width: 64em;
-}
-
-@media screen and (min-width: 64em) {
-  body {
-    font-size: 1.5625vw; /* ( 1em / 64em ) * 100 */
-  }
-}</div></p>
+<p>{% gist 372271534c78cf11d4a6 vw-scaling.css embed %}</p>
 
 <p>Then the whole design will simply zoom the layout when viewed beyond that size.</p>
 
-<p><figure id="fig-6XoN9mMgI38" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--4x3"><a class="video-embed__lazy-link" style="background-image:url(//i2.ytimg.com/vi/6XoN9mMgI38/0.jpg);" href="//www.youtube.com/watch?v=6XoN9mMgI38" data-lazy-video-src="//www.youtube.com/embed/6XoN9mMgI38?autoplay=1&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Using CSS to Scale a Design on Resize</div></a></div></figure></p>
+<p>{% youtube 6XoN9mMgI38 %}</p>
 
 <p>If you don’t want to turn something like that on automatically, you can enable it to be toggled on and off with JavaScript.</p>
 
-<p><figure id="fig-96l_W7ca6SM" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--4x3"><a class="video-embed__lazy-link" style="background-image:url(//i2.ytimg.com/vi/96l_W7ca6SM/0.jpg);" href="//www.youtube.com/watch?v=96l_W7ca6SM" data-lazy-video-src="//www.youtube.com/embed/96l_W7ca6SM?autoplay=1&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">CSS Couch Mode</div></a></div></figure></p>
+<p>{% youtube 96l_W7ca6SM %}</p>
 
 <p>Things get even crazier when you start to factor in devices like the HoloLens. And no, I have not gotten to play with one yet.</p>
 
-<p><figure id="fig-3AADEqLIALk" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--4x3"><a class="video-embed__lazy-link" style="background-image:url(//i2.ytimg.com/vi/3AADEqLIALk/0.jpg);" href="//www.youtube.com/watch?v=3AADEqLIALk&amp;start=87&amp;end=117" data-lazy-video-src="//www.youtube.com/embed/3AADEqLIALk?autoplay=1&amp;start=87&amp;end=117&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Microsoft HoloLens demo onstage at BUILD 2015</div></a></div></figure></p>
+<p>{% youtube 3AADEqLIALk 87s/117s %}</p>
 
 <p>But the idea of being able to drop a resizable virtual screen on any surface presents some interesting possibilities as a user and some unique challenges as a designer. HoloLens, of course, brings with it gesture controls as well, so accounting for a variety of input types should get us pretty far.</p>
 
@@ -1414,7 +793,7 @@
 
 <p>In the last few years, the computational power of our devices has increased as the hardware costs associated with supporting gaze tracking have dropped dramatically. Looking around, you can see gaze tracking beginning to move into the public sphere: Many smartphones and smartwatches can recognize when you are looking at them (or at least they do sometimes). This is only a short step away from knowing where on the screen you are looking. And nearly every high-end smartphone is now equipped with a front-facing camera which makes them perfect candidates to provide this interaction method.</p>
 
-<p><figure id="fig-DEk7PlJWQgI" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--4x3"><a class="video-embed__lazy-link" style="background-image:url(//i2.ytimg.com/vi/DEk7PlJWQgI/0.jpg);" href="//www.youtube.com/watch?v=DEk7PlJWQgI&amp;start=18&amp;end=54" data-lazy-video-src="//www.youtube.com/embed/DEk7PlJWQgI?autoplay=1&amp;start=18&amp;end=54&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">The Sesame Phone</div></a></div></figure></p>
+<p>{% youtube DEk7PlJWQgI 18s/54s %}</p>
 
 <p>The <a href="http://sesame-enable.com/phone/">Sesame Phone</a> was designed to allow people to use a smartphone without using their hands. It uses facial tracking to move a virtual cursor around the screen, allowing users to interact with the underlying operating system as well as individual applications. It supports tap, swipe, and other gestures (via a context menu) and is pretty impressive in my experience. Technology like this enables people suffering from MS, arthritis, Muscular Dystrophy, and more to use a smartphone and—more importantly to us—browse the web.</p>
 
@@ -1442,32 +821,19 @@
 
 <p>In Windows 10, installable web apps can include a <a href="https://msdn.microsoft.com/en-us/library/windows/apps/dn722331.aspx">Voice Command Definition (VCD) file</a> in the <code>head</code> of the page to enable custom commands:</p>
 
-<p><div><meta name=“msapplication-cortanavcd" content="http://myapp.io/vcd.xml"></div></p>
+<p>{% gist 372271534c78cf11d4a6 vcd.html embed %}</p>
 
 <p>The referenced VCD file is simply an XML file defining the keyword for the web app and commands that can be issued.</p>
 
 <p>Using very basic syntax, The VCD identifies optional pieces of a given phrase and variables Cortana should extract:</p>
 
-<p><div><?xml version="1.0" encoding="utf-8"?>
-<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
-  <CommandSet xml:lang="en-us" Name="groupPost">
-    <CommandPrefix>Group Post</CommandPrefix>
-    <Example>Group Post add note</Example>
-    <Command Name="addNote">
-      <Example>add a note {message} using group post</Example>
-      <ListenFor RequireAppName="BeforeOrAfterPhrase">[please] add a note [that] {noteSubject}</ListenFor>
-      <Feedback>adding {noteSubject} to Group Post</Feedback>
-      <Navigate Target="/addNote.htm"/>
-    </Command>
-    <PhraseTopic Label="noteSubject" Scenario="Dictation"></PhraseTopic>
-  </CommandSet>
-</VoiceCommands></div></p>
+<p>{% gist 372271534c78cf11d4a6 vcd.xml embed %}</p>
 
 <p>This particular app passes the captured information over to JavaScript for processing. That’s right, <a href="https://msdn.microsoft.com/en-us/library/dn722330.aspx#handle_activation_and_execute_voice_commands">Cortana has a JavaScript API too</a>. Pretty neat.</p>
 
 <p>But traditional computers and smart mobile devices aren’t the only place we’re starting to see voice based experiences. We also have disembodied voices like <a href="https://en.wikipedia.org/wiki/Amazon_Echo">Amazon’s Echo</a> and <a href="http://www.theubi.com/">the Ubi</a> which are completely headless.</p>
 
-<figure id="figure-2015-06-22-11"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/05.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""></figure>
+<figure id="figure-2015-06-22-11">{% adaptive_image /i/posts/2015-06-22/05.jpg %}</figure>
 
 <p>Right now, they both seem squarely focused on helping your house become “smarter”—streaming music, adjusting the thermostat, etc.—but it isn’t hard to imagine these devices becoming coupled with the ability to browse and interact with the web.</p>
 
@@ -1487,7 +853,7 @@
 
 <p>This is an incredibly exciting time, not just for the responsive design community, not just the web, but for the world! The future is coming and I can’t wait to see how awesome you make it!</p>
 
-<figure id="figure-2015-06-22-12"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-06-22/06.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""></figure>
+<figure id="figure-2015-06-22-12">{% adaptive_image /i/posts/2015-06-22/06.jpg %}</figure>
 
 <hr />
 

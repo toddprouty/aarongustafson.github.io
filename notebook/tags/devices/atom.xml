@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Devices | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/devices/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2016-03-08T16:35:14-05:00</updated>
+  <updated>2016-03-16T11:52:10-05:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Bringing Sanity and Order to Device Testing]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/bringing-sanity-and-order-to-device-testing/"/>
-    <updated>2015-06-05T09:56:03-04:00</updated>
+    <updated>2015-06-05T08:56:03-05:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/bringing-sanity-and-order-to-device-testing</id>
     <content type="html"><![CDATA[<p>It seems like every other day the public is granted some new means of accessing the web. Some days it’s <a href="http://www.engadget.com/2015/04/29/microsoft-edge/">a new browser</a>. Others it’s <a href="http://www.pcadvisor.co.uk/reviews/mobile-phone/3504276/yotaphone-2-review-uk-dual-screen-smartphone/">a new smartphone</a>. Or <a href="http://www.engadget.com/products/microsoft/surface/3/">a tablet</a>. Or <a href="http://the-digital-reader.com/2014/10/22/voyage-vs-paperwhite-comparison-review-web-browser/">an e-reader</a>. Or <a href="https://www.nintendo.com/3ds/internetbrowser/specs/">a video game console</a>. Or <a href="http://www.phonearena.com/news/Surf-the-Internet-from-your-Android-Wear-smartwatch-Now-possible-via-this-new-app_id58580">a smartwatch</a>. Or <a href="https://html5test.com/compare/browser/samsungsmarttv-2013.html">a TV</a>. Or <a href="http://www.techradar.com/us/reviews/wearables/microsoft-hololens-1281834/review">a heads-up display</a>. Or <a href="http://www.popularmechanics.com/cars/a13191/the-future-of-car-connectivity-is-a-real-web-browser-in-the-dash-17416796/">a car</a>. Or <a href="http://www.lgblog.lt/2009/10/28/zvilgsnis-atgal-pirmasis-pasaulyje-saldytuvas-su-internetu-lg-internet-digital-dios/">a refrigerator</a>.</p>
 
@@ -71,8 +71,7 @@
 
 <p>Some basic CSS—think typography, color, etc.—will be usable by just about anyone, so we can put all that stuff in one CSS file (e.g., <code>basic.css</code>) and include it with a standard <code>link</code>. Then we can tuck all of our layout rules and other advanced CSS into a separate CSS file (e.g., <code>advanced.css</code>) that we link to with an associated media query.</p>
 
-<p><div><link rel="stylesheet" href="default.css" media="all">
-	<link rel="stylesheet" href="advanced.css" media="only screen"></div></p>
+<p>{% gist 166b285a4fe3d854b97b css-linking.html embed %}</p>
 
 <p>Any <a href="http://www.slideshare.net/bryanrieger/rethinking-the-mobile-web-by-yiibu/106">browsers that don’t understand media queries will ignore the second CSS file entirely</a> and receive only the linear, mobile view. Easy peasy, and IE8 gets the mobile layout (a baseline level of support that is not likely to cause you any testing headaches).</p>
 
@@ -80,15 +79,11 @@
 
 <p>Of course, CSS support issues are nothing compared to JavaScript, so sometimes it’s best not to deliver certain bits of JavaScript-based functionality to browsers that can’t handle it. This is where <a href="http://www.quirksmode.org/js/support.html">feature (and object) detection</a> becomes incredibly useful:</p>
 
-<p><div>if ( 'querySelector' in document ) {
-	// We can use querySelector!
-}</div></p>
+<p>{% gist 166b285a4fe3d854b97b feature-test.js embed %}</p>
 
 <p>You can also use <a href="http://en.wikipedia.org/wiki/Conditional_comment#Downlevel-revealed_conditional_comment">inverted conditional comments</a> to prohibit older versions of IE from getting JavaScript in the first place (which means you don’t even need to worry about debugging JavaScript there). Here’s an example that hides <code>main.js</code> from IE8 and below, but makes it available to IE9 on up and to every other non-IE browser.</p>
 
-<p><div><!--[if gt IE 8]><!-->
-	<script src="main.js"></script>
-<!--<![endif]--></div></p>
+<p>{% gist 166b285a4fe3d854b97b no-script-in-lte-ie8.html embed %}</p>
 
 <p>By being conservative in what we deliver to browsers we <a href="http://bradfrost.com/blog/mobile/support-vs-optimization/">ensure the greatest level of support, but can still optimize for more advanced ones</a>. This makes testing so much easier because we know older browsers will be okay with the basics and we aren’t trying to use JavaScript features unless we know they’re available.</p>
 
@@ -151,7 +146,7 @@
   <entry>
     <title type="html"><![CDATA[An Onslaught of Low-cost Smartphones]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/an-onslaught-of-low-cost-smartphones/"/>
-    <updated>2015-01-15T11:58:11-05:00</updated>
+    <updated>2015-01-15T10:58:11-06:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/an-onslaught-of-low-cost-smartphones</id>
     <content type="html"><![CDATA[<p>It seems every week we are seeing more and more low-cost devices being launched in an effort to connect the unconnected. For instance, this past week  saw the announcement of <a href="http://www.theverge.com/2015/1/14/7544107/microsoft-lumia-435-532-launch-specs-price-release-date">two new entries in the Microsoft Lumia line, the 435 and the 532</a>, and the announcement of <a href="http://arstechnica.com/gadgets/2015/01/samsung-finally-puts-tizen-on-a-smartphone-launches-the-z1-in-india/">Samsung’s first Tizen phone, the Z1</a>.</p>
 
@@ -176,7 +171,7 @@
   <entry>
     <title type="html"><![CDATA[webOS Is Back]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/webos-is-back/"/>
-    <updated>2015-01-08T10:17:09-05:00</updated>
+    <updated>2015-01-08T09:17:09-06:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/webos-is-back</id>
     <content type="html"><![CDATA[<p>You may not remember it, but Palm’s groundbreaking—yes, I said groundbreaking—operating system, <a href="https://en.wikipedia.org/wiki/WebOS">webOS</a>, has been resuscitated yet again. This time by LG.</p>
 

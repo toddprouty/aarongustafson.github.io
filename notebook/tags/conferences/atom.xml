@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Conferences | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/conferences/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2016-03-08T16:35:14-05:00</updated>
+  <updated>2016-03-16T11:52:10-05:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -14,9 +14,38 @@
 
   
   <entry>
+    <title type="html"><![CDATA[An Event Apart Nashville 2016, Day One]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/slides-the-features-of-highly-effective-forms-at-an-event-apart-nashville/"/>
+    <updated>2016-03-16T09:54:59-05:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/slides-the-features-of-highly-effective-forms-at-an-event-apart-nashville</id>
+    <content type="html"><![CDATA[<p>Unfortunately, I was unable to spend Monday and Tuesday in Nashville for An Event Apart (for reasons that will be revealed in about a month), but I did catch the entire first day and it was amazing.</p>
+
+<!-- more -->
+
+<p>The esteemed <a href="http://zeldman.com">Jeffrey Zeldman</a> kicked the day off with a talk entitled <em>Designing with Web Standards in 2016</em>. A theme he touched on repeatedly was that none of the problems we are facing in web design today are new problems. It’s a topic near and dear to my heart, something I wrote about in the closing chapter of <a href="http://adaptivewebdesign.info/2nd-edition/"><cite>Adaptive Web Design’s</cite> Second Edition</a> and <a href="/notebook/learn-from-the-past-enhance-for-the-future/">recently spoke about at EnhanceConf in London</a>. He knocked this one out of the park and my head was nodding so much my neck began to hurt.</p>
+
+<p>Next up was <a href="http://www.webstandards.org/about/members/">my former WaSP colleague</a> <a href="https://rachelandrew.co.uk/">Rachel Andrew</a> to give us the skinny on CSS Grid Layouts. This is an amazing spec that I’ve always struggled to understand fully (despite the fact that’s i’ve written a Javascript polyfill for it). Rachel made it crystal clear and got me very excited about the future of layout on the Web.</p>
+
+<p><a href="http://jensimmons.com/">Jen Simmons</a> dropped some serious CSS-related design knowledge bombs that perfectly complimented Rachel’s talk. She discussed Flexbox, CSS Shapes, Multi-column layout, viewport units and more, demonstrating how they can be used right now to progressively enhance the design of your sites.</p>
+
+<p>After lunch, <a href="http://bradfrostweb.com/">Brad Frost</a> took to the stage to talk about Style Guides. I only caught the last half—I’ll admit to doing some last-minute rehearsing in the hallway—but the bits I did catch were good. I’ve seen his Atomic Design talk a few times, which this one builds on. In this talk he touches on a lot of the atomic design concepts, but he also talked a lot more about workflow and the role of the front-end developer. No doubt the evolution of this talk has come in large part through writing <a href="http://atomicdesign.bradfrost.com/">a book on Atomic Design</a> and in hosting <a href="http://styleguides.io/podcast/">a podcast with Anna Debenham on website style guides</a>.</p>
+
+<p>Next, I was given the opportunity to share some thoughts and advice on designing and building. My talk, <em>The Features of Highly Effective Forms</em>, evolved out of several earlier talks on building forms. With this one, I wanted to strike a little more balance between the nuts and bolts of building forms and the hows and whys of building better forms.</p>
+
+<p>The deck, <a href="http://www.slideshare.net/AaronGustafson/the-features-of-highly-effective-forms-an-event-apart-nashville-2016">which I’ve posted to SlideShare</a>, doesn’t stand on its own quite as well as some of my other forms decks simply because the talk contained a lot of storytelling I chose not to pair with slides—instead opting for an black screen so folks could focus—but I did call out the salient points. I’ve begun writing up some of the recommendations as part of my <a href="/notebook/tags/web-forms/">Modern Web Forms Best Practices series</a> and will continue to do so in the future. And one of the stories I told, which I highly recommend you check out, had to do with <a href="https://www.aaron-gustafson.com/notebook/consider-how-your-forms-read/">a lesson Facebook learned in managing how users report offensive photos</a>.</p>
+
+<p><a href="http://bigmedium.com/">Josh Clark</a> wrapped the day up with a discussion of the future of interface as things move from digital back to physical. He talked about a lot of really cool new tech that has me excited about the future, including <a href="https://google.github.io/physical-web/">the Physical Web</a>, which Josh had running as a live demo. I wonder if anyone noticed I had a beacon running too ;-)</p>
+
+<p>All in all, day one was a blast. As always, Jeffrey, Eric, <a href="https://www.linkedin.com/in/toby-malina-6247a028">Toby</a>, and <a href="http://www.escapadeproductions.com/">Marci</a> do an awesome job programming their events. I’m really bummed I could not stick around to see <a href="http://valhead.com/">Val</a>, <a href="https://twitter.com/grigs">Jason</a>, <a href="http://kryshiggins.com/">Krystal</a>, <a href="http://meyerweb.com/">Eric</a>, <a href="http://braintraffic.com/">Kristina</a>, and <a href="http://cameronmoll.com/">Cameron</a> rock it out though. I’m sure it was amazing.</p>
+
+<p>You can check out attendees thoughts from the event by <a href="https://twitter.com/search?q=%23aeansh&amp;src=typd">searching Twitter using the #aeansh hashtag</a>. I’ve <a href="https://storify.com/AaronGustafson/reactions-and-takeaways-from-my-aeansh-talk">collected reactions to my talk on Storify</a> for posterity as well.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Planning Adaptive Interfaces: The Workshop]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/planning-adaptive-interfaces-the-workshop/"/>
-    <updated>2016-02-21T18:56:05-05:00</updated>
+    <updated>2016-02-21T17:56:05-06:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/planning-adaptive-interfaces-the-workshop</id>
     <content type="html"><![CDATA[<p>For the last few years I’ve been running a workshop alternately titled “Planning Adaptive Interfaces” or “Beyond Responsive”, depending on the conference. It’s been one of my favorite workshops to run for a number of reasons, but before I get into that, let me explain what it is and how it works.</p>
 
@@ -41,7 +70,7 @@
   <entry>
     <title type="html"><![CDATA[Progressive Enhancement Gets a Conference]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/progressive-enhancement-gets-a-conference/"/>
-    <updated>2016-02-15T10:00:51-05:00</updated>
+    <updated>2016-02-15T09:00:51-06:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/progressive-enhancement-gets-a-conference</id>
     <content type="html"><![CDATA[<p>On March 4th, I’ll be in London to give the closing talk at <a href="http://enhanceconf.com/">EnhanceConf</a>, the first conference dedicated progressive enhancement. Over the last few months, I’ve been talking to the conference’s organizer, <a href="https://twitter.com/simonmcmanus">Simon McManus</a>, quite a lot. He’s put a lot of thought into the conference and I thought it might be interesting to  interview him so he could share his motivations and hopes for the event.</p>
 

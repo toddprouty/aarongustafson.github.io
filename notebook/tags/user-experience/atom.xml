@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: User Experience | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/user-experience/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2016-03-08T16:35:14-05:00</updated>
+  <updated>2016-03-16T11:52:10-05:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -14,9 +14,38 @@
 
   
   <entry>
+    <title type="html"><![CDATA[An Event Apart Nashville 2016, Day One]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/slides-the-features-of-highly-effective-forms-at-an-event-apart-nashville/"/>
+    <updated>2016-03-16T09:54:59-05:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/slides-the-features-of-highly-effective-forms-at-an-event-apart-nashville</id>
+    <content type="html"><![CDATA[<p>Unfortunately, I was unable to spend Monday and Tuesday in Nashville for An Event Apart (for reasons that will be revealed in about a month), but I did catch the entire first day and it was amazing.</p>
+
+<!-- more -->
+
+<p>The esteemed <a href="http://zeldman.com">Jeffrey Zeldman</a> kicked the day off with a talk entitled <em>Designing with Web Standards in 2016</em>. A theme he touched on repeatedly was that none of the problems we are facing in web design today are new problems. It’s a topic near and dear to my heart, something I wrote about in the closing chapter of <a href="http://adaptivewebdesign.info/2nd-edition/"><cite>Adaptive Web Design’s</cite> Second Edition</a> and <a href="/notebook/learn-from-the-past-enhance-for-the-future/">recently spoke about at EnhanceConf in London</a>. He knocked this one out of the park and my head was nodding so much my neck began to hurt.</p>
+
+<p>Next up was <a href="http://www.webstandards.org/about/members/">my former WaSP colleague</a> <a href="https://rachelandrew.co.uk/">Rachel Andrew</a> to give us the skinny on CSS Grid Layouts. This is an amazing spec that I’ve always struggled to understand fully (despite the fact that’s i’ve written a Javascript polyfill for it). Rachel made it crystal clear and got me very excited about the future of layout on the Web.</p>
+
+<p><a href="http://jensimmons.com/">Jen Simmons</a> dropped some serious CSS-related design knowledge bombs that perfectly complimented Rachel’s talk. She discussed Flexbox, CSS Shapes, Multi-column layout, viewport units and more, demonstrating how they can be used right now to progressively enhance the design of your sites.</p>
+
+<p>After lunch, <a href="http://bradfrostweb.com/">Brad Frost</a> took to the stage to talk about Style Guides. I only caught the last half—I’ll admit to doing some last-minute rehearsing in the hallway—but the bits I did catch were good. I’ve seen his Atomic Design talk a few times, which this one builds on. In this talk he touches on a lot of the atomic design concepts, but he also talked a lot more about workflow and the role of the front-end developer. No doubt the evolution of this talk has come in large part through writing <a href="http://atomicdesign.bradfrost.com/">a book on Atomic Design</a> and in hosting <a href="http://styleguides.io/podcast/">a podcast with Anna Debenham on website style guides</a>.</p>
+
+<p>Next, I was given the opportunity to share some thoughts and advice on designing and building. My talk, <em>The Features of Highly Effective Forms</em>, evolved out of several earlier talks on building forms. With this one, I wanted to strike a little more balance between the nuts and bolts of building forms and the hows and whys of building better forms.</p>
+
+<p>The deck, <a href="http://www.slideshare.net/AaronGustafson/the-features-of-highly-effective-forms-an-event-apart-nashville-2016">which I’ve posted to SlideShare</a>, doesn’t stand on its own quite as well as some of my other forms decks simply because the talk contained a lot of storytelling I chose not to pair with slides—instead opting for an black screen so folks could focus—but I did call out the salient points. I’ve begun writing up some of the recommendations as part of my <a href="/notebook/tags/web-forms/">Modern Web Forms Best Practices series</a> and will continue to do so in the future. And one of the stories I told, which I highly recommend you check out, had to do with <a href="https://www.aaron-gustafson.com/notebook/consider-how-your-forms-read/">a lesson Facebook learned in managing how users report offensive photos</a>.</p>
+
+<p><a href="http://bigmedium.com/">Josh Clark</a> wrapped the day up with a discussion of the future of interface as things move from digital back to physical. He talked about a lot of really cool new tech that has me excited about the future, including <a href="https://google.github.io/physical-web/">the Physical Web</a>, which Josh had running as a live demo. I wonder if anyone noticed I had a beacon running too ;-)</p>
+
+<p>All in all, day one was a blast. As always, Jeffrey, Eric, <a href="https://www.linkedin.com/in/toby-malina-6247a028">Toby</a>, and <a href="http://www.escapadeproductions.com/">Marci</a> do an awesome job programming their events. I’m really bummed I could not stick around to see <a href="http://valhead.com/">Val</a>, <a href="https://twitter.com/grigs">Jason</a>, <a href="http://kryshiggins.com/">Krystal</a>, <a href="http://meyerweb.com/">Eric</a>, <a href="http://braintraffic.com/">Kristina</a>, and <a href="http://cameronmoll.com/">Cameron</a> rock it out though. I’m sure it was amazing.</p>
+
+<p>You can check out attendees thoughts from the event by <a href="https://twitter.com/search?q=%23aeansh&amp;src=typd">searching Twitter using the #aeansh hashtag</a>. I’ve <a href="https://storify.com/AaronGustafson/reactions-and-takeaways-from-my-aeansh-talk">collected reactions to my talk on Storify</a> for posterity as well.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Avoiding Link Rot in Print With the Help of Perma.cc]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/avoiding-linkrot-in-print-with-the-help-of-perma-dot-cc/"/>
-    <updated>2015-12-02T16:03:35-05:00</updated>
+    <updated>2015-12-02T15:03:35-06:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/avoiding-linkrot-in-print-with-the-help-of-perma-dot-cc</id>
     <content type="html"><![CDATA[<p>I think we can all agree, <a href="https://en.wikipedia.org/wiki/Link_rot">link rot</a> is a problem. A 2014 study by Harvard Law School determined that <a href="http://journals.cambridge.org/action/displayAbstract?fromPage=online&amp;aid=9282809&amp;fileId=S1472669614000255/">roughly 50% of the URLs referenced in U.S. Supreme Court opinions no longer work</a>. That’s <em>terrifying</em>.</p>
 
@@ -41,7 +70,7 @@
   <entry>
     <title type="html"><![CDATA[Interface Experience Maps]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/interface-experience-maps/"/>
-    <updated>2015-05-28T08:43:20-04:00</updated>
+    <updated>2015-05-28T07:43:20-05:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/interface-experience-maps</id>
     <content type="html"><![CDATA[<p>One of the greatest challenges of progressive enhancement lies not with the coding, but with the planning. It can be incredibly challenging to articulate how a single interface might adapt to a wide variety of situations. Interface Experience Maps (Ix Maps) can help.</p>
 
@@ -53,13 +82,13 @@
 
 <p>Anyway, in the talk I was struggling to convey the various decision points and interface adjustments that would happen as a result of those decisions. I don’t remember which of us came up with the idea—it was probably Sarah—but we opted to use a flowchart to visually describe what we were talking about on stage. Here was the first one we did:</p>
 
-<figure id="fig-2015-05-28-01" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/01.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/01.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>An early flowchart used to describe progressive enhancement with JavaScript</figcaption></figure>
+<figure id="fig-2015-05-28-01" class="media-container">{% adaptive_image /i/posts/2015-05-28/01.png %}<figcaption>An early flowchart used to describe progressive enhancement with JavaScript</figcaption></figure>
 
 <p>It was pretty rudimentary, but it got the point across.</p>
 
 <p>In future iterations of the talk, I expounded upon the idea of a flowchart for describing how an interface might adapt to different circumstances and browser capabilities. Here’s a particularly complex one I used to describe how a FAQ might function:</p>
 
-<figure id="fig-2015-05-28-02" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/02.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/02.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>A flowchart describing the progressive enhancement and interaction options for an FAQ.</figcaption></figure>
+<figure id="fig-2015-05-28-02" class="media-container">{% adaptive_image /i/posts/2015-05-28/02.png %}<figcaption>A flowchart describing the progressive enhancement and interaction options for an FAQ.</figcaption></figure>
 
 <p>Over the years I found more and more ways to put these artifacts to use. And at a certain point, “flowchart” didn’t seem to cut it, so I began calling them “UI construction flows”—which, admittedly, was a mouthful—and then finally settled on the name “Interaction Experience Maps” with the help of a client.</p>
 
@@ -88,11 +117,11 @@
 
 <p>Here’s an example from <a href="https://www.facebook.com/events/804756366246427/">my Beyond Responsive workshop</a> that illustrates the evolution of a tabbed interface Ix Map from basic into something that is far more appropriate for differently-sized screens:</p>
 
-<figure id="fig-2015-05-28-03" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/03.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/03.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>Pass 1: If JavaScript’s available, make a tabbed interface out of linear content. If not, leave it as it was.</figcaption></figure>
+<figure id="fig-2015-05-28-03" class="media-container">{% adaptive_image /i/posts/2015-05-28/03.png %}<figcaption>Pass 1: If JavaScript’s available, make a tabbed interface out of linear content. If not, leave it as it was.</figcaption></figure>
 
-<figure id="fig-2015-05-28-04" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/04.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/04.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/04.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/04.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>Pass 2: Add a live width test into the mix to see if there’s enough room for the tabs and make it an accordion if the screen is too narrow.</figcaption></figure>
+<figure id="fig-2015-05-28-04" class="media-container">{% adaptive_image /i/posts/2015-05-28/04.png %}<figcaption>Pass 2: Add a live width test into the mix to see if there’s enough room for the tabs and make it an accordion if the screen is too narrow.</figcaption></figure>
 
-<figure id="fig-2015-05-28-05" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/05.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/05.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/05.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/05.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>Pass 3: Test for native <code>details</code>/<code>summary</code> support and use the native functionality if available.</figcaption></figure>
+<figure id="fig-2015-05-28-05" class="media-container">{% adaptive_image /i/posts/2015-05-28/05.png %}<figcaption>Pass 3: Test for native <code>details</code>/<code>summary</code> support and use the native functionality if available.</figcaption></figure>
 
 <h2 id="simple-powerful">Simple, Powerful</h2>
 
@@ -103,13 +132,13 @@
   <entry>
     <title type="html"><![CDATA[Lies, Damn Lies, and JavaScript]]></title>
     <link href="https://www.aaron-gustafson.com/notebook/lies-damn-lies-and-javascript/"/>
-    <updated>2015-04-27T15:10:11-04:00</updated>
+    <updated>2015-04-27T14:10:11-05:00</updated>
     <id>https://www.aaron-gustafson.com/notebook/lies-damn-lies-and-javascript</id>
     <content type="html"><![CDATA[<p>Late last week I stumbled on a video from <a href="https://twitter.com/graemepyle">Graeme Pyle</a> that exposed a UX lie in the <a href="https://www.fnb.co.za/">First National Bank of South Africa</a>.</p>
 
 <!-- more -->
 
-<p><figure id="fig-gpBWwl-Ngak" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--4x3"><a class="video-embed__lazy-link" style="background-image:url(//i2.ytimg.com/vi/gpBWwl-Ngak/0.jpg);" href="//www.youtube.com/watch?v=gpBWwl-Ngak" data-lazy-video-src="//www.youtube.com/embed/gpBWwl-Ngak?autoplay=1&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Shocking discovery: fnb.co.za progress bar a placebo!</div></a></div></figure></p>
+<p>{% youtube gpBWwl-Ngak %}</p>
 
 <p>On the off chance you don’t want to watch the video, I’ll recap: When accessing certain screens on the FNB site, a progress meter is shown to indicate new content is being flowed into the browser. But it’s not.</p>
 
