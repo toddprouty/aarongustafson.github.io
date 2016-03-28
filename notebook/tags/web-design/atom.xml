@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Web Design | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/web-design/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2016-03-17T17:26:28-04:00</updated>
+  <updated>2016-03-28T09:16:19-04:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -12,6 +12,39 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Offline First: Love the Idea, Hate the Name]]></title>
+    <link href="https://www.aaron-gustafson.com/notebook/offline-first-love-the-idea-hate-the-name/"/>
+    <updated>2016-03-28T08:25:26-04:00</updated>
+    <id>https://www.aaron-gustafson.com/notebook/offline-first-love-the-idea-hate-the-name</id>
+    <content type="html"><![CDATA[<p>Back in 2014, I had the great pleasure of listening to <a href="https://twitter.com/misprintedtype">Ola Gasidlo</a> of <a href="http://hood.ie/">Hood.ie</a> <a href="https://vimeo.com/103221949">discuss the importance of offline</a> at Beyond Tellerrand in Düsseldorf, Germany. Her excellent talk was my introduction to <a href="https://www.google.com/search?q=offline+first">the “Offline First” movement</a> and, while I can get behind the idea, I’ve had some serious issues with the name. And with the rise of Service Workers as a simple, usable means of making our content available offline, I thought it worth revisiting the idea of “offline first”, if only to address its core fallacy.</p>
+
+<!-- more -->
+
+<p>First, the good stuff: The “offline first” movement clearly recognizes the current dilemma of our time:</p>
+
+<blockquote>
+  <p>We live in a disconnected &amp; battery powered world, but our technology and best practices are a leftover from the always connected &amp; steadily powered past.</p>
+</blockquote>
+
+<p><a href="https://www.w3.org/TR/2011/WD-html5-20110525/offline.html">App Cache</a>, <a href="https://www.w3.org/TR/webdatabase/">Web SQL</a>, <a href="https://www.w3.org/TR/webstorage/">Web Storage</a>, <a href="https://www.w3.org/TR/IndexedDB/">Indexed DB</a>, <a href="https://www.w3.org/TR/service-workers/">Service Workers</a>, and a handful of other specs and ideas were all created to address this core limitation of the Web. They also make it possible to compete with “native” software experiences. I am 100% on board with this move. It sucks to open Chrome on my mobile and switch to a tab that’s been tucked out of view for a while only to have the page fail to load because I happen to be traveling abroad without a data plan. If that site was made to work offline, the fact that Chrome had recycled the RAM and CPU that tab had been consuming would be less of a problem and the page would load instantly from the cache.</p>
+
+<p>Tunnels… hotel wifi… high latency mobile networks… expensive roaming data plans… these are all reasons we need an offline Web. I’m incredibly thankful for all of the hard work the smart folks working on solutions like these are contributing.</p>
+
+<p>Also inline with the “offline first” movement, I think it’s important to consider the offline experience early in a project, so it isn’t forgotten or haphazardly bolted on. We need to make deliberate choices about what content and assets we are caching. We need to plan for offline, maybe not <em>first</em>, but certainly early.</p>
+
+<p>All of this is to say I don’t have an issue with the philosophy of “offline first”, but I do take issue with the name. As a term, it’s a bit disingenuous. Looking at other “firsts”—”mobile first” or (to go back little further) “content first”—these terms work on multiple levels: They remind us to keep the core purpose of a page or interface central to our planning. They also support an experience that begins and ends with that core.</p>
+
+<p>A “mobile first” experience starts with a distraction-free central message or content, optimized for a small screen and (often) a single, narrow viewport. It can be enhanced for larger screens and more capable devices, but that core experience may be all some users get, and that’s ok. Users will have an experience (and a site that works) no matter what. The same is true with a “content first” approach; its experience remains available regardless of device or access mechanism. Sure, both “mobile first” and “content first” require the network, but guess what: “<strong>Offline first” requires network connectivity too!</strong> <a href="http://www.dynamicdrive.com/forums/showthread.php?62807-Run-Website-from-a-Flashdrive-or-CD">You don’t see many websites delivering their content on USB drives</a>, so all of the code required to make the offline experience possible in the first place requires an initial (and stable) connection to the Web. In other words, offline can’t be first.</p>
+
+<p>You may be wondering <em>Why is that important?</em> It’s important because, historically, a “first” approach (as I mentioned) sets an expectation of that experience always being available. Offline can’t provide that.</p>
+
+<p>Moreover, offline has another core dependency beyond the network: JavaScript. Without JavaScript, none of your fancy offline stuff—except App Cache, which few folks are using these days—will work. And yes, I know, <em>everyone</em> has JavaScript support… but the reality is that <a href="https://gds.blog.gov.uk/2013/10/21/how-many-people-are-missing-out-on-javascript-enhancement/">not everyone will get your JavaScript enhancements</a>, <a href="http://kryogenix.org/code/browser/everyonehasjs.html">even if that were actually the case</a>.</p>
+
+<p>Please don’t misunderstand the purpose of this post: I applaud the ideas behind the “offline first” movement and the amazing work that community is doing. And you should absolutely incorporate offline into projects you are building for the Web. Users with capable devices and browsers will thank you for it. Just try not to use the term “offline first” or at least be prepared for me to cringe a little when you do. Maybe I’m the only one who feels this way; if so, I’m okay with that. But, then again, semantics matter. Maybe we need a different rallying cry. Sadly “Offline Too” doesn’t have the same ring to it.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[An Event Apart Nashville 2016, Day One]]></title>
@@ -1295,43 +1328,6 @@
     </li>
   </ol>
 </div>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Future of Web Design &amp; Øredev]]></title>
-    <link href="https://www.aaron-gustafson.com/notebook/future-of-web-design-and-oredev/"/>
-    <updated>2015-11-09T15:17:15-05:00</updated>
-    <id>https://www.aaron-gustafson.com/notebook/future-of-web-design-and-oredev</id>
-    <content type="html"><![CDATA[<p>Between <a href="https://futureofwebdesign.com/nyc-2015/">Future of Web Design</a> in New York City and <a href="http://lanyrd.com/2015/oredev/">Øredev</a> in Malmö, Sweden, I was a busy boy last week. I delivered three talks and a workshop in total and am a bit exhausted.</p>
-
-<!-- more -->
-
-<p>Øredev has already posted videos of my talks to their Vimeo account, so I’ve included links to them here along with links to the slide decks, so you can download them if you’d like:</p>
-
-<h2 id="falling-in-love-with-forms">Falling in Love with Forms</h2>
-
-<p><figure id="fig-144870932" class="figure figure--video"><div class="video-embed video-embed--vimeo video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(https://i.vimeocdn.com/video/542903228_1280.jpg)" href="//vimeo.com/144870932" data-lazy-video-src="//player.vimeo.com/video/144870932?autoplay=1"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Falling in Love with Forms</div></a></div></figure></p>
-
-<p>This one’s a survey of current forms best practices. This one’s a bit abbreviated from my previous iterations as the talks were only 40 minutes at FoWD and Øredev, but I distilled out the most important bits.</p>
-
-<ul>
-  <li><strong>Slides</strong>: http://www.slideshare.net/AaronGustafson/falling-in-love-with-forms-redev-2015</li>
-  <li><strong>Video</strong>: https://vimeo.com/144870932</li>
-</ul>
-
-<h2 id="there-are-no-buts-in-progressive-enhancement">There Are No “Buts” in Progressive Enhancement</h2>
-
-<p><figure id="fig-144979022" class="figure figure--video"><div class="video-embed video-embed--vimeo video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(https://i.vimeocdn.com/video/542999481_1280.jpg)" href="//vimeo.com/144979022" data-lazy-video-src="//player.vimeo.com/video/144979022?autoplay=1"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">There Are No “Buts” in Progressive Enhancement</div></a></div></figure></p>
-
-<p>Wherein I dispel the myth that progressive enhancement has no place in news, healthcare, education, financial, commerce, and single-page app websites. Lots of goodies in here.</p>
-
-<p>This version is an updated 40-minute distillation of the hour and a half talk <a href="http://jennlukas.com/">Jenn Lukas</a> and I gave at <a href="https://uxim15.uie.com/">UX Immersion Mobile</a> back in April. The video of that one is available from <a href="https://aycl.uie.com/">UIE’s All You Can Learn</a>. Jenn designed the slides and <a href="http://cargocollective.com/mattsutter">Matt Sutter</a> did the wonderful illustrations.</p>
-
-<ul>
-  <li><strong>Slides</strong>: http://www.slideshare.net/AaronGustafson/there-are-no-buts-in-progressive-enhancement-redev-2015</li>
-  <li><strong>Video</strong>: https://vimeo.com/144979022</li>
-</ul>
 ]]></content>
   </entry>
   
