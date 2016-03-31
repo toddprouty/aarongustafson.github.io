@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson Latest Posts &amp; Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2016-03-31T10:26:33-04:00</updated>
+	<updated>2016-03-31T17:06:11-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,28 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Link: ‘Touch Keyboard’ Implementations Have Improved Just 9% Since 2013 (60% Still Get It Wrong)]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/mobile-touch-keyboards/"/>
+				<updated>2016-03-31T17:03:58-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/mobile-touch-keyboards</id>
+				<content type="html"><![CDATA[<p>This post is pure gold in terms of recommendations for tailoring your web forms for modern contexts. Read it, then go forth and improve your forms!</p>
+<p><a rel="full-article" href="http://baymard.com/blog/mobile-touch-keyboards">Read on Baymard Institute&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Link: Learning to Code Gives You Advantages as a UX Designer]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/as-you-learn-ux-design-learn-how-to-code/"/>
+				<updated>2016-03-31T17:01:34-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/as-you-learn-ux-design-learn-how-to-code</id>
+				<content type="html"><![CDATA[<p>This is a great post from Jess on how it can be advantageous for UX-ers to pick up front-end coding skills.</p>
+<p><a rel="full-article" href="http://jessicaivins.net/as-you-learn-ux-design-learn-how-to-code/">Read on Jessica Ivins&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -934,32 +956,6 @@ I’ve been reaching out to lots of different communities around London to bring
   <p>The simplest solution is to show a menu via click. Click works when the user taps, when the user clicks with the mouse, and when the user tabs via keyboard and presses enter.</p>
 </blockquote>
 <p><a rel="full-article" href="https://medium.com/simple-human/why-hover-menus-are-problematic-b21d6c7de91c#.n5cw5zr1n">Read on Medium&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Link: Submitting a Pull Request to Node.js With ChakraCore]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/nodejs-chakracore-mainline/"/>
-				<updated>2016-01-25T09:56:14-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/nodejs-chakracore-mainline</id>
-				<content type="html"><![CDATA[<p>Folks on the Chakra team at Microsoft have updated node.js to enable users to swap in <a href="https://github.com/Microsoft/ChakraCore">their open source ChakraCore JavaScript engine</a> for the default <a href="https://developers.google.com/v8/?hl=en">V8 JavaScript engine from Google</a>. <a href="https://github.com/nodejs/node/pull/4765">This is pretty big huge.</a></p>
-<p><a rel="full-article" href="https://blogs.windows.com/msedgedev/2016/01/19/nodejs-chakracore-mainline/">Read on MS Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Link: Lawsuits Rise: Blind Plaintiffs Sue Additional Retailers for Website Accessibility/ADA Claims]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/lawsuits-rise-blind-plaintiffs-sue-additional-retailers-for%20website-accessibility-ada-claims/"/>
-				<updated>2016-01-25T09:55:57-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/lawsuits-rise-blind-plaintiffs-sue-additional-retailers-for website-accessibility-ada-claims</id>
-				<content type="html"><![CDATA[<p>Not at all surprising…</p>
-
-<blockquote>
-  <p>Patagonia, Ace Hardware, Aeropostale, Bed Bath &amp; Beyond and Estee Lauder are the most recent companies sued by blind plaintiffs, alleging that the retailers’ websites are not accessible to the blind as required by the Americans with Disabilities Act (ADA).</p>
-</blockquote>
-<p><a rel="full-article" href="http://www.lexology.com/library/detail.aspx?g=073805a5-0424-48a4-9385-dce5d2eeb657">Read on Lexology&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
