@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Posts]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-posts.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2016-04-06T16:12:18-04:00</updated>
+	<updated>2016-04-06T16:45:40-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -25,12 +25,7 @@
 <ul>
   <li>Since launching Edge 8 months ago, the team has pushed 12 update releases, 128 new features, and 6,527 bug fixes!</li>
   <li>The team has launched a new, highly transparent bug tracker for Edge: <a href="https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/">issues.microsoftedge.com</a>.</li>
-  <li>The Edge team has done a ton of research into what specs are being used and how they are being used on the open Web. They are starting to share this information on <a href="https://developer.microsoft.com/en-us/microsoft-edge/platform/data/">data.microsoftedge.com</a>. It currently consists of 2 parts:
-    <ol>
-      <li><a href="https://developer.microsoft.com/en-us/microsoft-edge/platform/usage/">Usage data</a> from real sites that looks at not only CSS properties in use, but values too; and</li>
-      <li><a href="https://developer.microsoft.com/en-us/microsoft-edge/platform/catalog/">A catalog of available APIs</a> and a detailed analysis of browser support, down to specific configuration and property values.</li>
-    </ol>
-  </li>
+  <li>The Edge team has done a ton of research into what specs are being used and how they are being used on the open Web. They are starting to share this information on <a href="https://developer.microsoft.com/en-us/microsoft-edge/platform/data/">data.microsoftedge.com</a>. It currently consists of 2 parts: 1) <a href="https://developer.microsoft.com/en-us/microsoft-edge/platform/usage/">usage data</a> from real sites that looks at not only CSS properties in use, but values too; and 2) <a href="https://developer.microsoft.com/en-us/microsoft-edge/platform/catalog/">a catalog of available APIs</a> and a detailed analysis of browser support, down to specific configuration and property values.</li>
   <li>Hot on the tails of <a href="https://developer.microsoft.com/en-us/microsoft-edge/tools/remote/">RemoteIE</a> opening up for Linux users, RemoteEdge is coming soon! Jacob Rossi showed <a href="https://twitter.com/aarongustafson/status/717022717652828163">a screenshot of an Edge instance running on Azure, within Chrome</a>. So cool!</li>
   <li><a href="https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html#tts-section">Text-to-speech</a> directly from within JavaScript!</li>
   <li>The <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API">Fetch API</a>!</li>
