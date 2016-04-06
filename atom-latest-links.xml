@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2016-03-31T17:06:11-04:00</updated>
+	<updated>2016-04-06T16:12:18-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,8 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
 	
 		
 			<entry>
@@ -173,21 +175,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/VorlonExtension</id>
 				<content type="html"><![CDATA[<p><a href="http://vorlonjs.com/">Vorlon.js</a> is a pretty neat nodejs-based remote debugging tool from some of my colleagues at Microsoft. And now it’s available as a browser extension!</p>
 <p><a rel="full-article" href="https://github.com/MicrosoftDX/VorlonExtension">Read on Microsoft DX on GitHub&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Why Hover Menus Are Problematic]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/why-hover-menus-are-problematic-b21d6c7de91c/"/>
-				<updated>2016-01-25T09:56:27-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/why-hover-menus-are-problematic-b21d6c7de91c</id>
-				<content type="html"><![CDATA[<p>Lots of good information in this piece, but here’s the key takeaway:</p>
-
-<blockquote>
-  <p>The simplest solution is to show a menu via click. Click works when the user taps, when the user clicks with the mouse, and when the user tabs via keyboard and presses enter.</p>
-</blockquote>
-<p><a rel="full-article" href="https://medium.com/simple-human/why-hover-menus-are-problematic-b21d6c7de91c#.n5cw5zr1n">Read on Medium&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
