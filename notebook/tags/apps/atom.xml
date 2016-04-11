@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Apps | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/apps/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2016-04-11T14:57:28-04:00</updated>
+  <updated>2016-04-11T15:19:02-04:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -26,7 +26,7 @@
 
 <p>One graphic that cropped up that blew my mind was this one talking about where Windows 10 is going:</p>
 
-<figure id="fig-2015-04-30-01" class="media-container">{% adaptive_image http://news.microsoft.com/build2015/assets/photos/build720150428_web.png alt="The Windows 10 continuum from an Internet of Things board up to a SurfaceHub and HoloLens" %}</figure>
+<figure id="fig-2015-04-30-01" class="media-container"><img alt="The Windows 10 continuum from an Internet of Things board up to a SurfaceHub and HoloLens"  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://news.microsoft.com/build2015/assets/photos/build720150428_web.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://news.microsoft.com/build2015/assets/photos/build720150428_web.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://news.microsoft.com/build2015/assets/photos/build720150428_web.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://news.microsoft.com/build2015/assets/photos/build720150428_web.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw"></figure>
 
 <p>You’ve often heard me discuss <a href="http://adaptivewebdesign.info/1st-edition/chapter-1.html">experience as a continuum</a>. Microsoft is living it.</p>
 

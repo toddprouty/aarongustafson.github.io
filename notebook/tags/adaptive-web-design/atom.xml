@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Adaptive Web Design | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/adaptive-web-design/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2016-04-11T14:57:28-04:00</updated>
+  <updated>2016-04-11T15:19:02-04:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -45,7 +45,7 @@
     <id>https://www.aaron-gustafson.com/notebook/adaptive-web-design-folded-and-gathered</id>
     <content type="html"><![CDATA[<p>I just got this photo from <a href="https://www.linkedin.com/pub/tracey-croom/13/a6/985">Tracey Croom</a>, my production editor on <a href="http://adaptivewebdesign.info/2nd-edition/">the Second Edition of <cite>Adaptive Web Design</cite></a> and I wanted to share it with you. Production is almost done and I should be getting my bound copies soon. I’m so excited!</p>
 
-<figure id="fig-2015-11-12-01" class="media-container">{% adaptive_image /i/posts/2015-11-12/01.jpg %}<figcaption>A photo of the folded &amp; gathered pages of <cite>Adaptive Web Design</cite>’s Second Edition.</figcaption></figure>
+<figure id="fig-2015-11-12-01" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-12/01.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-12/01.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-12/01.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-12/01.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>A photo of the folded &amp; gathered pages of <cite>Adaptive Web Design</cite>’s Second Edition.</figcaption></figure>
 ]]></content>
   </entry>
   
@@ -94,7 +94,8 @@
 
 <!-- more -->
 
-<p>{% tweet https://twitter.com/dirtystylus/status/530756679286423552 %}</p>
+<p><div class='embed tweet'><blockquote class="twitter-tweet"><p>Time and again, I return to <a href="https://twitter.com/AaronGustafson">@AaronGustafson</a>’s “Adaptive Web Design”. Like a North Star for user-focused web design.&#10;&#10;<a href="http://t.co/K1tbm6qAON">http://t.co/K1tbm6qAON</a></p>&mdash; Mark Llobrera (@dirtystylus) <a href="https://twitter.com/dirtystylus/status/530756679286423552">November 7, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div></p>
 
 <p>I think one of the main reasons the book has remained relevant for so long is because at its core, <cite>Adaptive Web Design</cite> is a <em>philosophy</em> book. Sure, there are some code examples here and there, but they only serve to demonstrate how you can apply progressive enhancement in your work. The philosophy of progressive enhancement works and only continues to demonstrate its brilliance with each new Web-enabled screen that debuts in the ever-expanding global marketplace. In fact, I’ll go out on a limb and declare that progressive enhancement is probably even more relevant today than it was when I wrote <cite>Adaptive Web Design</cite> in 2010.</p>
 

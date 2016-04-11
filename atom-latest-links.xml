@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2016-04-08T11:44:41-04:00</updated>
+	<updated>2016-04-11T15:19:02-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,8 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
 	
 		
 	
@@ -165,17 +167,6 @@
 			</entry>
 		
 	
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Vorlon Extension]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/VorlonExtension/"/>
-				<updated>2016-01-25T09:56:58-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/VorlonExtension</id>
-				<content type="html"><![CDATA[<p><a href="http://vorlonjs.com/">Vorlon.js</a> is a pretty neat nodejs-based remote debugging tool from some of my colleagues at Microsoft. And now it’s available as a browser extension!</p>
-<p><a rel="full-article" href="https://github.com/MicrosoftDX/VorlonExtension">Read on Microsoft DX on GitHub&nbsp;&rarr;</a></p>]]></content>
-			</entry>
 		
 	
 </feed>
