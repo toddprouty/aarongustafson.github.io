@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2016-04-12T13:47:43-04:00</updated>
+	<updated>2016-04-14T18:24:23-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,65 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Learning to Use Google Analytics More Effectively at CodePen]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/learning-use-google-analytics-effectively-codepen/"/>
+				<updated>2016-04-14T18:00:07-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/learning-use-google-analytics-effectively-codepen</id>
+				<content type="html"><![CDATA[<p>Analytics tracking has never been my thing and the Google Analytics docs are frequently impenetrable for me. This post from Chris Coyier was quite accessible and easy to follow and has inspired me to do some more in-depth tracking on some of my own sites.</p>
+<p><a rel="full-article" href="https://css-tricks.com/learning-use-google-analytics-effectively-codepen/">Read on CSS-Tricks&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Still Think You Don’t Need HTTPS?]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/still-think-you-dont-need-https/"/>
+				<updated>2016-04-14T17:58:58-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/still-think-you-dont-need-https</id>
+				<content type="html"><![CDATA[<p>In case you need more convincing…</p>
+<p><a rel="full-article" href="https://scotthelme.co.uk/still-think-you-dont-need-https/">Read on Scott Helme&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Principles of the Keyboard-accessible Website]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/principles-of-the-keyboard-accessible-website/"/>
+				<updated>2016-04-14T17:58:08-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/principles-of-the-keyboard-accessible-website</id>
+				<content type="html"><![CDATA[<p>Some truly excellent advice here.</p>
+
+<blockquote>
+  <p>Poor keyboard accessibility of a website is one of the most damning and frustrating problems that faces people with disabilities and keyboard users alike.</p>
+</blockquote>
+<p><a rel="full-article" href="http://www.accessiq.org/news/features/2016/04/principles-of-the-keyboard-accessible-website">Read on Access iQ&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[The User Experience of Good Content]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/the-user-experience-of-good-content/"/>
+				<updated>2016-04-14T17:51:49-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/the-user-experience-of-good-content</id>
+				<content type="html"><![CDATA[<p>User experience begins with content. Period.</p>
+<p><a rel="full-article" href="http://uxmag.com/articles/the-user-experience-of-good-content">Read on UX Magazine&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Visual Studio Code 1.0 Release]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/vscode-1/"/>
+				<updated>2016-04-14T16:41:46-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/vscode-1</id>
+				<content type="html"><![CDATA[<p>I’ve been using VS Code for a few weeks now and I have to admit I’m smitten. I wasn’t really looking for a new editor, but I really like this one. Super light &amp; fast, even with big files.</p>
+<p><a rel="full-article" href="http://code.visualstudio.com/blogs/2016/04/14/vscode-1.0">Read on Visual Studio Code Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -159,38 +218,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/decades-of-computer-vision-research-one-swiss-army-knife</id>
 				<content type="html"><![CDATA[<p>Wow. Just wow. Be sure to watch the video. This is amazing!</p>
 <p><a rel="full-article" href="http://blogs.microsoft.com/next/2016/03/30/decades-of-computer-vision-research-one-swiss-army-knife/">Read on Next at Microsoft&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-	
-		
-	
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[A Design System Isn’t a Project. It’s a Product, Serving Products.]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/a-design-system-isn-t-a-project-it-s-a-product-serving-products-74dcfffef935/"/>
-				<updated>2016-02-26T16:23:45-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/a-design-system-isn-t-a-project-it-s-a-product-serving-products-74dcfffef935</id>
-				<content type="html"><![CDATA[<p>Excellent post from Nathan Curtis. You need to read this:</p>
-
-<blockquote>
-  <p>A design system’s value is realized when products ship features using parts from the system.</p>
-</blockquote>
-<p><a rel="full-article" href="https://medium.com/@nathanacurtis/a-design-system-isn-t-a-project-it-s-a-product-serving-products-74dcfffef935#.1y5xv3afw">Read on Medium&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Atomic Classification]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/atomic-classification/"/>
-				<updated>2016-02-26T16:17:32-05:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/atomic-classification</id>
-				<content type="html"><![CDATA[<p>We’ve run into similar issues with Pattern Lab’s enforced groupings on a large client project. Some just didn’t make sense, causing a little confusion for our team, but way more confusion for the client’s team. It added way more cognitive overhead than was really necessary for the project. The tool made testing components easy, but we eventually ended up leaving some buckets empty.</p>
-<p><a rel="full-article" href="http://trentwalton.com/2016/02/26/atomic-classification/">Read on Trent Walton&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
