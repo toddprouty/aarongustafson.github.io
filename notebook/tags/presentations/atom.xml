@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Presentations | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/presentations/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2016-04-15T14:34:09-04:00</updated>
+  <updated>2016-04-15T14:40:18-04:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -155,7 +155,10 @@
 
 <p>If the words we use form the basis of the conversations we have with our users, the semantics we employ clarify that meaning. Choosing elements with semantic value enriches our content, illuminating the meaning and intent of our words in order to overcome the limitations of text and bring it up to par with spoken language. After all, they may look the same visually, but there’s a big difference between these two statements:</p>
 
-<p>{% gist 6f5b7c0f0c072631a908 different-meanings.html %}</p>
+<p><div><script src="https://gist.github.com/6f5b7c0f0c072631a908.js?file=different-meanings.html"></script>
+<noscript><pre><code>&lt;p&gt;I &lt;em&gt;really&lt;/em&gt; want to be your friend.&lt;/p&gt;
+&lt;p&gt;I &lt;i class=&quot;sarcasm&quot;&gt;really&lt;/i&gt; want to be your friend.&lt;/p&gt;</code></pre></noscript></div>
+</p>
 
 <p>Beyond using markup to clarify the intent of the words we write, we can use it to spell out relationships that are often represented visually. Dustin described one way we do this as part of the impetus for CSS Naked Day (emphasis mine):</p>
 
@@ -190,20 +193,23 @@
 <p>When we are writing for our readers, we need to be familiar with their level of domain knowledge so we don’t frustrate or alienate them. For example, if you track error codes for issues on your site, send them to <em>your developers</em>, but never present them to a user.</p>
 
 <figure id="figure-2016-03-04-03">
-{% adaptive_image /i/posts/2016-03-04/03.png %}
+<img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/03.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/03.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
 </figure>
 
 <p>Similarly, we should avoid legalese and write in plain language. Medium has done a great job of this with <a href="https://medium.com/policy/medium-terms-of-service-9db0094a1e0f#.mgexdk816">their Terms of Service</a>.</p>
 
 <figure id="figure-2016-03-04-04">
-{% adaptive_image /i/posts/2016-03-04/04.png %}
+<img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/04.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/04.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/04.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/04.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
 </figure>
 
 <h3 id="when-requesting-feedback-make-it-clear-that-the-user-needs-to-respond"><strong>When Requesting Feedback, Make It Clear that the User Needs to Respond</strong></h3>
 
 <p>In perhaps the most common form example, consider the label “First Name”. It’s not terribly conversational and doesn’t beg for a response. Labels like “What is your first name?” make it clear the user should respond.</p>
 
-<p>{% gist 6f5b7c0f0c072631a908 better-labels.html %}</p>
+<p><div><script src="https://gist.github.com/6f5b7c0f0c072631a908.js?file=better-labels.html"></script>
+<noscript><pre><code>&lt;label for=&quot;first_name&quot;&gt;What’s your first name?&lt;/label&gt;
+&lt;input name=&quot;first_name&quot; id=&quot;first_name&quot;&gt;</code></pre></noscript></div>
+</p>
 
 <figure id="figure-2016-03-04-05">
 <audio controls="">
@@ -215,7 +221,16 @@
 
 <p>Similarly, when there’s an error, notify them of the error and, if possible, give them some clues on how to fix it.</p>
 
-<p>{% gist 6f5b7c0f0c072631a908 field-error.html %}</p>
+<p><div><script src="https://gist.github.com/6f5b7c0f0c072631a908.js?file=field-error.html"></script>
+<noscript><pre><code>&lt;label for=&quot;first_name&quot;&gt;What’s your first name?&lt;/label&gt;
+&lt;input name=&quot;first_name&quot; id=&quot;first_name&quot;
+       aria-describedby=&quot;first_name-error&quot;
+       &gt;
+&lt;em id=&quot;first_name-error&quot;&gt;
+  Without your first name, I won’t know how to address you.
+  Could you please provide it?
+&lt;/em&gt;</code></pre></noscript></div>
+</p>
 
 <figure id="figure-2016-03-04-06">
 <audio controls="">
@@ -229,11 +244,24 @@
 
 <p>This comes into play often when dealing with forms. Ensuring radio and checkbox controls are properly associated with their labels is critical.</p>
 
-<p>{% gist 6f5b7c0f0c072631a908 radio-label.html %}</p>
+<p><div><script src="https://gist.github.com/6f5b7c0f0c072631a908.js?file=radio-label.html"></script>
+<noscript><pre><code>&lt;input type=&quot;radio&quot; name=&quot;agree&quot; id=&quot;agree_yes&quot; value=&quot;yes&quot;&gt;
+&lt;label for=&quot;agree_yes&quot;&gt;Yes&lt;/label&gt;</code></pre></noscript></div>
+</p>
 
 <p>You can also use the <code>fieldset</code> and <code>legend</code> elements to group the related controls, but be sure to make the <code>legend</code> focusable or associate it with the first focusable form control in order to ensure the question is read out.</p>
 
-<p>{% gist 6f5b7c0f0c072631a908 fieldset.html %}</p>
+<p><div><script src="https://gist.github.com/6f5b7c0f0c072631a908.js?file=fieldset.html"></script>
+<noscript><pre><code>&lt;fieldset&gt;
+  &lt;legend tabindex=&quot;0&quot;&gt;Do you agree to the terms of service for this site?&lt;/legend&gt;
+  
+  &lt;input type=&quot;radio&quot; name=&quot;agree&quot; id=&quot;agree_yes&quot;  value=&quot;yes&quot;&gt;
+  &lt;label for=&quot;agree_yes&quot;&gt;Yes&lt;/label&gt;
+  
+  &lt;input type=&quot;radio&quot; name=&quot;agree&quot; id=&quot;agree_no&quot;  value=&quot;no&quot;&gt;
+  &lt;label for=&quot;agree_no&quot;&gt;No&lt;/label&gt;
+&lt;/fieldset&gt;</code></pre></noscript></div>
+</p>
 
 <figure id="figure-2016-03-04-07">
 <audio controls="">
@@ -245,7 +273,16 @@
 
 <p>We should strive for the same sort of clarity when presenting navigation options. The HTML5 <code>nav</code> element enables us to semantically identify an area of the page being used for navigation. It does not, however, identify the <code>nav</code> element as being for navigation when encountered naturally in the flow of the document. For that reason, it can be useful to provide an textual introduction to the section, even if you choose to visibly hide it. You might even consider expanding the text of your navigation items to provide additional context.</p>
 
-<p>{% gist 6f5b7c0f0c072631a908 navigation.html %}</p>
+<p><div><script src="https://gist.github.com/6f5b7c0f0c072631a908.js?file=navigation.html"></script>
+<noscript><pre><code>&lt;nav id=&quot;nav&quot; tabindex=&quot;0&quot; aria-labelledby=&quot;nav-title&quot;&gt;
+  &lt;h1 id=&quot;nav-title&quot; class=&quot;hidden&quot;&gt;Here’s what you can find on this site:&lt;/h1&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;/about/&quot;&gt;&lt;b class=&quot;hidden&quot;&gt;A Bit &lt;/b&gt;About&lt;b class=&quot;hidden&quot;&gt; Me&lt;/b&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/notebook/&quot;&gt;&lt;b class=&quot;hidden&quot;&gt;Entries in My &lt;/b&gt;Notebook&lt;/a&gt;&lt;/li&gt;
+    …
+  &lt;/ul&gt;
+&lt;/nav&gt;</code></pre></noscript></div>
+</p>
 
 <figure id="figure-2016-03-04-08">
 <audio controls="">
@@ -298,7 +335,7 @@
 </blockquote>
 
 <figure id="figure-2016-03-04-09">
-{% adaptive_image /i/posts/2016-03-04/09.png %}
+<img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/09.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/09.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/09.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/09.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
 </figure>
 
 <p>Clear and to the point, right?</p>
@@ -312,7 +349,7 @@
 <p>Then they allow you to lookup the property or manually enter the address.</p>
 
 <figure id="figure-2016-03-04-10">
-{% adaptive_image /i/posts/2016-03-04/10.png %}
+<img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/10.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/10.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/10.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/10.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
 </figure>
 
 <p>While not specifically designed for the future of headless UIs, this form is prepared for their eventuality.</p>
@@ -322,19 +359,19 @@
 <p>We show our users respect by respecting their time. Obviously straightforward, brief writing is one way we do that, but another is to reduce the time it takes to complete a task. Many forms are brimming with fields to be filled in. In some cases, the vast majority are purely optional. And while it may be easy to spot the required fields visually, bypassing them in an aural interface can be incredibly difficult.</p>
 
 <figure id="figure-2016-03-04-11">
-{% adaptive_image /i/posts/2016-03-04/11.jpg %}
+<img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/11.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/11.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/11.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/11.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
 </figure>
 
 <p>User experience designers have been pushing for simplified forms since… well, as long as I can remember. Users appreciate them, they tend to result in better data, and they also tend to convert better than long forms. And when it comes to voice-based interactions, they will become a necessity. No one is going to want to spend 15 minutes working their way through a 15 question registration form when all that’s required is their email address and for them to choose a password.</p>
 
 <figure id="figure-2016-03-04-12">
-{% adaptive_image /i/posts/2016-03-04/12.jpg %}
+<img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/12.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/12.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/12.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/12.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
 </figure>
 
 <p>On a similar note, we should avoid slicing fields into multiple parts if at all possible. For instance, you still see fields like this one, asking for a US phone number, quite often:</p>
 
 <figure id="figure-2016-03-04-13">
-{% adaptive_image /i/posts/2016-03-04/13.png %}
+<img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/13.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/13.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/13.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-03-04/13.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="">
 </figure>
 
 <p>When interacting with this construct via voice, a user will be required to supply three separate values. In order to do so, each field would require a label. Even in the States, most developers would only know how to label the first of those three boxes. (They are area code, exchange or central office code, and line number, if you’re interested.)</p>
@@ -363,11 +400,29 @@
 
 <p>Microsoft has taken a slightly different approach. Using a relatively simple XML format, they have enabled us to teach Cortana new commands that tie directly into our website.</p>
 
-<p>{% gist 6f5b7c0f0c072631a908 meta.html %}</p>
+<p><div><script src="https://gist.github.com/6f5b7c0f0c072631a908.js?file=meta.html"></script>
+<noscript><pre><code>&lt;meta name=&quot;msapplication-cortanavcd&quot;  content=&quot;http://myapp.io/vcd.xml&quot;&gt;</code></pre></noscript></div>
+</p>
 
 <p>All we need to do is include a <code>meta</code> tag pointing to an XML file that details the commands (and variations) and, when a user installs the site as a hosted app, Cortana picks up the new commands automatically. Those commands, when issued, can open a specific page or even kick off JavaScript methods in the target page.</p>
 
-<p>{% gist 6f5b7c0f0c072631a908 vcd.xml %}</p>
+<p><div><script src="https://gist.github.com/6f5b7c0f0c072631a908.js?file=vcd.xml"></script>
+<noscript><pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;VoiceCommands xmlns=&quot;http://schemas.microsoft.com/voicecommands/1.2&quot;&gt;
+  &lt;CommandSet xml:lang=&quot;en-us&quot; Name=&quot;groupPost&quot;&gt;
+    &lt;CommandPrefix&gt;Group Post&lt;/CommandPrefix&gt;
+    &lt;Example&gt;Group Post add note&lt;/Example&gt;
+    &lt;Command Name=&quot;addNote&quot;&gt;
+      &lt;Example&gt;add a note {message} using group post&lt;/Example&gt;
+      &lt;ListenFor RequireAppName=&quot;BeforeOrAfterPhrase&quot;&gt;[please] 
+        add a note [that] {noteSubject}&lt;/ListenFor&gt;
+      &lt;Feedback&gt;adding {noteSubject} to Group Post&lt;/Feedback&gt;
+      &lt;Navigate Target=&quot;/addNote.htm&quot;/&gt;
+    &lt;/Command&gt;
+    &lt;PhraseTopic Label=&quot;noteSubject&quot; Scenario=&quot;Dictation&quot;&gt;&lt;/PhraseTopic&gt;
+  &lt;/CommandSet&gt;
+&lt;/VoiceCommands&gt;</code></pre></noscript></div>
+</p>
 
 <hr />
 
@@ -388,7 +443,7 @@
 
 <h2 id="falling-in-love-with-forms">Falling in Love with Forms</h2>
 
-<p>{% vimeo 144870932 %}</p>
+<p><figure id="fig-144870932" class="figure figure--video"><div class="video-embed video-embed--vimeo video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(https://i.vimeocdn.com/video/542903228_1280.jpg)" href="//vimeo.com/144870932" data-lazy-video-src="//player.vimeo.com/video/144870932?autoplay=1"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Falling in Love with Forms</div></a></div></figure></p>
 
 <p>This one’s a survey of current forms best practices. This one’s a bit abbreviated from my previous iterations as the talks were only 40 minutes at FoWD and Øredev, but I distilled out the most important bits.</p>
 
@@ -399,7 +454,7 @@
 
 <h2 id="there-are-no-buts-in-progressive-enhancement">There Are No “Buts” in Progressive Enhancement</h2>
 
-<p>{% vimeo 144979022 %}</p>
+<p><figure id="fig-144979022" class="figure figure--video"><div class="video-embed video-embed--vimeo video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(https://i.vimeocdn.com/video/542999481_1280.jpg)" href="//vimeo.com/144979022" data-lazy-video-src="//player.vimeo.com/video/144979022?autoplay=1"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">There Are No “Buts” in Progressive Enhancement</div></a></div></figure></p>
 
 <p>Wherein I dispel the myth that progressive enhancement has no place in news, healthcare, education, financial, commerce, and single-page app websites. Lots of goodies in here.</p>
 
@@ -423,7 +478,7 @@
 
 <p>They live-streamed the event and immediately <a href="https://youtu.be/Fu1L34TLUHM">posted the video on YouTube</a>. I also <a href="http://www.slideshare.net/AaronGustafson/beyond-responsive-18f-2015">posted the deck to SlideShare</a> so you can follow along a little easier. I’ve embedded each below if you want to tuck in right away:</p>
 
-<p>{% youtube Fu1L34TLUHM %}</p>
+<p><figure id="fig-Fu1L34TLUHM" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(//i2.ytimg.com/vi/Fu1L34TLUHM/0.jpg);" href="//www.youtube.com/watch?v=Fu1L34TLUHM" data-lazy-video-src="//www.youtube.com/embed/Fu1L34TLUHM?autoplay=1&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">18F Design Presents: Aaron Gustafson</div></a></div></figure></p>
 
 <figure class="video-embed video-embed--16x9" id="figure-2015-08-26-01"><iframe class="video-embed__video" src="//www.slideshare.net/slideshow/embed_code/key/7jsUtSzGEqFyKj" frameborder="0"></iframe></figure>
 

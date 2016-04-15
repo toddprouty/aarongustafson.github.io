@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2016-04-15T12:18:39-04:00</updated>
+	<updated>2016-04-15T14:40:18-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,78 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[The Next Big Tech Revolution Will Be in Your Ear]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/the-next-big-tech-revolution-will-be-in-your-ear/"/>
+				<updated>2016-04-15T14:14:13-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/the-next-big-tech-revolution-will-be-in-your-ear</id>
+				<content type="html"><![CDATA[<p><a href="https://www.aaron-gustafson.com/notebook/learn-from-the-past-enhance-for-the-future/#ii-interface-is-conversation">I’ve said it before</a> and I’ll say it again: Every experience is a conversation and those who design for that now will be well-positioned to succeed in the future of “headless UIs”.</p>
+<p><a rel="full-article" href="http://www.fastcodesign.com/3057483/the-next-big-tech-revolution-will-be-in-your-ear">Read on Fast Company Design&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Making News Websites Accessible to All]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/making-news-websites-accessible-to-all/"/>
+				<updated>2016-04-15T14:06:02-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/making-news-websites-accessible-to-all</id>
+				<content type="html"><![CDATA[<p>This is an excellent piece on why news orgs should be paying attention to accessibility… and why they aren’t:</p>
+
+<blockquote>
+  <p>[M]uch of the core technology for accessibility already exists … What’s holding accessibility back is design—and awareness.</p>
+</blockquote>
+<p><a rel="full-article" href="http://niemanreports.org/articles/making-news-websites-accessible-to-all/">Read on Nieman Reports&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Color Contrast Tools]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/color-contrast-tools/"/>
+				<updated>2016-04-15T12:27:16-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/color-contrast-tools</id>
+				<content type="html"><![CDATA[<p>A handy list of color contrast checkers and other tools.</p>
+<p><a rel="full-article" href="http://www.webaxe.org/color-contrast-tools/">Read on Web Axe&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Google+ Accessibility]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/UjoStGYKLxe/"/>
+				<updated>2016-04-15T12:25:41-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/UjoStGYKLxe</id>
+				<content type="html"><![CDATA[<p>Some updates from Luke on accessibility improvements on Google’s social network. Of note: “In the past year alone, we’ve found &amp; fixed over 450 accessibility bugs.”</p>
+
+<p>Keep up the great work!</p>
+<p><a rel="full-article" href="https://plus.google.com/+LukeWroblewski/posts/UjoStGYKLxe">Read on Luke Wroblewski (on Google+)&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Accessibility and Performance]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/a11y-perf/"/>
+				<updated>2016-04-15T12:23:57-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/a11y-perf</id>
+				<content type="html"><![CDATA[<p>Yet another awesome talk from Marcy Sutton on performance optimization and accessibility.</p>
+<p><a rel="full-article" href="http://marcysutton.github.io/a11y-perf/">Read on Marcy Sutton&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Twitter Has Alt Text! (With Some Caveats)]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/twitter-has-alt-text-with-some-caveats/"/>
+				<updated>2016-04-15T12:20:11-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/twitter-has-alt-text-with-some-caveats</id>
+				<content type="html"><![CDATA[<p>A nice writeup of the steps Twitter is making toward offering accessible images (and the steps you should take to participate).</p>
+<p><a rel="full-article" href="http://adrianroselli.com/2016/03/twitter-has-alt-text-with-some-caveats.html">Read on Adrian Roselli&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -182,45 +254,6 @@
 </blockquote>
 <p><a rel="full-article" href="http://www.planningforaliens.com/blog/2016/04/11/why-js-development-is-crazy/">Read on Planning for Aliens&nbsp;&rarr;</a></p>]]></content>
 			</entry>
-		
-	
-		
-	
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[‘Touch Keyboard’ Implementations Have Improved Just 9% Since 2013 (60% Still Get It Wrong)]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/mobile-touch-keyboards/"/>
-				<updated>2016-03-31T17:03:58-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/mobile-touch-keyboards</id>
-				<content type="html"><![CDATA[<p>This post is pure gold in terms of recommendations for tailoring your web forms for modern contexts. Read it, then go forth and improve your forms!</p>
-<p><a rel="full-article" href="http://baymard.com/blog/mobile-touch-keyboards">Read on Baymard Institute&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Learning to Code Gives You Advantages as a UX Designer]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/as-you-learn-ux-design-learn-how-to-code/"/>
-				<updated>2016-03-31T17:01:34-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/as-you-learn-ux-design-learn-how-to-code</id>
-				<content type="html"><![CDATA[<p>This is a great post from Jess on how it can be advantageous for UX-ers to pick up front-end coding skills.</p>
-<p><a rel="full-article" href="http://jessicaivins.net/as-you-learn-ux-design-learn-how-to-code/">Read on Jessica Ivins&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Decades of Computer Vision Research, One ‘Swiss Army Knife’]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/decades-of-computer-vision-research-one-swiss-army-knife/"/>
-				<updated>2016-03-31T09:47:44-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/decades-of-computer-vision-research-one-swiss-army-knife</id>
-				<content type="html"><![CDATA[<p>Wow. Just wow. Be sure to watch the video. This is amazing!</p>
-<p><a rel="full-article" href="http://blogs.microsoft.com/next/2016/03/30/decades-of-computer-vision-research-one-swiss-army-knife/">Read on Next at Microsoft&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
 		
 	
 </feed>

@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: User Experience | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/user-experience/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2016-04-15T14:34:09-04:00</updated>
+  <updated>2016-04-15T14:40:18-04:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -82,13 +82,13 @@
 
 <p>Anyway, in the talk I was struggling to convey the various decision points and interface adjustments that would happen as a result of those decisions. I don’t remember which of us came up with the idea—it was probably Sarah—but we opted to use a flowchart to visually describe what we were talking about on stage. Here was the first one we did:</p>
 
-<figure id="fig-2015-05-28-01" class="media-container">{% adaptive_image /i/posts/2015-05-28/01.png %}<figcaption>An early flowchart used to describe progressive enhancement with JavaScript</figcaption></figure>
+<figure id="fig-2015-05-28-01" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/01.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/01.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>An early flowchart used to describe progressive enhancement with JavaScript</figcaption></figure>
 
 <p>It was pretty rudimentary, but it got the point across.</p>
 
 <p>In future iterations of the talk, I expounded upon the idea of a flowchart for describing how an interface might adapt to different circumstances and browser capabilities. Here’s a particularly complex one I used to describe how a FAQ might function:</p>
 
-<figure id="fig-2015-05-28-02" class="media-container">{% adaptive_image /i/posts/2015-05-28/02.png %}<figcaption>A flowchart describing the progressive enhancement and interaction options for an FAQ.</figcaption></figure>
+<figure id="fig-2015-05-28-02" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/02.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/02.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>A flowchart describing the progressive enhancement and interaction options for an FAQ.</figcaption></figure>
 
 <p>Over the years I found more and more ways to put these artifacts to use. And at a certain point, “flowchart” didn’t seem to cut it, so I began calling them “UI construction flows”—which, admittedly, was a mouthful—and then finally settled on the name “Interaction Experience Maps” with the help of a client.</p>
 
@@ -117,11 +117,11 @@
 
 <p>Here’s an example from <a href="https://www.facebook.com/events/804756366246427/">my Beyond Responsive workshop</a> that illustrates the evolution of a tabbed interface Ix Map from basic into something that is far more appropriate for differently-sized screens:</p>
 
-<figure id="fig-2015-05-28-03" class="media-container">{% adaptive_image /i/posts/2015-05-28/03.png %}<figcaption>Pass 1: If JavaScript’s available, make a tabbed interface out of linear content. If not, leave it as it was.</figcaption></figure>
+<figure id="fig-2015-05-28-03" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/03.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/03.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>Pass 1: If JavaScript’s available, make a tabbed interface out of linear content. If not, leave it as it was.</figcaption></figure>
 
-<figure id="fig-2015-05-28-04" class="media-container">{% adaptive_image /i/posts/2015-05-28/04.png %}<figcaption>Pass 2: Add a live width test into the mix to see if there’s enough room for the tabs and make it an accordion if the screen is too narrow.</figcaption></figure>
+<figure id="fig-2015-05-28-04" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/04.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/04.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/04.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/04.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>Pass 2: Add a live width test into the mix to see if there’s enough room for the tabs and make it an accordion if the screen is too narrow.</figcaption></figure>
 
-<figure id="fig-2015-05-28-05" class="media-container">{% adaptive_image /i/posts/2015-05-28/05.png %}<figcaption>Pass 3: Test for native <code>details</code>/<code>summary</code> support and use the native functionality if available.</figcaption></figure>
+<figure id="fig-2015-05-28-05" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/05.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/05.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/05.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-05-28/05.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>Pass 3: Test for native <code>details</code>/<code>summary</code> support and use the native functionality if available.</figcaption></figure>
 
 <h2 id="simple-powerful">Simple, Powerful</h2>
 
@@ -138,7 +138,7 @@
 
 <!-- more -->
 
-<p>{% youtube gpBWwl-Ngak %}</p>
+<p><figure id="fig-gpBWwl-Ngak" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--4x3"><a class="video-embed__lazy-link" style="background-image:url(//i2.ytimg.com/vi/gpBWwl-Ngak/0.jpg);" href="//www.youtube.com/watch?v=gpBWwl-Ngak" data-lazy-video-src="//www.youtube.com/embed/gpBWwl-Ngak?autoplay=1&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Shocking discovery: fnb.co.za progress bar a placebo!</div></a></div></figure></p>
 
 <p>On the off chance you don’t want to watch the video, I’ll recap: When accessing certain screens on the FNB site, a progress meter is shown to indicate new content is being flowed into the browser. But it’s not.</p>
 

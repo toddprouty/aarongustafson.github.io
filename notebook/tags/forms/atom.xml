@@ -4,7 +4,7 @@
   <title><![CDATA[Browse by Tag: Forms | Aaron Gustafson]]></title>
   <link href="https://www.aaron-gustafson.com/notebook/tags/forms/atom.xml" rel="self"/>
   <link href="https://www.aaron-gustafson.com/"/>
-  <updated>2016-04-15T14:34:09-04:00</updated>
+  <updated>2016-04-15T14:40:18-04:00</updated>
   <id>https://www.aaron-gustafson.com/</id>
   <author>
     <name><![CDATA[Aaron Gustafson]]></name>
@@ -55,21 +55,33 @@
 
 <p>Standalone checkboxes are often employed to enable users to affirm a statement, as in <a href="#fig-2016-01-06-01">this example</a> from <a href="https://online.americanexpress.com/myca/logon/us/action/LogonHandler?request_type=LogonHandler&amp;Face=en_US#lilo_loginForm">the American Express login form</a> where a customer can indicate they’d like the site to remember them.</p>
 
-<figure id="fig-2016-01-06-01" class="media-container">{% adaptive_image /i/posts/2016-01-06/01.png %}<figcaption>American Express’ login form offers users the option of being remembered. As that is a binary choice (e.g. yes or no), the checkbox makes sense.</figcaption></figure>
+<figure id="fig-2016-01-06-01" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/01.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/01.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>American Express’ login form offers users the option of being remembered. As that is a binary choice (e.g. yes or no), the checkbox makes sense.</figcaption></figure>
 
 <p>Here’s a simplification of the markup they’re using:</p>
 
-<p>{% gist d281f889a11634b45280 american-express-login-simplified.html %}</p>
+<p><div><script src="https://gist.github.com/d281f889a11634b45280.js?file=american-express-login-simplified.html"></script>
+<noscript><pre><code>&lt;input type=&quot;checkbox&quot; id=&quot;lilo_checkBox&quot; name=&quot;REMEMBERME&quot;&gt;
+&lt;label for=&quot;lilo_checkBox&quot;&gt;Remember Me&lt;/label&gt;</code></pre></noscript></div>
+</p>
 
 <p>This works really well, though I generally prefer to <a href="https://www.aaron-gustafson.com/notebook/labeled-with-love/#an-alternate-approach">combine explicit and implicit labeling</a> to simplify my CSS selectors and broaden their applicability. Here’s how I would rewrite this control:</p>
 
-<p>{% gist d281f889a11634b45280 american-express-login-reimagined.html %}</p>
+<p><div><script src="https://gist.github.com/d281f889a11634b45280.js?file=american-express-login-reimagined.html"></script>
+<noscript><pre><code>&lt;label for=&quot;lilo_checkBox&quot;&gt;
+  &lt;input type=&quot;checkbox&quot; id=&quot;lilo_checkBox&quot; name=&quot;REMEMBERME&quot;&gt;
+  Remember Me
+&lt;/label&gt;</code></pre></noscript></div>
+</p>
 
 <p>Regardless of the markup pattern itself, it’s important to note the explicit association of the form control and the <code>label</code> element (using the <code>for</code> attribute). You’ll also notice the input has a straightforward <code>name</code> value which will be submitted to the back end if the user ticks the box.</p>
 
 <p>It’s worth noting that some back-end systems may require a value be submitted for the given variable name (in this case, “REMEMBERME”) regardless of whether the user has ticked the checkbox. If that’s a requirement, you can alter the pattern to use a hidden <code>input</code> as well:</p>
 
-<p>{% gist d281f889a11634b45280 american-express-login-with-hidden.html %}</p>
+<p><div><script src="https://gist.github.com/d281f889a11634b45280.js?file=american-express-login-with-hidden.html"></script>
+<noscript><pre><code>&lt;input type=&quot;hidden&quot; name=&quot;REMEMBERME&quot; value=&quot;no&quot;&gt;
+&lt;input type=&quot;checkbox&quot; id=&quot;lilo_checkBox&quot; name=&quot;REMEMBERME&quot; value=&quot;yes&quot;&gt;
+&lt;label for=&quot;lilo_checkBox&quot;&gt;Remember Me&lt;/label&gt;</code></pre></noscript></div>
+</p>
 
 <p>The source order matters because with matching <code>name</code> values, the final submittable <code>value</code> will always be the one the back-end receives. With this setup, the <code>value</code> of “no” (from the hidden <code>input</code>) will be submitted by default. If the checkbox is ticked, its <code>value</code> is submitted instead, setting REMEMBERME to “yes”.</p>
 
@@ -77,11 +89,37 @@
 
 <p>The other way we often see checkboxes used is to enable users to choose zero or more items from a collection of options. Consider <a href="#fig-2016-01-06-02">this example</a> from <a href="http://chadevicelab.org/book-time">the Chattanooga Open Device Lab’s reservation form</a>. It allows users to choose the devices they’d like to include in their test matrix:</p>
 
-<figure id="fig-2016-01-06-02" class="media-container">{% adaptive_image /i/posts/2016-01-06/02.png %}<figcaption>In this excerpt from the reservation form on the Chattanooga Open Device Lab website, users can choose to include gaming system options.</figcaption></figure>
+<figure id="fig-2016-01-06-02" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/02.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/02.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/02.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>In this excerpt from the reservation form on the Chattanooga Open Device Lab website, users can choose to include gaming system options.</figcaption></figure>
 
 <p>The markup they employ is pretty well-organized and straightforward: it’s a list of checkbox options.</p>
 
-<p>{% gist d281f889a11634b45280 chaodl-checkbox-list.html %}</p>
+<p><div><script src="https://gist.github.com/d281f889a11634b45280.js?file=chaodl-checkbox-list.html"></script>
+<noscript><pre><code>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;label for=&quot;nintendo-ds-lite&quot;&gt;
+      &lt;input type=&quot;checkbox&quot;
+             name=&quot;reservation_requested_device[]&quot;
+             id=&quot;nintendo-ds-lite&quot;
+             value=&quot;Nintendo DS Lite (Upper Cabinet #13)&quot;
+             data-checkbox-required=&quot;&quot;
+             &gt;
+      Nintendo DS Lite
+    &lt;/label&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;label for=&quot;nintendo-wii&quot;&gt;
+      &lt;input type=&quot;checkbox&quot;
+             name=&quot;reservation_requested_device[]&quot;
+             id=&quot;nintendo-wii&quot;
+             value=&quot;Nintendo Wii (TV Area)&quot;
+             data-checkbox-required=&quot;&quot;
+             &gt;
+      Nintendo Wii
+    &lt;/label&gt;
+  &lt;/li&gt;
+  &lt;!-- list continues --&gt;
+&lt;/ul&gt;</code></pre></noscript></div>
+</p>
 
 <p>As this is an instance where a user could choose more than one option, the back end needs to be able to capture that information in what’s called an “array”. An array, if you’re unfamiliar, is a collection of values. You’ll notice that the <code>name</code> given to each of these checkbox <code>input</code> elements is the same: “reservation_requested_device[]”. The square brackets (“[]”) at the end of the <code>name</code> are the magic bit that allows the values of <em>each</em> chosen “reservation_requested_device” checkbox to be submitted as the value of “reservation_requested_device”.</p>
 
@@ -118,11 +156,11 @@
 
 <p>For simple confirmation questions, it’s completely valid to use a radio form control in lieu of a single checkbox. In fact, in some cases, it may offer a more explicit choice for your users. Consider <a href="#fig-2016-01-06-03">this example</a> from <a href="https://order.subway.com">Subway’s online ordering tool</a>.</p>
 
-<figure id="fig-2016-01-06-03" class="media-container">{% adaptive_image /i/posts/2016-01-06/03.png %}<figcaption>In this excerpt from Subway’s online ordering tool, they use a checkbox to confirm the user wants their sandwich toasted.</figcaption></figure>
+<figure id="fig-2016-01-06-03" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/03.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/03.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>In this excerpt from Subway’s online ordering tool, they use a checkbox to confirm the user wants their sandwich toasted.</figcaption></figure>
 
 <p>A checkbox labelled “Fresh Toasted”, isn’t terribly clear. A better approach would be to ask something like “Would you like your sandwich toasted?” with radio controls for “yes” and “no”. Alternately, if they absolutely wanted to keep it as a checkbox, they could use a better label: “Please toast my sandwich”.</p>
 
-<figure id="fig-2016-01-06-04" class="media-container">{% adaptive_image /i/posts/2016-01-06/04.png %}<figcaption>An alternate approach to the Subway interface, using radio controls.</figcaption></figure>
+<figure id="fig-2016-01-06-04" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/04.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/04.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/04.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2016-01-06/04.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>An alternate approach to the Subway interface, using radio controls.</figcaption></figure>
 
 <p>Radio controls have their place, but are not often a one-to-one replacement for checkboxes. I will discuss radio controls in greater depth in another post.</p>
 
@@ -147,43 +185,340 @@
 
 <p>When you look at a basic form field, you have two bits of information: the field and the label.</p>
 
-<figure id="fig-2015-11-11-01" class="media-container">{% adaptive_image /i/posts/2015-11-11/01.png %}<figcaption>A typical form control: a label and a field.</figcaption></figure>
+<figure id="fig-2015-11-11-01" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/01.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/01.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/01.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>A typical form control: a label and a field.</figcaption></figure>
 
 <p>You could achieve this with a minimum of markup:</p>
 
-<p>{% gist 3585c019108025b2f568 unlabeled-field.html embed %}</p>
+<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist-embed-51ae8299bd14b6c42fb20b0ce07f643175347abaca051f9c55e114bfc98b10b1.css">
+<div id="gist27925529" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-unlabeled-field-html" class="file">
+    
+
+  <div itemprop="text" class="blob-wrapper data type-html">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="file-unlabeled-field-html-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-unlabeled-field-html-LC1" class="blob-code blob-code-inner js-file-line">Your Name</td>
+      </tr>
+      <tr>
+        <td id="file-unlabeled-field-html-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-unlabeled-field-html-LC2" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">input</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>full_name<span class="pl-pds">&quot;</span></span>&gt;</td>
+      </tr>
+</table>
+
+  </div>
+
+  </div>
+  
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568/raw/af7d34e88830a540478fcb49839be692d47248f2/unlabeled-field.html" style="float:right">view raw</a>
+        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568#file-unlabeled-field-html">unlabeled-field.html</a>
+        hosted with &#10084; by <a href="https://github.com">GitHub</a>
+      </div>
+    </div>
+</div>
+
+</div></p>
 
 <p>The thing is, the text “Your Name” is not associated in any way with the <code>input</code>. Sure, a sighted person would likely be able to tell that that text is associated with the field, but no computer can tell that. And if a computer can’t tell the text and <code>input</code> are associated, your form control is inaccessible to anyone who uses assistive technology like a screen reader. It’s also going to pose a problem in the near-future of “headless UIs” like those hinted at by Cortana, Siri, and the Echo.</p>
 
 <p>Thankfully, establishing a relationship between the two is quite easy using the <code>label</code> element. The most common (and preferable) way to do this is to wrap the labeling text in a <code>label</code> element. Then you create an explicit association with the field using the <code>for</code> attribute, which is an <code>id</code> reference. In other words, the value of the <code>for</code> attribute needs to match the value of the <code>id</code> attribute on the field you want to associate with that <code>label</code>.</p>
 
-<p>{% gist 3585c019108025b2f568 labeled-field.html embed %}</p>
+<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist-embed-51ae8299bd14b6c42fb20b0ce07f643175347abaca051f9c55e114bfc98b10b1.css">
+<div id="gist27925529" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-labeled-field-html" class="file">
+    
+
+  <div itemprop="text" class="blob-wrapper data type-html">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="file-labeled-field-html-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-labeled-field-html-LC1" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">label</span> <span class="pl-e">for</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>full_name<span class="pl-pds">&quot;</span></span>&gt;Your Name&lt;/<span class="pl-ent">label</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-labeled-field-html-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-labeled-field-html-LC2" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">input</span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>full_name<span class="pl-pds">&quot;</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>full_name<span class="pl-pds">&quot;</span></span>&gt;</td>
+      </tr>
+</table>
+
+  </div>
+
+  </div>
+  
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568/raw/af7d34e88830a540478fcb49839be692d47248f2/labeled-field.html" style="float:right">view raw</a>
+        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568#file-labeled-field-html">labeled-field.html</a>
+        hosted with &#10084; by <a href="https://github.com">GitHub</a>
+      </div>
+    </div>
+</div>
+
+</div></p>
 
 <p>With that markup in place, the programmatic connection between the elements is made and the results speak for themselves: When you focus the field, the contents of the <code>label</code> are read out.</p>
 
-<p>{% youtube WR4_MAjalsU %}</p>
+<p><figure id="fig-WR4_MAjalsU" class="figure figure--video"><div class="video-embed video-embed--youtube video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(//i2.ytimg.com/vi/WR4_MAjalsU/0.jpg);" href="//www.youtube.com/watch?v=WR4_MAjalsU" data-lazy-video-src="//www.youtube.com/embed/WR4_MAjalsU?autoplay=1&amp;modestbranding=1&amp;iv_load_policy=3"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">ChromeVox reading the label associated with a form control.</div></a></div></figure></p>
 
 <h2 id="an-alternate-approach">An Alternate Approach</h2>
 
 <p>Since I specifically referred to this approach as <em>explicit</em> association, you probably assumed that there’s another kind of association. And you were right: <em>implicit</em> association. Implicit association is created by wrapping a form control and its associated label text in a <code>label</code> element. I like to use this approach with radio and checkbox controls:</p>
 
-<p>{% gist 3585c019108025b2f568 implicitly-labeled-checkbox.html embed %}</p>
+<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist-embed-51ae8299bd14b6c42fb20b0ce07f643175347abaca051f9c55e114bfc98b10b1.css">
+<div id="gist27925529" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-implicitly-labeled-checkbox-html" class="file">
+    
+
+  <div itemprop="text" class="blob-wrapper data type-html">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="file-implicitly-labeled-checkbox-html-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-implicitly-labeled-checkbox-html-LC1" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">label</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-implicitly-labeled-checkbox-html-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-implicitly-labeled-checkbox-html-LC2" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>checkbox<span class="pl-pds">&quot;</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>devices[]<span class="pl-pds">&quot;</span></span> <span class="pl-e">value</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>Asus Nexus 7<span class="pl-pds">&quot;</span></span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-implicitly-labeled-checkbox-html-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-implicitly-labeled-checkbox-html-LC3" class="blob-code blob-code-inner js-file-line">  Asus Nexus 7</td>
+      </tr>
+      <tr>
+        <td id="file-implicitly-labeled-checkbox-html-L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="file-implicitly-labeled-checkbox-html-LC4" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">label</span>&gt;</td>
+      </tr>
+</table>
+
+  </div>
+
+  </div>
+  
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568/raw/af7d34e88830a540478fcb49839be692d47248f2/implicitly-labeled-checkbox.html" style="float:right">view raw</a>
+        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568#file-implicitly-labeled-checkbox-html">implicitly-labeled-checkbox.html</a>
+        hosted with &#10084; by <a href="https://github.com">GitHub</a>
+      </div>
+    </div>
+</div>
+
+</div></p>
 
 <p>It’s worth noting that there’s nothing wrong with explicit association in this context either.</p>
 
-<p>{% gist 3585c019108025b2f568 explicitly-labeled-checkbox.html embed %}</p>
+<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist-embed-51ae8299bd14b6c42fb20b0ce07f643175347abaca051f9c55e114bfc98b10b1.css">
+<div id="gist27925529" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-explicitly-labeled-checkbox-html" class="file">
+    
+
+  <div itemprop="text" class="blob-wrapper data type-html">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="file-explicitly-labeled-checkbox-html-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-explicitly-labeled-checkbox-html-LC1" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>checkbox<span class="pl-pds">&quot;</span></span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>asus-nexus-7<span class="pl-pds">&quot;</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>devices[]<span class="pl-pds">&quot;</span></span> <span class="pl-e">value</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>Asus Nexus 7<span class="pl-pds">&quot;</span></span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-explicitly-labeled-checkbox-html-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-explicitly-labeled-checkbox-html-LC2" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">label</span> <span class="pl-e">for</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>asus-nexus-7<span class="pl-pds">&quot;</span></span>&gt;Asus Nexus 7&lt;/<span class="pl-ent">label</span>&gt;</td>
+      </tr>
+</table>
+
+  </div>
+
+  </div>
+  
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568/raw/af7d34e88830a540478fcb49839be692d47248f2/explicitly-labeled-checkbox.html" style="float:right">view raw</a>
+        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568#file-explicitly-labeled-checkbox-html">explicitly-labeled-checkbox.html</a>
+        hosted with &#10084; by <a href="https://github.com">GitHub</a>
+      </div>
+    </div>
+</div>
+
+</div></p>
 
 <p>You can even combine the two approaches.</p>
 
-<p>{% gist 3585c019108025b2f568 combo-labeled-checkbox.html embed %}</p>
+<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist-embed-51ae8299bd14b6c42fb20b0ce07f643175347abaca051f9c55e114bfc98b10b1.css">
+<div id="gist27925529" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-combo-labeled-checkbox-html" class="file">
+    
+
+  <div itemprop="text" class="blob-wrapper data type-html">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="file-combo-labeled-checkbox-html-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-combo-labeled-checkbox-html-LC1" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">label</span> <span class="pl-e">for</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>asus-nexus-7<span class="pl-pds">&quot;</span></span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-combo-labeled-checkbox-html-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-combo-labeled-checkbox-html-LC2" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>checkbox<span class="pl-pds">&quot;</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>devices[]<span class="pl-pds">&quot;</span></span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>asus-nexus-7<span class="pl-pds">&quot;</span></span> <span class="pl-e">value</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>Asus Nexus 7<span class="pl-pds">&quot;</span></span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-combo-labeled-checkbox-html-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-combo-labeled-checkbox-html-LC3" class="blob-code blob-code-inner js-file-line">  Asus Nexus 7</td>
+      </tr>
+      <tr>
+        <td id="file-combo-labeled-checkbox-html-L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="file-combo-labeled-checkbox-html-LC4" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">label</span>&gt;</td>
+      </tr>
+</table>
+
+  </div>
+
+  </div>
+  
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568/raw/af7d34e88830a540478fcb49839be692d47248f2/combo-labeled-checkbox.html" style="float:right">view raw</a>
+        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568#file-combo-labeled-checkbox-html">combo-labeled-checkbox.html</a>
+        hosted with &#10084; by <a href="https://github.com">GitHub</a>
+      </div>
+    </div>
+</div>
+
+</div></p>
 
 <p>The reason I like to use implicit association with checkbox and radio controls has to do with ensuring the greatest breadth of support when it comes to styling inputs. For instance, if I set <code>width: 80%</code> on all <code>input</code> elements using a simple <a href="https://developer.mozilla.org/docs/Web/CSS/Type_selectors">type selector</a>, that width would be applied to <em>all</em> <code>input</code> elements, including radio and checkbox controls. In order to prevent radio and checkbox controls from getting rendered at that width, I would need to assign an override value of <code>width: auto</code> to them them specifically. I can do that using <a href="https://developer.mozilla.org/docs/Web/CSS/Attribute_selectors">attribute selectors</a>:</p>
 
-<p>{% gist 3585c019108025b2f568 modern-only.css embed %}</p>
+<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist-embed-51ae8299bd14b6c42fb20b0ce07f643175347abaca051f9c55e114bfc98b10b1.css">
+<div id="gist27925529" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-modern-only-css" class="file">
+    
+
+  <div itemprop="text" class="blob-wrapper data type-css">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="file-modern-only-css-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-modern-only-css-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">input</span> {</td>
+      </tr>
+      <tr>
+        <td id="file-modern-only-css-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-modern-only-css-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">width</span></span>: <span class="pl-c1">80<span class="pl-k">%</span></span>;</td>
+      </tr>
+      <tr>
+        <td id="file-modern-only-css-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-modern-only-css-LC3" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="file-modern-only-css-L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="file-modern-only-css-LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">input</span>[type=checkbox],</td>
+      </tr>
+      <tr>
+        <td id="file-modern-only-css-L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="file-modern-only-css-LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">input</span>[type=radio] {</td>
+      </tr>
+      <tr>
+        <td id="file-modern-only-css-L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="file-modern-only-css-LC6" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">width</span></span>: <span class="pl-c1">auto</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-modern-only-css-L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="file-modern-only-css-LC7" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+</table>
+
+  </div>
+
+  </div>
+  
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568/raw/af7d34e88830a540478fcb49839be692d47248f2/modern-only.css" style="float:right">view raw</a>
+        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568#file-modern-only-css">modern-only.css</a>
+        hosted with &#10084; by <a href="https://github.com">GitHub</a>
+      </div>
+    </div>
+</div>
+
+</div></p>
 
 <p>While completely valid, that approach leaves out any browsers that don’t support attribute selection (e.g. IE 6). That may not seem like a deal-breaker in your book, but on the off chance some poor soul happens to be stuck using an out-of-date browser (as many are on mobile), I like to show them a little love. And, thankfully, using the implicit markup pattern for checkboxes and radio controls allows for this quite easily: I just use a <a href="https://developer.mozilla.org/docs/Web/CSS/Descendant_selectors">descendent selector</a> instead.</p>
 
-<p>{% gist 3585c019108025b2f568 universal.css embed %}</p>
+<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist-embed-51ae8299bd14b6c42fb20b0ce07f643175347abaca051f9c55e114bfc98b10b1.css">
+<div id="gist27925529" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-universal-css" class="file">
+    
+
+  <div itemprop="text" class="blob-wrapper data type-css">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="file-universal-css-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-universal-css-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">input</span> {</td>
+      </tr>
+      <tr>
+        <td id="file-universal-css-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-universal-css-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">width</span></span>: <span class="pl-c1">80<span class="pl-k">%</span></span>;</td>
+      </tr>
+      <tr>
+        <td id="file-universal-css-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-universal-css-LC3" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="file-universal-css-L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="file-universal-css-LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">label</span> <span class="pl-ent">input</span> {</td>
+      </tr>
+      <tr>
+        <td id="file-universal-css-L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="file-universal-css-LC5" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">width</span></span>: <span class="pl-c1">auto</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-universal-css-L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="file-universal-css-LC6" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+</table>
+
+  </div>
+
+  </div>
+  
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568/raw/af7d34e88830a540478fcb49839be692d47248f2/universal.css" style="float:right">view raw</a>
+        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568#file-universal-css">universal.css</a>
+        hosted with &#10084; by <a href="https://github.com">GitHub</a>
+      </div>
+    </div>
+</div>
+
+</div></p>
 
 <p>This approach results in a greater amount of support and, incidentally, less CSS.</p>
 
@@ -195,11 +530,54 @@
 
 <p>This isn’t a game-changer when it comes to standard text fields, but it’s an exceptional affordance when it comes to radio and checkbox controls, especially on mobile, as it vastly increases the tappable region used to activate the control.</p>
 
-<figure id="fig-2015-11-11-03" class="media-container">{% adaptive_image /i/posts/2015-11-11/03.png %}<figcaption>A screenshot of a group of checkbox controls with their labels outlined.</figcaption></figure>
+<figure id="fig-2015-11-11-03" class="media-container"><img  src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/03.png&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/03.png&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.aaron-gustafson.com/i/posts/2015-11-11/03.png&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt=""><figcaption>A screenshot of a group of checkbox controls with their labels outlined.</figcaption></figure>
 
 <p>To create incredibly generous tap targets on mobile devices, we can take things a little further. Add padding to the top and bottom of the <code>label</code> to make it bigger and then use negative margins to counter that enlargement and keep the layout as it was before the padding was applied.</p>
 
-<p>{% gist 3585c019108025b2f568 larger-labels.css embed %}</p>
+<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist-embed-51ae8299bd14b6c42fb20b0ce07f643175347abaca051f9c55e114bfc98b10b1.css">
+<div id="gist27925529" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-larger-labels-css" class="file">
+    
+
+  <div itemprop="text" class="blob-wrapper data type-css">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="file-larger-labels-css-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-larger-labels-css-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-e">.grouped</span> <span class="pl-ent">label</span> {</td>
+      </tr>
+      <tr>
+        <td id="file-larger-labels-css-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-larger-labels-css-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">margin</span></span>: <span class="pl-c1">-1<span class="pl-k">em</span></span> <span class="pl-c1">0</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-larger-labels-css-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-larger-labels-css-LC3" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">padding</span></span>: <span class="pl-c1">1<span class="pl-k">em</span></span> <span class="pl-c1">0</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-larger-labels-css-L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="file-larger-labels-css-LC4" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+</table>
+
+  </div>
+
+  </div>
+  
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568/raw/af7d34e88830a540478fcb49839be692d47248f2/larger-labels.css" style="float:right">view raw</a>
+        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568#file-larger-labels-css">larger-labels.css</a>
+        hosted with &#10084; by <a href="https://github.com">GitHub</a>
+      </div>
+    </div>
+</div>
+
+</div></p>
 
 <figure id="fig-2015-11-11-04" class="media-container"><img src="https://www.aaron-gustafson.com/i/posts/2015-11-11/04.gif" alt="" /><figcaption>An animation showing very generous tap targets on a narrow screen.</figcaption></figure>
 
@@ -217,11 +595,161 @@
 
 <p>Of course, since <code>placeholder</code> implements an existing pattern, it came with baggage. People commonly achieved this effect by (ab)using the <code>value</code> attribute as a fake label. As such, its introduction didn’t do much to increase the accessibility of forms. <em>Form controls need a label</em>. If you want to make your form more compact, you can do that using proper markup and a little clever CSS.</p>
 
-<p>{% gist 3585c019108025b2f568 fancy-example.html embed %}</p>
+<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist-embed-51ae8299bd14b6c42fb20b0ce07f643175347abaca051f9c55e114bfc98b10b1.css">
+<div id="gist27925529" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-fancy-example-html" class="file">
+    
 
-<p>{% gist 3585c019108025b2f568 fancy-example.css embed %}</p>
+  <div itemprop="text" class="blob-wrapper data type-html">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="file-fancy-example-html-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-fancy-example-html-LC1" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>form-control<span class="pl-pds">&quot;</span></span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-fancy-example-html-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-fancy-example-html-LC2" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">input</span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>full_name<span class="pl-pds">&quot;</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>full_name<span class="pl-pds">&quot;</span></span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-fancy-example-html-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-fancy-example-html-LC3" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">label</span> <span class="pl-e">for</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>full_name<span class="pl-pds">&quot;</span></span>&gt;Your Name&lt;/<span class="pl-ent">label</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-fancy-example-html-L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="file-fancy-example-html-LC4" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+</table>
 
-<figure id="fig-2015-11-11-06" class="media-container">{% codepen BoGgYM aarongustafson result 112 preview %}</figure>
+  </div>
+
+  </div>
+  
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568/raw/af7d34e88830a540478fcb49839be692d47248f2/fancy-example.html" style="float:right">view raw</a>
+        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568#file-fancy-example-html">fancy-example.html</a>
+        hosted with &#10084; by <a href="https://github.com">GitHub</a>
+      </div>
+    </div>
+</div>
+
+</div></p>
+
+<p><div><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist-embed-51ae8299bd14b6c42fb20b0ce07f643175347abaca051f9c55e114bfc98b10b1.css">
+<div id="gist27925529" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-fancy-example-css" class="file">
+    
+
+  <div itemprop="text" class="blob-wrapper data type-css">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="file-fancy-example-css-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-fancy-example-css-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-e">.form-control</span> {</td>
+      </tr>
+      <tr>
+        <td id="file-fancy-example-css-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-fancy-example-css-LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">position</span></span>: <span class="pl-c1">relative</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-fancy-example-css-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-fancy-example-css-LC3" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="file-fancy-example-css-L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="file-fancy-example-css-LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">label</span> {</td>
+      </tr>
+      <tr>
+        <td id="file-fancy-example-css-L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="file-fancy-example-css-LC5" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">display</span></span>: <span class="pl-c1">block</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-fancy-example-css-L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="file-fancy-example-css-LC6" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">position</span></span>: <span class="pl-c1">absolute</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-fancy-example-css-L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="file-fancy-example-css-LC7" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">top</span></span>: <span class="pl-c1">50<span class="pl-k">%</span></span>;</td>
+      </tr>
+      <tr>
+        <td id="file-fancy-example-css-L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="file-fancy-example-css-LC8" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">margin-top</span></span>: <span class="pl-c1">-.5<span class="pl-k">em</span></span>;</td>
+      </tr>
+      <tr>
+        <td id="file-fancy-example-css-L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="file-fancy-example-css-LC9" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">left</span></span>: <span class="pl-c1">.25<span class="pl-k">em</span></span>;</td>
+      </tr>
+      <tr>
+        <td id="file-fancy-example-css-L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="file-fancy-example-css-LC10" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">transition</span></span>: <span class="pl-c1">.25<span class="pl-k">s</span></span> transform;</td>
+      </tr>
+      <tr>
+        <td id="file-fancy-example-css-L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="file-fancy-example-css-LC11" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="file-fancy-example-css-L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="file-fancy-example-css-LC12" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">input</span> {</td>
+      </tr>
+      <tr>
+        <td id="file-fancy-example-css-L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="file-fancy-example-css-LC13" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">display</span></span>: <span class="pl-c1">block</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-fancy-example-css-L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="file-fancy-example-css-LC14" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">border</span></span>: <span class="pl-c1">1<span class="pl-k">px</span></span> <span class="pl-c1">solid</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-fancy-example-css-L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="file-fancy-example-css-LC15" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">border-radius</span></span>: <span class="pl-c1">3<span class="pl-k">px</span></span>;</td>
+      </tr>
+      <tr>
+        <td id="file-fancy-example-css-L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td id="file-fancy-example-css-LC16" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">padding</span></span>: <span class="pl-c1">.25<span class="pl-k">em</span></span>;</td>
+      </tr>
+      <tr>
+        <td id="file-fancy-example-css-L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="file-fancy-example-css-LC17" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="file-fancy-example-css-L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="file-fancy-example-css-LC18" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">input</span><span class="pl-e">:focus</span> + <span class="pl-ent">label</span> {</td>
+      </tr>
+      <tr>
+        <td id="file-fancy-example-css-L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="file-fancy-example-css-LC19" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1"><span class="pl-c1">transform</span></span>: translateY(<span class="pl-c1">-1.5<span class="pl-k">em</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="file-fancy-example-css-L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="file-fancy-example-css-LC20" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+</table>
+
+  </div>
+
+  </div>
+  
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568/raw/af7d34e88830a540478fcb49839be692d47248f2/fancy-example.css" style="float:right">view raw</a>
+        <a href="https://gist.github.com/aarongustafson/3585c019108025b2f568#file-fancy-example-css">fancy-example.css</a>
+        hosted with &#10084; by <a href="https://github.com">GitHub</a>
+      </div>
+    </div>
+</div>
+
+</div></p>
+
+<figure id="fig-2015-11-11-06" class="media-container"><p class="codepen" data-user="aarongustafson" data-href="BoGgYM" data-height="112" data-type="result" data-preview="true">See the Pen <a href="http://codepen.io/aarongustafson/pen/BoGgYM">Simple Compact Labels</a> by Aaron Gustafson (<a href="//codepen.io/aarongustafson">aarongustafson</a>) on <a href="//codepen.io">CodePen</a>.</p><script async src="//codepen.io/assets/embed/ei.js"></script></figure>
 
 <p>Mary Lou assembled some beautiful examples of this approach in her <a href="http://tympanus.net/codrops/2015/01/08/inspiration-text-input-effects/">Inspiration for Text Input Effects</a>. I highly recommend you check those out, but here’s a teaser to whet your whistle:</p>
 
@@ -257,7 +785,7 @@
 
 <h2 id="falling-in-love-with-forms">Falling in Love with Forms</h2>
 
-<p>{% vimeo 144870932 %}</p>
+<p><figure id="fig-144870932" class="figure figure--video"><div class="video-embed video-embed--vimeo video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(https://i.vimeocdn.com/video/542903228_1280.jpg)" href="//vimeo.com/144870932" data-lazy-video-src="//player.vimeo.com/video/144870932?autoplay=1"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">Falling in Love with Forms</div></a></div></figure></p>
 
 <p>This one’s a survey of current forms best practices. This one’s a bit abbreviated from my previous iterations as the talks were only 40 minutes at FoWD and Øredev, but I distilled out the most important bits.</p>
 
@@ -268,7 +796,7 @@
 
 <h2 id="there-are-no-buts-in-progressive-enhancement">There Are No “Buts” in Progressive Enhancement</h2>
 
-<p>{% vimeo 144979022 %}</p>
+<p><figure id="fig-144979022" class="figure figure--video"><div class="video-embed video-embed--vimeo video-embed--16x9"><a class="video-embed__lazy-link" style="background-image:url(https://i.vimeocdn.com/video/542999481_1280.jpg)" href="//vimeo.com/144979022" data-lazy-video-src="//player.vimeo.com/video/144979022?autoplay=1"><div class="video-embed__lazy-div"></div><div class="video-embed__lazy-info">There Are No “Buts” in Progressive Enhancement</div></a></div></figure></p>
 
 <p>Wherein I dispel the myth that progressive enhancement has no place in news, healthcare, education, financial, commerce, and single-page app websites. Lots of goodies in here.</p>
 
