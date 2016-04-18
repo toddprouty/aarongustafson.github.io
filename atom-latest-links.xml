@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2016-04-15T14:40:18-04:00</updated>
+	<updated>2016-04-18T13:20:15-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Basic Screen Reader Commands for Accessibility Testing]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/basic-screen-reader-commands-for-accessibility-testing/"/>
+				<updated>2016-04-18T09:58:48-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/basic-screen-reader-commands-for-accessibility-testing</id>
+				<content type="html"><![CDATA[<p>This is a handy cheet sheet from <a href="http://tink.uk">Léonie Watson</a>.</p>
+<p><a rel="full-article" href="https://www.paciellogroup.com/blog/2015/01/basic-screen-reader-commands-for-accessibility-testing/">Read on The Paciello Group&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -238,21 +249,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/on-the-leading-edge</id>
 				<content type="html"><![CDATA[<p>This is a really nice round-up of the Edge Web Summit from Kit Kelly. And no, I didn’t pay him for the nice things he said about my talk :-)</p>
 <p><a rel="full-article" href="https://www.sitepen.com/blog/2016/04/07/on-the-leading-edge/">Read on SitePen&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Why Javascript Development Is Crazy]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/why-js-development-is-crazy/"/>
-				<updated>2016-04-12T13:03:48-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/why-js-development-is-crazy</id>
-				<content type="html"><![CDATA[<p>So true:</p>
-
-<blockquote>
-  <p>Most of these tools you think you have to have are solving problems you don’t have NOR WILL YOU EVER HAVE.</p>
-</blockquote>
-<p><a rel="full-article" href="http://www.planningforaliens.com/blog/2016/04/11/why-js-development-is-crazy/">Read on Planning for Aliens&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
