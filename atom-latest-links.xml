@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2016-04-18T13:20:15-04:00</updated>
+	<updated>2016-04-18T14:33:55-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,54 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Accessibility Is a Process, Not a Project]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/accessibility-is-a-process-not-a-project-ce1c1cdc3aa7/"/>
+				<updated>2016-04-18T14:32:08-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/accessibility-is-a-process-not-a-project-ce1c1cdc3aa7</id>
+				<content type="html"><![CDATA[<p>This post has so much gold. To wit:</p>
+
+<blockquote>
+  <p>While they are very important for testing, screen readers are not testing tools. To be honest, people with disabilities are not running around with AT checking to make sure websites and software work correctly. They’re using it as a means to overcome a technological barrier that would normally keep them from doing something you and I take for granted.</p>
+</blockquote>
+<p><a rel="full-article" href="https://medium.com/@jonbmetz/accessibility-is-a-process-not-a-project-ce1c1cdc3aa7#.2ai2udr4o">Read on Medium&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Why Your Gray Text Should Never Exceed 46% Brightness]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/why-your-gray-text-should-never-exceed-46-brightness/"/>
+				<updated>2016-04-18T14:11:54-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/why-your-gray-text-should-never-exceed-46-brightness</id>
+				<content type="html"><![CDATA[<p>Oh, the number of times I’ve had to fight this battle…</p>
+<p><a rel="full-article" href="http://uxmovement.com/content/why-your-gray-text-should-never-exceed-46-brightness/">Read on UX Movement&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[A Working SVG Workflow for Accessible Icons]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/a-working-svg-workflow-for-accessible-icons/"/>
+				<updated>2016-04-18T14:10:03-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/a-working-svg-workflow-for-accessible-icons</id>
+				<content type="html"><![CDATA[<p>This is a pretty sweet guide to authoring accessible SVG icons. Thanks Hugo!</p>
+<p><a rel="full-article" href="http://www.sitepoint.com/a-working-svg-workflow-for-accessible-icons/">Read on SitePoint&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Color Safe: Accessible Web Color Combinations]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/colorsafe/"/>
+				<updated>2016-04-18T13:47:39-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/colorsafe</id>
+				<content type="html"><![CDATA[<p>Generate <a href="http://webaim.org/blog/wcag-2-0-and-link-colors/">WCAG-compatible color palettes</a> with ease in this awesome tool from <a href="http://donielleberg.com">Donielle Berg</a> &amp; <a href="http://adrianrapp.com">Adrian Rapp</a>.</p>
+<p><a rel="full-article" href="http://colorsafe.co/">Read on Donielle Berg & Adrian Rapp&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -195,60 +243,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/the-open-web-is-not-going-away</id>
 				<content type="html"><![CDATA[<p>Oddly Zack doesn’t mention paying to get folks involved with the standards-makers like the W3C and ECMA.</p>
 <p><a rel="full-article" href="http://techcrunch.com/2016/04/10/1301496/">Read on TechCrunch&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[A Debugging Thought Process]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/a-debugging-thought-process/"/>
-				<updated>2016-04-12T13:25:09-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/a-debugging-thought-process</id>
-				<content type="html"><![CDATA[<p>I love that Remy wrote this up. Debugging is an art and he nails the process for diagnosing speed issues in this brief post.</p>
-<p><a rel="full-article" href="https://remysharp.com/2016/04/04/a-debugging-thought-process">Read on Remy Sharp&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Top US Undergraduate Computer Science Programs Skip Cybersecurity Classes]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/top-us-undergraduate-computer-science-programs-skip-cybersecurity-classes/"/>
-				<updated>2016-04-12T13:21:32-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/top-us-undergraduate-computer-science-programs-skip-cybersecurity-classes</id>
-				<content type="html"><![CDATA[<p>Oh dear.</p>
-<p><a rel="full-article" href="http://www.darkreading.com/vulnerabilities---threats/top-us-undergraduate-computer-science-programs-skip-cybersecurity-classes/d/d-id/1325024">Read on DarkReading.com&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Ensuring Equal Pay for Equal Work]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/ensuring-equal-pay-equal-work/"/>
-				<updated>2016-04-12T13:10:35-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/ensuring-equal-pay-equal-work</id>
-				<content type="html"><![CDATA[<p>In their latest update, Microsoft has gotten pretty damn close to equal pay for equal work. There’s still some work to be done for Latin &amp; Hispanic populations and women in general, but this is progress. And I appreciate the honesty.</p>
-
-<p>Here are the stats for U.S. employees, assuming the same job title and level:</p>
-
-<ul>
-  <li><strong>Women earn 99.8¢ for every $1</strong> earned by a man;</li>
-  <li><strong>Racial/ethnic minorities earn $1.004 for every $1</strong> earned by a Caucasian employee;</li>
-  <li><strong>African American/black employees earn $1.003 for every $1</strong> earned by Caucasian employees;</li>
-  <li><strong>Hispanic/Latin employees earn 99.9¢ for every $1</strong> earned by Caucasian employees; and</li>
-  <li><strong>Asian employees earn $1.006 for every $1</strong> earned by Caucasian employees.</li>
-</ul>
-<p><a rel="full-article" href="http://blogs.microsoft.com/blog/2016/04/11/ensuring-equal-pay-equal-work/#sm.001oh58x8usfddx11gd2e9bpq28if">Read on The Official Microsoft Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[On the Leading Edge]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/on-the-leading-edge/"/>
-				<updated>2016-04-12T13:08:46-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/on-the-leading-edge</id>
-				<content type="html"><![CDATA[<p>This is a really nice round-up of the Edge Web Summit from Kit Kelly. And no, I didn’t pay him for the nice things he said about my talk :-)</p>
-<p><a rel="full-article" href="https://www.sitepen.com/blog/2016/04/07/on-the-leading-edge/">Read on SitePen&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
