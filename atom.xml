@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson Latest Posts &amp; Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2016-04-18T14:33:55-04:00</updated>
+	<updated>2016-04-20T13:19:16-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,33 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Link: Building a More Accessible Web Platform]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/building-a-more-accessible-web-platform/"/>
+				<updated>2016-04-20T13:12:49-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/building-a-more-accessible-web-platform</id>
+				<content type="html"><![CDATA[<p>I’m so incredibly excited about this! Highlights:</p>
+
+<ul>
+  <li>The accessibility tree is no longer a subtree of the DOM;</li>
+  <li>ARIA Landmarks and document structure navigation;</li>
+  <li>Proper computing of accessible name &amp; description;</li>
+  <li>Improved error validity states;</li>
+  <li>Accessible <code>datalist</code>, improved <code>select</code>, and improvements to all list type elements;</li>
+  <li>Keyboard controls for the number field;</li>
+  <li>Accessible <code>input[type=color]</code>;</li>
+  <li>Improved high contrast mode (no more removing background images, instead, the image stays and a solid color is placed behind the text);</li>
+  <li>Speech synthesis API;</li>
+  <li>An improved caret on Windows Phone when using an external keyboard; and</li>
+  <li>So much more.</li>
+</ul>
+
+<p>Couple this with the F12 dev tools enhancements and Narrator’s Developer Mode and it’s pretty clear how committed Microsoft is to accessibility. I’m so glad I work here!</p>
+<p><a rel="full-article" href="https://blogs.windows.com/msedgedev/2016/04/20/building-a-more-accessible-web-platform/">Read on Microsoft Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -232,17 +259,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/scrollmagazine</id>
 				<content type="html"><![CDATA[<p><cite>Scroll</cite> is back!</p>
 <p><a rel="full-article" href="http://webdirections.org/scrollmagazine/">Read on Web Directions&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Link: The Open Web Is Not Going Away]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/the-open-web-is-not-going-away/"/>
-				<updated>2016-04-12T13:29:47-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/the-open-web-is-not-going-away</id>
-				<content type="html"><![CDATA[<p>Oddly Zack doesn’t mention paying to get folks involved with the standards-makers like the W3C and ECMA.</p>
-<p><a rel="full-article" href="http://techcrunch.com/2016/04/10/1301496/">Read on TechCrunch&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
