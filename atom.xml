@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson Latest Posts &amp; Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2016-04-20T13:19:16-04:00</updated>
+	<updated>2016-04-21T14:22:47-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,61 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Link: Do You Have a Role in Web Accessibility? (Spoiler Alert: Yes)]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/web-accessibility/"/>
+				<updated>2016-04-21T10:50:43-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/web-accessibility</id>
+				<content type="html"><![CDATA[<p>Accessibility is everyone’s job. Find out what you can do to ensure your web creations are as accessible as possible.</p>
+<p><a rel="full-article" href="http://www.carriedils.com/web-accessibility/">Read on Carrie Dils&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Link: Designing for the Web: Are There Colors You Should Avoid?]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/designing-for-the-web-are-there-colors-you-should-avoid/"/>
+				<updated>2016-04-21T10:47:35-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/designing-for-the-web-are-there-colors-you-should-avoid</id>
+				<content type="html"><![CDATA[<p>You betcha. Some great advice here!</p>
+<p><a rel="full-article" href="http://designshack.net/articles/ux-design/designing-for-the-web-are-there-colors-you-should-avoid/">Read on Design Shack&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Link: A Stronger Visual Cue for Text Fields]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/a-stronger-visual-cue-for-text-fields/"/>
+				<updated>2016-04-21T10:46:23-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/a-stronger-visual-cue-for-text-fields</id>
+				<content type="html"><![CDATA[<p>Simple recommendations for more obvious form fields.</p>
+<p><a rel="full-article" href="http://uxmovement.com/forms/a-stronger-visual-cue-for-text-fields/">Read on UX Movement&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Link: Deque’s Code Library]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/library/"/>
+				<updated>2016-04-21T10:42:02-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/library</id>
+				<content type="html"><![CDATA[<p>This is an excellent collection of accessible widgets. You can learn a lot from this code.</p>
+<p><a rel="full-article" href="https://dequeuniversity.com/library/">Read on Deque University&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Link: How Letterspacing Can Make All Caps Easier to Read]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/how-letterspacing-can-make-all-caps-easier-to-read/"/>
+				<updated>2016-04-21T10:31:16-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/how-letterspacing-can-make-all-caps-easier-to-read</id>
+				<content type="html"><![CDATA[<p>“All caps” text gets abused pretty regularly. This article gets into the details of why proper letter spacing is crucial for the legibility of text in all caps.</p>
+<p><a rel="full-article" href="http://uxmovement.com/content/how-letterspacing-can-make-all-caps-easier-to-read/">Read on UX Movement&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -204,61 +259,6 @@
   <p>Poor keyboard accessibility of a website is one of the most damning and frustrating problems that faces people with disabilities and keyboard users alike.</p>
 </blockquote>
 <p><a rel="full-article" href="http://www.accessiq.org/news/features/2016/04/principles-of-the-keyboard-accessible-website">Read on Access iQ&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Link: The User Experience of Good Content]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/the-user-experience-of-good-content/"/>
-				<updated>2016-04-14T17:51:49-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/the-user-experience-of-good-content</id>
-				<content type="html"><![CDATA[<p>User experience begins with content. Period.</p>
-<p><a rel="full-article" href="http://uxmag.com/articles/the-user-experience-of-good-content">Read on UX Magazine&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Link: Visual Studio Code 1.0 Release]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/vscode-1/"/>
-				<updated>2016-04-14T16:41:46-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/vscode-1</id>
-				<content type="html"><![CDATA[<p>I’ve been using VS Code for a few weeks now and I have to admit I’m smitten. I wasn’t really looking for a new editor, but I really like this one. Super light &amp; fast, even with big files.</p>
-<p><a rel="full-article" href="http://code.visualstudio.com/blogs/2016/04/14/vscode-1.0">Read on Visual Studio Code Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Link: Testing With the NVDA Screen Reader]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/testing-with-the-nvda-screen-reader/"/>
-				<updated>2016-04-12T13:39:32-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/testing-with-the-nvda-screen-reader</id>
-				<content type="html"><![CDATA[<p>This is a great roundup of configuration recommendations and keyboard commands from Jon Whiting for getting going with NVDA.</p>
-<p><a rel="full-article" href="http://webaim.org/blog/testing-with-the-nvda-screen-reader/">Read on WebAIM&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Link: What Is the Definition of a “CSS Hack”?]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/what-is-the-definition-of-a-css-hack/"/>
-				<updated>2016-04-12T13:36:37-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/what-is-the-definition-of-a-css-hack</id>
-				<content type="html"><![CDATA[<p>Ah, CSS hacks. I’m surprised folks don’t seem to know what they are anymore.</p>
-<p><a rel="full-article" href="http://www.sitepoint.com/what-is-the-definition-of-a-css-hack/">Read on SitePoint&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Link: Scroll Magazine, Edition 1]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/scrollmagazine/"/>
-				<updated>2016-04-12T13:32:30-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/scrollmagazine</id>
-				<content type="html"><![CDATA[<p><cite>Scroll</cite> is back!</p>
-<p><a rel="full-article" href="http://webdirections.org/scrollmagazine/">Read on Web Directions&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
