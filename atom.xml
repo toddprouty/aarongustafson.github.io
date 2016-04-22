@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson Latest Posts &amp; Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2016-04-22T12:02:33-04:00</updated>
+	<updated>2016-04-22T14:58:35-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,38 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Link: Performance Is a Feature]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/performance-is-a-feature/"/>
+				<updated>2016-04-22T14:55:39-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/performance-is-a-feature</id>
+				<content type="html"><![CDATA[<p>Excellent post on the importance of web page performance:</p>
+
+<blockquote>
+  <p>Performance isn’t a technical niggle that “we should get around to fixing”. It is an opportunity to grow your audience, to grow your business, to convert more sales (or whatever it is eCommerce people do).</p>
+</blockquote>
+
+<blockquote>
+  <p>Performance is an opportunity, and a risk, the same way that a redesigned template is. Or a new logo. Or a change to the colour of a button CTA.</p>
+</blockquote>
+
+<p>See also: <a href="https://24ways.org/2012/responsive-responsive-design/">Tim Kadlec’s 2012 post on <cite>24 Ways</cite></a>.</p>
+<p><a rel="full-article" href="https://peterchamberlin.com/fast.php">Read on Peter Chamberlin&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Link: GitHub’s CSP Journey]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/githubs-csp-journey/"/>
+				<updated>2016-04-22T14:50:33-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/githubs-csp-journey</id>
+				<content type="html"><![CDATA[<p>An excellent in-depth analysis of GitHub’s current Content Security Policy including the issues they encountered and lessons they learned.</p>
+<p><a rel="full-article" href="http://githubengineering.com/githubs-csp-journey/">Read on GitHub Engineering&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -233,28 +265,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/twitter-has-alt-text-with-some-caveats</id>
 				<content type="html"><![CDATA[<p>A nice writeup of the steps Twitter is making toward offering accessible images (and the steps you should take to participate).</p>
 <p><a rel="full-article" href="http://adrianroselli.com/2016/03/twitter-has-alt-text-with-some-caveats.html">Read on Adrian Roselli&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Link: Learning to Use Google Analytics More Effectively at CodePen]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/learning-use-google-analytics-effectively-codepen/"/>
-				<updated>2016-04-14T18:00:07-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/learning-use-google-analytics-effectively-codepen</id>
-				<content type="html"><![CDATA[<p>Analytics tracking has never been my thing and the Google Analytics docs are frequently impenetrable for me. This post from Chris Coyier was quite accessible and easy to follow and has inspired me to do some more in-depth tracking on some of my own sites.</p>
-<p><a rel="full-article" href="https://css-tricks.com/learning-use-google-analytics-effectively-codepen/">Read on CSS-Tricks&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Link: Still Think You Don’t Need HTTPS?]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/still-think-you-dont-need-https/"/>
-				<updated>2016-04-14T17:58:58-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/still-think-you-dont-need-https</id>
-				<content type="html"><![CDATA[<p>In case you need more convincing…</p>
-<p><a rel="full-article" href="https://scotthelme.co.uk/still-think-you-dont-need-https/">Read on Scott Helme&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
