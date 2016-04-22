@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson Latest Posts &amp; Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2016-04-21T14:40:35-04:00</updated>
+	<updated>2016-04-22T12:02:33-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Link: Software Developers Keep Outdated Tech Relevant Thanks to Chattanooga’s Open Device Lab]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/361237/"/>
+				<updated>2016-04-22T11:16:06-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/361237</id>
+				<content type="html"><![CDATA[<p>Casey Phillips did a nice write-up of the Chattanooga Open Device Lab in today’s paper. It even has the requisite shout-outs to <a href="https://adactio.com/journal/5433/">Jeremy Keith</a> and <a href="http://opendevicelab.com/">OpenDeviceLab.com</a></p>
+<p><a rel="full-article" href="http://www.timesfreepress.com/news/life/entertainment/story/2016/apr/22/chattanoogas-open-device-lab-helps-software-d/361237/">Read on Times Free Press&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -244,21 +255,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/still-think-you-dont-need-https</id>
 				<content type="html"><![CDATA[<p>In case you need more convincing…</p>
 <p><a rel="full-article" href="https://scotthelme.co.uk/still-think-you-dont-need-https/">Read on Scott Helme&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Link: Principles of the Keyboard-accessible Website]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/principles-of-the-keyboard-accessible-website/"/>
-				<updated>2016-04-14T17:58:08-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/principles-of-the-keyboard-accessible-website</id>
-				<content type="html"><![CDATA[<p>Some truly excellent advice here.</p>
-
-<blockquote>
-  <p>Poor keyboard accessibility of a website is one of the most damning and frustrating problems that faces people with disabilities and keyboard users alike.</p>
-</blockquote>
-<p><a rel="full-article" href="http://www.accessiq.org/news/features/2016/04/principles-of-the-keyboard-accessible-website">Read on Access iQ&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
