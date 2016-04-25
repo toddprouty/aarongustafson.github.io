@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson Latest Posts &amp; Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2016-04-22T14:58:35-04:00</updated>
+	<updated>2016-04-25T16:26:14-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,83 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Link: How to Dynamically Include SVGs Inline With Jekyll]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/how-to-dynamically-include-svgs-inline-with-jekyll/"/>
+				<updated>2016-04-25T15:03:33-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/how-to-dynamically-include-svgs-inline-with-jekyll</id>
+				<content type="html"><![CDATA[<p>If you use Jekyll or Octopress, you might find this rather elegant setup handy.</p>
+<p><a rel="full-article" href="http://davidensinger.com/2014/11/how-to-dynamically-include-svgs-inline-with-jekyll/">Read on David Ensinger&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Link: My Post-CSUN Comparison of Web Accessibility Checkers]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/my-post-csun-comparison-of-web-accessibility-checkers/"/>
+				<updated>2016-04-25T15:01:20-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/my-post-csun-comparison-of-web-accessibility-checkers</id>
+				<content type="html"><![CDATA[<p>Accessibility checkers are all over the map.</p>
+<p><a rel="full-article" href="http://terrillthompson.com/blog/730">Read on Terrill Thompson&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Link: Delivering Octicons With SVG]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/2112-delivering-octicons-with-svg/"/>
+				<updated>2016-04-25T14:55:00-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/2112-delivering-octicons-with-svg</id>
+				<content type="html"><![CDATA[<p>And the abandonment of icon fonts continues…</p>
+<p><a rel="full-article" href="https://github.com/blog/2112-delivering-octicons-with-svg">Read on GitHub&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Link: Danger! ARIA Tabs]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/danger-aria-tabs/"/>
+				<updated>2016-04-25T11:27:20-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/danger-aria-tabs</id>
+				<content type="html"><![CDATA[<p>This is an interesting finding in the realm of accessibility: <abbr aria-label="the Accessible Rich Internet Applications spec">ARIA</abbr> being harmful to the experience. As I understand it, the <abbr aria-label="Web Accessibility Initiative">WAI</abbr>’s recommended interaction and tab flow stems from the way people using <abbr aria-label="assistive technology">AT</abbr> would tab through traditional desktop interfaces (<abbr aria-label="for example">e.g.</abbr>, Windows). I wonder if, as more people use the Web as their primary means of interacting with software, those mappings have become less relevant, either through loss of muscle memory in the case of long-time <abbr aria-label="assistive technology">AT</abbr> users or a lack of awareness for those who’ve only used <abbr aria-label="assistive technology">AT</abbr> since the advent of the Web and Web-based interactions (<abbr aria-label="in other words">i.e.</abbr>, folks who’ve never had to navigate their way through complex interfaces like Windows’ Device Manager).</p>
+<p><a rel="full-article" href="http://simplyaccessible.com/article/danger-aria-tabs/">Read on Simply Accessible&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Link: You Might Not Need a CSS Framework]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/you-might-not-need-a-css-framework/"/>
+				<updated>2016-04-25T11:20:16-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/you-might-not-need-a-css-framework</id>
+				<content type="html"><![CDATA[<p>I’d take it a step further: You <em>don’t</em> need a CSS framework.</p>
+<p><a rel="full-article" href="https://hacks.mozilla.org/2016/04/you-might-not-need-a-css-framework/">Read on Mozilla Hacks&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Link: The Average Webpage Is Now the Size of the Original Doom]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/average-webpage-now-size-original-doom/"/>
+				<updated>2016-04-25T11:18:03-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/average-webpage-now-size-original-doom</id>
+				<content type="html"><![CDATA[<p>Is all that weight worth it? Probably not. Play <cite>Doom</cite> instead.</p>
+<p><a rel="full-article" href="http://www.wired.com/2016/04/average-webpage-now-size-original-doom/">Read on Wired&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Link: The Web Isn’t Uniform]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/the-web-isn-t-uniform-fd67eb631501/"/>
+				<updated>2016-04-25T11:15:08-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/the-web-isn-t-uniform-fd67eb631501</id>
+				<content type="html"><![CDATA[<p>This is an amazing post from Karolina Szczur concerning who we build for. You should read it.</p>
+<p><a rel="full-article" href="https://medium.com/@fox/the-web-isn-t-uniform-fd67eb631501#.yhcz5c3k6">Read on Medium&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -182,89 +259,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/colorsafe</id>
 				<content type="html"><![CDATA[<p>Generate <a href="http://webaim.org/blog/wcag-2-0-and-link-colors/">WCAG-compatible color palettes</a> with ease in this awesome tool from <a href="http://donielleberg.com">Donielle Berg</a> &amp; <a href="http://adrianrapp.com">Adrian Rapp</a>.</p>
 <p><a rel="full-article" href="http://colorsafe.co/">Read on Donielle Berg & Adrian Rapp&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Link: Basic Screen Reader Commands for Accessibility Testing]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/basic-screen-reader-commands-for-accessibility-testing/"/>
-				<updated>2016-04-18T09:58:48-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/basic-screen-reader-commands-for-accessibility-testing</id>
-				<content type="html"><![CDATA[<p>This is a handy cheet sheet from <a href="http://tink.uk">Léonie Watson</a>.</p>
-<p><a rel="full-article" href="https://www.paciellogroup.com/blog/2015/01/basic-screen-reader-commands-for-accessibility-testing/">Read on The Paciello Group&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Link: The Next Big Tech Revolution Will Be in Your Ear]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/the-next-big-tech-revolution-will-be-in-your-ear/"/>
-				<updated>2016-04-15T14:14:13-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/the-next-big-tech-revolution-will-be-in-your-ear</id>
-				<content type="html"><![CDATA[<p><a href="https://www.aaron-gustafson.com/notebook/learn-from-the-past-enhance-for-the-future/#ii-interface-is-conversation">I’ve said it before</a> and I’ll say it again: Every experience is a conversation and those who design for that now will be well-positioned to succeed in the future of “headless UIs”.</p>
-<p><a rel="full-article" href="http://www.fastcodesign.com/3057483/the-next-big-tech-revolution-will-be-in-your-ear">Read on Fast Company Design&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Link: Making News Websites Accessible to All]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/making-news-websites-accessible-to-all/"/>
-				<updated>2016-04-15T14:06:02-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/making-news-websites-accessible-to-all</id>
-				<content type="html"><![CDATA[<p>This is an excellent piece on why news orgs should be paying attention to accessibility… and why they aren’t:</p>
-
-<blockquote>
-  <p>[M]uch of the core technology for accessibility already exists … What’s holding accessibility back is design—and awareness.</p>
-</blockquote>
-<p><a rel="full-article" href="http://niemanreports.org/articles/making-news-websites-accessible-to-all/">Read on Nieman Reports&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Link: Color Contrast Tools]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/color-contrast-tools/"/>
-				<updated>2016-04-15T12:27:16-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/color-contrast-tools</id>
-				<content type="html"><![CDATA[<p>A handy list of color contrast checkers and other tools.</p>
-<p><a rel="full-article" href="http://www.webaxe.org/color-contrast-tools/">Read on Web Axe&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Link: Google+ Accessibility]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/UjoStGYKLxe/"/>
-				<updated>2016-04-15T12:25:41-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/UjoStGYKLxe</id>
-				<content type="html"><![CDATA[<p>Some updates from Luke on accessibility improvements on Google’s social network. Of note: “In the past year alone, we’ve found &amp; fixed over 450 accessibility bugs.”</p>
-
-<p>Keep up the great work!</p>
-<p><a rel="full-article" href="https://plus.google.com/+LukeWroblewski/posts/UjoStGYKLxe">Read on Luke Wroblewski (on Google+)&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Link: Accessibility and Performance]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/a11y-perf/"/>
-				<updated>2016-04-15T12:23:57-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/a11y-perf</id>
-				<content type="html"><![CDATA[<p>Yet another awesome talk from Marcy Sutton on performance optimization and accessibility.</p>
-<p><a rel="full-article" href="http://marcysutton.github.io/a11y-perf/">Read on Marcy Sutton&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Link: Twitter Has Alt Text! (With Some Caveats)]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/twitter-has-alt-text-with-some-caveats/"/>
-				<updated>2016-04-15T12:20:11-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/twitter-has-alt-text-with-some-caveats</id>
-				<content type="html"><![CDATA[<p>A nice writeup of the steps Twitter is making toward offering accessible images (and the steps you should take to participate).</p>
-<p><a rel="full-article" href="http://adrianroselli.com/2016/03/twitter-has-alt-text-with-some-caveats.html">Read on Adrian Roselli&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
