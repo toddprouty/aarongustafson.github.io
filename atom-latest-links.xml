@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2016-04-25T16:26:14-04:00</updated>
+	<updated>2016-04-27T13:56:21-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,41 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Caching Best Practices &amp; Max-age Gotchas]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/caching-best-practices/"/>
+				<updated>2016-04-27T13:48:57-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/caching-best-practices</id>
+				<content type="html"><![CDATA[<p>Super simple advice from Jake. Follow it!</p>
+<p><a rel="full-article" href="https://jakearchibald.com/2016/caching-best-practices/">Read on Jake Archibald&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Why Is Text to Speech Only an Afterthought?]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/why-is-text-to-speech-only-an-afterthought/"/>
+				<updated>2016-04-27T13:48:48-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/why-is-text-to-speech-only-an-afterthought</id>
+				<content type="html"><![CDATA[<p>I’ve often wondered the same thing.</p>
+
+<p>Note: This post is a rant, but it’s an important rant to make publicly.</p>
+<p><a rel="full-article" href="http://www.digitalbookworld.com/2016/why-is-text-to-speech-only-an-afterthought/">Read on Digital Book World&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Debug Microsoft Edge From Sublime or vs Code With the New Edge Diagnostics Adapter]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/introducing-edge-diagnostics-adapter/"/>
+				<updated>2016-04-27T13:39:40-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/introducing-edge-diagnostics-adapter</id>
+				<content type="html"><![CDATA[<p>This post is full of so much awesome!</p>
+<p><a rel="full-article" href="https://blogs.windows.com/msedgedev/2016/04/27/introducing-edge-diagnostics-adapter/">Read on Microsoft Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -226,39 +261,6 @@
   <p>While they are very important for testing, screen readers are not testing tools. To be honest, people with disabilities are not running around with AT checking to make sure websites and software work correctly. They’re using it as a means to overcome a technological barrier that would normally keep them from doing something you and I take for granted.</p>
 </blockquote>
 <p><a rel="full-article" href="https://medium.com/@jonbmetz/accessibility-is-a-process-not-a-project-ce1c1cdc3aa7#.2ai2udr4o">Read on Medium&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Why Your Gray Text Should Never Exceed 46% Brightness]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/why-your-gray-text-should-never-exceed-46-brightness/"/>
-				<updated>2016-04-18T14:11:54-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/why-your-gray-text-should-never-exceed-46-brightness</id>
-				<content type="html"><![CDATA[<p>Oh, the number of times I’ve had to fight this battle…</p>
-<p><a rel="full-article" href="http://uxmovement.com/content/why-your-gray-text-should-never-exceed-46-brightness/">Read on UX Movement&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[A Working SVG Workflow for Accessible Icons]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/a-working-svg-workflow-for-accessible-icons/"/>
-				<updated>2016-04-18T14:10:03-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/a-working-svg-workflow-for-accessible-icons</id>
-				<content type="html"><![CDATA[<p>This is a pretty sweet guide to authoring accessible SVG icons. Thanks Hugo!</p>
-<p><a rel="full-article" href="http://www.sitepoint.com/a-working-svg-workflow-for-accessible-icons/">Read on SitePoint&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Color Safe: Accessible Web Color Combinations]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/colorsafe/"/>
-				<updated>2016-04-18T13:47:39-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/colorsafe</id>
-				<content type="html"><![CDATA[<p>Generate <a href="http://webaim.org/blog/wcag-2-0-and-link-colors/">WCAG-compatible color palettes</a> with ease in this awesome tool from <a href="http://donielleberg.com">Donielle Berg</a> &amp; <a href="http://adrianrapp.com">Adrian Rapp</a>.</p>
-<p><a rel="full-article" href="http://colorsafe.co/">Read on Donielle Berg & Adrian Rapp&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
