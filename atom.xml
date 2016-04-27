@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson Latest Posts &amp; Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2016-04-27T13:56:21-04:00</updated>
+	<updated>2016-04-27T14:56:07-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,23 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Link: The End of Empathy]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/the-end-of-empathy-5d8383b066d3/"/>
+				<updated>2016-04-27T14:54:32-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/the-end-of-empathy-5d8383b066d3</id>
+				<content type="html"><![CDATA[<p>This is such an amazing post I wanted to highlight the whole thing. But this pretty much sums it up for me…</p>
+
+<blockquote>
+  <p>[I]t’s time to resurrect the Golden Rule. Let’s all take a breath, shake it off, and declare a do-over. Let’s start listening to each other, especially when we disagree. Let’s value our differences instead of vilifying each other for them. Let’s be inclusive and kind. Let’s be compassionate and empathetic to the plights of others. Let’s be human beings. Because we’re never going to get anywhere if we continue to treat each other like garbage.</p>
+</blockquote>
+
+<p>Amen!</p>
+<p><a rel="full-article" href="https://medium.com/@stephaniewittelswachs/the-end-of-empathy-5d8383b066d3#.qzy9wi6x7">Read on Medium&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -246,21 +263,6 @@
 
 <p>Couple this with the F12 dev tools enhancements and Narrator’s Developer Mode and it’s pretty clear how committed Microsoft is to accessibility. I’m so glad I work here!</p>
 <p><a rel="full-article" href="https://blogs.windows.com/msedgedev/2016/04/20/building-a-more-accessible-web-platform/">Read on Microsoft Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Link: Accessibility Is a Process, Not a Project]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/accessibility-is-a-process-not-a-project-ce1c1cdc3aa7/"/>
-				<updated>2016-04-18T14:32:08-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/accessibility-is-a-process-not-a-project-ce1c1cdc3aa7</id>
-				<content type="html"><![CDATA[<p>This post has so much gold. To wit:</p>
-
-<blockquote>
-  <p>While they are very important for testing, screen readers are not testing tools. To be honest, people with disabilities are not running around with AT checking to make sure websites and software work correctly. They’re using it as a means to overcome a technological barrier that would normally keep them from doing something you and I take for granted.</p>
-</blockquote>
-<p><a rel="full-article" href="https://medium.com/@jonbmetz/accessibility-is-a-process-not-a-project-ce1c1cdc3aa7#.2ai2udr4o">Read on Medium&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
