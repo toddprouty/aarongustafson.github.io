@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2016-04-27T14:56:07-04:00</updated>
+	<updated>2016-04-28T15:57:00-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,74 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[The Accessibility Stack: Making a Better Layer Cake]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/the-accessibility-stack/"/>
+				<updated>2016-04-28T14:35:00-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/the-accessibility-stack</id>
+				<content type="html"><![CDATA[<p>This post hits on a lot of the same topics I talk about in <a href="http://adaptivewebdesign.info"><cite>Adaptive Web Design</cite></a> and my progressive enhancement talks and workshops: experience can and should be built in layers because it is experienced in them.</p>
+<p><a rel="full-article" href="http://simplyaccessible.com/article/the-accessibility-stack/">Read on Simply Accessible&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Accessibility in the Store]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/accessibility-in-the-store/"/>
+				<updated>2016-04-28T14:18:41-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/accessibility-in-the-store</id>
+				<content type="html"><![CDATA[<p>Apps in the <a href="https://www.microsoft.com/en-us/store/apps">Windows Store</a> can now be flagged as accessible on submission. Not sure if anyone is validating these claims, but my guess is that they will if it becomes abused. Regardless, I’m excited to see Microsoft take this step to make it easier for folks who need it to find accessible apps.</p>
+<p><a rel="full-article" href="https://msdn.microsoft.com/en-us/windows/uwp/accessibility/accessibility-in-the-store">Read on Windows Dev Center&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Color Contrast for Better Readability]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/color-contrast-for-better-readability/"/>
+				<updated>2016-04-28T14:14:55-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/color-contrast-for-better-readability</id>
+				<content type="html"><![CDATA[<p>This is an excellent walkthrough on how to evaluate color combinations for contrast. It also includes recommendations for inclusion in your style guide.</p>
+<p><a rel="full-article" href="https://www.viget.com/articles/color-contrast">Read on Viget&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[WCAG 2.0 Checklist - a Free and Simple Guide to WCAG 2.0]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/wcag-checklist/"/>
+				<updated>2016-04-28T14:08:53-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/wcag-checklist</id>
+				<content type="html"><![CDATA[<p>Luke McGrath has a great, humane summary of WCAG 2.0 as a checklist. You should check it out.</p>
+<p><a rel="full-article" href="https://www.wuhcag.com/wcag-checklist/">Read on Wuhcag&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Removing Headaches From Focus Management]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/focus-start-point/"/>
+				<updated>2016-04-28T14:06:40-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/focus-start-point</id>
+				<content type="html"><![CDATA[<p>Focus management is one of those “fun” things we deal with when building websites. This straightforward article gives a bit of an introduction to how you might want to handle it.</p>
+<p><a rel="full-article" href="https://developers.google.com/web/updates/2016/03/focus-start-point">Read on Google Developers&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Making Your Business Accessible]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/making-your-business-accessible/"/>
+				<updated>2016-04-28T12:57:09-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/making-your-business-accessible</id>
+				<content type="html"><![CDATA[<p>Lots of great business cases and approaches for accessibility in here.</p>
+
+<p>If you need a stat to bowl someone over with, I’d reach for this little factoid: <a href="https://www.gov.uk/government/news/high-street-could-be-boosted-by-212-billion-purple-pound-by-attracting-disabled-people-and-their-families">£212bn is the estimated combined income of UK households with a disabled person</a>.</p>
+<p><a rel="full-article" href="https://www.barclayscorporate.com/insight-and-research/managing-your-business/making-your-business-accessible.html">Read on Barclays&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -181,88 +249,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/361237</id>
 				<content type="html"><![CDATA[<p>Casey Phillips did a nice write-up of the Chattanooga Open Device Lab in today’s paper. It even has the requisite shout-outs to <a href="https://adactio.com/journal/5433/">Jeremy Keith</a> and <a href="http://opendevicelab.com/">OpenDeviceLab.com</a></p>
 <p><a rel="full-article" href="http://www.timesfreepress.com/news/life/entertainment/story/2016/apr/22/chattanoogas-open-device-lab-helps-software-d/361237/">Read on Times Free Press&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Do You Have a Role in Web Accessibility? (Spoiler Alert: Yes)]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/web-accessibility/"/>
-				<updated>2016-04-21T10:50:43-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/web-accessibility</id>
-				<content type="html"><![CDATA[<p>Accessibility is everyone’s job. Find out what you can do to ensure your web creations are as accessible as possible.</p>
-<p><a rel="full-article" href="http://www.carriedils.com/web-accessibility/">Read on Carrie Dils&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Designing for the Web: Are There Colors You Should Avoid?]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/designing-for-the-web-are-there-colors-you-should-avoid/"/>
-				<updated>2016-04-21T10:47:35-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/designing-for-the-web-are-there-colors-you-should-avoid</id>
-				<content type="html"><![CDATA[<p>You betcha. Some great advice here!</p>
-<p><a rel="full-article" href="http://designshack.net/articles/ux-design/designing-for-the-web-are-there-colors-you-should-avoid/">Read on Design Shack&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[A Stronger Visual Cue for Text Fields]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/a-stronger-visual-cue-for-text-fields/"/>
-				<updated>2016-04-21T10:46:23-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/a-stronger-visual-cue-for-text-fields</id>
-				<content type="html"><![CDATA[<p>Simple recommendations for more obvious form fields.</p>
-<p><a rel="full-article" href="http://uxmovement.com/forms/a-stronger-visual-cue-for-text-fields/">Read on UX Movement&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Deque’s Code Library]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/library/"/>
-				<updated>2016-04-21T10:42:02-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/library</id>
-				<content type="html"><![CDATA[<p>This is an excellent collection of accessible widgets. You can learn a lot from this code.</p>
-<p><a rel="full-article" href="https://dequeuniversity.com/library/">Read on Deque University&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[How Letterspacing Can Make All Caps Easier to Read]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/how-letterspacing-can-make-all-caps-easier-to-read/"/>
-				<updated>2016-04-21T10:31:16-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/how-letterspacing-can-make-all-caps-easier-to-read</id>
-				<content type="html"><![CDATA[<p>“All caps” text gets abused pretty regularly. This article gets into the details of why proper letter spacing is crucial for the legibility of text in all caps.</p>
-<p><a rel="full-article" href="http://uxmovement.com/content/how-letterspacing-can-make-all-caps-easier-to-read/">Read on UX Movement&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Building a More Accessible Web Platform]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/building-a-more-accessible-web-platform/"/>
-				<updated>2016-04-20T13:12:49-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/building-a-more-accessible-web-platform</id>
-				<content type="html"><![CDATA[<p>I’m so incredibly excited about this! Highlights:</p>
-
-<ul>
-  <li>The accessibility tree is no longer a subtree of the DOM;</li>
-  <li>ARIA Landmarks and document structure navigation;</li>
-  <li>Proper computing of accessible name &amp; description;</li>
-  <li>Improved error validity states;</li>
-  <li>Accessible <code>datalist</code>, improved <code>select</code>, and improvements to all list type elements;</li>
-  <li>Keyboard controls for the number field;</li>
-  <li>Accessible <code>input[type=color]</code>;</li>
-  <li>Improved high contrast mode (no more removing background images, instead, the image stays and a solid color is placed behind the text);</li>
-  <li>Speech synthesis API;</li>
-  <li>An improved caret on Windows Phone when using an external keyboard; and</li>
-  <li>So much more.</li>
-</ul>
-
-<p>Couple this with the F12 dev tools enhancements and Narrator’s Developer Mode and it’s pretty clear how committed Microsoft is to accessibility. I’m so glad I work here!</p>
-<p><a rel="full-article" href="https://blogs.windows.com/msedgedev/2016/04/20/building-a-more-accessible-web-platform/">Read on Microsoft Edge Dev Blog&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
