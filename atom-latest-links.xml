@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2016-05-05T14:09:41-04:00</updated>
+	<updated>2016-05-06T11:52:54-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Service Workers and PWAs: It’s About Reliable Performance, Not “Offline”]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/service-workers-and-pwas-its-about-reliable-performance-not-offline/"/>
+				<updated>2016-05-05T15:06:53-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/service-workers-and-pwas-its-about-reliable-performance-not-offline</id>
+				<content type="html"><![CDATA[<p>This is a great post of Alex on why Service Workers trump AppCache when it comes to creating a good user experience.</p>
+<p><a rel="full-article" href="https://infrequently.org/2016/05/service-workers-and-pwas-its-about-reliable-performance-not-offline/">Read on Infrequently Noted&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -238,17 +249,6 @@
 
 <p>See also: <a href="https://24ways.org/2012/responsive-responsive-design/">Tim Kadlec’s 2012 post on <cite>24 Ways</cite></a>.</p>
 <p><a rel="full-article" href="https://peterchamberlin.com/fast.php">Read on Peter Chamberlin&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[GitHub’s CSP Journey]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/githubs-csp-journey/"/>
-				<updated>2016-04-22T14:50:33-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/githubs-csp-journey</id>
-				<content type="html"><![CDATA[<p>An excellent in-depth analysis of GitHub’s current Content Security Policy including the issues they encountered and lessons they learned.</p>
-<p><a rel="full-article" href="http://githubengineering.com/githubs-csp-journey/">Read on GitHub Engineering&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
