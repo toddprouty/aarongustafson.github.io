@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2016-05-06T14:51:42-04:00</updated>
+	<updated>2016-05-09T12:17:14-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,17 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Danger! Testing Accessibility With Real People]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/danger-testing-accessibility-with-real-people-4515f72db648/"/>
+				<updated>2016-05-09T12:16:00-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/danger-testing-accessibility-with-real-people-4515f72db648</id>
+				<content type="html"><![CDATA[<p>An excellent rebuttal to a post from Simple Accessible that denounced ARIA’s tabbed interface guidelines.</p>
+<p><a rel="full-article" href="https://medium.com/@LeonieWatson/danger-testing-accessibility-with-real-people-4515f72db648#.idn50wh2o">Read on Medium&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -228,27 +239,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/the-web-isn-t-uniform-fd67eb631501</id>
 				<content type="html"><![CDATA[<p>This is an amazing post from Karolina Szczur concerning who we build for. You should read it.</p>
 <p><a rel="full-article" href="https://medium.com/@fox/the-web-isn-t-uniform-fd67eb631501#.yhcz5c3k6">Read on Medium&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[Performance Is a Feature]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/performance-is-a-feature/"/>
-				<updated>2016-04-22T14:55:39-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/performance-is-a-feature</id>
-				<content type="html"><![CDATA[<p>Excellent post on the importance of web page performance:</p>
-
-<blockquote>
-  <p>Performance isn’t a technical niggle that “we should get around to fixing”. It is an opportunity to grow your audience, to grow your business, to convert more sales (or whatever it is eCommerce people do).</p>
-</blockquote>
-
-<blockquote>
-  <p>Performance is an opportunity, and a risk, the same way that a redesigned template is. Or a new logo. Or a change to the colour of a button CTA.</p>
-</blockquote>
-
-<p>See also: <a href="https://24ways.org/2012/responsive-responsive-design/">Tim Kadlec’s 2012 post on <cite>24 Ways</cite></a>.</p>
-<p><a rel="full-article" href="https://peterchamberlin.com/fast.php">Read on Peter Chamberlin&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
