@@ -621,6 +621,9 @@ img[style] {
   max-width: 100% !important;
   height: auto !important;
 }
+img[width] {
+  width: auto;
+}
 
 picture {
   display: block;
@@ -639,6 +642,8 @@ picture {
 
 figure {
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 figcaption {
@@ -1704,6 +1709,9 @@ html.wf-active .promo a:active {
     width: 100%;
   }
 }
+ /*------------------------------------*\
+    Buttons
+\*------------------------------------*/
 /*------------------------------------*\
     $PAGES
 	Page-specific styles
@@ -2074,6 +2082,9 @@ html.wf-active .promo a:active {
 \*------------------------------------*/
 /*------------------------------------*\
     Search
+\*------------------------------------*/
+ /*------------------------------------*\
+    Buttons
 \*------------------------------------*/
 /*------------------------------------*\
     $PAGES
