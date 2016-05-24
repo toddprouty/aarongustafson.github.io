@@ -3,7 +3,7 @@
 	<title><![CDATA[Aaron Gustafson - Latest Links]]></title>
 	<link href="https://www.aaron-gustafson.com/atom-latest-links.xml" rel="self"/>
 	<link href="https://www.aaron-gustafson.com/"/>
-	<updated>2016-05-18T12:56:57-04:00</updated>
+	<updated>2016-05-24T11:10:13-04:00</updated>
 	<id>https://www.aaron-gustafson.com/</id>
 	<author>
 		<name><![CDATA[Aaron Gustafson]]></name>
@@ -11,6 +11,97 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Must-have]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/must-have/"/>
+				<updated>2016-05-24T10:25:25-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/must-have</id>
+				<content type="html"><![CDATA[<p><img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.commitstrip.com/wp-content/uploads/2016/05/Strip-Faire-payer-la-formation-650-finalenglish-1.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" srcset="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.commitstrip.com/wp-content/uploads/2016/05/Strip-Faire-payer-la-formation-650-finalenglish-1.jpg&amp;resize_w=1920&amp;container=focus&amp;refresh=2592000 1920w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.commitstrip.com/wp-content/uploads/2016/05/Strip-Faire-payer-la-formation-650-finalenglish-1.jpg&amp;resize_w=600&amp;container=focus&amp;refresh=2592000 600w,https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.commitstrip.com/wp-content/uploads/2016/05/Strip-Faire-payer-la-formation-650-finalenglish-1.jpg&amp;resize_w=320&amp;container=focus&amp;refresh=2592000 320w" sizes="100vw" alt="" /></p>
+
+<p>For the non-visual among you…</p>
+
+<article id="comic-must-have-translated" class="script">
+
+<p class="script__stage-direction">Programmer sits at a computer with his back to a Project Manager</p>
+
+<ol class="script__dialog">
+<li class="script__item">
+<cite class="script__speaker">Programmer</cite>
+<blockquote class="script__statement">
+<p>Hmm, it’s quite a lot of work</p>
+<p>Contact form: 5 days</p>
+<p>Back-office: 8 days</p>
+</blockquote>
+</li>
+<li class="script__item">
+<cite class="script__speaker">Project Manager</cite>
+<blockquote class="script__statement">
+<p>OK, got it</p>
+</blockquote>
+</li>
+</ol>
+
+<p class="script__stage-direction">Pan out to reveal Project Lead sitting next to programmer</p>
+
+<ol class="script__dialog">
+<li class="script__item">
+<cite class="script__speaker">Project Manager</cite>
+<blockquote class="script__statement">
+<p>I’ll send the customer the quote and I’ll let you know what happens</p>
+</blockquote>
+</li>
+<li class="script__item">
+<cite class="script__speaker">Programmer</cite>
+<blockquote class="script__statement">
+<p>OK, great</p>
+</blockquote>
+</li>
+</ol>
+
+<p class="script__stage-direction">Zoom in on the Project Lead and Programmer</p>
+
+<ol class="script__dialog">
+<li class="script__item">
+<cite class="script__speaker">Project Lead</cite>
+<blockquote class="script__statement">
+<p>5 man-days for a contact form?? Are You kidding??</p>
+<p>It’s half a day at the very most</p>
+</blockquote>
+</li>
+<li class="script__item">
+<cite class="script__speaker">Programmer <em class="script__speaker__description">(looking smug)</em></cite>
+<blockquote class="script__statement">
+<p>You’re right…</p>
+<p>…But you’re forgetting the 4.5 days to test the new must-have framework</p>
+</blockquote>
+</li>
+<li class="script__item">
+<cite class="script__speaker">Project Lead <em class="script__speaker__description">(smiling)</em></cite>
+<blockquote class="script__statement">
+<p>Ha! Someone has to pay for it…</p>
+</blockquote>
+</li>
+</ol>
+
+</article>
+
+<p>Sadly, this is so true.</p>
+<p><a rel="full-article" href="http://www.commitstrip.com/en/2016/05/03/must-have/">Read on CommitStrip&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
+	
+		
+			<entry>
+				<title type="html"><![CDATA[Text for Screen Readers Only (Updated)]]></title>
+				<link href="https://www.aaron-gustafson.com/notebook/links/text-for-screen-readers-only-updated/"/>
+				<updated>2016-05-24T10:21:34-04:00</updated>
+				<id>https://www.aaron-gustafson.com/notebook/links/text-for-screen-readers-only-updated</id>
+				<content type="html"><![CDATA[<p>This post includes a few excellent ways to add context for “headless” UIs. I use quite a few of these approaches on this very site and they’ve proven quite useful.</p>
+<p><a rel="full-article" href="http://www.coolfields.co.uk/2016/05/text-for-screen-readers-only-updated/">Read on Coolfields Consulting&nbsp;&rarr;</a></p>]]></content>
+			</entry>
+		
 	
 		
 			<entry>
@@ -217,28 +308,6 @@
 				<id>https://www.aaron-gustafson.com/notebook/links/you-might-not-need-a-css-framework</id>
 				<content type="html"><![CDATA[<p>I’d take it a step further: You <em>don’t</em> need a CSS framework.</p>
 <p><a rel="full-article" href="https://hacks.mozilla.org/2016/04/you-might-not-need-a-css-framework/">Read on Mozilla Hacks&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[The Average Webpage Is Now the Size of the Original Doom]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/average-webpage-now-size-original-doom/"/>
-				<updated>2016-04-25T11:18:03-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/average-webpage-now-size-original-doom</id>
-				<content type="html"><![CDATA[<p>Is all that weight worth it? Probably not. Play <cite>Doom</cite> instead.</p>
-<p><a rel="full-article" href="http://www.wired.com/2016/04/average-webpage-now-size-original-doom/">Read on Wired&nbsp;&rarr;</a></p>]]></content>
-			</entry>
-		
-	
-		
-			<entry>
-				<title type="html"><![CDATA[The Web Isn’t Uniform]]></title>
-				<link href="https://www.aaron-gustafson.com/notebook/links/the-web-isn-t-uniform-fd67eb631501/"/>
-				<updated>2016-04-25T11:15:08-04:00</updated>
-				<id>https://www.aaron-gustafson.com/notebook/links/the-web-isn-t-uniform-fd67eb631501</id>
-				<content type="html"><![CDATA[<p>This is an amazing post from Karolina Szczur concerning who we build for. You should read it.</p>
-<p><a rel="full-article" href="https://medium.com/@fox/the-web-isn-t-uniform-fd67eb631501#.yhcz5c3k6">Read on Medium&nbsp;&rarr;</a></p>]]></content>
 			</entry>
 		
 	
