@@ -393,13 +393,15 @@
         {
             is_gplus = true;
         }
-
+        
         // No need to replace
         if ( existing_webmentions.indexOf( id ) > -1 )
         {
+            console.log('skipping', id );
             return;
         }
         
+        console.log( 'adding', id );
         var $item = elements.li.cloneNode( true ),
             $mention = elements.article.cloneNode( true ),
             $author = elements.author.cloneNode( true ),
